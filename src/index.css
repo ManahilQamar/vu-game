@@ -1,0 +1,4 @@
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: #f9fafb; }
+button { font-family: inherit; cursor: pointer; }

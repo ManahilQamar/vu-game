@@ -1,27 +1,26 @@
-import React, { useState } from "react";
-import Home   from "./pages/Home";
-import Levels from "./pages/Levels";
-import Quiz   from "./pages/Quiz";
-import "./App.css";
+import React, { useState } from 'react';
+import './App.css';
+import Home from './pages/Home';
+import Levels from './pages/Levels';
+import Upload from './pages/Upload';
+import Quiz from './pages/Quiz';
 
-function App() {
-  const [page, setPage] = useState("home");
+export default function App() {
+  const [page, setPage] = useState('home');
 
-  // ── Home ──
-  if (page === "home") {
+  if (page === 'home')
     return <Home setPage={setPage} />;
+
+  if (page.startsWith('upload-')) {
+    const [, subject, idx] = page.split('-');
+    return <Upload subject={subject} lectureIndex={parseInt(idx)} setPage={setPage} />;
   }
 
-  // ── Quiz: format  "quiz-SUBJECT-INDEX" ──
-  if (page.startsWith("quiz-")) {
-    const parts        = page.split("-");
-    const subject      = parts[1];
-    const lectureIndex = parseInt(parts[2], 10);
-    return <Quiz subject={subject} lectureIndex={lectureIndex} setPage={setPage} />;
+  if (page.startsWith('quiz-')) {
+    const parts = page.split('-');
+    return <Quiz subject={parts[1]} lectureIndex={parseInt(parts[2])} setPage={setPage} />;
   }
 
-  // ── Level map: page === subject id ──
+  // subject id → levels
   return <Levels subject={page} setPage={setPage} />;
 }
-
-export default App;
