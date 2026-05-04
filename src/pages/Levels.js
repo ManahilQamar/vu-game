@@ -8,8 +8,9 @@ export default function Levels({ subject, setPage }) {
 
   useEffect(() => {
     const saved = localStorage.getItem('vu_un_' + subject);
-    if (saved) { setUnlocked(JSON.parse(saved)); }
-    else {
+    if (saved) {
+      setUnlocked(JSON.parse(saved));
+    } else {
       const def = { 0: true };
       setUnlocked(def);
       localStorage.setItem('vu_un_' + subject, JSON.stringify(def));
@@ -17,44 +18,54 @@ export default function Levels({ subject, setPage }) {
   }, [subject]);
 
   const isUnlocked = i => !!unlocked[i];
-  const hasData    = i => !!(mcqs[subject]?.[i + 1]?.questions?.length > 0);
-  const isDone     = i => isUnlocked(i) && hasData(i) && !!localStorage.getItem('vu_best_' + subject + '_' + i);
+  const hasData    = i => {
+    return mcqs[subject]?.[i + 1]?.questions?.length > 0
+      || !!localStorage.getItem('vu_ai_' + subject + '_' + i);
+  };
+  const isDone = i => isUnlocked(i) && hasData(i) && !!localStorage.getItem('vu_best_' + subject + '_' + i);
 
   const doneCount = Object.keys(unlocked).filter(k => unlocked[k]).length;
   const pct = Math.round((doneCount / sub.total) * 100);
 
-  const handleTile = idx => {
-    if (!isUnlocked(idx)) { alert('Complete the previous lecture first to unlock this one.'); return; }
-    if (!hasData(idx)) {
-      setPage('upload-' + subject + '-' + idx);
+  const handleClick = i => {
+    if (!isUnlocked(i)) {
+      alert('Complete the previous lecture first to unlock this one.');
       return;
     }
-    setPage('quiz-' + subject + '-' + idx);
+    if (!hasData(i)) {
+      setPage('upload-' + subject + '-' + i);
+      return;
+    }
+    setPage('quiz-' + subject + '-' + i);
   };
 
   return (
-    <div className="app-shell page-enter">
+    <div className="shell fade-in">
       <header className="topbar">
-        <button className="topbar-back" onClick={() => setPage('home')}>&#8592; Back</button>
-        <div className="topbar-right">{sub.id}</div>
+        <button className="topbar-back" onClick={() => setPage('home')}>
+          ← Back
+        </button>
+        <span className="topbar-info">{sub.id} — {sub.fullName}</span>
       </header>
 
       <main className="page">
-        <div className="subj-banner">
-          <div className="subj-banner-icon" style={{ background: sub.bg, color: sub.color }}>{sub.icon}</div>
-          <div className="subj-banner-info">
-            <div className="subj-banner-name">{sub.id} &mdash; {sub.fullName}</div>
-            <div className="subj-banner-full">{doneCount} of {sub.total} lectures completed</div>
-            <div className="subj-banner-prog">
+        <div className="subject-banner">
+          <div className="banner-icon" style={{ background: sub.bg, color: sub.color }}>
+            {sub.icon}
+          </div>
+          <div className="banner-text">
+            <div className="banner-name">{sub.id} — {sub.fullName}</div>
+            <div className="banner-full">{doneCount} of {sub.total} lectures completed</div>
+            <div className="banner-prog">
               <div className="prog-track">
-                <div className="prog-fill" style={{ width: pct + '%', background: sub.color }} />
+                <div className="prog-bar" style={{ width: pct + '%', background: sub.color }} />
               </div>
               <div className="prog-label">{pct}% complete</div>
             </div>
           </div>
         </div>
 
-        <div className="section-hd">Lectures</div>
+        <p className="sec-label">Lectures</p>
         <div className="lec-grid">
           {Array.from({ length: sub.total }, (_, i) => {
             const un  = isUnlocked(i);
@@ -62,24 +73,33 @@ export default function Levels({ subject, setPage }) {
             const dn  = isDone(i);
             const active = un && !dn;
 
-            let tileCls = 'lec-tile';
-            let dotCls  = 'lec-dot ';
-            let statusTxt = '';
-            let statusCls = '';
+            let tileClass = 'lec-tile';
+            let dotClass  = 'lec-dot ';
+            let badgeTxt  = '';
+            let badgeCls  = '';
 
-            if (dn)       { tileCls += ' lec-done';   dotCls += 'lec-dot-done';   statusTxt = 'Done';       statusCls = 'status-done'; }
-            else if (un && has)  { tileCls += ' lec-active'; dotCls += 'lec-dot-active'; statusTxt = 'Play';       statusCls = 'status-active'; }
-            else if (un && !has) { tileCls += ' lec-active'; dotCls += 'lec-dot-soon';   statusTxt = 'Add MCQs';   statusCls = 'status-soon'; }
-            else          { tileCls += ' lec-locked';  dotCls += 'lec-dot-lock';   statusTxt = 'Locked';     statusCls = 'status-lock'; }
+            if (dn) {
+              tileClass += ' lt-done';   dotClass += 'dot-done';
+              badgeTxt = 'Done'; badgeCls = 'badge-done';
+            } else if (un && has) {
+              tileClass += ' lt-active'; dotClass += 'dot-active';
+              badgeTxt = 'Play'; badgeCls = 'badge-play';
+            } else if (un && !has) {
+              tileClass += ' lt-soon';   dotClass += 'dot-soon';
+              badgeTxt = 'Add MCQs'; badgeCls = 'badge-soon';
+            } else {
+              tileClass += ' lt-locked'; dotClass += 'dot-locked';
+              badgeTxt = 'Locked'; badgeCls = 'badge-locked';
+            }
 
-            const lecData = mcqs[subject]?.[i + 1];
+            const title = mcqs[subject]?.[i + 1]?.title || ('Lecture ' + (i + 1));
 
             return (
-              <div key={i} className={tileCls} onClick={() => handleTile(i)}>
-                <div className={dotCls} />
+              <div key={i} className={tileClass} onClick={() => handleClick(i)}>
+                <div className={dotClass} />
                 <div className="lec-num">{i + 1}</div>
-                <div className="lec-title">{lecData?.title || 'Lecture ' + (i + 1)}</div>
-                <div className={`lec-status ${statusCls}`}>{statusTxt}</div>
+                <div className="lec-name">{title}</div>
+                <span className={`lec-badge ${badgeCls}`}>{badgeTxt}</span>
               </div>
             );
           })}
