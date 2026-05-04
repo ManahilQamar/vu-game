@@ -3,52 +3,39 @@ import subjects from '../data/subjects';
 import mcqs from '../data/mcqs';
 
 /* ─── constants ─── */
-const MAX_LIVES = 5;
-const PASS_PCT  = 70;
-const LABELS    = ['A', 'B', 'C', 'D'];
+const MAX_LIVES  = 5;
+const PASS_PCT   = 70;
+const LABELS     = ['A', 'B', 'C', 'D'];
+
+// ✅ Backend URL — Vercel par deploy hua hai
+const API_BASE = 'https://vu-game-backend.vercel.app';
 
 /* ─── helpers ─── */
 function getLectureData(subject, idx) {
   const lecNum = idx + 1;
-
-  if (mcqs[subject]?.[lecNum]?.questions?.length > 0) {
-    return mcqs[subject][lecNum];
-  }
-
+  if (mcqs[subject]?.[lecNum]?.questions?.length > 0) return mcqs[subject][lecNum];
   const stored = localStorage.getItem('vu_ai_' + subject + '_' + idx);
-
   if (!stored) return null;
-
-  try {
-    return JSON.parse(stored);
-  } catch (e) {
-    return null;
-  }
+  try { return JSON.parse(stored); } catch (e) { return null; }
 }
 
 /* ─── AI Explanation fetch ─── */
 async function fetchAIExplanation(question, subjectId) {
-  const res = await fetch("http://localhost:5000/api/explain", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+  const res = await fetch(`${API_BASE}/api/explain`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      question: question.q,
-      options: question.options,
-      answer: question.answer,
-      subjectId: subjectId
+      question:  question.q,
+      options:   question.options,
+      answer:    question.answer,
+      subjectId: subjectId,
     }),
   });
-
-  if (!res.ok) {
-    throw new Error("API error " + res.status);
-  }
-
+  if (!res.ok) throw new Error('API error ' + res.status);
   const data = await res.json();
-
   return data.explanation;
 }
+
 /* ─── Web Audio sound generator ─── */
 function useSound() {
   const ctx = useRef(null);
@@ -71,19 +58,6 @@ function useSound() {
       });
     } catch (e) {}
   };
-
-  const retry = () => {
-  setCurQ(0);
-  setLives(MAX_LIVES);
-  setScore(0);
-  setSelected(null);
-  setAnswered(false);
-  setFinished(false);
-  setUnlockNext(false);
-  setShowSparks(false);
-  setShowExplain(false);
-};
-
   const playWrong = () => {
     try {
       const ac = getCtx(); const now = ac.currentTime;
@@ -146,7 +120,6 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
   const [loading, setLoading] = useState(true);
   const [error,   setError]   = useState('');
 
-  /* fetch on mount */
   const load = useCallback(() => {
     setLoading(true);
     setError('');
@@ -176,10 +149,8 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
         maxHeight:'80vh', overflowY:'auto',
         animation:'slideUp 0.22s ease',
       }}>
-        {/* Handle bar */}
         <div style={{ width:40, height:4, background:'#e5e7eb', borderRadius:2, margin:'0 auto 18px' }} />
 
-        {/* Header */}
         <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:14 }}>
           <div style={{ display:'flex', alignItems:'center', gap:10 }}>
             <div style={{
@@ -195,7 +166,6 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
           }}>✕</button>
         </div>
 
-        {/* Question recap */}
         <div style={{
           background:'#f9fafb', border:'1px solid #e5e7eb',
           borderRadius:10, padding:'12px 14px', marginBottom:14,
@@ -204,7 +174,6 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
           {question.q}
         </div>
 
-        {/* Correct answer */}
         <div style={{ marginBottom:14 }}>
           <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.6px', textTransform:'uppercase', color:'#9ca3af', marginBottom:6 }}>
             Correct Answer
@@ -220,13 +189,11 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
           </div>
         </div>
 
-        {/* AI explanation body */}
         <div style={{ marginBottom:22 }}>
           <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.6px', textTransform:'uppercase', color:'#9ca3af', marginBottom:8 }}>
             Explanation
           </div>
 
-          {/* Loading */}
           {loading && (
             <div style={{
               background:'#eff6ff', border:'1px solid #bfdbfe',
@@ -243,7 +210,6 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
             </div>
           )}
 
-          {/* Error */}
           {error && !loading && (
             <div style={{
               background:'#fef2f2', border:'1px solid #fecaca',
@@ -261,7 +227,6 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
             </div>
           )}
 
-          {/* AI text */}
           {aiText && !loading && (
             <div style={{
               background:'#eff6ff', border:'1px solid #bfdbfe',
@@ -275,7 +240,6 @@ function ExplainModal({ question, onClose, subColor, subjectId }) {
           )}
         </div>
 
-        {/* Close */}
         <button onClick={onClose} style={{
           width:'100%', background:'#111827', color:'#fff',
           border:'none', borderRadius:12, padding:'13px',
@@ -322,8 +286,8 @@ export default function Quiz({ subject, lectureIndex, setPage }) {
   const { playCorrect, playWrong } = useSound();
 
   const finishQuiz = useCallback((finalScore, finalLives) => {
-    const pct    = (finalScore / total) * 100;
-    const passed = pct >= PASS_PCT;
+    const pct     = (finalScore / total) * 100;
+    const passed  = pct >= PASS_PCT;
     const bestKey = 'vu_best_' + subject + '_' + lectureIndex;
     const prev    = parseInt(localStorage.getItem(bestKey) || '0');
     if (finalScore > prev) localStorage.setItem(bestKey, String(finalScore));
@@ -356,21 +320,31 @@ export default function Quiz({ subject, lectureIndex, setPage }) {
     }
   };
 
- const handleNext = () => {
-  const nextQ = curQ + 1;
+  const handleNext = () => {
+    const isRight  = questions[curQ].options[selected] === questions[curQ].answer;
+    const newLives = isRight ? lives : lives - 1;
+    const newScore = isRight ? score + 1 : score;
+    const nextQ    = curQ + 1;
+    if (nextQ >= total || newLives <= 0) {
+      setScore(newScore);
+      setLives(newLives);
+      finishQuiz(newScore, newLives);
+    } else {
+      setScore(newScore);
+      setLives(newLives);
+      setCurQ(nextQ);
+      setSelected(null);
+      setAnswered(false);
+      setShowExplain(false);
+    }
+  };
 
-  const currentLives = lives;
-
-  if (nextQ >= total || currentLives <= 0) {
-    finishQuiz(score, currentLives);
-    return;
-  }
-
-  setCurQ(nextQ);
-  setSelected(null);
-  setAnswered(false);
-  setShowExplain(false);
-};
+  const retry = () => {
+    setCurQ(0); setLives(MAX_LIVES); setScore(0);
+    setSelected(null); setAnswered(false);
+    setFinished(false); setUnlockNext(false);
+    setShowSparks(false); setShowExplain(false);
+  };
 
   /* ── No data ── */
   if (!lectureData || total === 0) {
@@ -439,16 +413,13 @@ export default function Quiz({ subject, lectureIndex, setPage }) {
   }
 
   /* ── Quiz screen ── */
-  const q = questions[curQ];   
-const options = q.options || [];
-  const prog    = Math.round(((curQ + 1) / total) * 100);
-  const diff    = q.diff || 'medium';
-  const isLast  = curQ + 1 >= total;
-const normalize = (t) => t.replace(/^[ABCD]\.\s*/, '');
-
-const isRight =
-  selected !== null &&
-  normalize(q.options[selected]) === normalize(q.answer);
+  const q        = questions[curQ];
+  const options  = q.options || [];
+  const prog     = Math.round(((curQ + 1) / total) * 100);
+  const diff     = q.diff || 'medium';
+  const isLast   = curQ + 1 >= total;
+  const normalize = t => t.replace(/^[ABCD]\.\s*/, '');
+  const isRight  = selected !== null && normalize(q.options[selected]) === normalize(q.answer);
 
   const getOptClass = (idx, optStr) => {
     if (!answered) return 'opt';
@@ -461,7 +432,6 @@ const isRight =
     <div className="shell fade-in">
       <Sparks active={showSparks} />
 
-      {/* AI Explanation Modal */}
       {showExplain && (
         <ExplainModal
           question={q}
@@ -477,7 +447,6 @@ const isRight =
       </header>
 
       <main className="page">
-        {/* Progress bar + lives */}
         <div className="quiz-header">
           <div className="qh-top">
             <span className="qh-title">{lectureData.title || 'Lecture ' + (lectureIndex + 1)}</span>
@@ -496,13 +465,11 @@ const isRight =
           </div>
         </div>
 
-        {/* Question card */}
         <div className="q-card">
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
             <span className={`diff-chip chip-${diff}`}>
               {diff.charAt(0).toUpperCase() + diff.slice(1)}
             </span>
-            {/* 💡 Explain btn */}
             <button
               onClick={() => setShowExplain(true)}
               style={{
@@ -521,7 +488,6 @@ const isRight =
           <div className="q-text">{q.q}</div>
         </div>
 
-        {/* Options */}
         <div className="opts">
           {options.map((opt, i) => (
             <button
@@ -536,7 +502,6 @@ const isRight =
           ))}
         </div>
 
-        {/* Feedback + Next */}
         {answered && (
           <>
             <div className={`feedback ${isRight ? 'fb-correct' : 'fb-wrong'}`}>
