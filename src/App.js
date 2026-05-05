@@ -3,7 +3,8 @@ import './App.css';
 import Home   from './pages/Home';
 import Levels from './pages/Levels';
 import Upload from './pages/Upload';
-import Quiz   from './pages/Quiz';
+import Quiz from './components/Quiz';
+
 
 export default function App() {
   const [page, setPage] = useState('home');
