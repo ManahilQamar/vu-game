@@ -411,3 +411,236 @@ input, textarea { font-family: inherit; }
 }
 
 
+/* ================================================
+   ADD THESE STYLES TO THE END OF YOUR App.css
+   ================================================ */
+
+/* ── Lecture tile summary button ── */
+.lec-summary-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  padding: 0;
+  line-height: 1;
+}
+.lec-summary-btn:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+/* ── Summary card ── */
+.sum-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 14px;
+}
+.sum-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.sum-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+.sum-sub {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 2px;
+}
+.sum-quiz-btn {
+  margin-left: auto;
+  flex-shrink: 0;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+.sum-quiz-btn:hover { background: #1d4ed8; }
+
+.sum-loading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 14px;
+  color: #2563eb;
+}
+.sum-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 13.5px;
+  color: #dc2626;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.retry-link {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.sum-body {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  line-height: 1.7;
+}
+
+/* Blue spinner */
+.spin-blue {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2.5px solid #bfdbfe;
+  border-top-color: #2563eb;
+  animation: spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+
+/* ── Chat card ── */
+.chat-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f3f4f6;
+}
+.chat-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.chat-messages {
+  min-height: 80px;
+  max-height: 360px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding-right: 2px;
+}
+.chat-empty {
+  font-size: 13.5px;
+  color: #9ca3af;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 1.6;
+}
+
+.chat-msg { display: flex; }
+.msg-user { justify-content: flex-end; }
+.msg-ai   { justify-content: flex-start; }
+
+.msg-user-content {
+  background: #2563eb;
+  color: #fff;
+  border-radius: 16px 16px 4px 16px;
+  padding: 10px 14px;
+  font-size: 14px;
+  max-width: 80%;
+  line-height: 1.55;
+}
+.msg-ai-content {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px 16px 16px 16px;
+  padding: 12px 14px;
+  font-size: 14px;
+  max-width: 90%;
+  line-height: 1.65;
+  color: #374151;
+}
+
+/* Chat input */
+.chat-input-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+.chat-input {
+  flex: 1;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #111827;
+  resize: none;
+  outline: none;
+  line-height: 1.5;
+  transition: border-color 0.15s;
+  font-family: inherit;
+  max-height: 120px;
+  overflow-y: auto;
+}
+.chat-input:focus { border-color: #2563eb; }
+.chat-input::placeholder { color: #9ca3af; }
+.chat-input:disabled { opacity: 0.6; }
+
+.chat-send {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+.chat-send:hover:not(:disabled) { background: #1d4ed8; }
+.chat-send:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .sum-card, .chat-card { padding: 16px; }
+  .msg-user-content, .msg-ai-content { max-width: 95%; font-size: 13px; }
+  .chat-messages { max-height: 280px; }
+  .sum-quiz-btn { padding: 7px 12px; font-size: 12px; }
+}

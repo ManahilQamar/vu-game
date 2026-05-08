@@ -24,7 +24,7 @@ export default function Levels({ subject, setPage }) {
   };
   const isDone = i => isUnlocked(i) && hasData(i) && !!localStorage.getItem('vu_best_' + subject + '_' + i);
 
-  const doneCount = Object.keys(unlocked).filter(k => unlocked[k]).length;
+  const doneCount = Object.keys(unlocked).filter(k => isDone(parseInt(k))).length;
   const pct = Math.round((doneCount / sub.total) * 100);
 
   const handleClick = i => {
@@ -42,9 +42,7 @@ export default function Levels({ subject, setPage }) {
   return (
     <div className="shell fade-in">
       <header className="topbar">
-        <button className="topbar-back" onClick={() => setPage('home')}>
-          ← Back
-        </button>
+        <button className="topbar-back" onClick={() => setPage('home')}>← Back</button>
         <span className="topbar-info">{sub.id} — {sub.fullName}</span>
       </header>
 
@@ -71,7 +69,6 @@ export default function Levels({ subject, setPage }) {
             const un  = isUnlocked(i);
             const has = hasData(i);
             const dn  = isDone(i);
-            const active = un && !dn;
 
             let tileClass = 'lec-tile';
             let dotClass  = 'lec-dot ';
@@ -100,6 +97,20 @@ export default function Levels({ subject, setPage }) {
                 <div className="lec-num">{i + 1}</div>
                 <div className="lec-name">{title}</div>
                 <span className={`lec-badge ${badgeCls}`}>{badgeTxt}</span>
+
+                {/* Summary button — only show if lecture has data */}
+                {has && un && (
+                  <button
+                    className="lec-summary-btn"
+                    onClick={e => {
+                      e.stopPropagation();
+                      setPage('summary-' + subject + '-' + i);
+                    }}
+                    title="AI Summary & Chat"
+                  >
+                    📖
+                  </button>
+                )}
               </div>
             );
           })}
