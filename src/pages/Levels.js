@@ -4,34 +4,21 @@ import mcqs from '../data/mcqs';
 
 export default function Levels({ subject, setPage }) {
   const sub = subjects.find(s => s.id === subject);
-  const [unlocked, setUnlocked] = useState({});
 
-  useEffect(() => {
-    const saved = localStorage.getItem('vu_un_' + subject);
-    if (saved) {
-      setUnlocked(JSON.parse(saved));
-    } else {
-      const def = { 0: true };
-      setUnlocked(def);
-      localStorage.setItem('vu_un_' + subject, JSON.stringify(def));
-    }
-  }, [subject]);
-
-  const isUnlocked = i => !!unlocked[i];
-  const hasData    = i => {
+  const hasData = i => {
     return mcqs[subject]?.[i + 1]?.questions?.length > 0
       || !!localStorage.getItem('vu_ai_' + subject + '_' + i);
   };
-  const isDone = i => isUnlocked(i) && hasData(i) && !!localStorage.getItem('vu_best_' + subject + '_' + i);
 
-  const doneCount = Object.keys(unlocked).filter(k => isDone(parseInt(k))).length;
+  const isDone = i => {
+    return hasData(i) && !!localStorage.getItem('vu_best_' + subject + '_' + i);
+  };
+
+  const doneCount = Array.from({ length: sub.total }, (_, i) => i)
+    .filter(i => isDone(i)).length;
   const pct = Math.round((doneCount / sub.total) * 100);
 
   const handleClick = i => {
-    if (!isUnlocked(i)) {
-      alert('Complete the previous lecture first to unlock this one.');
-      return;
-    }
     if (!hasData(i)) {
       setPage('upload-' + subject + '-' + i);
       return;
@@ -66,7 +53,6 @@ export default function Levels({ subject, setPage }) {
         <p className="sec-label">Lectures</p>
         <div className="lec-grid">
           {Array.from({ length: sub.total }, (_, i) => {
-            const un  = isUnlocked(i);
             const has = hasData(i);
             const dn  = isDone(i);
 
@@ -78,28 +64,30 @@ export default function Levels({ subject, setPage }) {
             if (dn) {
               tileClass += ' lt-done';   dotClass += 'dot-done';
               badgeTxt = 'Done'; badgeCls = 'badge-done';
-            } else if (un && has) {
+            } else if (has) {
               tileClass += ' lt-active'; dotClass += 'dot-active';
               badgeTxt = 'Play'; badgeCls = 'badge-play';
-            } else if (un && !has) {
-              tileClass += ' lt-soon';   dotClass += 'dot-soon';
-              badgeTxt = 'Add MCQs'; badgeCls = 'badge-soon';
             } else {
-              tileClass += ' lt-locked'; dotClass += 'dot-locked';
-              badgeTxt = 'Locked'; badgeCls = 'badge-locked';
+              tileClass += ' lt-soon';   dotClass += 'dot-soon';
+              badgeTxt = 'Soon'; badgeCls = 'badge-soon';
             }
 
             const title = mcqs[subject]?.[i + 1]?.title || ('Lecture ' + (i + 1));
 
             return (
-              <div key={i} className={tileClass} onClick={() => handleClick(i)}>
+              <div
+                key={i}
+                className={tileClass}
+                onClick={() => handleClick(i)}
+                style={{ cursor: has ? 'pointer' : 'default' }}
+              >
                 <div className={dotClass} />
                 <div className="lec-num">{i + 1}</div>
                 <div className="lec-name">{title}</div>
                 <span className={`lec-badge ${badgeCls}`}>{badgeTxt}</span>
 
-                {/* Summary button — only show if lecture has data */}
-                {has && un && (
+                {/* Summary button — only if data exists */}
+                {has && (
                   <button
                     className="lec-summary-btn"
                     onClick={e => {

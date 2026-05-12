@@ -12,33 +12,31 @@ function getLectureData(subject, idx) {
   try { return JSON.parse(stored); } catch (e) { return null; }
 }
 
-/* ── Markdown renderer — handles **bold** and bullet points ── */
+/* ── Markdown renderer ── */
 function renderMarkdown(text) {
   const lines = text.split('\n');
   return lines.map((line, i) => {
     if (!line.trim()) return <div key={i} style={{ height: 6 }} />;
 
-    // Bold headings **text:**
     const parts = line.split(/(\*\*[^*]+\*\*)/g);
     const rendered = parts.map((part, j) => {
-      if (part.startsWith('**') && part.endsWith('**')) {
+      if (part.startsWith('**') && part.endsWith('**'))
         return <strong key={j}>{part.slice(2, -2)}</strong>;
-      }
       return part;
     });
 
-    // Bullet points
     if (line.trim().startsWith('- ') || line.trim().startsWith('• ')) {
       return (
-        <div key={i} style={{ display: 'flex', gap: 8, marginBottom: 4, paddingLeft: 4 }}>
-          <span style={{ color: '#2563eb', fontWeight: 700, flexShrink: 0, marginTop: 1 }}>•</span>
-          <span style={{ fontSize: 14, color: '#374151', lineHeight: 1.6 }}>{rendered.map(r => typeof r === 'string' ? r.replace(/^[-•]\s*/, '') : r)}</span>
+        <div key={i} style={{ display:'flex', gap:8, marginBottom:4, paddingLeft:4 }}>
+          <span style={{ color:'#2563eb', fontWeight:700, flexShrink:0, marginTop:1 }}>•</span>
+          <span style={{ fontSize:14, color:'#374151', lineHeight:1.6 }}>
+            {rendered.map(r => typeof r === 'string' ? r.replace(/^[-•]\s*/, '') : r)}
+          </span>
         </div>
       );
     }
-
     return (
-      <div key={i} style={{ fontSize: 14, color: '#374151', lineHeight: 1.65, marginBottom: 4 }}>
+      <div key={i} style={{ fontSize:14, color:'#374151', lineHeight:1.65, marginBottom:4 }}>
         {rendered}
       </div>
     );
@@ -50,8 +48,11 @@ export default function Summary({ subject, lectureIndex, setPage }) {
   const lectureData = getLectureData(subject, lectureIndex);
   const questions   = lectureData?.questions || [];
 
-  const [summary,     setSummary]     = useState('');
-  const [sumLoading,  setSumLoading]  = useState(true);
+  // Check if hardcoded summary exists
+  const hardcodedSummary = lectureData?.summary || null;
+
+  const [summary,     setSummary]     = useState(hardcodedSummary || '');
+  const [sumLoading,  setSumLoading]  = useState(!hardcodedSummary);
   const [sumError,    setSumError]    = useState('');
 
   const [messages,    setMessages]    = useState([]);
@@ -61,8 +62,9 @@ export default function Summary({ subject, lectureIndex, setPage }) {
 
   const chatEndRef = useRef(null);
 
-  // Auto-fetch summary on mount
+  // Only fetch from AI if no hardcoded summary
   const loadSummary = useCallback(async () => {
+    if (hardcodedSummary) return; // already set, skip API
     setSumLoading(true);
     setSumError('');
     try {
@@ -84,7 +86,7 @@ export default function Summary({ subject, lectureIndex, setPage }) {
     } finally {
       setSumLoading(false);
     }
-  }, [subject, lectureIndex, lectureData, questions]);
+  }, [subject, lectureIndex, lectureData, questions, hardcodedSummary]);
 
   useEffect(() => { loadSummary(); }, [loadSummary]);
   useEffect(() => { chatEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages]);
@@ -156,13 +158,16 @@ export default function Summary({ subject, lectureIndex, setPage }) {
         {/* ── Summary Section ── */}
         <div className="sum-card">
           <div className="sum-header">
-            <span style={{ fontSize: 18 }}>📖</span>
+            <span style={{ fontSize:18 }}>📖</span>
             <div>
               <div className="sum-title">Lecture Summary</div>
               <div className="sum-sub">{lectureData.title || `Lecture ${lectureIndex + 1}`}</div>
             </div>
             {!sumLoading && !sumError && (
-              <button className="sum-quiz-btn" onClick={() => setPage('quiz-' + subject + '-' + lectureIndex)}>
+              <button
+                className="sum-quiz-btn"
+                onClick={() => setPage('quiz-' + subject + '-' + lectureIndex)}
+              >
                 Start Quiz →
               </button>
             )}
@@ -189,17 +194,17 @@ export default function Summary({ subject, lectureIndex, setPage }) {
           )}
         </div>
 
-        {/* ── Chat Section ── */}
+        {/* ── AI Chat Section ── */}
         <div className="chat-card">
           <div className="chat-header">
-            <span style={{ fontSize: 18 }}>🤖</span>
+            <span style={{ fontSize:18 }}>🤖</span>
             <div className="chat-title">Ask AI about this Lecture</div>
           </div>
 
           <div className="chat-messages">
             {messages.length === 0 && (
               <div className="chat-empty">
-                Ask anything about this lecture — AI will answer based on the MCQs and concepts covered.
+                Ask anything about this lecture — AI will answer based on the concepts covered.
               </div>
             )}
 
@@ -214,15 +219,15 @@ export default function Summary({ subject, lectureIndex, setPage }) {
 
             {chatLoading && (
               <div className="chat-msg msg-ai">
-                <div className="msg-ai-content" style={{ display: 'flex', alignItems: 'center', gap: 10, color: '#6b7280' }}>
-                  <div className="spin-blue" style={{ width: 16, height: 16 }} />
+                <div className="msg-ai-content" style={{ display:'flex', alignItems:'center', gap:10, color:'#6b7280' }}>
+                  <div className="spin-blue" style={{ width:16, height:16 }} />
                   Thinking...
                 </div>
               </div>
             )}
 
             {chatError && (
-              <div style={{ fontSize: 13, color: '#dc2626', padding: '8px 0' }}>⚠ {chatError}</div>
+              <div style={{ fontSize:13, color:'#dc2626', padding:'8px 0' }}>⚠ {chatError}</div>
             )}
 
             <div ref={chatEndRef} />
@@ -246,7 +251,7 @@ export default function Summary({ subject, lectureIndex, setPage }) {
               ↑
             </button>
           </div>
-          <div style={{ fontSize: 11, color: '#9ca3af', marginTop: 6, textAlign: 'center' }}>
+          <div style={{ fontSize:11, color:'#9ca3af', marginTop:6, textAlign:'center' }}>
             Press Enter to send
           </div>
         </div>
