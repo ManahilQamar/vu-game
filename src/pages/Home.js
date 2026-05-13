@@ -38,22 +38,31 @@ export default function Home({ setPage }) {
           </p>
         </div>
 
-        <div className="stats-row">
-          <div className="stat-box">
-            <div className="stat-num">{subjects.length}</div>
-            <div className="stat-lbl">Subjects</div>
+        {/* Stats row + Past Papers button in same row */}
+        <div className="stats-papers-row">
+          <div className="stats-row-inner">
+            <div className="stat-box">
+              <div className="stat-num">{subjects.length}</div>
+              <div className="stat-lbl">Subjects</div>
+            </div>
+            <div className="stat-box">
+              <div className="stat-num">{totalDone}</div>
+              <div className="stat-lbl">Done</div>
+            </div>
+            <div className="stat-box">
+              <div className="stat-num">{totalLec}</div>
+              <div className="stat-lbl">Lectures</div>
+            </div>
           </div>
-          <div className="stat-box">
-            <div className="stat-num">{totalDone}</div>
-            <div className="stat-lbl">Done</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-num">{totalLec}</div>
-            <div className="stat-lbl">Lectures</div>
-          </div>
+
+          {/* Small Past Papers button */}
+          <button className="papers-btn-sm" onClick={() => setPage('papers')}>
+            <span>📄</span>
+            <span>Past Papers</span>
+          </button>
         </div>
 
-        <p className="sec-label">Subjects</p>
+        <p className="sec-label" style={{ marginTop: 24 }}>Subjects</p>
         <div className="subj-list">
           {subjects.map(sub => {
             const { done, total } = getProgress(sub.id);

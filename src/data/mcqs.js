@@ -2282,8 +2282,845 @@ Used when x is the dependent variable. If each horizontal line crosses the graph
       },
     ],
   },
+  
+  // lecture 9 //
 
-  },  // end MTH101
+
+  // ─────────────────────────────────────────
+//  MTH101
+// ─────────────────────────────────────────
+  9: {
+    title: 'Limits',
+    summary: `**Key Topics Covered:**
+- Introduction to Limits
+- Tangent lines using limits
+- Area problem and approximation
+- Right-hand & Left-hand limits
+- Existence of limits (DNE cases)
+- Limits at infinity
+
+**Simple Understanding (Easy Urdu + English):**
+
+**Limits kya hota hai?**
+Limit ka matlab hai kisi function ke behavior ko study karna jab x kisi value ke "bohat qareeb" jata hai (exact equal nahi hota).
+
+**Calculus ke 2 main parts:**
+- Differential Calculus → Tangent lines (slopes)
+- Integral Calculus → Area under curve
+
+Dono ka base concept = LIMIT
+
+**Tangent Line (Simple Idea):**
+- Pehle secant line (2 points P & Q)
+- Jab Q → P ke qareeb aata hai
+- Secant line → ek final position leti hai
+👉 Ye final line = Tangent line
+
+**Area Problem (Important):**
+- Irregular shapes ka exact area directly nahi milta
+- Rectangles use karke approx karte hain
+- Jitne zyada rectangles → utna accurate result
+👉 Final exact area = LIMIT
+
+**Right & Left Hand Limit:**
+- Right hand limit: x → a⁺ (right side se approach)
+- Left hand limit: x → a⁻ (left side se approach)
+- Agar dono equal ho → LIMIT EXIST karti hai
+
+**Important Example:**
+lim (sin x / x) as x → 0 = 1  
+(x ≠ 0 but close to 0)
+
+**When Limit DOES NOT EXIST (DNE):**
+1. Oscillation (upar neeche jump karta rahe)
+2. Unbounded (∞ ya -∞ ki taraf chala jaye)
+3. Left & Right equal na ho
+
+**Infinity Concept:**
++∞ ya -∞ number nahi hota, sirf behavior show karta hai
+
+**Limits at Infinity:**
+- x → ∞ means x bohat bara hota jata hai
+- Sirf ek side se approach hota hai
+
+**Quick Revision Points:**
+- Limit = behavior near a point
+- Tangent = secant ka limiting position
+- Area = rectangles ka limit
+- LHL = RHL → limit exists
+- Oscillation / ∞ → DNE
+- ∞ is NOT a number
+- lim (sin x / x) = 1 (important)`,
+    
+    questions: [
+      {
+        q: 'Calculus was mainly developed to solve which two problems?',
+        options: ['A. Graphing and equations', 'B. Area and tangent lines', 'C. Numbers and sets', 'D. Algebra and geometry'],
+        answer: 'B. Area and tangent lines',
+        diff: 'easy',
+      },
+      {
+        q: 'Differential Calculus is mainly related to:',
+        options: ['A. Area under curve', 'B. Tangent lines', 'C. Probability', 'D. Matrices'],
+        answer: 'B. Tangent lines',
+        diff: 'easy',
+      },
+      {
+        q: 'Integral Calculus is mainly used to find:',
+        options: ['A. Slopes', 'B. Tangents', 'C. Area', 'D. Limits'],
+        answer: 'C. Area',
+        diff: 'easy',
+      },
+      {
+        q: 'A secant line is formed by:',
+        options: ['A. One point', 'B. Two points on curve', 'C. Infinite points', 'D. No points'],
+        answer: 'B. Two points on curve',
+        diff: 'medium',
+      },
+      {
+        q: 'A tangent line is obtained when:',
+        options: ['A. Two points are far apart', 'B. Secant rotates infinitely', 'C. Second point approaches the first point', 'D. Curve becomes straight'],
+        answer: 'C. Second point approaches the first point',
+        diff: 'medium',
+      },
+      {
+        q: 'Limit describes the behavior of a function when x:',
+        options: ['A. Equals a value', 'B. Is zero', 'C. Approaches a value', 'D. Is negative'],
+        answer: 'C. Approaches a value',
+        diff: 'easy',
+      },
+      {
+        q: 'Right-hand limit is represented as:',
+        options: ['A. x → a⁻', 'B. x → a⁺', 'C. x = a', 'D. x → ∞'],
+        answer: 'B. x → a⁺',
+        diff: 'medium',
+      },
+      {
+        q: 'Left-hand limit is represented as:',
+        options: ['A. x → a⁺', 'B. x = a', 'C. x → a⁻', 'D. x → ∞'],
+        answer: 'C. x → a⁻',
+        diff: 'medium',
+      },
+      {
+        q: 'A limit exists if:',
+        options: ['A. Function is zero', 'B. LHL ≠ RHL', 'C. LHL = RHL', 'D. x = 0'],
+        answer: 'C. LHL = RHL',
+        diff: 'easy',
+      },
+      {
+        q: 'The value of lim (sin x / x) as x → 0 is:',
+        options: ['A. 0', 'B. 1', 'C. ∞', 'D. -1'],
+        answer: 'B. 1',
+        diff: 'medium',
+      },
+      {
+        q: 'Which of the following causes limit to NOT exist?',
+        options: ['A. Constant function', 'B. Smooth curve', 'C. Oscillation', 'D. Linear graph'],
+        answer: 'C. Oscillation',
+        diff: 'medium',
+      },
+      {
+        q: 'If a function increases without bound, the limit is:',
+        options: ['A. 0', 'B. 1', 'C. +∞', 'D. Undefined'],
+        answer: 'C. +∞',
+        diff: 'medium',
+      },
+      {
+        q: 'Infinity (∞) is:',
+        options: ['A. A real number', 'B. A rational number', 'C. Not a number', 'D. Integer'],
+        answer: 'C. Not a number',
+        diff: 'easy',
+      },
+      {
+        q: 'If left-hand and right-hand limits are different, then:',
+        options: ['A. Limit exists', 'B. Limit = 0', 'C. Limit does not exist', 'D. Limit = ∞'],
+        answer: 'C. Limit does not exist',
+        diff: 'easy',
+      },
+      {
+        q: 'Limits at infinity are taken:',
+        options: ['A. From both sides', 'B. Only from one side', 'C. From left only', 'D. From right only'],
+        answer: 'B. Only from one side',
+        diff: 'hard',
+      },
+      {
+        q: 'Area under a curve is found using:',
+        options: ['A. Circles', 'B. Triangles only', 'C. Rectangles approximation', 'D. Lines'],
+        answer: 'C. Rectangles approximation',
+        diff: 'medium',
+      },
+      {
+        q: 'Better approximation of area is achieved when:',
+        options: ['A. Fewer rectangles', 'B. Larger rectangles', 'C. More rectangles', 'D. No rectangles'],
+        answer: 'C. More rectangles',
+        diff: 'easy',
+      },
+      {
+        q: 'Oscillating functions usually:',
+        options: ['A. Have limits', 'B. Approach infinity', 'C. Do not have limits', 'D. Become zero'],
+        answer: 'C. Do not have limits',
+        diff: 'hard',
+      },
+    ],
+  },
+
+  10: {
+    title: 'Limits and Computational Techniques',
+    summary: `**Key Topics Covered:**
+- Algebraic techniques for limits
+- Limit laws (Theorem 2.5.1)
+- Limits of polynomials
+- Limits involving 1/x
+- Limits at infinity
+- Rational functions limits
+
+**Simple Understanding (Easy Urdu + English):**
+
+**Is lecture ka focus:**
+Pehle lecture mein graph se limits dekhi thi  
+👉 Ab hum algebra (math rules) use karke limits nikaalenge
+
+**Basic Idea:**
+Agar limit exist karti hai → LHL = RHL  
+Is lecture mein assume kiya gaya hai ke limit exist karti hai
+
+---
+
+**IMPORTANT THEOREM (Limit Laws):**
+Agar limits exist karti hain:
+
+- Sum Rule:  
+  lim(f + g) = lim f + lim g  
+
+- Difference Rule:  
+  lim(f - g) = lim f - lim g  
+
+- Product Rule:  
+  lim(f × g) = lim f × lim g  
+
+- Quotient Rule:  
+  lim(f / g) = lim f / lim g  (jab denominator ≠ 0)
+
+👉 Simple yaad rakho:  
+**“Limit andar distribute ho jata hai”**
+
+---
+
+**Power Rule:**
+lim [f(x)]ⁿ = [lim f(x)]ⁿ  
+
+---
+
+**Constant Rule:**
+lim (k·f(x)) = k · lim f(x)
+
+---
+
+**Limits of Polynomials:**
+👉 Direct value put kar do (substitution)
+
+Example:  
+lim (x² - 4x + 3) at x=5  
+= 25 - 20 + 3 = 8
+
+---
+
+**Important Function: 1/x**
+- x → 0⁺ → +∞  
+- x → 0⁻ → -∞  
+- x → ±∞ → 0  
+
+👉 Bohat important MCQ concept
+
+---
+
+**Limits at Infinity (Polynomials):**
+👉 Sirf highest power matter karti hai
+
+- Even power → +∞ both sides  
+- Odd power → sign depend karta hai
+
+---
+
+**Rational Functions (fractions):**
+
+Case 1: Direct substitution possible → use karo  
+
+Case 2: 0/0 form → factor & cancel  
+
+Case 3: denominator → 0, numerator ≠ 0  
+👉 Result = ±∞ (sign check karo)
+
+---
+
+**Limits at Infinity (Rational Functions):**
+👉 Degree compare karo:
+
+- Top degree < Bottom → 0  
+- Top = Bottom → coefficients ka ratio  
+- Top > Bottom → ±∞  
+
+---
+
+**Quick Revision Points:**
+- Limit laws = distribute rules  
+- Polynomial → direct substitute  
+- 1/x near 0 → ±∞  
+- 0/0 → factor & cancel  
+- Degree rule (rational functions)  
+- Highest power dominates at infinity`,
+    
+    questions: [
+      {
+        q: 'This lecture mainly focuses on:',
+        options: ['A. Graphs of limits', 'B. Algebraic techniques of limits', 'C. Geometry', 'D. Trigonometry'],
+        answer: 'B. Algebraic techniques of limits',
+        diff: 'easy',
+      },
+      {
+        q: 'According to limit laws, lim(f + g) equals:',
+        options: ['A. lim f × lim g', 'B. lim f + lim g', 'C. lim f - lim g', 'D. None'],
+        answer: 'B. lim f + lim g',
+        diff: 'easy',
+      },
+      {
+        q: 'lim (k·f(x)) is equal to:',
+        options: ['A. k + lim f(x)', 'B. k × lim f(x)', 'C. lim f(x)/k', 'D. k²'],
+        answer: 'B. k × lim f(x)',
+        diff: 'easy',
+      },
+      {
+        q: 'For polynomials, limit is found by:',
+        options: ['A. Factoring', 'B. Graphing', 'C. Direct substitution', 'D. Differentiation'],
+        answer: 'C. Direct substitution',
+        diff: 'easy',
+      },
+      {
+        q: 'lim (x² - 4x + 3) at x = 5 equals:',
+        options: ['A. 0', 'B. 5', 'C. 8', 'D. 10'],
+        answer: 'C. 8',
+        diff: 'medium',
+      },
+      {
+        q: 'As x → 0⁺, 1/x approaches:',
+        options: ['A. 0', 'B. +∞', 'C. -∞', 'D. 1'],
+        answer: 'B. +∞',
+        diff: 'medium',
+      },
+      {
+        q: 'As x → 0⁻, 1/x approaches:',
+        options: ['A. +∞', 'B. 0', 'C. -∞', 'D. 1'],
+        answer: 'C. -∞',
+        diff: 'medium',
+      },
+      {
+        q: 'If lim f(x) exists, then:',
+        options: ['A. LHL ≠ RHL', 'B. LHL = RHL', 'C. f(x)=0', 'D. x=0'],
+        answer: 'B. LHL = RHL',
+        diff: 'easy',
+      },
+      {
+        q: 'If numerator and denominator both become 0, then:',
+        options: ['A. Limit = 0', 'B. Limit undefined always', 'C. Factor and simplify', 'D. Ignore'],
+        answer: 'C. Factor and simplify',
+        diff: 'medium',
+      },
+      {
+        q: 'If denominator → 0 but numerator ≠ 0, limit becomes:',
+        options: ['A. 0', 'B. 1', 'C. ±∞', 'D. Undefined'],
+        answer: 'C. ±∞',
+        diff: 'medium',
+      },
+      {
+        q: 'If degree of numerator < denominator (at infinity), limit is:',
+        options: ['A. ∞', 'B. 1', 'C. 0', 'D. Undefined'],
+        answer: 'C. 0',
+        diff: 'hard',
+      },
+      {
+        q: 'If degree of numerator = denominator, limit is:',
+        options: ['A. 0', 'B. Ratio of coefficients', 'C. ∞', 'D. Undefined'],
+        answer: 'B. Ratio of coefficients',
+        diff: 'hard',
+      },
+      {
+        q: 'If degree of numerator > denominator, limit is:',
+        options: ['A. 0', 'B. 1', 'C. ±∞', 'D. Constant'],
+        answer: 'C. ±∞',
+        diff: 'hard',
+      },
+      {
+        q: 'Highest power of x determines behavior at:',
+        options: ['A. x = 0', 'B. x = 1', 'C. Infinity', 'D. Negative values'],
+        answer: 'C. Infinity',
+        diff: 'medium',
+      },
+      {
+        q: 'lim [f(x)]ⁿ equals:',
+        options: ['A. lim f(x)', 'B. [lim f(x)]ⁿ', 'C. n·f(x)', 'D. None'],
+        answer: 'B. [lim f(x)]ⁿ',
+        diff: 'medium',
+      },
+      {
+        q: 'Which case gives 0/0 form?',
+        options: ['A. Only numerator zero', 'B. Only denominator zero', 'C. Both zero', 'D. None'],
+        answer: 'C. Both zero',
+        diff: 'easy',
+      },
+      {
+        q: 'At infinity, polynomial behavior depends on:',
+        options: ['A. Constant term', 'B. Lowest power', 'C. Highest power', 'D. Middle term'],
+        answer: 'C. Highest power',
+        diff: 'easy',
+      },
+      {
+        q: 'If x → ±∞, 1/x approaches:',
+        options: ['A. ∞', 'B. -∞', 'C. 1', 'D. 0'],
+        answer: 'D. 0',
+        diff: 'easy',
+      },
+    ],
+  },
+  
+  /// lecture 11 //
+  11: {
+    title: 'Limits: A Rigorous Approach',
+    summary: `**Key Topics Covered:**
+- Formal definition of limits
+- ε (epsilon) and δ (delta) concept
+- Left-hand & Right-hand limits
+- Proving limits using definition
+- When limit does not exist
+
+---
+
+**Simple Understanding (Easy Urdu + English):**
+
+**Is lecture ka main idea:**
+Pehle hum limit ko "feel" kar rahe thay  
+👉 Ab hum usko **proper mathematical definition** se define karte hain
+
+---
+
+**Basic Idea (Informal):**
+lim f(x) = L  
+👉 Jab x → a hota hai, to f(x) → L hota hai
+
+---
+
+**Formal Definition (IMPORTANT):**
+
+👉 For every ε > 0  
+👉 There exists δ > 0  
+
+Such that:
+
+0 < |x - a| < δ  ⇒  |f(x) - L| < ε  
+
+---
+
+**Simple Meaning (Easy Language):**
+- ε → batata hai f(x) L ke kitna close ho  
+- δ → batata hai x a ke kitna close ho  
+
+👉 Agar x ko a ke paas le aao  
+👉 to f(x) automatically L ke paas aa jata hai
+
+---
+
+**Important Notes:**
+- x ≠ a (equal hona zaroori nahi)
+- f(a) defined ho ya na ho → farq nahi
+- Sirf "close hona" important hai
+
+---
+
+**Intervals Idea:**
+- x ∈ (a - δ, a + δ)
+- f(x) ∈ (L - ε, L + ε)
+
+---
+
+**Example Insight:**
+lim (3x - 5) at x=2 = 1  
+👉 Prove kar sakte hain using ε–δ
+
+---
+
+**When Limit DOES NOT EXIST:**
+👉 Agar contradiction aa jaye  
+👉 ya left ≠ right  
+
+Example:
+f(x) = 1 (x>0), -1 (x<0)  
+
+👉 Left = -1  
+👉 Right = +1  
+👉 Limit DNE
+
+---
+
+**Quick Revision Points:**
+- ε = output closeness  
+- δ = input closeness  
+- 0 < |x-a| < δ  
+- |f(x)-L| < ε  
+- Limit ≠ f(a)  
+- Different sides → DNE`,
+    
+    questions: [
+      {
+        q: 'This lecture introduces:',
+        options: ['A. Graphical limits', 'B. Formal definition of limits', 'C. Derivatives', 'D. Integration'],
+        answer: 'B. Formal definition of limits',
+        diff: 'easy',
+      },
+      {
+        q: 'In limit definition, ε represents:',
+        options: ['A. Input closeness', 'B. Output closeness', 'C. Infinity', 'D. Zero'],
+        answer: 'B. Output closeness',
+        diff: 'medium',
+      },
+      {
+        q: 'δ represents:',
+        options: ['A. Output closeness', 'B. Input closeness', 'C. Infinity', 'D. Function value'],
+        answer: 'B. Input closeness',
+        diff: 'medium',
+      },
+      {
+        q: 'The condition 0 < |x - a| < δ means:',
+        options: ['A. x = a', 'B. x near a but not equal', 'C. x far from a', 'D. x=0'],
+        answer: 'B. x near a but not equal',
+        diff: 'easy',
+      },
+      {
+        q: '|f(x) - L| < ε means:',
+        options: ['A. f(x)=L exactly', 'B. f(x) near L', 'C. f(x)=0', 'D. f(x) infinite'],
+        answer: 'B. f(x) near L',
+        diff: 'easy',
+      },
+      {
+        q: 'Limit depends on:',
+        options: ['A. f(a)', 'B. Value at point', 'C. Behavior near point', 'D. Zero'],
+        answer: 'C. Behavior near point',
+        diff: 'easy',
+      },
+      {
+        q: 'If f(a) is undefined, then:',
+        options: ['A. Limit does not exist', 'B. Limit still may exist', 'C. Always zero', 'D. Infinite'],
+        answer: 'B. Limit still may exist',
+        diff: 'medium',
+      },
+      {
+        q: 'In ε-δ definition, ε must be:',
+        options: ['A. Negative', 'B. Zero', 'C. Positive', 'D. Infinite'],
+        answer: 'C. Positive',
+        diff: 'easy',
+      },
+      {
+        q: 'δ must be:',
+        options: ['A. Negative', 'B. Positive', 'C. Zero', 'D. Infinite'],
+        answer: 'B. Positive',
+        diff: 'easy',
+      },
+      {
+        q: 'Limit exists if:',
+        options: ['A. LHL ≠ RHL', 'B. Only LHL exists', 'C. LHL = RHL', 'D. x=0'],
+        answer: 'C. LHL = RHL',
+        diff: 'easy',
+      },
+      {
+        q: 'If left-hand and right-hand limits are different:',
+        options: ['A. Limit exists', 'B. Limit = 0', 'C. Limit does not exist', 'D. Infinite'],
+        answer: 'C. Limit does not exist',
+        diff: 'easy',
+      },
+      {
+        q: 'The interval for x is:',
+        options: ['A. (L-ε, L+ε)', 'B. (a-δ, a+δ)', 'C. (0,1)', 'D. (-∞,∞)'],
+        answer: 'B. (a-δ, a+δ)',
+        diff: 'medium',
+      },
+      {
+        q: 'The interval for f(x) is:',
+        options: ['A. (a-δ, a+δ)', 'B. (L-ε, L+ε)', 'C. (0,1)', 'D. (-∞,∞)'],
+        answer: 'B. (L-ε, L+ε)',
+        diff: 'medium',
+      },
+      {
+        q: 'In formal definition, x = a is:',
+        options: ['A. Allowed', 'B. Required', 'C. Not required', 'D. Always zero'],
+        answer: 'C. Not required',
+        diff: 'medium',
+      },
+      {
+        q: 'The function f(x)=1 (x>0), -1 (x<0) has limit at 0:',
+        options: ['A. 0', 'B. 1', 'C. -1', 'D. Does not exist'],
+        answer: 'D. Does not exist',
+        diff: 'medium',
+      },
+      {
+        q: 'Formal definition uses which inequality?',
+        options: ['A. x=a', 'B. |x-a|<δ', 'C. |f(x)-L|<ε', 'D. Both B and C'],
+        answer: 'D. Both B and C',
+        diff: 'hard',
+      },
+      {
+        q: 'ε-δ definition ensures:',
+        options: ['A. Exact value', 'B. Approximation control', 'C. Infinite result', 'D. Graph only'],
+        answer: 'B. Approximation control',
+        diff: 'hard',
+      },
+      {
+        q: 'Main goal of ε-δ definition is to:',
+        options: ['A. Simplify limits', 'B. Define rigorously', 'C. Graph limits', 'D. Solve equations'],
+        answer: 'B. Define rigorously',
+        diff: 'easy',
+      },
+    ],
+  },
+//leacture 12//
+
+
+// ─────────────────────────────────────────
+//  MTH101
+// ─────────────────────────────────────────
+  12: {
+    title: 'Continuity',
+    summary: `**Key Topics Covered:**
+- Continuity & Discontinuity
+- Formal definition of continuity
+- Properties of continuous functions
+- Continuity of polynomials & rational functions
+- Composition of functions
+- Intermediate Value Theorem (IVT)
+
+---
+
+**Simple Understanding (Easy Urdu + English):**
+
+**Continuity kya hoti hai?**
+👉 Graph agar smooth ho (no breaks), to function continuous hota hai  
+
+👉 Pencil uthaye bina graph draw ho jaye → Continuous
+
+---
+
+**Discontinuity (Break):**
+Function break ho jata hai jab:
+- f(c) defined na ho  
+- limit exist na kare  
+- limit ≠ f(c)
+
+---
+
+**IMPORTANT Definition (Exam Point):**
+
+Function f continuous hai at x = c agar:
+
+1. f(c) defined ho  
+2. lim f(x) exist kare  
+3. lim f(x) = f(c)  
+
+👉 Teeno conditions zaroori hain
+
+---
+
+**Shortcut (Most Important):**
+👉 Sirf check karo:
+
+lim f(x) = f(c)
+
+Agar ye true → function continuous
+
+---
+
+**Types of Discontinuity:**
+- Hole (f(c) undefined)
+- Jump (left ≠ right)
+- Value mismatch (limit ≠ f(c))
+
+---
+
+**Polynomials:**
+👉 Always continuous for ALL real numbers  
+
+---
+
+**Rational Functions:**
+👉 Continuous everywhere EXCEPT  
+👉 jahan denominator = 0
+
+---
+
+**Properties of Continuous Functions:**
+Agar f aur g continuous hain:
+
+- f + g → continuous  
+- f - g → continuous  
+- f × g → continuous  
+- f/g → continuous (if denominator ≠ 0)
+
+---
+
+**Composition Rule:**
+👉 Agar g continuous hai aur f bhi continuous hai  
+👉 to f(g(x)) bhi continuous hoga  
+
+---
+
+**Left & Right Continuity:**
+- Left continuity → left limit = f(c)
+- Right continuity → right limit = f(c)
+
+---
+
+**Continuity on [a,b]:**
+- (a,b) pe continuous ho  
+- a pe right continuous ho  
+- b pe left continuous ho  
+
+---
+
+**Intermediate Value Theorem (VERY IMPORTANT):**
+
+👉 Agar function continuous ho [a,b] pe  
+👉 aur C beech mein ho f(a) aur f(b) ke  
+
+👉 To koi x exist karega jahan:
+
+f(x) = C  
+
+---
+
+**Special Case:**
+👉 Agar f(a) positive aur f(b) negative  
+👉 To beech mein root zaroor hoga  
+
+---
+
+**Quick Revision Points:**
+- Continuous = no break  
+- lim f(x) = f(c)  
+- Polynomial → always continuous  
+- Rational → denominator ≠ 0  
+- IVT → value definitely exist karegi`,
+    
+    questions: [
+      {
+        q: 'A function is continuous if:',
+        options: ['A. Graph has breaks', 'B. Graph is smooth', 'C. Undefined everywhere', 'D. Infinite'],
+        answer: 'B. Graph is smooth',
+        diff: 'easy',
+      },
+      {
+        q: 'Continuity requires:',
+        options: ['A. Only f(c)', 'B. Only limit', 'C. All 3 conditions', 'D. None'],
+        answer: 'C. All 3 conditions',
+        diff: 'medium',
+      },
+      {
+        q: 'If lim f(x) ≠ f(c), then:',
+        options: ['A. Continuous', 'B. Discontinuous', 'C. Infinite', 'D. Zero'],
+        answer: 'B. Discontinuous',
+        diff: 'easy',
+      },
+      {
+        q: 'Polynomials are:',
+        options: ['A. Discontinuous', 'B. Continuous everywhere', 'C. Infinite', 'D. Undefined'],
+        answer: 'B. Continuous everywhere',
+        diff: 'easy',
+      },
+      {
+        q: 'Rational functions are discontinuous when:',
+        options: ['A. x=0', 'B. Numerator=0', 'C. Denominator=0', 'D. Infinite'],
+        answer: 'C. Denominator=0',
+        diff: 'easy',
+      },
+      {
+        q: 'If f and g are continuous, then f+g is:',
+        options: ['A. Discontinuous', 'B. Continuous', 'C. Infinite', 'D. Undefined'],
+        answer: 'B. Continuous',
+        diff: 'easy',
+      },
+      {
+        q: 'f/g is continuous if:',
+        options: ['A. g(c)=0', 'B. g(c)≠0', 'C. f(c)=0', 'D. Infinite'],
+        answer: 'B. g(c)≠0',
+        diff: 'medium',
+      },
+      {
+        q: 'Continuity on [a,b] requires:',
+        options: ['A. Only inside', 'B. Only endpoints', 'C. Inside + endpoints conditions', 'D. None'],
+        answer: 'C. Inside + endpoints conditions',
+        diff: 'medium',
+      },
+      {
+        q: 'Left continuity means:',
+        options: ['A. Right limit = f(c)', 'B. Left limit = f(c)', 'C. No limit', 'D. Infinite'],
+        answer: 'B. Left limit = f(c)',
+        diff: 'easy',
+      },
+      {
+        q: 'Right continuity means:',
+        options: ['A. Left limit = f(c)', 'B. Right limit = f(c)', 'C. No limit', 'D. Infinite'],
+        answer: 'B. Right limit = f(c)',
+        diff: 'easy',
+      },
+      {
+        q: 'Intermediate Value Theorem applies to:',
+        options: ['A. Discontinuous functions', 'B. Continuous functions', 'C. Infinite functions', 'D. Linear only'],
+        answer: 'B. Continuous functions',
+        diff: 'medium',
+      },
+      {
+        q: 'IVT guarantees:',
+        options: ['A. Exact solution', 'B. At least one value exists', 'C. Infinite solutions', 'D. No solution'],
+        answer: 'B. At least one value exists',
+        diff: 'medium',
+      },
+      {
+        q: 'If f(a) positive and f(b) negative, then:',
+        options: ['A. No root', 'B. Exactly 2 roots', 'C. At least one root', 'D. Infinite'],
+        answer: 'C. At least one root',
+        diff: 'easy',
+      },
+      {
+        q: 'A hole in graph means:',
+        options: ['A. Continuous', 'B. Discontinuity', 'C. Infinite', 'D. Zero'],
+        answer: 'B. Discontinuity',
+        diff: 'easy',
+      },
+      {
+        q: 'Composition f(g(x)) is continuous if:',
+        options: ['A. Only f continuous', 'B. Only g continuous', 'C. Both continuous', 'D. None'],
+        answer: 'C. Both continuous',
+        diff: 'medium',
+      },
+      {
+        q: 'Main condition for continuity:',
+        options: ['A. f(c)=0', 'B. lim f(x)=f(c)', 'C. x=0', 'D. Infinite'],
+        answer: 'B. lim f(x)=f(c)',
+        diff: 'easy',
+      },
+      {
+        q: 'If f(c) is undefined, then:',
+        options: ['A. Continuous', 'B. Discontinuous', 'C. Infinite', 'D. Zero'],
+        answer: 'B. Discontinuous',
+        diff: 'easy',
+      },
+      {
+        q: 'Graph without break shows:',
+        options: ['A. Discontinuity', 'B. Continuity', 'C. Infinity', 'D. Undefined'],
+        answer: 'B. Continuity',
+        diff: 'easy',
+      },
+    ],
+  },
+
+},
+
+
 
 
   // ─────────────────────────────────────────
@@ -3210,7 +4047,1347 @@ Avoid slang/informal words in formal academic writing.
         },
       ],
     },
+
+
+    /// lecture 2//
+
+    2: {
+  title: 'Pronunciation & Stress',
+  summary: `**Key Topics Covered:**
+- English pronunciation
+- Dictionary usage
+- Phonemic symbols
+- Vowel sounds
+- Consonant sounds
+- Stress in words
+- Meaning changes due to stress
+
+---
+
+**Simple Understanding:**
+
+**What is Pronunciation?**
+👉 Pronunciation means speaking words with correct sounds.
+
+👉 English spelling and pronunciation are often different.
+
+---
+
+**Dictionary Usage:**
+👉 Dictionaries show pronunciation using phonemic symbols.
+
+👉 These symbols are written between slash brackets:
+/ /
+
+---
+
+**Examples of Different Sounds:**
+
+- Chorus → ch = /k/
+- Church → ch = /ch/
+- Ration → tion = /sh/
+- Machine → ch = /sh/
+
+👉 The same letters can produce different sounds.
+
+---
+
+**Phonemic Symbols:**
+👉 Special symbols used to show exact speech sounds.
+
+👉 Every sound has its own symbol.
+
+---
+
+**Vowel Sounds:**
+English has 20 vowel phonemes:
+
+- 7 Short vowels
+- 5 Long vowels
+- 8 Diphthongs
+
+---
+
+**Long Vowels:**
+👉 Long vowel symbols contain /ː/
+
+👉 The sound is pronounced for a longer time.
+
+---
+
+**Diphthongs:**
+👉 Diphthongs are made by combining two vowel sounds.
+
+👉 The mouth moves from one sound to another.
+
+---
+
+**Consonant Sounds:**
+👉 English has 24 consonant sounds.
+
+👉 These sounds are produced by complete or partial stoppage of breath.
+
+---
+
+**Stress:**
+👉 Stress means giving extra force to a syllable while speaking.
+
+👉 Dictionaries show stress with a tiny mark.
+
+Examples:
+- mother
+- table
+- after
+
+👉 In these words, the first syllable is stressed.
+
+---
+
+**Second Syllable Stress:**
+Examples:
+- hotel
+- bamboo
+- banana
+
+👉 In these words, the second syllable is stressed.
+
+---
+
+**Meaning Change Due to Stress:**
+👉 Some words change meaning or part of speech because of stress.
+
+Examples:
+- rebel (noun)
+- rebel (verb)
+
+- present (noun/adjective)
+- present (verb)
+
+---
+
+**Quick Revision Points:**
+- Pronunciation = correct sound
+- Dictionaries use phonemic symbols
+- Symbols are written in / /
+- Chorus → /k/
+- Church → /ch/
+- Machine → /sh/
+- Total vowel phonemes = 20
+- Long vowels contain /ː/
+- Diphthongs combine 2 vowel sounds
+- English has 24 consonant sounds
+- Stress = extra force on syllable
+- Stress can change meaning`,
+  
+  questions: [
+    {
+      q: 'Pronunciation means:',
+      options: ['A. Writing words', 'B. Speaking words correctly', 'C. Reading silently', 'D. Grammar rules'],
+      answer: 'B. Speaking words correctly',
+      diff: 'easy',
+    },
+    {
+      q: 'Students face pronunciation problems because:',
+      options: ['A. English has no vowels', 'B. Spellings are confusing', 'C. Dictionaries do not exist', 'D. Words are too short'],
+      answer: 'B. Spellings are confusing',
+      diff: 'easy',
+    },
+    {
+      q: 'Dictionaries show pronunciation using:',
+      options: ['A. Pictures', 'B. Phonemic symbols', 'C. Numbers', 'D. Colors'],
+      answer: 'B. Phonemic symbols',
+      diff: 'easy',
+    },
+    {
+      q: 'Phonemic symbols are written between:',
+      options: ['A. ( )', 'B. [ ]', 'C. / /', 'D. { }'],
+      answer: 'C. / /',
+      diff: 'easy',
+    },
+    {
+      q: 'In the word "chorus", "ch" sounds like:',
+      options: ['A. /sh/', 'B. /ch/', 'C. /k/', 'D. /t/'],
+      answer: 'C. /k/',
+      diff: 'easy',
+    },
+    {
+      q: 'In the word "church", "ch" sounds like:',
+      options: ['A. /k/', 'B. /sh/', 'C. /ch/', 'D. /z/'],
+      answer: 'C. /ch/',
+      diff: 'easy',
+    },
+    {
+      q: 'In the word "ration", "tion" sounds like:',
+      options: ['A. /sh/', 'B. /k/', 'C. /ch/', 'D. /t/'],
+      answer: 'A. /sh/',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word has "ch" pronounced as /sh/?',
+      options: ['A. Church', 'B. Chorus', 'C. Machine', 'D. Chair'],
+      answer: 'C. Machine',
+      diff: 'medium',
+    },
+    {
+      q: 'English has total vowel phonemes:',
+      options: ['A. 10', 'B. 15', 'C. 20', 'D. 24'],
+      answer: 'C. 20',
+      diff: 'easy',
+    },
+    {
+      q: 'How many short vowels are there in English?',
+      options: ['A. 5', 'B. 7', 'C. 8', 'D. 10'],
+      answer: 'B. 7',
+      diff: 'easy',
+    },
+    {
+      q: 'How many long vowels are there in English?',
+      options: ['A. 5', 'B. 7', 'C. 8', 'D. 20'],
+      answer: 'A. 5',
+      diff: 'easy',
+    },
+    {
+      q: 'How many diphthongs are there in English?',
+      options: ['A. 5', 'B. 6', 'C. 7', 'D. 8'],
+      answer: 'D. 8',
+      diff: 'medium',
+    },
+    {
+      q: 'Diphthongs are made by:',
+      options: ['A. Two consonants', 'B. One vowel', 'C. Two vowel sounds', 'D. Silence'],
+      answer: 'C. Two vowel sounds',
+      diff: 'medium',
+    },
+    {
+      q: 'Long vowels contain:',
+      options: ['A. A star', 'B. /ː/', 'C. Brackets', 'D. Dash'],
+      answer: 'B. /ː/',
+      diff: 'easy',
+    },
+    {
+      q: 'English has how many consonant sounds?',
+      options: ['A. 20', 'B. 22', 'C. 24', 'D. 26'],
+      answer: 'C. 24',
+      diff: 'easy',
+    },
+    {
+      q: 'Consonant sounds are produced by:',
+      options: ['A. Complete or partial stoppage of breath', 'B. Only vowels', 'C. Silent reading', 'D. Nose only'],
+      answer: 'A. Complete or partial stoppage of breath',
+      diff: 'medium',
+    },
+    {
+      q: 'Stress means:',
+      options: ['A. Fast reading', 'B. Extra force in pronunciation', 'C. Writing clearly', 'D. Silence'],
+      answer: 'B. Extra force in pronunciation',
+      diff: 'easy',
+    },
+    {
+      q: 'Dictionaries indicate stress using:',
+      options: ['A. Tiny mark', 'B. Capital letters', 'C. Full stop', 'D. Slash'],
+      answer: 'A. Tiny mark',
+      diff: 'medium',
+    },
+    {
+      q: 'Which word has stress on the first syllable?',
+      options: ['A. Hotel', 'B. Banana', 'C. Mother', 'D. Bamboo'],
+      answer: 'C. Mother',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word has stress on the second syllable?',
+      options: ['A. Table', 'B. After', 'C. Hotel', 'D. Mother'],
+      answer: 'C. Hotel',
+      diff: 'easy',
+    },
+    {
+      q: 'Words with the same spelling may change meaning because of:',
+      options: ['A. Punctuation', 'B. Stress difference', 'C. Color', 'D. Size'],
+      answer: 'B. Stress difference',
+      diff: 'hard',
+    },
+  ],
+},
+    
+
+// lecture 3 //
+
+
+3: {
+  title: 'Topic Sentences & Main Ideas',
+  summary: `**Key Topics Covered:**
+- Topic sentences
+- Main ideas
+- Supporting details
+- Communication and groups
+- Plant science
+- Reading skills
+- Language and grammar
+- Effective listening
+
+---
+
+**Simple Understanding:**
+
+**Topic Sentence:**
+👉 A topic sentence tells the main idea of a paragraph.
+
+👉 Supporting details explain the topic sentence.
+
+---
+
+**Main Idea:**
+👉 Every paragraph focuses on one central idea.
+
+👉 Readers should identify what the writer mainly wants to explain.
+
+---
+
+**Text About Plants:**
+👉 New plant species are discovered every year.
+
+👉 Taxonomists classify and name plants scientifically.
+
+👉 Plant classification is important for scientists.
+
+---
+
+**Groups in Sociology:**
+👉 A group exists when people communicate with each other.
+
+👉 Physical closeness alone does not make a group.
+
+---
+
+**Plant Physiology:**
+👉 Plants absorb water, oxygen, and minerals.
+
+👉 Plant physiology studies plant functions and activities.
+
+---
+
+**Reading Skills:**
+👉 Good readers read for understanding, not pronunciation.
+
+👉 Reading word by word slows comprehension.
+
+---
+
+**Language and Grammar:**
+👉 Learning a language means learning sounds, words, and grammar rules.
+
+👉 Grammar represents linguistic competence.
+
+---
+
+**Chinese Writing System:**
+👉 Chinese writing uses characters representing meanings instead of sounds.
+
+👉 Thousands of characters are needed to read Chinese.
+
+---
+
+**Effective Listening:**
+👉 Good listeners prepare before lectures.
+
+👉 They sit where they can hear clearly.
+
+👉 After listening, they review and evaluate ideas.
+
+---
+
+**Mathematics and Units:**
+👉 Unlike quantities cannot be added together.
+
+👉 Quantities must have the same units.
+
+---
+
+**Computers:**
+👉 There are two main types:
+- Analog computers
+- Digital computers
+
+👉 Most modern computers are digital.
+
+---
+
+**Newspapers and Advertising:**
+👉 Newspapers are important advertising media.
+
+👉 Advertisers can target specific local areas.
+
+---
+
+**Speech Development in Infants:**
+👉 Infant speech develops in a sequence.
+
+👉 Vowel sounds usually develop before consonants.
+
+---
+
+**Famine Causes:**
+👉 Famine is caused by population growth and lack of food supply.
+
+👉 Agricultural production may not support growing populations.
+
+---
+
+**Anxiety Responses:**
+👉 Anxiety affects people physically and psychologically.
+
+👉 Different people react differently to anxiety.
+
+---
+
+**Quick Revision Points:**
+- Topic sentence = main idea
+- Supporting details explain the topic
+- Groups require communication
+- Taxonomists classify plants
+- Reading for meaning is important
+- Grammar = language rules
+- Chinese writing uses characters
+- Good listeners prepare and review
+- Unlike quantities cannot be added
+- Modern computers are mostly digital`,
+  
+  questions: [
+    {
+      q: 'A topic sentence mainly tells:',
+      options: ['A. Minor details', 'B. Main idea', 'C. Conclusion only', 'D. Examples only'],
+      answer: 'B. Main idea',
+      diff: 'easy',
+    },
+    {
+      q: 'Scientists who classify plants are called:',
+      options: ['A. Florists', 'B. Morphologists', 'C. Taxonomists', 'D. Foresters'],
+      answer: 'C. Taxonomists',
+      diff: 'easy',
+    },
+    {
+      q: 'Approximately how many new plant species are proposed yearly?',
+      options: ['A. 470', 'B. 4700', 'C. 7000', 'D. 500'],
+      answer: 'B. 4700',
+      diff: 'medium',
+    },
+    {
+      q: 'A group in sociology requires:',
+      options: ['A. Physical closeness only', 'B. Communication', 'C. Friendship only', 'D. Family relation'],
+      answer: 'B. Communication',
+      diff: 'easy',
+    },
+    {
+      q: 'Plant physiology studies:',
+      options: ['A. Plant history', 'B. Plant classification', 'C. Plant functions and activities', 'D. Soil only'],
+      answer: 'C. Plant functions and activities',
+      diff: 'medium',
+    },
+    {
+      q: 'Good reading focuses on:',
+      options: ['A. Pronunciation only', 'B. Reading slowly', 'C. Understanding meaning', 'D. Finger movement'],
+      answer: 'C. Understanding meaning',
+      diff: 'easy',
+    },
+    {
+      q: 'Grammar represents:',
+      options: ['A. Vocabulary only', 'B. Linguistic competence', 'C. Pronunciation only', 'D. Writing style'],
+      answer: 'B. Linguistic competence',
+      diff: 'medium',
+    },
+    {
+      q: 'Chinese writing system mainly represents:',
+      options: ['A. Sounds', 'B. Meanings', 'C. Numbers', 'D. Symbols only'],
+      answer: 'B. Meanings',
+      diff: 'medium',
+    },
+    {
+      q: 'To read a Chinese newspaper, a person needs about:',
+      options: ['A. 500 characters', 'B. 1000 characters', 'C. 5000 characters', 'D. 10000 characters'],
+      answer: 'C. 5000 characters',
+      diff: 'hard',
+    },
+    {
+      q: 'A good listener prepares before:',
+      options: ['A. Sleeping', 'B. Writing', 'C. Speech or lecture', 'D. Examination'],
+      answer: 'C. Speech or lecture',
+      diff: 'easy',
+    },
+    {
+      q: 'Effective listening is:',
+      options: ['A. Passive process', 'B. Active process', 'C. Difficult process', 'D. Silent process'],
+      answer: 'B. Active process',
+      diff: 'medium',
+    },
+    {
+      q: 'Unlike quantities in mathematics:',
+      options: ['A. Can always be added', 'B. Cannot be added', 'C. Become equal', 'D. Are ignored'],
+      answer: 'B. Cannot be added',
+      diff: 'easy',
+    },
+    {
+      q: 'Most modern computers are:',
+      options: ['A. Analog', 'B. Mechanical', 'C. Digital', 'D. Hybrid'],
+      answer: 'C. Digital',
+      diff: 'easy',
+    },
+    {
+      q: 'Analog computers operate using:',
+      options: ['A. Counting only', 'B. Physical quantities', 'C. Writing systems', 'D. Binary code only'],
+      answer: 'B. Physical quantities',
+      diff: 'medium',
+    },
+    {
+      q: 'Mathematics is called the language of:',
+      options: ['A. Nature', 'B. Science', 'C. Number and size', 'D. Computers'],
+      answer: 'C. Number and size',
+      diff: 'easy',
+    },
+    {
+      q: 'Newspapers are important because they:',
+      options: ['A. Have limited coverage', 'B. Are expensive', 'C. Reach many areas', 'D. Replace television'],
+      answer: 'C. Reach many areas',
+      diff: 'easy',
+    },
+    {
+      q: 'Infant speech development follows:',
+      options: ['A. Random order', 'B. Definite sequence', 'C. No pattern', 'D. Adult speech'],
+      answer: 'B. Definite sequence',
+      diff: 'medium',
+    },
+    {
+      q: 'Famine is partly caused by:',
+      options: ['A. Reduced population', 'B. Increased food supply', 'C. Increased population', 'D. Better farming'],
+      answer: 'C. Increased population',
+      diff: 'medium',
+    },
+    {
+      q: 'Anxiety may produce:',
+      options: ['A. Better memory only', 'B. Physical and psychological responses', 'C. Happiness only', 'D. Sleep only'],
+      answer: 'B. Physical and psychological responses',
+      diff: 'medium',
+    },
+    {
+      q: 'Supporting details in a paragraph:',
+      options: ['A. Introduce a new topic', 'B. Explain the topic sentence', 'C. End the paragraph', 'D. Change the subject'],
+      answer: 'B. Explain the topic sentence',
+      diff: 'easy',
+    },
+  ],
+},
+
+
+
+//leacture 4 //
+
+
+4: {
+  title: 'What is a Computer?',
+  summary: `**Key Topics Covered:**
+- Definition of a computer
+- Computer functions
+- Input and output devices
+- Memory and data processing
+- Computer capabilities
+- Decision making in computers
+- Advantages and limitations of computers
+
+---
+
+**Simple Understanding:**
+
+**What is a Computer?**
+👉 A computer is an electronic machine.
+
+👉 It works using electronic circuits and switches.
+
+👉 It can store, process, and manipulate data.
+
+---
+
+**How Does a Computer Work?**
+👉 A computer works by receiving instructions and data.
+
+👉 Instructions are called programs.
+
+👉 Data and programs are stored in memory.
+
+---
+
+**Main Function of a Computer:**
+👉 The main job of a computer is processing information.
+
+👉 It performs mathematical and logical operations.
+
+---
+
+**Basic Capabilities of Computers:**
+
+1. Arithmetic Operations
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Exponentiation
+
+2. Communication with User
+👉 Computers receive input and give output.
+
+3. Decision Making
+👉 Computers can compare numbers.
+
+---
+
+**Input Devices:**
+👉 Devices used to enter information into a computer.
+
+Examples:
+- Punched cards
+- Magnetic tape
+- Disks
+- Terminals
+
+---
+
+**Output Devices:**
+👉 Devices used to display results.
+
+Examples:
+- Printer
+- CRT display screen
+
+---
+
+**Computer Decisions:**
+👉 Computers can decide:
+- Less than
+- Equal to
+- Greater than
+
+👉 Computers cannot make human judgments.
+
+---
+
+**Advantages of Computers:**
+- Work very fast
+- Solve problems quickly
+- Perform thousands of operations
+- Never become tired or bored
+
+---
+
+**Limitations of Computers:**
+👉 Computers have no originality.
+
+👉 They only follow instructions.
+
+👉 They cannot think like humans.
+
+---
+
+**Important Point:**
+👉 A computer cannot do anything unless a person gives instructions and data.
+
+---
+
+**Quick Revision Points:**
+- Computer = electronic machine
+- Main job = information processing
+- Instructions = program
+- Data stored in memory
+- Input devices enter data
+- Output devices show results
+- Computers perform arithmetic operations
+- Computers compare numbers
+- Computers work very fast
+- Computers cannot think independently`,
+  
+  questions: [
+    {
+      q: 'A computer is basically an:',
+      options: ['A. Animal', 'B. Electronic machine', 'C. Human brain', 'D. Calculator only'],
+      answer: 'B. Electronic machine',
+      diff: 'easy',
+    },
+    {
+      q: 'The basic job of a computer is:',
+      options: ['A. Drawing pictures', 'B. Processing information', 'C. Playing games', 'D. Printing books'],
+      answer: 'B. Processing information',
+      diff: 'easy',
+    },
+    {
+      q: 'Instructions given to a computer are called:',
+      options: ['A. Memory', 'B. Data', 'C. Program', 'D. Signals'],
+      answer: 'C. Program',
+      diff: 'easy',
+    },
+    {
+      q: 'Programs and data are stored in:',
+      options: ['A. Screen', 'B. Keyboard', 'C. Printer', 'D. Memory'],
+      answer: 'D. Memory',
+      diff: 'easy',
+    },
+    {
+      q: 'Computers can perform:',
+      options: ['A. Arithmetic operations', 'B. Cooking', 'C. Sleeping', 'D. Breathing'],
+      answer: 'A. Arithmetic operations',
+      diff: 'easy',
+    },
+    {
+      q: 'Which is NOT an arithmetic operation?',
+      options: ['A. Addition', 'B. Multiplication', 'C. Division', 'D. Painting'],
+      answer: 'D. Painting',
+      diff: 'easy',
+    },
+    {
+      q: 'Computers communicate with users through:',
+      options: ['A. Input and output devices', 'B. Books only', 'C. Television only', 'D. Voice only'],
+      answer: 'A. Input and output devices',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is an input device?',
+      options: ['A. Printer', 'B. CRT screen', 'C. Magnetic tape', 'D. Speaker'],
+      answer: 'C. Magnetic tape',
+      diff: 'medium',
+    },
+    {
+      q: 'Which device is commonly used for output?',
+      options: ['A. Disk drive', 'B. Printer', 'C. Tape drive', 'D. Terminal'],
+      answer: 'B. Printer',
+      diff: 'easy',
+    },
+    {
+      q: 'A CRT display screen looks like:',
+      options: ['A. Radio', 'B. TV screen', 'C. Mobile phone', 'D. Typewriter'],
+      answer: 'B. TV screen',
+      diff: 'easy',
+    },
+    {
+      q: 'Computers can make decisions by:',
+      options: ['A. Comparing numbers', 'B. Thinking emotionally', 'C. Guessing answers', 'D. Making opinions'],
+      answer: 'A. Comparing numbers',
+      diff: 'medium',
+    },
+    {
+      q: 'Computers cannot:',
+      options: ['A. Add numbers', 'B. Compare values', 'C. Make human judgments', 'D. Process information'],
+      answer: 'C. Make human judgments',
+      diff: 'medium',
+    },
+    {
+      q: 'Computers work according to:',
+      options: ['A. Emotions', 'B. Instructions', 'C. Feelings', 'D. Imagination'],
+      answer: 'B. Instructions',
+      diff: 'easy',
+    },
+    {
+      q: 'A computer can work without becoming:',
+      options: ['A. Fast', 'B. Intelligent', 'C. Tired or bored', 'D. Useful'],
+      answer: 'C. Tired or bored',
+      diff: 'easy',
+    },
+    {
+      q: 'Computers perform operations at:',
+      options: ['A. Walking speed', 'B. Human speed', 'C. Speed of light', 'D. Sound speed'],
+      answer: 'C. Speed of light',
+      diff: 'hard',
+    },
+    {
+      q: 'Computers can replace humans in:',
+      options: ['A. Creative thinking', 'B. Routine tasks', 'C. Emotional decisions', 'D. Leadership'],
+      answer: 'B. Routine tasks',
+      diff: 'medium',
+    },
+    {
+      q: 'Computers have no:',
+      options: ['A. Circuits', 'B. Memory', 'C. Originality', 'D. Input devices'],
+      answer: 'C. Originality',
+      diff: 'easy',
+    },
+    {
+      q: 'Most computers have how many basic capabilities?',
+      options: ['A. Two', 'B. Three', 'C. Four', 'D. Five'],
+      answer: 'B. Three',
+      diff: 'medium',
+    },
+    {
+      q: 'Computers can solve problems:',
+      options: ['A. Slowly', 'B. Instantly in many cases', 'C. Only manually', 'D. Without data'],
+      answer: 'B. Instantly in many cases',
+      diff: 'medium',
+    },
+    {
+      q: 'A computer cannot do anything without:',
+      options: ['A. Electricity only', 'B. Human instructions', 'C. Internet', 'D. Printer'],
+      answer: 'B. Human instructions',
+      diff: 'easy',
+    },
+  ],
+},
+
+
+
+//leacture 5
+
+5: {
+  title: 'Link Words & History of Computers',
+  summary: `**Key Topics Covered:**
+- Link words and connectives
+- Result words
+- Contrast words
+- Comparison words
+- Cause and effect
+- Addition and sequence words
+- History of computers
+- Computer generations
+- Contextual references
+
+---
+
+**Simple Understanding:**
+
+**What are Link Words?**
+👉 Link words connect ideas and sentences.
+
+👉 They improve understanding and flow of writing.
+
+---
+
+**Words Showing Result:**
+Examples:
+- therefore
+- thus
+- consequently
+- hence
+
+👉 These words show results or conclusions.
+
+---
+
+**Words Showing Contrast:**
+Examples:
+- but
+- however
+- although
+- nevertheless
+
+👉 These words show opposite ideas.
+
+---
+
+**Words Showing Comparison:**
+Examples:
+- similarly
+- likewise
+- just like
+- equally
+
+👉 These words compare ideas.
+
+---
+
+**Words Showing Examples:**
+Examples:
+- for example
+- for instance
+- such as
+
+👉 These introduce examples.
+
+---
+
+**Cause and Effect Words:**
+Examples:
+- because
+- since
+- therefore
+- as a result
+
+👉 These show reasons and outcomes.
+
+---
+
+**Series and Time Words:**
+Examples:
+- first
+- second
+- next
+- finally
+
+👉 These show order or sequence.
+
+---
+
+**Addition Words:**
+Examples:
+- and
+- besides
+- furthermore
+- in addition
+
+👉 These add more information.
+
+---
+
+**History of Computers:**
+
+**Primitive Times:**
+👉 People used fingers for counting.
+
+👉 The abacus was later invented.
+
+---
+
+**17th and 18th Centuries:**
+👉 Logarithm tables and calculus were developed.
+
+👉 Slide rule was invented.
+
+---
+
+**Charles Babbage:**
+👉 Designed the Analytical Engine.
+
+👉 Known as the father of computers.
+
+---
+
+**First Computers:**
+👉 Early computers used vacuum tubes.
+
+👉 They were large and slow.
+
+---
+
+**Transistors:**
+👉 Replaced vacuum tubes.
+
+👉 Made computers faster and smaller.
+
+---
+
+**Integrated Circuits & Chips:**
+👉 Reduced computer size.
+
+👉 Increased speed and reliability.
+
+---
+
+**Modern Computers:**
+👉 Use microchips and integrated circuits.
+
+👉 Have more circuits in smaller sizes.
+
+---
+
+**Future Computers:**
+👉 Future computers may be very different from today’s computers.
+
+---
+
+**Contextual Reference:**
+👉 Reference words point to previously mentioned ideas.
+
+Examples:
+- it
+- they
+- which
+- that
+
+👉 Readers must identify what these words refer to.
+
+---
+
+**Quick Revision Points:**
+- Link words connect ideas
+- therefore = result
+- however = contrast
+- similarly = comparison
+- for example = illustration
+- because = cause
+- first/next/finally = sequence
+- Abacus = counting device
+- Charles Babbage = father of computers
+- Transistors replaced vacuum tubes
+- Chips made computers smaller and faster
+- Reference words refer to earlier nouns`,
+  
+  questions: [
+    {
+      q: 'Link words are used to:',
+      options: ['A. Break sentences', 'B. Connect ideas', 'C. Translate words', 'D. Count numbers'],
+      answer: 'B. Connect ideas',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word shows a result?',
+      options: ['A. However', 'B. Similarly', 'C. Therefore', 'D. Although'],
+      answer: 'C. Therefore',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word shows contrast?',
+      options: ['A. Consequently', 'B. However', 'C. Furthermore', 'D. Since'],
+      answer: 'B. However',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word is used for comparison?',
+      options: ['A. Similarly', 'B. Because', 'C. Finally', 'D. Yet'],
+      answer: 'A. Similarly',
+      diff: 'easy',
+    },
+    {
+      q: 'Which phrase introduces an example?',
+      options: ['A. On the contrary', 'B. For instance', 'C. Therefore', 'D. Since'],
+      answer: 'B. For instance',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word shows cause and effect?',
+      options: ['A. Because', 'B. Likewise', 'C. However', 'D. Next'],
+      answer: 'A. Because',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word shows sequence?',
+      options: ['A. Finally', 'B. Although', 'C. Besides', 'D. Yet'],
+      answer: 'A. Finally',
+      diff: 'easy',
+    },
+    {
+      q: 'Which word shows addition?',
+      options: ['A. Conversely', 'B. Furthermore', 'C. Despite', 'D. Although'],
+      answer: 'B. Furthermore',
+      diff: 'easy',
+    },
+    {
+      q: 'The earliest counting device mentioned is:',
+      options: ['A. Calculator', 'B. Slide rule', 'C. Abacus', 'D. Chip'],
+      answer: 'C. Abacus',
+      diff: 'easy',
+    },
+    {
+      q: 'People first used what for counting?',
+      options: ['A. Computers', 'B. Fingers', 'C. Chips', 'D. Tables'],
+      answer: 'B. Fingers',
+      diff: 'easy',
+    },
+    {
+      q: 'Who is known as the father of computers?',
+      options: ['A. Henry Briggs', 'B. Charles Babbage', 'C. Alan Turing', 'D. Pascal'],
+      answer: 'B. Charles Babbage',
+      diff: 'easy',
+    },
+    {
+      q: 'Charles Babbage designed:',
+      options: ['A. Slide rule', 'B. Abacus', 'C. Analytical Engine', 'D. Calculator'],
+      answer: 'C. Analytical Engine',
+      diff: 'medium',
+    },
+    {
+      q: 'Early computers used:',
+      options: ['A. Chips', 'B. Transistors', 'C. Vacuum tubes', 'D. Microprocessors'],
+      answer: 'C. Vacuum tubes',
+      diff: 'easy',
+    },
+    {
+      q: 'Transistors replaced:',
+      options: ['A. Chips', 'B. Vacuum tubes', 'C. Abacus', 'D. Circuits'],
+      answer: 'B. Vacuum tubes',
+      diff: 'easy',
+    },
+    {
+      q: 'Transistors made computers:',
+      options: ['A. Larger and slower', 'B. Smaller and faster', 'C. More expensive only', 'D. Mechanical'],
+      answer: 'B. Smaller and faster',
+      diff: 'easy',
+    },
+    {
+      q: 'Integrated circuits are also called:',
+      options: ['A. Tubes', 'B. Engines', 'C. Chips', 'D. Beads'],
+      answer: 'C. Chips',
+      diff: 'medium',
+    },
+    {
+      q: 'Microminiaturization means:',
+      options: ['A. Increasing computer size', 'B. Reducing circuitry onto a chip', 'C. Removing memory', 'D. Printing data'],
+      answer: 'B. Reducing circuitry onto a chip',
+      diff: 'hard',
+    },
+    {
+      q: 'Modern computers contain:',
+      options: ['A. Fewer circuits', 'B. No circuits', 'C. More circuits', 'D. Wooden parts'],
+      answer: 'C. More circuits',
+      diff: 'medium',
+    },
+    {
+      q: 'Reference words like “it” and “they” are used to:',
+      options: ['A. Replace earlier nouns', 'B. Create questions', 'C. Show examples', 'D. Compare ideas'],
+      answer: 'A. Replace earlier nouns',
+      diff: 'medium',
+    },
+    {
+      q: 'Future computers may be:',
+      options: ['A. Exactly the same', 'B. Very different from today’s computers', 'C. Mechanical only', 'D. Impossible to build'],
+      answer: 'B. Very different from today’s computers',
+      diff: 'easy',
+    },
+  ],
+},
+
+
+// leacture 6 //
+
+
+
+6: {
+  title: 'History of Computers',
+  summary: `**Key Topics Covered:**
+- Early calculating devices
+- Development of computers
+- Charles Babbage
+- Generations of computers
+- Vacuum tubes and transistors
+- Integrated circuits and chips
+- Microminiaturization
+- Future of computers
+
+---
+
+**Simple Understanding:**
+
+**Early Counting Methods:**
+👉 In primitive times, people used fingers for counting.
+
+👉 Later, the abacus was invented.
+
+---
+
+**Abacus:**
+👉 An instrument used for counting.
+
+👉 It is still used in some places today.
+
+---
+
+**17th and 18th Centuries:**
+👉 Logarithm tables and calculus were developed.
+
+👉 The slide rule was invented for multiplication and division.
+
+---
+
+**Charles Babbage:**
+👉 An English mathematician.
+
+👉 Designed the Analytical Engine.
+
+👉 Called the father of computers.
+
+---
+
+**First Computers:**
+👉 Early computers used vacuum tubes.
+
+👉 They were very large and slow.
+
+---
+
+**Digital Computers:**
+👉 Invented by Americans in 1944.
+
+👉 Used mainly for calculations and military purposes.
+
+---
+
+**Transistors:**
+👉 Replaced vacuum tubes in 1947.
+
+👉 Made computers:
+- Smaller
+- Faster
+- More reliable
+
+---
+
+**Integrated Circuits (Chips):**
+👉 Many circuits were placed on a small chip.
+
+👉 This reduced computer size greatly.
+
+---
+
+**Microminiaturization:**
+👉 Reduction of circuitry onto tiny chips.
+
+👉 Increased computer speed and efficiency.
+
+---
+
+**Modern Computers:**
+👉 Modern computers have more circuits than older computers.
+
+👉 They are faster and more dependable.
+
+---
+
+**Future Computers:**
+👉 Future computers may be very different from today’s computers.
+
+---
+
+**Important Vocabulary:**
+- Abacus = counting device
+- Calculus = branch of mathematics
+- Slide rule = multiplication/division tool
+- Vacuum tubes = first generation technology
+- Transistors = second generation technology
+- Chip = integrated circuit
+
+---
+
+**Quick Revision Points:**
+- Fingers were first counting tools
+- Abacus used for counting
+- Slide rule used for calculations
+- Charles Babbage designed Analytical Engine
+- Vacuum tubes used in first computers
+- Transistors replaced vacuum tubes
+- Chips reduced computer size
+- Modern computers are faster and smaller
+- Future computers may change greatly`,
+  
+  questions: [
+    {
+      q: 'In primitive times, people counted using:',
+      options: ['A. Computers', 'B. Fingers', 'C. Chips', 'D. Robots'],
+      answer: 'B. Fingers',
+      diff: 'easy',
+    },
+    {
+      q: 'The abacus is used for:',
+      options: ['A. Printing', 'B. Counting', 'C. Typing', 'D. Drawing'],
+      answer: 'B. Counting',
+      diff: 'easy',
+    },
+    {
+      q: 'The abacus is:',
+      options: ['A. No longer used', 'B. Still used today', 'C. A modern chip', 'D. A transistor'],
+      answer: 'B. Still used today',
+      diff: 'easy',
+    },
+    {
+      q: 'The slide rule was used for:',
+      options: ['A. Gaming', 'B. Counting only', 'C. Multiplication and division', 'D. Printing'],
+      answer: 'C. Multiplication and division',
+      diff: 'medium',
+    },
+    {
+      q: 'Calculus is a branch of:',
+      options: ['A. Biology', 'B. Mathematics', 'C. Chemistry', 'D. Physics'],
+      answer: 'B. Mathematics',
+      diff: 'easy',
+    },
+    {
+      q: 'Who produced logarithm tables?',
+      options: ['A. Charles Babbage', 'B. Henry Briggs', 'C. Pascal', 'D. Newton'],
+      answer: 'B. Henry Briggs',
+      diff: 'medium',
+    },
+    {
+      q: 'Charles Babbage was:',
+      options: ['A. An American scientist', 'B. An English mathematician', 'C. A doctor', 'D. A physicist'],
+      answer: 'B. An English mathematician',
+      diff: 'easy',
+    },
+    {
+      q: 'Charles Babbage designed the:',
+      options: ['A. Calculator', 'B. Slide rule', 'C. Analytical Engine', 'D. Abacus'],
+      answer: 'C. Analytical Engine',
+      diff: 'easy',
+    },
+    {
+      q: 'Charles Babbage is called the:',
+      options: ['A. King of Computers', 'B. Father of Computers', 'C. Inventor of Internet', 'D. Father of Mathematics'],
+      answer: 'B. Father of Computers',
+      diff: 'easy',
+    },
+    {
+      q: 'First generation computers used:',
+      options: ['A. Chips', 'B. Transistors', 'C. Vacuum tubes', 'D. Microprocessors'],
+      answer: 'C. Vacuum tubes',
+      diff: 'easy',
+    },
+    {
+      q: 'Vacuum tube computers were:',
+      options: ['A. Small and fast', 'B. Large and slow', 'C. Wireless', 'D. Portable'],
+      answer: 'B. Large and slow',
+      diff: 'medium',
+    },
+    {
+      q: 'Digital computers were invented by:',
+      options: ['A. British scientists', 'B. Americans', 'C. Chinese scientists', 'D. Germans'],
+      answer: 'B. Americans',
+      diff: 'medium',
+    },
+    {
+      q: 'Transistors replaced:',
+      options: ['A. Chips', 'B. Vacuum tubes', 'C. Slide rules', 'D. Abacus'],
+      answer: 'B. Vacuum tubes',
+      diff: 'easy',
+    },
+    {
+      q: 'Transistors made computers:',
+      options: ['A. Larger', 'B. Slower', 'C. Smaller and faster', 'D. Mechanical'],
+      answer: 'C. Smaller and faster',
+      diff: 'easy',
+    },
+    {
+      q: 'Integrated circuits are also called:',
+      options: ['A. Tubes', 'B. Chips', 'C. Beads', 'D. Engines'],
+      answer: 'B. Chips',
+      diff: 'easy',
+    },
+    {
+      q: 'Microminiaturization means:',
+      options: ['A. Enlarging circuits', 'B. Reducing circuitry onto chips', 'C. Removing memory', 'D. Printing data'],
+      answer: 'B. Reducing circuitry onto chips',
+      diff: 'hard',
+    },
+    {
+      q: 'Modern computers have:',
+      options: ['A. Fewer circuits', 'B. No circuits', 'C. More circuits', 'D. Wooden parts'],
+      answer: 'C. More circuits',
+      diff: 'medium',
+    },
+    {
+      q: 'As computers evolved, their size:',
+      options: ['A. Increased', 'B. Decreased', 'C. Stayed the same', 'D. Disappeared'],
+      answer: 'B. Decreased',
+      diff: 'medium',
+    },
+    {
+      q: 'Modern computers are more:',
+      options: ['A. Expensive only', 'B. Dependable', 'C. Mechanical', 'D. Fragile'],
+      answer: 'B. Dependable',
+      diff: 'medium',
+    },
+    {
+      q: 'Future computers may be:',
+      options: ['A. Exactly the same', 'B. Very different from today’s computers', 'C. Impossible to build', 'D. Mechanical only'],
+      answer: 'B. Very different from today’s computers',
+      diff: 'easy',
+    },
+  ],
+},
+
+
+
+
   },
+  
 };
 
 export default mcqs;

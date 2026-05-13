@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home    from './pages/Home';
-import Levels  from './pages/Levels';
-import Upload  from './pages/Upload';
-import Quiz    from './components/Quiz';
-import Summary from './pages/Summary';
+import Home       from './pages/Home';
+import Levels     from './pages/Levels';
+import Upload     from './pages/Upload';
+import Quiz       from './components/Quiz';
+import Summary    from './pages/Summary';
+import PastPapers from './pages/PastPapers';
 
 export default function App() {
   const [page, setPage] = useState('home');
 
   if (page === 'home')
     return <Home setPage={setPage} />;
+
+  if (page === 'papers')
+    return <PastPapers setPage={setPage} />;
 
   if (page.startsWith('upload-')) {
     const [, subj, idx] = page.split('-');
