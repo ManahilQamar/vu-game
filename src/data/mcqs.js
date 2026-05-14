@@ -5279,6 +5279,2393 @@ Only quantities with the SAME dimensions can be added. v² = u² + 2at is dimens
         },
       ],
     },
+
+
+
+    // leacture 2//
+
+
+  2: {
+  title: 'Kinematics: Displacement, Velocity, Acceleration & Vectors (PHY101 Lecture 2)',
+  summary: `**Key Topics Covered:**
+- Displacement (Δx)
+- Average speed and average velocity
+- Instantaneous velocity
+- Average and instantaneous acceleration
+- Constant acceleration equations (kinematic equations)
+- Introduction to vectors (magnitude and direction)
+- Vector components (x and y)
+- Vector addition (graphical, parallelogram, component method)
+
+---
+
+**Simple Understanding:**
+
+**Position and Displacement:**
+👉 Position x(t) tells where an object is at time t.
+👉 Displacement Δx = x₂ – x₁ = change in position.
+👉 Can be positive or negative (depends on direction).
+👉 Example: from 10 m to 30 m → Δx = +20 m; from 30 m to 10 m → Δx = –20 m.
+
+**Speed vs Velocity:**
+👉 Average speed = Total distance / Total time (always positive)
+👉 Average velocity = Total displacement / Total time = Δx/Δt (can be positive or negative)
+👉 Velocity = speed with direction.
+
+**Instantaneous Velocity:**
+👉 Velocity at a specific instant.
+👉 Take Δt → 0 (approach zero, not equal to zero).
+👉 Slope of tangent on position–time graph.
+
+**Acceleration:**
+👉 Measures how velocity changes with time.
+👉 Average acceleration = Δv/Δt = (v₂ – v₁)/(t₂ – t₁)
+👉 Instantaneous acceleration = limit Δv/Δt as Δt → 0.
+👉 Acceleration can be positive (speeding up in + direction) or negative (slowing down or speeding up in – direction).
+👉 SI unit: m/s².
+
+**Constant Acceleration (Kinematic Equations):**
+For constant acceleration a, with initial position x₀, initial velocity v₀ at t=0:
+1. v = v₀ + a t
+2. x = x₀ + v₀ t + ½ a t²
+3. v² = v₀² + 2a (x – x₀)
+
+These equations describe motion with constant acceleration.
+
+---
+
+**Introduction to Vectors:**
+
+**Vector Properties:**
+👉 Magnitude (size/length) and Direction.
+👉 Example: position vector r from origin to point (x,y).
+
+**Vector Components:**
+👉 x-component: rₓ = x = r cosθ
+👉 y-component: rᵧ = y = r sinθ
+👉 Magnitude: r = √(x² + y²)
+👉 Direction: θ = tan⁻¹(y/x)
+
+**Vector Addition:**
+- **One dimension:** simple arithmetic (e.g., 20 m – 10 m = 10 m)
+- **Two dimensions:** use graphical methods (triangle, parallelogram) or component method.
+
+**Component Method for Vector Addition:**
+1. Break each vector into x and y components.
+2. Add all x-components: Rₓ = Aₓ + Bₓ
+3. Add all y-components: Rᵧ = Aᵧ + Bᵧ
+4. Magnitude: R = √(Rₓ² + Rᵧ²)
+5. Direction: θ = tan⁻¹(Rᵧ / Rₓ)
+
+---
+
+**Important Vocabulary:**
+- Kinematics = study of motion without considering causes
+- Displacement = change in position (vector)
+- Velocity = rate of change of position (vector)
+- Speed = magnitude of velocity (scalar)
+- Acceleration = rate of change of velocity (vector)
+- Instantaneous = at a specific moment (Δt → 0)
+- Constant acceleration = acceleration that does not change with time
+- Vector = quantity with magnitude and direction
+- Component = projection of vector onto an axis
+- Resultant = vector sum of two or more vectors
+
+---
+
+**Quick Revision Points:**
+- Displacement Δx = x₂ – x₁ (can be + or –)
+- Average velocity = Δx/Δt; average speed = total distance/total time
+- Instantaneous velocity = slope of x-t graph at a point
+- Average acceleration = Δv/Δt; instantaneous acceleration = slope of v-t graph
+- Constant acceleration equations: v = v₀ + at; x = x₀ + v₀t + ½at²; v² = v₀² + 2aΔx
+- Vectors have magnitude and direction; scalars have only magnitude.
+- Components: x = r cosθ, y = r sinθ; magnitude r = √(x²+y²)
+- Vector addition: add components separately, then find resultant magnitude and direction.`,
+
+  questions: [
+    {
+      q: 'The word "Kinematics" is derived from which language?',
+      options: ['A. Latin', 'B. Greek', 'C. Arabic', 'D. French'],
+      answer: 'B. Greek',
+      diff: 'easy',
+    },
+    {
+      q: 'Displacement is defined as:',
+      options: ['A. Total distance travelled', 'B. Change in position (x₂ – x₁)', 'C. Speed × time', 'D. Rate of change of velocity'],
+      answer: 'B. Change in position (x₂ – x₁)',
+      diff: 'easy',
+    },
+    {
+      q: 'If an object moves from 10 m to 30 m, its displacement is:',
+      options: ['A. 10 m', 'B. 20 m', 'C. 30 m', 'D. 40 m'],
+      answer: 'B. 20 m',
+      diff: 'easy',
+    },
+    {
+      q: 'If an object moves from 30 m to 10 m, its displacement is:',
+      options: ['A. +20 m', 'B. –20 m', 'C. 0 m', 'D. 40 m'],
+      answer: 'B. –20 m',
+      diff: 'easy',
+    },
+    {
+      q: 'Average speed is calculated as:',
+      options: ['A. Displacement / time', 'B. Total distance / total time', 'C. Change in velocity / time', 'D. Final velocity – initial velocity'],
+      answer: 'B. Total distance / total time',
+      diff: 'easy',
+    },
+    {
+      q: 'Average velocity is calculated as:',
+      options: ['A. Total distance / total time', 'B. Displacement / time', 'C. Acceleration × time', 'D. Final speed / 2'],
+      answer: 'B. Displacement / time',
+      diff: 'easy',
+    },
+    {
+      q: 'Which quantity can be negative?',
+      options: ['A. Distance', 'B. Speed', 'C. Displacement', 'D. Time'],
+      answer: 'C. Displacement',
+      diff: 'easy',
+    },
+    {
+      q: 'Instantaneous velocity is defined as:',
+      options: ['A. Average velocity over a long time', 'B. Velocity at a specific instant', 'C. Total distance divided by total time', 'D. Final velocity minus initial velocity'],
+      answer: 'B. Velocity at a specific instant',
+      diff: 'medium',
+    },
+    {
+      q: 'On a position–time graph, instantaneous velocity is the:',
+      options: ['A. Area under the curve', 'B. Slope of the tangent line', 'C. Intercept on the x-axis', 'D. Length of the curve'],
+      answer: 'B. Slope of the tangent line',
+      diff: 'medium',
+    },
+    {
+      q: 'Acceleration measures how:',
+      options: ['A. Position changes with time', 'B. Velocity changes with time', 'C. Distance changes with time', 'D. Speed changes with distance'],
+      answer: 'B. Velocity changes with time',
+      diff: 'easy',
+    },
+    {
+      q: 'Average acceleration is given by:',
+      options: ['A. Δx/Δt', 'B. Δv/Δt', 'C. v/t', 'D. x/t'],
+      answer: 'B. Δv/Δt',
+      diff: 'easy',
+    },
+    {
+      q: 'The SI unit of acceleration is:',
+      options: ['A. m/s', 'B. m/s²', 'C. m²/s', 'D. s/m²'],
+      answer: 'B. m/s²',
+      diff: 'easy',
+    },
+    {
+      q: 'If an object’s velocity increases in the positive x-direction, its acceleration is:',
+      options: ['A. Positive', 'B. Negative', 'C. Zero', 'D. Constant but negative'],
+      answer: 'A. Positive',
+      diff: 'medium',
+    },
+    {
+      q: 'For constant acceleration, which equation gives velocity as a function of time?',
+      options: ['A. v = v₀ + at', 'B. x = x₀ + v₀t + ½at²', 'C. v² = v₀² + 2aΔx', 'D. v = Δx/Δt'],
+      answer: 'A. v = v₀ + at',
+      diff: 'easy',
+    },
+    {
+      q: 'For constant acceleration, which equation gives position as a function of time?',
+      options: ['A. v = v₀ + at', 'B. x = x₀ + v₀t + ½at²', 'C. v² = v₀² + 2aΔx', 'D. a = Δv/Δt'],
+      answer: 'B. x = x₀ + v₀t + ½at²',
+      diff: 'easy',
+    },
+    {
+      q: 'The equation v² = v₀² + 2aΔx is useful when:',
+      options: ['A. Time is known', 'B. Time is not known', 'C. Acceleration is zero', 'D. Velocity is constant'],
+      answer: 'B. Time is not known',
+      diff: 'medium',
+    },
+    {
+      q: 'A car starts from rest (v₀ = 0) and accelerates at 2 m/s² for 5 seconds. Its final velocity is:',
+      options: ['A. 2 m/s', 'B. 5 m/s', 'C. 10 m/s', 'D. 25 m/s'],
+      answer: 'C. 10 m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A vector has:',
+      options: ['A. Magnitude only', 'B. Direction only', 'C. Both magnitude and direction', 'D. Neither magnitude nor direction'],
+      answer: 'C. Both magnitude and direction',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is a vector quantity?',
+      options: ['A. Speed', 'B. Distance', 'C. Velocity', 'D. Time'],
+      answer: 'C. Velocity',
+      diff: 'easy',
+    },
+    {
+      q: 'The x-component of a vector with magnitude r and angle θ is:',
+      options: ['A. r sinθ', 'B. r cosθ', 'C. r tanθ', 'D. r / cosθ'],
+      answer: 'B. r cosθ',
+      diff: 'easy',
+    },
+    {
+      q: 'The y-component of a vector with magnitude r and angle θ is:',
+      options: ['A. r sinθ', 'B. r cosθ', 'C. r tanθ', 'D. r / sinθ'],
+      answer: 'A. r sinθ',
+      diff: 'easy',
+    },
+    {
+      q: 'The magnitude of a vector with components (3,4) is:',
+      options: ['A. 5', 'B. 7', 'C. 12', 'D. 25'],
+      answer: 'A. 5',
+      diff: 'easy',
+    },
+    {
+      q: 'The direction (angle) of a vector with components (3,4) is approximately:',
+      options: ['A. 37°', 'B. 45°', 'C. 53°', 'D. 60°'],
+      answer: 'C. 53°',
+      diff: 'medium',
+    },
+    {
+      q: 'When adding two vectors using the component method, the resultant x-component is:',
+      options: ['A. Aₓ – Bₓ', 'B. Aₓ + Bₓ', 'C. Aₓ × Bₓ', 'D. Aₓ / Bₓ'],
+      answer: 'B. Aₓ + Bₓ',
+      diff: 'easy',
+    },
+    {
+      q: 'The parallelogram method is used for:',
+      options: ['A. Subtracting vectors', 'B. Multiplying vectors', 'C. Adding two vectors', 'D. Finding components'],
+      answer: 'C. Adding two vectors',
+      diff: 'easy',
+    },
+    {
+      q: 'If a car moves with constant speed but changes direction, its velocity:',
+      options: ['A. Is constant', 'B. Changes because direction changes', 'C. Remains the same magnitude and direction', 'D. Becomes zero'],
+      answer: 'B. Changes because direction changes',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+
+// lecture 3 //
+
+  3: {
+  title: 'Kinematics-II: Position Functions, Derivatives, Vectors & Projectile Motion (PHY101 Lecture 3)',
+  summary: `**Key Topics Covered:**
+- Position function x(t) as a polynomial in time
+- Dimensions of constants (L, L/T, L/T², L/T³)
+- Derivatives: velocity as dx/dt, acceleration as d²x/dt²
+- Geometric interpretation of derivative as slope
+- Motion in two dimensions (2D)
+- Unit vectors (î, ĵ, k̂) and vector components
+- Velocity and acceleration in 2D
+- Vector addition and scalar (dot) product
+- Projectile motion: independence of x and y motions
+- Maximum height (H) and range (R) formulas
+
+---
+
+**Simple Understanding:**
+
+**Position Function:**
+👉 x(t) = c₀ + c₁t + c₂t² + c₃t³ + ...
+👉 c₀, c₁, c₂, c₃ are constants (do not change with time).
+👉 At t=0, x = c₀ (initial position).
+👉 Dimensions must match: c₀ has dimension L (length), c₁ has L/T, c₂ has L/T², c₃ has L/T³.
+
+**Derivatives (Newton’s invention):**
+👉 Derivative = rate of change. Velocity = dx/dt, Acceleration = dv/dt = d²x/dt².
+👉 For x(t) = tⁿ, derivative = n·tⁿ⁻¹.
+👉 Derivative of constant = 0.
+👉 Geometric meaning: slope (gradient) of tangent line on x-t graph.
+👉 Positive slope → positive velocity; negative slope → negative velocity.
+
+**Kinematic equations from derivatives:**
+👉 Given x = x₀ + v₀t + ½at² → dx/dt = v₀ + at = v, dv/dt = a.
+
+**A car at rest can have acceleration:**
+👉 At t=0, v=0 but a ≠ 0 (e.g., starting from rest).
+👉 Acceleration and velocity can be in opposite directions.
+
+---
+
+**Motion in 2 Dimensions:**
+
+**Unit Vectors:**
+👉 î (x-direction), ĵ (y-direction), k̂ (z-direction). Magnitude = 1 (no units).
+👉 Any vector: A⃗ = Aₓî + Aᵧĵ
+
+**Velocity in 2D:**
+👉 r⃗ = x(t)î + y(t)ĵ
+👉 v⃗ = dr⃗/dt = (dx/dt)î + (dy/dt)ĵ = vₓî + vᵧĵ
+
+**Acceleration in 2D:**
+👉 a⃗ = dv⃗/dt = (dvₓ/dt)î + (dvᵧ/dt)ĵ = aₓî + aᵧĵ
+
+**Vector Addition:**
+👉 Add components: Rₓ = Aₓ + Bₓ, Rᵧ = Aᵧ + Bᵧ
+
+**Scalar (Dot) Product:**
+👉 A⃗·B⃗ = |A||B| cosθ
+👉 î·î = ĵ·ĵ = 1, î·ĵ = 0
+👉 A⃗·B⃗ = AₓBₓ + AᵧBᵧ (in 2D), plus A₂B₂ in 3D.
+
+---
+
+**Projectile Motion:**
+👉 Acceleration only in y-direction: aᵧ = –g, aₓ = 0.
+👉 Initial velocity: v₀ₓ = v₀ cosθ, v₀ᵧ = v₀ sinθ.
+👉 x-direction: constant velocity → x = (v₀ cosθ) t
+👉 y-direction: y = (v₀ sinθ) t – ½ g t², vᵧ = v₀ sinθ – g t
+
+**Maximum Height (H):**
+👉 At top, vᵧ = 0 → t = v₀ sinθ / g
+👉 H = (v₀ sinθ)² / (2g)
+👉 Max when sinθ = 1 (θ = 90°): H_max = v₀²/(2g)
+
+**Range (R):**
+👉 Time of flight = 2 v₀ sinθ / g
+👉 R = v₀ cosθ × time = (v₀² sin2θ)/g
+👉 Maximum range when sin2θ = 1 → θ = 45°
+👉 R_max = v₀²/g
+
+---
+
+**Important Vocabulary:**
+- Position function = x(t) describing location over time
+- Constant = fixed value not changing with time
+- Derivative = rate of change (dx/dt)
+- Slope = gradient of tangent line
+- Unit vector = vector of magnitude 1 (direction only)
+- Component = projection onto an axis
+- Scalar product = dot product (A·B)
+- Projectile = object moving under gravity with no other forces
+- Trajectory = path of projectile (parabolic)
+- Maximum height = highest vertical position
+- Range = total horizontal distance traveled
+
+---
+
+**Quick Revision Points:**
+- Position function x(t) = sum of powers of t with constant coefficients.
+- Dimensions: [c₀]=L, [c₁]=L/T, [c₂]=L/T², [c₃]=L/T³.
+- Derivative of tⁿ is n·tⁿ⁻¹.
+- Velocity = dx/dt; acceleration = d²x/dt².
+- Unit vectors î, ĵ, k̂ have magnitude 1.
+- In 2D: v⃗ = vₓî + vᵧĵ; a⃗ = aₓî + aᵧĵ.
+- Dot product: A·B = |A||B|cosθ = AₓBₓ + AᵧBᵧ.
+- Projectile: aₓ = 0, aᵧ = –g.
+- H = (v₀ sinθ)²/(2g); R = v₀² sin2θ / g.
+- Max H at θ=90°; Max R at θ=45°.`,
+
+  questions: [
+    {
+      q: 'The position function x(t) is expressed as a polynomial in:',
+      options: ['A. Position', 'B. Velocity', 'C. Time', 'D. Acceleration'],
+      answer: 'C. Time',
+      diff: 'easy',
+    },
+    {
+      q: 'In x(t) = c₀ + c₁t + c₂t² + c₃t³, the constant c₀ has dimension:',
+      options: ['A. L/T', 'B. L/T²', 'C. L', 'D. T'],
+      answer: 'C. L',
+      diff: 'medium',
+    },
+    {
+      q: 'The constant c₁ in the position function has dimension:',
+      options: ['A. L', 'B. L/T', 'C. L/T²', 'D. L/T³'],
+      answer: 'B. L/T',
+      diff: 'medium',
+    },
+    {
+      q: 'Derivative of a constant is:',
+      options: ['A. 1', 'B. 0', 'C. Constant itself', 'D. Undefined'],
+      answer: 'B. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'If x(t) = t², then dx/dt equals:',
+      options: ['A. t', 'B. 2t', 'C. t²', 'D. 2'],
+      answer: 'B. 2t',
+      diff: 'easy',
+    },
+    {
+      q: 'If x(t) = t³, then dx/dt equals:',
+      options: ['A. 3t²', 'B. 3t', 'C. t³', 'D. 2t²'],
+      answer: 'A. 3t²',
+      diff: 'easy',
+    },
+    {
+      q: 'In general, the derivative of tⁿ (where n is an integer) is:',
+      options: ['A. n·tⁿ', 'B. (n-1)·tⁿ⁻¹', 'C. n·tⁿ⁻¹', 'D. tⁿ⁻¹'],
+      answer: 'C. n·tⁿ⁻¹',
+      diff: 'easy',
+    },
+    {
+      q: 'The derivative dx/dt represents:',
+      options: ['A. Acceleration', 'B. Displacement', 'C. Velocity', 'D. Jerk'],
+      answer: 'C. Velocity',
+      diff: 'easy',
+    },
+    {
+      q: 'The second derivative d²x/dt² represents:',
+      options: ['A. Velocity', 'B. Acceleration', 'C. Displacement', 'D. Speed'],
+      answer: 'B. Acceleration',
+      diff: 'easy',
+    },
+    {
+      q: 'Geometrically, the derivative at a point on x-t graph is the:',
+      options: ['A. Area under curve', 'B. Slope of tangent', 'C. Length of curve', 'D. Intercept'],
+      answer: 'B. Slope of tangent',
+      diff: 'easy',
+    },
+    {
+      q: 'A car can have acceleration while at rest because:',
+      options: ['A. Velocity is zero but change in velocity can be non-zero', 'B. Speed is always zero', 'C. Acceleration is independent of velocity', 'D. Both B and C'],
+      answer: 'A. Velocity is zero but change in velocity can be non-zero',
+      diff: 'medium',
+    },
+    {
+      q: 'A unit vector has magnitude:',
+      options: ['A. 0', 'B. 1', 'C. Depends on direction', 'D. Infinite'],
+      answer: 'B. 1',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following are perpendicular unit vectors?',
+      options: ['A. î and î', 'B. î and ĵ', 'C. î and k̂', 'D. Both B and C'],
+      answer: 'D. Both B and C',
+      diff: 'easy',
+    },
+    {
+      q: 'The dot product î·ĵ equals:',
+      options: ['A. 1', 'B. 0', 'C. -1', 'D. Undefined'],
+      answer: 'B. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'The dot product î·î equals:',
+      options: ['A. 0', 'B. 1', 'C. -1', 'D. î'],
+      answer: 'B. 1',
+      diff: 'easy',
+    },
+    {
+      q: 'If A⃗ = 3î + 4ĵ and B⃗ = 2î + 5ĵ, then A⃗·B⃗ equals:',
+      options: ['A. 26', 'B. 6', 'C. 20', 'D. 14'],
+      answer: 'A. 26',
+      diff: 'medium',
+    },
+    {
+      q: 'For a projectile, acceleration in x-direction is:',
+      options: ['A. –g', 'B. 0', 'C. g', 'D. Depends on angle'],
+      answer: 'B. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'For a projectile, acceleration in y-direction is:',
+      options: ['A. 0', 'B. g upward', 'C. –g', 'D. Constant velocity'],
+      answer: 'C. –g',
+      diff: 'easy',
+    },
+    {
+      q: 'At the highest point of projectile motion, the vertical velocity vᵧ is:',
+      options: ['A. Maximum', 'B. Minimum but positive', 'C. Zero', 'D. Equal to v₀'],
+      answer: 'C. Zero',
+      diff: 'easy',
+    },
+    {
+      q: 'The formula for maximum height H of a projectile is:',
+      options: ['A. (v₀² sin²θ)/(2g)', 'B. (v₀² sin2θ)/g', 'C. (v₀² cos²θ)/(2g)', 'D. (v₀²)/g'],
+      answer: 'A. (v₀² sin²θ)/(2g)',
+      diff: 'medium',
+    },
+    {
+      q: 'The angle for maximum height (maximum vertical ascent) is:',
+      options: ['A. 0°', 'B. 45°', 'C. 90°', 'D. 30°'],
+      answer: 'C. 90°',
+      diff: 'easy',
+    },
+    {
+      q: 'The formula for horizontal range R of a projectile is:',
+      options: ['A. (v₀² sin²θ)/g', 'B. (v₀² sin2θ)/g', 'C. (v₀² cos2θ)/g', 'D. (v₀²)/2g'],
+      answer: 'B. (v₀² sin2θ)/g',
+      diff: 'medium',
+    },
+    {
+      q: 'The angle for maximum range of a projectile (on flat ground) is:',
+      options: ['A. 30°', 'B. 45°', 'C. 60°', 'D. 90°'],
+      answer: 'B. 45°',
+      diff: 'easy',
+    },
+    {
+      q: 'Maximum range R_max equals:',
+      options: ['A. v₀²/(2g)', 'B. v₀²/g', 'C. 2v₀²/g', 'D. v₀² sin²θ/g'],
+      answer: 'B. v₀²/g',
+      diff: 'hard',
+    },
+    {
+      q: 'The time to reach maximum height for a projectile is:',
+      options: ['A. v₀ sinθ / g', 'B. 2v₀ sinθ / g', 'C. v₀ cosθ / g', 'D. v₀ / g'],
+      answer: 'A. v₀ sinθ / g',
+      diff: 'medium',
+    },
+    {
+      q: 'If two vectors are perpendicular, their dot product is:',
+      options: ['A. Maximum', 'B. Minimum positive', 'C. Zero', 'D. Equal to product of magnitudes'],
+      answer: 'C. Zero',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+// lecture 4//
+
+
+   4: {
+  title: 'Force and Newton’s Laws of Motion (PHY101 Lecture 4)',
+  summary: `**Key Topics Covered:**
+- Dynamics: study of forces and resulting motion
+- Newton’s First Law (Law of Inertia)
+- Frames of reference (inertial and non-inertial)
+- Newton’s Second Law (F = ma)
+- Concept of mass vs weight
+- Newton’s Third Law (Action-Reaction)
+- Vector nature of force
+- Common misconceptions about Newton’s laws
+
+---
+
+**Simple Understanding:**
+
+**From Kinematics to Dynamics:**
+👉 Kinematics describes motion (displacement, velocity, acceleration).
+👉 Dynamics asks: What causes acceleration? Answer: FORCE.
+👉 Before Newton: believed natural state is rest; motion requires a force.
+👉 Newton’s revolution: natural state is to keep doing whatever it’s doing (rest or uniform motion).
+
+**Newton’s First Law (Law of Inertia):**
+👉 An object at rest stays at rest, and an object in motion stays in motion with constant speed in a straight line, unless acted upon by an external force.
+👉 This is also called the law of inertia.
+👉 Inertia = resistance to change in motion. More mass = more inertia.
+
+**Frames of Reference:**
+👉 Inertial frame: moves with constant velocity (a=0). Newton’s laws hold.
+👉 Non-inertial frame: accelerates (a≠0). Newton’s laws appear to fail; fictitious forces seem to act.
+
+**Newton’s Second Law:**
+👉 The net external force on an object equals its mass times acceleration: F_net = m a
+👉 a = F_net / m  (acceleration is in direction of net force)
+👉 Force is a vector: add forces using components.
+👉 SI unit: Newton (N) = 1 kg·m/s²
+
+**Mass vs Weight:**
+👉 Mass (m) = amount of matter, scalar, same everywhere, never zero.
+👉 Weight (W) = force due to gravity: W = m g (vector, directed downward).
+👉 Weight changes with location (g varies). Mass does not.
+
+**Newton’s Third Law:**
+👉 For every action, there is an equal and opposite reaction.
+👉 If object A exerts force F on object B, then B exerts force –F on A.
+👉 Action and reaction act on different objects, so they do not cancel.
+
+---
+
+**Important Clarifications (Misconceptions):**
+1. A moving object does NOT need a net force if it moves at constant velocity (First law).
+2. Equal & opposite forces are NOT always action-reaction pairs (e.g., weight and normal force on a book).
+3. A force on an object does NOT always cause acceleration – only a net (unbalanced) force does.
+
+---
+
+**Everyday Examples:**
+- Pushing a light cart vs heavy car – inertia depends on mass.
+- Walking: you push ground backward, ground pushes you forward.
+- Horse pulling cart: horse pushes ground backward, ground pushes horse forward; net forward force moves cart.
+- Rubber band extends more with more force – measures force.
+
+---
+
+**Important Vocabulary:**
+- Dynamics = study of forces and motion
+- Force = push or pull (vector)
+- Inertia = resistance to change in motion
+- Inertial frame = non-accelerating reference frame
+- Non-inertial frame = accelerating reference frame
+- Fictitious force = apparent force in non-inertial frame
+- Net force = vector sum of all external forces
+- Mass = measure of inertia (scalar, kg)
+- Weight = force due to gravity (W = mg, N)
+- Action-reaction pair = equal opposite forces on different objects
+
+---
+
+**Quick Revision Points:**
+- Newton’s 1st law: no net force → constant velocity (or rest).
+- Inertia depends on mass; larger mass → larger inertia.
+- Inertial frames: Newton’s laws hold.
+- Newton’s 2nd law: F_net = m a (vector equation).
+- 1 N = 1 kg·m/s².
+- Weight = m g (g = 9.8 m/s² on Earth).
+- Newton’s 3rd law: F_AonB = – F_BonA (action-reaction on different bodies).
+- Action-reaction forces do NOT cancel because they act on different objects.
+- Net force is needed for acceleration, not for constant velocity.`,
+
+  questions: [
+    {
+      q: 'Dynamics is the study of:',
+      options: ['A. Motion without causes', 'B. Forces and resulting motion', 'C. Displacement only', 'D. Vectors only'],
+      answer: 'B. Forces and resulting motion',
+      diff: 'easy',
+    },
+    {
+      q: 'Before Newton, the common belief about motion was that:',
+      options: ['A. Objects naturally continue moving', 'B. Natural state is rest', 'C. Force is not needed for motion', 'D. All motion is circular'],
+      answer: 'B. Natural state is rest',
+      diff: 'easy',
+    },
+    {
+      q: 'Newton’s First Law is also called the law of:',
+      options: ['A. Acceleration', 'B. Action-Reaction', 'C. Inertia', 'D. Gravity'],
+      answer: 'C. Inertia',
+      diff: 'easy',
+    },
+    {
+      q: 'Inertia is the resistance to change in:',
+      options: ['A. Mass', 'B. Weight', 'C. Motion', 'D. Shape'],
+      answer: 'C. Motion',
+      diff: 'easy',
+    },
+    {
+      q: 'A body moving with constant velocity has a net force:',
+      options: ['A. Greater than zero', 'B. Equal to zero', 'C. Less than zero', 'D. Proportional to velocity'],
+      answer: 'B. Equal to zero',
+      diff: 'easy',
+    },
+    {
+      q: 'An inertial frame of reference is one that:',
+      options: ['A. Accelerates', 'B. Rotates', 'C. Moves with constant velocity', 'D. Is stationary only'],
+      answer: 'C. Moves with constant velocity',
+      diff: 'medium',
+    },
+    {
+      q: 'Newton’s laws are valid in:',
+      options: ['A. Non-inertial frames only', 'B. Inertial frames only', 'C. All frames', 'D. Accelerating frames'],
+      answer: 'B. Inertial frames only',
+      diff: 'medium',
+    },
+    {
+      q: 'A non-inertial frame is one that:',
+      options: ['A. Has constant velocity', 'B. Is at rest', 'C. Accelerates', 'D. Is far from all masses'],
+      answer: 'C. Accelerates',
+      diff: 'easy',
+    },
+    {
+      q: 'Newton’s Second Law states that F_net =:',
+      options: ['A. m/v', 'B. m a', 'C. m g', 'D. a/m'],
+      answer: 'B. m a',
+      diff: 'easy',
+    },
+    {
+      q: 'The SI unit of force is:',
+      options: ['A. Joule', 'B. Watt', 'C. Newton', 'D. Pascal'],
+      answer: 'C. Newton',
+      diff: 'easy',
+    },
+    {
+      q: 'One Newton is defined as:',
+      options: ['A. 1 kg·m/s', 'B. 1 kg·m/s²', 'C. 1 g·cm/s²', 'D. 1 kg·m²/s²'],
+      answer: 'B. 1 kg·m/s²',
+      diff: 'medium',
+    },
+    {
+      q: 'Weight is defined as:',
+      options: ['A. Mass × velocity', 'B. Mass × acceleration due to gravity', 'C. Force × time', 'D. Mass × distance'],
+      answer: 'B. Mass × acceleration due to gravity',
+      diff: 'easy',
+    },
+    {
+      q: 'If an object has mass 10 kg on Earth, its mass on the Moon is:',
+      options: ['A. 10 kg', 'B. 1.67 kg', 'C. 60 kg', 'D. 0 kg'],
+      answer: 'A. 10 kg',
+      diff: 'easy',
+    },
+    {
+      q: 'Weight of a 10 kg object on Earth (g=9.8 m/s²) is:',
+      options: ['A. 10 N', 'B. 98 N', 'C. 9.8 N', 'D. 0.98 N'],
+      answer: 'B. 98 N',
+      diff: 'easy',
+    },
+    {
+      q: 'Newton’s Third Law states that action and reaction forces:',
+      options: ['A. Act on the same body', 'B. Cancel each other', 'C. Act on different bodies', 'D. Are always in the same direction'],
+      answer: 'C. Act on different bodies',
+      diff: 'easy',
+    },
+    {
+      q: 'Action-reaction forces are:',
+      options: ['A. Equal in magnitude and opposite in direction', 'B. Unequal in magnitude', 'C. In the same direction', 'D. Always contact forces'],
+      answer: 'A. Equal in magnitude and opposite in direction',
+      diff: 'easy',
+    },
+    {
+      q: 'Why does a person move forward when walking?',
+      options: ['A. They push the ground forward', 'B. The ground pushes them forward', 'C. Friction is absent', 'D. Newton’s first law only'],
+      answer: 'B. The ground pushes them forward',
+      diff: 'medium',
+    },
+    {
+      q: 'A horse claims it cannot pull a cart because the cart pulls back equally. Why does the cart move?',
+      options: ['A. Horse’s force is greater', 'B. Action-reaction cancel on the cart', 'C. Horse pushes ground backward, ground pushes horse forward; net force on system is forward', 'D. Newton’s second law fails'],
+      answer: 'C. Horse pushes ground backward, ground pushes horse forward; net force on system is forward',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is an action-reaction pair?',
+      options: ['A. Weight of a book and normal force from table', 'B. Earth pulling apple and apple pulling Earth', 'C. Friction and normal force', 'D. Tension in a rope and weight'],
+      answer: 'B. Earth pulling apple and apple pulling Earth',
+      diff: 'medium',
+    },
+    {
+      q: 'If a box is pushed with 10 N to the right and friction exerts 10 N to the left, the net force is:',
+      options: ['A. 20 N right', 'B. 20 N left', 'C. 0 N', 'D. 10 N up'],
+      answer: 'C. 0 N',
+      diff: 'easy',
+    },
+    {
+      q: 'If a net force of 20 N acts on a 4 kg object, its acceleration is:',
+      options: ['A. 5 m/s²', 'B. 80 m/s²', 'C. 0.2 m/s²', 'D. 24 m/s²'],
+      answer: 'A. 5 m/s²',
+      diff: 'easy',
+    },
+    {
+      q: 'If a force of 30 N gives an object acceleration of 6 m/s², the mass is:',
+      options: ['A. 180 kg', 'B. 5 kg', 'C. 36 kg', 'D. 0.2 kg'],
+      answer: 'B. 5 kg',
+      diff: 'easy',
+    },
+    {
+      q: 'Force is a vector because it has:',
+      options: ['A. Magnitude only', 'B. Direction only', 'C. Both magnitude and direction', 'D. Neither'],
+      answer: 'C. Both magnitude and direction',
+      diff: 'easy',
+    },
+    {
+      q: 'Which statement is true about a free particle (no net force)?',
+      options: ['A. It must be at rest', 'B. It moves with constant velocity', 'C. It accelerates', 'D. It cannot exist in reality but is a useful abstraction'],
+      answer: 'D. It cannot exist in reality but is a useful abstraction',
+      diff: 'medium',
+    },
+    {
+      q: 'In the dimension formula, force has dimensions:',
+      options: ['A. MLT⁻¹', 'B. MLT⁻²', 'C. ML²T⁻²', 'D. MT⁻²'],
+      answer: 'B. MLT⁻²',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+
+// lecture 5 //
+
+
+
+
+ 5: {
+  title: 'Applications of Newton’s Laws – I: Equilibrium, Tension, Friction, Inclined Plane (PHY101 Lecture 5)',
+  summary: `**Key Topics Covered:**
+- Equilibrium: state where net force is zero (at rest or constant velocity)
+- Normal force and equilibrium examples (apple on table, aircraft at constant speed)
+- Tension in strings: massless string → constant tension; massive string → tension varies
+- Changing direction of tension using pulleys
+- Friction: kinetic friction (constant) and static friction (variable up to max)
+- Coefficient of friction (μₖ and μₛ)
+- Frictional dynamics: F_applied – f_friction = m a
+- Inclined plane and angle of repose (α = tan⁻¹μₛ)
+- Empirical vs fundamental laws
+
+---
+
+**Simple Understanding:**
+
+**Equilibrium:**
+👉 State where sum of all forces = 0 (net force = 0).
+👉 Object can be at rest OR moving with constant velocity.
+👉 Example: apple on table – gravity pulls down, normal force pushes up; they cancel.
+👉 Example: aircraft flying at constant speed and altitude – net force = 0.
+
+**Normal Force:**
+👉 Perpendicular force from a surface.
+👉 For horizontal surface: N = mg.
+👉 For inclined plane: N = mg cosθ.
+
+**Tension in Strings:**
+👉 For a massless (ideal) string: tension is constant throughout.
+👉 For a massive rope: tension is greater at the top (supports more weight).
+👉 Pulleys change direction of tension without changing magnitude (ideal pulley).
+
+**Friction:**
+👉 Opposes motion (or attempted motion) between surfaces in contact.
+👉 Microscopic roughness causes friction.
+
+**Kinetic Friction (fₖ):**
+👉 Acts when object is already moving.
+👉 Constant magnitude: fₖ = μₖ N = μₖ mg (on horizontal surface).
+👉 Independent of speed and contact area (empirical, limited validity).
+
+**Static Friction (fₛ):**
+👉 Acts when object is at rest.
+👉 Variable: fₛ = applied force (up to a maximum).
+👉 Maximum static friction: fₛ(max) = μₛ N.
+👉 μₛ > μₖ generally (harder to start motion than to keep it moving).
+
+**Inclined Plane & Angle of Repose:**
+👉 As angle increases, normal force decreases (N = mg cosθ).
+👉 Component of gravity along plane = mg sinθ.
+👉 At angle of repose (α): mg sinα = μₛ mg cosα → tanα = μₛ → α = tan⁻¹(μₛ).
+👉 If μₛ = 0, α = 0° (no friction → no incline needed to slide).
+
+**Empirical vs Fundamental Laws:**
+- Empirical (e.g., friction laws): based on observation, limited scope.
+- Fundamental (e.g., Newton’s laws): universal, apply everywhere.
+
+---
+
+**Important Vocabulary:**
+- Equilibrium = net force = 0 (rest or constant velocity)
+- Normal force = perpendicular contact force
+- Tension = pulling force transmitted through a string/rope
+- Massless string = ideal string with constant tension
+- Kinetic friction = friction during motion (constant)
+- Static friction = friction at rest (adjustable, has maximum)
+- Coefficient of friction (μ) = ratio of frictional force to normal force
+- Angle of repose = maximum incline angle before sliding starts
+- Empirical law = law based on observation, not derived from first principles
+
+---
+
+**Quick Revision Points:**
+- Equilibrium does not mean no forces; it means net force = 0.
+- Normal force is perpendicular to surface.
+- For massless string: tension same everywhere.
+- Pulley changes direction of tension.
+- Kinetic friction: fₖ = μₖ N (constant).
+- Static friction: fₛ ≤ μₛ N; adjusts to match applied force.
+- μₛ > μₖ typically.
+- On incline: N = mg cosθ; downhill force = mg sinθ.
+- Angle of repose α = tan⁻¹(μₛ).
+- Friction is empirical; Newton’s laws are fundamental.`,
+
+  questions: [
+    {
+      q: 'A body is in equilibrium when:',
+      options: ['A. No forces act on it', 'B. The net force is zero', 'C. It is at rest only', 'D. It is moving only'],
+      answer: 'B. The net force is zero',
+      diff: 'easy',
+    },
+    {
+      q: 'An apple resting on a table experiences:',
+      options: ['A. Only gravity', 'B. Only normal force', 'C. Both gravity and normal force, which cancel', 'D. Neither gravity nor normal force'],
+      answer: 'C. Both gravity and normal force, which cancel',
+      diff: 'easy',
+    },
+    {
+      q: 'For an object on a horizontal surface, the normal force N equals:',
+      options: ['A. mg', 'B. m/g', 'C. g/m', 'D. 0'],
+      answer: 'A. mg',
+      diff: 'easy',
+    },
+    {
+      q: 'An aircraft flying at constant speed and constant altitude is:',
+      options: ['A. Not in equilibrium', 'B. In equilibrium because net force is zero', 'C. Accelerating downward', 'D. Accelerating forward'],
+      answer: 'B. In equilibrium because net force is zero',
+      diff: 'medium',
+    },
+    {
+      q: 'For an ideal (massless) string, tension is:',
+      options: ['A. Zero', 'B. Different at every point', 'C. Constant throughout', 'D. Equal to weight only'],
+      answer: 'C. Constant throughout',
+      diff: 'easy',
+    },
+    {
+      q: 'In a massive rope hanging vertically, tension is:',
+      options: ['A. Same at top and bottom', 'B. Greater at the bottom', 'C. Greater at the top', 'D. Zero everywhere'],
+      answer: 'C. Greater at the top',
+      diff: 'medium',
+    },
+    {
+      q: 'A pulley changes the ________ of tension without changing its magnitude (ideal case).',
+      options: ['A. Direction', 'B. Magnitude', 'C. Both direction and magnitude', 'D. Neither'],
+      answer: 'A. Direction',
+      diff: 'easy',
+    },
+    {
+      q: 'Kinetic friction acts when:',
+      options: ['A. The object is at rest', 'B. The object is moving', 'C. No force is applied', 'D. The object is in equilibrium'],
+      answer: 'B. The object is moving',
+      diff: 'easy',
+    },
+    {
+      q: 'The formula for kinetic friction is fₖ =:',
+      options: ['A. μₛ N', 'B. μₖ N', 'C. μₖ mg (on horizontal surface)', 'D. Both B and C'],
+      answer: 'D. Both B and C',
+      diff: 'easy',
+    },
+    {
+      q: 'Static friction is:',
+      options: ['A. Constant regardless of applied force', 'B. Variable and adjusts to match applied force up to a maximum', 'C. Always equal to μₛ N', 'D. Always zero'],
+      answer: 'B. Variable and adjusts to match applied force up to a maximum',
+      diff: 'medium',
+    },
+    {
+      q: 'The maximum static friction is given by:',
+      options: ['A. μₖ N', 'B. μₛ N', 'C. mg', 'D. μₛ mg only'],
+      answer: 'B. μₛ N',
+      diff: 'easy',
+    },
+    {
+      q: 'Typically, μₛ (coefficient of static friction) is:',
+      options: ['A. Less than μₖ', 'B. Equal to μₖ', 'C. Greater than μₖ', 'D. Zero'],
+      answer: 'C. Greater than μₖ',
+      diff: 'easy',
+    },
+    {
+      q: 'Which statement about friction is TRUE?',
+      options: ['A. Friction is independent of normal force', 'B. Friction depends on contact area', 'C. Kinetic friction is constant for given surfaces', 'D. Static friction has a fixed value'],
+      answer: 'C. Kinetic friction is constant for given surfaces',
+      diff: 'medium',
+    },
+    {
+      q: 'The frictional force law (f = μN) is considered:',
+      options: ['A. A fundamental law like Newton’s laws', 'B. An empirical law with limited scope', 'C. Always exact', 'D. Valid for extremely large weights'],
+      answer: 'B. An empirical law with limited scope',
+      diff: 'hard',
+    },
+    {
+      q: 'On an inclined plane, the component of weight parallel to the plane is:',
+      options: ['A. mg cosθ', 'B. mg sinθ', 'C. mg tanθ', 'D. mg'],
+      answer: 'B. mg sinθ',
+      diff: 'easy',
+    },
+    {
+      q: 'On an inclined plane, the normal force N equals:',
+      options: ['A. mg cosθ', 'B. mg sinθ', 'C. mg', 'D. mg tanθ'],
+      answer: 'A. mg cosθ',
+      diff: 'easy',
+    },
+    {
+      q: 'The angle of repose is the angle at which an object just begins to slide. It is given by:',
+      options: ['A. α = tan⁻¹(μₖ)', 'B. α = tan⁻¹(μₛ)', 'C. α = sin⁻¹(μₛ)', 'D. α = cos⁻¹(μₛ)'],
+      answer: 'B. α = tan⁻¹(μₛ)',
+      diff: 'medium',
+    },
+    {
+      q: 'If the coefficient of static friction is 0.5, the angle of repose is approximately:',
+      options: ['A. 26.6°', 'B. 45°', 'C. 60°', 'D. 30°'],
+      answer: 'A. 26.6°',
+      diff: 'medium',
+    },
+    {
+      q: 'If the surface is frictionless (μₛ = 0), the angle of repose is:',
+      options: ['A. 90°', 'B. 45°', 'C. 0°', 'D. 30°'],
+      answer: 'C. 0°',
+      diff: 'medium',
+    },
+    {
+      q: 'Why are brakes less effective on an inclined road?',
+      options: ['A. Normal force decreases, so friction decreases', 'B. Gravity helps braking', 'C. Coefficient of friction changes', 'D. Weight increases'],
+      answer: 'A. Normal force decreases, so friction decreases',
+      diff: 'medium',
+    },
+    {
+      q: 'A 2 kg box is pulled on a frictionless floor with a force of 10 N. Its acceleration is:',
+      options: ['A. 2 m/s²', 'B. 5 m/s²', 'C. 10 m/s²', 'D. 20 m/s²'],
+      answer: 'B. 5 m/s²',
+      diff: 'easy',
+    },
+    {
+      q: 'A box of mass 5 kg is pulled with a force of 30 N. Kinetic friction coefficient μₖ = 0.2 (g=10 m/s²). The frictional force is:',
+      options: ['A. 10 N', 'B. 30 N', 'C. 5 N', 'D. 0 N'],
+      answer: 'A. 10 N',
+      diff: 'medium',
+    },
+    {
+      q: 'For the box in the previous question (mass 5 kg, F=30 N, fₖ=10 N), the acceleration is:',
+      options: ['A. 2 m/s²', 'B. 4 m/s²', 'C. 6 m/s²', 'D. 8 m/s²'],
+      answer: 'B. 4 m/s²',
+      diff: 'medium',
+    },
+    {
+      q: 'A massless string under tension has a constant tension because:',
+      options: ['A. Its mass is zero, so net force on any segment must be zero', 'B. It is very strong', 'C. It is elastic', 'D. It is short'],
+      answer: 'A. Its mass is zero, so net force on any segment must be zero',
+      diff: 'hard',
+    },
+    {
+      q: 'When a person walks forward, the friction force from the ground on the person is:',
+      options: ['A. Backward', 'B. Forward', 'C. Upward', 'D. Zero'],
+      answer: 'B. Forward',
+      diff: 'easy',
+    },
+    {
+      q: 'Rolling friction is generally ________ static or kinetic friction.',
+      options: ['A. Greater than', 'B. Equal to', 'C. Less than', 'D. Unrelated to'],
+      answer: 'C. Less than',
+      diff: 'easy',
+    },
+    {
+      q: 'A 10 kg block is on a horizontal surface (μₛ=0.4, g=10 m/s²). The maximum static friction is:',
+      options: ['A. 40 N', 'B. 4 N', 'C. 100 N', 'D. 0 N'],
+      answer: 'A. 40 N',
+      diff: 'easy',
+    },
+    {
+      q: 'If the applied force is less than maximum static friction, the object:',
+      options: ['A. Accelerates', 'B. Remains at rest', 'C. Moves with constant velocity', 'D. Slows down'],
+      answer: 'B. Remains at rest',
+      diff: 'easy',
+    }
+  ]
+}, 
+
+
+
+// lecture 6 //
+
+
+  6: {
+  title: 'Applications of Newton’s Laws – II: Fluid Friction, Terminal Velocity, Problems in Inertial & Non-Inertial Frames (PHY101 Lecture 6)',
+  summary: `**Key Topics Covered:**
+- Fluid friction (air resistance, water resistance)
+- Fluid resistance force depends on speed (linear, square, cube laws)
+- Terminal velocity (equilibrium between weight and fluid resistance)
+- Problem-solving steps (free body diagram, coordinate system, Newton’s 2nd law)
+- Problems on connected blocks, ropes, and pulleys
+- Inertial vs non-inertial frames of reference
+- Apparent weight in accelerating elevator (weightlessness in free fall)
+- Massive rope: tension varies with position
+- Rope slipping off a table (angle of repose type problem)
+- Pulley systems with unequal masses
+
+---
+
+**Simple Understanding:**
+
+**Fluid Friction (Drag):**
+👉 Occurs when an object moves through a fluid (air, water, oil).
+👉 Direction: opposite to velocity.
+👉 Magnitude increases with speed (linear, square, or cube dependence).
+👉 Example: waving hand in air vs water – water gives more resistance.
+👉 Fluid resistance is why a feather falls slower than a ball (air resistance matters).
+
+**Terminal Velocity:**
+👉 When falling object speeds up, fluid resistance increases.
+👉 Eventually, resistance = weight → net force = 0 → acceleration stops.
+👉 Velocity becomes constant: terminal velocity vₜ = mg/k (for linear drag f = kv).
+
+**Equilibrium under Two Forces:**
+👉 Example: feather falling at terminal velocity – upward drag = downward weight.
+
+---
+
+**Problem-Solving Steps:**
+1. Draw free body diagram.
+2. Choose origin and coordinate system (x, y).
+3. Identify all forces (tension, normal, friction, weight, etc.) and their components.
+4. Apply Newton’s 2nd law: ΣFₓ = m aₓ, ΣFᵧ = m aᵧ.
+5. Solve for unknowns (acceleration, velocity, displacement, forces).
+
+---
+
+**Inertial vs Non-Inertial Frames:**
+- Inertial frame: constant velocity (a=0). Newton’s laws hold.
+- Non-inertial frame: accelerating. Newton’s laws appear to fail; fictitious forces appear.
+
+**Apparent Weight in Elevator:**
+- At rest or constant velocity: N = mg (true weight)
+- Accelerating upward: N = m(g + a) (feel heavier)
+- Accelerating downward: N = m(g – a) (feel lighter)
+- Free fall (a = g): N = 0 (weightlessness)
+
+---
+
+**Problems Covered:**
+
+**1. Two blocks on frictionless surface:**
+   Force F on 2m → acceleration a = F/(3m). Force on mass m = F/3.
+
+**2. Massive rope pulled on smooth floor:**
+   Tension at distance l from force end: T = F(1 – l/L).
+
+**3. Rope slipping off table:**
+   Hanging length l such that rope just slips: l = (μL)/(1+μ).
+
+**4. Massive rope over pulley:**
+   Acceleration a = g (x/l – 1/2) where x is length on one side.
+
+**5. Minimum force to prevent small block from slipping:**
+   F ≥ (m+M)g/μ.
+
+**6. Atwood machine (masses over pulley):**
+   Acceleration a = (m₂ – m₁)g/(m₁+m₂)
+   Tension T = (2m₁m₂)g/(m₁+m₂)
+
+**7. Mass on table connected to hanging mass:**
+   a = m₂g/(m₁+m₂), T = m₁m₂g/(m₁+m₂)
+
+---
+
+**Important Vocabulary:**
+- Fluid friction = drag force from fluid
+- Terminal velocity = constant maximum speed when drag balances weight
+- Free body diagram = diagram showing all forces on an object
+- Inertial frame = non-accelerating reference frame
+- Non-inertial frame = accelerating reference frame
+- Apparent weight = normal force felt as weight
+- Weightlessness = apparent weight = 0 (free fall)
+- Linear mass density = mass per unit length
+
+---
+
+**Quick Revision Points:**
+- Fluid resistance opposes motion and increases with speed.
+- Terminal velocity: mg = kv (linear drag) → vₜ = mg/k.
+- Inertial frames: Newton’s laws valid. Non-inertial: need fictitious forces.
+- Elevator accelerating up: feel heavier (N = m(g+a)).
+- Elevator accelerating down: feel lighter (N = m(g–a)).
+- Free fall: weightless (N=0).
+- For massive rope, tension varies: T = F(1 – l/L).
+- Rope slipping: l = μL/(1+μ).
+- Atwood machine: a = (m₂–m₁)g/(m₁+m₂), T = 2m₁m₂g/(m₁+m₂).
+- Always draw free body diagram and apply ΣF = ma separately in x and y.`,
+
+  questions: [
+    {
+      q: 'Fluid friction (drag) always acts in a direction:',
+      options: ['A. Same as velocity', 'B. Opposite to velocity', 'C. Perpendicular to velocity', 'D. Upward only'],
+      answer: 'B. Opposite to velocity',
+      diff: 'easy',
+    },
+    {
+      q: 'The magnitude of fluid resistance usually:',
+      options: ['A. Decreases with speed', 'B. Increases with speed', 'C. Is constant', 'D. Is independent of speed'],
+      answer: 'B. Increases with speed',
+      diff: 'easy',
+    },
+    {
+      q: 'Terminal velocity is reached when:',
+      options: ['A. Weight becomes zero', 'B. Drag force equals weight', 'C. Acceleration is maximum', 'D. Velocity is zero'],
+      answer: 'B. Drag force equals weight',
+      diff: 'easy',
+    },
+    {
+      q: 'For linear drag (f = kv), the terminal velocity vₜ is:',
+      options: ['A. mg/k', 'B. kmg', 'C. k/mg', 'D. mgk'],
+      answer: 'A. mg/k',
+      diff: 'medium',
+    },
+    {
+      q: 'A feather falls slower than a ball because:',
+      options: ['A. Feather has less mass', 'B. Air resistance affects feather more relative to its weight', 'C. Gravity acts less on feather', 'D. Feather is not a solid'],
+      answer: 'B. Air resistance affects feather more relative to its weight',
+      diff: 'medium',
+    },
+    {
+      q: 'The first step in solving any Newton’s law problem is:',
+      options: ['A. Write equations', 'B. Draw a free body diagram', 'C. Calculate acceleration', 'D. Find mass'],
+      answer: 'B. Draw a free body diagram',
+      diff: 'easy',
+    },
+    {
+      q: 'An inertial frame of reference is one that:',
+      options: ['A. Accelerates', 'B. Rotates', 'C. Moves with constant velocity', 'D. Is at rest only'],
+      answer: 'C. Moves with constant velocity',
+      diff: 'easy',
+    },
+    {
+      q: 'Newton’s laws are directly applicable in:',
+      options: ['A. Non-inertial frames only', 'B. Inertial frames only', 'C. All frames', 'D. Rotating frames'],
+      answer: 'B. Inertial frames only',
+      diff: 'easy',
+    },
+    {
+      q: 'An elevator accelerating upward makes a person feel:',
+      options: ['A. Lighter', 'B. Heavier', 'C. Weightless', 'D. No change'],
+      answer: 'B. Heavier',
+      diff: 'easy',
+    },
+    {
+      q: 'In an elevator accelerating downward, apparent weight N = m(g – a). This means:',
+      options: ['A. Feel heavier', 'B. Feel lighter', 'C. Same as true weight', 'D. Zero always'],
+      answer: 'B. Feel lighter',
+      diff: 'easy',
+    },
+    {
+      q: 'When an elevator is in free fall (cable breaks), a person experiences:',
+      options: ['A. Heavier weight', 'B. Lighter weight', 'C. Weightlessness (N=0)', 'D. Normal weight'],
+      answer: 'C. Weightlessness (N=0)',
+      diff: 'easy',
+    },
+    {
+      q: 'A mass hung from the ceiling of an accelerating train makes an angle θ. The acceleration a is given by:',
+      options: ['A. a = g tanθ', 'B. a = g sinθ', 'C. a = g cosθ', 'D. a = g cotθ'],
+      answer: 'A. a = g tanθ',
+      diff: 'medium',
+    },
+    {
+      q: 'For a uniform rope of length L pulled by force F on a smooth floor, tension at a distance l from the force end is:',
+      options: ['A. T = F', 'B. T = F(l/L)', 'C. T = F(1 – l/L)', 'D. T = 0'],
+      answer: 'C. T = F(1 – l/L)',
+      diff: 'hard',
+    },
+    {
+      q: 'If l = 0 in the rope problem above, tension is:',
+      options: ['A. 0', 'B. F', 'C. F/2', 'D. Depends on mass'],
+      answer: 'B. F',
+      diff: 'medium',
+    },
+    {
+      q: 'A rope of length L and linear mass density m hangs partly off a table. The condition for just slipping is:',
+      options: ['A. l = μL/(1+μ)', 'B. l = L/μ', 'C. l = μL', 'D. l = L/(1+μ)'],
+      answer: 'A. l = μL/(1+μ)',
+      diff: 'hard',
+    },
+    {
+      q: 'If μ = 0 (frictionless table), the rope slips even for:',
+      options: ['A. Very large l', 'B. Any l > 0', 'C. l = L only', 'D. l = 0'],
+      answer: 'B. Any l > 0',
+      diff: 'medium',
+    },
+    {
+      q: 'Two blocks of masses 2m and m on frictionless surface, force F on 2m. Acceleration of system is:',
+      options: ['A. F/(2m)', 'B. F/(3m)', 'C. F/m', 'D. 2F/m'],
+      answer: 'B. F/(3m)',
+      diff: 'easy',
+    },
+    {
+      q: 'In the two-block problem above, the force on mass m due to mass 2m is:',
+      options: ['A. F/2', 'B. F/3', 'C. 2F/3', 'D. F'],
+      answer: 'B. F/3',
+      diff: 'medium',
+    },
+    {
+      q: 'For an Atwood machine (masses m₁ and m₂ over pulley), acceleration a = (m₂ – m₁)g/(m₁+m₂) assuming:',
+      options: ['A. m₂ > m₁', 'B. m₁ > m₂', 'C. Pulley has friction', 'D. String is massive'],
+      answer: 'A. m₂ > m₁',
+      diff: 'easy',
+    },
+    {
+      q: 'If m₁ = m₂ in an Atwood machine, acceleration is:',
+      options: ['A. g', 'B. 2g', 'C. 0', 'D. g/2'],
+      answer: 'C. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'The tension in an Atwood machine string is:',
+      options: ['A. (m₁+m₂)g', 'B. 2m₁m₂g/(m₁+m₂)', 'C. (m₂–m₁)g', 'D. m₁m₂g/(m₁+m₂)'],
+      answer: 'B. 2m₁m₂g/(m₁+m₂)',
+      diff: 'hard',
+    },
+    {
+      q: 'A mass m on a frictionless table connected by a string over a pulley to a hanging mass M. The acceleration is:',
+      options: ['A. Mg/(m+M)', 'B. mg/(m+M)', 'C. (M+m)g', 'D. g'],
+      answer: 'A. Mg/(m+M)',
+      diff: 'medium',
+    },
+    {
+      q: 'In the elevator problem, when the elevator accelerates downward at a = g/2, the apparent weight is:',
+      options: ['A. mg/2', 'B. mg', 'C. 3mg/2', 'D. 0'],
+      answer: 'A. mg/2',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is NOT a step in problem-solving using Newton’s laws?',
+      options: ['A. Draw free body diagram', 'B. Choose coordinate system', 'C. Ignore normal forces', 'D. Apply ΣF = ma separately in x and y'],
+      answer: 'C. Ignore normal forces',
+      diff: 'easy',
+    },
+    {
+      q: 'Fluid resistance for very high speeds is often proportional to:',
+      options: ['A. v', 'B. v² or v³', 'C. constant', 'D. 1/v'],
+      answer: 'B. v² or v³',
+      diff: 'medium',
+    },
+    {
+      q: 'Without fluid friction in water:',
+      options: ['A. Fishes would swim faster', 'B. Fishes would not be able to swim', 'C. Water would evaporate', 'D. Nothing changes'],
+      answer: 'B. Fishes would not be able to swim',
+      diff: 'easy',
+    },
+    {
+      q: 'A person in a freely falling elevator experiences weightlessness because:',
+      options: ['A. Gravity stops acting', 'B. Normal force becomes zero', 'C. Mass becomes zero', 'D. Velocity is zero'],
+      answer: 'B. Normal force becomes zero',
+      diff: 'medium',
+    },
+    {
+      q: 'A massive rope has different tension at different points because:',
+      options: ['A. Rope is elastic', 'B. Different parts support different weights', 'C. Friction changes', 'D. Gravity is not uniform'],
+      answer: 'B. Different parts support different weights',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+
+// lecture 7 //
+
+
+  7: {
+  title: 'Work and Energy (PHY101 Lecture 7)',
+  summary: `**Key Topics Covered:**
+- Definition of work: W = F·d = F d cosθ
+- Positive, negative, and zero work
+- Work done by constant force
+- Work done by variable force (integration / area under F-x curve)
+- Introduction to energy: capacity to do work
+- Types of energy (elastic, gravitational, electrical, chemical, thermal, nuclear, sound)
+- Kinetic energy: KE = ½ mv²
+- Work-Energy Principle: net work = change in KE
+- Power: rate of doing work (P = W/t = F v)
+
+---
+
+**Simple Understanding:**
+
+**Work (by a constant force):**
+👉 W = F · d = F d cosθ
+👉 θ = angle between force and displacement.
+- θ = 0° → positive work (force helps motion)
+- θ = 180° → negative work (force opposes motion)
+- θ = 90° → zero work (force perpendicular to motion)
+👉 Work is a scalar (no direction).
+👉 SI unit: Joule (J) = N·m = kg·m²/s²
+
+**Work by a variable force:**
+👉 If force varies with position, work = area under F-x curve.
+👉 W = ∫ F(x) dx from xᵢ to x_f.
+👉 For constant force, W = F·Δx (rectangle area).
+👉 For linear force F = kx, W = ½ k x² (triangle area).
+
+**Energy:**
+👉 Capacity to do work.
+👉 Many forms: mechanical, chemical, electrical, thermal, nuclear, etc.
+👉 Can be stored, converted, never created or destroyed.
+
+**Kinetic Energy (KE):**
+👉 Energy of motion: KE = ½ m v².
+👉 Always positive (or zero).
+
+**Work-Energy Principle:**
+👉 Net work done on an object = change in its kinetic energy.
+👉 W_net = KE_f – KE_i = ΔKE.
+👉 Positive work → KE increases; negative work → KE decreases.
+
+**Power:**
+👉 Rate of doing work: P = W / t.
+👉 For constant force: P = F·v (where v is velocity).
+👉 SI unit: Watt (W) = J/s.
+👉 1 hp = 746 W.
+
+---
+
+**Important Examples:**
+
+**Example 1:** Man pushing cart with 5 N force over 5 m → W = 25 J.
+
+**Example 2:** Apple weight 1 N falling 3 m → W = 3 J (gravity does positive work).
+
+**Example 3:** Lifting 20 N weight 2 m:
+- Work by hand: +40 J (force up, displacement up)
+- Work by gravity: –40 J (force down, displacement up)
+
+**Example 4:** Car braking: friction does negative work, reducing KE to zero.
+Stopping distance: x = v₀²/(2μg).
+
+**Example 5:** Truck vs rickshaw – lighter object moving faster has more KE.
+
+**Example 6:** Trolley on 30° hill at constant speed – power = mg sinθ · v.
+
+---
+
+**Important Vocabulary:**
+- Work = force times displacement in direction of force
+- Joule = SI unit of work and energy
+- Scalar = quantity with magnitude only (work, energy)
+- Kinetic energy = energy of motion
+- Work-energy principle = net work = change in KE
+- Power = rate of doing work
+- Watt = SI unit of power
+- Variable force = force that changes with position
+- Integration = mathematical tool to sum small pieces
+
+---
+
+**Quick Revision Points:**
+- W = F d cosθ (θ angle between F and d)
+- Work positive if force helps motion, negative if opposes.
+- Work zero if force perpendicular to displacement.
+- Area under F-x graph = work done by variable force.
+- ∫ xⁿ dx = xⁿ⁺¹/(n+1) (for n ≠ -1).
+- KE = ½ m v².
+- W_net = ΔKE.
+- Power = W/t = F·v (for constant force).
+- 1 Joule = 1 N·m.
+- 1 Watt = 1 J/s.`,
+
+  questions: [
+    {
+      q: 'Work is defined as:',
+      options: ['A. Force × time', 'B. Force × displacement × cosθ', 'C. Mass × acceleration', 'D. Force / displacement'],
+      answer: 'B. Force × displacement × cosθ',
+      diff: 'easy',
+    },
+    {
+      q: 'The SI unit of work is:',
+      options: ['A. Newton', 'B. Watt', 'C. Joule', 'D. Pascal'],
+      answer: 'C. Joule',
+      diff: 'easy',
+    },
+    {
+      q: '1 Joule is equal to:',
+      options: ['A. 1 N·m', 'B. 1 kg·m/s', 'C. 1 N/s', 'D. 1 kg·m²/s'],
+      answer: 'A. 1 N·m',
+      diff: 'easy',
+    },
+    {
+      q: 'If force and displacement are in the same direction, the work done is:',
+      options: ['A. Positive', 'B. Negative', 'C. Zero', 'D. Maximum negative'],
+      answer: 'A. Positive',
+      diff: 'easy',
+    },
+    {
+      q: 'If force and displacement are opposite in direction, the work done is:',
+      options: ['A. Positive', 'B. Negative', 'C. Zero', 'D. Maximum positive'],
+      answer: 'B. Negative',
+      diff: 'easy',
+    },
+    {
+      q: 'If force is perpendicular to displacement, the work done is:',
+      options: ['A. Positive', 'B. Negative', 'C. Zero', 'D. Infinite'],
+      answer: 'C. Zero',
+      diff: 'easy',
+    },
+    {
+      q: 'A force of 10 N displaces an object by 5 m in the direction of force. Work done is:',
+      options: ['A. 2 J', 'B. 15 J', 'C. 50 J', 'D. 0.5 J'],
+      answer: 'C. 50 J',
+      diff: 'easy',
+    },
+    {
+      q: 'A 20 N weight is lifted vertically 2 m. Work done by gravity is:',
+      options: ['A. +40 J', 'B. –40 J', 'C. 0 J', 'D. 10 J'],
+      answer: 'B. –40 J',
+      diff: 'medium',
+    },
+    {
+      q: 'For a constant force, work is equal to the area under a graph of:',
+      options: ['A. F vs t', 'B. F vs x', 'C. v vs t', 'D. a vs t'],
+      answer: 'B. F vs x',
+      diff: 'easy',
+    },
+    {
+      q: 'Work done by a variable force F(x) from x₁ to x₂ is given by:',
+      options: ['A. F(x₂ – x₁)', 'B. ∫ F dx', 'C. dF/dx', 'D. F·v'],
+      answer: 'B. ∫ F dx',
+      diff: 'medium',
+    },
+    {
+      q: 'For a spring force F = kx, the work done stretching from 0 to x is:',
+      options: ['A. kx', 'B. ½ kx²', 'C. kx²', 'D. ½ kx'],
+      answer: 'B. ½ kx²',
+      diff: 'medium',
+    },
+    {
+      q: 'Kinetic energy is given by:',
+      options: ['A. mv', 'B. ½ mv²', 'C. mgh', 'D. ½ kx²'],
+      answer: 'B. ½ mv²',
+      diff: 'easy',
+    },
+    {
+      q: 'Kinetic energy is always:',
+      options: ['A. Negative', 'B. Positive or zero', 'C. Zero', 'D. Negative or zero'],
+      answer: 'B. Positive or zero',
+      diff: 'easy',
+    },
+    {
+      q: 'The work-energy principle states:',
+      options: ['A. Work = force × distance', 'B. Net work = change in kinetic energy', 'C. Energy cannot be created', 'D. Power = work/time'],
+      answer: 'B. Net work = change in kinetic energy',
+      diff: 'easy',
+    },
+    {
+      q: 'A car doubles its speed. Its kinetic energy becomes:',
+      options: ['A. Same', 'B. Double', 'C. Four times', 'D. Half'],
+      answer: 'C. Four times',
+      diff: 'easy',
+    },
+    {
+      q: 'A truck has 20 times more mass than a rickshaw but moves 5 times slower. Which has greater KE?',
+      options: ['A. Truck', 'B. Rickshaw', 'C. Equal', 'D. Cannot determine'],
+      answer: 'B. Rickshaw',
+      diff: 'medium',
+    },
+    {
+      q: 'Power is defined as:',
+      options: ['A. Force × displacement', 'B. Work / time', 'C. Force × time', 'D. Energy × time'],
+      answer: 'B. Work / time',
+      diff: 'easy',
+    },
+    {
+      q: 'The SI unit of power is:',
+      options: ['A. Joule', 'B. Newton', 'C. Watt', 'D. Horsepower'],
+      answer: 'C. Watt',
+      diff: 'easy',
+    },
+    {
+      q: '1 horsepower (hp) is equal to:',
+      options: ['A. 1000 W', 'B. 746 W', 'C. 500 W', 'D. 100 W'],
+      answer: 'B. 746 W',
+      diff: 'easy',
+    },
+    {
+      q: 'For constant force, power can also be expressed as:',
+      options: ['A. F·v', 'B. F·a', 'C. m·v', 'D. F·t'],
+      answer: 'A. F·v',
+      diff: 'medium',
+    },
+    {
+      q: 'A 2000 kg trolley is pulled up a 30° hill at constant speed 8.93 m/s. Power provided (ignoring friction) is: (g=9.8 m/s²)',
+      options: ['A. 44 kW', 'B. 88 kW', 'C. 176 kW', 'D. 8.8 kW'],
+      answer: 'B. 88 kW',
+      diff: 'hard',
+    },
+    {
+      q: 'A car of mass 1000 kg is moving at 20 m/s. Its kinetic energy is:',
+      options: ['A. 10,000 J', 'B. 200,000 J', 'C. 400,000 J', 'D. 20,000 J'],
+      answer: 'B. 200,000 J',
+      diff: 'medium',
+    },
+    {
+      q: 'Work done by a constant force of 5 N over 4 m at an angle of 60° to displacement is:',
+      options: ['A. 20 J', 'B. 10 J', 'C. 17.3 J', 'D. 0 J'],
+      answer: 'B. 10 J',
+      diff: 'medium',
+    },
+    {
+      q: 'If the speed of an object is tripled, its kinetic energy increases by a factor of:',
+      options: ['A. 3', 'B. 6', 'C. 9', 'D. 12'],
+      answer: 'C. 9',
+      diff: 'easy',
+    },
+    {
+      q: 'Negative work done on an object causes its kinetic energy to:',
+      options: ['A. Increase', 'B. Decrease', 'C. Remain constant', 'D. Become negative'],
+      answer: 'B. Decrease',
+      diff: 'easy',
+    },
+    {
+      q: 'A ball is thrown upward. Work done by gravity during ascent is:',
+      options: ['A. Positive', 'B. Negative', 'C. Zero', 'D. Variable'],
+      answer: 'B. Negative',
+      diff: 'easy',
+    },
+    {
+      q: 'The integral ∫ x² dx from 0 to 1 equals:',
+      options: ['A. 1/3', 'B. 1/2', 'C. 1', 'D. 2'],
+      answer: 'A. 1/3',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is NOT a form of energy?',
+      options: ['A. Thermal', 'B. Chemical', 'C. Momentum', 'D. Nuclear'],
+      answer: 'C. Momentum',
+      diff: 'easy',
+    },
+    {
+      q: 'A 10 kg object has KE of 500 J. Its speed is:',
+      options: ['A. 5 m/s', 'B. 10 m/s', 'C. 50 m/s', 'D. 100 m/s'],
+      answer: 'B. 10 m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A force F = 3x² (N) acts on an object from x=0 to x=2 m. Work done is:',
+      options: ['A. 8 J', 'B. 6 J', 'C. 12 J', 'D. 24 J'],
+      answer: 'A. 8 J',
+      diff: 'hard',
+    }
+  ]
+},
+
+
+// lecture 8 //
+
+  8: {
+  title: 'Conservation of Energy (PHY101 Lecture 8)',
+  summary: `**Key Topics Covered:**
+- Potential energy (gravitational and elastic)
+- Gravitational potential energy: PE = mgh
+- Elastic potential energy: PE = ½ kx²
+- Conservation of mechanical energy (no friction): KE + PE = constant
+- Work-energy principle in different frames of reference
+- Conservative forces (gravity, spring) vs non-conservative forces (friction, air resistance)
+- Relationship between force and potential energy: F = –dV/dx
+- Examples: ball thrown upward, mass on spring, roller coaster, inclined plane with spring, projectile motion
+
+---
+
+**Simple Understanding:**
+
+**Potential Energy (PE):**
+👉 Energy stored due to position or configuration.
+👉 Can be converted to kinetic energy and vice versa.
+👉 SI unit: Joule (J).
+
+**Gravitational Potential Energy:**
+👉 PE = m g h
+👉 m = mass (kg), g = 9.8 m/s², h = height above reference level.
+👉 Only changes in PE matter (reference level can be chosen arbitrarily).
+👉 Work done against gravity = increase in PE.
+
+**Elastic Potential Energy (Spring):**
+👉 PE = ½ k x²
+👉 k = spring constant (N/m), x = displacement from equilibrium.
+👉 Stored energy when spring is stretched or compressed.
+
+**Conservation of Mechanical Energy:**
+👉 If no friction or other non-conservative forces:
+👉 KEᵢ + PEᵢ = KE_f + PE_f
+👉 Total mechanical energy is constant.
+
+**Conservative Forces:**
+👉 Work done independent of path (depends only on start and end points).
+👉 Examples: gravity, spring force, electrostatic force.
+👉 Potential energy CAN be defined for conservative forces.
+👉 F = – dV/dx (force is negative derivative of potential energy).
+
+**Non-Conservative Forces:**
+👉 Work done depends on path.
+👉 Examples: friction, air resistance, drag.
+👉 Potential energy CANNOT be defined for non-conservative forces.
+
+**Key Observations:**
+- Work and kinetic energy values depend on reference frame (but physics laws are consistent).
+- In the absence of friction, total mechanical energy is conserved.
+- PE is stored in the field (e.g., gravitational field of Earth + object).
+
+---
+
+**Important Examples:**
+
+**Example 1:** Ball thrown upward at speed v₀ – maximum height h = v₀²/(2g).
+
+**Example 2:** Mass on spring (no friction) – velocity at release: v = x√(k/m).
+
+**Example 3:** Roller coaster – speed at different heights using conservation of energy.
+
+**Example 4:** Mass dropped onto spring – compression x found from mg(h+x) = ½ kx².
+
+**Example 5:** Inclined plane with spring – use energy conservation with mg sinθ component.
+
+**Example 6:** Projectile – maximum height h = (v₀² sin²θ)/(2g).
+
+**Example 7:** Potential function V(x) = –A/x⁶ + B/x¹² (Lennard-Jones type) – find equilibrium.
+
+---
+
+**Important Vocabulary:**
+- Potential energy = stored energy due to position/configuration
+- Gravitational potential energy = mgh
+- Elastic potential energy = ½ kx²
+- Conservation of energy = total energy remains constant
+- Conservative force = path-independent work
+- Non-conservative force = path-dependent work
+- Mechanical energy = KE + PE
+- Spring constant = stiffness of spring (k)
+- Reference level = zero point for measuring PE
+
+---
+
+**Quick Revision Points:**
+- PE = mgh (gravitational)
+- PE = ½ kx² (elastic)
+- Conservation: KEᵢ + PEᵢ = KE_f + PE_f (no friction)
+- Work-energy theorem: W_net = ΔKE
+- Conservative force: F = –dV/dx
+- Gravity and springs are conservative.
+- Friction is non-conservative.
+- PE depends on reference frame (but changes in PE are meaningful).
+- Energy cannot be created or destroyed, only transformed.`,
+
+  questions: [
+    {
+      q: 'Gravitational potential energy is given by:',
+      options: ['A. mgh', 'B. ½ mv²', 'C. ½ kx²', 'D. Fd cosθ'],
+      answer: 'A. mgh',
+      diff: 'easy',
+    },
+    {
+      q: 'Elastic potential energy stored in a spring is:',
+      options: ['A. mgh', 'B. ½ mv²', 'C. ½ kx²', 'D. kx'],
+      answer: 'C. ½ kx²',
+      diff: 'easy',
+    },
+    {
+      q: 'The SI unit of potential energy is:',
+      options: ['A. Newton', 'B. Watt', 'C. Joule', 'D. Pascal'],
+      answer: 'C. Joule',
+      diff: 'easy',
+    },
+    {
+      q: 'A 2 kg mass is lifted to a height of 5 m. Its gravitational potential energy (g=10 m/s²) is:',
+      options: ['A. 10 J', 'B. 50 J', 'C. 100 J', 'D. 20 J'],
+      answer: 'C. 100 J',
+      diff: 'easy',
+    },
+    {
+      q: 'A spring with k = 200 N/m is stretched by 0.1 m. The elastic potential energy stored is:',
+      options: ['A. 1 J', 'B. 2 J', 'C. 10 J', 'D. 20 J'],
+      answer: 'A. 1 J',
+      diff: 'easy',
+    },
+    {
+      q: 'The law of conservation of mechanical energy states that in the absence of non-conservative forces:',
+      options: ['A. KE is constant', 'B. PE is constant', 'C. KE + PE is constant', 'D. KE – PE is constant'],
+      answer: 'C. KE + PE is constant',
+      diff: 'easy',
+    },
+    {
+      q: 'A ball is thrown upward with speed 10 m/s. Maximum height reached (g=10 m/s²) is:',
+      options: ['A. 5 m', 'B. 10 m', 'C. 20 m', 'D. 0.5 m'],
+      answer: 'A. 5 m',
+      diff: 'easy',
+    },
+    {
+      q: 'A mass on a spring is pulled and released. At maximum compression, the KE is:',
+      options: ['A. Maximum', 'B. Zero', 'C. Equal to PE', 'D. Negative'],
+      answer: 'B. Zero',
+      diff: 'easy',
+    },
+    {
+      q: 'For a conservative force, the work done:',
+      options: ['A. Depends on path', 'B. Is independent of path', 'C. Is always zero', 'D. Depends only on time'],
+      answer: 'B. Is independent of path',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is a conservative force?',
+      options: ['A. Friction', 'B. Air resistance', 'C. Gravity', 'D. Viscous drag'],
+      answer: 'C. Gravity',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is a non-conservative force?',
+      options: ['A. Spring force', 'B. Gravitational force', 'C. Frictional force', 'D. Electrostatic force'],
+      answer: 'C. Frictional force',
+      diff: 'easy',
+    },
+    {
+      q: 'Potential energy can be defined for:',
+      options: ['A. Conservative forces only', 'B. Non-conservative forces only', 'C. Both conservative and non-conservative', 'D. Neither'],
+      answer: 'A. Conservative forces only',
+      diff: 'easy',
+    },
+    {
+      q: 'The relationship between conservative force and potential energy is:',
+      options: ['A. F = dV/dx', 'B. F = –dV/dx', 'C. F = V', 'D. F = –V'],
+      answer: 'B. F = –dV/dx',
+      diff: 'medium',
+    },
+    {
+      q: 'If the potential energy function is V(x) = ½ kx², the force is:',
+      options: ['A. F = kx', 'B. F = –kx', 'C. F = ½ kx²', 'D. F = 0'],
+      answer: 'B. F = –kx',
+      diff: 'medium',
+    },
+    {
+      q: 'A roller coaster car starts from rest at height H. Its speed at the bottom (no friction) is:',
+      options: ['A. √(2gH)', 'B. √(gH)', 'C. 2gH', 'D. gH'],
+      answer: 'A. √(2gH)',
+      diff: 'easy',
+    },
+    {
+      q: 'A 0.5 kg ball is dropped from height 20 m. Its speed just before hitting ground (g=10 m/s²) is:',
+      options: ['A. 10 m/s', 'B. 20 m/s', 'C. 30 m/s', 'D. 40 m/s'],
+      answer: 'B. 20 m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A mass m is attached to a spring of constant k. If compressed by x and released, maximum speed is:',
+      options: ['A. x√(k/m)', 'B. x√(m/k)', 'C. kx/m', 'D. √(kx/m)'],
+      answer: 'A. x√(k/m)',
+      diff: 'medium',
+    },
+    {
+      q: 'A projectile is launched with speed v₀ at angle θ. Maximum height (ignoring air resistance) is:',
+      options: ['A. (v₀² sin²θ)/(2g)', 'B. (v₀² cos²θ)/(2g)', 'C. (v₀² sin2θ)/g', 'D. v₀²/g'],
+      answer: 'A. (v₀² sin²θ)/(2g)',
+      diff: 'medium',
+    },
+    {
+      q: 'For a conservative force, the work done from A to B:',
+      options: ['A. Equals the negative change in potential energy', 'B. Equals the change in kinetic energy only', 'C. Depends on the path', 'D. Is always zero'],
+      answer: 'A. Equals the negative change in potential energy',
+      diff: 'medium',
+    },
+    {
+      q: 'A block slides down a frictionless incline of height h. Its speed at the bottom is:',
+      options: ['A. √(2gh)', 'B. √(gh)', 'C. 2gh', 'D. Depends on incline angle'],
+      answer: 'A. √(2gh)',
+      diff: 'easy',
+    },
+    {
+      q: 'In the presence of friction, total mechanical energy:',
+      options: ['A. Increases', 'B. Decreases', 'C. Remains constant', 'D. Is zero'],
+      answer: 'B. Decreases',
+      diff: 'easy',
+    },
+    {
+      q: 'A mass m falls from height h onto a spring (constant k). The maximum compression x satisfies:',
+      options: ['A. mgx = ½ kx²', 'B. mg(h+x) = ½ kx²', 'C. mgh = ½ kx²', 'D. mgx = kh'],
+      answer: 'B. mg(h+x) = ½ kx²',
+      diff: 'hard',
+    },
+    {
+      q: 'If potential energy function V(x) is constant, then the force is:',
+      options: ['A. Zero', 'B. Constant non-zero', 'C. Infinite', 'D. Depends on x'],
+      answer: 'A. Zero',
+      diff: 'medium',
+    },
+    {
+      q: 'The derivative of potential energy with respect to position gives:',
+      options: ['A. Negative of force', 'B. Force', 'C. Kinetic energy', 'D. Power'],
+      answer: 'A. Negative of force',
+      diff: 'medium',
+    },
+    {
+      q: 'A spring is stretched by 0.2 m storing 4 J of energy. The spring constant k is:',
+      options: ['A. 100 N/m', 'B. 200 N/m', 'C. 400 N/m', 'D. 50 N/m'],
+      answer: 'B. 200 N/m',
+      diff: 'medium',
+    },
+    {
+      q: 'A 10 kg mass is lifted 2 m above ground. Its PE relative to ground is (g=10 m/s²):',
+      options: ['A. 20 J', 'B. 50 J', 'C. 200 J', 'D. 100 J'],
+      answer: 'C. 200 J',
+      diff: 'easy',
+    },
+    {
+      q: 'Two masses m and 2m are dropped from same height. Neglecting air resistance, they hit the ground with speeds:',
+      options: ['A. Same', 'B. m faster', 'C. 2m faster', 'D. Depends on shape'],
+      answer: 'A. Same',
+      diff: 'easy',
+    },
+    {
+      q: 'Potential energy is stored in:',
+      options: ['A. The object alone', 'B. The Earth alone', 'C. The gravitational field of the system', 'D. The kinetic energy'],
+      answer: 'C. The gravitational field of the system',
+      diff: 'hard',
+    },
+    {
+      q: 'A ball is thrown straight up. At the top of its path, its:',
+      options: ['A. KE is maximum, PE is minimum', 'B. KE is zero, PE is maximum', 'C. KE = PE', 'D. Both KE and PE are zero'],
+      answer: 'B. KE is zero, PE is maximum',
+      diff: 'easy',
+    },
+    {
+      q: 'If a non-conservative force does negative work on a system, the total mechanical energy:',
+      options: ['A. Increases', 'B. Decreases', 'C. Remains constant', 'D. Becomes zero'],
+      answer: 'B. Decreases',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+
+// lecture 9 //
+
+
+  9: {
+  title: 'Momentum, Impulse, and Conservation of Momentum (PHY101 Lecture 9)',
+  summary: `**Key Topics Covered:**
+- Definition of momentum: p = mv (vector quantity)
+- Newton's Second Law in terms of momentum: F = dp/dt
+- Conservation of linear momentum (when net external force = 0)
+- Applications: collisions, explosions, rockets, gun recoil
+- Center of mass remains at rest in isolated systems
+- Impulse: I = ∫ F dt = Δp (area under F-t curve)
+- Impulse-momentum theorem: change in momentum equals impulse
+
+---
+
+**Simple Understanding:**
+
+**Momentum (p):**
+👉 Quantity of motion: p = m v
+👉 Vector: same direction as velocity.
+👉 Units: kg·m/s. Dimensions: MLT⁻¹.
+
+**Newton’s 2nd Law (momentum form):**
+👉 F_net = dp/dt (rate of change of momentum).
+👉 For constant mass: F = m dv/dt = m a (same as before).
+
+**Conservation of Linear Momentum:**
+👉 If net external force = 0, then total momentum is constant.
+👉 P_initial = P_final
+👉 For an isolated system (no external forces), momentum is conserved regardless of internal forces.
+
+**Collisions:**
+👉 Two objects collide: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂
+
+**Explosions:**
+👉 Initially at rest: total momentum = 0.
+👉 After explosion: m₁v₁ + m₂v₂ = 0 → v₂ = – (m₁/m₂) v₁ (fragments move in opposite directions).
+
+**Rocket Propulsion:**
+👉 Rocket pushes exhaust gases backward; gases push rocket forward.
+👉 Conservation of momentum: p_gas + p_rocket = 0.
+
+**Gun Recoil:**
+👉 Bullet moves forward, gun moves backward with equal and opposite momentum.
+
+**Impulse (I):**
+👉 Force applied over time: I = ∫ F dt = Δp
+👉 Area under F-t graph = impulse.
+👉 For constant force: I = F_avg × Δt.
+👉 Same impulse can be achieved with small force over long time OR large force over short time.
+
+**Practical implications:**
+- Bending knees when landing increases Δt → reduces force.
+- Catching a ball with hands moving backward increases Δt → reduces force.
+- Dampers on railway carriages increase collision time → reduce impact force.
+
+---
+
+**Important Vocabulary:**
+- Momentum = mass × velocity (p = mv)
+- Conservation of momentum = total momentum constant if no external forces
+- Isolated system = no net external force
+- Impulse = change in momentum = ∫ F dt
+- Recoil = backward motion of gun when fired
+- Center of mass = average position of mass in a system
+
+---
+
+**Quick Revision Points:**
+- p = mv, vector quantity.
+- F_net = dp/dt.
+- If ΣF_ext = 0, then P_total = constant.
+- Collisions: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂.
+- Explosion from rest: m₁v₁ + m₂v₂ = 0.
+- Rocket: thrust from exhaust gases.
+- Impulse = change in momentum = F_avg × Δt.
+- Larger impact time → smaller force for same impulse.
+- Area under F-t curve = impulse.`,
+
+  questions: [
+    {
+      q: 'Momentum is defined as:',
+      options: ['A. mass × acceleration', 'B. mass × velocity', 'C. force × time', 'D. work / time'],
+      answer: 'B. mass × velocity',
+      diff: 'easy',
+    },
+    {
+      q: 'The SI unit of momentum is:',
+      options: ['A. kg·m/s²', 'B. kg·m/s', 'C. N·m', 'D. J/s'],
+      answer: 'B. kg·m/s',
+      diff: 'easy',
+    },
+    {
+      q: 'Momentum is a:',
+      options: ['A. Scalar quantity', 'B. Vector quantity', 'C. Dimensionless quantity', 'D. Unitless quantity'],
+      answer: 'B. Vector quantity',
+      diff: 'easy',
+    },
+    {
+      q: 'Newton’s second law in terms of momentum states:',
+      options: ['A. F = ma', 'B. F = dp/dt', 'C. F = m dv/dt', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'easy',
+    },
+    {
+      q: 'The dimensions of momentum are:',
+      options: ['A. MLT⁻¹', 'B. MLT⁻²', 'C. ML²T⁻¹', 'D. MLT'],
+      answer: 'A. MLT⁻¹',
+      diff: 'medium',
+    },
+    {
+      q: 'Conservation of linear momentum holds when:',
+      options: ['A. No external forces act', 'B. External forces are balanced', 'C. Net external force is zero', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'easy',
+    },
+    {
+      q: 'A bomb at rest explodes into two fragments. The total momentum after explosion is:',
+      options: ['A. Zero', 'B. Non-zero', 'C. Equal to mass times velocity of first fragment', 'D. Cannot be determined'],
+      answer: 'A. Zero',
+      diff: 'easy',
+    },
+    {
+      q: 'A 4 kg fragment flies at 12 m/s. The other fragment has mass 6 kg. Its velocity (magnitude) is:',
+      options: ['A. 8 m/s', 'B. 6 m/s', 'C. 12 m/s', 'D. 4 m/s'],
+      answer: 'A. 8 m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A rocket moves forward because:',
+      options: ['A. Exhaust gases push on the rocket', 'B. The rocket pushes exhaust gases backward', 'C. Both A and B (action-reaction)', 'D. Gravity pulls it forward'],
+      answer: 'C. Both A and B (action-reaction)',
+      diff: 'easy',
+    },
+    {
+      q: 'When a gun is fired, the bullet and the gun have:',
+      options: ['A. Equal speeds', 'B. Equal kinetic energies', 'C. Equal and opposite momenta', 'D. Equal accelerations'],
+      answer: 'C. Equal and opposite momenta',
+      diff: 'easy',
+    },
+    {
+      q: 'A 1300 kg cannon fires a 72 kg ball at 55 m/s. The recoil speed of the cannon is approximately:',
+      options: ['A. 55 m/s', 'B. 3.0 m/s', 'C. 0.3 m/s', 'D. 30 m/s'],
+      answer: 'B. 3.0 m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'Impulse is defined as:',
+      options: ['A. Force × displacement', 'B. Change in momentum', 'C. ∫ F dt', 'D. Both B and C'],
+      answer: 'D. Both B and C',
+      diff: 'easy',
+    },
+    {
+      q: 'The area under a force-time graph represents:',
+      options: ['A. Work', 'B. Power', 'C. Impulse', 'D. Momentum'],
+      answer: 'C. Impulse',
+      diff: 'easy',
+    },
+    {
+      q: 'If the same impulse is applied to an object, a smaller force results from:',
+      options: ['A. Shorter time', 'B. Longer time', 'C. Zero time', 'D. No change in time'],
+      answer: 'B. Longer time',
+      diff: 'easy',
+    },
+    {
+      q: 'Cricket fielders move their hands backward when catching a ball to:',
+      options: ['A. Increase impulse', 'B. Decrease impulse', 'C. Increase impact time and decrease force', 'D. Decrease impact time'],
+      answer: 'C. Increase impact time and decrease force',
+      diff: 'easy',
+    },
+    {
+      q: 'Bending your knees when landing from a jump:',
+      options: ['A. Increases the force on your legs', 'B. Decreases the impulse', 'C. Increases the time of impact, reducing force', 'D. Has no effect'],
+      answer: 'C. Increases the time of impact, reducing force',
+      diff: 'easy',
+    },
+    {
+      q: 'Two objects collide elastically on a frictionless surface. Which quantity is always conserved?',
+      options: ['A. Kinetic energy only', 'B. Momentum only', 'C. Both momentum and kinetic energy', 'D. Neither'],
+      answer: 'C. Both momentum and kinetic energy',
+      diff: 'medium',
+    },
+    {
+      q: 'In an inelastic collision, which is conserved?',
+      options: ['A. Momentum only', 'B. Kinetic energy only', 'C. Both momentum and kinetic energy', 'D. Neither'],
+      answer: 'A. Momentum only',
+      diff: 'easy',
+    },
+    {
+      q: 'A shell of mass M moving at speed v explodes into two equal pieces. One piece retraces its path. The velocity of the other piece is:',
+      options: ['A. v', 'B. 2v', 'C. 3v', 'D. 4v'],
+      answer: 'C. 3v',
+      diff: 'hard',
+    },
+    {
+      q: 'A stream of N bullets each mass m with speed v hits a block of mass M at rest (no friction). The block’s final speed after absorbing all bullets is:',
+      options: ['A. (Nm v)/(M + Nm)', 'B. (M v)/(M + Nm)', 'C. (Nm v)/M', 'D. v'],
+      answer: 'A. (Nm v)/(M + Nm)',
+      diff: 'hard',
+    },
+    {
+      q: 'A 5 kg object moving at 2 m/s collides with a 3 kg object at rest. After collision, they stick together. Their common speed is:',
+      options: ['A. 2.5 m/s', 'B. 1.25 m/s', 'C. 0.8 m/s', 'D. 1.0 m/s'],
+      answer: 'B. 1.25 m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A 0.5 kg ball hits a wall at 10 m/s and rebounds at 8 m/s. The change in momentum is:',
+      options: ['A. 1 kg·m/s', 'B. 4 kg·m/s', 'C. 9 kg·m/s', 'D. 0.5 kg·m/s'],
+      answer: 'C. 9 kg·m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A force of 10 N acts on a 2 kg object for 3 seconds. The impulse is:',
+      options: ['A. 10 N·s', 'B. 20 N·s', 'C. 30 N·s', 'D. 5 N·s'],
+      answer: 'C. 30 N·s',
+      diff: 'easy',
+    },
+    {
+      q: 'A 1000 kg car moving at 20 m/s stops in 5 seconds. The average braking force is:',
+      options: ['A. 2000 N', 'B. 4000 N', 'C. 5000 N', 'D. 10000 N'],
+      answer: 'B. 4000 N',
+      diff: 'medium',
+    },
+    {
+      q: 'If the time of impact is doubled while impulse remains the same, the average force is:',
+      options: ['A. Doubled', 'B. Halved', 'C. Unchanged', 'D. Quadrupled'],
+      answer: 'B. Halved',
+      diff: 'easy',
+    },
+    {
+      q: 'The center of mass of an isolated system:',
+      options: ['A. Can accelerate', 'B. Moves with constant velocity', 'C. Is always at rest', 'D. Depends on internal forces'],
+      answer: 'B. Moves with constant velocity',
+      diff: 'medium',
+    },
+    {
+      q: 'A 60 kg person jumps from a boat of mass 120 kg. If the person moves at 4 m/s relative to water, the boat moves at:',
+      options: ['A. 2 m/s opposite direction', 'B. 4 m/s opposite direction', 'C. 8 m/s same direction', 'D. 0.5 m/s opposite direction'],
+      answer: 'A. 2 m/s opposite direction',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is NOT a vector quantity?',
+      options: ['A. Momentum', 'B. Impulse', 'C. Kinetic energy', 'D. Force'],
+      answer: 'C. Kinetic energy',
+      diff: 'easy',
+    },
+    {
+      q: 'A bullet of mass m is fired from a gun of mass M with muzzle speed u relative to the gun. The actual speed of the bullet relative to ground is:',
+      options: ['A. u', 'B. (M/(M+m)) u', 'C. (M/(M-m)) u', 'D. (m/(M+m)) u'],
+      answer: 'B. (M/(M+m)) u',
+      diff: 'hard',
+    },
+    {
+      q: 'Impulse has the same units as:',
+      options: ['A. Work', 'B. Force', 'C. Momentum', 'D. Power'],
+      answer: 'C. Momentum',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+// lecture 10//
+
+  10: {
+  title: 'Collisions: Elastic and Inelastic (PHY101 Lecture 10)',
+  summary: `**Key Topics Covered:**
+- Elastic collisions in one dimension (momentum and kinetic energy conserved)
+- Inelastic collisions (momentum conserved, kinetic energy not conserved)
+- Completely inelastic collisions (objects stick together)
+- Final velocities for elastic collisions (derivation and special cases)
+- Relative speed before and after elastic collision: v₁ - v₂ = -(u₁ - u₂)
+- Examples: neutron slowing, ballistic pendulum, two-dimensional collisions
+
+---
+
+**Simple Understanding:**
+
+**Elastic Collision:**
+👉 Both momentum AND kinetic energy are conserved.
+👉 For two bodies: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂ and ½m₁u₁² + ½m₂u₂² = ½m₁v₁² + ½m₂v₂².
+👉 Relative speed after collision is opposite to relative speed before: v₁ – v₂ = –(u₁ – u₂).
+
+**Final velocities (elastic, 1D):**
+👉 v₁ = (m₁–m₂)/(m₁+m₂) u₁ + (2m₂)/(m₁+m₂) u₂
+👉 v₂ = (2m₁)/(m₁+m₂) u₁ + (m₂–m₁)/(m₁+m₂) u₂
+
+**Special cases (u₂ = 0, target at rest):**
+- m₁ = m₂: v₁ = 0, v₂ = u₁ (velocities exchange)
+- m₁ << m₂ (light hitting heavy): v₁ ≈ –u₁ (bounces back), v₂ ≈ 0
+- m₁ >> m₂ (heavy hitting light): v₁ ≈ u₁, v₂ ≈ 2u₁ (light object flung forward)
+
+**Inelastic Collision:**
+👉 Momentum conserved, kinetic energy NOT conserved (converted to heat, sound, deformation).
+👉 Completely inelastic: objects stick together after collision.
+👉 For two masses sticking: m₁u₁ + m₂u₂ = (m₁+m₂)V.
+
+**Ballistic Pendulum:**
+👉 Bullet embeds in block; block swings to height y.
+👉 Use momentum conservation for collision: mv = (m+M)V.
+👉 Use energy conservation for swing: ½(m+M)V² = (m+M)gy → V = √(2gy).
+👉 Then v = (m+M)/m √(2gy).
+
+**Two-Dimensional Collisions:**
+👉 Momentum conserved separately in x and y directions.
+👉 Often have more unknowns than equations (need additional info).`,
+
+  questions: [
+    {
+      q: 'In an elastic collision, which quantities are conserved?',
+      options: ['A. Momentum only', 'B. Kinetic energy only', 'C. Both momentum and kinetic energy', 'D. Neither'],
+      answer: 'C. Both momentum and kinetic energy',
+      diff: 'easy',
+    },
+    {
+      q: 'In an inelastic collision, which quantity is always conserved?',
+      options: ['A. Kinetic energy', 'B. Momentum', 'C. Both momentum and kinetic energy', 'D. Neither'],
+      answer: 'B. Momentum',
+      diff: 'easy',
+    },
+    {
+      q: 'In a completely inelastic collision, the objects:',
+      options: ['A. Bounce apart with same speed', 'B. Stick together', 'C. Exchange velocities', 'D. Move in opposite directions'],
+      answer: 'B. Stick together',
+      diff: 'easy',
+    },
+    {
+      q: 'For a one-dimensional elastic collision, the relative speed after collision is:',
+      options: ['A. Same as before', 'B. Zero', 'C. Opposite sign but same magnitude as before', 'D. Double the before speed'],
+      answer: 'C. Opposite sign but same magnitude as before',
+      diff: 'medium',
+    },
+    {
+      q: 'Two equal masses undergo an elastic collision. One is initially at rest. After collision:',
+      options: ['A. First mass stops, second moves with initial speed of first', 'B. Both move with half the initial speed', 'C. Both move with same speed as first', 'D. First rebounds, second remains at rest'],
+      answer: 'A. First mass stops, second moves with initial speed of first',
+      diff: 'easy',
+    },
+    {
+      q: 'A light ball hits a heavy stationary target elastically. The light ball will:',
+      options: ['A. Stop', 'B. Continue forward with reduced speed', 'C. Bounce back with approximately same speed', 'D. Stick to the target'],
+      answer: 'C. Bounce back with approximately same speed',
+      diff: 'medium',
+    },
+    {
+      q: 'A heavy moving object hits a light stationary object elastically. The light object will:',
+      options: ['A. Move with about twice the speed of the heavy object', 'B. Remain at rest', 'C. Move with same speed as heavy object', 'D. Move backward'],
+      answer: 'A. Move with about twice the speed of the heavy object',
+      diff: 'medium',
+    },
+    {
+      q: 'In a ballistic pendulum, a bullet embeds in a block. Which principle is used for the collision?',
+      options: ['A. Conservation of energy only', 'B. Conservation of momentum only', 'C. Both momentum and energy', 'D. Neither'],
+      answer: 'B. Conservation of momentum only',
+      diff: 'easy',
+    },
+    {
+      q: 'After the bullet embeds, the block swings upward. For that swing, we use:',
+      options: ['A. Conservation of momentum', 'B. Conservation of mechanical energy', 'C. Both momentum and energy', 'D. Work-energy theorem with friction'],
+      answer: 'B. Conservation of mechanical energy',
+      diff: 'easy',
+    },
+    {
+      q: 'In a ballistic pendulum, if the block rises to height y, the speed V of block+bullet just after collision is:',
+      options: ['A. √(2gy)', 'B. 2√(gy)', 'C. √(gy)', 'D. gy/2'],
+      answer: 'A. √(2gy)',
+      diff: 'medium',
+    },
+    {
+      q: 'A neutron (mass m) collides elastically with a stationary nucleus of mass M. The fractional decrease in neutron’s KE is:',
+      options: ['A. (M-m)²/(M+m)²', 'B. 4mM/(M+m)²', 'C. (M+m)²/(M-m)²', 'D. 1 - (m/M)²'],
+      answer: 'B. 4mM/(M+m)²',
+      diff: 'hard',
+    },
+    {
+      q: 'Two objects of masses 2 kg and 3 kg move toward each other with speeds 4 m/s and 2 m/s respectively. Their total momentum magnitude is:',
+      options: ['A. 2 kg·m/s', 'B. 14 kg·m/s', 'C. 8 kg·m/s', 'D. 6 kg·m/s'],
+      answer: 'A. 2 kg·m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'A 5 g bullet is fired into a 2 kg block. The block rises 0.1 m. The speed of bullet (g=10 m/s²) is approximately:',
+      options: ['A. 200 m/s', 'B. 400 m/s', 'C. 800 m/s', 'D. 100 m/s'],
+      answer: 'B. 400 m/s',
+      diff: 'hard',
+    },
+    {
+      q: 'In a two-dimensional elastic collision, the number of unknowns is typically:',
+      options: ['A. 2', 'B. 3', 'C. 4', 'D. 6'],
+      answer: 'C. 4',
+      diff: 'hard',
+    },
+    {
+      q: 'A car of mass 1000 kg going north at 15 m/s collides with a 2000 kg car going east at 10 m/s. They stick together. The magnitude of final momentum is:',
+      options: ['A. 5000 kg·m/s', 'B. 25000 kg·m/s', 'C. 35000 kg·m/s', 'D. 15000 kg·m/s'],
+      answer: 'B. 25000 kg·m/s',
+      diff: 'medium',
+    },
+    {
+      q: 'For the previous problem, the direction of final velocity is approximately:',
+      options: ['A. 37° east of north', 'B. 37° north of east', 'C. 53° east of north', 'D. 45°'],
+      answer: 'A. 37° east of north',
+      diff: 'medium',
+    },
+    {
+      q: 'In an elastic collision, the coefficient of restitution is:',
+      options: ['A. 0', 'B. 0.5', 'C. 1', 'D. 2'],
+      answer: 'C. 1',
+      diff: 'easy',
+    },
+    {
+      q: 'In a completely inelastic collision, the coefficient of restitution is:',
+      options: ['A. 0', 'B. 0.5', 'C. 1', 'D. -1'],
+      answer: 'A. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'A 10 kg mass moving at 5 m/s collides elastically with a 5 kg mass at rest. The speed of the 5 kg mass after collision is:',
+      options: ['A. 10/3 m/s', 'B. 20/3 m/s', 'C. 5 m/s', 'D. 10 m/s'],
+      answer: 'B. 20/3 m/s',
+      diff: 'hard',
+    },
+    {
+      q: 'Which is NOT an example of an inelastic collision?',
+      options: ['A. Two cars crumpling together', 'B. A ball of clay sticking to a wall', 'C. Two billiard balls colliding', 'D. A bullet embedding in wood'],
+      answer: 'C. Two billiard balls colliding',
+      diff: 'easy',
+    },
+    {
+      q: 'Momentum is conserved in collisions:',
+      options: ['A. Only if no external forces act', 'B. Only in elastic collisions', 'C. Always, even with external forces', 'D. Only in one dimension'],
+      answer: 'A. Only if no external forces act',
+      diff: 'easy',
+    },
+    {
+      q: 'The discovery of the neutrino was based on:',
+      options: ['A. Conservation of energy', 'B. Conservation of momentum', 'C. Conservation of mass', 'D. Both A and B'],
+      answer: 'D. Both A and B',
+      diff: 'medium',
+    },
+    {
+      q: 'In a head-on elastic collision with m₁ = m₂ and u₂ = 0, the velocities after collision are:',
+      options: ['A. v₁ = u₁, v₂ = 0', 'B. v₁ = 0, v₂ = u₁', 'C. v₁ = u₁/2, v₂ = u₁/2', 'D. v₁ = -u₁, v₂ = u₁'],
+      answer: 'B. v₁ = 0, v₂ = u₁',
+      diff: 'easy',
+    },
+    {
+      q: 'A 1 kg ball moving at 3 m/s collides elastically with a stationary 2 kg ball. The velocity of the 1 kg ball after collision is:',
+      options: ['A. 1 m/s', 'B. -1 m/s', 'C. 2 m/s', 'D. -2 m/s'],
+      answer: 'B. -1 m/s',
+      diff: 'hard',
+    },
+    {
+      q: 'For the previous problem, the velocity of the 2 kg ball after collision is:',
+      options: ['A. 1 m/s', 'B. 2 m/s', 'C. 3 m/s', 'D. 4 m/s'],
+      answer: 'B. 2 m/s',
+      diff: 'hard',
+    },
+    {
+      q: 'In a completely inelastic collision of two objects, the maximum kinetic energy loss occurs when:',
+      options: ['A. Masses are equal', 'B. One mass is much larger', 'C. They move in opposite directions with equal momentum', 'D. Both at rest'],
+      answer: 'C. They move in opposite directions with equal momentum',
+      diff: 'hard',
+    },
+    {
+      q: 'A 4 kg mass moving at 6 m/s collides inelastically with a 2 kg mass at rest and sticks. The common speed is:',
+      options: ['A. 2 m/s', 'B. 3 m/s', 'C. 4 m/s', 'D. 6 m/s'],
+      answer: 'C. 4 m/s',
+      diff: 'easy',
+    },
+    {
+      q: 'The kinetic energy lost in the previous problem is:',
+      options: ['A. 24 J', 'B. 48 J', 'C. 12 J', 'D. 36 J'],
+      answer: 'A. 24 J',
+      diff: 'medium',
+    }
+  ]
+},
+
+
   },
 
   // ─────────────────────────────────────────
@@ -5456,183 +7843,1299 @@ CS is used in hospitals, banks, telecom, Pak Army, freelancing, and almost all p
         },
       ],
     },
+
+
+
+
+
   },
 
   // ─────────────────────────────────────────
   //  PAK101
   // ─────────────────────────────────────────
   PAK101: {
-    1: {
-      title: 'Ideology of Pakistan',
-      summary: `**Key Topics Covered:**
-- Definition of ideology
-- Development of Pakistan's ideology
-- Two Nation Theory
-- Key historical figures and events
-- Muslim struggle in India
+     1: {
+  title: 'Muslim Identity, Two-Nation Theory, and Role of Jinnah & Allama Iqbal (PAK101 Lecture 1)',
+  summary: `**Key Topics Covered:**
+- Development of Muslim identity in the Indian subcontinent
+- Two-Nation Theory: Muslims and Hindus as two distinct nations
+- Role of Quaid-e-Azam Muhammad Ali Jinnah (leader, mobilizer, articulator of Muslim demands)
+- Jinnah’s political career: Congress, Muslim League, Lucknow Pact (1916), Nehru Report, 14 Points (1929)
+- Jinnah’s speeches defining Muslims as a separate nation (1935–1940)
+- Jinnah’s vision for Pakistan: democratic, Islamic, with equal rights for all citizens
+- Allama Iqbal’s vision: Islam as a dynamic force, critique of Western materialism
+- Iqbal’s Allahabad Address (1930): proposal for a separate Muslim state in Northwestern India
 
-**Important Concepts:**
+---
 
-**Ideology:**
-A set of beliefs, values, and ideals that provides direction and a worldview to a nation. Pakistan's ideology developed through an evolutionary process, not suddenly.
+**Simple Understanding:**
 
-**Key Figures:**
-- Allama Iqbal = philosophical explanation of Pakistan's ideology
-- Quaid-i-Azam = political leadership for Pakistan movement
-- Sir Syed Ahmed Khan = started the Aligarh Movement
+**Muslim Identity and Two-Nation Theory:**
+👉 Muslims of India developed a distinct identity based on religion, culture, history, and laws.
+👉 They wanted to protect their interests and live according to Islamic ideals without being dominated by a Hindu majority.
+👉 Initially, they sought constitutional safeguards from the British.
+👉 Due to opposition from Hindus, they eventually demanded a separate state.
 
-**Two Nation Theory:**
-Based on religion — Islam and Hinduism are two completely different social orders. Muslims demanded separate electorates due to religious differences. Muslim nationhood is based on Faith (Islam).
+**Role of Quaid-e-Azam Muhammad Ali Jinnah:**
+👉 Joined Indian National Congress (1906) and later All India Muslim League (1913).
+👉 Resigned from Congress in 1920 over disagreements with Gandhi (on Swaraj and extra-constitutional means).
+👉 Lucknow Pact (1916): Hindus accepted separate electorate, one-third seats for Muslims in Central Legislature, and minority rights.
+👉 Nehru Report (1928) ignored Muslim rights; Jinnah responded with 14 Points (1929).
+👉 In 1935, he called Muslims a "nation" in the Legislative Assembly.
+👉 In 1937, he declared Muslims as a third party in India.
+👉 In 1939–40, he famously stated: "By all cannons of international law, we are a nation."
+👉 He emphasized Islam as a dynamic force for unity, guidance, and civilization.
+👉 He promised a democratic constitution, equality for all citizens, and rights for religious minorities.
 
-**Historical Events Timeline:**
-- Muhammad bin Qasim = conquered parts of India
-- Mahmud of Ghazna = attacked India 17 times
-- Ali Hujwiri and Sufis = spread Islam through teachings
-- Akbar = introduced Deen-e-Ilahi
-- 1857 = War of Independence
-- 1867 = Hindi-Urdu controversy
-- 1885 = Indian National Congress founded
-- 1906 = All India Muslim League founded in Dhaka
-- 1949 = Objectives Resolution passed
+**Allama Iqbal’s Vision:**
+👉 Recognized Islam’s central role in Muslim life.
+👉 Early poetry (e.g., Tarana-i-Hind) showed nationalist ideas, but later focused on Muslim identity.
+👉 Criticized Western capitalism, materialism, and lack of spirituality.
+👉 Believed Islam could salvage Muslims from internal discord and external challenges.
+👉 Advocated for Ijtehad (reinterpretation) to meet modern challenges.
+👉 Allahabad Address (1930): Proposed a separate Muslim state in Northwestern India (Punjab, NWFP, Sind, Balochistan) – a self-governing entity within or without the British Empire.
 
-**Key Facts to Remember:**
-- Ideology = beliefs + values + ideals
-- Pakistan's ideology = evolutionary process
-- Two Nation Theory = religion-based
-- Deen-e-Ilahi = introduced by Akbar (not Aurangzeb)
-- Muslim nationalism = social justice + equality + religious tolerance
+---
+
+**Important Vocabulary:**
+- Two-Nation Theory = belief that Hindus and Muslims are two distinct nations
+- Separate Electorate = Muslims voting for their own representatives
+- Swaraj = self-rule / complete freedom from British
+- Lucknow Pact (1916) = agreement between Congress and Muslim League
+- Nehru Report (1928) = Congress proposal that rejected separate electorate
+- 14 Points (1929) = Jinnah’s counter-proposals for Muslim rights
+- Ijtehad = independent reasoning to interpret Islamic law for modern times
+- Allahabad Address (1930) = Iqbal’s speech proposing a separate Muslim state
+
+---
 
 **Quick Revision Points:**
-- Iqbal = philosopher | Quaid = political leader | Sir Syed = Aligarh Movement
-- Two Nation Theory = based on religion
-- 1857 = War of Independence
-- 1885 = Congress | 1906 = Muslim League (Dhaka)
-- 1867 = Hindi-Urdu controversy
-- 1949 = Objectives Resolution
-- Mahmud of Ghazna attacked India 17 times`,
-      questions: [
-        {
-          q: 'Ideology is defined as:',
-          options: ['A. Political system', 'B. Set of beliefs, values and ideals', 'C. Economic policy', 'D. Religious book'],
-          answer: 'B. Set of beliefs, values and ideals',
-          diff: 'easy',
-        },
-        {
-          q: 'Ideology provides:',
-          options: ['A. Entertainment', 'B. Direction and worldview', 'C. Only laws', 'D. Only culture'],
-          answer: 'B. Direction and worldview',
-          diff: 'easy',
-        },
-        {
-          q: 'Ideology of Pakistan developed through:',
-          options: ['A. Sudden revolution', 'B. Evolutionary process', 'C. War only', 'D. Foreign influence'],
-          answer: 'B. Evolutionary process',
-          diff: 'medium',
-        },
-        {
-          q: 'Philosophical explanation of Pakistan ideology was given by:',
-          options: ['A. Sir Syed Ahmed Khan', 'B. Allama Iqbal', 'C. Liaquat Ali Khan', 'D. Gandhi'],
-          answer: 'B. Allama Iqbal',
-          diff: 'easy',
-        },
-        {
-          q: 'Political leadership for Pakistan movement was provided by:',
-          options: ['A. Allama Iqbal', 'B. Sir Syed', 'C. Quaid-i-Azam', 'D. Nehru'],
-          answer: 'C. Quaid-i-Azam',
-          diff: 'easy',
-        },
-        {
-          q: 'Objectives Resolution was passed in:',
-          options: ['A. 1947', 'B. 1948', 'C. 1949', 'D. 1956'],
-          answer: 'C. 1949',
-          diff: 'medium',
-        },
-        {
-          q: 'Muslims demanded separate electorates because:',
-          options: ['A. Economic issues', 'B. Religious differences', 'C. Cultural similarity', 'D. Language issue only'],
-          answer: 'B. Religious differences',
-          diff: 'medium',
-        },
-        {
-          q: 'Two Nation Theory is based on:',
-          options: ['A. Geography', 'B. Language', 'C. Religion', 'D. Economy'],
-          answer: 'C. Religion',
-          diff: 'easy',
-        },
-        {
-          q: 'Islam and Hinduism are considered:',
-          options: ['A. Same systems', 'B. Two social orders', 'C. Political ideologies', 'D. Economic systems'],
-          answer: 'B. Two social orders',
-          diff: 'medium',
-        },
-        {
-          q: 'Muslim nationhood is based on:',
-          options: ['A. Territory', 'B. Race', 'C. Language', 'D. Faith (Islam)'],
-          answer: 'D. Faith (Islam)',
-          diff: 'easy',
-        },
-        {
-          q: 'Muhammad bin Qasim is known for:',
-          options: ['A. Writing books', 'B. Conquering parts of India', 'C. Political leadership', 'D. Economic reforms'],
-          answer: 'B. Conquering parts of India',
-          diff: 'medium',
-        },
-        {
-          q: 'Mahmud of Ghazna attacked India:',
-          options: ['A. 5 times', 'B. 10 times', 'C. 17 times', 'D. 25 times'],
-          answer: 'C. 17 times',
-          diff: 'medium',
-        },
-        {
-          q: 'Ali Hujwiri and other Sufis:',
-          options: ['A. Fought wars', 'B. Spread Islam through teachings', 'C. Built empires', 'D. Wrote laws'],
-          answer: 'B. Spread Islam through teachings',
-          diff: 'easy',
-        },
-        {
-          q: 'Deen-e-Ilahi was introduced by:',
-          options: ['A. Aurangzeb', 'B. Akbar', 'C. Shah Jahan', 'D. Babur'],
-          answer: 'B. Akbar',
-          diff: 'hard',
-        },
-        {
-          q: 'War of Independence took place in:',
-          options: ['A. 1757', 'B. 1857', 'C. 1905', 'D. 1947'],
-          answer: 'B. 1857',
-          diff: 'easy',
-        },
-        {
-          q: 'Sir Syed Ahmed Khan started:',
-          options: ['A. Pakistan Movement', 'B. Aligarh Movement', 'C. Khilafat Movement', 'D. Swadeshi Movement'],
-          answer: 'B. Aligarh Movement',
-          diff: 'easy',
-        },
-        {
-          q: 'Indian National Congress was founded in:',
-          options: ['A. 1885', 'B. 1906', 'C. 1857', 'D. 1940'],
-          answer: 'A. 1885',
-          diff: 'medium',
-        },
-        {
-          q: 'All India Muslim League was founded in:',
-          options: ['A. Lahore', 'B. Karachi', 'C. Dhaka', 'D. Delhi'],
-          answer: 'C. Dhaka',
-          diff: 'medium',
-        },
-        {
-          q: 'Hindi-Urdu controversy started in:',
-          options: ['A. 1857', 'B. 1867', 'C. 1885', 'D. 1906'],
-          answer: 'B. 1867',
-          diff: 'medium',
-        },
-        {
-          q: 'Muslim nationalism emphasizes:',
-          options: ['A. Social justice', 'B. Equality', 'C. Religious tolerance', 'D. All of these'],
-          answer: 'D. All of these',
-          diff: 'easy',
-        },
-      ],
+- Muslim identity developed before Pakistan’s creation.
+- Muslims wanted to protect their identity, interests, and Islamic way of life.
+- Leadership was crucial; Muslims had competent leaders like Jinnah and Iqbal.
+- Jinnah started in Congress, then joined Muslim League.
+- Lucknow Pact (1916) gave Muslims separate electorate, one-third seats, minority protections.
+- Nehru Report (1928) ignored these; Jinnah gave 14 Points (1929).
+- Jinnah declared Muslims a nation in 1935, 1937, 1939-40.
+- Islam was central to Jinnah’s political mobilization.
+- Jinnah envisioned a democratic, modern Islamic state with equal rights.
+- Iqbal criticized Western materialism and saw Islam as a dynamic force.
+- Iqbal’s Allahabad Address (1930) proposed a separate Muslim state in Northwest India.`,
+
+  questions: [
+    {
+      q: 'The sense of nationhood among Muslims in India developed:',
+      options: ['A. After the creation of Pakistan', 'B. Before the establishment of Pakistan', 'C. During British rule only', 'D. After independence'],
+      answer: 'B. Before the establishment of Pakistan',
+      diff: 'easy',
     },
+    {
+      q: 'The main goal of Muslims in pre-Pakistan India was to:',
+      options: ['A. Dominate Hindus', 'B. Protect their identity and interests', 'C. Support British rule', 'D. Abandon Islam'],
+      answer: 'B. Protect their identity and interests',
+      diff: 'easy',
+    },
+    {
+      q: 'Initially, Muslims sought from the British:',
+      options: ['A. Complete independence', 'B. Constitutional safeguards', 'C. Separate homeland', 'D. Conversion of Hindus'],
+      answer: 'B. Constitutional safeguards',
+      diff: 'easy',
+    },
+    {
+      q: 'Which quality is NOT attributed to a good leadership in the text?',
+      options: ['A. Awareness', 'B. Consciousness', 'C. Wealth accumulation', 'D. Sense of direction'],
+      answer: 'C. Wealth accumulation',
+      diff: 'easy',
+    },
+    {
+      q: 'M. A. Jinnah is described as a:',
+      options: ['A. Religious scholar', 'B. Charismatic leader', 'C. British loyalist', 'D. Hindu leader'],
+      answer: 'B. Charismatic leader',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah joined the Indian National Congress in which year?',
+      options: ['A. 1900', 'B. 1906', 'C. 1913', 'D. 1920'],
+      answer: 'B. 1906',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah joined the All India Muslim League in:',
+      options: ['A. 1906', 'B. 1910', 'C. 1913', 'D. 1916'],
+      answer: 'C. 1913',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah resigned from the Congress in 1920 because of disagreement with Gandhi on:',
+      options: ['A. Separate electorate', 'B. Swaraj and extra-constitutional means', 'C. Two-nation theory', 'D. Pakistan resolution'],
+      answer: 'B. Swaraj and extra-constitutional means',
+      diff: 'medium',
+    },
+    {
+      q: 'The Lucknow Pact was signed in:',
+      options: ['A. 1913', 'B. 1916', 'C. 1920', 'D. 1929'],
+      answer: 'B. 1916',
+      diff: 'easy',
+    },
+    {
+      q: 'In the Lucknow Pact, Hindus accepted all EXCEPT:',
+      options: ['A. Separate electorate', 'B. One-third seats for Muslims in Central Legislature', 'C. Protection of minority rights', 'D. A separate Muslim state'],
+      answer: 'D. A separate Muslim state',
+      diff: 'medium',
+    },
+    {
+      q: 'The Nehru Report ignored the accepted Muslim rights. It was published in:',
+      options: ['A. 1920', 'B. 1928', 'C. 1929', 'D. 1935'],
+      answer: 'B. 1928',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah presented his 14 Points in response to the Nehru Report in:',
+      options: ['A. 1928', 'B. 1929', 'C. 1930', 'D. 1935'],
+      answer: 'B. 1929',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah first used the term "nation" for Indian Muslims in which year?',
+      options: ['A. 1929', 'B. 1935', 'C. 1937', 'D. 1940'],
+      answer: 'B. 1935',
+      diff: 'hard',
+    },
+    {
+      q: 'According to Jinnah’s 1939 speech, Muslims and Hindus are:',
+      options: ['A. One nation', 'B. Two nations', 'C. Religious communities only', 'D. Same civilization'],
+      answer: 'B. Two nations',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah believed that Islam is a:',
+      options: ['A. Static religion', 'B. Dynamic force', 'C. Mere ritual', 'D. Cause of division'],
+      answer: 'B. Dynamic force',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah assured that the constitution of Pakistan would be framed by:',
+      options: ['A. The British Parliament', 'B. The elected assembly', 'C. The Muslim League only', 'D. Religious scholars'],
+      answer: 'B. The elected assembly',
+      diff: 'easy',
+    },
+    {
+      q: 'Allama Iqbal first appeared publicly in 1899 at the annual session of:',
+      options: ['A. Muslim League', 'B. Anjuman Himayat-i-Islam', 'C. Congress', 'D. Khilafat Committee'],
+      answer: 'B. Anjuman Himayat-i-Islam',
+      diff: 'hard',
+    },
+    {
+      q: 'Iqbal’s early poetry included which nationalist poem?',
+      options: ['A. Nala-i-Yatim', 'B. Tarana-i-Hind', 'C. Shikwa', 'D. Jawab-e-Shikwa'],
+      answer: 'B. Tarana-i-Hind',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal criticized Western culture for being:',
+      options: ['A. Spiritual', 'B. Materialistic and lacking spiritualism', 'C. Democratic', 'D. Religious'],
+      answer: 'B. Materialistic and lacking spiritualism',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal believed that Islam can help Muslims overcome:',
+      options: ['A. Internal discord and external challenges', 'B. Economic prosperity only', 'C. Political power only', 'D. All religious rituals'],
+      answer: 'A. Internal discord and external challenges',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal advocated for which concept to reinterpret Islam for modern challenges?',
+      options: ['A. Taqleed', 'B. Ijtehad', 'C. Bidat', 'D. Shirk'],
+      answer: 'B. Ijtehad',
+      diff: 'medium',
+    },
+    {
+      q: 'The famous Allahabad Address was delivered by Allama Iqbal in:',
+      options: ['A. 1929', 'B. 1930', 'C. 1935', 'D. 1940'],
+      answer: 'B. 1930',
+      diff: 'easy',
+    },
+    {
+      q: 'In the Allahabad Address, Iqbal proposed a separate state for Muslims in which region?',
+      options: ['A. Eastern India', 'B. Northwestern India', 'C. Southern India', 'D. Central India'],
+      answer: 'B. Northwestern India',
+      diff: 'easy',
+    },
+    {
+      q: 'Which provinces did Iqbal mention for amalgamation into a single state in his 1930 address?',
+      options: ['A. Punjab, NWFP, Sind, Balochistan', 'B. Bengal, Assam, Bihar', 'C. UP, Delhi, Ajmer', 'D. Madras, Bombay, Calcutta'],
+      answer: 'A. Punjab, NWFP, Sind, Balochistan',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal’s concept of a separate state was to be within or without:',
+      options: ['A. The Congress', 'B. The British Empire', 'C. The Muslim League', 'D. The Hindu majority'],
+      answer: 'B. The British Empire',
+      diff: 'medium',
+    },
+    {
+      q: 'According to Jinnah, the combination of religion, culture, race, arts, and music make a minority a:',
+      options: ['A. Separate entity', 'B. Part of majority', 'C. Religious sect', 'D. Political party'],
+      answer: 'A. Separate entity',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+// lecture 2//
+
+
+pak101_2: {
+  title: 'Muslim Identity, Two-Nation Theory, and Role of Jinnah & Allama Iqbal (PAK101 Lecture 2)',
+  summary: `**Key Topics Covered:**
+- Development of Muslim identity in the Indian subcontinent
+- Two-Nation Theory: Muslims and Hindus as two distinct nations
+- Role of Quaid-e-Azam Muhammad Ali Jinnah (leader, mobilizer, articulator of Muslim demands)
+- Jinnah’s political career: Congress, Muslim League, Lucknow Pact (1916), Nehru Report, 14 Points (1929)
+- Jinnah’s speeches defining Muslims as a separate nation (1935–1940)
+- Jinnah’s vision for Pakistan: democratic, Islamic, with equal rights for all citizens
+- Allama Iqbal’s vision: Islam as a dynamic force, critique of Western materialism
+- Iqbal’s Allahabad Address (1930): proposal for a separate Muslim state in Northwestern India
+
+---
+
+**Simple Understanding:**
+
+**Muslim Identity and Two-Nation Theory:**
+👉 Muslims of India developed a distinct identity based on religion, culture, history, and laws.
+👉 They wanted to protect their interests and live according to Islamic ideals without being dominated by a Hindu majority.
+👉 Initially, they sought constitutional safeguards from the British.
+👉 Due to opposition from Hindus, they eventually demanded a separate state.
+
+**Role of Quaid-e-Azam Muhammad Ali Jinnah:**
+👉 Joined Indian National Congress (1906) and later All India Muslim League (1913).
+👉 Resigned from Congress in 1920 over disagreements with Gandhi (on Swaraj and extra-constitutional means).
+👉 Lucknow Pact (1916): Hindus accepted separate electorate, one-third seats for Muslims in Central Legislature, and minority rights.
+👉 Nehru Report (1928) ignored Muslim rights; Jinnah responded with 14 Points (1929).
+👉 In 1935, he called Muslims a "nation" in the Legislative Assembly.
+👉 In 1937, he declared Muslims as a third party in India.
+👉 In 1939–40, he famously stated: "By all cannons of international law, we are a nation."
+👉 He emphasized Islam as a dynamic force for unity, guidance, and civilization.
+👉 He promised a democratic constitution, equality for all citizens, and rights for religious minorities.
+
+**Allama Iqbal’s Vision:**
+👉 Recognized Islam’s central role in Muslim life.
+👉 Early poetry (e.g., Tarana-i-Hind) showed nationalist ideas, but later focused on Muslim identity.
+👉 Criticized Western capitalism, materialism, and lack of spirituality.
+👉 Believed Islam could salvage Muslims from internal discord and external challenges.
+👉 Advocated for Ijtehad (reinterpretation) to meet modern challenges.
+👉 Allahabad Address (1930): Proposed a separate Muslim state in Northwestern India (Punjab, NWFP, Sind, Balochistan) – a self-governing entity within or without the British Empire.
+
+---
+
+**Important Vocabulary:**
+- Two-Nation Theory = belief that Hindus and Muslims are two distinct nations
+- Separate Electorate = Muslims voting for their own representatives
+- Swaraj = self-rule / complete freedom from British
+- Lucknow Pact (1916) = agreement between Congress and Muslim League
+- Nehru Report (1928) = Congress proposal that rejected separate electorate
+- 14 Points (1929) = Jinnah’s counter-proposals for Muslim rights
+- Ijtehad = independent reasoning to interpret Islamic law for modern times
+- Allahabad Address (1930) = Iqbal’s speech proposing a separate Muslim state
+
+---
+
+**Quick Revision Points:**
+- Muslim identity developed before Pakistan’s creation.
+- Muslims wanted to protect their identity, interests, and Islamic way of life.
+- Leadership was crucial; Muslims had competent leaders like Jinnah and Iqbal.
+- Jinnah started in Congress, then joined Muslim League.
+- Lucknow Pact (1916) gave Muslims separate electorate, one-third seats, minority protections.
+- Nehru Report (1928) ignored these; Jinnah gave 14 Points (1929).
+- Jinnah declared Muslims a nation in 1935, 1937, 1939-40.
+- Islam was central to Jinnah’s political mobilization.
+- Jinnah envisioned a democratic, modern Islamic state with equal rights.
+- Iqbal criticized Western materialism and saw Islam as a dynamic force.
+- Iqbal’s Allahabad Address (1930) proposed a separate Muslim state in Northwest India.`,
+
+  questions: [
+    {
+      q: 'The sense of nationhood among Muslims in India developed:',
+      options: ['A. After the creation of Pakistan', 'B. Before the establishment of Pakistan', 'C. During British rule only', 'D. After independence'],
+      answer: 'B. Before the establishment of Pakistan',
+      diff: 'easy',
+    },
+    {
+      q: 'The main goal of Muslims in pre-Pakistan India was to:',
+      options: ['A. Dominate Hindus', 'B. Protect their identity and interests', 'C. Support British rule', 'D. Abandon Islam'],
+      answer: 'B. Protect their identity and interests',
+      diff: 'easy',
+    },
+    {
+      q: 'Initially, Muslims sought from the British:',
+      options: ['A. Complete independence', 'B. Constitutional safeguards', 'C. Separate homeland', 'D. Conversion of Hindus'],
+      answer: 'B. Constitutional safeguards',
+      diff: 'easy',
+    },
+    {
+      q: 'Which quality is NOT attributed to a good leadership in the text?',
+      options: ['A. Awareness', 'B. Consciousness', 'C. Wealth accumulation', 'D. Sense of direction'],
+      answer: 'C. Wealth accumulation',
+      diff: 'easy',
+    },
+    {
+      q: 'M. A. Jinnah is described as a:',
+      options: ['A. Religious scholar', 'B. Charismatic leader', 'C. British loyalist', 'D. Hindu leader'],
+      answer: 'B. Charismatic leader',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah joined the Indian National Congress in which year?',
+      options: ['A. 1900', 'B. 1906', 'C. 1913', 'D. 1920'],
+      answer: 'B. 1906',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah joined the All India Muslim League in:',
+      options: ['A. 1906', 'B. 1910', 'C. 1913', 'D. 1916'],
+      answer: 'C. 1913',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah resigned from the Congress in 1920 because of disagreement with Gandhi on:',
+      options: ['A. Separate electorate', 'B. Swaraj and extra-constitutional means', 'C. Two-nation theory', 'D. Pakistan resolution'],
+      answer: 'B. Swaraj and extra-constitutional means',
+      diff: 'medium',
+    },
+    {
+      q: 'The Lucknow Pact was signed in:',
+      options: ['A. 1913', 'B. 1916', 'C. 1920', 'D. 1929'],
+      answer: 'B. 1916',
+      diff: 'easy',
+    },
+    {
+      q: 'In the Lucknow Pact, Hindus accepted all EXCEPT:',
+      options: ['A. Separate electorate', 'B. One-third seats for Muslims in Central Legislature', 'C. Protection of minority rights', 'D. A separate Muslim state'],
+      answer: 'D. A separate Muslim state',
+      diff: 'medium',
+    },
+    {
+      q: 'The Nehru Report ignored the accepted Muslim rights. It was published in:',
+      options: ['A. 1920', 'B. 1928', 'C. 1929', 'D. 1935'],
+      answer: 'B. 1928',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah presented his 14 Points in response to the Nehru Report in:',
+      options: ['A. 1928', 'B. 1929', 'C. 1930', 'D. 1935'],
+      answer: 'B. 1929',
+      diff: 'medium',
+    },
+    {
+      q: 'Jinnah first used the term "nation" for Indian Muslims in which year?',
+      options: ['A. 1929', 'B. 1935', 'C. 1937', 'D. 1940'],
+      answer: 'B. 1935',
+      diff: 'hard',
+    },
+    {
+      q: 'According to Jinnah’s 1939 speech, Muslims and Hindus are:',
+      options: ['A. One nation', 'B. Two nations', 'C. Religious communities only', 'D. Same civilization'],
+      answer: 'B. Two nations',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah believed that Islam is a:',
+      options: ['A. Static religion', 'B. Dynamic force', 'C. Mere ritual', 'D. Cause of division'],
+      answer: 'B. Dynamic force',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah assured that the constitution of Pakistan would be framed by:',
+      options: ['A. The British Parliament', 'B. The elected assembly', 'C. The Muslim League only', 'D. Religious scholars'],
+      answer: 'B. The elected assembly',
+      diff: 'easy',
+    },
+    {
+      q: 'Allama Iqbal first appeared publicly in 1899 at the annual session of:',
+      options: ['A. Muslim League', 'B. Anjuman Himayat-i-Islam', 'C. Congress', 'D. Khilafat Committee'],
+      answer: 'B. Anjuman Himayat-i-Islam',
+      diff: 'hard',
+    },
+    {
+      q: 'Iqbal’s early poetry included which nationalist poem?',
+      options: ['A. Nala-i-Yatim', 'B. Tarana-i-Hind', 'C. Shikwa', 'D. Jawab-e-Shikwa'],
+      answer: 'B. Tarana-i-Hind',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal criticized Western culture for being:',
+      options: ['A. Spiritual', 'B. Materialistic and lacking spiritualism', 'C. Democratic', 'D. Religious'],
+      answer: 'B. Materialistic and lacking spiritualism',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal believed that Islam can help Muslims overcome:',
+      options: ['A. Internal discord and external challenges', 'B. Economic prosperity only', 'C. Political power only', 'D. All religious rituals'],
+      answer: 'A. Internal discord and external challenges',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal advocated for which concept to reinterpret Islam for modern challenges?',
+      options: ['A. Taqleed', 'B. Ijtehad', 'C. Bidat', 'D. Shirk'],
+      answer: 'B. Ijtehad',
+      diff: 'medium',
+    },
+    {
+      q: 'The famous Allahabad Address was delivered by Allama Iqbal in:',
+      options: ['A. 1929', 'B. 1930', 'C. 1935', 'D. 1940'],
+      answer: 'B. 1930',
+      diff: 'easy',
+    },
+    {
+      q: 'In the Allahabad Address, Iqbal proposed a separate state for Muslims in which region?',
+      options: ['A. Eastern India', 'B. Northwestern India', 'C. Southern India', 'D. Central India'],
+      answer: 'B. Northwestern India',
+      diff: 'easy',
+    },
+    {
+      q: 'Which provinces did Iqbal mention for amalgamation into a single state in his 1930 address?',
+      options: ['A. Punjab, NWFP, Sind, Balochistan', 'B. Bengal, Assam, Bihar', 'C. UP, Delhi, Ajmer', 'D. Madras, Bombay, Calcutta'],
+      answer: 'A. Punjab, NWFP, Sind, Balochistan',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal’s concept of a separate state was to be within or without:',
+      options: ['A. The Congress', 'B. The British Empire', 'C. The Muslim League', 'D. The Hindu majority'],
+      answer: 'B. The British Empire',
+      diff: 'medium',
+    },
+    {
+      q: 'According to Jinnah, the combination of religion, culture, race, arts, and music make a minority a:',
+      options: ['A. Separate entity', 'B. Part of majority', 'C. Religious sect', 'D. Political party'],
+      answer: 'A. Separate entity',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+//lecture 3//
+
+  3: {
+  title: 'Aligarh Movement: Sir Syed Ahmed Khan and Muslim Educational Renaissance (PAK101 Lecture 3)',
+  summary: `**Key Topics Covered:**
+- Background: War of Independence 1857 and its impact on Muslims
+- Sir Syed Ahmed Khan’s vision: modern education as the way to progress
+- Objectives of Aligarh Movement: British-Muslim understanding, Western education, abstention from agitation politics
+- Key associates: Nawab Mohsin ul Mulk, Nawab Viqar ul Mulk, Hali, Shibli, Chiragh Ali, and English professors
+- Educational achievements: schools, scientific society, MAO College (Aligarh), Muhammadan Educational Conference
+- Sir Syed’s writings: Risala Asbab-i-Baghawat-i-Hind, Tahzib-ul-Akhlaq, Loyal Mohammedans of India, Tabyin-ul-Kalam, Khutbat-i-Ahmadiya
+- Opposition to Congress, Urdu-Hindi controversy, and seeds of Two-Nation Theory
+
+---
+
+**Simple Understanding:**
+
+**Background:**
+👉 After the War of Independence (1857), the British blamed Muslims and punished them severely.
+👉 Muslims were seen as enemies because they had ruled India before the British.
+👉 The Mughal rule ended, and India came directly under the British Crown.
+👉 British educational policy (1835) replaced Arabic, Persian with English as official language.
+👉 Muslims developed a negative attitude towards modern/Western education, which was disastrous.
+
+**Sir Syed Ahmed Khan’s Role:**
+👉 He appeared during days of despair to rescue Muslims.
+👉 He believed mankind had entered an era of science and learning.
+👉 He wanted to transform Muslim minds from medieval outlook to modern.
+👉 Modern education became the pivot of his movement for Muslim regeneration.
+
+**Three Main Ideals of Sir Syed:**
+1. Create mutual understanding between British government and Muslims.
+2. Motivate Muslims to learn Western education.
+3. Persuade Muslims to abstain from agitation politics.
+
+**Educational Achievements:**
+- Gulshan School, Muradabad (1859)
+- Victoria School, Gazipur (1863)
+- Scientific Society, Aligarh (1864) – translated English works into Urdu
+- Aligarh Institute Gazette (1866) – covered history, science, mathematics
+- Committee Striving for Educational Progress of Muslims (1870)
+- Mohammedan Anglo-Oriental (MAO) School (1875) → College (1877) → University (1920)
+- Muhammadan Educational Conference (1886) – later became political mouthpiece and forerunner of Muslim League
+
+**Key Writings of Sir Syed:**
+- Risala Asbab-i-Baghawat-i-Hind (1858) – clarified Muslims were dragged into war, not solely responsible.
+- Tahzib-ul-Akhlaq (magazine) – criticized conservative lifestyle, advised adopting true Islamic teachings.
+- Loyal Mohammedans of India; Tabyin-ul-Kalam; Khutbat-i-Ahmadiya – removed misunderstandings about Islam and Christianity.
+
+**Conclusion & Legacy:**
+- Sir Syed forbade Muslims from joining the Hindu-dominated Indian National Congress.
+- Urdu-Hindi controversy showed that Hindus and Muslims could not live together.
+- He promoted reserved seats for Muslims and the idea that Hindus and Muslims are two distinct nations – a foundation of the Two-Nation Theory.
+- Aligarh Movement brought an intellectual revolution and restored Muslim confidence as a nation.
+
+---
+
+**Important Vocabulary:**
+- Aligarh Movement = Sir Syed’s educational and social reform movement
+- War of Independence 1857 = failed uprising against British rule
+- MAO College = Mohammedan Anglo-Oriental College, later Aligarh Muslim University
+- Scientific Society = organization for translating Western works into Urdu
+- Muhammadan Educational Conference = annual meeting to discuss Muslim education
+- Two-Nation Theory = concept that Hindus and Muslims are separate nations
+- Urdu-Hindi controversy = conflict over official language (Urdu vs Devanagari Hindi)
+- Risala = treatise or booklet
+
+---
+
+**Quick Revision Points:**
+- After 1857, British punished Muslims severely, blamed them for the war.
+- British made English the official language in 1835, replacing Persian/Arabic.
+- Muslims avoided modern education, which hurt their progress.
+- Sir Syed Ahmed Khan started Aligarh Movement to revive Muslims through education.
+- He wanted British-Muslim understanding, Western education, and no agitation politics.
+- He set up MAO School (1875) → College (1877) → University (1920).
+- Muhammadan Educational Conference (1886) later helped form Muslim League.
+- Sir Syed opposed Congress and warned that Hindus and Muslims are two nations.
+- His writings defended Muslims and promoted modern Islamic thought.
+- Aligarh Movement laid the foundation for Pakistan’s creation.`,
+
+  questions: [
+    {
+      q: 'The Aligarh Movement was started by:',
+      options: ['A. Allama Iqbal', 'B. Sir Syed Ahmed Khan', 'C. Quaid-e-Azam Jinnah', 'D. Nawab Mohsin ul Mulk'],
+      answer: 'B. Sir Syed Ahmed Khan',
+      diff: 'easy',
+    },
+    {
+      q: 'The basic aim of Aligarh Movement was to:',
+      options: ['A. Create a separate homeland', 'B. Bring back past glory of Muslims through education', 'C. Oppose the British', 'D. Promote Hinduism'],
+      answer: 'B. Bring back past glory of Muslims through education',
+      diff: 'easy',
+    },
+    {
+      q: 'The War of Independence ended in disaster for Muslims in which year?',
+      options: ['A. 1857', 'B. 1835', 'C. 1875', 'D. 1906'],
+      answer: 'A. 1857',
+      diff: 'easy',
+    },
+    {
+      q: 'After 1857, the British believed which community was responsible for the war?',
+      options: ['A. Hindus', 'B. Sikhs', 'C. Muslims', 'D. Christians'],
+      answer: 'C. Muslims',
+      diff: 'easy',
+    },
+    {
+      q: 'The British made which language the official language in 1835?',
+      options: ['A. Urdu', 'B. Persian', 'C. Arabic', 'D. English'],
+      answer: 'D. English',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed Ahmed Khan believed that regeneration of Muslims required:',
+      options: ['A. Political agitation', 'B. Modern education', 'C. Religious rituals only', 'D. Boycott of British'],
+      answer: 'B. Modern education',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following was NOT an objective of Sir Syed Ahmed Khan?',
+      options: ['A. Mutual understanding with British', 'B. Learn Western education', 'C. Join agitation politics', 'D. Abstain from politics'],
+      answer: 'C. Join agitation politics',
+      diff: 'medium',
+    },
+    {
+      q: 'The first school established by Sir Syed Ahmed Khan was at:',
+      options: ['A. Aligarh', 'B. Muradabad', 'C. Gazipur', 'D. Delhi'],
+      answer: 'B. Muradabad',
+      diff: 'medium',
+    },
+    {
+      q: 'The Scientific Society was established at Aligarh in:',
+      options: ['A. 1859', 'B. 1864', 'C. 1866', 'D. 1870'],
+      answer: 'B. 1864',
+      diff: 'medium',
+    },
+    {
+      q: 'The Mohammedan Anglo-Oriental (MAO) School was established in:',
+      options: ['A. 1864', 'B. 1870', 'C. 1875', 'D. 1877'],
+      answer: 'C. 1875',
+      diff: 'medium',
+    },
+    {
+      q: 'MAO School was raised to college level in which year?',
+      options: ['A. 1875', 'B. 1877', 'C. 1886', 'D. 1920'],
+      answer: 'B. 1877',
+      diff: 'medium',
+    },
+    {
+      q: 'Aligarh Muslim University was established in:',
+      options: ['A. 1877', 'B. 1886', 'C. 1906', 'D. 1920'],
+      answer: 'D. 1920',
+      diff: 'medium',
+    },
+    {
+      q: 'The Muhammadan Educational Conference was founded in:',
+      options: ['A. 1875', 'B. 1877', 'C. 1886', 'D. 1906'],
+      answer: 'C. 1886',
+      diff: 'medium',
+    },
+    {
+      q: 'The Muhammadan Educational Conference later became the forerunner of:',
+      options: ['A. Indian National Congress', 'B. All India Muslim League', 'C. Khilafat Committee', 'D. Aligarh University'],
+      answer: 'B. All India Muslim League',
+      diff: 'easy',
+    },
+    {
+      q: 'Which magazine was written by Sir Syed to criticize conservative Muslim lifestyle?',
+      options: ['A. Aligarh Institute Gazette', 'B. Tahzib-ul-Akhlaq', 'C. Risala Asbab-i-Baghawat-i-Hind', 'D. Khutbat-i-Ahmadiya'],
+      answer: 'B. Tahzib-ul-Akhlaq',
+      diff: 'medium',
+    },
+    {
+      q: 'In his book "Risala Asbab-i-Baghawat-i-Hind", Sir Syed argued that:',
+      options: ['A. Muslims were solely responsible for the war', 'B. Muslims were dragged into the war', 'C. British were innocent', 'D. Hindus started the war'],
+      answer: 'B. Muslims were dragged into the war',
+      diff: 'hard',
+    },
+    {
+      q: 'Sir Syed Ahmed Khan advised Muslims to:',
+      options: ['A. Join the Indian National Congress', 'B. Abstain from agitation politics', 'C. Reject all British institutions', 'D. Focus only on religious education'],
+      answer: 'B. Abstain from agitation politics',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed opposed the Indian National Congress because it was:',
+      options: ['A. Pro-British', 'B. Hindu-dominated', 'C. Muslim-dominated', 'D. Socialist'],
+      answer: 'B. Hindu-dominated',
+      diff: 'easy',
+    },
+    {
+      q: 'The Urdu-Hindi controversy contributed to Sir Syed’s belief that:',
+      options: ['A. Hindus and Muslims could live together peacefully', 'B. Both nations could no longer live together', 'C. Urdu should be replaced by Hindi', 'D. English should be the only language'],
+      answer: 'B. Both nations could no longer live together',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following was NOT an associate of Sir Syed Ahmed Khan?',
+      options: ['A. Nawab Mohsin ul Mulk', 'B. Allama Iqbal', 'C. Hali', 'D. Shibli'],
+      answer: 'B. Allama Iqbal',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed’s movement laid the foundation for:',
+      options: ['A. Two-Nation Theory', 'B. Khilafat Movement', 'C. Non-Cooperation Movement', 'D. Civil Disobedience'],
+      answer: 'A. Two-Nation Theory',
+      diff: 'easy',
+    },
+    {
+      q: 'The Aligarh Institute Gazette provided information on all EXCEPT:',
+      options: ['A. History', 'B. Natural sciences', 'C. Physics and mathematics', 'D. Political agitation methods'],
+      answer: 'D. Political agitation methods',
+      diff: 'medium',
+    },
+    {
+      q: 'Sir Syed Ahmed Khan wanted to create an atmosphere of mutual understanding between:',
+      options: ['A. Hindus and Muslims', 'B. British government and Muslims', 'C. Muslims and Congress', 'D. British and Hindus'],
+      answer: 'B. British government and Muslims',
+      diff: 'easy',
+    },
+    {
+      q: 'According to Sir Syed, the only way for Muslims to prosper was:',
+      options: ['A. Political revolution', 'B. Modern education and jobs under new government', 'C. Religious wars', 'D. Migration to other countries'],
+      answer: 'B. Modern education and jobs under new government',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed’s writings like "Tabyin-ul-Kalam" aimed to:',
+      options: ['A. Criticize British rule', 'B. Remove misunderstandings about Islam and Christianity', 'C. Promote Persian poetry', 'D. Attack Hindu religion'],
+      answer: 'B. Remove misunderstandings about Islam and Christianity',
+      diff: 'hard',
+    },
+    {
+      q: 'Which English professors contributed to building Aligarh College?',
+      options: ['A. Bech, Morison, Raleigh, Arnold', 'B. Macaulay, Bentinck, Curzon', 'C. Hume, Wedderburn, Naoroji', 'D. None'],
+      answer: 'A. Bech, Morison, Raleigh, Arnold',
+      diff: 'hard',
+    }
+  ]
+},
+
+//lecture 4//
+
+
+ 4: {
+  title: 'Sir Syed Ahmed Khan: Life, Political Vision, Hindi-Urdu Controversy & Two-Nation Theory (PAK101 Lecture 4)',
+  summary: `**Key Topics Covered:**
+- Sir Syed Ahmed Khan’s life and background (birth, family, education, career)
+- Impact of War of Independence 1857 on Muslims and Sir Syed’s response
+- Sir Syed’s political vision: British-Muslim understanding, modern education, abstention from agitation
+- Hindi-Urdu controversy (1867) and its impact on Sir Syed’s thinking
+- Emergence of Two-Nation Theory: Hindus and Muslims as separate nations
+- Patriotic Association (1888) and Mohammedan Defense Association (1893)
+- Sir Syed’s legacy as a reformer and emancipator of Indian Muslims
+
+---
+
+**Simple Understanding:**
+
+**Sir Syed’s Early Life:**
+👉 Born in Delhi in 1817 when Mughal Empire was collapsing.
+👉 Family had connections with East India Company; maternal grandfather served under British.
+👉 Interest in English came from maternal family.
+👉 His grandfather called him “A Jat has been born in our family” (referring to his healthy, strong build).
+👉 Father died early; Sir Syed joined British as head clerk in 1839.
+👉 Became sub-judge in 1841.
+👉 The War of Independence (1857) changed him entirely.
+
+**Impact of 1857 on Muslims:**
+👉 British blamed Muslims for the war.
+👉 Muslims were brutally punished: executed, exiled, ousted from land and jobs.
+👉 Delhi was devastated; Mughal princes shot; Bahadur Shah Zafar exiled to Rangoon.
+👉 Muslims became third-class citizens; developed hatred for British culture.
+
+**Sir Syed’s Response:**
+👉 He believed British were civilized, educated, wise, and militarily superior.
+👉 Muslims should adapt to modern times to avoid further disaster.
+👉 He saved British lives during the war, earning their confidence.
+👉 Used this relationship for Muslim betterment.
+👉 Published "Loyal Mohammedans of India" and "Risala Asbab-i-Baghawat-i-Hind" to clarify Muslim position.
+
+**Hindi-Urdu Controversy (1867):**
+👉 Urdu was official language in NW provinces.
+👉 Hindus in Banaras demanded replacement of Urdu with Hindi and Persian script with Devanagari.
+👉 Reason: Urdu used Persian/Arabic script (Arabic being Quran’s language).
+👉 Movement spread quickly; headquarters in Allahabad.
+👉 Before this, Sir Syed advocated Hindu-Muslim unity (“two eyes of beautiful bride India”).
+👉 After controversy, he concluded Hindus would not tolerate Muslim culture.
+👉 He put forward the Two-Nation Theory: differences would increase; communities could not join wholeheartedly.
+
+**Two Associations:**
+- **Patriotic Association (1888):** To counter Congress propaganda; Muslims and Hindus joined; advocated Muslim emotions.
+- **Mohammedan Defense Association (1893):** To protect political, religious, and social rights of Muslims.
+
+**Legacy:**
+👉 Sir Syed was a great reformer who made Muslims realize their lost identity.
+👉 Compared to Otto von Bismarck (who had state resources), Sir Syed achieved similar without resources.
+👉 According to Dr. Qalb-i-Abid: He was among very few leaders like Jinnah who guided Indian Muslims.
+👉 According to Khalid Bin Sayeed: He dared to put forward views in an age that was not liberal or tolerant.
+
+---
+
+**Important Vocabulary:**
+- Emancipator = one who frees others from bondage or oppression
+- Sub-judge = judicial officer below a judge
+- Trauma = deeply distressing experience
+- Horrendous = extremely horrible
+- Detestation = intense dislike
+- Sinister aspirations = evil or harmful intentions
+- Deva Nagri script = script used for Hindi language
+- Patriotic Association = organization to counter Congress
+- Mohammedan Defense Association = organization to protect Muslim rights
+
+---
+
+**Quick Revision Points:**
+- Sir Syed born in Delhi (1817) during Mughal decline.
+- Family had British connections; he learned English from maternal side.
+- Became sub-judge (1841); 1857 war changed him.
+- British brutally punished Muslims after 1857.
+- Sir Syed saved British lives, gained their trust.
+- He urged Muslims to adopt modern education and avoid agitation.
+- Hindi-Urdu controversy (1867) made him abandon Hindu-Muslim unity idea.
+- He proposed Two-Nation Theory – Hindus and Muslims are separate nations.
+- Founded Patriotic Association (1888) and Mohammedan Defense Association (1893).
+- His writings defended Muslims and promoted modern Islamic thought.
+- He is remembered as a great reformer without state resources.`,
+
+  questions: [
+    {
+      q: 'Sir Syed Ahmed Khan was born in which city?',
+      options: ['A. Aligarh', 'B. Delhi', 'C. Bijnore', 'D. Muradabad'],
+      answer: 'B. Delhi',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed Ahmed Khan was born in which year?',
+      options: ['A. 1807', 'B. 1817', 'C. 1827', 'D. 1837'],
+      answer: 'B. 1817',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed’s interest in English came from his:',
+      options: ['A. Father', 'B. Maternal grandfather', 'C. School teacher', 'D. British friend'],
+      answer: 'B. Maternal grandfather',
+      diff: 'medium',
+    },
+    {
+      q: 'Sir Syed’s grandfather remarked “A Jat has been born in our family” because Sir Syed was:',
+      options: ['A. Very intelligent', 'B. Very healthy by birth', 'C. Very religious', 'D. Very wealthy'],
+      answer: 'B. Very healthy by birth',
+      diff: 'medium',
+    },
+    {
+      q: 'Sir Syed joined the British as head clerk in which year?',
+      options: ['A. 1839', 'B. 1841', 'C. 1857', 'D. 1864'],
+      answer: 'A. 1839',
+      diff: 'hard',
+    },
+    {
+      q: 'Sir Syed became sub-judge in which year?',
+      options: ['A. 1839', 'B. 1841', 'C. 1857', 'D. 1866'],
+      answer: 'B. 1841',
+      diff: 'hard',
+    },
+    {
+      q: 'The event that changed Sir Syed entirely was:',
+      options: ['A. Death of his father', 'B. Death of his brother', 'C. The War of Independence 1857', 'D. Establishment of Congress'],
+      answer: 'C. The War of Independence 1857',
+      diff: 'easy',
+    },
+    {
+      q: 'After 1857, the British subjected Muslims to:',
+      options: ['A. Rewards and honors', 'B. Ruthless punishment and merciless revenge', 'C. Equal rights', 'D. Full political participation'],
+      answer: 'B. Ruthless punishment and merciless revenge',
+      diff: 'easy',
+    },
+    {
+      q: 'Who was exiled to Rangoon after the 1857 war?',
+      options: ['A. Sir Syed Ahmed Khan', 'B. Bahadur Shah Zafar', 'C. Nawab Mohsin ul Mulk', 'D. Hali'],
+      answer: 'B. Bahadur Shah Zafar',
+      diff: 'easy',
+    },
+    {
+      q: 'How many Mughal princes were shot by Lt. Hodson?',
+      options: ['A. 2', 'B. 3', 'C. 4', 'D. 5'],
+      answer: 'B. 3',
+      diff: 'hard',
+    },
+    {
+      q: 'Sir Syed believed that the British were a:',
+      options: ['A. Barbaric nation', 'B. Civilized, educated, wise, and disciplined nation', 'C. Weak nation', 'D. Corrupt nation'],
+      answer: 'B. Civilized, educated, wise, and disciplined nation',
+      diff: 'medium',
+    },
+    {
+      q: 'Sir Syed published “Loyal Mohammedans of India” to:',
+      options: ['A. Criticize the British', 'B. Help both nations redress grievances', 'C. Promote Urdu language', 'D. Oppose Congress'],
+      answer: 'B. Help both nations redress grievances',
+      diff: 'medium',
+    },
+    {
+      q: 'The Indian National Congress was founded in which year?',
+      options: ['A. 1885', 'B. 1886', 'C. 1888', 'D. 1893'],
+      answer: 'A. 1885',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed warned Muslims against the Congress because it was:',
+      options: ['A. Pro-British', 'B. Hindu-dominated with sinister aspirations', 'C. Muslim-dominated', 'D. Socialist'],
+      answer: 'B. Hindu-dominated with sinister aspirations',
+      diff: 'easy',
+    },
+    {
+      q: 'The Hindi-Urdu controversy started in which year?',
+      options: ['A. 1857', 'B. 1867', 'C. 1885', 'D. 1888'],
+      answer: 'B. 1867',
+      diff: 'easy',
+    },
+    {
+      q: 'The movement to replace Urdu with Hindi started in which city?',
+      options: ['A. Aligarh', 'B. Banaras', 'C. Delhi', 'D. Lucknow'],
+      answer: 'B. Banaras',
+      diff: 'easy',
+    },
+    {
+      q: 'Hindus wanted to replace Urdu with Hindi because:',
+      options: ['A. Urdu was difficult', 'B. Urdu was written in Persian script similar to Arabic (Quran’s language)', 'C. Urdu was not spoken', 'D. Hindi was easier'],
+      answer: 'B. Urdu was written in Persian script similar to Arabic (Quran’s language)',
+      diff: 'medium',
+    },
+    {
+      q: 'Before the Hindi-Urdu controversy, Sir Syed believed that:',
+      options: ['A. Hindus and Muslims are two nations', 'B. Two nations are like two eyes of the beautiful bride India', 'C. Muslims should separate', 'D. Urdu should be abolished'],
+      answer: 'B. Two nations are like two eyes of the beautiful bride India',
+      diff: 'medium',
+    },
+    {
+      q: 'After the Hindi-Urdu controversy, Sir Syed put forward the:',
+      options: ['A. Separate electorate demand', 'B. Two-Nation Theory', 'C. Pakistan Resolution', 'D. Lucknow Pact'],
+      answer: 'B. Two-Nation Theory',
+      diff: 'easy',
+    },
+    {
+      q: 'Sir Syed predicted that differences between Hindus and Muslims would:',
+      options: ['A. Decrease with time', 'B. Increase with time', 'C. Remain the same', 'D. Disappear completely'],
+      answer: 'B. Increase with time',
+      diff: 'easy',
+    },
+    {
+      q: 'The Patriotic Association was founded by Sir Syed in which year?',
+      options: ['A. 1885', 'B. 1886', 'C. 1888', 'D. 1893'],
+      answer: 'C. 1888',
+      diff: 'medium',
+    },
+    {
+      q: 'The main purpose of the Patriotic Association was to:',
+      options: ['A. Promote Urdu', 'B. Meet the propaganda of the Congress', 'C. Fight the British', 'D. Establish a university'],
+      answer: 'B. Meet the propaganda of the Congress',
+      diff: 'medium',
+    },
+    {
+      q: 'The Mohammedan Defense Association was founded in:',
+      options: ['A. 1888', 'B. 1890', 'C. 1893', 'D. 1906'],
+      answer: 'C. 1893',
+      diff: 'hard',
+    },
+    {
+      q: 'The Mohammedan Defense Association aimed to protect:',
+      options: ['A. Only political rights', 'B. Political, religious, and social rights of Muslims', 'C. Only religious rights', 'D. British interests'],
+      answer: 'B. Political, religious, and social rights of Muslims',
+      diff: 'medium',
+    },
+    {
+      q: 'Sir Syed Ahmed Khan died on:',
+      options: ['A. March 27, 1898', 'B. March 27, 1899', 'C. March 27, 1900', 'D. March 27, 1901'],
+      answer: 'A. March 27, 1898',
+      diff: 'medium',
+    },
+    {
+      q: 'According to Dr. Qalb-i-Abid, Sir Syed was among very few leaders who:',
+      options: ['A. Opposed the British', 'B. Made tremendous contribution in guiding the destinies of Indian Muslims', 'C. Wrote poetry', 'D. Founded Congress'],
+      answer: 'B. Made tremendous contribution in guiding the destinies of Indian Muslims',
+      diff: 'medium',
+    },
+    {
+      q: 'Otto von Bismarck is compared to Sir Syed because:',
+      options: ['A. Both were politicians', 'B. Both served their nations with government resources, but Sir Syed did without resources', 'C. Both were poets', 'D. Both were British'],
+      answer: 'B. Both served their nations with government resources, but Sir Syed did without resources',
+      diff: 'hard',
+    },
+    {
+      q: 'According to Khalid Bin Sayeed, Sir Syed put forward daring views in an age that was:',
+      options: ['A. Very liberal', 'B. By no means liberal or tolerant', 'C. Very democratic', 'D. Pro-Muslim'],
+      answer: 'B. By no means liberal or tolerant',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+// lecture 5//
+
+
+ 5: {
+  title: 'From 1857 to Lucknow Pact: Political Awakening of Muslims (PAK101 Lecture 5)',
+  summary: `**Key Topics Covered:**
+- Decline after 1857 Uprising and revival efforts by Sir Syed and colleagues
+- Removal of Muslim-British misunderstandings; educational movement
+- Hindi-Urdu controversy and Hindu revivalist movements
+- Formation of Indian National Congress (1885) – Muslims warned against it
+- Partition of Bengal (1905) and its annulment (1911)
+- Simla Deputation (1906): first systematic Muslim political demands
+- Formation of All India Muslim League (1906) – goals and evolution
+- Change in Muslim League goals (1913): self-government under British Crown
+- Lucknow Pact (1916): Hindu-Muslim unity, separate electorate, one-third seats
+- Montagu Announcement (August 20, 1917): responsible government, Indian association
+
+---
+
+**Simple Understanding:**
+
+**Period 1857-1918 – Foundation of Major Changes:**
+👉 This period set the foundation for later political and constitutional changes in British India.
+
+**Key Developments:**
+1. **After 1857:** Muslims were persecuted; Sir Syed and colleagues worked for revival.
+2. **Educational movement:** Modern knowledge and English essential for Muslims.
+3. **Hindi-Urdu controversy (1867):** Exposed Hindu hatred towards Muslim culture.
+4. **Congress (1885):** Hindus tried to absorb Muslims into Hinduism; Muslims could not afford agitation politics.
+5. **Hindu revivalist movements:** Targeted Muslims, widening the gulf between nations.
+
+**Partition of Bengal (1905):**
+👉 Bengal was 189,000 sq miles with 80 million people.
+👉 Partition was imperative for administrative reasons.
+👉 East Bengal became Muslim majority (13M out of 31M); West Bengal Hindu majority.
+👉 Muslims supported partition as opportunity for progress.
+👉 Hindus reacted furiously: "division of motherland" – started agitation, violence, boycott.
+👉 Congress joined anti-partition movement.
+👉 **Annulment:** December 12, 1911 – British revoked partition to avoid trouble during King George V’s visit.
+👉 Muslims were deeply disappointed.
+
+**Simla Deputation (1906):**
+👉 First systematic attempt by Muslims to present demands to British.
+👉 35 Muslim leaders from all over India – most representative delegation.
+👉 Led by Sir Agha Khan; Nawab Mohsin ul Malik as secretary.
+👉 Met Viceroy Lord Minto in Simla.
+
+**Demands presented:**
+- Representation more than population (due to historical importance)
+- Separate electorate
+- Reserved seats in government jobs
+- Special share in municipal boards, university senates
+- Muslim representation in Viceroy’s Executive Council
+- Muslim University at Aligarh
+
+👉 Viceroy was sympathetic.
+
+**Formation of All India Muslim League (1906):**
+👉 After Simla Deputation success, Muslims needed organized platform.
+👉 Meeting after Mohammedan Educational Conference in Dhaka.
+👉 Nawab Salimullah proposed Muslim League; seconded by Hakim Ajmal Khan and Maulana Zafar Ali Khan.
+👉 Constitution approved at Karachi session (Dec 1907).
+👉 Sir Agha Khan elected first president (March 1908, Aligarh).
+👉 London branch (May 1908) by Syed Ameer Ali – countered Hindu conspiracies.
+
+**Original Goals of Muslim League:**
+1. Protect and promote political rights and interests of Muslims.
+2. Cooperate with other communities without prejudice to above goal.
+3. Foster loyalty towards British government.
+
+**Change in Goals (1913):**
+👉 Events: annulment of Bengal partition, Western aggression on Muslim countries (Balkan wars, Libya-Italy), demolition of mosque in Kawnpur (1913) weakened Muslim faith in British.
+👉 New goals:
+   - Self-government under British Crown (considering Indian conditions)
+   - Good relations with other communities; cooperate with any party working for similar goals.
+👉 This brought Muslim League and Congress closer.
+👉 Quaid-e-Azam Jinnah joined Muslim League in 1913.
+
+**Lucknow Pact (1916):**
+👉 Product of Hindu-Muslim unity envisaged by Jinnah.
+👉 ML and Congress met separately in Bombay (Dec 1915); set up committees.
+👉 Joint meeting at Lucknow (1916) approved constitutional proposals.
+
+**Key Provisions:**
+- One-third seats for Muslims in Imperial Legislative Council
+- Separate electorate
+- Half members of Executive Council elected by Imperial Legislative Council
+- Commissioned ranks for Indians in army
+- Expansion of Provincial Legislative Councils
+- Half members of Governor’s Executive Council elected by Provincial Council
+- Weightage to minorities in provinces
+
+**Muslim Gains:**
+- Separate electorate
+- One-third Muslim seats in Central Legislature
+- Unofficial bill opposed by ¾ of a community cannot be passed
+
+**Montagu Announcement (August 20, 1917):**
+👉 Secretary of State Montagu promised:
+   1. Greater association of Indians in all branches of government
+   2. Responsible government
+   3. Induction of Indians in commissioned ranks
+
+**Conclusion:**
+👉 Muslims confirmed their identity, organized political party, gained recognition from Hindus as a separate nation, and British accepted their political role.
+
+---
+
+**Important Vocabulary:**
+- Revival = bringing back to life or prominence
+- Persecuted = subjected to hostility and ill-treatment
+- Hindu revivalist movements = movements to revive Hinduism, often targeting Muslims
+- Partition = division of a region into separate parts
+- Annulment = official cancellation
+- Simla Deputation = 1906 Muslim delegation to Viceroy
+- Separate electorate = Muslims vote for their own representatives
+- Weightage = extra representation beyond population share
+- Responsible government = government accountable to elected legislature
+
+---
+
+**Quick Revision Points:**
+- 1857-1918 period laid foundation for later constitutional changes.
+- Sir Syed revived Muslims through education and British understanding.
+- Hindi-Urdu controversy (1867) exposed Hindu-Muslim divide.
+- Congress (1885) was Hindu-dominated; Muslims warned against it.
+- Partition of Bengal (1905) – Muslims happy, Hindus agitated; annulled 1911.
+- Simla Deputation (1906) – first systematic Muslim political demands (separate electorate).
+- Muslim League founded 1906 at Dhaka; constitution 1907; president Agha Khan 1908.
+- Original goals: protect Muslim rights, cooperate with others, loyalty to British.
+- 1913 goal change: self-government under British Crown.
+- Lucknow Pact (1916) – Congress accepted separate electorate and 1/3 Muslim seats.
+- Montagu announcement (1917) promised responsible government.
+- Muslims emerged as a recognized political nation.`,
+
+  questions: [
+    {
+      q: 'The period from 1857 to 1918 is crucial because it:',
+      options: ['A. Saw the establishment of Pakistan', 'B. Set the foundation for later major political and constitutional changes', 'C. Ended British rule', 'D. Started the War of Independence'],
+      answer: 'B. Set the foundation for later major political and constitutional changes',
+      diff: 'easy',
+    },
+    {
+      q: 'After the War of Independence 1857, the British held which community responsible?',
+      options: ['A. Hindus', 'B. Muslims', 'C. Sikhs', 'D. Christians'],
+      answer: 'B. Muslims',
+      diff: 'easy',
+    },
+    {
+      q: 'Which controversy exposed the hatred and enmity of Hindus towards Muslims?',
+      options: ['A. Partition of Bengal', 'B. Hindi-Urdu Controversy', 'C. Lucknow Pact', 'D. Simla Deputation'],
+      answer: 'B. Hindi-Urdu Controversy',
+      diff: 'easy',
+    },
+    {
+      q: 'The Indian National Congress was formed in which year?',
+      options: ['A. 1885', 'B. 1906', 'C. 1913', 'D. 1916'],
+      answer: 'A. 1885',
+      diff: 'easy',
+    },
+    {
+      q: 'Muslims could not afford the politics of agitation because:',
+      options: ['A. They were strong', 'B. They were still recovering from past gaps', 'C. British supported them', 'D. Hindus helped them'],
+      answer: 'B. They were still recovering from past gaps',
+      diff: 'medium',
+    },
+    {
+      q: 'The area of undivided Bengal was approximately:',
+      options: ['A. 100,000 sq miles with 50 million people', 'B. 189,000 sq miles with 80 million people', 'C. 250,000 sq miles with 100 million people', 'D. 150,000 sq miles with 60 million people'],
+      answer: 'B. 189,000 sq miles with 80 million people',
+      diff: 'hard',
+    },
+    {
+      q: 'The Partition of Bengal was enforced by which Viceroy?',
+      options: ['A. Lord Minto', 'B. Lord Curzon', 'C. Lord Mountbatten', 'D. Lord Canning'],
+      answer: 'B. Lord Curzon',
+      diff: 'easy',
+    },
+    {
+      q: 'After partition, East Bengal became a province with:',
+      options: ['A. Hindu majority', 'B. Muslim majority', 'C. Equal population', 'D. Sikh majority'],
+      answer: 'B. Muslim majority',
+      diff: 'easy',
+    },
+    {
+      q: 'Muslims supported the Partition of Bengal because:',
+      options: ['A. It gave them complete independence', 'B. It was an opportunity for compensation and progress', 'C. Hindus demanded it', 'D. British forced them'],
+      answer: 'B. It was an opportunity for compensation and progress',
+      diff: 'medium',
+    },
+    {
+      q: 'The Partition of Bengal was annulled on:',
+      options: ['A. 1905', 'B. 1911', 'C. 1913', 'D. 1916'],
+      answer: 'B. 1911',
+      diff: 'easy',
+    },
+    {
+      q: 'The Simla Deputation met the Viceroy in which year?',
+      options: ['A. 1905', 'B. 1906', 'C. 1907', 'D. 1908'],
+      answer: 'B. 1906',
+      diff: 'easy',
+    },
+    {
+      q: 'The Simla Deputation was led by:',
+      options: ['A. Sir Agha Khan', 'B. Nawab Mohsin ul Malik', 'C. Nawab Salimullah', 'D. Maulana Zafar Ali Khan'],
+      answer: 'A. Sir Agha Khan',
+      diff: 'easy',
+    },
+    {
+      q: 'The secretary of the Simla Deputation was:',
+      options: ['A. Sir Agha Khan', 'B. Nawab Mohsin ul Malik', 'C. Nawab Salimullah', 'D. Hakim Ajmal Khan'],
+      answer: 'B. Nawab Mohsin ul Malik',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following was NOT a demand of the Simla Deputation?',
+      options: ['A. Separate electorate', 'B. One-third seats for Muslims', 'C. Muslim representation in Viceroy’s Executive Council', 'D. Muslim University at Aligarh'],
+      answer: 'B. One-third seats for Muslims',
+      diff: 'hard',
+    },
+    {
+      q: 'The All India Muslim League was founded in which year and city?',
+      options: ['A. 1905, Aligarh', 'B. 1906, Dhaka', 'C. 1907, Karachi', 'D. 1908, Lucknow'],
+      answer: 'B. 1906, Dhaka',
+      diff: 'easy',
+    },
+    {
+      q: 'Who proposed the formation of the Muslim League?',
+      options: ['A. Sir Agha Khan', 'B. Nawab Salimullah', 'C. Wiqar-ul-Mulk', 'D. Maulana Zafar Ali Khan'],
+      answer: 'B. Nawab Salimullah',
+      diff: 'medium',
+    },
+    {
+      q: 'The constitution of the Muslim League was approved in which session?',
+      options: ['A. Dhaka 1906', 'B. Karachi 1907', 'C. Aligarh 1908', 'D. Lucknow 1916'],
+      answer: 'B. Karachi 1907',
+      diff: 'hard',
+    },
+    {
+      q: 'The first president of the All India Muslim League was:',
+      options: ['A. Nawab Salimullah', 'B. Sir Agha Khan', 'C. Wiqar-ul-Mulk', 'D. Maulana Muhammad Ali Jouhar'],
+      answer: 'B. Sir Agha Khan',
+      diff: 'medium',
+    },
+    {
+      q: 'Who wrote the constitution of the Muslim League?',
+      options: ['A. Sir Syed Ahmed Khan', 'B. Maulana Muhammad Ali Jouhar', 'C. Quaid-e-Azam Jinnah', 'D. Allama Iqbal'],
+      answer: 'B. Maulana Muhammad Ali Jouhar',
+      diff: 'hard',
+    },
+    {
+      q: 'The London branch of the Muslim League was organized by:',
+      options: ['A. Sir Agha Khan', 'B. Syed Ameer Ali', 'C. Nawab Mohsin ul Mulk', 'D. Hakim Ajmal Khan'],
+      answer: 'B. Syed Ameer Ali',
+      diff: 'hard',
+    },
+    {
+      q: 'Which event led to the change in Muslim League’s goals in 1913?',
+      options: ['A. Annulment of Bengal partition', 'B. Balkan wars and Libya-Italy war', 'C. Demolition of mosque in Kawnpur', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'medium',
+    },
+    {
+      q: 'In 1913, the Muslim League added the goal of:',
+      options: ['A. Complete independence', 'B. Self-government under British Crown', 'C. Separate homeland', 'D. Boycott of British goods'],
+      answer: 'B. Self-government under British Crown',
+      diff: 'medium',
+    },
+    {
+      q: 'Quaid-e-Azam Jinnah joined the Muslim League in which year?',
+      options: ['A. 1906', 'B. 1913', 'C. 1916', 'D. 1920'],
+      answer: 'B. 1913',
+      diff: 'easy',
+    },
+    {
+      q: 'The Lucknow Pact was signed in which year?',
+      options: ['A. 1913', 'B. 1915', 'C. 1916', 'D. 1917'],
+      answer: 'C. 1916',
+      diff: 'easy',
+    },
+    {
+      q: 'Under the Lucknow Pact, Muslims were granted what percentage of seats in the Imperial Legislative Council?',
+      options: ['A. One-fourth', 'B. One-third', 'C. One-half', 'D. Two-thirds'],
+      answer: 'B. One-third',
+      diff: 'easy',
+    },
+    {
+      q: 'Which provision of the Lucknow Pact gave Muslims veto power over unofficial bills affecting their community?',
+      options: ['A. Separate electorate', 'B. One-third seats', 'C. Bill opposed by 3/4 members of a community cannot be passed', 'D. Weightage to minorities'],
+      answer: 'C. Bill opposed by 3/4 members of a community cannot be passed',
+      diff: 'hard',
+    },
+    {
+      q: 'The Montagu Announcement was made on:',
+      options: ['A. August 20, 1916', 'B. August 20, 1917', 'C. December 12, 1911', 'D. December 30, 1906'],
+      answer: 'B. August 20, 1917',
+      diff: 'medium',
+    },
+    {
+      q: 'The Montagu Announcement promised all EXCEPT:',
+      options: ['A. Greater association of Indians in government', 'B. Responsible government', 'C. Complete independence', 'D. Induction of Indians in commissioned ranks'],
+      answer: 'C. Complete independence',
+      diff: 'easy',
+    },
+    {
+      q: 'The Lucknow Pact is considered significant because:',
+      options: ['A. Hindus recognized Muslims as a separate nation', 'B. British accepted Pakistan demand', 'C. Muslim League merged with Congress', 'D. Partition of Bengal was reversed'],
+      answer: 'A. Hindus recognized Muslims as a separate nation',
+      diff: 'medium',
+    },
+    {
+      q: 'The principal architect of the Lucknow Pact was:',
+      options: ['A. Allama Iqbal', 'B. Sir Syed Ahmed Khan', 'C. Quaid-e-Azam Jinnah', 'D. Nawab Salimullah'],
+      answer: 'C. Quaid-e-Azam Jinnah',
+      diff: 'easy',
+    }
+  ]
+},
+
+  
   },
 
   // ─────────────────────────────────────────
