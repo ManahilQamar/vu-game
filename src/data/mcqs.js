@@ -3309,6 +3309,1796 @@ A proposition is a declarative sentence that has a definite true (T) or false (F
         },
       ],
     },
+
+
+
+    // lecture 2 //
+2: {
+  title: 'Truth Tables & De Morgan’s Laws (MTH202 Lecture 2)',
+  summary: `**Key Topics Covered:**
+- Truth tables for compound statements (~p ∧ q, ~p ∧ (q ∨ ~r), (p∨q) ∧ ~(p∧q))
+- Double negative property
+- Logical equivalence and De Morgan’s Laws
+- Negation of inequalities
+- Tautology
+
+---
+
+**Simple Understanding:**
+
+**What is a Truth Table?**
+👉 A table that shows the output (T/F) for every possible combination of input values.
+👉 Inputs: statements (p, q, r) → can be True (T) or False (F).
+
+**Example Truth Tables:**
+- ~p ∧ q : First find ~p, then AND with q.
+- ~p ∧ (q ∨ ~r) : First find ~p, q, ~r, then (q ∨ ~r), then AND.
+- (p∨q) ∧ ~(p∧q) : First find p∨q and p∧q, then ~(p∧q), then AND.
+
+---
+
+**Double Negative Property 🧠**
+👉 ~(~p) means “p” itself.
+👉 Example: “It is not true that I am not happy” = “I am happy”
+
+---
+
+**De Morgan’s Laws (Very Important) 🔐**
+1. ~(p ∧ q) ≡ ~p ∨ ~q
+   *(Negation of AND = OR of negations)*
+2. ~(p ∨ q) ≡ ~p ∧ ~q
+   *(Negation of OR = AND of negations)*
+
+> ⚠️ Remember: ~(p∧q) and ~p ∧ ~q are **NOT** logically equivalent (they differ in rows 2 and 3 of the truth table).
+
+---
+
+**Negation of Inequalities**
+Example: -1 < x ≤ 4
+👉 Means: (x > -1) AND (x ≤ 4)
+👉 By De Morgan’s Law, the negation is: (x ≤ -1) OR (x > 4)
+
+---
+
+**Tautology (Always True)**
+👉 A statement form that is true for every combination of truth values.
+👉 Example: p ∨ ~p (whether p is true or false, result is true)
+👉 Tautology is represented by the symbol “t”.
+
+---
+
+**Important Vocabulary:**
+- Truth table = table showing truth values for all cases
+- Logical equivalence = two statements have the same truth value in every row
+- De Morgan’s Laws = rules for negating AND and OR
+- Double negative = two negations cancel out to the original statement
+- Tautology = a statement that is always true
+
+---
+
+**Quick Revision Points:**
+- A truth table shows results for all possible cases.
+- ~(~p) ≡ p
+- ~(p∧q) and ~p ∧ ~q are NOT logically equivalent.
+- ~(p∧q) ≡ ~p ∨ ~q (De Morgan’s first law)
+- ~(p∨q) ≡ ~p ∧ ~q (De Morgan’s second law)
+- Tautology example: p ∨ ~p ≡ t
+- Use De Morgan’s laws to negate inequalities.`,
+
+  questions: [
+    {
+      q: 'How many possible combinations are there in a truth table if there is only one variable p?',
+      options: ['A. 1', 'B. 2', 'C. 4', 'D. 8'],
+      answer: 'B. 2',
+      diff: 'easy',
+    },
+    {
+      q: 'To construct the truth table for ~p ∧ q, what must be found first?',
+      options: ['A. p ∧ q', 'B. ~p', 'C. ~q', 'D. p ∨ q'],
+      answer: 'B. ~p',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is equivalent to ~(~p)?',
+      options: ['A. ~p', 'B. p', 'C. true', 'D. false'],
+      answer: 'B. p',
+      diff: 'easy',
+    },
+    {
+      q: 'If p = “I am happy”, then “It is not true that I am not happy” means:',
+      options: ['A. I am not happy', 'B. I am happy', 'C. I am sad', 'D. Cannot say'],
+      answer: 'B. I am happy',
+      diff: 'medium',
+    },
+    {
+      q: '~(p∧q) and ~p ∧ ~q:',
+      options: ['A. Are always the same', 'B. Are never the same', 'C. Differ in rows 2 and 3', 'D. Differ in rows 1 and 4'],
+      answer: 'C. Differ in rows 2 and 3',
+      diff: 'medium',
+    },
+    {
+      q: 'According to De Morgan’s Law, ~(p ∧ q) is equivalent to:',
+      options: ['A. ~p ∧ ~q', 'B. ~p ∨ ~q', 'C. p ∧ q', 'D. p ∨ q'],
+      answer: 'B. ~p ∨ ~q',
+      diff: 'easy',
+    },
+    {
+      q: 'According to De Morgan’s Law, ~(p ∨ q) is equivalent to:',
+      options: ['A. ~p ∨ ~q', 'B. ~p ∧ ~q', 'C. p ∨ q', 'D. p ∧ q'],
+      answer: 'B. ~p ∧ ~q',
+      diff: 'easy',
+    },
+    {
+      q: 'Using De Morgan’s Law, the negation of “The fan is slow or it is very hot” is:',
+      options: ['A. The fan is slow and it is hot', 'B. The fan is not slow or it is not hot', 'C. The fan is not slow and it is not very hot', 'D. The fan is slow or it is not hot'],
+      answer: 'C. The fan is not slow and it is not very hot',
+      diff: 'medium',
+    },
+    {
+      q: 'The negation of “Akram is unfit and Saleem is injured” is:',
+      options: ['A. Akram is fit and Saleem is not injured', 'B. Akram is not unfit or Saleem is not injured', 'C. Akram is unfit or Saleem is injured', 'D. Akram is not unfit and Saleem is not injured'],
+      answer: 'B. Akram is not unfit or Saleem is not injured',
+      diff: 'medium',
+    },
+    {
+      q: 'The statement -1 < x ≤ 4 means:',
+      options: ['A. x > -1 or x ≤ 4', 'B. x > -1 and x ≤ 4', 'C. x ≥ -1 and x < 4', 'D. x < -1 or x > 4'],
+      answer: 'B. x > -1 and x ≤ 4',
+      diff: 'easy',
+    },
+    {
+      q: 'Using De Morgan’s Law, the negation of -1 < x ≤ 4 is:',
+      options: ['A. x ≤ -1 or x > 4', 'B. x > -1 and x ≤ 4', 'C. x ≥ -1 or x < 4', 'D. x < -1 and x > 4'],
+      answer: 'A. x ≤ -1 or x > 4',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is a tautology?',
+      options: ['A. p ∧ ~p', 'B. p ∨ ~p', 'C. p → q', 'D. p ∧ q'],
+      answer: 'B. p ∨ ~p',
+      diff: 'easy',
+    },
+    {
+      q: 'A tautology is represented by which symbol?',
+      options: ['A. f', 'B. t', 'C. c', 'D. 0'],
+      answer: 'B. t',
+      diff: 'easy',
+    },
+    {
+      q: 'How many rows will the truth table for (p∨q) ∧ ~(p∧q) have?',
+      options: ['A. 2', 'B. 4', 'C. 6', 'D. 8'],
+      answer: 'B. 4',
+      diff: 'easy',
+    },
+    {
+      q: 'How many rows will the truth table for ~p ∧ (q ∨ ~r) have?',
+      options: ['A. 4', 'B. 6', 'C. 8', 'D. 16'],
+      answer: 'C. 8',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is NOT logically equivalent?',
+      options: ['A. ~(~p) and p', 'B. p ∨ ~p and t', 'C. ~(p∧q) and ~p ∨ ~q', 'D. ~(p∧q) and ~p ∧ ~q'],
+      answer: 'D. ~(p∧q) and ~p ∧ ~q',
+      diff: 'hard',
+    },
+    {
+      q: 'If p = true, q = false, then ~p ∧ q is:',
+      options: ['A. True', 'B. False', 'C. Cannot determine', 'D. None'],
+      answer: 'B. False',
+      diff: 'medium',
+    },
+    {
+      q: 'If p = false, q = true, r = false, then ~p ∧ (q ∨ ~r) is:',
+      options: ['A. True', 'B. False', 'C. Tautology', 'D. Contradiction'],
+      answer: 'A. True',
+      diff: 'hard',
+    },
+    {
+      q: 'Which statement form is always false?',
+      options: ['A. p ∨ ~p', 'B. p ∧ ~p', 'C. p → p', 'D. p ∨ p'],
+      answer: 'B. p ∧ ~p',
+      diff: 'easy',
+    },
+    {
+      q: 'In logic, “logically equivalent” means:',
+      options: ['A. Same truth value in every row', 'B. Never the same', 'C. Same in only one row', 'D. None'],
+      answer: 'A. Same truth value in every row',
+      diff: 'easy',
+    },
+    {
+      q: 'If p = true, q = true, then ~p ∨ ~q is:',
+      options: ['A. True', 'B. False', 'C. Cannot say', 'D. None'],
+      answer: 'B. False',
+      diff: 'medium',
+    },
+    {
+      q: 'De Morgan’s Laws are used for negating which connectives?',
+      options: ['A. AND and OR', 'B. Only AND', 'C. Only OR', 'D. IF-THEN'],
+      answer: 'A. AND and OR',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+// lecture 3//
+
+
+3: {
+  title: 'Applying Laws of Logic & Conditional Statements (MTH202 Lecture 3)',
+  summary: `**Key Topics Covered:**
+- Simplifying statements using laws of logic (De Morgan, Double Negative, Associative, Idempotent, Distributive, Negation, Identity)
+- Conditional statements (implications): p → q
+- Truth table for conditional
+- Alternative ways to express implications
+- Translating English sentences to symbols and vice versa
+- Hierarchy of logical connectives
+- Logical equivalence involving implication (Implication Law: p→q ≡ ~p∨q)
+- Negation of a conditional statement: ~(p→q) ≡ p ∧ ~q
+- Inverse (~p → ~q), Converse (q → p), Contrapositive (~q → ~p)
+
+---
+
+**Simple Understanding:**
+
+**Laws of Logic Used for Simplification:**
+- De Morgan’s Law: ~(p∧q) ≡ ~p ∨ ~q,  ~(p∨q) ≡ ~p ∧ ~q
+- Double Negative: ~(~p) ≡ p
+- Associative Law: (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+- Idempotent Law: p ∨ p ≡ p,  p ∧ p ≡ p
+- Distributive Law: p ∧ (q ∨ r) ≡ (p∧q) ∨ (p∧r),  p ∨ (q∧r) ≡ (p∨q) ∧ (p∨r)
+- Negation Law: p ∨ ~p ≡ t (tautology),  p ∧ ~p ≡ c (contradiction)
+- Identity Law: p ∨ c ≡ p,  p ∧ t ≡ p
+
+---
+
+**Conditional Statement (Implication) p → q**
+👉 Read as “If p then q” or “p implies q”
+👉 p = hypothesis (antecedent), q = conclusion (consequent)
+👉 It is **false only when p is true and q is false**; otherwise true.
+
+**Truth Table for p → q:**
+| p | q | p→q |
+|---|---|-----|
+| F | F | T   |
+| F | T | T   |
+| T | F | F   |
+| T | T | T   |
+
+---
+
+**Alternative Ways to Say p → q:**
+- If p then q
+- p implies q
+- p only if q
+- q if p
+- q whenever p
+- p is sufficient for q
+- q is necessary for p
+- not p unless q
+
+---
+
+**Negation of Conditional:**
+👉 ~(p → q) ≡ p ∧ ~q
+👉 Example: Negation of “If it rains, I will stay” = “It rains and I will not stay”
+
+---
+
+**Inverse, Converse, Contrapositive:**
+- Inverse: ~p → ~q  (not equivalent to original)
+- Converse: q → p   (not equivalent to original)
+- Contrapositive: ~q → ~p  (equivalent to original: p→q ≡ ~q→~p)
+
+**Implication Law:** p → q ≡ ~p ∨ q
+
+---
+
+**Hierarchy of Operations (highest to lowest):**
+1. ~ (negation)
+2. ∧ (conjunction), ∨ (disjunction)
+3. → (conditional)
+
+---
+
+**Important Vocabulary:**
+- Hypothesis = the “if” part of an implication
+- Consequent = the “then” part
+- Inverse = negate both hypothesis and conclusion
+- Converse = swap hypothesis and conclusion
+- Contrapositive = swap and negate both
+- Sufficient condition = p is sufficient for q means p→q
+- Necessary condition = q is necessary for p means p→q
+
+---
+
+**Quick Revision Points:**
+- Use laws of logic to simplify complex statements.
+- p→q is false only when p=T and q=F.
+- ~(p→q) ≡ p ∧ ~q
+- p→q ≡ ~p ∨ q ≡ ~q → ~p (contrapositive)
+- Inverse and converse are not equivalent to original.
+- Conditional is not commutative (p→q ≠ q→p).
+- “p only if q” means p→q.
+- “p is sufficient for q” means p→q.
+- “q is necessary for p” means p→q.`,
+
+  questions: [
+    {
+      q: 'Which law is used in the first step of simplifying p ∨ [~(~p ∧ q)]?',
+      options: ['A. Double Negative', 'B. De Morgan’s Law', 'C. Associative Law', 'D. Idempotent Law'],
+      answer: 'B. De Morgan’s Law',
+      diff: 'medium',
+    },
+    {
+      q: 'What does the Double Negative Law state?',
+      options: ['A. p ∧ ~p ≡ c', 'B. ~(~p) ≡ p', 'C. p ∨ p ≡ p', 'D. p → q ≡ ~p ∨ q'],
+      answer: 'B. ~(~p) ≡ p',
+      diff: 'easy',
+    },
+    {
+      q: 'The Idempotent Law for ∨ states that p ∨ p is equivalent to:',
+      options: ['A. p', 'B. ~p', 'C. t', 'D. c'],
+      answer: 'A. p',
+      diff: 'easy',
+    },
+    {
+      q: 'Using the Distributive Law in reverse, (p ∧ q) ∨ (p ∧ r) simplifies to:',
+      options: ['A. p ∧ (q ∨ r)', 'B. p ∨ (q ∧ r)', 'C. (p ∨ q) ∧ (p ∨ r)', 'D. (p ∧ q) ∨ r'],
+      answer: 'A. p ∧ (q ∨ r)',
+      diff: 'medium',
+    },
+    {
+      q: 'The conditional statement p → q is false only when:',
+      options: ['A. p is true and q is true', 'B. p is false and q is false', 'C. p is true and q is false', 'D. p is false and q is true'],
+      answer: 'C. p is true and q is false',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is logically equivalent to p → q?',
+      options: ['A. q → p', 'B. ~p → ~q', 'C. ~p ∨ q', 'D. p ∧ ~q'],
+      answer: 'C. ~p ∨ q',
+      diff: 'medium',
+    },
+    {
+      q: 'The contrapositive of p → q is:',
+      options: ['A. q → p', 'B. ~p → ~q', 'C. ~q → ~p', 'D. ~p ∨ q'],
+      answer: 'C. ~q → ~p',
+      diff: 'easy',
+    },
+    {
+      q: 'A conditional statement and its contrapositive are:',
+      options: ['A. Logically equivalent', 'B. Not equivalent', 'C. Always false', 'D. Always true'],
+      answer: 'A. Logically equivalent',
+      diff: 'easy',
+    },
+    {
+      q: 'The inverse of p → q is:',
+      options: ['A. q → p', 'B. ~p → ~q', 'C. ~q → ~p', 'D. ~p ∨ q'],
+      answer: 'B. ~p → ~q',
+      diff: 'easy',
+    },
+    {
+      q: 'The converse of p → q is:',
+      options: ['A. q → p', 'B. ~p → ~q', 'C. ~q → ~p', 'D. p ∧ ~q'],
+      answer: 'A. q → p',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is NOT logically equivalent to p → q?',
+      options: ['A. ~q → ~p', 'B. ~p ∨ q', 'C. q → p', 'D. ~(p ∧ ~q)'],
+      answer: 'C. q → p',
+      diff: 'medium',
+    },
+    {
+      q: 'The negation of “If it rains, then the ground is wet” is:',
+      options: ['A. If it rains, then ground is not wet', 'B. It rains and the ground is not wet', 'C. It does not rain and ground is wet', 'D. If ground is wet, then it rains'],
+      answer: 'B. It rains and the ground is not wet',
+      diff: 'medium',
+    },
+    {
+      q: 'According to the negation of conditional, ~(p → q) is equivalent to:',
+      options: ['A. ~p → ~q', 'B. ~p ∧ q', 'C. p ∧ ~q', 'D. ~p ∨ q'],
+      answer: 'C. p ∧ ~q',
+      diff: 'medium',
+    },
+    {
+      q: 'Which law is used to simplify ~(~p ∧ q) to p ∨ ~q?',
+      options: ['A. De Morgan and Double Negative', 'B. Only De Morgan', 'C. Only Double Negative', 'D. Distributive'],
+      answer: 'A. De Morgan and Double Negative',
+      diff: 'hard',
+    },
+    {
+      q: 'In the hierarchy of logical connectives, which has the highest precedence?',
+      options: ['A. ∧', 'B. ∨', 'C. ~', 'D. →'],
+      answer: 'C. ~',
+      diff: 'easy',
+    },
+    {
+      q: 'The statement “p only if q” is logically equivalent to:',
+      options: ['A. q → p', 'B. p → q', 'C. ~p → ~q', 'D. ~q → p'],
+      answer: 'B. p → q',
+      diff: 'medium',
+    },
+    {
+      q: 'The statement “p is sufficient for q” means:',
+      options: ['A. p → q', 'B. q → p', 'C. p ∧ q', 'D. p ∨ q'],
+      answer: 'A. p → q',
+      diff: 'medium',
+    },
+    {
+      q: 'The statement “q is necessary for p” means:',
+      options: ['A. p → q', 'B. q → p', 'C. p ∧ q', 'D. p ∨ q'],
+      answer: 'A. p → q',
+      diff: 'hard',
+    },
+    {
+      q: 'If p is true and q is false, then p → q is:',
+      options: ['A. True', 'B. False', 'C. Tautology', 'D. Contradiction'],
+      answer: 'B. False',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the truth value of “If 1=0, then 3=3”?',
+      options: ['A. True', 'B. False', 'C. Cannot determine', 'D. Contradiction'],
+      answer: 'A. True',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is the correct negation of “If n is divisible by 6, then n is divisible by 2 and n is divisible by 3”?',
+      options: ['A. n is divisible by 6 and n is not divisible by 2 or not divisible by 3', 'B. n is divisible by 6 and n is divisible by 2 and n is divisible by 3', 'C. n is not divisible by 6 or n is divisible by 2', 'D. n is divisible by 6 or n is not divisible by 2'],
+      answer: 'A. n is divisible by 6 and n is not divisible by 2 or not divisible by 3',
+      diff: 'hard',
+    },
+    {
+      q: 'The statement form (p → q) ∧ (~p → r) has how many rows in its truth table if p, q, r are variables?',
+      options: ['A. 4', 'B. 6', 'C. 8', 'D. 16'],
+      answer: 'C. 8',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+// lecture 4//
+
+
+
+
+4: {
+  title: 'Biconditional & Logical Equivalence (MTH202 Lecture 4)',
+  summary: `**Key Topics Covered:**
+- Biconditional statement (p ↔ q) – "p if and only if q" (iff)
+- Truth table for biconditional
+- Equivalence: p ↔ q ≡ (p → q) ∧ (q → p)
+- Rephrasing biconditional in English
+- Logical equivalence involving biconditional (e.g., ~p↔q ≡ p↔~q, ~(p⊕q) ≡ p↔q)
+- Laws of logic: Commutative, Implication, Exportation, Equivalence, Reductio ad absurdum
+- Rewriting statement forms without using → or ↔
+- Using only ~ and ∧
+- Proving tautology without truth tables
+
+---
+
+**Simple Understanding:**
+
+**Biconditional (p ↔ q)**
+👉 Read as "p if and only if q" (abbreviated "iff")
+👉 Means: p → q AND q → p (both directions)
+👉 p ↔ q is **true only when p and q have the same truth value** (both T or both F).
+
+**Truth Table for p ↔ q:**
+| p | q | p↔q |
+|---|---|-----|
+| F | F | T   |
+| F | T | F   |
+| T | F | F   |
+| T | T | T   |
+
+---
+
+**Alternative Ways to Say p ↔ q:**
+- p is necessary and sufficient for q
+- if p then q, and conversely
+- p is equivalent to q
+- p iff q
+
+---
+
+**Key Logical Equivalences:**
+- p ↔ q ≡ (p → q) ∧ (q → p)
+- p ↔ q ≡ q ↔ p (Commutative)
+- ~p ↔ q ≡ p ↔ ~q
+- ~(p ⊕ q) ≡ p ↔ q (where ⊕ is exclusive OR)
+- p → q ≡ ~p ∨ q ≡ ~(p ∧ ~q)
+- (p ∧ q) → r ≡ p → (q → r) (Exportation Law)
+- p → q ≡ (p ∧ ~q) → c (Reductio ad absurdum)
+
+---
+
+**Rewriting Without → or ↔:**
+- To remove →: p → q ≡ ~p ∨ q
+- To remove ↔: p ↔ q ≡ (p → q) ∧ (q → p) then replace → with ~ and ∨
+
+---
+
+**Tautology Proof (without truth table):**
+Use laws of logic step by step to show a statement is always true (≡ t).
+
+---
+
+**Important Vocabulary:**
+- Biconditional = "if and only if" (both directions)
+- Iff = abbreviation for "if and only if"
+- Necessary and sufficient condition = biconditional
+- Exclusive OR (⊕) = true when exactly one is true
+- Exportation law = (p∧q)→r ≡ p→(q→r)
+- Reductio ad absurdum = proof by contradiction
+
+---
+
+**Quick Revision Points:**
+- p ↔ q is true when p and q have same truth value.
+- p ↔ q ≡ (p → q) ∧ (q → p)
+- ~p ↔ q is logically equivalent to p ↔ ~q.
+- ~(p ⊕ q) ≡ p ↔ q
+- Exportation: (p∧q)→r ≡ p→(q→r)
+- To rewrite without →, use ~p ∨ q.
+- To rewrite without ↔, first expand to (p→q)∧(q→p).
+- A tautology can be proved by reducing to t using laws.`,
+
+  questions: [
+    {
+      q: 'The biconditional p ↔ q is true when:',
+      options: ['A. p and q have opposite truth values', 'B. p and q have the same truth value', 'C. p is true and q is false', 'D. p is false and q is true'],
+      answer: 'B. p and q have the same truth value',
+      diff: 'easy',
+    },
+    {
+      q: 'The symbol ↔ represents:',
+      options: ['A. Implication', 'B. Negation', 'C. Biconditional', 'D. Exclusive OR'],
+      answer: 'C. Biconditional',
+      diff: 'easy',
+    },
+    {
+      q: '"p if and only if q" is abbreviated as:',
+      options: ['A. p → q', 'B. p ∨ q', 'C. p iff q', 'D. p ∧ q'],
+      answer: 'C. p iff q',
+      diff: 'easy',
+    },
+    {
+      q: 'p ↔ q is logically equivalent to:',
+      options: ['A. (p → q) ∨ (q → p)', 'B. (p → q) ∧ (q → p)', 'C. (p ∧ q) → p', 'D. (p ∨ q) → q'],
+      answer: 'B. (p → q) ∧ (q → p)',
+      diff: 'easy',
+    },
+    {
+      q: 'The truth value of “1+1=3 if and only if earth is flat” is:',
+      options: ['A. True', 'B. False', 'C. Cannot determine', 'D. Contradiction'],
+      answer: 'A. True',
+      diff: 'medium',
+    },
+    {
+      q: 'The truth value of “Sky is blue iff 1=0” is:',
+      options: ['A. True', 'B. False', 'C. Tautology', 'D. Contradiction'],
+      answer: 'B. False',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is logically equivalent to ~p ↔ q?',
+      options: ['A. p ↔ ~q', 'B. ~p ↔ ~q', 'C. p ↔ q', 'D. ~(p ↔ q)'],
+      answer: 'A. p ↔ ~q',
+      diff: 'hard',
+    },
+    {
+      q: '~(p ⊕ q) is logically equivalent to:',
+      options: ['A. p → q', 'B. p ∨ q', 'C. p ↔ q', 'D. p ∧ q'],
+      answer: 'C. p ↔ q',
+      diff: 'hard',
+    },
+    {
+      q: 'The Exportation Law states that (p ∧ q) → r is equivalent to:',
+      options: ['A. p → (q → r)', 'B. (p → q) → r', 'C. p → (q ∧ r)', 'D. (p → r) ∧ (q → r)'],
+      answer: 'A. p → (q → r)',
+      diff: 'medium',
+    },
+    {
+      q: 'Which law states that p ↔ q ≡ q ↔ p?',
+      options: ['A. Associative Law', 'B. Commutative Law', 'C. Distributive Law', 'D. Implication Law'],
+      answer: 'B. Commutative Law',
+      diff: 'easy',
+    },
+    {
+      q: 'The Implication Law states that p → q is equivalent to:',
+      options: ['A. ~p ∧ q', 'B. ~p ∨ q', 'C. p ∧ ~q', 'D. p ∨ ~q'],
+      answer: 'B. ~p ∨ q',
+      diff: 'easy',
+    },
+    {
+      q: 'To rewrite a biconditional without using ↔, we first write it as:',
+      options: ['A. (p → q) ∨ (q → p)', 'B. (p → q) ∧ (q → p)', 'C. p ∧ q', 'D. p ∨ q'],
+      answer: 'B. (p → q) ∧ (q → p)',
+      diff: 'medium',
+    },
+    {
+      q: 'If p → q is false, then what is the truth value of ~p → q?',
+      options: ['A. True', 'B. False', 'C. Cannot determine', 'D. Tautology'],
+      answer: 'A. True',
+      diff: 'hard',
+    },
+    {
+      q: 'If p → q is false, then what is the truth value of p ∨ q?',
+      options: ['A. True', 'B. False', 'C. Cannot determine', 'D. Contradiction'],
+      answer: 'A. True',
+      diff: 'hard',
+    },
+    {
+      q: 'If p → q is false, then what is the truth value of q ↔ p?',
+      options: ['A. True', 'B. False', 'C. Cannot determine', 'D. Tautology'],
+      answer: 'B. False',
+      diff: 'hard',
+    },
+    {
+      q: 'The expression “p is necessary and sufficient for q” means:',
+      options: ['A. p → q', 'B. q → p', 'C. p ↔ q', 'D. ~p → ~q'],
+      answer: 'C. p ↔ q',
+      diff: 'medium',
+    },
+    {
+      q: 'Reductio ad absurdum is a law that states:',
+      options: ['A. p → q ≡ (p ∧ ~q) → c', 'B. p → q ≡ ~p ∨ q', 'C. (p ∧ q) → r ≡ p → (q → r)', 'D. p ↔ q ≡ (p → q) ∧ (q → p)'],
+      answer: 'A. p → q ≡ (p ∧ ~q) → c',
+      diff: 'hard',
+    },
+    {
+      q: 'How many rows are there in the truth table for (p↔q)↔(r↔q)?',
+      options: ['A. 4', 'B. 6', 'C. 8', 'D. 16'],
+      answer: 'C. 8',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following statements is true about the biconditional?',
+      options: ['A. p ↔ q ≡ ~p ↔ ~q', 'B. p ↔ q ≡ ~p ↔ q', 'C. p ↔ q ≡ q → p', 'D. p ↔ q ≡ p ∨ q'],
+      answer: 'A. p ↔ q ≡ ~p ↔ ~q',
+      diff: 'medium',
+    },
+    {
+      q: 'The statement form (p∧~q)→r is equivalent to which of the following without using →?',
+      options: ['A. ~(p∧~q) ∨ r', 'B. ~(p∧~q) ∧ r', 'C. (p∧~q) ∨ ~r', 'D. ~(p∨~q) ∨ r'],
+      answer: 'A. ~(p∧~q) ∨ r',
+      diff: 'medium',
+    },
+    {
+      q: 'To rewrite a statement using only ~ and ∧, the implication law p→q ≡ ~(p ∧ ~q) is used. This is based on which equivalence?',
+      options: ['A. p→q ≡ ~p ∨ q, then De Morgan', 'B. p→q ≡ p ∧ ~q', 'C. p→q ≡ ~q → ~p', 'D. p→q ≡ ~(p ∨ q)'],
+      answer: 'A. p→q ≡ ~p ∨ q, then De Morgan',
+      diff: 'hard',
+    },
+    {
+      q: 'A tautology is a statement that is:',
+      options: ['A. Always false', 'B. Always true', 'C. Sometimes true', 'D. Logically equivalent to its negation'],
+      answer: 'B. Always true',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+//lecture 6// 
+6: {
+  title: 'Switching Circuits & Boolean Expressions (Lecture #6)',
+  summary: `**Key Topics Covered:**
+- Switches in series (AND operation)
+- Switches in parallel (OR operation)
+- NOT gate, AND gate, OR gate
+- Combinational circuits (no memory)
+- Determining output for given inputs
+- Input/Output truth tables
+- Finding Boolean expression from a circuit
+- Constructing circuit from Boolean expression
+- Logical equivalence of circuits (proof using laws of logic)
+
+---
+
+**Simple Understanding:**
+
+**Switches in Series:**
+👉 Switches connected one after another.
+👉 Current passes only if ALL switches are ON (1).
+👉 Rule: Series = AND operation → Boolean form: A ∧ B
+
+**Switches in Parallel:**
+👉 Multiple paths for current.
+👉 If ANY switch is ON, current passes.
+👉 Rule: Parallel = OR operation → Boolean form: A ∨ B
+
+---
+
+**Logic Gates:**
+
+**NOT Gate:**
+👉 Inverts the input.
+👉 Input 1 → Output 0, Input 0 → Output 1
+👉 Boolean: ¬P (or ~P)
+
+**AND Gate:**
+👉 Output is 1 only when BOTH inputs are 1.
+👉 Boolean: P ∧ Q
+
+**OR Gate:**
+👉 Output is 1 if ANY input is 1.
+👉 Boolean: P ∨ Q
+
+---
+
+**Combinational Circuit:**
+👉 A combination of AND, OR, NOT gates.
+👉 Output depends ONLY on current inputs (no memory involved).
+
+---
+
+**Determining Output for Given Inputs:**
+Example: P=1, Q=0, R=0
+👉 Step-by-step: solve each gate from left to right.
+👉 Final output is the circuit's result.
+
+---
+
+**Input/Output Truth Table:**
+👉 Shows output for every possible input combination.
+👉 Fully describes circuit behavior.
+
+---
+
+**Finding Boolean Expression for a Circuit:**
+👉 Break circuit into gates.
+👉 Move from left to right.
+👉 Write expression for each gate.
+👉 Simplify the final expression.
+
+---
+
+**Constructing Circuit from Boolean Expression:**
+Example: (P ∧ Q) ∨ ¬R
+👉 Step 1: AND gate for (P ∧ Q)
+👉 Step 2: NOT gate for R
+👉 Step 3: OR gate to combine both outputs
+
+---
+
+**Circuit ↔ Truth Table ↔ Boolean Expression:**
+👉 All three represent the same logic.
+
+---
+
+**Logical Equivalence Proof (Important Example):**
+
+Given: (P∧Q) ∨ (¬P∧Q) ∨ (P∧¬Q)
+
+Simplify step by step:
+
+1. Factor: (P ∨ ¬P) ∧ Q ∨ (P ∧ ¬Q)
+2. Negation Law: (t) ∧ Q ∨ (P ∧ ¬Q)
+3. Identity Law: Q ∨ (P ∧ ¬Q)
+4. Distributive Law: (Q ∨ P) ∧ (Q ∨ ¬Q)
+5. Negation Law: (Q ∨ P) ∧ t
+6. Identity Law: P ∨ Q
+
+**Result:** (P∧Q) ∨ (¬P∧Q) ∨ (P∧¬Q) ≡ P ∨ Q
+
+👉 Therefore, the two circuits are logically equivalent.
+
+---
+
+**Important Vocabulary:**
+- Series = AND operation (A∧B)
+- Parallel = OR operation (A∨B)
+- NOT gate = inverter (¬P)
+- AND gate = output 1 only if both inputs are 1
+- OR gate = output 1 if any input is 1
+- Combinational circuit = outputs depend only on current inputs
+- Truth table = lists output for all input combinations
+- Logical equivalence = two circuits/expressions have same output for all inputs
+
+---
+
+**Quick Revision Points:**
+- Series switches = AND (A∧B)
+- Parallel switches = OR (A∨B)
+- NOT gate inverts the input.
+- AND gate gives 1 only when both inputs are 1.
+- OR gate gives 1 when at least one input is 1.
+- Combinational circuits have no memory.
+- Boolean expression, circuit, and truth table are interchangeable.
+- Use laws of logic (distributive, negation, identity) to prove equivalence.
+- Simplification can reduce complex circuits to simpler ones.`,
+
+  questions: [
+    {
+      q: 'Switches connected in series represent which Boolean operation?',
+      options: ['A. OR', 'B. AND', 'C. NOT', 'D. XOR'],
+      answer: 'B. AND',
+      diff: 'easy',
+    },
+    {
+      q: 'Switches connected in parallel represent which Boolean operation?',
+      options: ['A. AND', 'B. NOR', 'C. OR', 'D. NAND'],
+      answer: 'C. OR',
+      diff: 'easy',
+    },
+    {
+      q: 'Current passes through a series circuit only when:',
+      options: ['A. At least one switch is ON', 'B. All switches are ON', 'C. All switches are OFF', 'D. Exactly one switch is ON'],
+      answer: 'B. All switches are ON',
+      diff: 'easy',
+    },
+    {
+      q: 'Current passes through a parallel circuit when:',
+      options: ['A. All switches must be ON', 'B. No switch is ON', 'C. At least one switch is ON', 'D. Only two switches are ON'],
+      answer: 'C. At least one switch is ON',
+      diff: 'easy',
+    },
+    {
+      q: 'A NOT gate (inverter) output when input is 1 is:',
+      options: ['A. 1', 'B. 0', 'C. 1 or 0', 'D. Undefined'],
+      answer: 'B. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'An AND gate outputs 1 only when:',
+      options: ['A. Both inputs are 0', 'B. Both inputs are 1', 'C. At least one input is 1', 'D. Inputs are different'],
+      answer: 'B. Both inputs are 1',
+      diff: 'easy',
+    },
+    {
+      q: 'An OR gate outputs 1 when:',
+      options: ['A. Both inputs are 0', 'B. Both inputs are 1', 'C. At least one input is 1', 'D. Inputs are the same'],
+      answer: 'C. At least one input is 1',
+      diff: 'easy',
+    },
+    {
+      q: 'A combinational circuit’s output depends on:',
+      options: ['A. Past inputs only', 'B. Current inputs only', 'C. Both past and current inputs', 'D. Random values'],
+      answer: 'B. Current inputs only',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following does NOT involve memory?',
+      options: ['A. Sequential circuit', 'B. Combinational circuit', 'C. Flip-flop', 'D. Register'],
+      answer: 'B. Combinational circuit',
+      diff: 'medium',
+    },
+    {
+      q: 'An input/output table that shows output for all input combinations is called a:',
+      options: ['A. Circuit diagram', 'B. Truth table', 'C. Flow chart', 'D. State table'],
+      answer: 'B. Truth table',
+      diff: 'easy',
+    },
+    {
+      q: 'To find the Boolean expression from a circuit, you should:',
+      options: ['A. Start from right to left', 'B. Start from left to right', 'C. Randomly guess', 'D. Ignore NOT gates'],
+      answer: 'B. Start from left to right',
+      diff: 'medium',
+    },
+    {
+      q: 'The Boolean expression (P ∧ Q) ∨ ¬R corresponds to a circuit with:',
+      options: ['A. AND, OR, NOT gates', 'B. Only AND gates', 'C. Only OR gates', 'D. Only NOT gates'],
+      answer: 'A. AND, OR, NOT gates',
+      diff: 'easy',
+    },
+    {
+      q: 'Given the simplification: (P∧Q) ∨ (¬P∧Q) ∨ (P∧¬Q) simplifies to:',
+      options: ['A. P ∧ Q', 'B. P ∨ Q', 'C. ¬P ∧ ¬Q', 'D. P ⊕ Q'],
+      answer: 'B. P ∨ Q',
+      diff: 'medium',
+    },
+    {
+      q: 'Which law is used in the step (P ∨ ¬P) ∧ Q ≡ t ∧ Q?',
+      options: ['A. Identity Law', 'B. Negation Law', 'C. Distributive Law', 'D. De Morgan’s Law'],
+      answer: 'B. Negation Law',
+      diff: 'medium',
+    },
+    {
+      q: 'Which law simplifies t ∧ Q to Q?',
+      options: ['A. Negation Law', 'B. Identity Law', 'C. Domination Law', 'D. Idempotent Law'],
+      answer: 'B. Identity Law',
+      diff: 'easy',
+    },
+    {
+      q: 'The distributive law in the proof gave: Q ∨ (P ∧ ¬Q) ≡ (Q ∨ P) ∧ (Q ∨ ¬Q). This is which distributive form?',
+      options: ['A. AND over OR', 'B. OR over AND', 'C. NOT over AND', 'D. NOT over OR'],
+      answer: 'B. OR over AND',
+      diff: 'hard',
+    },
+    {
+      q: 'Two circuits are logically equivalent if:',
+      options: ['A. They have the same number of gates', 'B. They produce the same output for all input combinations', 'C. They use the same type of gates', 'D. They have the same Boolean expression without simplification'],
+      answer: 'B. They produce the same output for all input combinations',
+      diff: 'easy',
+    },
+    {
+      q: 'A Boolean expression, circuit, and truth table:',
+      options: ['A. Are completely unrelated', 'B. Represent the same logic in different forms', 'C. Always give different results', 'D. Can never be converted to each other'],
+      answer: 'B. Represent the same logic in different forms',
+      diff: 'easy',
+    },
+    {
+      q: 'If a circuit has three inputs P, Q, R, how many rows will its truth table have?',
+      options: ['A. 4', 'B. 6', 'C. 8', 'D. 16'],
+      answer: 'C. 8',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is the Boolean expression for a series circuit with two switches A and B?',
+      options: ['A. A ∨ B', 'B. A ∧ B', 'C. ¬A ∧ B', 'D. A ∨ ¬B'],
+      answer: 'B. A ∧ B',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is the Boolean expression for a parallel circuit with two switches A and B?',
+      options: ['A. A ∧ B', 'B. A ∨ B', 'C. ¬A ∧ ¬B', 'D. A ⊕ B'],
+      answer: 'B. A ∨ B',
+      diff: 'easy',
+    },
+    {
+      q: 'In the simplification example, the final simplified expression was P ∨ Q. This means the original complex circuit behaves like:',
+      options: ['A. An AND gate', 'B. An OR gate', 'C. A NOT gate', 'D. A NAND gate'],
+      answer: 'B. An OR gate',
+      diff: 'medium',
+    }
+  ]
+},
+
+
+
+// lecture 7//
+
+7: {
+  title: 'Sets, Subsets, and Set Notations (MTH202 Lecture 7)',
+  summary: `**Key Topics Covered:**
+- Definition of a set and its elements
+- Tabular form, Descriptive form, Set Builder form
+- Standard sets of numbers (N, W, Z, E, O, P, Q, Q', R, C)
+- Subset (⊆) and proper subset (⊂)
+- Equal sets
+- Null set (empty set) ∅
+- Universal set (U)
+- Venn diagram
+- Finite and infinite sets
+- Cardinality of a finite set |S|
+- Membership table
+
+---
+
+**Simple Understanding:**
+
+**What is a Set?**
+👉 A well-defined collection of distinct objects.
+👉 Objects are called elements or members.
+👉 Sets are denoted by capital letters (A, B, C, …).
+👉 Elements are denoted by lowercase letters (a, b, c, …).
+👉 x ∈ A means "x belongs to A" or "x is an element of A".
+👉 x ∉ A means "x does not belong to A".
+
+---
+
+**Three Ways to Represent a Set:**
+
+**1. Tabular Form (Roster Form):**
+👉 List all elements inside curly braces { }, separated by commas.
+👉 Example: A = {1, 2, 3, 4, 5}
+
+**2. Descriptive Form:**
+👉 Describe the set in words.
+👉 Example: A = set of first five natural numbers.
+
+**3. Set Builder Form:**
+👉 Write a symbolic rule that all elements share.
+👉 Example: A = {x ∈ N | x ≤ 5}  (read: "x such that x is in N and x ≤ 5")
+👉 The vertical bar | means "such that".
+
+---
+
+**Standard Sets of Numbers:**
+- N = {1, 2, 3, …} (Natural numbers)
+- W = {0, 1, 2, 3, …} (Whole numbers)
+- Z = {…, -3, -2, -1, 0, 1, 2, 3, …} (Integers – from German "Zahlen")
+- E = {0, ±2, ±4, …} (Even integers)
+- O = {±1, ±3, ±5, …} (Odd integers)
+- P = {2, 3, 5, 7, 11, 13, …} (Prime numbers)
+- Q = {p/q | p,q ∈ Z, q ≠ 0} (Rational numbers)
+- Q' = {x | x is not rational} (Irrational numbers, e.g., √2, π)
+- R = Q ∪ Q' (Real numbers)
+- C = {x + iy | x,y ∈ R} (Complex numbers)
+
+---
+
+**Subset (⊆):**
+👉 A ⊆ B if every element of A is also an element of B.
+👉 Symbolically: A ⊆ B ⇔ (if x ∈ A then x ∈ B)
+👉 B is called a superset of A.
+👉 Every set is a subset of itself.
+👉 ∅ (empty set) is a subset of every set.
+
+**Proper Subset (⊂):**
+👉 A ⊂ B if A ⊆ B and there exists at least one element in B that is not in A.
+
+---
+
+**Equal Sets:**
+👉 A = B if and only if A ⊆ B and B ⊆ A.
+👉 Order of elements does not matter; repetitions are ignored.
+
+---
+
+**Null Set (Empty Set):**
+👉 A set with no elements, denoted ∅ or { }.
+👉 Example: {x | x is a person taller than 10 feet} = ∅
+
+---
+
+**Universal Set (U):**
+👉 The set of all elements under consideration in a given context.
+
+---
+
+**Venn Diagram:**
+👉 A graphical representation using a rectangle for U and circles/disks for sets.
+
+---
+
+**Finite vs Infinite Sets:**
+- Finite set: Contains exactly m distinct elements (m ≥ 0). Cardinality |S| = m.
+- Infinite set: Not finite (e.g., set of positive integers).
+- |∅| = 0
+
+**Examples:**
+- {months in a year} → finite (|S|=12)
+- {even integers} → infinite
+
+---
+
+**Membership Table:**
+👉 A table using 1 (member) and 0 (not member) to represent set membership.
+👉 Used to prove set identities.
+
+Example for complement:
+| A | Aᶜ |
+|---|---|
+| 1 | 0  |
+| 0 | 1  |
+
+---
+
+**Important Vocabulary:**
+- Set = collection of distinct objects
+- Element = member of a set
+- Tabular form = listing all elements
+- Descriptive form = describing in words
+- Set builder form = symbolic rule with condition
+- Subset = all elements of one set are in another
+- Proper subset = subset with at least one extra element in superset
+- Null set = empty set (∅)
+- Universal set = all elements under consideration
+- Venn diagram = graphical representation
+- Finite set = countable number of elements
+- Cardinality = number of elements in a finite set
+- Membership table = 0/1 table for set membership
+
+---
+
+**Quick Revision Points:**
+- Sets are denoted by capital letters, elements by lowercase.
+- Three ways to represent: tabular, descriptive, set builder.
+- Standard number sets: N ⊂ W ⊂ Z ⊂ Q ⊂ R ⊂ C.
+- A ⊆ B means every element of A is in B.
+- A ⊂ B means A ⊆ B and A ≠ B.
+- Two sets are equal if they have exactly the same elements.
+- ∅ has no elements; ∅ ⊆ every set.
+- Venn diagrams visually represent sets.
+- Finite set has a countable number of elements; infinite does not.
+- Membership tables use 1 and 0 to show membership.`,
+
+  questions: [
+    {
+      q: 'A set is defined as:',
+      options: ['A. A collection of objects that may repeat', 'B. A well-defined collection of distinct objects', 'C. Any list of numbers', 'D. A random group of items'],
+      answer: 'B. A well-defined collection of distinct objects',
+      diff: 'easy',
+    },
+    {
+      q: 'Which symbol means "x belongs to A"?',
+      options: ['A. x ⊂ A', 'B. x ⊆ A', 'C. x ∈ A', 'D. x ∉ A'],
+      answer: 'C. x ∈ A',
+      diff: 'easy',
+    },
+    {
+      q: 'Listing all elements inside curly braces separated by commas is called:',
+      options: ['A. Descriptive form', 'B. Set builder form', 'C. Tabular form', 'D. Membership table'],
+      answer: 'C. Tabular form',
+      diff: 'easy',
+    },
+    {
+      q: 'The descriptive form of {1, 2, 3, 4, 5} is:',
+      options: ['A. Set of first five whole numbers', 'B. Set of first five natural numbers', 'C. Set of integers less than 5', 'D. Set of positive odd numbers'],
+      answer: 'B. Set of first five natural numbers',
+      diff: 'easy',
+    },
+    {
+      q: 'In set builder notation, the vertical bar "|" means:',
+      options: ['A. Such that', 'B. Or', 'C. And', 'D. Therefore'],
+      answer: 'A. Such that',
+      diff: 'easy',
+    },
+    {
+      q: 'The set builder form {x ∈ N | x ≤ 5} represents:',
+      options: ['A. {0,1,2,3,4,5}', 'B. {1,2,3,4,5}', 'C. {5,6,7,...}', 'D. {0,1,2,3,4}'],
+      answer: 'B. {1,2,3,4,5}',
+      diff: 'medium',
+    },
+    {
+      q: 'The set of integers is denoted by:',
+      options: ['A. N', 'B. W', 'C. Z', 'D. Q'],
+      answer: 'C. Z',
+      diff: 'easy',
+    },
+    {
+      q: 'The letter Z for integers comes from the German word:',
+      options: ['A. Zahlen', 'B. Ziffer', 'C. Zeit', 'D. Zentrum'],
+      answer: 'A. Zahlen',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is the set of rational numbers?',
+      options: ['A. {p/q | p,q ∈ Z, q ≠ 0}', 'B. {x | x is not rational}', 'C. {1,2,3,...}', 'D. {x + iy | x,y ∈ R}'],
+      answer: 'A. {p/q | p,q ∈ Z, q ≠ 0}',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is an irrational number?',
+      options: ['A. 2', 'B. 1/2', 'C. √2', 'D. -3'],
+      answer: 'C. √2',
+      diff: 'easy',
+    },
+    {
+      q: 'The symbol ⊆ means:',
+      options: ['A. Proper subset', 'B. Subset (not necessarily proper)', 'C. Element of', 'D. Union'],
+      answer: 'B. Subset (not necessarily proper)',
+      diff: 'easy',
+    },
+    {
+      q: 'If A ⊆ B and there exists at least one element in B that is not in A, then A is a:',
+      options: ['A. Subset', 'B. Proper subset', 'C. Superset', 'D. Null set'],
+      answer: 'B. Proper subset',
+      diff: 'easy',
+    },
+    {
+      q: 'Every set is a subset of:',
+      options: ['A. Itself', 'B. The empty set', 'C. Its complement', 'D. No set'],
+      answer: 'A. Itself',
+      diff: 'easy',
+    },
+    {
+      q: 'The empty set is denoted by:',
+      options: ['A. U', 'B. ∅', 'C. E', 'D. N'],
+      answer: 'B. ∅',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is true about the empty set?',
+      options: ['A. ∅ contains one element', 'B. ∅ is a subset of every set', 'C. ∅ is not a subset of itself', 'D. ∅ is infinite'],
+      answer: 'B. ∅ is a subset of every set',
+      diff: 'easy',
+    },
+    {
+      q: 'Two sets A and B are equal if:',
+      options: ['A. A ⊆ B and B ⊆ A', 'B. A ⊂ B only', 'C. A and B have same number of elements', 'D. A ∩ B = ∅'],
+      answer: 'A. A ⊆ B and B ⊆ A',
+      diff: 'medium',
+    },
+    {
+      q: 'The cardinality of a finite set S, denoted |S|, is:',
+      options: ['A. The number of distinct elements in S', 'B. The sum of elements in S', 'C. The largest element in S', 'D. The number of subsets of S'],
+      answer: 'A. The number of distinct elements in S',
+      diff: 'easy',
+    },
+    {
+      q: '|∅| equals:',
+      options: ['A. 1', 'B. 0', 'C. Undefined', 'D. Infinite'],
+      answer: 'B. 0',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is an infinite set?',
+      options: ['A. Set of months in a year', 'B. Set of even integers', 'C. Set of letters in English alphabet', 'D. Set of prime numbers less than 100'],
+      answer: 'B. Set of even integers',
+      diff: 'easy',
+    },
+    {
+      q: 'A Venn diagram represents the universal set as:',
+      options: ['A. A circle', 'B. A triangle', 'C. A rectangle', 'D. A point'],
+      answer: 'C. A rectangle',
+      diff: 'easy',
+    },
+    {
+      q: 'In a membership table, a 1 indicates:',
+      options: ['A. The element is not in the set', 'B. The element is in the set', 'C. The set is empty', 'D. The set is infinite'],
+      answer: 'B. The element is in the set',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following statements is false?',
+      options: ['A. {x} ⊆ {x}', 'B. x ∈ {x}', 'C. {x} ∈ {x}', 'D. ∅ ⊆ {x}'],
+      answer: 'C. {x} ∈ {x}',
+      diff: 'medium',
+    },
+    {
+      q: 'If A = {1,3,5} and B = {1,2,3,5}, then:',
+      options: ['A. A ⊂ B', 'B. B ⊂ A', 'C. A = B', 'D. A is not a subset of B'],
+      answer: 'A. A ⊂ B',
+      diff: 'easy',
+    }
+  ]
+},
+
+// lecture 8//
+
+
+8: {
+  title: 'Set Operations: Union, Intersection, Difference, Complement (MTH202 Lecture 8)',
+  summary: `**Key Topics Covered:**
+- Union of sets (A ∪ B)
+- Intersection of sets (A ∩ B)
+- Difference of sets (A – B or A \ B)
+- Complement of a set (Aᶜ or A′)
+- Venn diagram representations
+- Membership tables (0/1 tables)
+- Proving set identities using Venn diagrams and membership tables
+- Disjoint sets
+- Set identities: A – (A – B) = A ∩ B, (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ, A – B = A ∩ Bᶜ
+
+---
+
+**Simple Understanding:**
+
+**Union (A ∪ B):**
+👉 Set of all elements that belong to A OR B (or both).
+👉 Symbol: A ∪ B = {x ∈ U | x ∈ A or x ∈ B}
+👉 Commutative: A ∪ B = B ∪ A
+👉 A ⊆ A ∪ B and B ⊆ A ∪ B
+👉 Membership table corresponds to logical OR (∨).
+
+**Intersection (A ∩ B):**
+👉 Set of all elements that belong to BOTH A and B.
+👉 Symbol: A ∩ B = {x ∈ U | x ∈ A and x ∈ B}
+👉 Commutative: A ∩ B = B ∩ A
+👉 A ∩ B ⊆ A and A ∩ B ⊆ B
+👉 If A ∩ B = ∅, then A and B are called disjoint sets.
+👉 Membership table corresponds to logical AND (∧).
+
+**Difference (A – B):**
+👉 Set of all elements that belong to A but NOT to B.
+👉 Symbol: A – B = {x ∈ U | x ∈ A and x ∉ B}
+👉 Not commutative: A – B ≠ B – A
+👉 A – B ⊆ A
+👉 A – B, A ∩ B, and B – A are mutually disjoint.
+
+**Complement (Aᶜ):**
+👉 Set of all elements in U that do NOT belong to A.
+👉 Symbol: Aᶜ = {x ∈ U | x ∉ A} = U – A
+👉 A ∩ Aᶜ = ∅
+👉 A ∪ Aᶜ = U
+👉 Membership table corresponds to logical NOT (~).
+
+---
+
+**Venn Diagrams:**
+- Universal set U = rectangle
+- Sets = circles/disks inside rectangle
+- Shaded regions represent the resulting set.
+
+**Membership Table:**
+- Uses 1 (element is in set) and 0 (element not in set).
+- Proves set identities by showing matching columns for all combinations.
+
+---
+
+**Proving Set Identities:**
+
+**Identity 1:** A – (A – B) = A ∩ B
+- Verified by Venn diagram and membership table.
+
+**Identity 2:** (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ (De Morgan's Law for sets)
+- Verified by Venn diagram and membership table.
+
+**Identity 3:** A – B = A ∩ Bᶜ
+- Verified by Venn diagram and membership table.
+
+---
+
+**Important Vocabulary:**
+- Union = A ∪ B (elements in A or B)
+- Intersection = A ∩ B (elements in both)
+- Difference = A – B (elements in A not in B)
+- Complement = Aᶜ (elements not in A)
+- Disjoint sets = sets with empty intersection
+- Venn diagram = graphical representation of sets
+- Membership table = table with 1s and 0s for set membership
+- Set identity = equality of two set expressions
+
+---
+
+**Quick Revision Points:**
+- A ∪ B = {x | x ∈ A or x ∈ B}
+- A ∩ B = {x | x ∈ A and x ∈ B}
+- A – B = {x | x ∈ A and x ∉ B}
+- Aᶜ = {x ∈ U | x ∉ A} = U – A
+- Union ↔ OR, Intersection ↔ AND, Complement ↔ NOT
+- Venn diagrams visually show set operations.
+- Membership tables (0/1) prove set identities.
+- De Morgan's Law for sets: (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+- Also: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ
+- A – (A – B) = A ∩ B
+- A – B = A ∩ Bᶜ
+- A and B are disjoint if A ∩ B = ∅`,
+
+  questions: [
+    {
+      q: 'The union of sets A and B is denoted by:',
+      options: ['A. A ∩ B', 'B. A ∪ B', 'C. A – B', 'D. Aᶜ'],
+      answer: 'B. A ∪ B',
+      diff: 'easy',
+    },
+    {
+      q: 'The union A ∪ B consists of elements that belong to:',
+      options: ['A. A only', 'B. B only', 'C. A or B (or both)', 'D. A and B both'],
+      answer: 'C. A or B (or both)',
+      diff: 'easy',
+    },
+    {
+      q: 'The intersection of sets A and B is denoted by:',
+      options: ['A. A ∪ B', 'B. A – B', 'C. A ∩ B', 'D. Aᶜ'],
+      answer: 'C. A ∩ B',
+      diff: 'easy',
+    },
+    {
+      q: 'A ∩ B consists of elements that belong to:',
+      options: ['A. A or B', 'B. A and B both', 'C. A only', 'D. B only'],
+      answer: 'B. A and B both',
+      diff: 'easy',
+    },
+    {
+      q: 'The set difference A – B consists of elements that belong to:',
+      options: ['A. A and B both', 'B. B but not A', 'C. A but not B', 'D. A or B'],
+      answer: 'C. A but not B',
+      diff: 'easy',
+    },
+    {
+      q: 'The complement of set A (Aᶜ) consists of elements that:',
+      options: ['A. Belong to A', 'B. Do not belong to A', 'C. Belong to U only', 'D. Belong to A ∩ U'],
+      answer: 'B. Do not belong to A',
+      diff: 'easy',
+    },
+    {
+      q: 'If A ∩ B = ∅, then A and B are called:',
+      options: ['A. Equal sets', 'B. Disjoint sets', 'C. Universal sets', 'D. Complement sets'],
+      answer: 'B. Disjoint sets',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is true for any set A?',
+      options: ['A. A ∪ Aᶜ = ∅', 'B. A ∩ Aᶜ = U', 'C. A ∪ Aᶜ = U', 'D. A ∩ Aᶜ = A'],
+      answer: 'C. A ∪ Aᶜ = U',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is true for any set A?',
+      options: ['A. A ∩ Aᶜ = U', 'B. A ∪ Aᶜ = ∅', 'C. A ∩ Aᶜ = ∅', 'D. A ∪ Aᶜ = A'],
+      answer: 'C. A ∩ Aᶜ = ∅',
+      diff: 'medium',
+    },
+    {
+      q: 'The complement Aᶜ can also be written as:',
+      options: ['A. U – A', 'B. A – U', 'C. A ∩ U', 'D. A ∪ U'],
+      answer: 'A. U – A',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operation is commutative?',
+      options: ['A. Set difference (A – B)', 'B. Union (A ∪ B)', 'C. Complement (Aᶜ)', 'D. Both A and B'],
+      answer: 'B. Union (A ∪ B)',
+      diff: 'easy',
+    },
+    {
+      q: 'Set difference A – B is:',
+      options: ['A. Commutative', 'B. Equal to B – A', 'C. Not commutative', 'D. Always equal to A'],
+      answer: 'C. Not commutative',
+      diff: 'easy',
+    },
+    {
+      q: 'The membership table for union corresponds to which logical connective?',
+      options: ['A. AND (∧)', 'B. OR (∨)', 'C. NOT (~)', 'D. XOR (⊕)'],
+      answer: 'B. OR (∨)',
+      diff: 'medium',
+    },
+    {
+      q: 'The membership table for intersection corresponds to which logical connective?',
+      options: ['A. AND (∧)', 'B. OR (∨)', 'C. NOT (~)', 'D. IMPLICATION (→)'],
+      answer: 'A. AND (∧)',
+      diff: 'medium',
+    },
+    {
+      q: 'The membership table for complement corresponds to which logical connective?',
+      options: ['A. AND', 'B. OR', 'C. NOT', 'D. XOR'],
+      answer: 'C. NOT',
+      diff: 'medium',
+    },
+    {
+      q: 'In a membership table, what does 1 represent?',
+      options: ['A. Element is not in the set', 'B. Element is in the set', 'C. The set is empty', 'D. The set is universal'],
+      answer: 'B. Element is in the set',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is a valid set identity?',
+      options: ['A. A – (A – B) = A ∪ B', 'B. A – (A – B) = A ∩ B', 'C. A – (A – B) = B – A', 'D. A – (A – B) = Aᶜ'],
+      answer: 'B. A – (A – B) = A ∩ B',
+      diff: 'medium',
+    },
+    {
+      q: 'De Morgan’s Law for sets states that (A ∩ B)ᶜ =:',
+      options: ['A. Aᶜ ∩ Bᶜ', 'B. Aᶜ ∪ Bᶜ', 'C. A ∪ B', 'D. A ∩ B'],
+      answer: 'B. Aᶜ ∪ Bᶜ',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is equivalent to A – B?',
+      options: ['A. A ∩ B', 'B. A ∪ B', 'C. A ∩ Bᶜ', 'D. Aᶜ ∩ B'],
+      answer: 'C. A ∩ Bᶜ',
+      diff: 'medium',
+    },
+    {
+      q: 'If U = {1,2,3,4,5}, A = {1,2,3}, B = {3,4,5}, then A ∪ B is:',
+      options: ['A. {3}', 'B. {1,2,3,4,5}', 'C. {1,2}', 'D. {4,5}'],
+      answer: 'B. {1,2,3,4,5}',
+      diff: 'easy',
+    },
+    {
+      q: 'If U = {1,2,3,4,5}, A = {1,2,3}, B = {3,4,5}, then A ∩ B is:',
+      options: ['A. {3}', 'B. {1,2,3,4,5}', 'C. {1,2}', 'D. {4,5}'],
+      answer: 'A. {3}',
+      diff: 'easy',
+    },
+    {
+      q: 'If U = {1,2,3,4,5}, A = {1,2,3}, B = {3,4,5}, then A – B is:',
+      options: ['A. {3}', 'B. {1,2}', 'C. {4,5}', 'D. {1,2,3,4,5}'],
+      answer: 'B. {1,2}',
+      diff: 'easy',
+    },
+    {
+      q: 'If U = {1,2,3,4,5}, A = {1,2,3}, then Aᶜ is:',
+      options: ['A. {1,2,3}', 'B. {4,5}', 'C. {1,2,3,4,5}', 'D. ∅'],
+      answer: 'B. {4,5}',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following statements is true about disjoint sets?',
+      options: ['A. They have all elements in common', 'B. Their intersection is empty', 'C. Their union is empty', 'D. One is the complement of the other'],
+      answer: 'B. Their intersection is empty',
+      diff: 'easy',
+    },
+    {
+      q: 'A Venn diagram represents the universal set as:',
+      options: ['A. A circle', 'B. A rectangle', 'C. A triangle', 'D. A point'],
+      answer: 'B. A rectangle',
+      diff: 'easy',
+    }
+  ]
+},
+
+// lecture 9//
+
+
+9: {
+  title: 'Set Identities and Their Proofs (MTH202 Lecture 9)',
+  summary: `**Key Topics Covered:**
+- Idempotent Laws: A ∪ A = A, A ∩ A = A
+- Commutative Laws: A ∪ B = B ∪ A, A ∩ B = B ∩ A
+- Associative Laws: A ∪ (B ∪ C) = (A ∪ B) ∪ C, A ∩ (B ∩ C) = (A ∩ B) ∩ C
+- Distributive Laws: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C), A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+- Identity Laws: A ∪ ∅ = A, A ∩ ∅ = ∅, A ∪ U = U, A ∩ U = A
+- Complement Laws: A ∪ Aᶜ = U, A ∩ Aᶜ = ∅, Uᶜ = ∅, ∅ᶜ = U
+- Double Complement Law: (Aᶜ)ᶜ = A
+- DeMorgan's Laws: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+- Alternative Representation for Set Difference: A – B = A ∩ Bᶜ
+- Subset Laws: A ∪ B ⊆ C iff A ⊆ C and B ⊆ C; C ⊆ A ∩ B iff C ⊆ A and C ⊆ B
+- Absorption Laws: A ∪ (A ∩ B) = A, A ∩ (A ∪ B) = A
+- Proving set identities using element arguments and membership tables
+
+---
+
+**Simple Understanding:**
+
+**Set Identities (Laws of Set Theory):**
+
+These are fundamental rules that sets follow, similar to logical equivalences.
+
+**Idempotent Laws:**
+👉 A ∪ A = A (union of a set with itself is the set)
+👉 A ∩ A = A (intersection of a set with itself is the set)
+
+**Commutative Laws:**
+👉 A ∪ B = B ∪ A (order doesn't matter for union)
+👉 A ∩ B = B ∩ A (order doesn't matter for intersection)
+
+**Associative Laws:**
+👉 A ∪ (B ∪ C) = (A ∪ B) ∪ C (grouping doesn't matter for union)
+👉 A ∩ (B ∩ C) = (A ∩ B) ∩ C (grouping doesn't matter for intersection)
+
+**Distributive Laws:**
+👉 A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) (union distributes over intersection)
+👉 A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) (intersection distributes over union)
+
+**Identity Laws:**
+👉 A ∪ ∅ = A (empty set is identity for union)
+👉 A ∩ U = A (universal set is identity for intersection)
+👉 A ∩ ∅ = ∅ (intersection with empty set is empty)
+👉 A ∪ U = U (union with universal set is universal)
+
+**Complement Laws:**
+👉 A ∪ Aᶜ = U (a set and its complement cover the universe)
+👉 A ∩ Aᶜ = ∅ (a set and its complement are disjoint)
+👉 Uᶜ = ∅ (complement of universe is empty)
+👉 ∅ᶜ = U (complement of empty set is universe)
+
+**Double Complement Law:**
+👉 (Aᶜ)ᶜ = A (complement of complement returns original)
+
+**DeMorgan's Laws for Sets:**
+👉 (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ
+👉 (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+
+**Alternative Representation:**
+👉 A – B = A ∩ Bᶜ
+
+**Absorption Laws:**
+👉 A ∪ (A ∩ B) = A
+👉 A ∩ (A ∪ B) = A
+
+**Subset Laws:**
+👉 A ∪ B ⊆ C iff A ⊆ C and B ⊆ C
+👉 C ⊆ A ∩ B iff C ⊆ A and C ⊆ B
+
+---
+
+**Proving Set Identities – Two Methods:**
+
+**1. Element Argument (Subset Proof):**
+- Show LHS ⊆ RHS: take an arbitrary element from LHS and show it belongs to RHS.
+- Show RHS ⊆ LHS: take an arbitrary element from RHS and show it belongs to LHS.
+- Conclude LHS = RHS.
+
+**2. Membership Table (0/1 Table):**
+- Create a table with columns for each set and each operation.
+- Use 1 for "element is in set", 0 for "element not in set".
+- If two columns have identical values for all rows, the expressions are equal.
+
+---
+
+**Important Examples Proved in the Lecture:**
+- A ⊆ A ∪ B
+- A – B ⊆ A
+- If A ⊆ B and B ⊆ C, then A ⊆ C
+- A ⊆ B iff Bᶜ ⊆ Aᶜ
+- A – B = A ∩ Bᶜ
+- (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ (DeMorgan)
+- A ∩ (B ∩ C) = (A ∩ B) ∩ C (Associative)
+- A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) (Distributive)
+- If A ⊆ B, then A ∩ B = A and A ∪ B = B
+- (A – B) ∪ (A ∩ B) = A
+- A – (A – B) = A ∩ B
+- (A – B) – C = (A – C) – B
+- Simplify (Bᶜ ∪ (Bᶜ – A))ᶜ = B
+
+---
+
+**Important Vocabulary:**
+- Set identity = an equation that holds for all sets
+- Idempotent law = law where operation on same set yields the set
+- Commutative law = order does not matter
+- Associative law = grouping does not matter
+- Distributive law = one operation distributes over another
+- Identity element = element that leaves other unchanged (∅ for ∪, U for ∩)
+- Complement law = relationship between set and its complement
+- DeMorgan's law = complement of union/intersection
+- Absorption law = "absorbing" the other set
+- Element argument = proof by taking arbitrary element
+- Membership table = truth-table style proof for sets
+
+---
+
+**Quick Revision Points:**
+- Idempotent: A ∪ A = A, A ∩ A = A
+- Commutative: A ∪ B = B ∪ A, A ∩ B = B ∩ A
+- Associative: (A ∪ B) ∪ C = A ∪ (B ∪ C)
+- Distributive: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+- Identity: A ∪ ∅ = A, A ∩ U = A
+- Complement: A ∪ Aᶜ = U, A ∩ Aᶜ = ∅
+- Double Complement: (Aᶜ)ᶜ = A
+- DeMorgan: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+- Set Difference: A – B = A ∩ Bᶜ
+- Absorption: A ∪ (A ∩ B) = A, A ∩ (A ∪ B) = A
+- To prove equality: show LHS ⊆ RHS and RHS ⊆ LHS
+- Membership table uses 0 and 1 to verify identities.`,
+
+  questions: [
+    {
+      q: 'Which law states that A ∪ A = A?',
+      options: ['A. Commutative Law', 'B. Idempotent Law', 'C. Identity Law', 'D. Absorption Law'],
+      answer: 'B. Idempotent Law',
+      diff: 'easy',
+    },
+    {
+      q: 'The commutative law for intersection states that:',
+      options: ['A. A ∩ A = A', 'B. A ∩ B = B ∩ A', 'C. A ∩ (B ∩ C) = (A ∩ B) ∩ C', 'D. A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)'],
+      answer: 'B. A ∩ B = B ∩ A',
+      diff: 'easy',
+    },
+    {
+      q: 'The associative law for union states that:',
+      options: ['A. A ∪ B = B ∪ A', 'B. A ∪ A = A', 'C. (A ∪ B) ∪ C = A ∪ (B ∪ C)', 'D. A ∪ U = U'],
+      answer: 'C. (A ∪ B) ∪ C = A ∪ (B ∪ C)',
+      diff: 'easy',
+    },
+    {
+      q: 'Which distributive law is correct?',
+      options: ['A. A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)', 'B. A ∪ (B ∩ C) = (A ∪ B) ∩ C', 'C. A ∩ (B ∪ C) = (A ∩ B) ∪ C', 'D. A ∩ (B ∪ C) = (A ∪ B) ∩ (A ∪ C)'],
+      answer: 'A. A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)',
+      diff: 'medium',
+    },
+    {
+      q: 'What is A ∪ ∅?',
+      options: ['A. ∅', 'B. U', 'C. A', 'D. Aᶜ'],
+      answer: 'C. A',
+      diff: 'easy',
+    },
+    {
+      q: 'What is A ∩ U?',
+      options: ['A. ∅', 'B. U', 'C. A', 'D. Aᶜ'],
+      answer: 'C. A',
+      diff: 'easy',
+    },
+    {
+      q: 'The complement law states that A ∪ Aᶜ equals:',
+      options: ['A. ∅', 'B. U', 'C. A', 'D. Aᶜ'],
+      answer: 'B. U',
+      diff: 'easy',
+    },
+    {
+      q: 'What is A ∩ Aᶜ?',
+      options: ['A. U', 'B. A', 'C. Aᶜ', 'D. ∅'],
+      answer: 'D. ∅',
+      diff: 'easy',
+    },
+    {
+      q: 'The double complement law says:',
+      options: ['A. A ∪ Aᶜ = U', 'B. A ∩ Aᶜ = ∅', 'C. (Aᶜ)ᶜ = A', 'D. Uᶜ = ∅'],
+      answer: 'C. (Aᶜ)ᶜ = A',
+      diff: 'easy',
+    },
+    {
+      q: 'DeMorgan’s Law for sets states that (A ∪ B)ᶜ equals:',
+      options: ['A. Aᶜ ∪ Bᶜ', 'B. Aᶜ ∩ Bᶜ', 'C. A ∩ B', 'D. A ∪ B'],
+      answer: 'B. Aᶜ ∩ Bᶜ',
+      diff: 'easy',
+    },
+    {
+      q: 'DeMorgan’s Law (A ∩ B)ᶜ equals:',
+      options: ['A. Aᶜ ∩ Bᶜ', 'B. Aᶜ ∪ Bᶜ', 'C. A ∪ B', 'D. A ∩ B'],
+      answer: 'B. Aᶜ ∪ Bᶜ',
+      diff: 'easy',
+    },
+    {
+      q: 'The alternative representation for set difference A – B is:',
+      options: ['A. A ∪ Bᶜ', 'B. A ∩ Bᶜ', 'C. Aᶜ ∩ B', 'D. Aᶜ ∪ B'],
+      answer: 'B. A ∩ Bᶜ',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is the absorption law?',
+      options: ['A. A ∪ (A ∩ B) = A', 'B. A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)', 'C. (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ', 'D. A ∪ ∅ = A'],
+      answer: 'A. A ∪ (A ∩ B) = A',
+      diff: 'medium',
+    },
+    {
+      q: 'If A ⊆ B and B ⊆ C, then:',
+      options: ['A. A = C', 'B. A ⊆ C', 'C. C ⊆ A', 'D. A ∩ C = ∅'],
+      answer: 'B. A ⊆ C',
+      diff: 'easy',
+    },
+    {
+      q: 'A ⊆ B if and only if:',
+      options: ['A. Bᶜ ⊆ Aᶜ', 'B. Aᶜ ⊆ Bᶜ', 'C. A ∩ B = ∅', 'D. A ∪ B = ∅'],
+      answer: 'A. Bᶜ ⊆ Aᶜ',
+      diff: 'hard',
+    },
+    {
+      q: 'If A ⊆ B, then A ∪ B equals:',
+      options: ['A. A', 'B. B', 'C. ∅', 'D. U'],
+      answer: 'B. B',
+      diff: 'medium',
+    },
+    {
+      q: 'If A ⊆ B, then A ∩ B equals:',
+      options: ['A. A', 'B. B', 'C. ∅', 'D. U'],
+      answer: 'A. A',
+      diff: 'medium',
+    },
+    {
+      q: '(A – B) ∪ (A ∩ B) simplifies to:',
+      options: ['A. A', 'B. B', 'C. A ∪ B', 'D. A ∩ B'],
+      answer: 'A. A',
+      diff: 'hard',
+    },
+    {
+      q: 'A – (A – B) simplifies to:',
+      options: ['A. A', 'B. B', 'C. A ∩ B', 'D. A ∪ B'],
+      answer: 'C. A ∩ B',
+      diff: 'hard',
+    },
+    {
+      q: '(A – B) – C equals:',
+      options: ['A. (A – C) – B', 'B. (A – C) ∪ B', 'C. A – (B – C)', 'D. (A ∩ B) – C'],
+      answer: 'A. (A – C) – B',
+      diff: 'hard',
+    },
+    {
+      q: 'Simplify (Bᶜ ∪ (Bᶜ – A))ᶜ:',
+      options: ['A. A', 'B. B', 'C. Aᶜ', 'D. Bᶜ'],
+      answer: 'B. B',
+      diff: 'hard',
+    },
+    {
+      q: 'In a membership table, what does 1 represent?',
+      options: ['A. Element is not in the set', 'B. Element is in the set', 'C. The set is empty', 'D. The set is universal'],
+      answer: 'B. Element is in the set',
+      diff: 'easy',
+    },
+    {
+      q: 'To prove two sets are equal using element argument, you must show:',
+      options: ['A. LHS ⊆ RHS only', 'B. RHS ⊆ LHS only', 'C. Both LHS ⊆ RHS and RHS ⊆ LHS', 'D. LHS ∩ RHS = ∅'],
+      answer: 'C. Both LHS ⊆ RHS and RHS ⊆ LHS',
+      diff: 'medium',
+    },
+    {
+      q: 'Which law is used in the simplification: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)?',
+      options: ['A. Associative Law', 'B. Distributive Law', 'C. Idempotent Law', 'D. Absorption Law'],
+      answer: 'B. Distributive Law',
+      diff: 'easy',
+    },
+    {
+      q: 'What is Uᶜ?',
+      options: ['A. U', 'B. ∅', 'C. A', 'D. Aᶜ'],
+      answer: 'B. ∅',
+      diff: 'easy',
+    },
+    {
+      q: 'What is ∅ᶜ?',
+      options: ['A. ∅', 'B. U', 'C. A', 'D. Aᶜ'],
+      answer: 'B. U',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+
+
+///lecture 10 // 
+
+
+
   },
 
   // ─────────────────────────────────────────
@@ -5384,7 +7174,1268 @@ Examples:
 },
 
 
+/// l7///
 
+
+7: {
+  title: 'Affixes (Word Formation)',
+  summary: `**Key Topics Covered:**
+- Word formation (prefix, suffix)
+- Affixes (prefix + suffix)
+- Types of suffixes
+- Noun, verb, adjective, adverb formation
+- Base word spelling rules
+
+---
+
+**Simple Understanding:**
+
+**Word Formation:**
+👉 English mein naye words banane ke liye:
+- Prefix (start) + Root word + Suffix (end)
+
+👉 Example:
+- act → action → active → activity
+- react → reaction → reactivation
+
+---
+
+**Affixes:**
+👉 Prefix + Suffix = Affixes
+
+👉 Prefix word ke start mein lagta hai  
+👉 Suffix word ke end mein lagta hai  
+
+---
+
+**Noun-forming suffixes:**
+👉 -er / -or → person (teacher, operator)  
+👉 -ness → condition (cleanliness)  
+👉 -tion / -ion → action (execution)  
+👉 -ment → state/action (measurement)  
+👉 -ity → quality (electricity)  
+
+---
+
+**Verb-forming suffixes:**
+👉 -ize → computerize  
+👉 -ate → activate  
+👉 -fy → simplify  
+👉 -en → widen  
+
+---
+
+**Adjective-forming suffixes:**
+👉 -able / -ible → capable (comparable)  
+👉 -ful → full of (helpful)  
+👉 -less → without (careless)  
+👉 -ic / -ical → related (logical, electrical)  
+👉 -ive → quality (interactive)  
+
+---
+
+**Adverb-forming suffix:**
+👉 -ly → (quickly, logically, electronically)  
+
+---
+
+**Base Word Rules:**
+
+👉 Rule 1:
+If word ends with "e", remove e  
+Example: mature → maturity  
+
+👉 Rule 2:
+If word ends with "y", change y → i  
+Example: harmony → harmonious  
+
+👉 Rule 3:
+Spelling may change  
+Example: reclaim → reclamation  
+
+---
+
+**Computer Examples:**
+👉 analyst, programmer, operator  
+👉 interactive, electronic  
+👉 programmable, calculation  
+👉 multiplexing, processing  
+
+---
+
+**Quick Revision Points:**
+- Prefix + Suffix = Affixes  
+- -er / -or = person  
+- -ness = condition  
+- -ly = adverb  
+- -able = capability  
+- e drop hota hai  
+- y → i change hota hai  
+- spelling change ho sakti hai`,
+
+  questions: [
+    {
+      q: 'Affixes include:',
+      options: ['A. Prefix only', 'B. Suffix only', 'C. Prefix and Suffix', 'D. Root word'],
+      answer: 'C. Prefix and Suffix',
+      diff: 'easy',
+    },
+    {
+      q: 'The suffix "-er" refers to:',
+      options: ['A. Place', 'B. Person', 'C. Action', 'D. Time'],
+      answer: 'B. Person',
+      diff: 'easy',
+    },
+    {
+      q: 'The suffix "-ly" forms:',
+      options: ['A. Nouns', 'B. Verbs', 'C. Adverbs', 'D. Adjectives'],
+      answer: 'C. Adverbs',
+      diff: 'easy',
+    },
+    {
+      q: 'In "happiness", "-ness" shows:',
+      options: ['A. Action', 'B. Condition', 'C. Person', 'D. Place'],
+      answer: 'B. Condition',
+      diff: 'easy',
+    },
+    {
+      q: 'Prefix is added at:',
+      options: ['A. End', 'B. Middle', 'C. Start', 'D. None'],
+      answer: 'C. Start',
+      diff: 'easy',
+    },
+    {
+      q: 'Which is a verb-forming suffix?',
+      options: ['A. -ness', 'B. -ize', 'C. -ly', 'D. -ful'],
+      answer: 'B. -ize',
+      diff: 'medium',
+    },
+    {
+      q: '"Careless" means:',
+      options: ['A. Full of care', 'B. Without care', 'C. Action of care', 'D. Person who cares'],
+      answer: 'B. Without care',
+      diff: 'medium',
+    },
+    {
+      q: 'In "maturity", what happened to base word?',
+      options: ['A. y removed', 'B. e removed', 'C. t removed', 'D. nothing changed'],
+      answer: 'B. e removed',
+      diff: 'medium',
+    },
+    {
+      q: '"Harmonious" comes from:',
+      options: ['A. harmony', 'B. harmon', 'C. harm', 'D. mony'],
+      answer: 'A. harmony',
+      diff: 'medium',
+    },
+    {
+      q: '"Operator" refers to:',
+      options: ['A. Machine', 'B. Person', 'C. Action', 'D. Quality'],
+      answer: 'B. Person',
+      diff: 'easy',
+    },
+    {
+      q: 'Which suffix shows "state or quality"?',
+      options: ['A. -ly', 'B. -ness', 'C. -ize', 'D. -fy'],
+      answer: 'B. -ness',
+      diff: 'hard',
+    },
+    {
+      q: '"Reclamation" shows:',
+      options: ['A. No change', 'B. Spelling change', 'C. Prefix removal', 'D. No suffix'],
+      answer: 'B. Spelling change',
+      diff: 'hard',
+    },
+    {
+      q: '"Interactive" is:',
+      options: ['A. Noun', 'B. Verb', 'C. Adjective', 'D. Adverb'],
+      answer: 'C. Adjective',
+      diff: 'medium',
+    },
+    {
+      q: '"Multiplexing" represents:',
+      options: ['A. Person', 'B. Action/activity', 'C. Place', 'D. Quality'],
+      answer: 'B. Action/activity',
+      diff: 'hard',
+    },
+    {
+      q: 'Which word is an adverb?',
+      options: ['A. Logical', 'B. Logic', 'C. Logically', 'D. Logician'],
+      answer: 'C. Logically',
+      diff: 'medium',
+    },
+  ],
+},
+
+
+
+
+/// l8 ///
+
+
+8: {
+  title: 'Prefixes, Synonyms & Antonyms',
+  summary: `**Key Topics Covered:**
+- Prefixes (word formation)
+- Types of prefixes (negative, size, location, time, number)
+- Vocabulary building
+- Synonyms (same meaning words)
+- Antonyms (opposite meaning words)
+- Use of prefixes with stem words
+
+---
+
+**Simple Understanding:**
+
+**Prefixes:**
+👉 Prefix word ke start mein lagta hai
+
+👉 Example:
+- un + true = untrue  
+- il + legal = illegal  
+
+👉 Prefix meaning change kar deta hai
+
+---
+
+**Understanding Difficult Words:**
+👉 Unknown word ko samajhne ke liye:
+- Prefix identify karo  
+- Root word identify karo  
+
+👉 Example:
+- illimitability = il (not) + limit  
+👉 Meaning: no limit  
+
+---
+
+**Negative Prefixes:**
+👉 not / opposite show karte hain
+
+- un-, in-, im-, il-, ir- → not  
+- non- → not connected  
+- mis- → wrong  
+- dis- → opposite  
+- anti- → against  
+- de- → reverse  
+- under- → too little  
+
+---
+
+**Positive Prefixes:**
+👉 positive ya repetition show karte hain
+
+- re- → again (redo)  
+- over- → too much  
+
+---
+
+**Prefixes of Size:**
+👉 size show karte hain
+
+- micro → small  
+- mini → little  
+- macro → large  
+- mega → very large  
+- semi → half  
+
+---
+
+**Prefixes of Location:**
+👉 position show karte hain
+
+- inter → between  
+- super → above  
+- trans → across  
+- sub → under  
+- extra → beyond  
+
+---
+
+**Prefixes of Time & Order:**
+👉 time ya sequence show karte hain
+
+- pre → before  
+- post → after  
+- ante → before  
+- prime → first  
+- retro → backward  
+
+---
+
+**Prefixes of Numbers:**
+👉 quantity show karte hain
+
+- mono → one  
+- bi → two  
+- tri → three  
+- quad → four  
+- multi → many  
+
+---
+
+**Other Prefixes:**
+👉 special meanings
+
+- auto → self  
+- co → together  
+- neo → new  
+- pan → all  
+
+---
+
+**Synonyms:**
+👉 Same ya similar meaning words
+
+👉 Example:
+- big = large = huge  
+
+---
+
+**Important Points (Synonyms):**
+
+👉 1. Same meaning har jagah use nahi hota  
+Example:
+- apt = fit / likely  
+- appropriate = only fit  
+
+👉 2. Slight meaning difference hota hai  
+Example:
+- blame = fault dena  
+- denounce = public criticize  
+
+---
+
+**Antonyms:**
+👉 Opposite meaning words  
+Example:
+- big ↔ small  
+- happy ↔ sad  
+
+---
+
+**Quick Revision Points:**
+- Prefix word ke start mein lagta hai  
+- Prefix meaning change karta hai  
+- un-, in- = not  
+- micro = small  
+- pre = before  
+- mono = one  
+- Synonyms = similar meaning  
+- Antonyms = opposite meaning  
+- Synonyms always interchangeable nahi hote`,
+
+  questions: [
+    {
+      q: 'A prefix is added at the:',
+      options: ['A. End of word', 'B. Middle of word', 'C. Beginning of word', 'D. None'],
+      answer: 'C. Beginning of word',
+      diff: 'easy',
+    },
+    {
+      q: 'The prefix "un-" means:',
+      options: ['A. Again', 'B. Not', 'C. Before', 'D. Many'],
+      answer: 'B. Not',
+      diff: 'easy',
+    },
+    {
+      q: 'Illimitability means:',
+      options: ['A. Limited', 'B. No limit', 'C. Small limit', 'D. Half limit'],
+      answer: 'B. No limit',
+      diff: 'medium',
+    },
+    {
+      q: 'The prefix "re-" means:',
+      options: ['A. Not', 'B. Again', 'C. Before', 'D. Under'],
+      answer: 'B. Again',
+      diff: 'easy',
+    },
+    {
+      q: 'The prefix "micro-" means:',
+      options: ['A. Large', 'B. Small', 'C. Many', 'D. Half'],
+      answer: 'B. Small',
+      diff: 'easy',
+    },
+    {
+      q: 'The prefix "pre-" indicates:',
+      options: ['A. After', 'B. Before', 'C. Under', 'D. Around'],
+      answer: 'B. Before',
+      diff: 'easy',
+    },
+    {
+      q: 'Which prefix means "two"?',
+      options: ['A. mono', 'B. tri', 'C. bi', 'D. multi'],
+      answer: 'C. bi',
+      diff: 'easy',
+    },
+    {
+      q: 'Synonyms are words that:',
+      options: ['A. Opposite meaning', 'B. Same meaning', 'C. No meaning', 'D. Long words'],
+      answer: 'B. Same meaning',
+      diff: 'easy',
+    },
+    {
+      q: 'Antonyms are words that:',
+      options: ['A. Same meaning', 'B. Opposite meaning', 'C. Similar spelling', 'D. Same sound'],
+      answer: 'B. Opposite meaning',
+      diff: 'easy',
+    },
+    {
+      q: 'The prefix "sub-" means:',
+      options: ['A. Above', 'B. Under', 'C. Before', 'D. After'],
+      answer: 'B. Under',
+      diff: 'medium',
+    },
+    {
+      q: 'Which prefix means "across"?',
+      options: ['A. inter', 'B. trans', 'C. super', 'D. sub'],
+      answer: 'B. trans',
+      diff: 'medium',
+    },
+    {
+      q: '“Blame” and “denounce” differ because:',
+      options: ['A. Same usage', 'B. Denounce is stronger', 'C. Blame is stronger', 'D. Both same'],
+      answer: 'B. Denounce is stronger',
+      diff: 'hard',
+    },
+    {
+      q: 'Synonyms may differ in:',
+      options: ['A. Spelling only', 'B. Meaning shades', 'C. Length', 'D. Sound'],
+      answer: 'B. Meaning shades',
+      diff: 'hard',
+    },
+    {
+      q: 'The prefix "auto-" means:',
+      options: ['A. Together', 'B. Self', 'C. New', 'D. Many'],
+      answer: 'B. Self',
+      diff: 'medium',
+    },
+    {
+      q: 'Which prefix means "many"?',
+      options: ['A. mono', 'B. bi', 'C. multi', 'D. tri'],
+      answer: 'C. multi',
+      diff: 'easy',
+    },
+  ],
+},
+
+
+
+// Lecture 9//
+
+
+
+9: {
+  title: 'Introduction to Computers',
+  summary: `**Key Topics Covered:**
+- What is a computer
+- Data and processing
+- Input, Processing, Output cycle
+- Hardware components (CPU, memory, storage)
+- Characteristics of computers
+- Evolution of computers
+- Impact of computers on life
+
+---
+
+**Simple Understanding:**
+
+**What is a Computer?**
+👉 Computer ek machine hai jo data ko process karti hai  
+
+👉 Data = information jo computer ko di jati hai  
+
+👉 Processing = data ko handle karna (calculate, compare, add)
+
+---
+
+**Computer Working (IPO Cycle):**
+👉 Computer 3 steps par kaam karta hai:
+
+1. Input → data dena  
+2. Processing → data par kaam karna  
+3. Output → result dena  
+
+📌 Example:
+👉 Cloth (input) → sewing (processing) → shirt (output)
+
+---
+
+**Computer Components:**
+
+👉 CPU (Central Processing Unit)
+- Main part of computer  
+- Processing karta hai  
+
+👉 Input Devices:
+- Keyboard, card reader  
+
+👉 Output:
+- Result display hota hai  
+
+👉 Storage Devices:
+- Data save hota hai  
+- Example: magnetic disks, tapes  
+
+---
+
+**Important Concept:**
+👉 Computer sirf adding machine nahi hai  
+
+👉 Yeh unlimited kaam kar sakta hai  
+👉 Limit sirf human imagination hai  
+
+---
+
+**Old vs Modern Computers:**
+
+👉 Old computers:
+- Bohat expensive  
+- Large size  
+- Zyada staff needed  
+
+👉 Modern computers:
+- Cheap  
+- Small (compact)  
+- Fast  
+- Reliable  
+
+---
+
+**Impact of Computers:**
+
+👉 Routine kaam reduce karte hain  
+👉 Time save hota hai  
+👉 Creative work ke liye time milta hai  
+👉 New jobs create hui hain  
+
+---
+
+**Quick Revision Points:**
+- Computer data process karta hai  
+- Input → Processing → Output  
+- CPU main part hai  
+- Storage data save karta hai  
+- Computer versatile hai  
+- Old computers large thay  
+- Modern computers fast aur cheap hain  
+- Computers ne life change kar di`,
+
+  questions: [
+    {
+      q: 'Computers are machines designed to:',
+      options: ['A. Play games only', 'B. Process data', 'C. Print papers', 'D. Draw images'],
+      answer: 'B. Process data',
+      diff: 'easy',
+    },
+    {
+      q: 'Data means:',
+      options: ['A. Machine', 'B. Information', 'C. Device', 'D. Program'],
+      answer: 'B. Information',
+      diff: 'easy',
+    },
+    {
+      q: 'Processing means:',
+      options: ['A. Storing data', 'B. Handling data', 'C. Deleting data', 'D. Printing data'],
+      answer: 'B. Handling data',
+      diff: 'easy',
+    },
+    {
+      q: 'Which is correct order?',
+      options: ['A. Output → Input → Processing', 'B. Input → Output → Processing', 'C. Input → Processing → Output', 'D. Processing → Input → Output'],
+      answer: 'C. Input → Processing → Output',
+      diff: 'easy',
+    },
+    {
+      q: 'The main part of computer is:',
+      options: ['A. Keyboard', 'B. CPU', 'C. Mouse', 'D. Monitor'],
+      answer: 'B. CPU',
+      diff: 'easy',
+    },
+    {
+      q: 'CPU stands for:',
+      options: ['A. Central Program Unit', 'B. Central Processing Unit', 'C. Computer Processing Unit', 'D. Control Processing Unit'],
+      answer: 'B. Central Processing Unit',
+      diff: 'medium',
+    },
+    {
+      q: 'Which is an input device?',
+      options: ['A. Monitor', 'B. Printer', 'C. Keyboard', 'D. Speaker'],
+      answer: 'C. Keyboard',
+      diff: 'easy',
+    },
+    {
+      q: 'Storage devices are used to:',
+      options: ['A. Show output', 'B. Save data', 'C. Process data', 'D. Input data'],
+      answer: 'B. Save data',
+      diff: 'easy',
+    },
+    {
+      q: 'Computer versatility means:',
+      options: ['A. Limited work', 'B. Only calculations', 'C. Many types of work', 'D. No work'],
+      answer: 'C. Many types of work',
+      diff: 'medium',
+    },
+    {
+      q: 'Computers are limited by:',
+      options: ['A. Size', 'B. Cost', 'C. Human imagination', 'D. Speed'],
+      answer: 'C. Human imagination',
+      diff: 'medium',
+    },
+    {
+      q: 'Old computers were:',
+      options: ['A. Small and cheap', 'B. Fast and reliable', 'C. Large and expensive', 'D. Portable'],
+      answer: 'C. Large and expensive',
+      diff: 'easy',
+    },
+    {
+      q: 'Modern computers are:',
+      options: ['A. Large', 'B. Slow', 'C. Cheap and compact', 'D. Manual'],
+      answer: 'C. Cheap and compact',
+      diff: 'easy',
+    },
+    {
+      q: 'Computers help to:',
+      options: ['A. Increase boring work', 'B. Reduce routine tasks', 'C. Stop creativity', 'D. Remove jobs'],
+      answer: 'B. Reduce routine tasks',
+      diff: 'medium',
+    },
+    {
+      q: 'Secondary storage is used for:',
+      options: ['A. Temporary data', 'B. Long-term storage', 'C. Input', 'D. Output'],
+      answer: 'B. Long-term storage',
+      diff: 'hard',
+    },
+    {
+      q: 'Which statement is true?',
+      options: ['A. Computers do only one task', 'B. Computers cannot process data', 'C. Computers changed our lives', 'D. Computers are useless'],
+      answer: 'C. Computers changed our lives',
+      diff: 'easy',
+    },
+  ],
+},
+
+
+
+
+// Lecture 10///
+
+
+10: {
+  title: 'Mainframe Computers',
+  summary: `**Key Topics Covered:**
+- Mainframe computers
+- Digital vs Analog computers
+- Hybrid computers
+- Features of mainframes
+- Advantages and limitations
+- Future developments
+
+---
+
+**Simple Understanding:**
+
+**Mainframes:**
+👉 Mainframe bohat large aur powerful computers hotay hain  
+
+👉 Huge amount of data process karte hain  
+👉 Mostly big organizations use karti hain  
+
+---
+
+**Features of Mainframes:**
+👉 High-speed processing  
+👉 Large memory  
+👉 Complex instructions execute karte hain  
+👉 Faster than small computers  
+
+👉 Small computer:
+- Multiple steps leta hai  
+
+👉 Mainframe:
+- Same kaam 1 step mein kar sakta hai  
+
+---
+
+**Types of Computers:**
+
+### 👉 1. Digital Computers
+👉 Sabse zyada use hotay hain (90%)
+
+👉 Data digits (0,1) ki form mein hota hai  
+👉 Step-by-step calculations karte hain  
+👉 Fast aur accurate  
+
+---
+
+### 👉 2. Analog Computers
+👉 Continuous calculations karte hain  
+
+👉 Example:
+- Speedometer  
+
+👉 Measurement problems ke liye use hotay hain  
+
+---
+
+### 👉 3. Hybrid Computers
+👉 Digital + Analog ka combination  
+
+👉 Scientific research mein use hotay hain  
+
+---
+
+**Mainframe Requirements:**
+👉 Large space chahiye  
+👉 Cooling system (AC)  
+👉 High power consumption  
+👉 Expensive machines  
+
+👉 Peripheral devices (tapes, disks) zyada space lete hain  
+
+---
+
+**Important Concept:**
+👉 Digital computer ab analog ka kaam bhi kar sakta hai  
+
+👉 Easier to use  
+👉 Cheaper than analog  
+
+---
+
+**Future of Computers:**
+👉 Mechanical devices improve hongay  
+👉 Efficiency aur reliability better hogi  
+
+---
+
+**Quick Revision Points:**
+- Mainframes = large powerful computers  
+- Digital computers = most used  
+- Analog = continuous calculations  
+- Hybrid = combination  
+- Mainframes fast aur expensive hotay hain  
+- Large space aur cooling required  
+- Future mein improvement expected`,
+
+  questions: [
+    {
+      q: 'Mainframe computers are:',
+      options: ['A. Small', 'B. Portable', 'C. Large and powerful', 'D. Manual'],
+      answer: 'C. Large and powerful',
+      diff: 'easy',
+    },
+    {
+      q: 'Mainframes process:',
+      options: ['A. Small data', 'B. No data', 'C. Huge amount of data', 'D. Images only'],
+      answer: 'C. Huge amount of data',
+      diff: 'easy',
+    },
+    {
+      q: 'Digital computers use:',
+      options: ['A. Letters', 'B. Symbols', 'C. Digits', 'D. Images'],
+      answer: 'C. Digits',
+      diff: 'easy',
+    },
+    {
+      q: 'Digital computers perform calculations:',
+      options: ['A. Continuously', 'B. Step-by-step', 'C. Randomly', 'D. Slowly'],
+      answer: 'B. Step-by-step',
+      diff: 'easy',
+    },
+    {
+      q: 'Analog computers are used for:',
+      options: ['A. Gaming', 'B. Measurement', 'C. Printing', 'D. Writing'],
+      answer: 'B. Measurement',
+      diff: 'easy',
+    },
+    {
+      q: 'Hybrid computer is:',
+      options: ['A. Only digital', 'B. Only analog', 'C. Combination of both', 'D. Manual'],
+      answer: 'C. Combination of both',
+      diff: 'easy',
+    },
+    {
+      q: 'Which type is most commonly used?',
+      options: ['A. Analog', 'B. Hybrid', 'C. Digital', 'D. Manual'],
+      answer: 'C. Digital',
+      diff: 'medium',
+    },
+    {
+      q: 'Analog computer works like:',
+      options: ['A. Calculator', 'B. Keyboard', 'C. Speedometer', 'D. Printer'],
+      answer: 'C. Speedometer',
+      diff: 'medium',
+    },
+    {
+      q: 'Mainframes require:',
+      options: ['A. Small space', 'B. No power', 'C. Large space and cooling', 'D. No devices'],
+      answer: 'C. Large space and cooling',
+      diff: 'medium',
+    },
+    {
+      q: 'Peripheral devices include:',
+      options: ['A. CPU only', 'B. Tape and disks', 'C. Keyboard only', 'D. Monitor only'],
+      answer: 'B. Tape and disks',
+      diff: 'medium',
+    },
+    {
+      q: 'Digital computers are preferred because they are:',
+      options: ['A. Expensive', 'B. Difficult', 'C. Easier and cheaper', 'D. Slower'],
+      answer: 'C. Easier and cheaper',
+      diff: 'medium',
+    },
+    {
+      q: 'Mainframe power consumption is:',
+      options: ['A. Low', 'B. Medium', 'C. High', 'D. Zero'],
+      answer: 'C. High',
+      diff: 'hard',
+    },
+    {
+      q: 'Hybrid computers are mainly used in:',
+      options: ['A. Gaming', 'B. Offices', 'C. Scientific research', 'D. Schools'],
+      answer: 'C. Scientific research',
+      diff: 'medium',
+    },
+    {
+      q: 'Future development is needed in:',
+      options: ['A. Software only', 'B. Mechanical devices', 'C. Screens', 'D. Input devices'],
+      answer: 'B. Mechanical devices',
+      diff: 'hard',
+    },
+    {
+      q: 'Mainframes are expensive because:',
+      options: ['A. Small size', 'B. Low speed', 'C. High power and equipment', 'D. No memory'],
+      answer: 'C. High power and equipment',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+
+// lecture 11//
+
+
+
+11: {
+  title: 'Reading Comprehension & Inference',
+  summary: `**Key Topics Covered:**
+- Reading speed vs comprehension
+- Vocalization
+- Silent reading
+- Understanding text (Why, What, How)
+- Making inferences
+- Logical thinking in reading
+
+---
+
+**Simple Understanding:**
+
+**Reading Speed & Comprehension:**
+👉 Fast reading se comprehension kharab hoti hai — yeh galat hai  
+
+👉 Practice se:
+- Speed bhi improve hoti hai  
+- Understanding bhi better hoti hai  
+
+---
+
+**Vocalization (Important ⚠️):**
+👉 Words ko mind mein pronounce karna  
+
+👉 Yeh slow reading ka main reason hai  
+
+👉 Solution:
+- Lips use na karo  
+- Eyes + mind se read karo  
+- Silent reading practice karo  
+
+---
+
+**Better Reading Strategy:**
+
+👉 Har text ko samajhne ke liye 3 questions pocho:
+
+- Why? (kyun likha gaya)  
+- What? (kya likha gaya)  
+- How? (kaise explain kiya gaya)  
+
+👉 Yeh method comprehension strong karta hai  
+
+---
+
+**Making Inferences:**
+👉 "Reading between the lines"  
+
+👉 Matlab:
+- Jo directly nahi likha  
+- Usko samajhna  
+
+👉 Writer hint deta hai, direct nahi batata  
+
+---
+
+**Inference kaise banate hain:**
+👉 Clues use karo:
+- Given information  
+- Apna experience  
+- Logic  
+
+👉 Strong inference:
+- Sirf wahi jo clearly support ho  
+
+---
+
+**Example:**
+👉 Sohail last row mein baithta hai  
+
+Correct inference:
+👉 Woh front mein baithna pasand nahi karta  
+
+❌ Wrong:
+- Woh weak student hai  
+- Woh prepared nahi hai  
+
+👉 Kyun?
+➡️ Evidence nahi hai  
+
+---
+
+**Important Rule:**
+👉 Guess mat karo  
+👉 Sirf logical conclusion nikalo  
+
+---
+
+**Quick Revision Points:**
+- Fast reading harmful nahi hoti  
+- Vocalization slow karta hai  
+- Silent reading best hai  
+- Why, What, How samjho  
+- Inference = hidden meaning  
+- Clues + logic use karo  
+- Unsupported conclusion avoid karo`,
+
+  questions: [
+    {
+      q: 'Reading faster always reduces comprehension:',
+      options: ['A. True', 'B. False', 'C. Sometimes', 'D. Never'],
+      answer: 'B. False',
+      diff: 'easy',
+    },
+    {
+      q: 'Vocalization means:',
+      options: ['A. Writing words', 'B. Speaking loudly', 'C. Pronouncing words in mind', 'D. Skipping words'],
+      answer: 'C. Pronouncing words in mind',
+      diff: 'easy',
+    },
+    {
+      q: 'Vocalization causes:',
+      options: ['A. Fast reading', 'B. Slow reading', 'C. Better memory', 'D. No effect'],
+      answer: 'B. Slow reading',
+      diff: 'easy',
+    },
+    {
+      q: 'Best way to read is:',
+      options: ['A. Loudly', 'B. With lips', 'C. Silently', 'D. Slowly'],
+      answer: 'C. Silently',
+      diff: 'easy',
+    },
+    {
+      q: 'Rhetoric helps in:',
+      options: ['A. Writing only', 'B. Reading understanding', 'C. Speaking only', 'D. Typing'],
+      answer: 'B. Reading understanding',
+      diff: 'medium',
+    },
+    {
+      q: 'Good readers ask:',
+      options: ['A. Where only', 'B. Why, What, How', 'C. When only', 'D. Who only'],
+      answer: 'B. Why, What, How',
+      diff: 'easy',
+    },
+    {
+      q: 'Inference means:',
+      options: ['A. Direct meaning', 'B. Hidden meaning', 'C. Wrong meaning', 'D. No meaning'],
+      answer: 'B. Hidden meaning',
+      diff: 'easy',
+    },
+    {
+      q: '“Reading between the lines” means:',
+      options: ['A. Skipping text', 'B. Reading loudly', 'C. Making inferences', 'D. Writing notes'],
+      answer: 'C. Making inferences',
+      diff: 'medium',
+    },
+    {
+      q: 'Inference is based on:',
+      options: ['A. Guess', 'B. Logic and clues', 'C. Memory only', 'D. Speed'],
+      answer: 'B. Logic and clues',
+      diff: 'easy',
+    },
+    {
+      q: 'Strong inference should be:',
+      options: ['A. Random', 'B. Unsupported', 'C. Logical', 'D. Emotional'],
+      answer: 'C. Logical',
+      diff: 'medium',
+    },
+    {
+      q: 'Sohail sits at the back. Best inference is:',
+      options: ['A. He is weak', 'B. He dislikes front seats', 'C. He is lazy', 'D. He is blind'],
+      answer: 'B. He dislikes front seats',
+      diff: 'medium',
+    },
+    {
+      q: 'Unsupported conclusions should be:',
+      options: ['A. Accepted', 'B. Avoided', 'C. Ignored sometimes', 'D. Written'],
+      answer: 'B. Avoided',
+      diff: 'easy',
+    },
+    {
+      q: 'Silent reading improves:',
+      options: ['A. Speed only', 'B. Understanding only', 'C. Both speed and comprehension', 'D. Nothing'],
+      answer: 'C. Both speed and comprehension',
+      diff: 'medium',
+    },
+    {
+      q: 'Inference uses:',
+      options: ['A. Only text', 'B. Only experience', 'C. Text + experience + logic', 'D. Guess'],
+      answer: 'C. Text + experience + logic',
+      diff: 'hard',
+    },
+    {
+      q: 'Poor readers usually:',
+      options: ['A. Read silently', 'B. Avoid vocalization', 'C. Use vocalization', 'D. Read fast'],
+      answer: 'C. Use vocalization',
+      diff: 'medium',
+    },
+  ],
+},
+
+
+
+
+// lecture 12 //
+
+12: {
+  title: 'Inference, Fact vs Opinion & Time Relaters',
+  summary: `**Key Topics Covered:**
+- Making inferences (practice)
+- Logical reasoning
+- Fact vs Opinion
+- Value words
+- Time relaters (time expressions)
+- Understanding paragraphs
+
+---
+
+**Simple Understanding:**
+
+**Making Inferences (Advanced):**
+👉 Inference = hidden meaning samajhna  
+
+👉 Direct likha nahi hota  
+👉 Clues + logic use karte hain  
+
+---
+
+**Important Rule:**
+👉 Sirf wahi inference choose karo jo strongly supported ho  
+
+👉 Weak ya guess-based answer avoid karo  
+
+---
+
+**Examples:**
+
+👉 School mein police ho:
+➡️ Problem ya discipline issue ho sakta hai  
+
+👉 Dog cringes:
+➡️ Dog dara hua hai ya abuse hua hai  
+
+---
+
+**Logical Thinking:**
+👉 Har statement ka correct inference:
+- Evidence based hona chahiye  
+- Guess nahi hona chahiye  
+
+---
+
+**Superautomation (Concept):**
+👉 Machines aur computers ka use kaam automate karne ke liye  
+
+👉 Effects:
+- Jobs replace ho sakti hain  
+- New jobs create hoti hain  
+- Work efficient hota hai  
+
+---
+
+**Fact vs Opinion:**
+
+👉 Fact:
+- Real, verifiable  
+- Evidence hota hai  
+
+👉 Opinion:
+- Personal belief  
+- Prove nahi hota  
+
+---
+
+**Important Rules:**
+
+👉 Fact galat bhi ho sakta hai (new evidence se)  
+👉 Opinion ko kabhi fact jaisa present kiya jata hai  
+👉 Value words = opinion  
+
+---
+
+**Value Words Examples:**
+👉 good, bad, best, worst, great, terrible  
+
+👉 Yeh subjective hote hain  
+
+---
+
+**Time Relaters:**
+
+👉 Time show karte hain  
+
+---
+
+**Present Time:**
+👉 now, today, at present, at the moment  
+
+---
+
+**Simultaneous (same time):**
+👉 meanwhile, at the same time  
+
+---
+
+**Future / After:**
+👉 later, next, afterwards, soon  
+
+---
+
+**Understanding Paragraphs:**
+👉 Time relaters help:
+- Sequence samajhne mein  
+- Events order identify karne mein  
+
+---
+
+**Quick Revision Points:**
+- Inference = hidden meaning  
+- Strong inference = logical + evidence  
+- Guess avoid karo  
+- Fact = proven  
+- Opinion = belief  
+- Value words = opinion  
+- Time relaters = sequence show karte hain  
+- meanwhile = same time  
+- afterwards = later`,
+
+  questions: [
+    {
+      q: 'Inference means:',
+      options: ['A. Direct meaning', 'B. Hidden meaning', 'C. No meaning', 'D. Guess'],
+      answer: 'B. Hidden meaning',
+      diff: 'easy',
+    },
+    {
+      q: 'Strong inference is based on:',
+      options: ['A. Guess', 'B. Emotion', 'C. Logic and evidence', 'D. Memory'],
+      answer: 'C. Logic and evidence',
+      diff: 'easy',
+    },
+    {
+      q: 'A dog cringes when touched. Best inference:',
+      options: ['A. Dog is happy', 'B. Dog is hungry', 'C. Dog is afraid', 'D. Dog is fast'],
+      answer: 'C. Dog is afraid',
+      diff: 'easy',
+    },
+    {
+      q: 'Police in school may indicate:',
+      options: ['A. Party', 'B. Discipline issue', 'C. Sports event', 'D. Holiday'],
+      answer: 'B. Discipline issue',
+      diff: 'medium',
+    },
+    {
+      q: 'Fact is:',
+      options: ['A. Opinion', 'B. Guess', 'C. Verifiable truth', 'D. Feeling'],
+      answer: 'C. Verifiable truth',
+      diff: 'easy',
+    },
+    {
+      q: 'Opinion is:',
+      options: ['A. Proven fact', 'B. Personal belief', 'C. Data', 'D. Number'],
+      answer: 'B. Personal belief',
+      diff: 'easy',
+    },
+    {
+      q: 'Value words represent:',
+      options: ['A. Facts', 'B. Opinions', 'C. Numbers', 'D. Data'],
+      answer: 'B. Opinions',
+      diff: 'easy',
+    },
+    {
+      q: 'Which is a value word?',
+      options: ['A. Computer', 'B. Good', 'C. Data', 'D. Input'],
+      answer: 'B. Good',
+      diff: 'easy',
+    },
+    {
+      q: '“Now” is a:',
+      options: ['A. Past relater', 'B. Time relater', 'C. Verb', 'D. Noun'],
+      answer: 'B. Time relater',
+      diff: 'easy',
+    },
+    {
+      q: '“Meanwhile” shows:',
+      options: ['A. Past', 'B. Future', 'C. Same time', 'D. End'],
+      answer: 'C. Same time',
+      diff: 'medium',
+    },
+    {
+      q: '“Afterwards” means:',
+      options: ['A. Before', 'B. During', 'C. Later', 'D. Now'],
+      answer: 'C. Later',
+      diff: 'easy',
+    },
+    {
+      q: 'Superautomation means:',
+      options: ['A. Manual work', 'B. Automated machines', 'C. Slow work', 'D. No work'],
+      answer: 'B. Automated machines',
+      diff: 'medium',
+    },
+    {
+      q: 'Machines help to:',
+      options: ['A. Reduce work', 'B. Increase errors', 'C. Stop jobs', 'D. Waste time'],
+      answer: 'A. Reduce work',
+      diff: 'easy',
+    },
+    {
+      q: 'Opinion may be presented as:',
+      options: ['A. Fact', 'B. Data', 'C. Code', 'D. Input'],
+      answer: 'A. Fact',
+      diff: 'hard',
+    },
+    {
+      q: 'Time relaters help in:',
+      options: ['A. Grammar only', 'B. Sequence understanding', 'C. Writing only', 'D. Speaking'],
+      answer: 'B. Sequence understanding',
+      diff: 'medium',
+    },
+  ],
+},
+
+
+
+
+//lecture 13 ///
 
   },
   
