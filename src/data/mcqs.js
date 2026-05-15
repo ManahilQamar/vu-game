@@ -7845,8 +7845,1114 @@ CS is used in hospitals, banks, telecom, Pak Army, freelancing, and almost all p
     },
 
 
+//L 2 //
+
+   2: {
+  title: 'Breadth First Learning & Introduction to Computer Science Topics (CS101 Lecture 2)',
+  summary: `**Key Topics Covered:**
+- Breadth First Learning vs Depth First Learning in CS education
+- Overview of all major CS courses and their importance
+- Search engine usage techniques
+- History of computing
+- Data storage and data manipulation
+- Operating Systems
+- Networking and the Internet
+- Algorithms (definition and importance)
+- Programming languages (C++ basics)
+- Software Engineering (SDLC phases)
+- Data Abstraction (arrays, stacks, queues, trees)
+- Database Systems (DBMS)
+- Artificial Intelligence (AI)
+- Impact of CS on society
+- Content filtering, spam, international laws
+- Word processing (Microsoft Word)
+- Presentations (Microsoft PowerPoint)
+- Spreadsheets (Microsoft Excel)
+- Database MS Access
+- Web page development (Dreamweaver)
+
+---
+
+**Simple Understanding:**
+
+**Breadth First Learning:**
+👉 A learning strategy where you first get a basic introduction to ALL courses in a degree program.
+👉 Helps you understand the big picture before diving deep into any single subject.
+👉 Opposite of Depth First Learning (studying one course in complete detail before moving to the next).
+👉 CS101 follows Breadth First Learning.
+
+**Why this approach?**
+👉 You will learn what you will study throughout your CS degree.
+👉 Understand why each course is important.
+👉 Clarify the bigger picture of Computer Science.
+
+---
+
+**Topics Covered in CS101:**
+
+**1. Search Engine Usage Techniques:**
+👉 How to effectively search the internet using popular search engines (Google, Bing, etc.).
+
+**2. History of Computing:**
+👉 How today's computers evolved from basic ideas.
+
+**3. Data Storage:**
+👉 How data entered into a computer is stored in hardware (memory, hard drives).
+
+**4. Data Manipulation:**
+👉 How arithmetic operations (+, -, ×, ÷) and advanced operations are performed by computers.
+
+**5. Operating System:**
+👉 The overall in-charge of the computer system (Windows, Linux, macOS).
+
+**6. Networking and the Internet:**
+👉 How different computers communicate over networks and the Internet.
+
+**7. Algorithms:**
+👉 A set of steps in sequence to perform a task – the foundation of CS.
+
+**8. Programming Languages:**
+👉 Tools to write algorithms as computer programs (C++ basics).
+
+**9. Software Engineering:**
+👉 Complete software development process: requirements → design → implementation → testing.
+
+**10. Data Abstraction:**
+👉 Hiding complexities to design large systems – includes arrays, stacks, queues, trees.
+
+**11. Database Systems:**
+👉 Organized storage and linking of data using DBMS (Database Management Systems).
+
+**12. Artificial Intelligence (AI):**
+👉 Building computer systems that can act intelligently (though computers are naturally "dumb").
+
+**13. CS Impact on Society:**
+👉 How computer science affects social setups, humans, and daily life.
+
+**14. Content Filtering, Spam, International Laws:**
+👉 Dealing with spam, filtering content, and laws related to data and privacy.
+
+**15. Word Processing:**
+👉 Using Microsoft Word to create editable documents.
+
+**16. Presentations Development:**
+👉 Using Microsoft PowerPoint to design and animate slides.
+
+**17. Spreadsheet:**
+👉 Using Microsoft Excel for calculations and data analysis.
+
+**18. Database MS Access:**
+👉 Implementing databases using Microsoft Access.
+
+**19. Web Page Development:**
+👉 Creating web pages easily using tools like Dreamweaver.
+
+---
+
+**Important Vocabulary:**
+- Breadth First Learning = learning basics of many subjects first
+- Depth First Learning = studying one subject in detail before moving on
+- Search engine = tool to find information on the internet (Google, Bing)
+- Algorithm = step-by-step procedure to solve a problem
+- Operating System = software that manages computer hardware and resources
+- Database = organized collection of data
+- DBMS = Database Management System (e.g., MS Access, MySQL)
+- Artificial Intelligence = field of CS focused on intelligent behavior in machines
+- Software Engineering = disciplined approach to software development
+- Data Abstraction = hiding implementation details to manage complexity
+- Spreadsheet = software for tabular data and calculations (Excel)
+- Word processor = software for document creation (Word)
+- Presentation software = tool for slide-based presentations (PowerPoint)
+
+---
+
+**Quick Revision Points:**
+- CS101 uses Breadth First Learning – covers all major CS topics at a basic level.
+- You will understand the bigger picture of your CS degree.
+- Topics range from hardware (data storage) to software (OS, applications) to advanced fields (AI).
+- Algorithms are the heart of CS – step-by-step sequences.
+- Programming languages turn algorithms into executable code.
+- Software Engineering covers the entire development lifecycle.
+- Data abstraction (arrays, stacks, queues, trees) helps manage complexity.
+- Databases organize and link data; DBMS like MS Access implement them.
+- AI aims to make computers intelligent.
+- Practical tools: MS Word, PowerPoint, Excel, Access, Dreamweaver.`,
+
+  questions: [
+    {
+      q: 'What is Breadth First Learning?',
+      options: ['A. Studying one course in detail before the next', 'B. Getting a basic introduction to all courses first', 'C. Learning only programming languages', 'D. Avoiding theoretical courses'],
+      answer: 'B. Getting a basic introduction to all courses first',
+      diff: 'easy',
+    },
+    {
+      q: 'Which learning strategy does CS101 follow?',
+      options: ['A. Depth First Learning', 'B. Breadth First Learning', 'C. Problem-based Learning', 'D. Project-based Learning'],
+      answer: 'B. Breadth First Learning',
+      diff: 'easy',
+    },
+    {
+      q: 'What is an algorithm?',
+      options: ['A. A programming language', 'B. A set of steps in sequence to perform a task', 'C. A type of data storage', 'D. A network protocol'],
+      answer: 'B. A set of steps in sequence to perform a task',
+      diff: 'easy',
+    },
+    {
+      q: 'Which topic covers how computers perform arithmetic operations?',
+      options: ['A. Data Storage', 'B. Data Manipulation', 'C. Operating System', 'D. Networking'],
+      answer: 'B. Data Manipulation',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the role of an Operating System?',
+      options: ['A. To store data permanently', 'B. To manage computer hardware and resources', 'C. To create presentations', 'D. To search the internet'],
+      answer: 'B. To manage computer hardware and resources',
+      diff: 'easy',
+    },
+    {
+      q: 'Which course studies how different computers communicate?',
+      options: ['A. Operating System', 'B. Networking and the Internet', 'C. Data Abstraction', 'D. Artificial Intelligence'],
+      answer: 'B. Networking and the Internet',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the main goal of Artificial Intelligence (AI)?',
+      options: ['A. To store large amounts of data', 'B. To build computer systems that can act intelligently', 'C. To design web pages', 'D. To create spreadsheets'],
+      answer: 'B. To build computer systems that can act intelligently',
+      diff: 'easy',
+    },
+    {
+      q: 'Software Engineering covers the complete development process including:',
+      options: ['A. Only coding', 'B. Requirements, design, implementation, testing', 'C. Only testing', 'D. Only documentation'],
+      answer: 'B. Requirements, design, implementation, testing',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is an example of Data Abstraction?',
+      options: ['A. Microsoft Word', 'B. Arrays, stacks, queues, trees', 'C. Google Search', 'D. Windows OS'],
+      answer: 'B. Arrays, stacks, queues, trees',
+      diff: 'medium',
+    },
+    {
+      q: 'What does DBMS stand for?',
+      options: ['A. Data Basic Management System', 'B. Database Management System', 'C. Digital Binary Memory Storage', 'D. Data Backup and Management Software'],
+      answer: 'B. Database Management System',
+      diff: 'easy',
+    },
+    {
+      q: 'Which tool is mentioned for word processing?',
+      options: ['A. Microsoft Excel', 'B. Microsoft Word', 'C. Microsoft PowerPoint', 'D. Microsoft Access'],
+      answer: 'B. Microsoft Word',
+      diff: 'easy',
+    },
+    {
+      q: 'Which software is used for creating presentations with animations?',
+      options: ['A. Microsoft Word', 'B. Microsoft Excel', 'C. Microsoft PowerPoint', 'D. Microsoft Access'],
+      answer: 'C. Microsoft PowerPoint',
+      diff: 'easy',
+    },
+    {
+      q: 'Which software is best suited for performing calculations on data?',
+      options: ['A. Microsoft Word', 'B. Microsoft Excel', 'C. Microsoft PowerPoint', 'D. Microsoft Outlook'],
+      answer: 'B. Microsoft Excel',
+      diff: 'easy',
+    },
+    {
+      q: 'Which tool is mentioned for implementing databases?',
+      options: ['A. Microsoft Word', 'B. Microsoft Excel', 'C. Microsoft Access', 'D. Microsoft PowerPoint'],
+      answer: 'C. Microsoft Access',
+      diff: 'easy',
+    },
+    {
+      q: 'Which software is mentioned for web page development?',
+      options: ['A. Dreamweaver', 'B. Photoshop', 'C. Visual Studio', 'D. Eclipse'],
+      answer: 'A. Dreamweaver',
+      diff: 'easy',
+    },
+    {
+      q: 'What will you learn in the "Search Engine Usage Techniques" topic?',
+      options: ['A. How to build a search engine', 'B. How to effectively search the internet', 'C. How to store data', 'D. How to manipulate data'],
+      answer: 'B. How to effectively search the internet',
+      diff: 'easy',
+    },
+    {
+      q: 'The topic "History of Computing" covers:',
+      options: ['A. Future computers', 'B. How today\'s computers evolved from basic ideas', 'C. Computer programming only', 'D. Computer networks'],
+      answer: 'B. How today\'s computers evolved from basic ideas',
+      diff: 'easy',
+    },
+    {
+      q: 'Which programming language is mentioned as a basic tool in this course?',
+      options: ['A. Java', 'B. Python', 'C. C++', 'D. JavaScript'],
+      answer: 'C. C++',
+      diff: 'easy',
+    },
+    {
+      q: 'What does "Content Filtering" deal with?',
+      options: ['A. Storing data', 'B. Filtering unwanted content and spam', 'C. Creating algorithms', 'D. Designing databases'],
+      answer: 'B. Filtering unwanted content and spam',
+      diff: 'easy',
+    },
+    {
+      q: 'International laws in CS are related to:',
+      options: ['A. Programming languages', 'B. Data and privacy', 'C. Hardware manufacturing', 'D. Network speed'],
+      answer: 'B. Data and privacy',
+      diff: 'medium',
+    },
+    {
+      q: 'The "Impact of CS on Society" topic studies:',
+      options: ['A. Only positive effects', 'B. Only negative effects', 'C. How computer science affects social setups and humans', 'D. Only economic impacts'],
+      answer: 'C. How computer science affects social setups and humans',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the opposite of Breadth First Learning?',
+      options: ['A. Horizontal Learning', 'B. Depth First Learning', 'C. Vertical Learning', 'D. Circular Learning'],
+      answer: 'B. Depth First Learning',
+      diff: 'easy',
+    },
+    {
+      q: 'Why is Breadth First Learning beneficial for CS students?',
+      options: ['A. It helps students know what they will learn in the whole degree program', 'B. It focuses only on programming', 'C. It avoids theoretical concepts', 'D. It is faster than depth first'],
+      answer: 'A. It helps students know what they will learn in the whole degree program',
+      diff: 'easy',
+    },
+    {
+      q: 'Which topic covers "how data is stored in hardware"?',
+      options: ['A. Data Manipulation', 'B. Data Storage', 'C. Operating System', 'D. Networking'],
+      answer: 'B. Data Storage',
+      diff: 'easy',
+    },
+    {
+      q: 'Microsoft Excel is an example of:',
+      options: ['A. Word Processor', 'B. Spreadsheet software', 'C. Presentation software', 'D. Database software'],
+      answer: 'B. Spreadsheet software',
+      diff: 'easy',
+    }
+  ]
+},
+
+  3: {
+  title: 'Search Engines: Google Basics and Query Formulation (CS101 Lecture 3)',
+  summary: `**Key Topics Covered:**
+- What is a search engine? (Google, Yahoo, MSN)
+- Google dominates the search engine market
+- How to access Google: https://www.google.com/
+- Query: set of words given to search engine for searching
+- How Google works: finds pages containing all terms in the query
+- Using microphone for voice search
+- Fun feature: "Flip a Coin" on Google
+- Query formulation: using correct terms for better results (e.g., "headache" not "head hurts", "rector" not "head of university")
+- Capitalization: Google is case-insensitive (no difference between uppercase and lowercase)
+
+---
+
+**Simple Understanding:**
+
+**What is a Search Engine?**
+👉 A tool that indexes web pages and retrieves relevant pages based on your query.
+👉 Examples: Google, Yahoo, MSN.
+👉 Google has the largest market share for internet search.
+
+**How to Access Google:**
+👉 Type https://www.google.com/ in your web browser.
+
+**Query:**
+👉 The set of words you type to search for information.
+👉 Example: "Virtual University" – Google finds pages containing those words.
+
+**How Google Works:**
+👉 Finds all web pages that contain all the terms in your query.
+👉 More relevant terms = better results.
+
+**Voice Search:**
+👉 Click the microphone icon in the search box and speak your query.
+
+**Flip a Coin:**
+👉 Type "Flip a Coin" in Google – it will simulate a coin toss.
+
+**Query Formulation (Important):**
+👉 Use the correct medical/technical terms.
+   - "Head hurts" → use "headache" instead.
+👉 Use official titles.
+   - "Head of virtual university" → use "Rector of virtual university" instead.
+👉 Better queries give more relevant results.
+
+**Capitalization:**
+👉 Google is case-insensitive.
+👉 "COMPUTER SCIENCE" and "computer science" give the same results.
+
+---
+
+**Important Vocabulary:**
+- Search engine = software that searches and indexes web pages
+- Query = words typed to search for information
+- Case-insensitive = does not distinguish between uppercase and lowercase letters
+- Index = organized collection of web page information
+- Voice search = searching by speaking instead of typing
+
+---
+
+**Quick Revision Points:**
+- Google is the most widely used search engine.
+- Query formulation matters – use correct terms for better results.
+- Google is case-insensitive.
+- Use microphone for voice search.
+- "Flip a Coin" is a fun Google feature.
+- Searching "headache" gives better results than "head hurts".
+- Searching "rector" is better than "head of university" for VU's head.`,
+
+  questions: [
+    {
+      q: 'Which search engine has the largest market share?',
+      options: ['A. Yahoo', 'B. MSN', 'C. Google', 'D. Bing'],
+      answer: 'C. Google',
+      diff: 'easy',
+    },
+    {
+      q: 'What is a query in the context of search engines?',
+      options: ['A. The web browser used to search', 'B. The set of words given to the search engine', 'C. The result page shown by Google', 'D. The internet connection speed'],
+      answer: 'B. The set of words given to the search engine',
+      diff: 'easy',
+    },
+    {
+      q: 'How does Google find web pages for your query?',
+      options: ['A. It only finds pages with the exact phrase', 'B. It finds pages containing all the terms in the query', 'C. It finds only the most visited pages', 'D. It randomly selects pages'],
+      answer: 'B. It finds pages containing all the terms in the query',
+      diff: 'easy',
+    },
+    {
+      q: 'To access Google, you type in your browser:',
+      options: ['A. https://www.google.com/', 'B. https://www.yahoo.com/', 'C. https://www.bing.com/', 'D. https://www.duckduckgo.com/'],
+      answer: 'A. https://www.google.com/',
+      diff: 'easy',
+    },
+    {
+      q: 'Which feature in Google allows you to search by speaking?',
+      options: ['A. Keyboard', 'B. Microphone', 'C. Camera', 'D. Headphones'],
+      answer: 'B. Microphone',
+      diff: 'easy',
+    },
+    {
+      q: 'What happens when you type "Flip a Coin" into Google?',
+      options: ['A. It shows a list of coin shops', 'B. It simulates a coin toss', 'C. It gives error', 'D. It searches for coins'],
+      answer: 'B. It simulates a coin toss',
+      diff: 'easy',
+    },
+    {
+      q: 'Which query is more likely to give better medical results for head pain?',
+      options: ['A. Head hurts', 'B. Headache', 'C. My head is paining', 'D. Head injury'],
+      answer: 'B. Headache',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the official title of the head of Virtual University mentioned in the lecture?',
+      options: ['A. Head of University', 'B. Chancellor', 'C. Rector', 'D. Director'],
+      answer: 'C. Rector',
+      diff: 'easy',
+    },
+    {
+      q: 'Is Google case-sensitive?',
+      options: ['A. Yes, it distinguishes capital and small letters', 'B. No, it is case-insensitive', 'C. Only for the first letter', 'D. Only for numbers'],
+      answer: 'B. No, it is case-insensitive',
+      diff: 'easy',
+    },
+    {
+      q: 'Searching "COMPUTER SCIENCE" and "computer science" will produce:',
+      options: ['A. Different results', 'B. The same results', 'C. No results for uppercase', 'D. No results for lowercase'],
+      answer: 'B. The same results',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is NOT a search engine?',
+      options: ['A. Google', 'B. Yahoo', 'C. MSN', 'D. Microsoft Word'],
+      answer: 'D. Microsoft Word',
+      diff: 'easy',
+    },
+    {
+      q: 'What should you type to find information about the head of Virtual University effectively?',
+      options: ['A. Head of virtual university', 'B. Virtual university head', 'C. Rector of virtual university', 'D. Who runs VU'],
+      answer: 'C. Rector of virtual university',
+      diff: 'easy',
+    },
+    {
+      q: 'The term "case-insensitive" means:',
+      options: ['A. The case of the computer matters', 'B. Uppercase and lowercase are treated the same', 'C. Only uppercase is allowed', 'D. Only lowercase is allowed'],
+      answer: 'B. Uppercase and lowercase are treated the same',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the purpose of a search engine?',
+      options: ['A. To create web pages', 'B. To index and retrieve relevant web pages based on queries', 'C. To design websites', 'D. To store offline files'],
+      answer: 'B. To index and retrieve relevant web pages based on queries',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following queries would Google treat differently?',
+      options: ['A. "Airport" vs "airport"', 'B. "Headache" vs "head hurts"', 'C. "Computer" vs "COMPUTER"', 'D. "Virtual" vs "VIRTUAL"'],
+      answer: 'B. "Headache" vs "head hurts"',
+      diff: 'medium',
+    },
+    {
+      q: 'The microphone option in Google search box allows:',
+      options: ['A. Recording audio files', 'B. Voice search', 'C. Playing music', 'D. Calling someone'],
+      answer: 'B. Voice search',
+      diff: 'easy',
+    }
+  ]
+},
 
 
+// L 4//
+
+4: {
+  title: 'Searching Tricks: Weather, Calculations, Currency & Unit Conversion on Google (CS101 Lecture 4)',
+  summary: `**Key Topics Covered:**
+- Weather searching: add location with "Weather" (e.g., "Weather Lahore")
+- Performing calculations directly on Google
+  - Multiplication: 12*391
+  - Subtraction: 12-5
+  - Trigonometric functions: Sin 90, Tan 80
+  - Complex arithmetic: 80/100*200
+  - Natural language: "Subtract 10 from 30"
+- Currency conversion: e.g., "100 Euros in Pakistani rupees"
+- Unit conversions: "Kph in Mph", "m in cm"
+- Searching famous places: "Baadshahi Mosque", "Minar e Pakistan"
+- Searching sports: "Pakistan Cricket team"
+
+---
+
+**Simple Understanding:**
+
+**Weather Search:**
+👉 Type "Weather" followed by a city/location name.
+👉 Example: "Weather Lahore" – Google shows current weather for Lahore.
+
+**Calculations on Google:**
+👉 Google has a built-in calculator.
+👉 Just type any arithmetic expression.
+👉 Examples:
+   - 12*391 (multiplication)
+   - 12-5 (subtraction)
+   - Sin 90 (sine of 90 degrees)
+   - Tan 80 (tangent of 80 degrees)
+   - 80/100*200 (division and multiplication)
+   - "Subtract 10 from 30" (natural language)
+
+**Currency Conversion:**
+👉 Type an amount, currency, and target currency.
+👉 Example: "100 Euros in Pakistani rupees" – Google shows the current exchange rate.
+
+**Unit Conversion:**
+👉 Convert between different measurement units.
+👉 Examples:
+   - "Kph in Mph" (kilometers per hour to miles per hour)
+   - "m in cm" (meters to centimeters)
+
+**Searching Famous Places and Sports:**
+👉 Type names directly: "Baadshahi Mosque", "Minar e Pakistan", "Pakistan Cricket team".
+
+---
+
+**Important Vocabulary:**
+- Weather search = finding current weather by location
+- Built-in calculator = Google's ability to perform math calculations
+- Currency conversion = converting money from one currency to another
+- Unit conversion = changing from one measurement unit to another
+- Natural language query = typing math in everyday English
+
+---
+
+**Quick Revision Points:**
+- "Weather Lahore" shows Lahore's weather.
+- Google can do math: 12*391, Sin 90, etc.
+- Use natural language: "Subtract 10 from 30".
+- Convert currency: "100 Euros in Pakistani rupees".
+- Convert units: "Kph in Mph", "m in cm".
+- Search landmarks directly: "Minar e Pakistan".`,
+
+  questions: [
+    {
+      q: 'Which query would show the weather in Lahore?',
+      options: ['A. Lahore temperature', 'B. Weather Lahore', 'C. Lahore climate', 'D. How is Lahore weather?'],
+      answer: 'B. Weather Lahore',
+      diff: 'easy',
+    },
+    {
+      q: 'To multiply 12 by 391 on Google, you would type:',
+      options: ['A. 12x391', 'B. 12*391', 'C. 12 × 391', 'D. multiply 12 and 391'],
+      answer: 'B. 12*391',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is a trigonometric calculation you can do on Google?',
+      options: ['A. 12-5', 'B. Sin 90', 'C. 80/100*200', 'D. Subtract 10 from 30'],
+      answer: 'B. Sin 90',
+      diff: 'easy',
+    },
+    {
+      q: 'How would you ask Google to convert 100 Euros to Pakistani rupees?',
+      options: ['A. 100 Euros = PKR', 'B. 100 Euros in Pakistani rupees', 'C. Convert 100 Euro to PKR', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'easy',
+    },
+    {
+      q: 'To convert kilometers per hour to miles per hour, you can type:',
+      options: ['A. km to miles', 'B. Kph in Mph', 'C. convert kph', 'D. kmph to mph'],
+      answer: 'B. Kph in Mph',
+      diff: 'medium',
+    },
+    {
+      q: 'Which query would convert meters to centimeters?',
+      options: ['A. m in cm', 'B. meter to cm', 'C. convert m to cm', 'D. All of the above'],
+      answer: 'A. m in cm',
+      diff: 'easy',
+    },
+    {
+      q: 'The query "Subtract 10 from 30" on Google would return:',
+      options: ['A. 20', 'B. 40', 'C. 10', 'D. 300'],
+      answer: 'A. 20',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is a famous landmark in Lahore you can search on Google?',
+      options: ['A. Eiffel Tower', 'B. Baadshahi Mosque', 'C. Taj Mahal', 'D. Pyramids'],
+      answer: 'B. Baadshahi Mosque',
+      diff: 'easy',
+    },
+    {
+      q: 'What will Google show for the query "80/100*200"?',
+      options: ['A. 40', 'B. 80', 'C. 160', 'D. 200'],
+      answer: 'C. 160',
+      diff: 'medium',
+    },
+    {
+      q: 'To find information about the national cricket team, you can search:',
+      options: ['A. Pakistan Cricket team', 'B. Pakistan cricket', 'C. Pakistani cricket team', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'easy',
+    },
+    {
+      q: 'The query "Tan 80" on Google will calculate the tangent of:',
+      options: ['A. 80 radians', 'B. 80 degrees', 'C. 80 gradians', 'D. 80%'],
+      answer: 'B. 80 degrees',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is NOT a search trick mentioned in the module?',
+      options: ['A. Weather search', 'B. Currency conversion', 'C. Image reverse search', 'D. Unit conversion'],
+      answer: 'C. Image reverse search',
+      diff: 'easy',
+    },
+   
+  ]
+},
+
+5: {
+  title: 'Search Operators (1): Social Media, Price, Hashtags, Exclusion, Exact Match, Wildcard (CS101 Lecture 5)',
+  summary: `**Key Topics Covered:**
+- @ operator: search on specific social media (e.g., "Fifa World cup @facebook", "@twitter")
+- pkr operator: search for price in Pakistani rupees (e.g., "Laptop pkr 50000")
+- # operator: search hashtags (e.g., "#education")
+- Minus sign (-): exclude words from query (e.g., "Jaguar -cars" to exclude car results)
+- Double quotes (" "): exact phrase search (e.g., "Tallest Building in Pakistan")
+- Asterisk (*): wildcard for unknown words (e.g., "* is thicker than water")
+
+---
+
+**Simple Understanding:**
+
+**Search on Social Media (@):**
+👉 Add "@" followed by the social media name after your query.
+👉 Example: "Fifa World cup @facebook" – limits results to Facebook.
+👉 Example: "Fifa World Cup @Twitter" – limits results to Twitter.
+
+**Search for a Price (pkr):**
+👉 Type "pkr" before or after a number to search for items in that price range.
+👉 Example: "Laptop pkr 50000" – shows laptops around 50,000 PKR.
+
+**Searching Hashtags (#):**
+👉 Use "#" before a word to find pages using that hashtag.
+👉 Example: "#education" – shows results with #education hashtag.
+
+**Exclude Words (-):**
+👉 Use minus sign before a word to exclude it from search results.
+👉 Example: "Jaguar -cars" – shows results about jaguar (animal), not car.
+👉 No space between minus and the word.
+
+**Exact Match (" "):**
+👉 Put your phrase in double quotes to search for that exact phrase.
+👉 Example: "Tallest Building in Pakistan" – finds only pages containing exactly this phrase.
+👉 Without quotes, Google finds pages containing any of the words.
+
+**Wildcard (*):**
+👉 Use asterisk as a placeholder for any unknown word.
+👉 Example: "* is thicker than water" – finds phrases like "Blood is thicker than water", "Life is thicker than water", etc.
+👉 The star represents any single word.
+
+---
+
+**Important Vocabulary:**
+- Search operator = special symbol or word that modifies a search query
+- Social media search = limiting results to a specific social platform using @
+- Hashtag = word preceded by # to categorize content
+- Exclude operator = minus sign (-) to remove unwanted terms
+- Exact phrase = words in double quotes, searched exactly as written
+- Wildcard = asterisk (*) standing for any unknown word
+
+---
+
+**Quick Revision Points:**
+- Use @facebook or @twitter to search within specific social media.
+- "Laptop pkr 50000" finds laptops around that price.
+- "#education" finds posts with that hashtag.
+- "Jaguar -cars" removes car results.
+- "Exact phrase in quotes" finds only that exact wording.
+- "* is thicker than water" finds any word before the phrase.`,
+
+  questions: [
+    {
+      q: 'Which operator is used to search within a specific social media platform on Google?',
+      options: ['A. #', 'B. @', 'C. $', 'D. %'],
+      answer: 'B. @',
+      diff: 'easy',
+    },
+    {
+      q: 'To search for laptops priced around 50,000 PKR, you can type:',
+      options: ['A. Laptop PKR 50000', 'B. Laptop @50000', 'C. Laptop #50000', 'D. Laptop -50000'],
+      answer: 'A. Laptop PKR 50000',
+      diff: 'easy',
+    },
+    {
+      q: 'Which symbol is used to search for a hashtag?',
+      options: ['A. @', 'B. $', 'C. #', 'D. %'],
+      answer: 'C. #',
+      diff: 'easy',
+    },
+    {
+      q: 'How would you exclude pages about cars when searching for "Jaguar"?',
+      options: ['A. Jaguar +cars', 'B. Jaguar @cars', 'C. Jaguar -cars', 'D. Jaguar #cars'],
+      answer: 'C. Jaguar -cars',
+      diff: 'easy',
+    },
+    {
+      q: 'What does the query "Jaguar -cars" do?',
+      options: ['A. Shows only car results', 'B. Shows results about jaguar animal, excluding cars', 'C. Shows only social media results', 'D. Shows results for both animal and car'],
+      answer: 'B. Shows results about jaguar animal, excluding cars',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operator is used to search for an exact phrase?',
+      options: ['A. Single quotes (\')', 'B. Double quotes (")', 'C. Asterisk (*)', 'D. Minus sign (-)'],
+      answer: 'B. Double quotes (")',
+      diff: 'easy',
+    },
+    {
+      q: 'Searching "Tallest Building in Pakistan" (with quotes) will:',
+      options: ['A. Find pages containing any of these words', 'B. Find pages containing the exact phrase', 'C. Exclude pages with "building"', 'D. Search only on social media'],
+      answer: 'B. Find pages containing the exact phrase',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the difference between searching with quotes and without quotes?',
+      options: ['A. Quotes give faster results', 'B. Quotes search exact phrase; without quotes searches pages containing any or all words', 'C. Quotes work only on Facebook', 'D. No difference'],
+      answer: 'B. Quotes search exact phrase; without quotes searches pages containing any or all words',
+      diff: 'medium',
+    },
+    {
+      q: 'Which symbol acts as a wildcard in Google search?',
+      options: ['A. ?', 'B. %', 'C. *', 'D. +'],
+      answer: 'C. *',
+      diff: 'easy',
+    },
+    {
+      q: 'The query "* is thicker than water" will find:',
+      options: ['A. Only "Blood is thicker than water"', 'B. Any phrase where a word comes before "is thicker than water"', 'C. Only pages with asterisk', 'D. Nothing'],
+      answer: 'B. Any phrase where a word comes before "is thicker than water"',
+      diff: 'medium',
+    },
+    {
+      q: 'To search for "#education" on Google, you would type:',
+      options: ['A. @education', 'B. education #', 'C. #education', 'D. education -hashtag'],
+      answer: 'C. #education',
+      diff: 'easy',
+    },
+    {
+      q: 'Which query would limit results to Facebook pages about "World Cup"?',
+      options: ['A. World Cup @facebook', 'B. World Cup #facebook', 'C. World Cup -facebook', 'D. "World Cup" facebook'],
+      answer: 'A. World Cup @facebook',
+      diff: 'easy',
+    },
+    {
+      q: 'What does the minus sign (-) do in a Google query?',
+      options: ['A. Adds similar words', 'B. Excludes the word after it', 'C. Searches for price', 'D. Searches only on social media'],
+      answer: 'B. Excludes the word after it',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is NOT a search operator mentioned in this module?',
+      options: ['A. @', 'B. #', 'C. $', 'D. *'],
+      answer: 'C. $',
+      diff: 'easy',
+    },
+    {
+      q: 'If you want to find exact phrase "Virtual University of Pakistan", you should type:',
+      options: ['A. Virtual University of Pakistan', 'B. "Virtual University of Pakistan"', 'C. Virtual + University + of + Pakistan', 'D. @Virtual University of Pakistan'],
+      answer: 'B. "Virtual University of Pakistan"',
+      diff: 'easy',
+    },
+    {
+      q: 'The wildcard operator (*) represents:',
+      options: ['A. Any single word', 'B. Any number', 'C. Any social media', 'D. Any price'],
+      answer: 'A. Any single word',
+      diff: 'easy',
+    }
+  ]
+},
+
+//L 6 //
+
+6: {
+  title: 'Search Operators (2): Range, Boolean, Site, Related, Info, Cache, Filetype (CS101 Lecture 6)',
+  summary: `**Key Topics Covered:**
+- Range search (..): two dots between numbers (e.g., "laptop pkr25000..pkr35000")
+- Boolean operators: AND, OR
+  - "Computer and Science" – pages containing both words
+  - "Computer or Science" – pages containing either word
+- site: operator – search within a specific website (e.g., "virtual university site:youtube.com")
+- related: operator – find websites similar to a given site (e.g., "related:youtube.com")
+- info: operator – get information about a website (e.g., "info:youtube.com")
+- cache: operator – view cached version of a website (e.g., "cache:youtube.com")
+- filetype: / ext: operator – search for specific file types (e.g., "Virtual University filetype:pdf" or "ext:pdf")
+
+---
+
+**Simple Understanding:**
+
+**Range Search (..):**
+👉 Use two dots between numbers to search within a range.
+👉 Example: "laptop pkr25000..pkr35000" – finds laptops priced between 25,000 and 35,000 PKR.
+👉 Works for prices, years, sizes, etc.
+
+**Boolean Operators – AND:**
+👉 "Computer and Science" – finds pages containing both "computer" AND "science".
+👉 Both words must appear (not necessarily together).
+
+**Boolean Operators – OR:**
+👉 "Computer or Science" – finds pages containing either "computer" OR "science" (or both).
+
+**site: Operator:**
+👉 Search only within a specific website.
+👉 Example: "virtual university site:youtube.com" – finds pages about virtual university on YouTube.
+👉 No space after colon.
+
+**related: Operator:**
+👉 Find websites similar to a given site.
+👉 Example: "related:youtube.com" – shows other video-sharing sites similar to YouTube.
+
+**info: Operator:**
+👉 Get information about a website (cached page, similar pages, pages linking to it, etc.).
+👉 Example: "info:youtube.com".
+
+**cache: Operator:**
+👉 View Google's cached (saved) version of a webpage.
+👉 Useful if the website is down or slow.
+👉 Example: "cache:youtube.com".
+
+**filetype: / ext: Operators:**
+👉 Search for specific file types.
+👉 Example: "Virtual University filetype:pdf" – finds PDF files about Virtual University.
+👉 "ext:pdf" works the same.
+
+---
+
+**Important Vocabulary:**
+- Range search = searching between two numeric values using ..
+- Boolean operator = AND, OR to combine search terms
+- site: = operator to limit search to one website
+- related: = operator to find similar websites
+- info: = operator to get metadata about a website
+- cache: = operator to view Google's saved copy of a webpage
+- filetype: / ext: = operator to search for a specific file extension
+
+---
+
+**Quick Revision Points:**
+- "laptop 25000..35000" finds laptops in that price range.
+- AND gives pages with both terms; OR gives pages with either term.
+- site:youtube.com limits search to YouTube.
+- related:youtube.com finds sites like YouTube.
+- info:youtube.com shows website information.
+- cache:youtube.com shows Google's cached version.
+- filetype:pdf finds PDF documents.`,
+
+  questions: [
+    {
+      q: 'Which operator is used to search within a range of numbers?',
+      options: ['A. -', 'B. ..', 'C. :', 'D. @'],
+      answer: 'B. ..',
+      diff: 'easy',
+    },
+    {
+      q: 'To find laptops priced between 25,000 and 35,000 PKR, you would type:',
+      options: ['A. laptop pkr25000-pkr35000', 'B. laptop pkr25000..pkr35000', 'C. laptop pkr25000 to pkr35000', 'D. laptop pkr25000:pkr35000'],
+      answer: 'B. laptop pkr25000..pkr35000',
+      diff: 'easy',
+    },
+    {
+      q: 'The Boolean operator "AND" in a Google query does what?',
+      options: ['A. Finds pages containing either of the words', 'B. Finds pages containing both words', 'C. Excludes pages with the word', 'D. Searches for exact phrase'],
+      answer: 'B. Finds pages containing both words',
+      diff: 'easy',
+    },
+    {
+      q: 'The query "Computer or Science" will find pages that contain:',
+      options: ['A. Only the word computer', 'B. Only the word science', 'C. Either computer or science (or both)', 'D. Neither computer nor science'],
+      answer: 'C. Either computer or science (or both)',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operator is used to search within a specific website?',
+      options: ['A. site:', 'B. related:', 'C. info:', 'D. cache:'],
+      answer: 'A. site:',
+      diff: 'easy',
+    },
+    {
+      q: 'To search for "virtual university" only on YouTube, you would type:',
+      options: ['A. virtual university site:youtube.com', 'B. virtual university related:youtube.com', 'C. virtual university info:youtube.com', 'D. virtual university cache:youtube.com'],
+      answer: 'A. virtual university site:youtube.com',
+      diff: 'easy',
+    },
+    {
+      q: 'The "related:" operator finds:',
+      options: ['A. Pages linking to a website', 'B. Cached version of a website', 'C. Websites similar to a given site', 'D. Information about a website'],
+      answer: 'C. Websites similar to a given site',
+      diff: 'easy',
+    },
+    {
+      q: 'To find websites similar to YouTube, you would type:',
+      options: ['A. site:youtube.com', 'B. related:youtube.com', 'C. info:youtube.com', 'D. cache:youtube.com'],
+      answer: 'B. related:youtube.com',
+      diff: 'easy',
+    },
+    {
+      q: 'The "info:" operator shows:',
+      options: ['A. Similar websites', 'B. Cached pages', 'C. Information about a website', 'D. Files on a website'],
+      answer: 'C. Information about a website',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operator is useful when a website is down and you want to see a saved copy?',
+      options: ['A. site:', 'B. related:', 'C. info:', 'D. cache:'],
+      answer: 'D. cache:',
+      diff: 'easy',
+    },
+    {
+      q: 'To view Google\'s cached version of YouTube, you would type:',
+      options: ['A. site:youtube.com', 'B. related:youtube.com', 'C. info:youtube.com', 'D. cache:youtube.com'],
+      answer: 'D. cache:youtube.com',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operator is used to search for a specific file type?',
+      options: ['A. filetype:', 'B. site:', 'C. related:', 'D. cache:'],
+      answer: 'A. filetype:',
+      diff: 'easy',
+    },
+    {
+      q: 'To find PDF files about "Virtual University", you would type:',
+      options: ['A. Virtual University filetype:pdf', 'B. Virtual University ext:pdf', 'C. Both A and B', 'D. None of the above'],
+      answer: 'C. Both A and B',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is an alternative to "filetype:"?',
+      options: ['A. ext:', 'B. type:', 'C. format:', 'D. doc:'],
+      answer: 'A. ext:',
+      diff: 'medium',
+    },
+    {
+      q: 'The query "laptop pkr20000..pkr40000" will find laptops priced:',
+      options: ['A. Exactly 20000', 'B. Exactly 40000', 'C. Between 20000 and 40000', 'D. Below 20000'],
+      answer: 'C. Between 20000 and 40000',
+      diff: 'easy',
+    },
+    {
+      q: 'What does the query "computer and science" return?',
+      options: ['A. Pages with either computer or science', 'B. Pages with both computer and science', 'C. Pages with exactly the phrase "computer and science"', 'D. Pages excluding the word science'],
+      answer: 'B. Pages with both computer and science',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operator would you use to get information about the website "vu.edu.pk"?',
+      options: ['A. site:vu.edu.pk', 'B. related:vu.edu.pk', 'C. info:vu.edu.pk', 'D. cache:vu.edu.pk'],
+      answer: 'C. info:vu.edu.pk',
+      diff: 'easy',
+    }
+  ]
+}
+
+// L 7 //
+
+7: {
+  title: 'Search Operators (3): Stocks, Map, Movie, Define, Image Search, Tilt (CS101 Lecture 7)',
+  summary: `**Key Topics Covered:**
+- stocks: operator – check stock market trends (e.g., "stocks:aapl" for Apple)
+- map: operator – view map of a location (e.g., "map:Lahore")
+- movie: operator – find information about a movie (e.g., "movie:steve jobs")
+- Compare food nutrients: https://www.myfooddata.com/
+- define: operator – get definition of a term (e.g., "define:Computer")
+- Image search: https://images.google.com/ – search by image or find similar images
+- Tilt – fun trick to rotate Google screen (elgoog.im/tilt)
+
+---
+
+**Simple Understanding:**
+
+**stocks: Operator**
+👉 Type "stocks:" followed by a company's stock symbol.
+👉 Example: "stocks:aapl" – shows stock trend for Apple Inc.
+
+**map: Operator**
+👉 Type "map:" followed by a location name.
+👉 Example: "map:Lahore" – shows map of Lahore.
+
+**movie: Operator**
+👉 Type "movie:" followed by a movie title.
+👉 Example: "movie:steve jobs" – shows information about the Steve Jobs movie.
+
+**Compare Food Nutrients:**
+👉 Visit https://www.myfooddata.com/
+👉 Compare nutritional values of different foods.
+
+**define: Operator**
+👉 Type "define:" followed by a word.
+👉 Example: "define:Computer" – shows definition of "computer".
+
+**Image Search:**
+👉 Go to https://images.google.com/
+👉 Search by uploading an image – Google finds similar images.
+
+**Tilt (Fun Trick):**
+👉 Type "tilt" in Google search.
+👉 Click the link (like elgoog.im/tilt).
+👉 The Google screen rotates (360 degrees) – a playful effect.
+
+---
+
+**Important Vocabulary:**
+- stocks operator = retrieves stock market trends for a company
+- stock symbol = unique letter code for a company (e.g., AAPL for Apple)
+- map operator = displays a map of a location
+- movie operator = shows information about a film
+- define operator = provides dictionary definition
+- Image search = search by image instead of text
+- Tilt = Google Easter egg that rotates the screen
+
+---
+
+**Quick Revision Points:**
+- "stocks:aapl" gives Apple's stock trend.
+- "map:Lahore" shows Lahore map.
+- "movie:steve jobs" shows movie info.
+- myfooddata.com compares food nutrients.
+- "define:Computer" gives definition.
+- images.google.com allows image-based search.
+- "tilt" rotates the Google screen for fun.`,
+
+  questions: [
+    {
+      q: 'Which operator is used to check stock market trends on Google?',
+      options: ['A. stocks:', 'B. market:', 'C. stock:', 'D. share:'],
+      answer: 'A. stocks:',
+      diff: 'easy',
+    },
+    {
+      q: 'To see the stock trend for Apple Inc., you would type:',
+      options: ['A. stocks:apple', 'B. stocks:aapl', 'C. stock:aapl', 'D. market:apple'],
+      answer: 'B. stocks:aapl',
+      diff: 'easy',
+    },
+    {
+      q: 'Which operator displays a map of a location?',
+      options: ['A. map:', 'B. location:', 'C. geo:', 'D. place:'],
+      answer: 'A. map:',
+      diff: 'easy',
+    },
+    {
+      q: 'To see the map of Lahore, you would type:',
+      options: ['A. map:Lahore', 'B. location:Lahore', 'C. geo:Lahore', 'D. place:Lahore'],
+      answer: 'A. map:Lahore',
+      diff: 'easy',
+    },
+    {
+      q: 'The "movie:" operator is used to:',
+      options: ['A. Watch movies online', 'B. Find information about a movie', 'C. Download movies', 'D. Book movie tickets'],
+      answer: 'B. Find information about a movie',
+      diff: 'easy',
+    },
+    {
+      q: 'To find information about the movie "Steve Jobs", you would type:',
+      options: ['A. film:steve jobs', 'B. cinema:steve jobs', 'C. movie:steve jobs', 'D. watch:steve jobs'],
+      answer: 'C. movie:steve jobs',
+      diff: 'easy',
+    },
+    {
+      q: 'Which website is mentioned for comparing food nutrients?',
+      options: ['A. myfooddata.com', 'B. foodcompare.com', 'C. nutritions.com', 'D. healthdata.com'],
+      answer: 'A. myfooddata.com',
+      diff: 'easy',
+    },
+    {
+      q: 'The "define:" operator gives:',
+      options: ['A. Synonyms of a word', 'B. Dictionary definition of a term', 'C. Translation of a word', 'D. Pronunciation only'],
+      answer: 'B. Dictionary definition of a term',
+      diff: 'easy',
+    },
+    {
+      q: 'To get the definition of "computer", you would type:',
+      options: ['A. define:computer', 'B. definition:computer', 'C. meaning:computer', 'D. dictionary:computer'],
+      answer: 'A. define:computer',
+      diff: 'easy',
+    },
+    {
+      q: 'What is the URL for Google Image Search?',
+      options: ['A. images.google.com', 'B. image.google.com', 'C. google.com/images', 'D. pic.google.com'],
+      answer: 'A. images.google.com',
+      diff: 'easy',
+    },
+    {
+      q: 'What feature does "tilt" provide in Google?',
+      options: ['A. Shows a map', 'B. Rotates the Google screen', 'C. Defines words', 'D. Shows stock trends'],
+      answer: 'B. Rotates the Google screen',
+      diff: 'easy',
+    },
+    {
+      q: 'The "tilt" trick is an example of:',
+      options: ['A. Search operator', 'B. Google Easter egg / fun trick', 'C. File type search', 'D. Social media search'],
+      answer: 'B. Google Easter egg / fun trick',
+      diff: 'easy',
+    },
+    {
+      q: 'Which link is mentioned to perform the tilt trick?',
+      options: ['A. google.com/tilt', 'B. elgoog.im/tilt', 'C. tilt.google.com', 'D. google.com/fun'],
+      answer: 'B. elgoog.im/tilt',
+      diff: 'medium',
+    },
+    {
+      q: 'What is a stock symbol?',
+      options: ['A. A company’s logo', 'B. A unique letter code for a company on stock market', 'C. A type of search operator', 'D. A map location'],
+      answer: 'B. A unique letter code for a company on stock market',
+      diff: 'medium',
+    },
+    {
+      q: 'The myfooddata.com website allows you to:',
+      options: ['A. Order food online', 'B. Compare nutrient values of foods', 'C. Find restaurant reviews', 'D. Get food recipes'],
+      answer: 'B. Compare nutrient values of foods',
+      diff: 'easy',
+    }
+  ]
+},
 
   },
 
@@ -9134,6 +10240,1633 @@ pak101_2: {
     }
   ]
 },
+
+// lecture 6 //
+
+
+ 6: {
+  title: 'Khilafat Movement (1919-1924): Religious Mobilization, Non-Cooperation, and Aftermath (PAK101 Lecture 6)',
+  summary: `**Key Topics Covered:**
+- Background: Turkey sided with Germany in WWI; Indian Muslims concerned about Ottoman Caliphate
+- Goals: Ottoman Khilafat intact, territorial solidarity of Turkey, holy places not given to non-Muslims
+- Role of Muslim journalism: Zamindar (Zafar Ali Khan), Comrade/Hamdard (Maulana Muhammad Ali Jauhar), Al-Hilal (Maulana Abul Kalam Azad)
+- Formation of All India Khilafat Committee (Bombay, July 1919)
+- First Khilafat Conference (Delhi, Nov 1919) – Congress participation (Gandhi, Nehru)
+- Rowlett Act (1919): black law – Jinnah resigned from Central Legislature
+- Jallianwala Bagh Incident (April 1919): General Duyer ordered firing; 379 died
+- Non-Cooperation Movement (May 1920): return titles, boycott courts/education, resign jobs, refuse taxes
+- Hijrat Movement (1920-21): India declared Darul Harab; mass migration to Afghanistan (failed)
+- Moplah Revolt (August 1921): Muslim peasants vs Hindu landlords in Malabar; thousands killed
+- Chori Chora Incident (Feb 1922): police station set on fire; Gandhi called off movement
+- Developments in Turkey: Mustafa Kemal Ataturk restricted Sultan’s powers; Khilafat abolished (March 1924)
+- Conclusions: religion as mobilizing force; Hindu-Muslim unity short-lived; Muslim League reactivated
+
+---
+
+**Simple Understanding:**
+
+**What was the Khilafat Movement?**
+👉 A religio-political movement by Indian Muslims to preserve the Ottoman Caliphate.
+👉 Turkey (Ottoman Empire) sided with Germany in WWI and lost.
+👉 Muslims feared loss of control over holy places and the Caliphate.
+
+**Goals:**
+1. Keep Ottoman Khilafat intact.
+2. Preserve territorial solidarity of Turkey.
+3. Holy places not given to non-Muslims.
+
+**Role of Press:**
+👉 Zamindar (Zafar Ali Khan)
+👉 Comrade and Hamdard (Maulana Muhammad Ali Jauhar)
+👉 Al-Hilal (Maulana Abul Kalam Azad)
+
+**Key Events:**
+
+**Rowlett Act (1919):**
+👉 "Black law" – government could arrest without legal assistance or appeal.
+👉 Jinnah resigned from Central Legislature in protest.
+
+**Jallianwala Bagh (April 1919):**
+👉 Indians gathered to protest British policies.
+👉 General Duyer ordered troops to fire.
+👉 379 killed, thousands injured.
+👉 One of the greatest tragedies in Indian history.
+
+**Non-Cooperation Movement (May 1920):**
+👉 Launched by Khilafat Committee with Congress.
+👉 Activities: return titles, boycott courts/education, resign jobs, refuse taxes.
+
+**Hijrat Movement (1920-21):**
+👉 Ulama declared India "Darul Harab" (place where Muslims cannot practice religion freely).
+👉 Muslims migrated to Afghanistan (Darul Islam).
+👉 Initially welcomed, then border closed; many died or went to Soviet Union.
+
+**Moplah Revolt (August 1921):**
+👉 Moplahs (descendants of Arab Muslims) in Malabar.
+👉 Revolted against Hindu landlords who took their land.
+👉 Government repression killed thousands.
+
+**Chori Chora Incident (Feb 1922):**
+👉 Congress volunteers set police station on fire; 21 policemen killed.
+👉 Gandhi called off Non-Cooperation Movement.
+
+**End of Khilafat Movement:**
+👉 Mustafa Kemal Ataturk emerged as Turkish national leader.
+👉 Restricted Sultan’s powers; abolished Khilafat in March 1924.
+👉 Indian Muslims sent delegations but failed.
+
+**Conclusions:**
+👉 Islam is a powerful mobilizing force.
+👉 Extra-territorial loyalty based on Ummah.
+👉 Hindu-Muslim unity proved short-lived.
+👉 Muslim League and other Muslim organizations reactivated as separate nation.
+
+---
+
+**Important Vocabulary:**
+- Khilafat = Ottoman Caliphate
+- Religio-political = combining religion and politics
+- Extra-territorial attachments = loyalty to Muslims outside India
+- Ummah = global Muslim community
+- Rowlett Act = 1919 repressive law
+- Jallianwala Bagh = Amritsar massacre site
+- Non-Cooperation = refusal to cooperate with British
+- Darul Harab = land where Islam cannot be practiced freely
+- Darul Islam = land where Islam is practiced freely
+- Moplah = descendants of Arab Muslims in Malabar
+- Chori Chora = village where police station was burned
+
+---
+
+**Quick Revision Points:**
+- Khilafat Movement (1919-1924) aimed to protect Ottoman Caliphate.
+- Turkey lost WWI as German ally.
+- Rowlett Act (1919) – black law; Jinnah resigned.
+- Jallianwala Bagh massacre (April 1919) – 379 killed.
+- Non-Cooperation started May 1920 with Congress.
+- Hijrat Movement (1920-21) – mass migration to Afghanistan failed.
+- Moplah Revolt (1921) – poor Muslim peasants vs Hindu landlords.
+- Chori Chora (1922) – Gandhi called off movement.
+- Ataturk abolished Khilafat (March 1924).
+- Hindu-Muslim unity short-lived; Muslim League revived.`,
+
+  questions: [
+    {
+      q: 'The Khilafat Movement was launched by Indian Muslims to protect:',
+      options: ['A. British Empire', 'B. Ottoman Caliphate', 'C. Mughal Empire', 'D. Congress Party'],
+      answer: 'B. Ottoman Caliphate',
+      diff: 'easy',
+    },
+    {
+      q: 'Turkey sided with which country in World War I?',
+      options: ['A. Britain', 'B. France', 'C. Germany', 'D. Russia'],
+      answer: 'C. Germany',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following was NOT a goal of the Khilafat Movement?',
+      options: ['A. Ottoman Khilafat kept intact', 'B. Territorial solidarity of Turkey', 'C. Holy places given to non-Muslims', 'D. Control of holy places with Muslims'],
+      answer: 'C. Holy places given to non-Muslims',
+      diff: 'easy',
+    },
+    {
+      q: 'The newspaper "Zamindar" was associated with:',
+      options: ['A. Maulana Abul Kalam Azad', 'B. Zafar Ali Khan', 'C. Maulana Muhammad Ali Jauhar', 'D. Maulana Shaukat Ali'],
+      answer: 'B. Zafar Ali Khan',
+      diff: 'medium',
+    },
+    {
+      q: 'The newspapers "Comrade" and "Hamdard" were published by:',
+      options: ['A. Zafar Ali Khan', 'B. Maulana Muhammad Ali Jauhar', 'C. Maulana Abul Kalam Azad', 'D. Maulana Shaukat Ali'],
+      answer: 'B. Maulana Muhammad Ali Jauhar',
+      diff: 'medium',
+    },
+    {
+      q: 'The newspaper "Al-Hilal" was published by:',
+      options: ['A. Zafar Ali Khan', 'B. Maulana Muhammad Ali Jauhar', 'C. Maulana Abul Kalam Azad', 'D. Maulana Shaukat Ali'],
+      answer: 'C. Maulana Abul Kalam Azad',
+      diff: 'medium',
+    },
+    {
+      q: 'The All India Khilafat Committee was formed in which city and year?',
+      options: ['A. Delhi, 1919', 'B. Bombay, July 1919', 'C. Amritsar, 1919', 'D. Karachi, 1921'],
+      answer: 'B. Bombay, July 1919',
+      diff: 'hard',
+    },
+    {
+      q: 'The first Khilafat Conference was held at:',
+      options: ['A. Amritsar', 'B. Bombay', 'C. Delhi', 'D. Karachi'],
+      answer: 'C. Delhi',
+      diff: 'medium',
+    },
+    {
+      q: 'Which Congress leaders participated in the first Khilafat Conference?',
+      options: ['A. Jinnah and Nehru', 'B. Gandhi and Nehru', 'C. Gandhi and Jinnah', 'D. Nehru and Patel'],
+      answer: 'B. Gandhi and Nehru',
+      diff: 'easy',
+    },
+    {
+      q: 'The Rowlett Act was a:',
+      options: ['A. Law granting rights', 'B. Black law allowing persecution without legal assistance', 'C. Education policy', 'D. Trade agreement'],
+      answer: 'B. Black law allowing persecution without legal assistance',
+      diff: 'easy',
+    },
+    {
+      q: 'Who resigned from the Central Legislature in protest against the Rowlett Act?',
+      options: ['A. Gandhi', 'B. Jinnah', 'C. Nehru', 'D. Maulana Azad'],
+      answer: 'B. Jinnah',
+      diff: 'easy',
+    },
+    {
+      q: 'The Jallianwala Bagh incident took place in which city and year?',
+      options: ['A. Delhi, 1919', 'B. Amritsar, April 1919', 'C. Lahore, 1919', 'D. Bombay, 1920'],
+      answer: 'B. Amritsar, April 1919',
+      diff: 'easy',
+    },
+    {
+      q: 'General Duyer ordered firing on a gathering at Jallianwala Bagh. Approximately how many people were killed?',
+      options: ['A. 100', 'B. 200', 'C. 379', 'D. 500'],
+      answer: 'C. 379',
+      diff: 'medium',
+    },
+    {
+      q: 'The Non-Cooperation Movement was launched in May 1920 by the Khilafat Committee in collaboration with:',
+      options: ['A. Muslim League', 'B. Congress', 'C. British government', 'D. Hindu Mahasabha'],
+      answer: 'B. Congress',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following was NOT an activity of the Non-Cooperation Movement?',
+      options: ['A. Return titles', 'B. Boycott of courts', 'C. Join military jobs', 'D. Refusal to pay taxes'],
+      answer: 'C. Join military jobs',
+      diff: 'easy',
+    },
+    {
+      q: 'The Hijrat Movement involved migration of Muslims from India to:',
+      options: ['A. Turkey', 'B. Iran', 'C. Afghanistan', 'D. Saudi Arabia'],
+      answer: 'C. Afghanistan',
+      diff: 'easy',
+    },
+    {
+      q: 'Why did ulama declare India as "Darul Harab"?',
+      options: ['A. Because Muslims were not allowed to perform religious practices freely', 'B. Because India was prosperous', 'C. Because British were good', 'D. Because Hindus were friendly'],
+      answer: 'A. Because Muslims were not allowed to perform religious practices freely',
+      diff: 'medium',
+    },
+    {
+      q: 'The Moplah Revolt took place in which region?',
+      options: ['A. Malabar Coast', 'B. Bengal', 'C. Punjab', 'D. Sindh'],
+      answer: 'A. Malabar Coast',
+      diff: 'easy',
+    },
+    {
+      q: 'Moplahs were descendants of:',
+      options: ['A. Turkish Muslims', 'B. Arab Muslims who settled before Muhammad Bin Qasim', 'C. Persian Muslims', 'D. Afghan Muslims'],
+      answer: 'B. Arab Muslims who settled before Muhammad Bin Qasim',
+      diff: 'hard',
+    },
+    {
+      q: 'The Moplahs revolted against:',
+      options: ['A. British only', 'B. Hindu landlords who took their land', 'C. Muslim League', 'D. Congress'],
+      answer: 'B. Hindu landlords who took their land',
+      diff: 'medium',
+    },
+    {
+      q: 'The Chori Chora incident occurred in which year and led to:',
+      options: ['A. 1921, intensified movement', 'B. February 1922, Gandhi called off Non-Cooperation', 'C. 1920, start of movement', 'D. 1923, end of Khilafat'],
+      answer: 'B. February 1922, Gandhi called off Non-Cooperation',
+      diff: 'hard',
+    },
+    {
+      q: 'What happened at Chori Chora?',
+      options: ['A. Police fired on protesters', 'B. Congress volunteers set a police station on fire; 21 policemen killed', 'C. Muslims migrated', 'D. Khilafat Committee met'],
+      answer: 'B. Congress volunteers set a police station on fire; 21 policemen killed',
+      diff: 'hard',
+    },
+    {
+      q: 'Who emerged as the Turkish national leader who abolished the Khilafat?',
+      options: ['A. Sultan Mehmed', 'B. Mustafa Kemal Ataturk', 'C. Enver Pasha', 'D. Kamal Pasha'],
+      answer: 'B. Mustafa Kemal Ataturk',
+      diff: 'easy',
+    },
+    {
+      q: 'The Khilafat was abolished by Turkey in:',
+      options: ['A. March 1922', 'B. March 1923', 'C. March 1924', 'D. March 1925'],
+      answer: 'C. March 1924',
+      diff: 'medium',
+    },
+    {
+      q: 'After the Khilafat Movement ended, what happened to Hindu-Muslim unity?',
+      options: ['A. It strengthened', 'B. It proved short-lived', 'C. It became permanent', 'D. It turned into an alliance'],
+      answer: 'B. It proved short-lived',
+      diff: 'easy',
+    },
+    {
+      q: 'Which organization was reactivated after the Khilafat Movement?',
+      options: ['A. Indian National Congress', 'B. Muslim League', 'C. Hindu Mahasabha', 'D. Khilafat Committee'],
+      answer: 'B. Muslim League',
+      diff: 'easy',
+    },
+    {
+      q: 'The Khilafat Movement demonstrated that religion, especially Islam, is a:',
+      options: ['A. Weak force', 'B. Mobilizing force', 'C. Dividing force only', 'D. Irrelevant factor'],
+      answer: 'B. Mobilizing force',
+      diff: 'easy',
+    },
+    {
+      q: 'The term "Darul Islam" means:',
+      options: ['A. Land where Islam cannot be practiced', 'B. Land where Islam is practiced freely', 'C. Land of war', 'D. Land of peace'],
+      answer: 'B. Land where Islam is practiced freely',
+      diff: 'medium',
+    }
+  ]
+},
+
+/// lecture 7//
+
+
+pak101_7: {
+  title: 'Constitutional Developments (1927-1935): Delhi Proposals, Nehru Report, Jinnah’s 14 Points, Simon Commission, Round Table Conferences, Communal Award, Poona Pact, Government of India Act 1935 (PAK101 Lecture 7)',
+  summary: `**Key Topics Covered:**
+- Delhi Muslim Proposals (March 1927): Statuary Muslim majorities in Punjab & Bengal, Sind separation from Bombay, NWFP reforms, 1/3 seats in Central Legislature, conditional concession of separate electorate
+- Split in Muslim League: Shafi League vs Jinnah League (separate electorate, Simon Commission attitude)
+- Nehru Report (1928): No separate electorate, no 1/3 seats, no reservation in Punjab/Bengal – threatened Muslim interests
+- Jinnah’s Fourteen Points (1929): Federal system, provincial autonomy, separate electorate, 1/3 Central seats, safeguards for Muslim culture, no amendment without constituent units’ consent
+- Simon Commission (1927-1930): Arrived 1927, report 1930 – boycotted by most parties
+- First Round Table Conference (1930): Jinnah, Sir Shafi, Maulana Jauhar, Zafarullah Khan – emphasized federalism, safeguards, separate electorate
+- Second Round Table Conference (1931): Maulana Jauhar died; Iqbal, Jinnah, Gandhi participated – key issues: Federation & Minorities
+- Communal Award (August 1932): Separate electorate for all minorities, weightage, no Muslim majorities in Punjab/Bengal, 1/3 Central seats, 1/4 services, Sind as province – Muslims unhappy
+- Poona Pact (September 1932): Gandhi fasted against separate electorate for low-caste Hindus (Harijans); agreement to surrender that right, saving Gandhi’s life
+- Third Round Table Conference (Nov-Dec 1932): Poorly attended; Jinnah absent (in London), Gandhi detained – no change; widened Hindu-Muslim gulf
+- White Paper (March 1933): Basis for constitution – diarchy at centre, responsible governments in provinces
+- Government of India Act 1935 (August 1935): Key issues unresolved – Muslim demands shifted from safeguards to complete independence (Pakistan)
+
+---
+
+**Simple Understanding:**
+
+**Delhi Muslim Proposals (March 1927):**
+👉 Muslim leaders met in Delhi at Quaid’s invitation.
+👉 Demands: statutory Muslim majorities in Punjab & Bengal, no weightage, Sind separate from Bombay, NWFP reforms, 1/3 Central seats, 3/4 community veto on communal bills.
+👉 If accepted, Muslims would give up separate electorate.
+👉 Split in Muslim League: Sir Muhammad Shafi opposed Jinnah on separate electorate and Simon Commission.
+
+**Nehru Report (1928):**
+👉 Congress called All Parties Conference; 10-member committee under Motilal Nehru.
+👉 Threat to Muslims: No separate electorate, no 1/3 Central seats, no reservation in Punjab/Bengal, Sind only if self-financing.
+👉 Jinnah tried amendments at Calcutta conference but failed – “parting of the ways.”
+
+**Jinnah’s 14 Points (1929):**
+👉 Muslim counter-proposals:
+   1. Federal system with residuary powers to provinces
+   2. Provincial autonomy
+   3. Separate electorate
+   4. Effective minority representation (majority not reduced)
+   5. 1/3 Muslim seats in Central Legislature
+   6. 1/3 Muslim ministers in cabinets
+   7. No boundary changes hurting Muslim majorities in Punjab/Bengal
+   8. Religious freedom
+   9. 3/4 community veto on laws affecting community
+   10. Sind as separate province
+   11. Constitutional reforms in NWFP & Balochistan
+   12. Muslim representation in govt jobs
+   13. Safeguards for Islamic culture, education, language, personal laws
+   14. No amendment without consent of all constituent units
+
+**Simon Commission (1927-1930):**
+👉 British commission to seek Indian opinion on constitutional future.
+👉 Arrived 1927; report 1930. Most parties boycotted.
+👉 Proposed: federal system, two houses, abolition of diarchy, more provincial powers.
+
+**Round Table Conferences:**
+- **First (1930):** Jinnah, Sir Shafi, Maulana Jauhar, Zafarullah Khan – emphasized federalism, self-government, safeguards, separate electorate.
+- **Second (1931):** Maulana Jauhar died; Iqbal, Jinnah, Gandhi – issues: Federation & Minorities.
+- **Third (1932):** Poor attendance; Jinnah absent, Gandhi detained – no progress; widened Hindu-Muslim gulf.
+
+**Communal Award (August 1932):**
+👉 Prime Minister Ramsay MacDonald announced:
+   - Separate electorate for all minorities
+   - Weightage to minorities
+   - No Muslim majorities in Punjab/Bengal (as in Lucknow Pact)
+   - 1/3 Muslim seats in Central legislature
+   - 1/4 Muslim representation in services
+   - Sind as province
+👉 Muslims unhappy.
+
+**Poona Pact (September 1932):**
+👉 Gandhi fasted against separate electorate for low-caste Hindus (Harijans).
+👉 Low-caste leaders agreed to surrender separate electorate to save Gandhi’s life.
+
+**White Paper (March 1933):**
+👉 British government document: diarchy at centre, full responsible governments in provinces.
+👉 Basis for Government of India Act 1935.
+
+**Government of India Act 1935 (August 1935):**
+👉 King approved in August 1935.
+👉 Communal problems unresolved.
+👉 Muslim demands shifted from safeguards to complete independence – Pakistan.
+
+---
+
+**Important Vocabulary:**
+- Statuary majorities = guaranteed legislative majorities
+- Weightage = extra representation beyond population share
+- Separate electorate = Muslims vote for Muslim candidates only
+- All Parties Conference = 1928 meeting of Indian parties
+- Parting of the ways = Jinnah’s declaration after Nehru Report rejection
+- Simon Commission = 1927 British constitutional commission
+- Round Table Conference = three conferences (1930-32) to discuss Indian constitution
+- Communal Award = 1932 minority representation scheme
+- Poona Pact = 1932 agreement between caste Hindus and low-caste Hindus
+- White Paper = official British policy document
+- Government of India Act 1935 = last major pre-independence constitutional act
+
+---
+
+**Quick Revision Points:**
+- Delhi Muslim Proposals (1927) offered to give up separate electorate if demands met – caused League split.
+- Nehru Report (1928) rejected Muslim safeguards – Jinnah: “parting of the ways.”
+- Jinnah’s 14 Points (1929) became Muslim political charter.
+- Simon Commission (1927-30) boycotted; proposed federalism.
+- Three Round Table Conferences (1930-32) failed to resolve Hindu-Muslim differences.
+- Communal Award (Aug 1932) gave separate electorate to minorities – Muslims unhappy.
+- Poona Pact (Sep 1932) saved Gandhi’s life; low-caste gave up separate electorate.
+- White Paper (1933) led to Government of India Act 1935.
+- Act of 1935 failed to satisfy Muslims – shifted demand to Pakistan.`,
+
+  questions: [
+    {
+      q: 'The Delhi Muslim Proposals were presented in which year?',
+      options: ['A. 1925', 'B. 1927', 'C. 1928', 'D. 1929'],
+      answer: 'B. 1927',
+      diff: 'easy',
+    },
+    {
+      q: 'According to the Delhi Muslim Proposals, Muslims would give up separate electorate if their demands were accepted. Which of the following was a demand?',
+      options: ['A. Hindu majority in Punjab', 'B. Statuary Muslim majorities in Punjab and Bengal', 'C. Abolition of separate electorate immediately', 'D. No Muslim representation in Central Legislature'],
+      answer: 'B. Statuary Muslim majorities in Punjab and Bengal',
+      diff: 'medium',
+    },
+    {
+      q: 'The Delhi Muslim Proposals demanded that Sind be separated from which province?',
+      options: ['A. Punjab', 'B. Bengal', 'C. Bombay', 'D. Madras'],
+      answer: 'C. Bombay',
+      diff: 'medium',
+    },
+    {
+      q: 'Who opposed Jinnah on the issues of separate electorate and attitude towards Simon Commission, leading to a split in the Muslim League?',
+      options: ['A. Maulana Muhammad Ali Jauhar', 'B. Sir Muhammad Shafi', 'C. Nawab Salimullah', 'D. Maulana Abul Kalam Azad'],
+      answer: 'B. Sir Muhammad Shafi',
+      diff: 'hard',
+    },
+    {
+      q: 'The Nehru Report was published in which year?',
+      options: ['A. 1927', 'B. 1928', 'C. 1929', 'D. 1930'],
+      answer: 'B. 1928',
+      diff: 'easy',
+    },
+    {
+      q: 'Who chaired the committee that produced the Nehru Report?',
+      options: ['A. Jawaharlal Nehru', 'B. Motilal Nehru', 'C. Gandhi', 'D. Vallabhbhai Patel'],
+      answer: 'B. Motilal Nehru',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following was NOT a recommendation of the Nehru Report?',
+      options: ['A. No separate electorate', 'B. One-third seats for Muslims in Central Assembly', 'C. No reservation of seats for Muslims in Punjab and Bengal', 'D. Sindh to be made a province only if it can bear its expenses'],
+      answer: 'B. One-third seats for Muslims in Central Assembly',
+      diff: 'medium',
+    },
+    {
+      q: 'At the All Parties Conference in Calcutta, Jinnah tried to amend the Nehru Report but failed. He remarked:',
+      options: ['A. "We shall fight for Pakistan"', 'B. "It is parting of the ways"', 'C. "We accept the report"', 'D. "Long live Hindu-Muslim unity"'],
+      answer: 'B. "It is parting of the ways"',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah presented his Fourteen Points in response to the Nehru Report in which year?',
+      options: ['A. 1928', 'B. 1929', 'C. 1930', 'D. 1931'],
+      answer: 'B. 1929',
+      diff: 'easy',
+    },
+    {
+      q: 'According to Jinnah’s 14 Points, the form of government should be:',
+      options: ['A. Unitary', 'B. Federal with residuary powers with provinces', 'C. Federal with strong centre', 'D. Dictatorial'],
+      answer: 'B. Federal with residuary powers with provinces',
+      diff: 'medium',
+    },
+    {
+      q: 'One of Jinnah’s 14 Points demanded that no law shall be passed if what proportion of a community’s elected members declares it against their interests?',
+      options: ['A. Two-thirds', 'B. Three-fourths', 'C. One-half', 'D. Four-fifths'],
+      answer: 'B. Three-fourths',
+      diff: 'hard',
+    },
+    {
+      q: 'The Simon Commission arrived in India in which year?',
+      options: ['A. 1925', 'B. 1927', 'C. 1928', 'D. 1930'],
+      answer: 'B. 1927',
+      diff: 'easy',
+    },
+    {
+      q: 'The Simon Commission was boycotted by most political parties because:',
+      options: ['A. It had no Indian member', 'B. It proposed partition', 'C. It supported Congress', 'D. It was led by a Muslim'],
+      answer: 'A. It had no Indian member',
+      diff: 'easy',
+    },
+    {
+      q: 'The First Round Table Conference was held in which year?',
+      options: ['A. 1929', 'B. 1930', 'C. 1931', 'D. 1932'],
+      answer: 'B. 1930',
+      diff: 'medium',
+    },
+    {
+      q: 'Who died soon after the First Round Table Conference?',
+      options: ['A. Allama Iqbal', 'B. Maulana Muhammad Ali Jauhar', 'C. Quaid-e-Azam Jinnah', 'D. Sir Muhammad Shafi'],
+      answer: 'B. Maulana Muhammad Ali Jauhar',
+      diff: 'hard',
+    },
+    {
+      q: 'Gandhi participated in which Round Table Conference?',
+      options: ['A. First', 'B. Second', 'C. Third', 'D. None'],
+      answer: 'B. Second',
+      diff: 'easy',
+    },
+    {
+      q: 'The Communal Award was announced by which British Prime Minister?',
+      options: ['A. Winston Churchill', 'B. Ramsay MacDonald', 'C. Clement Attlee', 'D. David Lloyd George'],
+      answer: 'B. Ramsay MacDonald',
+      diff: 'medium',
+    },
+    {
+      q: 'The Communal Award was announced in which month and year?',
+      options: ['A. August 1931', 'B. August 1932', 'C. September 1932', 'D. March 1933'],
+      answer: 'B. August 1932',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following was NOT part of the Communal Award?',
+      options: ['A. Separate electorate for all minorities', 'B. One-third representation for Muslims in Central legislature', 'C. Muslim majorities in Punjab and Bengal', 'D. Sind to be made a province'],
+      answer: 'C. Muslim majorities in Punjab and Bengal',
+      diff: 'medium',
+    },
+    {
+      q: 'The Poona Pact was signed in September 1932 between caste Hindus and low-caste Hindus. It was prompted by Gandhi’s:',
+      options: ['A. Hunger strike', 'B. Fast unto death', 'C. Civil disobedience', 'D. Non-cooperation'],
+      answer: 'B. Fast unto death',
+      diff: 'easy',
+    },
+    {
+      q: 'What did the low-caste Hindus agree to in the Poona Pact?',
+      options: ['A. Demand for separate electorate', 'B. Surrender separate electorate to save Gandhi’s life', 'C. Join Muslim League', 'D. Support British rule'],
+      answer: 'B. Surrender separate electorate to save Gandhi’s life',
+      diff: 'medium',
+    },
+    {
+      q: 'The Third Round Table Conference was held in which year?',
+      options: ['A. 1931', 'B. 1932', 'C. 1933', 'D. 1934'],
+      answer: 'B. 1932',
+      diff: 'hard',
+    },
+    {
+      q: 'Why did Quaid-e-Azam not attend the Third Round Table Conference despite living in London?',
+      options: ['A. He was ill', 'B. He was disappointed with previous conferences', 'C. He was busy with legal practice', 'D. He had resigned from politics'],
+      answer: 'B. He was disappointed with previous conferences',
+      diff: 'hard',
+    },
+    {
+      q: 'The White Paper on Constitutional Proposals was issued in:',
+      options: ['A. March 1932', 'B. March 1933', 'C. March 1934', 'D. March 1935'],
+      answer: 'B. March 1933',
+      diff: 'medium',
+    },
+    {
+      q: 'The Government of India Act 1935 was approved by the King in:',
+      options: ['A. August 1934', 'B. August 1935', 'C. August 1936', 'D. August 1937'],
+      answer: 'B. August 1935',
+      diff: 'easy',
+    },
+    {
+      q: 'What was the major long-term consequence of the failure to settle communal issues by the Government of India Act 1935?',
+      options: ['A. Hindu-Muslim unity strengthened', 'B. Muslim demands shifted from safeguards to complete independence (Pakistan)', 'C. British stayed permanently', 'D. Congress accepted separate electorate'],
+      answer: 'B. Muslim demands shifted from safeguards to complete independence (Pakistan)',
+      diff: 'medium',
+    },
+    {
+      q: 'According to the Nehru Report, Sindh could become a province only if:',
+      options: ['A. Muslims demanded it', 'B. It could bear its own expenses', 'C. British approved', 'D. Congress agreed'],
+      answer: 'B. It could bear its own expenses',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of Jinnah’s 14 Points demanded that no constitutional amendment shall be passed unless all constituent units of the federation agree?',
+      options: ['A. Point 1', 'B. Point 5', 'C. Point 10', 'D. Point 14'],
+      answer: 'D. Point 14',
+      diff: 'hard',
+    }
+  ]
+},
+
+// lecture 8//
+
+
+  8: {
+  title: 'Allama Iqbal’s Allahabad Address (1930): Vision of a Separate Muslim State (PAK101 Lecture 8)',
+  summary: `**Key Topics Covered:**
+- Background: Hindu-Muslim question, separate identity of Muslims, Two-Nation Theory vs territorial nationalism
+- Iqbal’s early life: Europe (1905-08) crystallized his thoughts; returned 1908; worked on Muslim decline
+- Positions: Title of Sir (1922); Member Punjab Legislative Council (1927-1930)
+- Lectures on Islam at Aligarh, Hyderabad, Madras (1928-29)
+- Allahabad Address (December 1930): Presidential address at Muslim League session
+- Key ideas: Rejection of European secularism (religion not just personal affair); Islam as ethical, social, political, legal framework; a living dynamic force
+- Muslims have distinct religious individuality; fear of Hindu domination
+- India is a continent of diverse peoples; no political arrangement without recognizing this
+- Territorial redistribution on basis of religion is need of time
+- Punjab, NWFP, Sind, Balochistan should form a consolidated North-Western Muslim state (self-government within or without British Empire) – final destiny of Muslims of NW India
+- Importance: Forceful logical presentation of Muslim case; territorial adjustments lead to concept of Muslim homeland
+- Letters to Jinnah (May 1936 – Nov 1937): separate federation of Muslim provinces; self-determination for NW India and Bengal; Shariah development impossible without free Muslim state
+
+---
+
+**Simple Understanding:**
+
+**Allama Iqbal – A Revolutionary Thinker:**
+👉 Muslim intellectual who left deep impact on history.
+👉 Inspired Muslims of Sub-Continent and beyond.
+👉 Infused identity and moving spirit in Indian Muslims.
+👉 Presented framework for political future and goal of Ummah.
+
+**Background:**
+👉 After 1857, Hindu-Muslim question became crucial.
+👉 Muslims insisted on separate identity (different culture, civilization, interests).
+👉 Hindus and British believed in territorial nationalism (nation based on land, not religion).
+👉 Hindus wanted to absorb Muslims into majority.
+👉 By 1930, Muslims developed political demands.
+
+**Iqbal’s Preparation:**
+👉 Europe (1905-08) crystallized his thoughts.
+👉 Returned 1908; studied roots of Muslim decline.
+👉 Emphasized following Prophet Muhammad (PBUH) as ideal leader.
+👉 Prominent positions: Sir (1922), Punjab Legislative Council (1927-30).
+👉 Lectures on Islam at Aligarh, Hyderabad, Madras (1928-29).
+
+**Allahabad Address (December 1930):**
+👉 Presidential address at Muslim League session.
+
+**Core Arguments:**
+1. European duality of religion and state does NOT apply to India.
+2. Religion is not a totally personal affair – it offers ethical order, socio-political structure, legal framework, culture, civilization.
+3. Islam is a living, dynamic force that turned scattered people into organized force.
+4. Muslims will not submerge their religious individuality; they fear Hindu domination.
+5. India is a continent of diverse peoples – no political arrangement without recognizing this.
+6. If Muslims can develop according to Islamic civilization, they will sacrifice for India.
+7. Federalism cannot succeed without recognizing Muslim national identity.
+8. Territorial redistribution on basis of religion is need of time.
+9. **Punjab, NWFP, Sind, Balochistan should be amalgamated into a single state – self-government within British Empire or without – final destiny of Muslims of NW India.**
+
+**Importance of the Address:**
+👉 Forceful, logical presentation of Muslim case.
+👉 Muslims as political entity, not just minority.
+👉 Territorial adjustments led to concept of Muslim homeland.
+
+**Letters to Jinnah (May 1936 – Nov 1937):**
+👉 Separate federation of Muslim provinces.
+👉 NW India and Bengal entitled to self-determination.
+👉 Shariah development impossible without free Muslim state/states.
+👉 In difficult times, Islam has saved Muslims.
+👉 Faith, culture, historical traditions more important than patriotism.
+
+---
+
+**Important Vocabulary:**
+- Territorial nationalism = nation defined by territory, not religion
+- Secularism = separation of religion from state
+- Dynamic force = active, changing, powerful influence
+- Ethical order = moral system
+- Socio-political structure = social and political organization
+- Amalgamated = combined into one
+- Self-determination = right to choose own government
+- Ummah = global Muslim community
+- Shariah = Islamic law
+- Ijtehad = independent legal reasoning
+
+---
+
+**Quick Revision Points:**
+- Iqbal inspired Muslims through his vision and poetry.
+- Allahabad Address (Dec 1930) demanded a separate Muslim state in NW India.
+- Rejected European secularism – religion is not personal only.
+- Islam is a complete code of life and dynamic force.
+- Muslims have separate identity; fear Hindu domination.
+- India is diverse – territorial redistribution needed.
+- Proposed state: Punjab, NWFP, Sind, Balochistan.
+- Later letters to Jinnah (1936-37) reinforced demand.
+- Shariah needs a free Muslim state to develop.
+- Faith and culture > patriotism.`,
+
+  questions: [
+    {
+      q: 'Allama Iqbal delivered his famous Allahabad Address in which year?',
+      options: ['A. 1928', 'B. 1929', 'C. 1930', 'D. 1931'],
+      answer: 'C. 1930',
+      diff: 'easy',
+    },
+    {
+      q: 'The Allahabad Address was delivered at the annual session of which organization?',
+      options: ['A. Indian National Congress', 'B. All India Muslim League', 'C. Khilafat Committee', 'D. Aligarh University'],
+      answer: 'B. All India Muslim League',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal spent time in Europe from 1905 to 1908. This helped him to:',
+      options: ['A. Forget Islam', 'B. Crystallize his thoughts', 'C. Become a British citizen', 'D. Write poetry in English only'],
+      answer: 'B. Crystallize his thoughts',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal returned to India in which year?',
+      options: ['A. 1905', 'B. 1906', 'C. 1907', 'D. 1908'],
+      answer: 'D. 1908',
+      diff: 'medium',
+    },
+    {
+      q: 'The title of "Sir" was conferred upon Allama Iqbal in which year?',
+      options: ['A. 1920', 'B. 1922', 'C. 1925', 'D. 1930'],
+      answer: 'B. 1922',
+      diff: 'hard',
+    },
+    {
+      q: 'Iqbal served as a member of which legislative body from 1927 to 1930?',
+      options: ['A. Central Legislative Assembly', 'B. Punjab Legislative Council', 'C. Bengal Legislative Council', 'D. Bombay Legislative Council'],
+      answer: 'B. Punjab Legislative Council',
+      diff: 'hard',
+    },
+    {
+      q: 'Iqbal delivered lectures on Islam at which three places in 1928-29?',
+      options: ['A. Delhi, Lahore, Karachi', 'B. Aligarh, Hyderabad, Madras', 'C. Bombay, Calcutta, Dhaka', 'D. Allahabad, Lucknow, Amritsar'],
+      answer: 'B. Aligarh, Hyderabad, Madras',
+      diff: 'hard',
+    },
+    {
+      q: 'In his Allahabad Address, Iqbal rejected which European concept?',
+      options: ['A. Democracy', 'B. Duality of religion and state', 'C. Capitalism', 'D. Socialism'],
+      answer: 'B. Duality of religion and state',
+      diff: 'medium',
+    },
+    {
+      q: 'According to Iqbal, in the Indian context, religion is:',
+      options: ['A. A totally personal affair', 'B. Not a totally personal affair – it offers ethical, social, political framework', 'C. Only about worship', 'D. Irrelevant to politics'],
+      answer: 'B. Not a totally personal affair – it offers ethical, social, political framework',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal described Islam as a:',
+      options: ['A. Static religion', 'B. Living, dynamic force', 'C. Mere set of rituals', 'D. Western ideology'],
+      answer: 'B. Living, dynamic force',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal believed that Islam turned scattered and disoriented people into:',
+      options: ['A. A disorganized crowd', 'B. An organized force', 'C. A business community', 'D. A political party'],
+      answer: 'B. An organized force',
+      diff: 'easy',
+    },
+    {
+      q: 'According to Iqbal, Muslims fear from Hindus:',
+      options: ['A. Economic competition', 'B. Domination', 'C. Cultural exchange', 'D. Trade'],
+      answer: 'B. Domination',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal described India as:',
+      options: ['A. A nation', 'B. A continent inhabited by diverse people', 'C. A Hindu state', 'D. A British colony only'],
+      answer: 'B. A continent inhabited by diverse people',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal argued that federalism cannot succeed without recognizing:',
+      options: ['A. Hindu majority', 'B. Muslim national identity', 'C. British supremacy', 'D. Economic unity'],
+      answer: 'B. Muslim national identity',
+      diff: 'medium',
+    },
+    {
+      q: 'Which provinces did Iqbal propose to amalgamate into a single North-Western Muslim state?',
+      options: ['A. Punjab, Bengal, Assam', 'B. Punjab, NWFP, Sind, Balochistan', 'C. Sind, Gujarat, Rajasthan', 'D. NWFP, Kashmir, Jammu'],
+      answer: 'B. Punjab, NWFP, Sind, Balochistan',
+      diff: 'easy',
+    },
+    {
+      q: 'The proposed North-Western Muslim state would be a self-government:',
+      options: ['A. Only within British Empire', 'B. Only without British Empire', 'C. Within British Empire or without', 'D. Under Hindu rule'],
+      answer: 'C. Within British Empire or without',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal called the formation of a consolidated North-Western Muslim state the:',
+      options: ['A. Temporary solution', 'B. Final destiny of Muslims of NW India', 'C. British plan', 'D. Hindu proposal'],
+      answer: 'B. Final destiny of Muslims of NW India',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal’s Allahabad Address is considered significant because it presented the Muslim case:',
+      options: ['A. As a minority only', 'B. As a political entity, not just a minority', 'C. As a religious sect', 'D. As a caste group'],
+      answer: 'B. As a political entity, not just a minority',
+      diff: 'medium',
+    },
+    {
+      q: 'The territorial adjustments proposed by Iqbal later developed into the concept of:',
+      options: ['A. Separate electorate', 'B. Muslim homeland (Pakistan)', 'C. Provincial autonomy', 'D. Dominion status'],
+      answer: 'B. Muslim homeland (Pakistan)',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal wrote letters to Jinnah between which years?',
+      options: ['A. 1930-1932', 'B. 1933-1935', 'C. May 1936 to November 1937', 'D. 1938-1940'],
+      answer: 'C. May 1936 to November 1937',
+      diff: 'hard',
+    },
+    {
+      q: 'In his letters to Jinnah, Iqbal talked about a separate federation of Muslim provinces, including:',
+      options: ['A. Only NW India', 'B. NW India and Bengal', 'C. Only Bengal', 'D. Only Sind'],
+      answer: 'B. NW India and Bengal',
+      diff: 'medium',
+    },
+    {
+      q: 'According to Iqbal, development of Shariah is impossible without:',
+      options: ['A. British rule', 'B. A free Muslim state or states', 'C. Hindu cooperation', 'D. Western education'],
+      answer: 'B. A free Muslim state or states',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal advised Muslims to be above self-interest and:',
+      options: ['A. Focus on wealth', 'B. Devote themselves to Islam', 'C. Join British army', 'D. Migrate to other countries'],
+      answer: 'B. Devote themselves to Islam',
+      diff: 'easy',
+    },
+    {
+      q: 'Iqbal believed that in difficult times, Islam has:',
+      options: ['A. Abandoned Muslims', 'B. Saved the Muslims', 'C. Been irrelevant', 'D. Caused problems'],
+      answer: 'B. Saved the Muslims',
+      diff: 'easy',
+    },
+    {
+      q: 'According to Iqbal, which is more important than patriotism?',
+      options: ['A. Wealth', 'B. Faith, culture and historical traditions', 'C. Territorial nationalism', 'D. Economic progress'],
+      answer: 'B. Faith, culture and historical traditions',
+      diff: 'medium',
+    },
+    {
+      q: 'Hindus and British believed in which concept that Iqbal rejected for India?',
+      options: ['A. Two-Nation Theory', 'B. Territorial nationalism', 'C. Separate electorate', 'D. Federalism'],
+      answer: 'B. Territorial nationalism',
+      diff: 'medium',
+    },
+    {
+      q: 'Iqbal argued that if Muslims have opportunity to develop according to Islamic civilization, they would:',
+      options: ['A. Leave India', 'B. Be willing to sacrifice their lives for India', 'C. Fight the British', 'D. Accept Hindu rule'],
+      answer: 'B. Be willing to sacrifice their lives for India',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is NOT a characteristic of Islam according to Iqbal?',
+      options: ['A. Ethical order', 'B. Socio-political structure', 'C. Legal framework', 'D. Separation from all aspects of life'],
+      answer: 'D. Separation from all aspects of life',
+      diff: 'easy',
+    }
+  ]
+},
+
+// L 9 //
+
+pak101_9: {
+  title: 'Chaudhary Rahmat Ali: The Man Who Coined the Name "Pakistan" (PAK101 Lecture 9)',
+  summary: `**Key Topics Covered:**
+- Role of intellectuals in the Pakistan Movement
+- Rahmat Ali’s biography: born in Hoshiarpur (1893/1895), B.A. from Islamia College Lahore, higher education at Cambridge University
+- His activism at Cambridge and earlier in Lahore – advocated separate Muslim state
+- Views: North-Western Muslim majority areas should become a Muslim state; Muslims must get rid of "Indianism"
+- His pamphlet "Now or Never" (January 1933) – coined the name PAKISTAN
+- Etymology: P = Punjab, A = Afghanistan (NW), K = Kashmir, S = Sind, TAN = Balochistan
+- India not a single nation; Muslims are a distinct nation with right to self-determination
+- Conflict between Hindus and Muslims is international, not religious or economic
+- Established Pakistan National Movement (1940)
+- Proposed Bang-i-Islam (Bengal, Assam) and Osmanistan (Hyderabad Deccan) as separate Muslim states
+- Died in Cambridge (February 11, 1951)
+- His contribution: coined the name "Pakistan"; Lahore Resolution later called Pakistan Resolution
+
+---
+
+**Simple Understanding:**
+
+**Intellectuals, Leaders, and Masses:**
+👉 Intellectuals give direction, leaders act, masses follow – nations achieve their goals.
+👉 Rahmat Ali was an eminent scholar who contributed significantly to the Pakistan Movement.
+
+**Who was Chaudhary Rahmat Ali?**
+👉 Born in Hoshiarpur district (1893 or 1895).
+👉 B.A. from Islamia College, Lahore.
+👉 Worked private and government jobs, then went to Cambridge University for higher education.
+👉 Active in student politics for Muslim rights – started talking about a separate state even in Lahore.
+
+**Rahmat Ali’s Views:**
+👉 North-Western areas have Muslim majorities – they should become a Muslim state.
+👉 Muslims must get rid of "Indianism" – better for Muslims and Islam.
+👉 India cannot be called a single nation; it never existed as one political entity before the British.
+👉 Muslims are a distinct nation that has maintained its identity throughout history.
+👉 They have as much right to live as Hindus in the Subcontinent.
+👉 The conflict between Hindus and Muslims is not religious, sectarian, or economic – it is **international** (two nations).
+
+**"Now or Never" (January 1933):**
+👉 Rahmat Ali published a pamphlet titled "Now or Never."
+👉 He coined the name **PAKISTAN** for the Muslim state.
+👉 The name stands for:
+   - **P** = Punjab
+   - **A** = Afghanistan (North-West Frontier Province)
+   - **K** = Kashmir
+   - **S** = Sind
+   - **TAN** = Balochistan
+
+**Pakistan National Movement (1940):**
+👉 He established this organization to promote the idea of Pakistan.
+👉 He also proposed separate Muslim states for the East:
+   - **Bang-i-Islam** (Bengal and Assam)
+   - **Osmanistan** (Hyderabad Deccan)
+
+**End of Life:**
+👉 Visited Pakistan in 1948 but the atmosphere did not suit him; returned to Cambridge.
+👉 Died in Cambridge on February 11, 1951.
+
+**His Contribution:**
+👉 Ever-shining contribution: he coined the name "Pakistan."
+👉 He argued that Indian Muslims deserve a separate homeland.
+👉 When the Lahore Resolution (1940) was passed, it was immediately described as the **Pakistan Resolution** – though Rahmat Ali had proposed the name and idea long before.
+
+---
+
+**Important Vocabulary:**
+- Intellectual = a person engaged in critical thinking and idea generation
+- Coined = invented (a word or phrase)
+- Pamphlet = a small booklet or leaflet
+- Indianism = identity based on being Indian (which Rahmat Ali rejected for Muslims)
+- International conflict = conflict between two nations (applied to Hindus and Muslims)
+- Pakistan National Movement = organization founded by Rahmat Ali in 1940
+- Bang-i-Islam = proposed Muslim state in Eastern India (Bengal, Assam)
+- Osmanistan = proposed Muslim state in Hyderabad Deccan
+- Pakistan Resolution = another name for Lahore Resolution (1940)
+
+---
+
+**Quick Revision Points:**
+- Rahmat Ali coined the name "Pakistan" in his pamphlet "Now or Never" (January 1933).
+- He was born in Hoshiarpur, studied at Islamia College Lahore and Cambridge University.
+- He argued that Hindus and Muslims are two distinct nations – their conflict is international.
+- He rejected "Indianism" and demanded a separate Muslim state.
+- The name PAKISTAN comes from: Punjab, Afghanistan (NW), Kashmir, Sind, Balochistan.
+- He also proposed Bang-i-Islam (Bengal, Assam) and Osmanistan (Hyderabad).
+- He established the Pakistan National Movement in 1940.
+- He died in Cambridge in 1951.
+- The Lahore Resolution (1940) is also called the Pakistan Resolution – but Rahmat Ali proposed the name seven years earlier.`,
+
+  questions: [
+    {
+      q: 'Chaudhary Rahmat Ali is best known for:',
+      options: ['A. Leading the Khilafat Movement', 'B. Coining the name "Pakistan"', 'C. Writing the Lahore Resolution', 'D. Founding the Muslim League'],
+      answer: 'B. Coining the name "Pakistan"',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali was born in which district?',
+      options: ['A. Lahore', 'B. Hoshiarpur', 'C. Amritsar', 'D. Sialkot'],
+      answer: 'B. Hoshiarpur',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali completed his B.A. from which college?',
+      options: ['A. Government College Lahore', 'B. Islamia College Lahore', 'C. Forman Christian College', 'D. Aligarh Muslim University'],
+      answer: 'B. Islamia College Lahore',
+      diff: 'medium',
+    },
+    {
+      q: 'For higher education, Rahmat Ali went to which university?',
+      options: ['A. Oxford University', 'B. Cambridge University', 'C. London University', 'D. Edinburgh University'],
+      answer: 'B. Cambridge University',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali published his famous pamphlet "Now or Never" in which year?',
+      options: ['A. 1930', 'B. 1933', 'C. 1935', 'D. 1940'],
+      answer: 'B. 1933',
+      diff: 'easy',
+    },
+    {
+      q: 'In which month and year was "Now or Never" published?',
+      options: ['A. December 1930', 'B. January 1933', 'C. March 1940', 'D. August 1947'],
+      answer: 'B. January 1933',
+      diff: 'hard',
+    },
+    {
+      q: 'The name PAKISTAN stands for which provinces/regions?',
+      options: ['A. Punjab, Afghanistan (NW), Kashmir, Sind, Balochistan', 'B. Peshawar, Kashmir, Sindh, Tribal Areas, Northern Areas', 'C. Punjab, Assam, Kashmir, Sind, Tan (Turkey)', 'D. Persia, Afghanistan, Kashmir, India, Nepal'],
+      answer: 'A. Punjab, Afghanistan (NW), Kashmir, Sind, Balochistan',
+      diff: 'medium',
+    },
+    {
+      q: 'According to Rahmat Ali, the conflict between Hindus and Muslims is:',
+      options: ['A. Religious', 'B. Economic', 'C. International', 'D. Sectarian'],
+      answer: 'C. International',
+      diff: 'medium',
+    },
+    {
+      q: 'Rahmat Ali argued that India before the British was:',
+      options: ['A. One political entity', 'B. Not one political entity', 'C. A Hindu state', 'D. A Muslim state'],
+      answer: 'B. Not one political entity',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali advised Muslims to get rid of:',
+      options: ['A. Islam', 'B. Indianism', 'C. British rule', 'D. Western education'],
+      answer: 'B. Indianism',
+      diff: 'medium',
+    },
+    {
+      q: 'Rahmat Ali established the Pakistan National Movement in which year?',
+      options: ['A. 1933', 'B. 1935', 'C. 1940', 'D. 1945'],
+      answer: 'C. 1940',
+      diff: 'medium',
+    },
+    {
+      q: 'Rahmat Ali proposed a separate Muslim state for Bengal and Assam called:',
+      options: ['A. Pakistan', 'B. Bang-i-Islam', 'C. Osmanistan', 'D. Bengalistan'],
+      answer: 'B. Bang-i-Islam',
+      diff: 'hard',
+    },
+    {
+      q: 'The proposed Muslim state for Hyderabad Deccan was called:',
+      options: ['A. Hyderabadistan', 'B. Osmanistan', 'C. Deccanistan', 'D. Nizamabad'],
+      answer: 'B. Osmanistan',
+      diff: 'hard',
+    },
+    {
+      q: 'Rahmat Ali visited Pakistan in which year?',
+      options: ['A. 1947', 'B. 1948', 'C. 1949', 'D. 1950'],
+      answer: 'B. 1948',
+      diff: 'medium',
+    },
+    {
+      q: 'Where did Rahmat Ali die?',
+      options: ['A. Lahore', 'B. Karachi', 'C. Cambridge', 'D. Delhi'],
+      answer: 'C. Cambridge',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali died on:',
+      options: ['A. February 11, 1951', 'B. March 23, 1951', 'C. August 14, 1951', 'D. September 11, 1951'],
+      answer: 'A. February 11, 1951',
+      diff: 'hard',
+    },
+    {
+      q: 'The Lahore Resolution (1940) is also known as the:',
+      options: ['A. India Resolution', 'B. Pakistan Resolution', 'C. Bengal Resolution', 'D. Punjab Resolution'],
+      answer: 'B. Pakistan Resolution',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali’s pamphlet "Now or Never" argued that Muslims are a:',
+      options: ['A. Religious minority only', 'B. Distinct nation with right to live', 'C. Caste group', 'D. Political party'],
+      answer: 'B. Distinct nation with right to live',
+      diff: 'easy',
+    },
+    {
+      q: 'According to Rahmat Ali, which areas in North-West have Muslim majorities that should become a Muslim state?',
+      options: ['A. Punjab, NWFP, Sind, Balochistan', 'B. UP, Bihar, Bengal', 'C. Madras, Bombay, Calcutta', 'D. Delhi, Ajmer, Jaipur'],
+      answer: 'A. Punjab, NWFP, Sind, Balochistan',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali said that Muslims are striving for their survival while Hindus are trying for:',
+      options: ['A. Independence', 'B. Domination over other nations', 'C. British rule', 'D. Economic prosperity only'],
+      answer: 'B. Domination over other nations',
+      diff: 'medium',
+    },
+    {
+      q: 'The letter "A" in PAKISTAN stands for:',
+      options: ['A. Afghanistan (NW)', 'B. Assam', 'C. Andhra', 'D. Arabia'],
+      answer: 'A. Afghanistan (NW)',
+      diff: 'easy',
+    },
+    {
+      q: 'The letter "K" in PAKISTAN stands for:',
+      options: ['A. Karachi', 'B. Kashmir', 'C. Khairpur', 'D. Kalat'],
+      answer: 'B. Kashmir',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali’s idea of a separate Muslim state was initially:',
+      options: ['A. Accepted by all', 'B. Taken seriously by everyone', 'C. Not taken seriously by many', 'D. Implemented immediately'],
+      answer: 'C. Not taken seriously by many',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali’s contribution is considered:',
+      options: ['A. Minor and unimportant', 'B. Ever-shining – he coined the name Pakistan', 'C. Only about education', 'D. Limited to Cambridge'],
+      answer: 'B. Ever-shining – he coined the name Pakistan',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following is NOT a proposed Muslim state by Rahmat Ali?',
+      options: ['A. Pakistan', 'B. Bang-i-Islam', 'C. Osmanistan', 'D. Hindutva'],
+      answer: 'D. Hindutva',
+      diff: 'easy',
+    },
+    {
+      q: 'Rahmat Ali believed that the Muslim state should be separated from the rest of India because:',
+      options: ['A. Muslims are a separate nation', 'B. Hindus are friendly', 'C. British requested it', 'D. Congress supported it'],
+      answer: 'A. Muslims are a separate nation',
+      diff: 'easy',
+    }
+  ]
+},
+
+
+// lecture 10 //
+
+10: {
+  title: 'Congress Rule 1937-1939: The Dress Rehearsal of Hindu Raj and Muslim Awakening (PAK101 Lecture 10)',
+  summary: `**Key Topics Covered:**
+- Government of India Act 1935 (provincial part) – introduced provincial elections
+- 1937 Elections: restricted franchise, separate electorate – Congress won 5 provinces, Muslim League performed poorly (21% Muslim seats)
+- Formation of Congress governments in 6 provinces (July 1937)
+- Congress conditions for coalition with Muslim League in UP – unacceptable (dissolve League board, no separate group, allegiance to Congress)
+- Policies of Congress governments: anti-Muslim drive, Muslim Mass Contact movement, promotion of Hindu culture (Bande Mataram, Hindi), Wardha Educational Scheme, distortion of Muslim history, discrimination in services
+- Muslim response: monitoring, publicizing atrocities
+- Pirpur Report (Nov 15, 1938): Raja Syed Muhammad Mehdi – cruelties in 7 provinces
+- Sharif Report (March 1939): injustices in Bihar
+- Fazl-ul-Haq Report: "Muslim Sufferings Under the Rule of Congress" – Azan forbidden, mosque attacks, cow-slaughter ban
+- All reports described Congress creating "Hindu Raj" threatening Muslim identity
+- Muslim League activism: Lucknow session (Oct 1937), leaders like Fazlul Haq, Sikander Hayat, Saadullah supported League
+- Second World War (Sept 1939) – Congress ministries resigned (Nov 1939)
+- Day of Deliverance (Dec 22, 1939) observed by Muslims
+- League redefined position – no constitution without Muslim consent
+
+---
+
+**Simple Understanding:**
+
+**Background:**
+👉 Congress Ministries formed in 1937, resigned in 1939.
+👉 This period was a "dress rehearsal" – Muslims saw what Hindu rule would look like.
+👉 Muslims became more rigid in their Two-Nation Theory and demand for separate homeland.
+
+**Government of India Act 1935:**
+👉 Only provincial part was introduced.
+👉 Muslim League and Congress criticized it but agreed to contest elections.
+
+**1937 Elections:**
+👉 Held with restricted franchise and separate electorate.
+👉 Congress projected itself as all-India force; won majorities in 5 provinces (Madras, UP, CP, Bihar, Orissa) – 704 out of 1585 general seats.
+👉 Muslim League performed poorly – only about 21% of Muslim seats; no majority anywhere (Bengal, Punjab, NWFP, Sind).
+
+**Formation of Provincial Governments (July 1937):**
+👉 Congress formed governments in 6 provinces. In NWFP, Khudai Khidmatgar and Congress coalition.
+👉 League wanted coalition in UP, but Congress demanded:
+   1. Dissolve AIML Parliamentary Board
+   2. No separate group functioning
+   3. Allegiance to Congress
+👉 Unacceptable – these terms would subvert Muslim League's existence.
+
+**Congress Policies (Anti-Muslim Drive):**
+👉 Muslim Mass Contact movement to defame League.
+👉 Promoted Hindu culture in name of "Indian culture" – Bande Mataram anthem, Hindi language.
+👉 Wardha Educational Scheme – aimed to convert Muslims through primary education.
+👉 Distortion of Muslim history; projection of Hindu heroes like Gandhi.
+👉 Discrimination in government services.
+
+**Muslim Response – Reports on Atrocities:**
+
+**Pirpur Report (Nov 15, 1938):**
+👉 8-member committee under Raja Syed Muhammad Mehdi of Pirpur.
+👉 Investigated cruelties in 7 provinces.
+
+**Sharif Report (March 1939):**
+👉 Focused on injustices in Bihar.
+
+**Fazl-ul-Haq Report:**
+👉 A. K. Fazl-ul-Haq published "Muslim Sufferings Under the Rule of Congress".
+👉 Revealed: forbidding of Azan, attacks on mosques, noisy Hindu processions, ban on cow-slaughter.
+
+👉 All reports concluded Congress was creating "Hindu Raj" – a threat to Muslim culture and identity.
+
+**Muslim League Activism:**
+👉 Lucknow session (October 1937) – leaders like Fazlul Haq, Sikander Hayat, Saadullah supported League.
+👉 Sharp criticism of Congress policies; protested against reduction of Urdu status.
+👉 Created realization: Muslims must think seriously about future political arrangements.
+👉 Urged unity under Muslim League banner.
+
+**Second World War (September 1939):**
+👉 Congress ministries resigned in November 1939.
+👉 Muslims observed Day of Deliverance on December 22, 1939.
+👉 League redefined position: no constitution without Muslim consent.
+
+---
+
+**Important Vocabulary:**
+- Dress rehearsal = practice or preview of future events
+- Restricted franchise = limited right to vote (property/education qualifications)
+- Separate electorate = Muslims vote for Muslim candidates only
+- Muslim Mass Contact = Congress campaign to win Muslim support
+- Bande Mataram = nationalistic song from Anandamath, used by Congress
+- Wardha Educational Scheme = Congress education plan (allegedly aimed at conversion)
+- Pirpur Report = document on Congress atrocities (1938)
+- Sharif Report = document on Bihar injustices (1939)
+- Day of Deliverance = Muslim celebration of Congress resignation (Dec 22, 1939)
+- Hindu Raj = Hindu rule
+
+---
+
+**Quick Revision Points:**
+- 1937 elections – Congress won general seats; Muslim League won only 21% Muslim seats.
+- Congress formed governments in 6 provinces (July 1937).
+- Congress demanded League dissolve itself for coalition in UP – League refused.
+- Congress policies promoted Hindu culture, discriminated against Muslims.
+- Pirpur Report (1938), Sharif Report (1939), Fazl-ul-Haq Report documented atrocities.
+- Reports concluded Congress wanted "Hindu Raj" – threatening Muslim identity.
+- Muslim League reactivated: Lucknow session (Oct 1937) attracted support.
+- WWII began Sept 1939; Congress resigned Nov 1939.
+- Day of Deliverance (Dec 22, 1939) – Muslims celebrated.
+- League declared no constitution without Muslim consent.`,
+
+  questions: [
+    {
+      q: 'The Congress Ministries were formed in which year?',
+      options: ['A. 1935', 'B. 1937', 'C. 1939', 'D. 1940'],
+      answer: 'B. 1937',
+      diff: 'easy',
+    },
+    {
+      q: 'The Congress Ministries resigned in which year?',
+      options: ['A. 1937', 'B. 1938', 'C. 1939', 'D. 1940'],
+      answer: 'C. 1939',
+      diff: 'easy',
+    },
+    {
+      q: 'The period of Congress rule (1937-1939) is described as a:',
+      options: ['A. Golden era for Muslims', 'B. Dress rehearsal of future governmental structure', 'C. Time of Hindu-Muslim unity', 'D. British success'],
+      answer: 'B. Dress rehearsal of future governmental structure',
+      diff: 'easy',
+    },
+    {
+      q: 'Which act introduced the provincial part that led to the 1937 elections?',
+      options: ['A. Government of India Act 1919', 'B. Government of India Act 1935', 'C. Indian Councils Act 1909', 'D. Rowlett Act 1919'],
+      answer: 'B. Government of India Act 1935',
+      diff: 'easy',
+    },
+    {
+      q: 'The 1937 elections were held with which two features?',
+      options: ['A. Universal franchise and joint electorate', 'B. Restricted franchise and separate electorate', 'C. Property franchise only', 'D. Male franchise only'],
+      answer: 'B. Restricted franchise and separate electorate',
+      diff: 'medium',
+    },
+    {
+      q: 'How many general seats did the Congress win out of 1585 in the 1937 elections?',
+      options: ['A. 500', 'B. 600', 'C. 704', 'D. 800'],
+      answer: 'C. 704',
+      diff: 'hard',
+    },
+    {
+      q: 'The Muslim League won approximately what percentage of Muslim seats in the 1937 elections?',
+      options: ['A. 50%', 'B. 35%', 'C. 21%', 'D. 10%'],
+      answer: 'C. 21%',
+      diff: 'medium',
+    },
+    {
+      q: 'In which province did the Muslim League fail to win a majority?',
+      options: ['A. Madras', 'B. Bengal', 'C. Bombay', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'medium',
+    },
+    {
+      q: 'In NWFP, Congress formed a coalition government with which group?',
+      options: ['A. Muslim League', 'B. Khudai Khidmatgar', 'C. Unionist Party', 'D. Hindu Mahasabha'],
+      answer: 'B. Khudai Khidmatgar',
+      diff: 'hard',
+    },
+    {
+      q: 'What conditions did Congress demand from the Muslim League for a coalition in UP?',
+      options: ['A. Dissolve AIML Parliamentary Board', 'B. No separate group functioning', 'C. Allegiance to Congress', 'D. All of the above'],
+      answer: 'D. All of the above',
+      diff: 'medium',
+    },
+    {
+      q: 'Why did the Muslim League reject the Congress coalition terms in UP?',
+      options: ['A. They wanted more seats', 'B. The terms would subvert the existence of Muslim League', 'C. They preferred to stay in opposition', 'D. British prevented them'],
+      answer: 'B. The terms would subvert the existence of Muslim League',
+      diff: 'medium',
+    },
+    {
+      q: 'The Congress launched which movement to win Muslim support and defame the Muslim League?',
+      options: ['A. Khilafat Movement', 'B. Muslim Mass Contact movement', 'C. Hijrat Movement', 'D. Non-Cooperation Movement'],
+      answer: 'B. Muslim Mass Contact movement',
+      diff: 'hard',
+    },
+    {
+      q: 'Which anthem was promoted by Congress governments in institutions?',
+      options: ['A. Jana Gana Mana', 'B. Vande Mataram', 'C. Sare Jahan se Accha', 'D. God Save the King'],
+      answer: 'B. Vande Mataram',
+      diff: 'easy',
+    },
+    {
+      q: 'The Wardha Educational Scheme was accused of aiming to:',
+      options: ['A. Promote science education', 'B. Convert Muslims into Hindus through primary literature', 'C. Spread English', 'D. Establish more schools'],
+      answer: 'B. Convert Muslims into Hindus through primary literature',
+      diff: 'medium',
+    },
+    {
+      q: 'The Pirpur Report was presented on which date?',
+      options: ['A. March 28, 1938', 'B. November 15, 1938', 'C. March 1939', 'D. December 22, 1939'],
+      answer: 'B. November 15, 1938',
+      diff: 'hard',
+    },
+    {
+      q: 'Who headed the committee that produced the Pirpur Report?',
+      options: ['A. A. K. Fazl-ul-Haq', 'B. Raja Syed Muhammad Mehdi of Pirpur', 'C. Mr. Sharif', 'D. Sikander Hayat'],
+      answer: 'B. Raja Syed Muhammad Mehdi of Pirpur',
+      diff: 'hard',
+    },
+    {
+      q: 'The Sharif Report focused on injustices in which province?',
+      options: ['A. Punjab', 'B. UP', 'C. Bihar', 'D. Bengal'],
+      answer: 'C. Bihar',
+      diff: 'medium',
+    },
+    {
+      q: 'Fazl-ul-Haq published a pamphlet titled:',
+      options: ['A. Pirpur Report', 'B. Muslim Sufferings Under the Rule of Congress', 'C. Sharif Report', 'D. Two-Nation Theory'],
+      answer: 'B. Muslim Sufferings Under the Rule of Congress',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following was NOT mentioned in Fazl-ul-Haq’s report?',
+      options: ['A. Forbidding of Azan', 'B. Attacks on mosques', 'C. Ban on cow-slaughter', 'D. Promotion of Urdu'],
+      answer: 'D. Promotion of Urdu',
+      diff: 'easy',
+    },
+    {
+      q: 'All the reports (Pirpur, Sharif, Fazl-ul-Haq) described Congress governments as trying to create:',
+      options: ['A. Secular state', 'B. Hindu Raj', 'C. Muslim state', 'D. British colony'],
+      answer: 'B. Hindu Raj',
+      diff: 'easy',
+    },
+    {
+      q: 'The Muslim League held an important session in October 1937 at which city?',
+      options: ['A. Lahore', 'B. Lucknow', 'C. Karachi', 'D. Delhi'],
+      answer: 'B. Lucknow',
+      diff: 'easy',
+    },
+    {
+      q: 'Which prominent leader announced support for the Muslim League at the Lucknow session (1937)?',
+      options: ['A. Gandhi', 'B. A. K. Fazl-ul-Haq', 'C. Nehru', 'D. Patel'],
+      answer: 'B. A. K. Fazl-ul-Haq',
+      diff: 'medium',
+    },
+    {
+      q: 'The Second World War began in which month and year?',
+      options: ['A. August 1939', 'B. September 1939', 'C. October 1939', 'D. November 1939'],
+      answer: 'B. September 1939',
+      diff: 'easy',
+    },
+    {
+      q: 'The Congress ministries resigned in November 1939 in protest against:',
+      options: ['A. British policies in the war', 'B. Muslim League demands', 'C. Failure of Round Table Conferences', 'D. Communal Award'],
+      answer: 'A. British policies in the war',
+      diff: 'easy',
+    },
+    {
+      q: 'Muslims observed the Day of Deliverance on:',
+      options: ['A. November 15, 1938', 'B. March 22, 1939', 'C. December 22, 1939', 'D. August 14, 1940'],
+      answer: 'C. December 22, 1939',
+      diff: 'medium',
+    },
+    {
+      q: 'After the Congress resignations, the Muslim League redefined its position and declared:',
+      options: ['A. Support for the war', 'B. No constitution to be enforced without Muslim consent', 'C. Acceptance of Congress rule', 'D. Merger with Congress'],
+      answer: 'B. No constitution to be enforced without Muslim consent',
+      diff: 'easy',
+    },
+    {
+      q: 'The experience of Congress rule 1937-1939 made Muslims more rigid in their:',
+      options: ['A. Loyalty to British', 'B. Two-Nation Theory and demand for separate homeland', 'C. Support for Congress', 'D. Acceptance of Hindu culture'],
+      answer: 'B. Two-Nation Theory and demand for separate homeland',
+      diff: 'easy',
+    },
+    {
+      q: 'How many provinces did Congress win majorities in during the 1937 elections?',
+      options: ['A. 3', 'B. 4', 'C. 5', 'D. 6'],
+      answer: 'C. 5',
+      diff: 'easy',
+    }
+  ]
+},
+
+// lecture 11 ///
+
+ 11: {
+  title: 'Lahore Resolution and Political Developments (1940-1944): Pakistan Demand Takes Shape (PAK101 Lecture 6)',
+  summary: `**Key Topics Covered:**
+- Impact of Congress Rule (1937-1939) – Muslims realized Hindu government meant anti-Muslim rule
+- Quaid-e-Azam’s article in Time and Tide: Muslims are a nation
+- Lahore Resolution (March 22-24, 1940) – moved by Maulvi Fazlul Haq, seconded by Ch. Khaliquzzaman
+- Text of the Resolution: rejection of 1935 Act, independent states in Muslim-majority NW and East, minority protection
+- Significance: kernel of Pakistan idea; 'states' later changed to 'state' in 1946
+- August Offer (1940): Viceroy’s expansion, minority importance, dominion status, war cooperation
+- Cripps Mission (March 1942): dominion status, constitutional body – rejected by both Congress and Muslim League
+- Gandhi-Jinnah Talks (September 1944): Gandhi rejected Two-Nation Theory; Jinnah insisted "first partition then freedom"
+
+---
+
+**Simple Understanding:**
+
+**Impact of Congress Rule (1937-1939):**
+👉 Congress won elections in 1937 and formed governments in Hindu-majority provinces.
+👉 Muslims realized that Hindu government meant anti-Muslim rule.
+👉 This experience convinced Muslims that a separate homeland was necessary.
+
+**Quaid-e-Azam’s Position:**
+👉 In Time and Tide article, he declared Muslims are a nation.
+👉 March 13, 1940: "If no satisfactory settlement for Muslims in united India, Muslims will demand division of the country."
+👉 He called the Indian problem "international, not communal" – Hindus and Muslims are two nations.
+
+**Lahore Resolution (March 22-24, 1940):**
+👉 Held at Lahore (Annual session of Muslim League).
+👉 Resolution moved by Maulvi Fazlul Haq (Chief Minister of Bengal).
+👉 Seconded by Ch. Khaliquzzaman.
+👉 Approved on March 24, 1940.
+
+**Text of the Resolution:**
+1. Federal system under Government of India Act 1935 was unacceptable.
+2. No revised constitutional plan without Muslim approval.
+3. Muslim-majority areas in Northwest and East should be constituted as **independent states** (autonomous and sovereign).
+4. Protection of minorities would be given priority.
+
+**Significance:**
+👉 Did not specify exact territory but defined future struggle.
+👉 Did not use the word "Pakistan" – but Pakistan was the kernel of the resolution.
+👉 In 1946, the word "states" was replaced by "state" (singular).
+
+**August Offer (1940):**
+👉 British announcement during World War II.
+👉 Key points:
+   - Expansion of Viceroy’s Executive Council and National Defense Council
+   - Special importance to minority views in constitutional revision
+   - Power not transferred without consent of large/powerful minorities
+   - Dominion status as ultimate goal
+   - Indian cooperation for war
+👉 Congress rejected it (started Non-Cooperation 1940-41).
+👉 Muslim League kept Lahore Resolution as ultimate goal.
+
+**Cripps Mission (March 1942):**
+👉 British sent Sir Stafford Cripps to get Indian cooperation for war.
+👉 Proposals:
+   - Dominion status
+   - Indian constitutional body to frame constitution
+   - Princely states representation
+👉 **Congress rejected** – demanded immediate responsible government, Indian control over defense.
+👉 **Muslim League rejected** – Muslims could not live in Indian Union.
+
+**Quit India Movement (August 1942):**
+👉 Hindus started movement against British.
+👉 Muslim League responded: "Divide and Quit India" (not just Quit India).
+
+**Gandhi-Jinnah Talks (September 1944):**
+👉 Gandhi refused to accept Two-Nation Theory.
+👉 Emphasized freedom of united India.
+👉 Jinnah insisted: Muslims would not budge an inch from their demand – **first partition, then freedom**.
+
+---
+
+**Important Vocabulary:**
+- Congress Rule (1937-39) = period when Congress governed provinces, alienating Muslims
+- Lahore Resolution = Pakistan demand resolution (March 1940)
+- Maulvi Fazlul Haq = mover of Lahore Resolution
+- Dominion status = self-governing within British Commonwealth
+- Cripps Mission = 1942 British constitutional mission
+- Quit India Movement = Congress's 1942 civil disobedience
+- Divide and Quit = Muslim League's counter slogan
+- Two-Nation Theory = Hindus and Muslims are distinct nations
+
+---
+
+**Quick Revision Points:**
+- Congress rule 1937-39 convinced Muslims that Hindu government = anti-Muslim rule.
+- Jinnah declared: "Indian problem is international, not communal."
+- Lahore Resolution (March 23, 1940) – moved by Fazlul Haq, approved March 24.
+- Demanded independent states in Muslim-majority NW and East.
+- No word "Pakistan" but it was the kernel.
+- August Offer (1940) – rejected by Congress, accepted as insufficient by League.
+- Cripps Mission (1942) – rejected by both Congress and League.
+- Quit India Movement (1942) – League responded "Divide and Quit India."
+- Gandhi-Jinnah Talks (1944) – failed because Gandhi rejected Two-Nation Theory.
+- Jinnah's position: "First partition, then freedom."`,
+
+  questions: [
+    {
+      q: 'The Congress ruled provinces after elections in which year?',
+      options: ['A. 1935', 'B. 1937', 'C. 1939', 'D. 1940'],
+      answer: 'B. 1937',
+      diff: 'easy',
+    },
+    {
+      q: 'What was the main impact of Congress Rule (1937-1939) on Muslims?',
+      options: ['A. Muslims became stronger', 'B. Muslims realized Hindu government meant anti-Muslim rule', 'C. Muslims joined Congress', 'D. Muslims supported British'],
+      answer: 'B. Muslims realized Hindu government meant anti-Muslim rule',
+      diff: 'easy',
+    },
+    {
+      q: 'Quaid-e-Azam wrote an article in which magazine declaring Muslims as a nation?',
+      options: ['A. Aligarh Institute Gazette', 'B. Time and Tide', 'C. Tahzib-ul-Akhlaq', 'D. Dawn'],
+      answer: 'B. Time and Tide',
+      diff: 'medium',
+    },
+    {
+      q: 'On March 13, 1940, Jinnah said that if no satisfactory settlement for Muslims in united India, Muslims will demand:',
+      options: ['A. More seats', 'B. Division of the country', 'C. Separate electorate', 'D. British protection'],
+      answer: 'B. Division of the country',
+      diff: 'easy',
+    },
+    {
+      q: 'The annual session of the Muslim League where the Lahore Resolution was passed was held in:',
+      options: ['A. Delhi', 'B. Lahore', 'C. Karachi', 'D. Dhaka'],
+      answer: 'B. Lahore',
+      diff: 'easy',
+    },
+    {
+      q: 'The Lahore Resolution was passed on:',
+      options: ['A. March 22, 1940', 'B. March 23, 1940', 'C. March 24, 1940', 'D. March 25, 1940'],
+      answer: 'C. March 24, 1940',
+      diff: 'hard',
+    },
+    {
+      q: 'Who moved the Lahore Resolution?',
+      options: ['A. Quaid-e-Azam Jinnah', 'B. Maulvi Fazlul Haq', 'C. Ch. Khaliquzzaman', 'D. Nawab Salimullah'],
+      answer: 'B. Maulvi Fazlul Haq',
+      diff: 'easy',
+    },
+    {
+      q: 'Who seconded the Lahore Resolution?',
+      options: ['A. Maulvi Fazlul Haq', 'B. Ch. Khaliquzzaman', 'C. Sir Agha Khan', 'D. Nawab Mohsin ul Mulk'],
+      answer: 'B. Ch. Khaliquzzaman',
+      diff: 'medium',
+    },
+    {
+      q: 'According to the Lahore Resolution, Muslim-majority areas in Northwest and East should be constituted as:',
+      options: ['A. Part of united India', 'B. Independent states (autonomous and sovereign)', 'C. British colonies', 'D. Hindu majority provinces'],
+      answer: 'B. Independent states (autonomous and sovereign)',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following was NOT part of the Lahore Resolution?',
+      options: ['A. Rejection of federal system under 1935 Act', 'B. No constitutional plan without Muslim approval', 'C. Immediate establishment of Pakistan', 'D. Protection of minorities'],
+      answer: 'C. Immediate establishment of Pakistan',
+      diff: 'easy',
+    },
+    {
+      q: 'The word "Pakistan" was used in the Lahore Resolution:',
+      options: ['A. Yes, prominently', 'B. No, but Pakistan was the kernel of the resolution', 'C. Yes, many times', 'D. No, and it had no relation to Pakistan'],
+      answer: 'B. No, but Pakistan was the kernel of the resolution',
+      diff: 'medium',
+    },
+    {
+      q: 'In 1946, the word "states" in the Lahore Resolution was replaced by:',
+      options: ['A. Provinces', 'B. State (singular)', 'C. Regions', 'D. Territories'],
+      answer: 'B. State (singular)',
+      diff: 'hard',
+    },
+    {
+      q: 'The August Offer was announced by the British in which year?',
+      options: ['A. 1939', 'B. 1940', 'C. 1941', 'D. 1942'],
+      answer: 'B. 1940',
+      diff: 'easy',
+    },
+    {
+      q: 'Which of the following was promised in the August Offer?',
+      options: ['A. Complete independence', 'B. Dominion status as ultimate goal', 'C. Partition of India', 'D. Republic status'],
+      answer: 'B. Dominion status as ultimate goal',
+      diff: 'medium',
+    },
+    {
+      q: 'Congress rejected the August Offer and started:',
+      options: ['A. Quit India Movement', 'B. Non-Cooperation movement (1940-41)', 'C. Civil Disobedience', 'D. Khilafat Movement'],
+      answer: 'B. Non-Cooperation movement (1940-41)',
+      diff: 'hard',
+    },
+    {
+      q: 'The Cripps Mission visited India in which year?',
+      options: ['A. 1940', 'B. 1941', 'C. 1942', 'D. 1943'],
+      answer: 'C. 1942',
+      diff: 'easy',
+    },
+    {
+      q: 'The Cripps Mission proposed:',
+      options: ['A. Complete independence', 'B. Dominion status', 'C. Partition of India', 'D. Muslim League as sole representative'],
+      answer: 'B. Dominion status',
+      diff: 'easy',
+    },
+    {
+      q: 'Why did Congress reject the Cripps Proposals?',
+      options: ['A. They wanted immediate responsible government and Indian control over defense', 'B. They wanted partition', 'C. They supported the war', 'D. They wanted British to stay'],
+      answer: 'A. They wanted immediate responsible government and Indian control over defense',
+      diff: 'medium',
+    },
+    {
+      q: 'Why did the Muslim League reject the Cripps Proposals?',
+      options: ['A. They wanted more seats', 'B. They demanded that Muslims could not live in Indian Union', 'C. They wanted British rule to continue', 'D. They supported Congress'],
+      answer: 'B. They demanded that Muslims could not live in Indian Union',
+      diff: 'medium',
+    },
+    {
+      q: 'The Quit India Movement was started by Congress in:',
+      options: ['A. August 1940', 'B. August 1941', 'C. August 1942', 'D. August 1943'],
+      answer: 'C. August 1942',
+      diff: 'easy',
+    },
+    {
+      q: 'The Muslim League’s response to the Quit India Movement was:',
+      options: ['A. Support Quit India', 'B. "Divide and Quit India"', 'C. Join the movement', 'D. Remain silent'],
+      answer: 'B. "Divide and Quit India"',
+      diff: 'easy',
+    },
+    {
+      q: 'The Gandhi-Jinnah Talks took place in which year?',
+      options: ['A. 1942', 'B. 1943', 'C. 1944', 'D. 1945'],
+      answer: 'C. 1944',
+      diff: 'easy',
+    },
+    {
+      q: 'During the Gandhi-Jinnah Talks, Gandhi refused to accept:',
+      options: ['A. Partition', 'B. Two-Nation Theory', 'C. Dominion status', 'D. British rule'],
+      answer: 'B. Two-Nation Theory',
+      diff: 'easy',
+    },
+    {
+      q: 'Jinnah’s position during the Gandhi-Jinnah Talks was:',
+      options: ['A. United India first', 'B. First partition, then freedom', 'C. No partition needed', 'D. Accept Congress demands'],
+      answer: 'B. First partition, then freedom',
+      diff: 'easy',
+    },
+    {
+      q: 'According to Jinnah, the Indian problem was:',
+      options: ['A. Communal', 'B. International', 'C. Economic', 'D. Social'],
+      answer: 'B. International',
+      diff: 'medium',
+    },
+    {
+      q: 'Which of the following is true about the Lahore Resolution?',
+      options: ['A. It demanded a united India', 'B. It rejected the federal system under 1935 Act', 'C. It accepted Congress leadership', 'D. It supported British rule'],
+      answer: 'B. It rejected the federal system under 1935 Act',
+      diff: 'easy',
+    }
+  ]
+},
+
+
 
   
   },
