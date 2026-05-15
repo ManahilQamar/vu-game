@@ -9192,7 +9192,7 @@ CS is used in hospitals, banks, telecom, Pak Army, freelancing, and almost all p
 // lecture 2//
 
 
-pak101_2: {
+  2: {
   title: 'Muslim Identity, Two-Nation Theory, and Role of Jinnah & Allama Iqbal (PAK101 Lecture 2)',
   summary: `**Key Topics Covered:**
 - Development of Muslim identity in the Indian subcontinent
@@ -10525,7 +10525,7 @@ pak101_2: {
 /// lecture 7//
 
 
-pak101_7: {
+ 7: {
   title: 'Constitutional Developments (1927-1935): Delhi Proposals, Nehru Report, Jinnah’s 14 Points, Simon Commission, Round Table Conferences, Communal Award, Poona Pact, Government of India Act 1935 (PAK101 Lecture 7)',
   summary: `**Key Topics Covered:**
 - Delhi Muslim Proposals (March 1927): Statuary Muslim majorities in Punjab & Bengal, Sind separation from Bombay, NWFP reforms, 1/3 seats in Central Legislature, conditional concession of separate electorate
@@ -11077,7 +11077,7 @@ pak101_7: {
 
 // L 9 //
 
-pak101_9: {
+  9: {
   title: 'Chaudhary Rahmat Ali: The Man Who Coined the Name "Pakistan" (PAK101 Lecture 9)',
   summary: `**Key Topics Covered:**
 - Role of intellectuals in the Pakistan Movement
