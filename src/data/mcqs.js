@@ -8790,7 +8790,7 @@ CS is used in hospitals, banks, telecom, Pak Army, freelancing, and almost all p
       diff: 'easy',
     }
   ]
-}
+},
 
 // L 7 //
 
