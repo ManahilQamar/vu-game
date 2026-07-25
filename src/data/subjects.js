@@ -3,11 +3,11 @@ const semesters = [
   {
     sem: 1,
     subjects: [
-      { id: 'CS101',  name: 'CS101',  fullName: 'Introduction to Computing',        icon: '💻', color: '#2563eb', bg: '#eff6ff', total: 150 },
+      { id: 'CS101',  name: 'CS101',  fullName: 'Introduction to Computing',        icon: '💻', color: '#2563eb', bg: '#eff6ff', total: 234 },
       { id: 'ENG101', name: 'ENG101', fullName: 'English Comprehension',             icon: '📖', color: '#16a34a', bg: '#f0fdf4', total: 45 },
       { id: 'MTH101', name: 'MTH101', fullName: 'Calculus And Analytical Geometry',  icon: '📐', color: '#9333ea', bg: '#faf5ff', total: 45 },
       { id: 'MTH202', name: 'MTH202', fullName: 'Discrete Mathematics',              icon: '∑',  color: '#ea580c', bg: '#fff7ed', total: 45 },
-      { id: 'PAK301', name: 'PAK301', fullName: 'Pakistan Studies',                  icon: '📜', color: '#0891b2', bg: '#ecfeff', total: 45 },
+      { id: 'PAK301', name: 'PAK301', fullName: 'Pakistan Studies',                  icon: '📜', color: '#0891b2', bg: '#ecfeff', total: 30 },
       { id: 'PHY101', name: 'PHY101', fullName: 'Physics',                           icon: '⚛',  color: '#dc2626', bg: '#fef2f2', total: 45 },
 
     ],

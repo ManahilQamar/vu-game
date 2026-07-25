@@ -47295,6 +47295,207 @@ Exam Tips ⭐
     }
   ]
 },
+147: {
+  title: "Data Abstraction: List, Stacks and Queues",
+  summary: `List, Stacks and Queues ⭐
+
+List ek basic data structure hai.
+
+List entries sequentially arranged hoti hain.
+
+List ka beginning = Head.
+List ka end = Tail.
+
+List Examples ⭐
+
+• Guest list.
+• Shopping list.
+• Class enrollment list.
+• Inventory list.
+• Text as list of symbols.
+• Music as list of sounds.
+
+List Operations ⭐
+
+• Add entries.
+• Remove entries.
+• Process entries one by one.
+• Change arrangement.
+• Search for items.
+
+Stack ⭐
+
+Stack ek special list hai jisme entries sirf head par insert aur remove hoti hain.
+
+Example: Books ki stack.
+
+Stack Terminology:
+• Top = Head of stack.
+• Bottom/Base = Tail of stack.
+
+Stack Operations ⭐
+
+1. Push: Insert entry at top.
+2. Pop: Remove entry from top.
+
+LIFO Principle ⭐
+
+Stack = LIFO (Last-In, First-Out).
+
+Last entry placed on stack = First entry removed.
+
+Ideal for:
+• Backtracking activities.
+• Recursive processes.
+• Undo operations.
+
+Queue ⭐
+
+Queue ek special list hai jisme:
+• Entries head par remove hoti hain.
+• New entries tail par insert hoti hain.
+
+Example: Ticket line (queue).
+
+Queue Terminology:
+• Head = Front.
+• Tail = Rear.
+
+Queue Principle ⭐
+
+Queue = FIFO (First-In, First-Out).
+
+Entries removed in same order as stored.
+
+Queue Applications ⭐
+
+1. Buffer (storage area):
+   • Data temporarily placed.
+   • Forward in arrival order.
+
+2. Print spooler.
+3. Customer service lines.
+4. Task scheduling.
+
+Buffer Example ⭐
+
+• Data arrives at buffer.
+• Placed at tail of queue.
+• Forwarded from head.
+• Order maintained.
+
+Key Points ⭐
+
+• List = Sequential collection.
+• Head = Beginning.
+• Tail = End.
+• Stack = LIFO structure.
+• Queue = FIFO structure.
+• Push = Stack insert.
+• Pop = Stack remove.
+
+Exam Tips ⭐
+
+• List = Ordered collection.
+• Head = Start.
+• Tail = End.
+• Stack = LIFO.
+• Queue = FIFO.
+• Push = Add to stack.
+• Pop = Remove from stack.
+• Buffer uses queue.
+• Recursion uses stack.`,
+  questions: [
+    {
+      q: 'What is a "list" in data abstraction?',
+      options: [
+        'A. A collection whose entries are arranged sequentially.',
+        'B. A collection that has no order.',
+        'C. A single data item.',
+        'D. A type of database.'
+      ],
+      answer: 'A. A collection whose entries are arranged sequentially.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is NOT a common operation performed on a list?',
+      options: [
+        'A. Removing entries.',
+        'B. Adding new entries.',
+        'C. Encrypting entries.',
+        'D. Searching for a specific item.'
+      ],
+      answer: 'C. Encrypting entries.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does LIFO stand for in the context of a stack?',
+      options: [
+        'A. Last-In, First-Out.',
+        'B. First-In, Last-Out.',
+        'C. Last-In, Last-Out.',
+        'D. First-In, First-Out.'
+      ],
+      answer: 'A. Last-In, First-Out.',
+      diff: 'hard',
+    },
+    {
+      q: 'The operation of inserting a new entry at the top of a stack is called:',
+      options: [
+        'A. Pushing.',
+        'B. Popping.',
+        'C. Queuing.',
+        'D. Listing.'
+      ],
+      answer: 'A. Pushing.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the primary characteristic of a queue?',
+      options: [
+        'A. It is a FIFO structure where entries are removed in the order they were added.',
+        'B. It is a LIFO structure.',
+        'C. It only allows access to the middle element.',
+        'D. It cannot be changed after creation.'
+      ],
+      answer: 'A. It is a FIFO structure where entries are removed in the order they were added.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which data structure is ideal for implementing the undo feature in software?',
+      options: [
+        'A. Stack.',
+        'B. Queue.',
+        'C. List.',
+        'D. Array.'
+      ],
+      answer: 'A. Stack.',
+      diff: 'hard',
+    },
+    {
+      q: 'A buffer that forwards data in the order it arrives is an example of:',
+      options: [
+        'A. A queue.',
+        'B. A stack.',
+        'C. A linked list.',
+        'D. A tree.'
+      ],
+      answer: 'A. A queue.',
+      diff: 'hard',
+    },
+    {
+      q: 'The operation of removing an entry from the top of a stack is called:',
+      options: [
+        'A. Popping.',
+        'B. Pushing.',
+        'C. Queuing.',
+        'D. Enqueuing.'
+      ],
+      answer: 'A. Popping.',
+      diff: 'hard',
+    },
+  ]
+},
 
 
 148: {
@@ -47912,7 +48113,11452 @@ Exam Tips ⭐
     },
   ]
 },
+151: {
+  title: "Database Systems: Role of Schema",
+  summary: `Schema ⭐
 
+Schema database ki poori structure ka description hota hai.
+
+Ye database software ko database maintain karne me help karta hai.
+
+Subschema ⭐
+
+Subschema database ka sirf woh part hota hai jo kisi particular user ke kaam aata hai.
+
+Different users ko unki zaroorat ke mutabiq different information di ja sakti hai.
+
+Example: University Database ⭐
+
+Schema:
+• Student record: address, phone number, academic record.
+• Student ka link faculty adviser se.
+• Faculty record: address, employment history, etc.
+
+Registrar ka Subschema:
+• Student records accessible hain.
+• Faculty employment history nahi dikhegi.
+• Sirf ye pata chalega ke kaunsa faculty member kis student ka adviser hai.
+
+Payroll Department ka Subschema:
+• Faculty employment history accessible hai.
+• Student-faculty adviser link nahi dikhega.
+• Salary modify kar sakte hain lekin student ke adviser nahi dekh sakte.
+
+Why Subschema? ⭐
+
+• Sensitive data ko unauthorized access se bachana.
+• Different users ko different access levels dena.
+• Data privacy maintain karna.
+• Need-to-know basis par information provide karna.
+
+Key Points ⭐
+
+• Schema = Complete database structure.
+• Subschema = User-specific database view.
+• Schema database software ke liye hai.
+• Subschema user ke liye hai.
+• Schema subschema ke through access control provide karta hai.
+• Different users ki different access permissions hoti hain.
+
+Exam Tips ⭐
+
+• Schema poori database structure describe karta hai.
+• Subschema sirf user-specific information provide karta hai.
+• Schema database software maintain karta hai.
+• Subschema user access control ke liye use hota hai.
+• Subschema ki wajah se sensitive data protect ho jata hai.
+• Different users ko unki zaroorat ke mutabiq access diya jata hai.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of a schema in a database system?',
+      options: [
+        'A. To describe the complete structure of the entire database for the DBMS.',
+        'B. To provide access to sensitive data for all users.',
+        'C. To store only employee payroll information.',
+        'D. To eliminate the need for database software.'
+      ],
+      answer: 'A. To describe the complete structure of the entire database for the DBMS.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why are subschemas used in database systems?',
+      options: [
+        'A. To give different users access to only the information they need and prevent unauthorized access.',
+        'B. To increase the overall storage space of the database.',
+        'C. To allow users to modify the complete database structure.',
+        'D. To combine all user information into one table.'
+      ],
+      answer: 'A. To give different users access to only the information they need and prevent unauthorized access.',
+      diff: 'hard',
+    },
+    {
+      q: 'In a university database, which information would be hidden from the registrar through a subschema?',
+      options: [
+        'A. Faculty employment history.',
+        'B. Student names.',
+        'C. Student identification numbers.',
+        'D. Faculty-student adviser linkages.'
+      ],
+      answer: 'A. Faculty employment history.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which department would be allowed to view and modify faculty employment history through its subschema?',
+      options: [
+        'A. Payroll Department.',
+        'B. Registrar\'s Office.',
+        'C. Student Affairs.',
+        'D. Admissions Department.'
+      ],
+      answer: 'A. Payroll Department.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the relationship between a schema and a subschema?',
+      options: [
+        'A. A subschema is a restricted view of the complete schema tailored to specific user needs.',
+        'B. A schema is a restricted view of a subschema.',
+        'C. A subschema describes the complete database for all users.',
+        'D. Schemas and subschemas are independent and unrelated concepts.'
+      ],
+      answer: 'A. A subschema is a restricted view of the complete schema tailored to specific user needs.',
+      diff: 'hard',
+    },
+  ]
+},
+
+152: {
+  title: "Database Systems: Database Management Systems",
+  summary: `Database Management System (DBMS) ⭐
+
+DBMS wo software hai jo database ke saath direct interaction karta hai.
+
+Application software user se communicate karta hai aur DBMS ko instructions deta hai.
+
+Layers of Database Application ⭐
+
+1. Application Layer:
+   • User se communication handle karta hai.
+   • Complex ho sakta hai (jaise web-based databases).
+   • User requests ko DBMS ke liye translate karta hai.
+
+2. Database Management Layer:
+   • Actual database manipulation karta hai.
+   • Data add, delete, retrieve karta hai.
+   • Required searches perform karta hai.
+
+Benefits of DBMS Separation ⭐
+
+1. Abstract Tools:
+   • Application software ko simplify karta hai.
+   • Database storage details hide ho jati hain.
+   • Distributed database support easily available.
+
+2. Access Control:
+   • DBMS access control enforce karta hai.
+   • Subschema restrictions implement hoti hain.
+   • Security better hoti hai.
+
+3. Data Independence:
+   • Database organization change ho to application software change nahi karna.
+   • Personnel department new field add kare to other programs unaffected rahen.
+   • Sirf schema aur affected subschemas change hote hain.
+
+Important Concept ⭐
+
+DBMS application software aur actual database ke darmiyan ek layer ki tarah kaam karta hai.
+
+Is se application software simplify hota hai aur data independence milti hai.
+
+Exam Tips ⭐
+
+• DBMS database ko directly manipulate karta hai.
+• Application software user interface provide karta hai.
+• DBMS separation se abstract tools bante hain.
+• Data independence DBMS ki important feature hai.
+• DBMS access control enforce karta hai.
+• Data independence ki wajah se application software change nahi karna padta.`,
+  questions: [
+    {
+      q: 'What is the primary function of a Database Management System (DBMS)?',
+      options: [
+        'A. To directly manipulate the database by performing searches and modifications.',
+        'B. To provide a user interface for communication with the user.',
+        'C. To store images and videos only.',
+        'D. To replace the need for application software.'
+      ],
+      answer: 'A. To directly manipulate the database by performing searches and modifications.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which layer in a database application handles communication with the user?',
+      options: [
+        'A. Application Layer.',
+        'B. Database Management Layer.',
+        'C. Data Storage Layer.',
+        'D. Physical Layer.'
+      ],
+      answer: 'A. Application Layer.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is one major advantage of separating the application software from the DBMS?',
+      options: [
+        'A. The system can achieve data independence, so changes to the database structure may not require changes to all application programs.',
+        'B. The system requires more complex programming.',
+        'C. The application software must manage the physical data storage.',
+        'D. The DBMS cannot enforce security restrictions.'
+      ],
+      answer: 'A. The system can achieve data independence, so changes to the database structure may not require changes to all application programs.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does a DBMS enforce access control?',
+      options: [
+        'A. By using subschemas to restrict each user\'s view of the database.',
+        'B. By allowing all users to modify the complete schema.',
+        'C. By storing all data in a single table.',
+        'D. By disabling security features.'
+      ],
+      answer: 'A. By using subschemas to restrict each user\'s view of the database.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is meant by "data independence" in the context of database management systems?',
+      options: [
+        'A. The ability to change the organization of the database without changing the application software.',
+        'B. The ability to store data in multiple formats.',
+        'C. The ability to access data from any location.',
+        'D. The ability to delete data without authorization.'
+      ],
+      answer: 'A. The ability to change the organization of the database without changing the application software.',
+      diff: 'hard',
+    },
+  ]
+},
+
+153: {
+  title: "Database Systems: Relational Database model",
+  summary: `Relational Database Model ⭐
+
+Relational database model data ko rectangular tables (relations) ki form me store karta hai.
+
+Ye spreadsheet ki tarah hota hai.
+
+Relation ⭐
+
+Relation database ki ek table hoti hai.
+
+Isme rows (tuples) aur columns (attributes) hote hain.
+
+Tuple ⭐
+
+Tuple relation ki ek row hoti hai.
+
+Example: Kisi employee ke baare me saari information ek tuple hoti hai.
+
+Attribute ⭐
+
+Attribute relation ka ek column hota hai.
+
+Har attribute ek specific characteristic describe karta hai.
+
+Example: Employee relation me:
+• Name attribute
+• Address attribute
+• ID attribute
+
+Visual Representation ⭐
+
+Relation ko table ki form me dikhaya jata hai:
+
+| Name | Address | ID |
+|------|---------|----|
+| Ali  | Lahore  | 1  |
+| Sara | Karachi | 2  |
+
+Relational Model Benefits ⭐
+
+• Data ko organized tarike se store karna.
+• Easy to understand (spreadsheet ki tarah).
+• SQL queries ke through data retrieve karna easy.
+• Data relationships clear hoti hain.
+
+Key Points ⭐
+
+• Relation = Table in database.
+• Tuple = Row in table.
+• Attribute = Column in table.
+• Relational model spreadsheet-like structure use karta hai.
+• Data organized aur accessible hota hai.
+
+Exam Tips ⭐
+
+• Relational model data ko tables me store karta hai.
+• Relation = Table.
+• Tuple = Row.
+• Attribute = Column.
+• Relational model easy to understand aur use karna.
+• SQL relational databases ke liye standard query language hai.`,
+  questions: [
+    {
+      q: 'In the relational database model, what is a "relation"?',
+      options: [
+        'A. A rectangular table used to store data.',
+        'B. A relationship between two employees.',
+        'C. A column in a database table.',
+        'D. A primary key constraint.'
+      ],
+      answer: 'A. A rectangular table used to store data.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a "tuple" in the context of the relational model?',
+      options: [
+        'A. A row in a relation.',
+        'B. A column in a relation.',
+        'C. The complete database schema.',
+        'D. A foreign key constraint.'
+      ],
+      answer: 'A. A row in a relation.',
+      diff: 'hard',
+    },
+    {
+      q: 'What are "attributes" in a relational database?',
+      options: [
+        'A. Columns that describe characteristics of the entity represented in the table.',
+        'B. Rows that store data about individual entities.',
+        'C. The entire database file.',
+        'D. Only primary key fields.'
+      ],
+      answer: 'A. Columns that describe characteristics of the entity represented in the table.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which real-world tool is the relational database model most similar to?',
+      options: [
+        'A. A spreadsheet.',
+        'B. A word processor.',
+        'C. A web browser.',
+        'D. A presentation software.'
+      ],
+      answer: 'A. A spreadsheet.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which statement best describes the visual format of a relation in the relational model?',
+      options: [
+        'A. Data is organized in rows and columns similar to a table.',
+        'B. Data is stored as a single long list.',
+        'C. Data is organized in a hierarchical tree structure.',
+        'D. Data is stored as a network of pointers.'
+      ],
+      answer: 'A. Data is organized in rows and columns similar to a table.',
+      diff: 'hard',
+    },
+  ]
+},
+
+154: {
+  title: "Database Systems: Issues of Relational Designs",
+  summary: `Relational Design Issues ⭐
+
+Relational database design me kuch problems aati hain agar design sahi na ho.
+
+Redundancy Problem ⭐
+
+Data duplication hoti hai agar multiple concepts ek relation me combine kar diye jayen.
+
+Example:
+
+Employee relation me job history bhi add kar di to:
+• Employee ki personal information (name, address) har job ke liye repeat hogi.
+• Job ki information (department, skill code) har employee ke liye repeat hogi.
+
+Redundancy Problems ⭐
+
+1. Storage waste:
+   • Same data multiple jagah store hota hai.
+   • Memory aur storage space waste hoti hai.
+
+2. Update anomalies:
+   • Ek jagah data update karna to doosri jagah purani data reh jati hai.
+   • Data inconsistency create hoti hai.
+
+Deletion Problem ⭐
+
+Agar kisi employee ko delete karen to job information bhi delete ho sakti hai.
+
+Example:
+
+Joe Baker job D7 par hai aur woh delete ho gaya to job D7 ki saari information bhi delete ho jayegi.
+
+Cause of Problems ⭐
+
+Ek relation me multiple concepts combine kar diye gaye hain.
+
+Example: Ek relation me:
+• Employee information
+• Job information
+• Employee-Job relationship
+
+Solution ⭐
+
+Different concepts ko different relations me alag karna.
+
+Example: Three Relations:
+1. EMPLOYEE relation (personal info)
+2. JOB relation (job info)
+3. ASSIGNMENT relation (employee-job relationship)
+
+Design Principle ⭐
+
+Har relation ek single concept ko represent kare.
+
+Alag alag concepts ko alag relations me store karo.
+
+Exam Tips ⭐
+
+• Redundancy data duplication hai.
+• Redundancy storage waste aur update anomalies cause karti hai.
+• Deletion anomalies data loss ka cause ban sakti hain.
+• Multiple concepts ko ek relation me combine karna problem hai.
+• Solution: Different concepts ko different relations me alag karna.`,
+  questions: [
+    {
+      q: 'What is the primary problem caused by combining multiple concepts (like employee and job information) into a single relation?',
+      options: [
+        'A. Data redundancy leading to wasted space and potential update anomalies.',
+        'B. Data becomes more secure.',
+        'C. Searching becomes faster.',
+        'D. The relation cannot be converted to a spreadsheet.'
+      ],
+      answer: 'A. Data redundancy leading to wasted space and potential update anomalies.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a "deletion anomaly" in the context of a poorly designed relational database?',
+      options: [
+        'A. Deleting a record may cause the loss of valuable information about other entities.',
+        'B. Deleting a record automatically creates a backup.',
+        'C. Deleting a record is impossible without special permissions.',
+        'D. Deleting a record has no effect on other data.'
+      ],
+      answer: 'A. Deleting a record may cause the loss of valuable information about other entities.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why did the extended relation containing employee and job history cause redundant data?',
+      options: [
+        'A. Employee information was repeated for each job assignment, and job information was repeated for each employee who held the job.',
+        'B. The data was stored in different file formats.',
+        'C. The database had no primary key.',
+        'D. The data was compressed inefficiently.'
+      ],
+      answer: 'A. Employee information was repeated for each job assignment, and job information was repeated for each employee who held the job.',
+      diff: 'hard',
+    },
+    {
+      q: 'How can a database designer solve the problems of redundancy and deletion anomalies in the employee-job example?',
+      options: [
+        'A. By separating the data into three distinct relations: EMPLOYEE, JOB, and ASSIGNMENT.',
+        'B. By storing all data in one large file.',
+        'C. By using only two tables and ignoring the relationship.',
+        'D. By deleting all employee information.'
+      ],
+      answer: 'A. By separating the data into three distinct relations: EMPLOYEE, JOB, and ASSIGNMENT.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which statement best represents a key principle of good relational database design?',
+      options: [
+        'A. Each relation should represent a single concept to avoid redundancy and anomalies.',
+        'B. All related data should be combined into a single relation for simplicity.',
+        'C. Relations should be designed to maximize data duplication.',
+        'D. The design should prioritize the deletion of older records.'
+      ],
+      answer: 'A. Each relation should represent a single concept to avoid redundancy and anomalies.',
+      diff: 'hard',
+    },
+  ]
+},
+
+155: {
+  title: "Database Systems: Relational operators",
+  summary: `Relational Operators ⭐
+
+Relational operators database relations par operations perform karne ke liye use hote hain.
+
+Ye operators data ko extract, manipulate aur combine karne me help karte hain.
+
+Types of Relational Operators ⭐
+
+1. SELECT Operation
+2. PROJECT Operation
+3. JOIN Operation
+
+SELECT Operation ⭐
+
+Specific tuples (rows) ko select karta hai based on condition.
+
+Example:
+• Employee jiska ID '34Y70' hai usko select karo.
+• Certain department ki jobs select karo.
+
+Syntax: SELECT from table where condition
+
+Result: Naya relation containing selected tuples.
+
+PROJECT Operation ⭐
+
+Specific attributes (columns) ko extract karta hai.
+
+Example:
+• Sirf employees ke name aur address extract karo.
+• Sirf job titles extract karo.
+
+Syntax: PROJECT columns from table
+
+Result: Naya relation containing selected columns.
+
+JOIN Operation ⭐
+
+Do relations ko combine karke ek relation banata hai.
+
+Example:
+• ASSIGNMENT aur JOB relations ko join karke employee departments find karna.
+
+Syntax: JOIN relation1 and relation2 where condition
+
+Result: Naya relation containing columns from both relations.
+
+Key Points ⭐
+
+• SELECT = Rows select karna.
+• PROJECT = Columns select karna.
+• JOIN = Relations combine karna.
+• Har operation ka result ek naya relation hota hai.
+• Operations ko combine karke complex queries banai ja sakti hain.
+
+Exam Tips ⭐
+
+• SELECT rows ko filter karta hai.
+• PROJECT columns ko filter karta hai.
+• JOIN relations ko combine karta hai.
+• Har operation ka result ek relation hota hai.
+• Relational operators database queries ka foundation hain.`,
+  questions: [
+    {
+      q: 'Which relational operator is used to select specific tuples (rows) from a relation based on a condition?',
+      options: [
+        'A. SELECT.',
+        'B. PROJECT.',
+        'C. JOIN.',
+        'D. DELETE.'
+      ],
+      answer: 'A. SELECT.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which operator would you use to extract only the "Name" and "Address" columns from an EMPLOYEE relation?',
+      options: [
+        'A. PROJECT.',
+        'B. SELECT.',
+        'C. JOIN.',
+        'D. UPDATE.'
+      ],
+      answer: 'A. PROJECT.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the result of performing a relational operation like SELECT, PROJECT, or JOIN?',
+      options: [
+        'A. A new relation is created.',
+        'B. The original relation is deleted.',
+        'C. The database is permanently modified.',
+        'D. No changes are made to the data.'
+      ],
+      answer: 'A. A new relation is created.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which operation is used to combine two different relations into a single relation?',
+      options: [
+        'A. JOIN.',
+        'B. PROJECT.',
+        'C. SELECT.',
+        'D. INSERT.'
+      ],
+      answer: 'A. JOIN.',
+      diff: 'hard',
+    },
+    {
+      q: 'To find a list of all employee identification numbers and the department they work for, which sequence of operations would be most appropriate?',
+      options: [
+        'A. JOIN, then SELECT, then PROJECT.',
+        'B. PROJECT, then JOIN.',
+        'C. SELECT, then PROJECT.',
+        'D. INSERT, then DELETE.'
+      ],
+      answer: 'A. JOIN, then SELECT, then PROJECT.',
+      diff: 'hard',
+    },
+  ]
+},
+
+156: {
+  title: "Database Systems: Select Operation",
+  summary: `SELECT Operation ⭐
+
+SELECT operation relation se specific tuples (rows) ko select karta hai.
+
+Ye condition ke mutabiq rows ko filter karta hai.
+
+Syntax ⭐
+
+NEW <- SELECT from table where condition
+
+Example:
+NEW <- SELECT from EMPLOYEE where EmplId = '34Y70'
+
+Working ⭐
+
+• Table me har tuple par condition check hoti hai.
+• Jis tuple par condition true hoti hai, woh new relation me add ho jata hai.
+• Jis par false hoti hai, woh include nahi hota.
+
+Result ⭐
+
+Naya relation containing:
+• Same attributes (columns) as original table.
+• Sirf woh tuples jin par condition true hai.
+
+Example Use Cases ⭐
+
+1. Kisi specific employee ka record find karna.
+2. Certain department ki jobs find karna.
+3. Specific date ke transactions find karna.
+4. Kisi city ke customers find karna.
+
+Key Points ⭐
+
+• SELECT rows ko filter karta hai.
+• Condition ke mutabiq tuples select hote hain.
+• Result ek naya relation hota hai.
+• Original relation unchanged rehta hai.
+• SELECT ka result dobara SELECT par apply kiya ja sakta hai.
+
+Exam Tips ⭐
+
+• SELECT = Horizontal filtering (rows).
+• SELECT condition ke mutabiq tuples select karta hai.
+• SELECT ka result ek naya relation hai.
+• SELECT ko nested queries me use kiya ja sakta hai.
+• WHERE clause SELECT ki condition define karta hai.`,
+  questions: [
+    {
+      q: 'What is the primary function of the SELECT operation in a relational database?',
+      options: [
+        'A. To select specific tuples (rows) from a relation based on a condition.',
+        'B. To select specific attributes (columns) from a relation.',
+        'C. To combine two relations into one.',
+        'D. To delete tuples from a relation.'
+      ],
+      answer: 'A. To select specific tuples (rows) from a relation based on a condition.',
+      diff: 'hard',
+    },
+    {
+      q: 'In the statement NEW <- SELECT from EMPLOYEE where EmplId = 34Y70, what does NEW represent?',
+      options: [
+        'A. The new relation containing the selected tuple(s).',
+        'B. A new attribute added to the EMPLOYEE relation.',
+        'C. The original EMPLOYEE relation.',
+        'D. A deleted tuple from the database.'
+      ],
+      answer: 'A. The new relation containing the selected tuple(s).',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens to the original relation when a SELECT operation is performed?',
+      options: [
+        'A. The original relation remains unchanged.',
+        'B. The original relation is deleted.',
+        'C. The original relation is converted to a new format.',
+        'D. The original relation\'s data is overwritten.'
+      ],
+      answer: 'A. The original relation remains unchanged.',
+      diff: 'hard',
+    },
+    {
+      q: 'What type of filtering does the SELECT operation perform on a relation?',
+      options: [
+        'A. Horizontal filtering (row selection).',
+        'B. Vertical filtering (column selection).',
+        'C. Both horizontal and vertical filtering.',
+        'D. No filtering; it deletes all data.'
+      ],
+      answer: 'A. Horizontal filtering (row selection).',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is a valid use case for a SELECT operation?',
+      options: [
+        'A. Retrieving all tuples that belong to a specific department.',
+        'B. Retrieving only the "Name" column from an employee table.',
+        'C. Combining employee and department tables into one.',
+        'D. Deleting all tuples from a table.'
+      ],
+      answer: 'A. Retrieving all tuples that belong to a specific department.',
+      diff: 'hard',
+    },
+  ]
+},
+
+157: {
+  title: "Database Systems: project Operation",
+  summary: `PROJECT Operation ⭐
+
+PROJECT operation relation se specific attributes (columns) ko extract karta hai.
+
+Ye vertical filtering perform karta hai.
+
+Syntax ⭐
+
+NEW <- PROJECT attributes from table
+
+Example:
+MAIL <- PROJECT Name, Address from EMPLOYEE
+
+Working ⭐
+
+• Relation me har tuple se specific attributes select hote hain.
+• Selected columns ka naya relation ban jata hai.
+• Duplicate rows remove ho jati hain (if any).
+
+Result ⭐
+
+Naya relation containing:
+• Sirf specified attributes (columns).
+• Same number of tuples (rows) as original (duplicates removed).
+
+Example Use Cases ⭐
+
+1. Sirf employee names aur addresses ki list banana.
+2. Sirf job titles extract karna.
+3. Customer phone numbers ki list banana.
+4. Product names aur prices ki list banana.
+
+SELECT vs PROJECT ⭐
+
+• SELECT: Rows filter karta hai (horizontal).
+• PROJECT: Columns filter karta hai (vertical).
+
+Key Points ⭐
+
+• PROJECT columns ko filter karta hai.
+• Specific attributes extract hote hain.
+• Result ek naya relation hota hai.
+• Original relation unchanged rehta hai.
+• PROJECT ka result dobara PROJECT par apply kiya ja sakta hai.
+
+Exam Tips ⭐
+
+• PROJECT = Vertical filtering (columns).
+• PROJECT specific attributes extract karta hai.
+• PROJECT ka result ek naya relation hai.
+• SELECT rows filter karta hai, PROJECT columns filter karta hai.
+• PROJECT ko nested queries me use kiya ja sakta hai.`,
+  questions: [
+    {
+      q: 'What is the primary function of the PROJECT operation in a relational database?',
+      options: [
+        'A. To select specific attributes (columns) from a relation.',
+        'B. To select specific tuples (rows) from a relation based on a condition.',
+        'C. To combine two relations into one.',
+        'D. To insert new data into a relation.'
+      ],
+      answer: 'A. To select specific attributes (columns) from a relation.',
+      diff: 'hard',
+    },
+    {
+      q: 'In the statement MAIL <- PROJECT Name, Address from EMPLOYEE, what will the new relation "MAIL" contain?',
+      options: [
+        'A. Only the Name and Address columns for all employees.',
+        'B. The complete EMPLOYEE relation with all columns.',
+        'C. Only the Name column.',
+        'D. Only the Address column.'
+      ],
+      answer: 'A. Only the Name and Address columns for all employees.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does the PROJECT operation differ from the SELECT operation?',
+      options: [
+        'A. PROJECT filters columns (vertical), while SELECT filters rows (horizontal).',
+        'B. PROJECT filters rows (horizontal), while SELECT filters columns (vertical).',
+        'C. PROJECT combines relations, while SELECT deletes data.',
+        'D. PROJECT has no condition, while SELECT has a condition.'
+      ],
+      answer: 'A. PROJECT filters columns (vertical), while SELECT filters rows (horizontal).',
+      diff: 'hard',
+    },
+    {
+      q: 'What type of filtering does the PROJECT operation perform on a relation?',
+      options: [
+        'A. Vertical filtering (column selection).',
+        'B. Horizontal filtering (row selection).',
+        'C. Both horizontal and vertical filtering.',
+        'D. No filtering; it modifies the original data.'
+      ],
+      answer: 'A. Vertical filtering (column selection).',
+      diff: 'hard',
+    },
+    {
+      q: 'Which statement correctly describes the result of a PROJECT operation?',
+      options: [
+        'A. It creates a new relation containing only the specified columns from the original.',
+        'B. It deletes the specified columns from the original relation.',
+        'C. It permanently modifies the original relation.',
+        'D. It combines the specified columns with another relation.'
+      ],
+      answer: 'A. It creates a new relation containing only the specified columns from the original.',
+      diff: 'hard',
+    },
+  ]
+},
+
+158: {
+  title: "Database Systems: Join Operation",
+  summary: `JOIN Operation ⭐
+
+JOIN operation do relations ko combine kar ke ek naya relation banata hai.
+
+Ye relations ke darmiyan relationships establish karta hai.
+
+Syntax ⭐
+
+C <- JOIN A and B where A.W = B.X
+
+Working ⭐
+
+• Do relations ke tuples ko concatenate (join) karta hai.
+• Condition ke mutabiq tuples join hote hain.
+• Jo tuples condition satisfy karte hain, woh new relation me aate hain.
+
+Naming Convention ⭐
+
+Join result me attributes original relation ke naam se prefix hote hain.
+
+Example: Agar relation A me V, W hain aur relation B me X, Y, Z hain to result me honge:
+• A.V, A.W, B.X, B.Y, B.Z
+
+Is se attribute names unique rehte hain.
+
+Join Types ⭐
+
+1. Equi-Join: A.W = B.X (equal values)
+2. Non-Equi Join: A.W < B.X (less than)
+3. Natural Join: Similar columns automatically join
+
+Example Use Cases ⭐
+
+1. Employee and Department relations join karna.
+2. Student and Course relations join karna.
+3. Sales and Product relations join karna.
+4. Order and Customer relations join karna.
+
+Key Points ⭐
+
+• JOIN relations ko combine karta hai.
+• Condition ke mutabiq tuples join hote hain.
+• Result ek naya relation hota hai.
+• Attributes prefix hote hain unique identification ke liye.
+• JOIN complex queries ki foundation hai.
+
+Exam Tips ⭐
+
+• JOIN do relations ko combine karta hai.
+• Join condition determine karti hai kaunse tuples join honge.
+• Result me original relations ke attributes prefix ke sath aate hain.
+• Equi-Join, Non-Equi Join aur Natural Join types hain.
+• JOIN relational database queries me bohat important hai.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of the JOIN operation in a relational database?',
+      options: [
+        'A. To combine two relations into one based on a specified condition.',
+        'B. To select specific rows from a relation.',
+        'C. To select specific columns from a relation.',
+        'D. To delete data from a relation.'
+      ],
+      answer: 'A. To combine two relations into one based on a specified condition.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of prefixing attribute names with the relation name in a JOIN operation?',
+      options: [
+        'A. To ensure that attributes from different relations have unique names.',
+        'B. To make the database run faster.',
+        'C. To hide the data from the user.',
+        'D. To allow the deletion of attributes.'
+      ],
+      answer: 'A. To ensure that attributes from different relations have unique names.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which tuples from the original relations are included in the result of a JOIN operation?',
+      options: [
+        'A. Only those tuples that satisfy the join condition.',
+        'B. All tuples from the first relation and none from the second.',
+        'C. All tuples from the second relation and none from the first.',
+        'D. No tuples; the result is empty.'
+      ],
+      answer: 'A. Only those tuples that satisfy the join condition.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is an "Equi-Join"?',
+      options: [
+        'A. A join where the join condition is based on equality (e.g., A.W = B.X).',
+        'B. A join where the join condition is based on inequality (e.g., A.W < B.X).',
+        'C. A join that combines all rows from two tables.',
+        'D. A join that deletes data from both tables.'
+      ],
+      answer: 'A. A join where the join condition is based on equality (e.g., A.W = B.X).',
+      diff: 'hard',
+    },
+    {
+      q: 'If you want to find the department for each employee by matching the "DeptId" in the EMPLOYEE table with the "Id" in the DEPARTMENT table, which operation would you use?',
+      options: [
+        'A. JOIN.',
+        'B. SELECT.',
+        'C. PROJECT.',
+        'D. INSERT.'
+      ],
+      answer: 'A. JOIN.',
+      diff: 'hard',
+    },
+  ]
+},
+
+159: {
+  title: "Database Systems: Object Oriented Databases",
+  summary: `Object-Oriented Database ⭐
+
+Object-Oriented Database objects ko store karta hai jo ek doosre se links ke zariye related hote hain.
+
+Ye object-oriented programming paradigm par based hai.
+
+OO Database Structure ⭐
+
+Classes (Object Types):
+1. Employee Class:
+   • Attributes: EmplId, Name, Address, SSNum
+   • Methods: getJobHistory(), changeAssignment()
+
+2. Job Class:
+   • Attributes: JobId, JobTitle, SkillCode, Dept
+   • Methods: getEmployees()
+
+3. Assignment Class:
+   • Attributes: StartDate, TermDate
+   • Methods: getEmployee(), getJob()
+
+Object Links ⭐
+
+Objects aapas me links ke zariye connected hote hain.
+
+Example:
+• Employee object → Assignment objects (employee ki assignments)
+• Assignment object → Job object (assignment ki job)
+• Job object → Employee objects (job par kaam karne wale employees)
+
+Advantages of OO Databases ⭐
+
+1. Same Paradigm:
+   • Application software aur database dono object-oriented hain.
+   • Homogeneous system ban jata hai.
+   • Less paradigm mismatch errors.
+
+2. Encapsulation:
+   • Complex data structures objects ke andar hide ho jati hain.
+   • Example: Employee name different formats me access ho sakta hai.
+   • Multimedia data easily store ho sakti hai.
+
+3. Intelligent Objects:
+   • Objects methods contain karte hain.
+   • Data + Behavior = Intelligent Object.
+   • Example: Employee object apni job history report kar sakta hai.
+
+4. Persistent Objects:
+   • Objects program ke terminate hone ke baad bhi save rehte hain.
+   • Normal objects transient hote hain.
+
+Key Points ⭐
+
+• OO database objects store karta hai.
+• Objects links ke zariye connected hote hain.
+• Classes objects ke templates hain.
+• Encapsulation complex data hide karta hai.
+• Persistent objects permanent storage provide karte hain.
+
+Exam Tips ⭐
+
+• OO database = Objects + Links.
+• Classes = Object templates.
+• Objects methods contain karte hain.
+• Persistent objects save rehte hain.
+• OO databases multimedia content ke liye better hain.
+• Object-oriented paradigm consistency provide karta hai.`,
+  questions: [
+    {
+      q: 'What is the fundamental difference between objects in an object-oriented database and data in a relational database?',
+      options: [
+        'A. Objects can contain both data and methods (behavior), while relational data is passive.',
+        'B. Objects can only store text.',
+        'C. Relational databases can store more data.',
+        'D. Object-oriented databases are slower.'
+      ],
+      answer: 'A. Objects can contain both data and methods (behavior), while relational data is passive.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the role of a class in an object-oriented database?',
+      options: [
+        'A. To serve as a template for creating objects with similar characteristics.',
+        'B. To store a single data record.',
+        'C. To delete all objects.',
+        'D. To handle user authentication.'
+      ],
+      answer: 'A. To serve as a template for creating objects with similar characteristics.',
+      diff: 'hard',
+    },
+    {
+      q: 'What are "persistent objects" in the context of an object-oriented database?',
+      options: [
+        'A. Objects that are saved and remain in the database after the program that created them ends.',
+        'B. Objects that are automatically deleted when the program ends.',
+        'C. Objects that cannot be modified.',
+        'D. Objects that are used only for temporary calculations.'
+      ],
+      answer: 'A. Objects that are saved and remain in the database after the program that created them ends.',
+      diff: 'hard',
+    },
+    {
+      q: 'How are objects in an object-oriented database typically linked to each other?',
+      options: [
+        'A. Through explicit links maintained by the DBMS.',
+        'B. Through alphabetical ordering.',
+        'C. By being stored in the same file.',
+        'D. By using the same primary key.'
+      ],
+      answer: 'A. Through explicit links maintained by the DBMS.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which statement correctly describes an advantage of object-oriented databases over relational databases?',
+      options: [
+        'A. They allow complex data types like multimedia to be stored more naturally through encapsulation.',
+        'B. They have faster query processing for all types of queries.',
+        'C. They use less storage space.',
+        'D. They are easier to design for simple applications.'
+      ],
+      answer: 'A. They allow complex data types like multimedia to be stored more naturally through encapsulation.',
+      diff: 'hard',
+    },
+  ]
+},
+
+160: {
+  title: "Database Systems: Maintaining DB Integrity",
+  summary: `Database Integrity ⭐
+
+Database integrity data ki correctness aur consistency ko ensure karti hai.
+
+Large commercial databases me integrity bohat important hai.
+
+Personal vs Commercial Databases ⭐
+
+Personal Databases:
+• Small systems.
+• Data loss inconvenient but not disastrous.
+• User can manually fix errors.
+• Cost of avoiding problems high.
+
+Commercial Databases:
+• Large, multiuser systems.
+• Data loss disastrous.
+• Financial losses huge.
+• DBMS main role integrity maintain karna.
+
+Integrity Issues ⭐
+
+1. Partial Transactions:
+   • Transaction complete nahi hoti.
+   • Database inconsistent state me aa jati hai.
+   • Example: Fund transfer me ek account debit ho jaye lekin doosra credit na ho.
+
+2. Transaction Interaction:
+   • Multiple transactions interfere with each other.
+   • Incorrect summary problem.
+   • Lost update problem.
+
+DBMS Integrity Features ⭐
+
+1. Logging:
+   • Har transaction ka record maintain karta hai.
+   • Nonvolatile storage me store hota hai.
+   • Recovery ke liye use hota hai.
+
+2. Commit/Rollback Protocol:
+   • Transaction commit hone tak log me store hoti hai.
+   • Problem aane par rollback possible hai.
+
+3. Locking:
+   • Concurrent transactions ko control karta hai.
+   • Data consistency maintain karta hai.
+
+4. Scheduling:
+   • Transactions ko time-share karta hai.
+   • CPU time efficiently use hota hai.
+
+Key Points ⭐
+
+• Integrity data correctness ensure karti hai.
+• Commercial databases me integrity critical hai.
+• DBMS integrity maintain karta hai.
+• Logging, locking, scheduling important tools hain.
+• Transaction management DBMS ki key responsibility hai.
+
+Exam Tips ⭐
+
+• Database integrity = Data correctness + Consistency.
+• Commercial databases me integrity important hai.
+• DBMS integrity maintain karta hai.
+• Logging recovery ke liye use hoti hai.
+• Locking concurrent transactions control karta hai.
+• Transaction management DBMS ki core functionality hai.`,
+  questions: [
+    {
+      q: 'Why is maintaining database integrity more critical for large commercial systems compared to personal systems?',
+      options: [
+        'A. Because the cost of incorrect or lost data can be enormous and have devastating consequences.',
+        'B. Because commercial systems are slower.',
+        'C. Because commercial systems cannot use logging.',
+        'D. Because personal systems are more complex.'
+      ],
+      answer: 'A. Because the cost of incorrect or lost data can be enormous and have devastating consequences.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a "partial transaction" and why is it a problem?',
+      options: [
+        'A. A transaction that is only partially completed, potentially leaving the database in an inconsistent state.',
+        'B. A transaction that is executed completely.',
+        'C. A transaction that is automatically rolled back.',
+        'D. A transaction that has no effect on the database.'
+      ],
+      answer: 'A. A transaction that is only partially completed, potentially leaving the database in an inconsistent state.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of a log in a DBMS?',
+      options: [
+        'A. To maintain a permanent record of each transaction\'s activities for recovery and rollback purposes.',
+        'B. To store images and videos.',
+        'C. To provide user authentication.',
+        'D. To generate reports.'
+      ],
+      answer: 'A. To maintain a permanent record of each transaction\'s activities for recovery and rollback purposes.',
+      diff: 'hard',
+    },
+    {
+      q: 'What are the two primary mechanisms used by a DBMS to handle the problem of multiple transactions interfering with each other?',
+      options: [
+        'A. Locking and Scheduling.',
+        'B. Encryption and Firewalls.',
+        'C. Indexing and Hashing.',
+        'D. Backups and Restores.'
+      ],
+      answer: 'A. Locking and Scheduling.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the "lost update problem" in a database?',
+      options: [
+        'A. When two transactions both update the same data item based on the same initial value, causing one update to be lost.',
+        'B. When a transaction is permanently lost from the log.',
+        'C. When a data item is accidentally deleted.',
+        'D. When the database is corrupted by a virus.'
+      ],
+      answer: 'A. When two transactions both update the same data item based on the same initial value, causing one update to be lost.',
+      diff: 'hard',
+    },
+  ]
+},
+
+161: {
+  title: "Database Systems: The Commit/Rollback Protocol",
+  summary: `Commit/Rollback Protocol ⭐
+
+Commit/Rollback protocol DBMS ki ek important feature hai jo transaction integrity ensure karta hai.
+
+Transaction ⭐
+
+Transaction ek single logical unit of work hai.
+
+Example: Fund transfer, airline reservation cancellation, student registration.
+
+Commit Point ⭐
+
+Woh point jahan transaction ke tamam steps log me record ho chuke hain.
+
+Is point ke baad DBMS commit ho jata hai.
+
+Commit ka matlab: DBMS transaction ko guarantee deta hai ke ye database me reflect hoga.
+
+Log ⭐
+
+• Nonvolatile storage (disk) me store hota hai.
+• Transaction ke har activity ka record hota hai.
+• Recovery aur rollback ke liye use hota hai.
+
+Rollback ⭐
+
+Transaction ko undo karna.
+
+Conditions for Rollback:
+• Equipment malfunction.
+• Transaction incomplete.
+• Deadlock situation.
+• Access violation.
+
+Cascading Rollback ⭐
+
+• Ek transaction rollback ho to doosre transactions bhi rollback ho sakte hain.
+• Agar rolled back transaction ne kisi doosri transaction ko affected kiya ho.
+• Complex problem hai.
+
+Recovery Process ⭐
+
+1. Malfunction ke baad.
+2. Log se completed (committed) transactions reconstruct.
+3. Incomplete (non-committed) transactions rollback.
+
+Key Points ⭐
+
+• Commit = Transaction complete aur permanent.
+• Rollback = Transaction undo.
+• Log = Permanent record of transaction activities.
+• Commit point = Log me record complete.
+• Cascading rollback complex issue hai.
+
+Exam Tips ⭐
+
+• Commit = Transaction guarantee.
+• Rollback = Undo transaction.
+• Log recovery aur rollback ke liye use hota hai.
+• Commit point ke baad transaction permanent ho jati hai.
+• Cascading rollback ek problem hai.
+• DBMS recovery process use karta hai.`,
+  questions: [
+    {
+      q: 'What is the "commit point" in a transaction?',
+      options: [
+        'A. The point where all steps of a transaction have been recorded in the log and the DBMS is committed to reflecting the transaction in the database.',
+        'B. The point where the transaction is first started.',
+        'C. The point where the transaction is rolled back.',
+        'D. The point where the database is backed up.'
+      ],
+      answer: 'A. The point where all steps of a transaction have been recorded in the log and the DBMS is committed to reflecting the transaction in the database.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why is a log maintained in a DBMS?',
+      options: [
+        'A. To allow the DBMS to reconstruct committed transactions and roll back uncommitted ones after a failure.',
+        'B. To store user passwords.',
+        'C. To generate sales reports.',
+        'D. To index the database.'
+      ],
+      answer: 'A. To allow the DBMS to reconstruct committed transactions and roll back uncommitted ones after a failure.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a "rollback" in a database context?',
+      options: [
+        'A. The process of undoing the changes made by a transaction.',
+        'B. The process of saving data.',
+        'C. The process of starting a new transaction.',
+        'D. The process of committing a transaction.'
+      ],
+      answer: 'A. The process of undoing the changes made by a transaction.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the "cascading rollback" problem?',
+      options: [
+        'A. When rolling back one transaction forces other transactions to be rolled back as well.',
+        'B. When a transaction is rolled back automatically after a timeout.',
+        'C. When the log is deleted.',
+        'D. When the database is cloned.'
+      ],
+      answer: 'A. When rolling back one transaction forces other transactions to be rolled back as well.',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens to a transaction after it has reached its commit point?',
+      options: [
+        'A. The DBMS guarantees that its changes will be reflected in the database.',
+        'B. The transaction is automatically rolled back.',
+        'C. The transaction is deleted from the log.',
+        'D. The transaction is queued for future processing.'
+      ],
+      answer: 'A. The DBMS guarantees that its changes will be reflected in the database.',
+      diff: 'hard',
+    },
+  ]
+},
+
+162: {
+  title: "Database Systems: Locking",
+  summary: `Locking ⭐
+
+Locking DBMS ka ek mechanism hai jo concurrent transactions ko control karta hai.
+
+Ye data consistency aur integrity ensure karta hai.
+
+Problems Solved by Locking ⭐
+
+1. Incorrect Summary Problem:
+   • Transaction in progress ke dauran summary calculate karna.
+   • Either too large or too small result.
+
+2. Lost Update Problem:
+   • Two transactions same data ko update karna.
+   • Ek transaction ka update lost ho jata hai.
+
+Lock Types ⭐
+
+1. Shared Lock:
+   • For reading only.
+   • Multiple transactions can read simultaneously.
+   • No modifications allowed.
+
+2. Exclusive Lock:
+   • For writing/modifying.
+   • Only one transaction at a time.
+   • Complete control over data.
+
+Locking Protocol ⭐
+
+• Transaction access request kare to DBMS check karta hai.
+• Request type (shared or exclusive) important hai.
+• Grants access if compatible.
+• Denies access if conflict.
+
+Access Rules ⭐
+
+Shared Access:
+• Allowed if item unlocked OR has shared lock.
+• Item marked with shared lock.
+
+Exclusive Access:
+• Allowed only if item has no lock.
+• Item marked with exclusive lock.
+
+Deadlock Handling ⭐
+
+Wound-Wait Protocol:
+• Older transactions get priority.
+• Younger transaction preempted (rolled back).
+• Older transaction gets access.
+• Younger transaction restarts.
+• Guarantees all transactions complete.
+
+Key Points ⭐
+
+• Locking concurrent transactions control karta hai.
+• Shared = Read only.
+• Exclusive = Read + Write.
+• Wound-Wait deadlock avoid karta hai.
+• Locking data consistency ensure karta hai.
+
+Exam Tips ⭐
+
+• Locking = Concurrency control.
+• Shared lock = Reading.
+• Exclusive lock = Writing.
+• Wound-Wait = Deadlock avoidance.
+• Locking data integrity maintain karta hai.
+• Incorrect summary aur lost update problems lock solve karta hai.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of locking in a database management system?',
+      options: [
+        'A. To prevent concurrent transactions from interfering with each other and causing data inconsistencies.',
+        'B. To make the database run faster.',
+        'C. To store images and videos.',
+        'D. To provide user authentication.'
+      ],
+      answer: 'A. To prevent concurrent transactions from interfering with each other and causing data inconsistencies.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between a shared lock and an exclusive lock?',
+      options: [
+        'A. A shared lock allows multiple transactions to read, while an exclusive lock allows only one transaction to read and write.',
+        'B. A shared lock allows writing, while an exclusive lock allows reading.',
+        'C. A shared lock is for primary keys, while an exclusive lock is for foreign keys.',
+        'D. There is no difference.'
+      ],
+      answer: 'A. A shared lock allows multiple transactions to read, while an exclusive lock allows only one transaction to read and write.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the "lost update problem" and how does locking solve it?',
+      options: [
+        'A. When two transactions update the same data concurrently and one update is lost; locking ensures exclusive access during updates.',
+        'B. When a transaction is permanently deleted; locking prevents deletion.',
+        'C. When data is corrupted; locking prevents corruption.',
+        'D. When a database backup is lost; locking creates backups.'
+      ],
+      answer: 'A. When two transactions update the same data concurrently and one update is lost; locking ensures exclusive access during updates.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the "wound-wait protocol" used for?',
+      options: [
+        'A. To prevent deadlocks by giving priority to older transactions.',
+        'B. To speed up data retrieval.',
+        'C. To encrypt data.',
+        'D. To compress the database.'
+      ],
+      answer: 'A. To prevent deadlocks by giving priority to older transactions.',
+      diff: 'hard',
+    },
+    {
+      q: 'In a locking protocol, what happens if a transaction requests exclusive access to a data item that is already locked with a shared lock?',
+      options: [
+        'A. The request is denied until the shared lock is released.',
+        'B. The request is automatically granted.',
+        'C. The data item is unlocked.',
+        'D. The transaction is deleted.'
+      ],
+      answer: 'A. The request is denied until the shared lock is released.',
+      diff: 'hard',
+    },
+  ]
+},
+
+163: {
+  title: "Database Systems: Sequential Files",
+  summary: `Sequential Files ⭐
+
+Sequential file ek file hai jise beginning se end tak serial order me access kiya jata hai.
+
+Ye one-dimensional storage hai.
+
+Examples ⭐
+
+• Audio files
+• Video files
+• Program files
+• Text documents
+• Spreadsheet files
+
+Text Files ⭐
+
+Text files sequential files ki ek type hain.
+
+Har logical record ek single symbol (character) hai.
+
+ASCII ya Unicode me encoded hota hai.
+
+Employee Record Example ⭐
+
+Uniform format:
+
+25 characters = Name
+6 characters = ID
+
+Total: 31 characters per employee record
+
+File me records one after another store hote hain.
+
+Mass Storage ⭐
+
+Sequential Storage Media:
+• Magnetic tape
+• CD (audio CDs)
+
+Non-Sequential Storage:
+• Magnetic disk (sectors scattered)
+• File manager maintains sector list
+• Retrieval in proper order
+
+End of File (EOF) ⭐
+
+EOF detection methods:
+1. Sentinel: Special record at end.
+2. Directory: OS knows file size.
+
+Example Application ⭐
+
+Payroll Processing:
+• Sequential file of employee records.
+• Each record: name, ID, pay scale.
+• Routine check printing.
+• Record by record processing.
+
+Key Points ⭐
+
+• Sequential file = Serial access.
+• Beginning se end tak process.
+• Text files sequential files hain.
+• EOF detect karna important hai.
+• Magnetic disk par sector list maintain hoti hai.
+
+Exam Tips ⭐
+
+• Sequential file = Access in order.
+• Text files sequential files hain.
+• EOF = End of File.
+• Sentinel ya directory EOF detect karte hain.
+• Magnetic disk par file scattered ho sakti hai.
+• File manager sector list maintain karta hai.`,
+  questions: [
+    {
+      q: 'What is the primary characteristic of a sequential file?',
+      options: [
+        'A. It is accessed in a serial manner from its beginning to its end.',
+        'B. It can be accessed randomly at any point.',
+        'C. It is used only for storing images.',
+        'D. It does not require mass storage.'
+      ],
+      answer: 'A. It is accessed in a serial manner from its beginning to its end.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is NOT an example of a sequential file?',
+      options: [
+        'A. A text file.',
+        'B. A spreadsheet file saved without compression.',
+        'C. A relational database with multiple tables.',
+        'D. An audio file.'
+      ],
+      answer: 'C. A relational database with multiple tables.',
+      diff: 'hard',
+    },
+    {
+      q: 'How can the End of File (EOF) be detected in a sequential file?',
+      options: [
+        'A. By placing a special sentinel record at the end or by using the file\'s size information from the directory.',
+        'B. By checking the file extension.',
+        'C. By counting the characters in the file.',
+        'D. By opening the file in a text editor.'
+      ],
+      answer: 'A. By placing a special sentinel record at the end or by using the file\'s size information from the directory.',
+      diff: 'hard',
+    },
+    {
+      q: 'In a payroll processing application, which type of file access is typically used?',
+      options: [
+        'A. Sequential access, as records are processed one after another.',
+        'B. Random access, as individual records are updated frequently.',
+        'C. Direct access, to find a specific employee quickly.',
+        'D. Indexed access, to use a key to locate records.'
+      ],
+      answer: 'A. Sequential access, as records are processed one after another.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does a file manager preserve the sequential order of a file stored on a magnetic disk where data may be scattered?',
+      options: [
+        'A. It maintains a list of the sectors on which the file is stored and retrieves them in the proper sequence.',
+        'B. It physically moves data to a single continuous track.',
+        'C. It creates a copy of the file in sequential order.',
+        'D. It converts the file to a text file.'
+      ],
+      answer: 'A. It maintains a list of the sectors on which the file is stored and retrieves them in the proper sequence.',
+      diff: 'hard',
+    },
+  ]
+},
+
+164: {
+  title: "Database Systems: Indexed Files",
+  summary: `Indexed Files ⭐
+
+Indexed file ek file system hai jo index use karta hai.
+
+Index books ki tarah hota hai jo topics ki location batata hai.
+
+Index Concept ⭐
+
+Index contains:
+• List of keys.
+• Location where record with that key is stored.
+
+Indexed File Access ⭐
+
+1. Find key in index.
+2. Get storage location.
+3. Retrieve record from that location.
+
+Index Storage ⭐
+
+• Index separate file me store hota hai.
+• Same mass storage device par.
+• Usually main memory me loaded for fast access.
+
+Example: Employee Records ⭐
+
+Index by Employee ID:
+• Key: Employee ID
+• Value: Record location
+• Quick record retrieval by ID.
+
+Audio CD Example ⭐
+
+Index for track access:
+• Track numbers.
+• Starting positions.
+• Quick access to individual songs.
+
+Hierarchical Indexes ⭐
+
+• Index can have multiple levels.
+• Tree structure possible.
+• File system directories are hierarchical indexes.
+
+Benefits of Indexed Files ⭐
+
+• Quick random access.
+• No need to scan entire file.
+• Efficient for large files.
+
+Overhead ⭐
+
+• Index maintenance required.
+• Updates need index update.
+• Extra storage space.
+
+Key Points ⭐
+
+• Indexed file = Index + Data.
+• Index maps keys to locations.
+• Quick access to records.
+• Maintenance overhead hai.
+• Hierarchical indexes possible.
+
+Exam Tips ⭐
+
+• Indexed file index use karta hai.
+• Index = Key → Location mapping.
+• Quick random access.
+• Index maintenance overhead hai.
+• Hierarchical indexes tree structure banate hain.
+• File system directories hierarchical indexes hain.`,
+  questions: [
+    {
+      q: 'What is the primary advantage of using an indexed file over a sequential file?',
+      options: [
+        'A. It allows for quick retrieval of individual records based on a key.',
+        'B. It uses less storage space.',
+        'C. It does not require any maintenance.',
+        'D. It is simpler to implement.'
+      ],
+      answer: 'A. It allows for quick retrieval of individual records based on a key.',
+      diff: 'hard',
+    },
+    {
+      q: 'What information does an index for a file typically contain?',
+      options: [
+        'A. A list of keys and the storage locations of the records containing those keys.',
+        'B. The complete content of all files.',
+        'C. The user passwords.',
+        'D. The operating system settings.'
+      ],
+      answer: 'A. A list of keys and the storage locations of the records containing those keys.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where is the index for an indexed file usually stored?',
+      options: [
+        'A. As a separate file on the same mass storage device.',
+        'B. Within the file itself.',
+        'C. In the main memory only.',
+        'D. On a remote server.'
+      ],
+      answer: 'A. As a separate file on the same mass storage device.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the trade-off for the fast access provided by an indexed file?',
+      options: [
+        'A. The overhead of maintaining the index when records are added, deleted, or modified.',
+        'B. The index is automatically updated.',
+        'C. There is no trade-off.',
+        'D. The file becomes read-only.'
+      ],
+      answer: 'A. The overhead of maintaining the index when records are added, deleted, or modified.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which real-world example was given for an indexed file?',
+      options: [
+        'A. Audio CDs using an index to access individual tracks.',
+        'B. A simple text file.',
+        'C. A database backup file.',
+        'D. An email attachment.'
+      ],
+      answer: 'A. Audio CDs using an index to access individual tracks.',
+      diff: 'hard',
+    },
+  ]
+},
+
+165: {
+  title: "Database Systems: Hash Files",
+  summary: `Hash Files ⭐
+
+Hashing technique data ko key ki madad se direct location par store aur retrieve karta hai.
+
+Index ki zaroorat nahi hoti.
+
+Hash System Components ⭐
+
+1. Buckets:
+   • Storage space divided into sections.
+   • Each bucket multiple records store kar sakta hai.
+   • Buckets numbered 0 to n-1.
+
+2. Hash Function:
+   • Key ko bucket number me convert karta hai.
+   • Algorithm: Key % Number_of_Buckets.
+   • Records distribute hote hain.
+
+Hash Function Example ⭐
+
+Keys: 25X3Z, J2X35
+Number of buckets: 41
+
+Process:
+1. Key ko numeric value me convert karo.
+2. Divide by 41.
+3. Remainder = Bucket number.
+
+Why 41 Buckets? ⭐
+
+• 41 is prime number.
+• Avoids common factors.
+• Reduces clustering problem.
+
+Clustering ⭐
+
+• Multiple keys same bucket me hash hona.
+• Disproportionate records in one bucket.
+• Slow retrieval.
+• Prime number buckets reduce clustering.
+
+Hash Table vs Hash File ⭐
+
+• Hash Table: Memory me storage.
+• Hash File: Mass storage me storage.
+
+Access Process ⭐
+
+1. Apply hash function to key.
+2. Get bucket number.
+3. Search bucket for record.
+
+Key Points ⭐
+
+• Hashing = Direct access without index.
+• Hash function key → bucket number.
+• Prime number buckets reduce clustering.
+• Hash table = Memory storage.
+• Hash file = Mass storage.
+
+Exam Tips ⭐
+
+• Hashing = No index needed.
+• Hash function maps key to bucket.
+• Clustering = Records same bucket me.
+• Prime numbers reduce clustering.
+• Hash table memory me, hash file mass storage me.
+• Hashing efficient random access provide karta hai.`,
+  questions: [
+    {
+      q: 'What is the primary advantage of a hash file over an indexed file?',
+      options: [
+        'A. It directly identifies the location of a record from its key without needing a separate index lookup.',
+        'B. It uses less storage space.',
+        'C. It is easier to implement for textual data.',
+        'D. It does not require a hash function.'
+      ],
+      answer: 'A. It directly identifies the location of a record from its key without needing a separate index lookup.',
+      diff: 'hard',
+    },
+    {
+      q: 'What are the storage sections in a hash system called?',
+      options: [
+        'A. Buckets.',
+        'B. Folders.',
+        'C. Directories.',
+        'D. Files.'
+      ],
+      answer: 'A. Buckets.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a "hash function"?',
+      options: [
+        'A. An algorithm that converts key values into bucket numbers.',
+        'B. A function that deletes records.',
+        'C. A function that encrypts data.',
+        'D. A function that creates indexes.'
+      ],
+      answer: 'A. An algorithm that converts key values into bucket numbers.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why is a prime number often used as the number of buckets in a hash system?',
+      options: [
+        'A. To reduce the chance of clustering by avoiding common factors with the keys.',
+        'B. To increase the storage capacity.',
+        'C. To make the hash function faster.',
+        'D. To allow buckets to be deleted.'
+      ],
+      answer: 'A. To reduce the chance of clustering by avoiding common factors with the keys.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "clustering" in a hashing system?',
+      options: [
+        'A. A situation where a disproportionate number of records hash to the same bucket.',
+        'B. A situation where records are evenly distributed.',
+        'C. A method for organizing data alphabetically.',
+        'D. A technique for encrypting data.'
+      ],
+      answer: 'A. A situation where a disproportionate number of records hash to the same bucket.',
+      diff: 'hard',
+    },
+  ]
+},
+
+166: {
+  title: "Database Systems: Hash File Example",
+  summary: `Hash File Example ⭐
+
+Employee file ka example lete hain hashing technique ko samajhne ke liye.
+
+Setup ⭐
+
+• 41 buckets (0 to 40).
+• Employee ID as key.
+• Hash function: Key % 41.
+
+Hash Function Working ⭐
+
+1. Key (employee ID) ko numeric value me convert karo.
+2. Divide by 41.
+3. Remainder = bucket number.
+
+Example: 25X3Z → Numeric value → Divide by 41 → Remainder = Bucket number.
+
+Storage Process ⭐
+
+1. Har record ko le lo.
+2. Hash function apply karo.
+3. Resultant bucket me store karo.
+
+Retrieval Process ⭐
+
+1. Record key do.
+2. Hash function apply karo.
+3. Bucket number mil jayega.
+4. Bucket me search karo.
+
+Clustering Prevention ⭐
+
+41 is prime number:
+
+• Agar 40 buckets hotay to common factors (2,4,5,8,10,20) ki wajah se clustering hoti.
+• Prime number common factors ko eliminate karta hai.
+• Records evenly distribute hote hain.
+
+Design Decisions ⭐
+
+• Number of buckets.
+• Size of each bucket.
+• Hash function selection.
+
+Key Points ⭐
+
+• Hash function: Key % Number_of_Buckets.
+• 41 buckets prime number hai.
+• Clustering se bachta hai.
+• Records evenly distribute.
+• Storage aur retrieval direct hash se.
+
+Exam Tips ⭐
+
+• Hash function key ko bucket me convert karta hai.
+• Prime number buckets clustering reduce karte hain.
+• Hash file me index nahi hota.
+• Storage aur retrieval direct hash function se.
+• Clustering records ki uneven distribution hai.
+• Prime numbers common factors avoid karte hain.`,
+  questions: [
+    {
+      q: 'In the employee hash file example, what is the purpose of the hash function?',
+      options: [
+        'A. To convert an employee identification key into a bucket number.',
+        'B. To store the employee record in a database.',
+        'C. To delete employee records.',
+        'D. To create an index for the file.'
+      ],
+      answer: 'A. To convert an employee identification key into a bucket number.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why were 41 buckets chosen in the hashing example?',
+      options: [
+        'A. Because 41 is a prime number that reduces the chance of clustering.',
+        'B. Because 41 is a large number that can hold all records.',
+        'C. Because 41 is the number of employees in the example.',
+        'D. Because 41 is a common factor of all key values.'
+      ],
+      answer: 'A. Because 41 is a prime number that reduces the chance of clustering.',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens if many keys hash to the same bucket?',
+      options: [
+        'A. Clustering occurs, which can make searching that bucket slower.',
+        'B. The database crashes.',
+        'C. The hash function is automatically improved.',
+        'D. The bucket size is increased automatically.'
+      ],
+      answer: 'A. Clustering occurs, which can make searching that bucket slower.',
+      diff: 'hard',
+    },
+    {
+      q: 'To retrieve a record from a hash file, what must be known?',
+      options: [
+        'A. The record\'s key.',
+        'B. The record\'s content.',
+        'C. The index location.',
+        'D. The file name.'
+      ],
+      answer: 'A. The record\'s key.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which number of buckets would most likely lead to reduced clustering when keys are multiples of 5?',
+      options: [
+        'A. 41.',
+        'B. 40.',
+        'C. 100.',
+        'D. 25.'
+      ],
+      answer: 'A. 41.',
+      diff: 'hard',
+    },
+  ]
+},
+
+167: {
+  title: "Database Systems: Data Mining",
+  summary: `Data Mining ⭐
+
+Data mining data collections me patterns discover karne ki technique hai.
+
+Ye database interrogation se different hai.
+
+Data Mining vs Traditional Queries ⭐
+
+Traditional Database Queries:
+• Request stored facts retrieve karte hain.
+• Known information extract karte hain.
+• Example: "Kisi employee ki salary kya hai?"
+
+Data Mining:
+• Previously unknown patterns identify karta hai.
+• Hidden relationships discover karta hai.
+• Example: "Customers who buy X also buy Y?"
+
+Data Warehouse ⭐
+
+• Static data collection.
+• Operational databases ka "snapshot."
+• Frequent updates nahi hote.
+• Data mining ke liye ideal.
+
+Forms of Data Mining ⭐
+
+1. Class Description:
+   • Given group ki properties identify karna.
+   • Example: Small car buyers ki characteristics.
+
+2. Class Discrimination:
+   • Two groups ko divide karne wali properties.
+   • Example: Used vs new car buyers differences.
+
+3. Cluster Analysis:
+   • Unknown classes discover karna.
+   • Data items ko groups me divide karna.
+   • Example: Movie viewers ke age groups.
+
+4. Association Analysis:
+   • Data groups ke darmiyan links find karna.
+   • Example: Beer aur chips ek saath purchase.
+
+5. Outlier Analysis:
+   • Abnormal data entries identify karna.
+   • Example: Credit card fraud detection.
+
+6. Sequential Pattern Analysis:
+   • Time-based behavior patterns.
+   • Example: Market trends, climate patterns.
+
+Applications ⭐
+
+• Marketing
+• Inventory management
+• Quality control
+• Loan risk management
+• Fraud detection
+• Investment analysis
+• DNA analysis
+
+Key Points ⭐
+
+• Data mining = Pattern discovery.
+• Hidden relationships find karta hai.
+• Data warehouses use karta hai.
+• Multiple types hain.
+• Decision making me help karta hai.
+
+Exam Tips ⭐
+
+• Data mining = Pattern discovery.
+• Data warehouse = Static data collection.
+• Class description = Group properties.
+• Class discrimination = Group differences.
+• Cluster analysis = Unknown classes.
+• Association analysis = Links between groups.
+• Outlier analysis = Abnormal entries.
+• Sequential analysis = Time patterns.`,
+  questions: [
+    {
+      q: 'What distinguishes data mining from traditional database interrogation?',
+      options: [
+        'A. Data mining seeks to identify previously unknown patterns, while traditional queries retrieve known facts.',
+        'B. Data mining is only used for financial data.',
+        'C. Traditional queries are always faster.',
+        'D. Data mining does not use databases.'
+      ],
+      answer: 'A. Data mining seeks to identify previously unknown patterns, while traditional queries retrieve known facts.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of a "data warehouse" in data mining?',
+      options: [
+        'A. To provide a static, organized collection of data that is ideal for pattern discovery.',
+        'B. To store active, frequently updated databases.',
+        'C. To encrypt all data.',
+        'D. To serve as a backup system.'
+      ],
+      answer: 'A. To provide a static, organized collection of data that is ideal for pattern discovery.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "class description" in data mining?',
+      options: [
+        'A. Identifying properties that characterize a given group of data items.',
+        'B. Identifying properties that divide two groups.',
+        'C. Discovering unknown classes.',
+        'D. Finding links between data groups.'
+      ],
+      answer: 'A. Identifying properties that characterize a given group of data items.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which data mining technique is used to find patterns of behavior over time?',
+      options: [
+        'A. Sequential pattern analysis.',
+        'B. Cluster analysis.',
+        'C. Association analysis.',
+        'D. Outlier analysis.'
+      ],
+      answer: 'A. Sequential pattern analysis.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does "association analysis" help in data mining?',
+      options: [
+        'A. By looking for links between data groups, such as customers who buy potato chips also buying beer.',
+        'B. By identifying abnormal entries in a dataset.',
+        'C. By finding the properties of a single group.',
+        'D. By discovering new classes of data.'
+      ],
+      answer: 'A. By looking for links between data groups, such as customers who buy potato chips also buying beer.',
+      diff: 'hard',
+    },
+  ]
+},
+
+168: {
+  title: "Database Systems: Data Mining Examples and Implications",
+  summary: `Data Mining Examples ⭐
+
+Data mining ke practical applications aur examples.
+
+Cluster Analysis Example ⭐
+
+Movie viewers analysis:
+• Data: Viewers' ages.
+• Result: Two clusters discovered.
+  - 4-10 age group (children)
+  - 25-40 age group (parents)
+• Is movie ne children aur parents dono ko attract kiya.
+
+Association Analysis Example ⭐
+
+Supermarket shopping:
+• Pattern: Customers buying potato chips also buy beer and soda.
+• Marketing benefit: Place chips near beer and soda.
+• Cross-selling opportunities.
+
+Outlier Analysis Example ⭐
+
+Credit card usage:
+• Detect sudden deviation from normal pattern.
+• Identify potential theft.
+• Example: Unusual purchase locations or amounts.
+
+Sequential Pattern Analysis Example ⭐
+
+• Economic trends.
+• Climate conditions.
+• Behavior over time.
+
+Data Mining Uses ⭐
+
+1. Marketing:
+   • Customer profiles.
+   • Targeted advertising.
+   • Cross-selling.
+
+2. Fraud Detection:
+   • Credit card fraud.
+   • Insurance fraud.
+
+3. Risk Management:
+   • Loan risk assessment.
+   • Investment analysis.
+
+4. Healthcare:
+   • Disease patterns.
+   • DNA analysis.
+
+5. Security:
+   • Terrorist identification.
+   • Unusual behavior detection.
+
+Challenges ⭐
+
+1. Significance vs Coincidence:
+   • Not every pattern is meaningful.
+   • False correlations possible.
+   • Expert judgment required.
+
+2. Ethical Issues:
+   • Privacy concerns.
+   • Data collection ethics.
+   • Use of personal information.
+
+3. Accuracy:
+   • Data quality.
+   • Interpretation of results.
+
+Key Points ⭐
+
+• Data mining real-world applications.
+• Business, healthcare, security me use.
+• Pattern discovery powerful tool hai.
+• Ethical issues important hain.
+• Correlation vs causation distinction important.
+
+Exam Tips ⭐
+
+• Cluster analysis = Group discovery.
+• Association = Links between items.
+• Outlier = Abnormal detection.
+• Sequential = Time patterns.
+• Ethics important hai.
+• Significance vs coincidence careful raho.
+• Data mining multiple domains me use.`,
+  questions: [
+    {
+      q: 'In the movie viewer example, what did cluster analysis reveal?',
+      options: [
+        'A. That viewers belonged to two distinct age groups: children and parents.',
+        'B. That all viewers were adults.',
+        'C. That no patterns could be found.',
+        'D. That the movie was a failure.'
+      ],
+      answer: 'A. That viewers belonged to two distinct age groups: children and parents.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which data mining technique is most applicable to detecting credit card fraud?',
+      options: [
+        'A. Outlier analysis to identify sudden deviations from a customer\'s normal spending pattern.',
+        'B. Cluster analysis to find groups of customers.',
+        'C. Association analysis to find product links.',
+        'D. Sequential pattern analysis to find trends.'
+      ],
+      answer: 'A. Outlier analysis to identify sudden deviations from a customer\'s normal spending pattern.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is one of the major ethical concerns associated with data mining?',
+      options: [
+        'A. The potential for misuse of personal information and invasion of privacy.',
+        'B. The cost of hardware.',
+        'C. The speed of data retrieval.',
+        'D. The lack of data storage.'
+      ],
+      answer: 'A. The potential for misuse of personal information and invasion of privacy.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why is it important to distinguish between correlation and causation in data mining?',
+      options: [
+        'A. Because finding a pattern does not always mean one event causes the other; it could be a coincidence.',
+        'B. Because all patterns are meaningful.',
+        'C. Because data mining is always accurate.',
+        'D. Because data mining is only used for statistical analysis.'
+      ],
+      answer: 'A. Because finding a pattern does not always mean one event causes the other; it could be a coincidence.',
+      diff: 'hard',
+    },
+    {
+      q: 'How can association analysis be used in marketing?',
+      options: [
+        'A. To discover which products are frequently purchased together for cross-selling.',
+        'B. To classify customers into groups.',
+        'C. To detect fraud.',
+        'D. To predict stock market trends.'
+      ],
+      answer: 'A. To discover which products are frequently purchased together for cross-selling.',
+      diff: 'hard',
+    },
+  ]
+},
+
+169: {
+  title: "Database Systems: Social Impact of Database Technology",
+  summary: `Social Impact of Database Technology ⭐
+
+Database technology ne information accessible bana di hai.
+
+Is ke positive aur negative social impacts hain.
+
+Data Collection Examples ⭐
+
+Obvious Collection:
+• Surveys
+• Contest forms
+• Government regulations
+• Loan applications
+• Credit card usage
+
+Subtle Collection:
+• Credit card purchase records
+• Website visit tracking
+• License plate recording
+• Grocery store loyalty cards
+
+Data Value ⭐
+
+Data collection boom ki wajah:
+• Data ki value bohot high hai.
+• Database technology data ko link kar sakti hai.
+• Hidden information reveal hoti hai.
+
+Data Usage Examples ⭐
+
+1. Marketing:
+   • Customer profiles.
+   • Targeted advertisements.
+   • Purchase pattern analysis.
+
+2. Law Enforcement:
+   • Welfare vs criminal records.
+   • Selective Service draft violations.
+
+3. Business:
+   • Customer behavior analysis.
+   • Inventory management.
+   • Sales forecasting.
+
+Privacy Issues ⭐
+
+1. Information Accuracy:
+   • Erroneous data problems.
+   • Credit rating issues.
+   • Hopelessness feeling.
+
+2. Data Sharing:
+   • Information easily shared.
+   • Privacy loss.
+   • Multiple institutions access.
+
+Solutions ⭐
+
+1. Legal Remedies:
+   • Privacy Act of 1974.
+   • Government database regulation.
+   • Citizen access rights.
+   • Correction ability.
+
+2. Public Opinion:
+   • Business fears adverse opinion.
+   • More effective than laws.
+   • Quick results.
+   • Example: Google Buzz controversy.
+
+Key Points ⭐
+
+• Database technology = More accessible information.
+• Data collection obvious aur subtle dono hai.
+• Data value high hai.
+• Privacy concerns important hain.
+• Legal aur public opinion solutions hain.
+
+Exam Tips ⭐
+
+• Data collection + Database = Powerful combination.
+• Privacy is major issue.
+• Accurate data important hai.
+• Legal remedies available hain.
+• Public opinion effective hai.
+• Technology benefits aur risks dono hain.`,
+  questions: [
+    {
+      q: 'What is a major social concern associated with the proliferation of database technology?',
+      options: [
+        'A. The erosion of privacy and the potential for misuse of personal information.',
+        'B. The cost of database software.',
+        'C. The speed of data retrieval.',
+        'D. The lack of data storage capacity.'
+      ],
+      answer: 'A. The erosion of privacy and the potential for misuse of personal information.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is a "subtle" method of data collection?',
+      options: [
+        'A. A grocery store using a loyalty card to track customer purchases.',
+        'B. A government-required census form.',
+        'C. A job application form.',
+        'D. A credit card application.'
+      ],
+      answer: 'A. A grocery store using a loyalty card to track customer purchases.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why are businesses often more responsive to public opinion than to legal remedies regarding database misuse?',
+      options: [
+        'A. Because public opinion directly impacts their bottom line and profits.',
+        'B. Because they are not subject to laws.',
+        'C. Because public opinion is less effective.',
+        'D. Because they prefer legal challenges.'
+      ],
+      answer: 'A. Because public opinion directly impacts their bottom line and profits.',
+      diff: 'hard',
+    },
+    {
+      q: 'What was the purpose of the Privacy Act of 1974 in the United States?',
+      options: [
+        'A. To protect citizens from abusive use of government databases by requiring agencies to publish notices of their databases and allow citizens to access and correct their information.',
+        'B. To allow companies to share private data freely.',
+        'C. To establish a national ID system.',
+        'D. To increase government surveillance.'
+      ],
+      answer: 'A. To protect citizens from abusive use of government databases by requiring agencies to publish notices of their databases and allow citizens to access and correct their information.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which issue is amplified when the information used by database systems is erroneous?',
+      options: [
+        'A. The potential for harm to an individual\'s reputation and credit rating is significantly increased.',
+        'B. The database becomes slower.',
+        'C. The storage cost decreases.',
+        'D. The database is automatically corrected.'
+      ],
+      answer: 'A. The potential for harm to an individual\'s reputation and credit rating is significantly increased.',
+      diff: 'hard',
+    },
+  ]
+},
+
+170: {
+  title: "Artificial Intelligence: Introduction and Vision",
+  summary: `Artificial Intelligence (AI) ⭐
+
+AI autonomous machines banane ka field hai.
+
+Ye machines complex tasks without human intervention perform kar sakti hain.
+
+AI Applications ⭐
+
+1. Robots:
+   • Manufacturing.
+   • Healthcare.
+   • Service industry.
+   • Household tasks.
+
+2. Self-Driving Cars:
+   • Autonomous navigation.
+   • Object detection.
+   • Decision making.
+
+Robot Examples ⭐
+
+Medical Robot (Figure 125):
+• Patient ko 40 times/day lift kar sakta hai.
+• Healthcare assistance.
+
+Pepper Robot (Figure 126):
+• Belgian hospital me receptionist.
+• Patient interaction.
+
+Blood Drawing Robot (Figure 127):
+• Vein detection through image processing.
+• Ultrasound confirmation.
+• More accurate than humans.
+
+AI Vision ⭐
+
+• Autonomous machines.
+• No human intervention.
+• Complex tasks.
+• Multiple domains.
+
+Key Points ⭐
+
+• AI = Autonomous machines.
+• Robots + Self-driving cars AI examples hain.
+• Medical robots healthcare me help.
+• Image processing AI ka important part.
+• AI future technologies ka foundation hai.
+
+Exam Tips ⭐
+
+• AI = Autonomous machines.
+• Robots AI application hai.
+• Self-driving cars AI use karti hain.
+• Image processing AI ka part hai.
+• AI healthcare, manufacturing, service me use.
+• AI machines ka goal: Complex tasks without human help.`,
+  questions: [
+    {
+      q: 'What is the primary vision of the field of Artificial Intelligence?',
+      options: [
+        'A. To build autonomous machines that can carry out complex tasks without human intervention.',
+        'B. To create machines that can only perform simple calculations.',
+        'C. To replace all human jobs.',
+        'D. To develop software for traditional computers.'
+      ],
+      answer: 'A. To build autonomous machines that can carry out complex tasks without human intervention.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is an example of an AI application discussed in the lecture?',
+      options: [
+        'A. Medical robots that can lift patients or draw blood.',
+        'B. A standard desktop calculator.',
+        'C. A notepad application.',
+        'D. A simple spreadsheet.'
+      ],
+      answer: 'A. Medical robots that can lift patients or draw blood.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does the blood-drawing robot locate the veins?',
+      options: [
+        'A. By using image processing and ultrasound technology.',
+        'B. By using X-rays.',
+        'C. By feeling for them.',
+        'D. By using magnets.'
+      ],
+      answer: 'A. By using image processing and ultrasound technology.',
+      diff: 'hard',
+    },
+    {
+      q: 'What role does the Pepper robot play in the Belgian hospital?',
+      options: [
+        'A. It works as a receptionist.',
+        'B. It performs surgeries.',
+        'C. It draws blood.',
+        'D. It lifts patients.'
+      ],
+      answer: 'A. It works as a receptionist.',
+      diff: 'hard',
+    },
+    {
+      q: 'The concept of self-driving cars is an example of which field?',
+      options: [
+        'A. Artificial Intelligence.',
+        'B. Standard Software Development.',
+        'C. Hardware Manufacturing.',
+        'D. Traditional Engineering.'
+      ],
+      answer: 'A. Artificial Intelligence.',
+      diff: 'hard',
+    },
+  ]
+},
+
+171: {
+  title: "Artificial Intelligence: Intelligent Agents",
+  summary: `Intelligent Agents ⭐
+
+Agent ek device hai jo apne environment ke stimuli ko respond karta hai.
+
+Ye robot, autonomous vehicle, game character, ya internet process ho sakta hai.
+
+Agent Components ⭐
+
+1. Sensors:
+   • Data receive karte hain.
+   • Examples: Microphones, cameras, range sensors.
+
+2. Actuators:
+   • Environment ko affect karte hain.
+   • Examples: Wheels, legs, wings, grippers, speech synthesizers.
+
+Intelligent Behavior Levels ⭐
+
+1. Reflex Action:
+   • Predetermined response.
+   • Simple reactions.
+   • No thinking involved.
+
+2. Knowledge-Based Action:
+   • Environment knowledge use.
+   • Adjust actions accordingly.
+   • Decision making.
+
+3. Goal-Directed Behavior:
+   • Planning required.
+   • Best action selection.
+   • Strategic thinking.
+
+4. Learning:
+   • Improve over time.
+   • Trial-and-error process.
+   • Procedural knowledge (how).
+   • Declarative knowledge (what).
+
+Perception ⭐
+
+• Data se information extract karna.
+• Understanding required.
+• Examples: Speech recognition, image analysis.
+• Complex process.
+
+Puzzle-Solving Machine Example ⭐
+
+Eight-puzzle problem:
+• 8 numbered tiles in frame.
+• One vacancy.
+• Adjacent tiles move into vacancy.
+• Goal: Return to solved configuration.
+
+Machine Components:
+• Gripper.
+• Video camera.
+• Rubber finger.
+• Perceive current state.
+• Solve puzzle.
+
+Agent Attributes ⭐
+
+• Sensors input receive karte hain.
+• Actuators actions perform karte hain.
+• Perception understanding provide karti hai.
+• Learning improvement allow karti hai.
+
+Key Points ⭐
+
+• Agent = Responds to environment.
+• Sensors = Input devices.
+• Actuators = Output devices.
+• Four levels of intelligent behavior.
+• Learning important attribute hai.
+
+Exam Tips ⭐
+
+• Agent environment respond karta hai.
+• Sensors data receive karte hain.
+• Actuators actions perform karte hain.
+• Perception = Understanding data.
+• Learning = Improving over time.
+• Eight-puzzle AI classic example hai.`,
+  questions: [
+    {
+      q: 'What are the two main components of an intelligent agent?',
+      options: [
+        'A. Sensors and Actuators.',
+        'B. CPU and Memory.',
+        'C. Keyboard and Mouse.',
+        'D. Software and Hardware.'
+      ],
+      answer: 'A. Sensors and Actuators.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the simplest form of intelligent behavior exhibited by an agent?',
+      options: [
+        'A. Reflex action.',
+        'B. Goal-directed behavior.',
+        'C. Learning.',
+        'D. Knowledge-based action.'
+      ],
+      answer: 'A. Reflex action.',
+      diff: 'hard',
+    },
+    {
+      q: 'In the puzzle-solving machine example, what is the role of the video camera?',
+      options: [
+        'A. It acts as a sensor to perceive the current state of the puzzle.',
+        'B. It acts as an actuator to move the tiles.',
+        'C. It stores the solution.',
+        'D. It connects to the internet.'
+      ],
+      answer: 'A. It acts as a sensor to perceive the current state of the puzzle.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between procedural and declarative knowledge in the context of learning agents?',
+      options: [
+        'A. Procedural knowledge is learning "how", while declarative knowledge is learning "what".',
+        'B. Procedural knowledge is learning "what", while declarative knowledge is learning "how".',
+        'C. Procedural knowledge is only for robots.',
+        'D. Declarative knowledge is stored in sensors.'
+      ],
+      answer: 'A. Procedural knowledge is learning "how", while declarative knowledge is learning "what".',
+      diff: 'hard',
+    },
+    {
+      q: 'Which level of intelligent behavior involves an agent forming a plan of action?',
+      options: [
+        'A. Goal-directed behavior.',
+        'B. Reflex action.',
+        'C. Learning.',
+        'D. Knowledge-based action.'
+      ],
+      answer: 'A. Goal-directed behavior.',
+      diff: 'hard',
+    },
+  ]
+},
+
+172: {
+  title: "Artificial Intelligence: Research Methodologies",
+  summary: `AI Research Methodologies ⭐
+
+AI do tracks me research ho rahi hai:
+
+1. Engineering Track.
+2. Theoretical Track.
+
+Engineering Track ⭐
+
+• Goal: Systems develop karna jo intelligent behavior exhibit karein.
+• Focus: Performance-oriented.
+• "Kaam kare" important hai.
+• Shortcuts acceptable hain.
+• Product-oriented.
+
+Theoretical Track ⭐
+
+• Goal: Computational understanding of intelligence.
+• Focus: Process-oriented.
+• Human intelligence samajhna important hai.
+• Simulation-oriented.
+• Theory testing.
+
+Example: Natural Language Processing vs Linguistics ⭐
+
+Linguistics (Theoretical):
+• Human language processing.
+• Simulation-oriented.
+• Theories test karna.
+• How humans process language.
+
+NLP (Engineering):
+• Machines develop karna.
+• Performance-oriented.
+• Language manipulation.
+• Document translation systems.
+
+Example: Operating System Shell ⭐
+
+• Command recognition.
+• Don't need full language understanding.
+• Match audio patterns.
+• Engineering approach.
+
+Key Points ⭐
+
+• Engineering = Build intelligent systems.
+• Theoretical = Understand intelligence.
+• Performance vs Process.
+• Both tracks contribute.
+• Engineering uses shortcuts.
+
+Exam Tips ⭐
+
+• Engineering track = Performance-oriented.
+• Theoretical track = Simulation-oriented.
+• Engineering = Build systems.
+• Theoretical = Understand intelligence.
+• Natural Language Processing = Engineering.
+• Linguistics = Theoretical.
+• Shortcuts engineering approach me acceptable hain.`,
+  questions: [
+    {
+      q: 'What is the main difference between the engineering and theoretical tracks of AI research?',
+      options: [
+        'A. Engineering focuses on building systems that work, while theoretical focuses on understanding intelligence.',
+        'B. Engineering is older than theoretical.',
+        'C. Theoretical is focused on applications.',
+        'D. There is no difference.'
+      ],
+      answer: 'A. Engineering focuses on building systems that work, while theoretical focuses on understanding intelligence.',
+      diff: 'hard',
+    },
+    {
+      q: 'A system that uses shortcuts to perform a task but might not truly "understand" the problem is an example of which approach?',
+      options: [
+        'A. The engineering approach.',
+        'B. The theoretical approach.',
+        'C. The linguistic approach.',
+        'D. The simulation approach.'
+      ],
+      answer: 'A. The engineering approach.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the primary goal of the theoretical track in AI research?',
+      options: [
+        'A. To develop a computational understanding of animal, especially human, intelligence.',
+        'B. To create commercially viable products.',
+        'C. To win the Turing Test.',
+        'D. To build the fastest computers.'
+      ],
+      answer: 'A. To develop a computational understanding of animal, especially human, intelligence.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which field is more aligned with the "simulation-oriented" methodology?',
+      options: [
+        'A. Linguistics.',
+        'B. Natural Language Processing.',
+        'C. Robotics Engineering.',
+        'D. Software Development.'
+      ],
+      answer: 'A. Linguistics.',
+      diff: 'hard',
+    },
+    {
+      q: 'An AI system designed for a specific task like a voice-activated shell does not need to understand the entire language. This is an example of:',
+      options: [
+        'A. An engineering approach taking a shortcut for performance.',
+        'B. A theoretical approach to language.',
+        'C. A failure of AI.',
+        'D. A simulation of human behavior.'
+      ],
+      answer: 'A. An engineering approach taking a shortcut for performance.',
+      diff: 'hard',
+    },
+  ]
+},
+
+173: {
+  title: "Artificial Intelligence: The Turing Test",
+  summary: `Turing Test ⭐
+
+Alan Turing ne 1950 me AI progress measure karne ke liye Turing Test propose kiya.
+
+Aaj is ki significance fade ho gayi hai lekin folklore me important hai.
+
+Turing Test Process ⭐
+
+• Interrogator (human).
+• Test subject (human or machine).
+• Typewriter communication.
+• Interrogator dono me farq nahi kar sakta to machine intelligent declare.
+
+Turing's Prediction ⭐
+
+• Year 2000 tak.
+• 30% chance of 5-minute test pass.
+• Surprisingly accurate.
+
+Why Turing Test Failed ⭐
+
+• Eerie appearance of intelligence easy produce.
+• DOCTOR/ELIZA example.
+
+DOCTOR/ELIZA Example ⭐
+
+• Joseph Weizenbaum developed (1960s).
+• Rogerian analyst simulate.
+• Restructure patient statements.
+• Generic responses.
+
+Example:
+Patient: "I am tired today."
+DOCTOR: "Why do you think you are tired today?"
+
+Limitations:
+• No real understanding.
+• Simple pattern matching.
+• Database of responses.
+
+Modern Turing Test Successes ⭐
+
+• Internet viruses.
+• Intelligent dialog with humans.
+• Trick humans for malware.
+
+Chess Programs ⭐
+
+• Brute-force techniques.
+• Humans feel creativity.
+• Sense of personality.
+
+Robotics ⭐
+
+• Physical attributes.
+• Project intelligent characteristics.
+• Example: Toy robot dogs.
+
+Key Points ⭐
+
+• Turing Test = Machine vs Human distinction.
+• Pass test = Intelligent machine.
+• DOCTOR program illusion of intelligence.
+• Turing Test no longer meaningful measure.
+• Modern AI more sophisticated.
+
+Exam Tips ⭐
+
+• Turing Test = Alan Turing 1950.
+• Interrogator + Test subject.
+• Pass = Cannot distinguish.
+• DOCTOR/ELIZA showed easy deception.
+• Turing Test limitations.
+• Modern AI beyond Turing Test.`,
+  questions: [
+    {
+      q: 'What was the primary purpose of the Turing Test?',
+      options: [
+        'A. To determine if a machine could exhibit intelligent behavior indistinguishable from a human.',
+        'B. To measure the speed of a computer.',
+        'C. To test the memory of a machine.',
+        'D. To evaluate the processing power of a CPU.'
+      ],
+      answer: 'A. To determine if a machine could exhibit intelligent behavior indistinguishable from a human.',
+      diff: 'hard',
+    },
+    {
+      q: 'What did the DOCTOR/ELIZA program demonstrate?',
+      options: [
+        'A. That it is relatively easy for a simple program to project an illusion of intelligence.',
+        'B. That computers can outperform humans in psychotherapy.',
+        'C. That AI had fully achieved human-level intelligence.',
+        'D. That the Turing Test is impossible to pass.'
+      ],
+      answer: 'A. That it is relatively easy for a simple program to project an illusion of intelligence.',
+      diff: 'hard',
+    },
+    {
+      q: 'Who proposed the Turing Test?',
+      options: [
+        'A. Alan Turing.',
+        'B. Joseph Weizenbaum.',
+        'C. John von Neumann.',
+        'D. Grace Hopper.'
+      ],
+      answer: 'A. Alan Turing.',
+      diff: 'hard',
+    },
+    {
+      q: 'One reason the Turing Test is no longer considered a meaningful measure of intelligence is because:',
+      options: [
+        'A. Programs like DOCTOR showed that an appearance of intelligence can be created with simple pattern matching.',
+        'B. No machine has ever passed it.',
+        'C. It is too easy for humans to pass.',
+        'D. It is only applicable to chess programs.'
+      ],
+      answer: 'A. Programs like DOCTOR showed that an appearance of intelligence can be created with simple pattern matching.',
+      diff: 'hard',
+    },
+    {
+      q: 'What was Alan Turing\'s prediction about machines passing the Turing Test?',
+      options: [
+        'A. That by the year 2000, machines would have a 30% chance of passing a five-minute test.',
+        'B. That machines would never pass the test.',
+        'C. That all machines would pass the test by 1990.',
+        'D. That the test would be obsolete by 1980.'
+      ],
+      answer: 'A. That by the year 2000, machines would have a 30% chance of passing a five-minute test.',
+      diff: 'hard',
+    },
+  ]
+},
+
+174: {
+  title: "Artificial Intelligence: Understanding Images",
+  summary: `Image Understanding ⭐
+
+Image understanding sirf image capture nahi hai.
+
+Goal: Image se information extract karna aur usay "samajhna."
+
+Puzzle-Solving Machine Example ⭐
+
+Machine needs to:
+• Detect puzzle.
+• Focus camera.
+• Extract puzzle state.
+• Understand arrangement.
+
+Template Matching ⭐
+
+• Prerecorded templates use.
+• Compare sections to templates.
+• Match = Identify digit.
+
+Limitations:
+• Uniform size required.
+• Style orientation problems.
+• Handwritten difficult.
+
+Geometric Feature Matching ⭐
+
+• Shapes ko geometric features se identify.
+• Digit 1 = Vertical line.
+• Digit 2 = Curved line + horizontal line.
+• More robust than template matching.
+
+Limitations:
+• Minor errors change features.
+• O vs C confusion.
+• 3 vs 8 confusion.
+
+General Image Understanding ⭐
+
+Two-Step Process:
+
+1. Image Processing:
+   • Identify characteristics.
+   • Edge enhancement.
+   • Region finding.
+   • Smoothing.
+
+2. Image Analysis:
+   • Understand characteristics.
+   • Identify objects.
+   • Determine meaning.
+
+Challenges ⭐
+
+• Overlapping objects.
+• Different angles.
+• Partially hidden objects.
+• 3D scenes.
+
+Techniques ⭐
+
+• Edge enhancement: Clarify boundaries.
+• Region finding: Identify common areas.
+• Smoothing: Remove flaws.
+• Assumption-based analysis: Guess and verify.
+
+Key Points ⭐
+
+• Image processing = Characteristics identify.
+• Image analysis = Meaning determine.
+• Template matching = Exact comparison.
+• Geometric matching = Shape features.
+• General image understanding complex hai.
+
+Exam Tips ⭐
+
+• Image understanding = Meaning extract.
+• Template matching = Direct comparison.
+• Geometric matching = Feature comparison.
+• Image processing = Low-level analysis.
+• Image analysis = High-level understanding.
+• General images complex hain.`,
+  questions: [
+    {
+      q: 'What is the primary goal of image understanding in AI?',
+      options: [
+        'A. To extract meaning and information from an image.',
+        'B. To capture and store images.',
+        'C. To enhance image colors.',
+        'D. To compress image files.'
+      ],
+      answer: 'A. To extract meaning and information from an image.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a major limitation of the template matching approach to image recognition?',
+      options: [
+        'A. It requires a certain degree of uniformity in style, size, and orientation of the symbols.',
+        'B. It is too slow for real-time applications.',
+        'C. It can only be used for color images.',
+        'D. It requires a large database of shapes.'
+      ],
+      answer: 'A. It requires a certain degree of uniformity in style, size, and orientation of the symbols.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which technique for character recognition is based on matching geometric characteristics rather than exact appearance?',
+      options: [
+        'A. Geometric feature matching.',
+        'B. Template matching.',
+        'C. Smoothing.',
+        'D. Edge enhancement.'
+      ],
+      answer: 'A. Geometric feature matching.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "edge enhancement" in image processing?',
+      options: [
+        'A. A technique to clarify the boundaries between regions in an image.',
+        'B. A technique to add color to an image.',
+        'C. A technique to blur an image.',
+        'D. A technique to remove the background.'
+      ],
+      answer: 'A. A technique to clarify the boundaries between regions in an image.',
+      diff: 'hard',
+    },
+    {
+      q: 'The process of identifying areas in an image that have common properties like brightness or texture is called:',
+      options: [
+        'A. Region finding.',
+        'B. Edge enhancement.',
+        'C. Smoothing.',
+        'D. Image analysis.'
+      ],
+      answer: 'A. Region finding.',
+      diff: 'hard',
+    },
+  ]
+},
+
+175: {
+  title: "Artificial Intelligence: Language Processing",
+  summary: `Natural Language Processing (NLP) ⭐
+
+NLP machines ko natural languages samajhne ki field hai.
+
+Programming languages vs Natural languages me bohat farq hai.
+
+Challenges ⭐
+
+• Multiple meanings.
+• Context dependence.
+• Literal vs intended meaning.
+
+Example 1: Multiple Meanings ⭐
+
+"Norman Rockwell painted people."
+• Painted as verb (created art).
+• People as subject.
+
+"Cinderella had a ball."
+• Ball as dance event.
+• Ball as object.
+
+Example 2: Context Dependence ⭐
+
+"Do you know what time it is?"
+• Literal: Yes/No question.
+• Intended: Please tell me time.
+• Could also mean: You are late.
+
+Analysis Levels ⭐
+
+1. Syntactic Analysis:
+   • Grammar and structure.
+   • Parsing.
+   • Subject, object identification.
+
+2. Semantic Analysis:
+   • Meaning of words/roles.
+   • Action, agent, object identification.
+   • Different sentences similar meaning.
+
+3. Contextual Analysis:
+   • Context understanding.
+   • Disambiguate meanings.
+   • True meaning extraction.
+
+Information Retrieval vs Extraction ⭐
+
+Information Retrieval:
+• Identify relevant documents.
+• Search for keywords.
+• Example: Web search engines.
+
+Information Extraction:
+• Extract specific facts from documents.
+• Understand content.
+• More complex task.
+
+Semantic Web ⭐
+
+• XML-based approach.
+• Markup with meaning.
+• Better search results.
+
+Key Points ⭐
+
+• NLP = Natural language understanding.
+• Multiple levels of analysis.
+• Syntactic = Grammar.
+• Semantic = Meaning.
+• Contextual = Context.
+• Information retrieval vs extraction.
+
+Exam Tips ⭐
+
+• Natural languages ambiguous hain.
+• Programming languages unambiguous hain.
+• Syntactic analysis = Parsing.
+• Semantic analysis = Meaning roles.
+• Contextual analysis = Context.
+• XML semantic web create karta hai.
+• Information retrieval = Find documents.
+• Information extraction = Extract facts.`,
+  questions: [
+    {
+      q: 'What is a major challenge in natural language processing that does not exist in programming languages?',
+      options: [
+        'A. Statements can have multiple meanings depending on the context.',
+        'B. Processing speed is slower.',
+        'C. Programs cannot be translated.',
+        'D. There are no grammar rules.'
+      ],
+      answer: 'A. Statements can have multiple meanings depending on the context.',
+      diff: 'hard',
+    },
+    {
+      q: 'The question "Do you know what time it is?" often means:',
+      options: [
+        'A. Please tell me the time.',
+        'B. Yes, I know the time.',
+        'C. No, I don\'t know.',
+        'D. What is the date?'
+      ],
+      answer: 'A. Please tell me the time.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which level of language analysis is responsible for identifying the subject and object of a sentence?',
+      options: [
+        'A. Syntactic analysis.',
+        'B. Semantic analysis.',
+        'C. Contextual analysis.',
+        'D. Information retrieval.'
+      ],
+      answer: 'A. Syntactic analysis.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does semantic analysis aim to do in natural language understanding?',
+      options: [
+        'A. Identify the semantic roles of words and the relationships between them.',
+        'B. Analyze the grammar of a sentence.',
+        'C. Understand the context of a sentence.',
+        'D. Search for documents.'
+      ],
+      answer: 'A. Identify the semantic roles of words and the relationships between them.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does the concept of a "Semantic Web" aim to improve information retrieval?',
+      options: [
+        'A. By using markup that emphasizes semantics, allowing search engines to understand the meaning of content.',
+        'B. By using faster servers.',
+        'C. By having more web pages.',
+        'D. By using simpler search algorithms.'
+      ],
+      answer: 'A. By using markup that emphasizes semantics, allowing search engines to understand the meaning of content.',
+      diff: 'hard',
+    },
+  ]
+},
+
+176: {
+  title: "CS Impact: CS impact on Society",
+  summary: `Computer Science Impact on Society ⭐
+
+CS ne society par bohot bada asar dala hai.
+
+Positive aur negative dono impacts hain.
+
+Positive Impacts ⭐
+
+1. Communication:
+   • People ke darmiyan communication improved.
+   • Email, instant messaging, chat.
+   • Global connectivity.
+
+2. Education:
+   • Internet ke zariye educational information access.
+   • Online learning.
+   • Information availability.
+
+3. Productivity:
+   • Manual work reduced.
+   • Faster task completion.
+   • Efficiency increased.
+
+4. Business:
+   • Exponential business growth.
+   • Online marketplace.
+   • Global reach.
+
+5. Response Time:
+   • Faster communication.
+   • Instant messaging.
+   • Quick responses.
+
+Negative Impacts ⭐
+
+1. Health Issues:
+   • Sitting position se obesity.
+   • Eye problems.
+   • Hearing loss.
+   • Posture issues.
+
+2. Inappropriate Content:
+   • Internet exposure.
+   • Age-inappropriate material.
+   • Harmful content.
+
+3. Crime:
+   • Increased cybercrime.
+   • Bank hacking.
+   • Identity theft.
+   • Private information access.
+
+4. Dependency:
+   • Over-dependent on technology.
+   • Even sitting nearby, contact online.
+   • Decreased social interactions.
+
+Key Points ⭐
+
+• CS impact = Positive + Negative.
+• Communication improved.
+• Productivity increased.
+• Health issues arise.
+• Crime increased.
+• Social interaction decreased.
+• Over-dependence problem hai.
+
+Exam Tips ⭐
+
+• CS positive impacts: Communication, Education, Productivity.
+• CS negative impacts: Health, Crime, Dependency.
+• Sitting lifestyle health issues cause karta hai.
+• Cybercrime increased.
+• Social interactions decreased.
+• Technology over-dependence issue hai.`,
+  questions: [
+    {
+      q: 'Which of the following is a positive impact of Computer Science on society?',
+      options: [
+        'A. Improved access to educational information via the Internet.',
+        'B. Increased risk of obesity.',
+        'C. Higher rates of cybercrime.',
+        'D. Decreased social interaction.'
+      ],
+      answer: 'A. Improved access to educational information via the Internet.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is a negative impact of Computer Science on society?',
+      options: [
+        'A. People are now over-dependent on technology.',
+        'B. Communication between people has improved.',
+        'C. Business growth has increased.',
+        'D. Manual work has reduced significantly.'
+      ],
+      answer: 'A. People are now over-dependent on technology.',
+      diff: 'hard',
+    },
+    {
+      q: 'How has Computer Science negatively impacted health?',
+      options: [
+        'A. It has increased the risk of obesity due to a more sedentary lifestyle.',
+        'B. It has improved eyesight.',
+        'C. It has reduced hearing loss.',
+        'D. It has improved posture.'
+      ],
+      answer: 'A. It has increased the risk of obesity due to a more sedentary lifestyle.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is one of the social issues arising from the increased use of computers?',
+      options: [
+        'A. People tend to communicate online even with those sitting nearby, leading to decreased social interactions.',
+        'B. People are more physically active.',
+        'C. Social groups have become larger.',
+        'D. People prefer to meet in person more often.'
+      ],
+      answer: 'A. People tend to communicate online even with those sitting nearby, leading to decreased social interactions.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is a benefit of CS in business?',
+      options: [
+        'A. Exponential business growth.',
+        'B. Increased manual labor.',
+        'C. Slower response times.',
+        'D. Limited global reach.'
+      ],
+      answer: 'A. Exponential business growth.',
+      diff: 'hard',
+    },
+  ]
+},
+
+177: {
+  title: "CS Impact: CS Impact on Health",
+  summary: `CS Impact on Health ⭐
+
+Computer Science ne health par positive aur negative dono impacts dale hain.
+
+Positive Health Impacts ⭐
+
+1. Online Health Access:
+   • Online health centers easy access.
+   • Online appointments.
+   • Reports via email at home.
+
+2. Hospital Management:
+   • Efficient hospital management.
+   • Better record keeping.
+   • Improved patient care.
+
+3. Health Information:
+   • Online health tips.
+   • Health news available.
+   • Medical information access.
+
+Negative Health Impacts ⭐
+
+1. Computer Wrists:
+   • Typing too much.
+   • Hand issues develop.
+   • Repetitive strain injury.
+
+2. Eyesight:
+   • 2D screen long time.
+   • Eye disease risk.
+   • Computer vision syndrome.
+
+3. Hearing Loss:
+   • High volume music.
+   • Headphone use.
+   • Hearing damage.
+
+4. Social Isolation:
+   • Less face-to-face interaction.
+   • Online virtual relationships.
+   • Loneliness.
+
+5. Posture Issues:
+   • Bone problems.
+   • Back pain.
+   • Neck pain.
+
+6. Radiation Damage:
+   • Device running issue.
+   • Mobile phones risk.
+   • Airplane mode recommended.
+
+Key Points ⭐
+
+• CS health impact = Positive + Negative.
+• Online health access convenient hai.
+• Computer usage health issues cause karta hai.
+• Eyes, hands, ears, posture affected.
+• Mobile radiation danger hai.
+• Airplane mode recommended at night.
+
+Exam Tips ⭐
+
+• Positive: Easy health access, online appointments.
+• Negative: Computer wrists, eyesight, hearing loss.
+• Social isolation = Less face-to-face interaction.
+• Posture = Bone issues.
+• Radiation = Mobile phones.
+• Airplane mode = Safe phone usage at night.`,
+  questions: [
+    {
+      q: 'Which of the following is a positive impact of CS on health?',
+      options: [
+        'A. Easy access to online health centers and appointments.',
+        'B. Increased risk of computer wrist syndrome.',
+        'C. Greater social isolation.',
+        'D. Increased hearing loss from loud music.'
+      ],
+      answer: 'A. Easy access to online health centers and appointments.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "computer wrist" syndrome?',
+      options: [
+        'A. An issue in the hands caused by excessive typing.',
+        'B. A new type of software.',
+        'C. A type of computer virus.',
+        'D. A hardware component.'
+      ],
+      answer: 'A. An issue in the hands caused by excessive typing.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why is it recommended to turn on "airplane mode" on mobile phones at night?',
+      options: [
+        'A. To minimize radiation damage when the device is running and near the body.',
+        'B. To save battery power.',
+        'C. To prevent social isolation.',
+        'D. To improve posture.'
+      ],
+      answer: 'A. To minimize radiation damage when the device is running and near the body.',
+      diff: 'hard',
+    },
+    {
+      q: 'How does long-term computer use affect eyesight?',
+      options: [
+        'A. It increases the risk of eye diseases because eyes are not meant to look at 2D screens for long periods.',
+        'B. It completely cures all eye diseases.',
+        'C. It has no effect on eyesight.',
+        'D. It improves vision.'
+      ],
+      answer: 'A. It increases the risk of eye diseases because eyes are not meant to look at 2D screens for long periods.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which health issue is caused by listening to music at high volume on a computer?',
+      options: [
+        'A. Hearing loss.',
+        'B. Computer wrist syndrome.',
+        'C. Posture problems.',
+        'D. Social isolation.'
+      ],
+      answer: 'A. Hearing loss.',
+      diff: 'hard',
+    },
+  ]
+},
+
+178: {
+  title: "CS Impact: CS Impact on Environment",
+  summary: `CS Impact on Environment ⭐
+
+CS ne environment par positive aur negative impacts dale hain.
+
+Positive Environmental Impact ⭐
+
+Paperless:
+• Online reading and publishing.
+• Paper usage reduce.
+
+Statistics:
+• Americans use 680 pounds paper per person/year.
+• Total: 85 million tons paper.
+• 2 billion trees per year.
+• Average household throws 13,000 pieces paper/year.
+• Mostly packaging and junk mail.
+• Computers reducing paper waste.
+
+Negative Environmental Impact ⭐
+
+1. Unnecessary Printing:
+   • Offices print unnecessarily.
+   • Paper waste continues.
+
+2. Heavy Metals:
+   • Computers made from heavy metals.
+   • Lead, mercury, beryllium, cadmium, PCV.
+   • Thrown away causes contamination.
+   • Water contamination.
+   • Air pollution.
+
+3. E-Waste:
+   • Sent to developing countries.
+   • People extract gold, silver, copper.
+   • Burning process.
+   • Hazardous smoke releases.
+
+4. Health Issues:
+   • Skin cancer.
+   • Brain damage.
+   • Lung cancer.
+   • Kidney disease.
+
+5. Energy Usage:
+   • Increased energy consumption.
+   • Environmental impact.
+
+Key Points ⭐
+
+• CS environment impact = Positive + Negative.
+• Paperless = Good environmental impact.
+• E-waste = Bad environmental impact.
+• Heavy metals dangerous hain.
+• Developing countries suffer.
+• Energy usage increased.
+
+Exam Tips ⭐
+
+• Positive: Paperless, reduced paper waste.
+• Negative: Heavy metals, E-waste.
+• E-waste = Dangerous for health.
+• Burning electronics = Hazardous smoke.
+• Developing countries E-waste dumping.
+• Energy usage increased.`,
+  questions: [
+    {
+      q: 'What is a positive environmental impact of Computer Science?',
+      options: [
+        'A. Reduction in paper waste through online reading and publishing.',
+        'B. Increased energy consumption.',
+        'C. Pollution from heavy metals in computers.',
+        'D. E-waste generation.'
+      ],
+      answer: 'A. Reduction in paper waste through online reading and publishing.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a major environmental concern regarding e-waste?',
+      options: [
+        'A. Hazardous materials from electronics contaminate water and air, especially in developing countries.',
+        'B. E-waste is completely biodegradable.',
+        'C. E-waste is only a problem in developed countries.',
+        'D. E-waste does not pose any health risks.'
+      ],
+      answer: 'A. Hazardous materials from electronics contaminate water and air, especially in developing countries.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which heavy metals are commonly found in computer equipment?',
+      options: [
+        'A. Lead, mercury, beryllium, and cadmium.',
+        'B. Gold, silver, and copper only.',
+        'C. Iron and aluminum.',
+        'D. Sodium and potassium.'
+      ],
+      answer: 'A. Lead, mercury, beryllium, and cadmium.',
+      diff: 'hard',
+    },
+    {
+      q: 'How are metals like gold, silver, and copper recovered from e-waste?',
+      options: [
+        'A. By burning the substances, which releases hazardous smoke.',
+        'B. By using magnets.',
+        'C. By dissolving them in water.',
+        'D. By using a simple hammer.'
+      ],
+      answer: 'A. By burning the substances, which releases hazardous smoke.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which health issues can be caused by exposure to e-waste burning?',
+      options: [
+        'A. Skin cancer, brain damage, lung cancer, and kidney disease.',
+        'B. Only minor headaches.',
+        'C. Only eye irritation.',
+        'D. No health issues.'
+      ],
+      answer: 'A. Skin cancer, brain damage, lung cancer, and kidney disease.',
+      diff: 'hard',
+    },
+  ]
+},
+
+179: {
+  title: "CS Impact: Ethical Issues",
+  summary: `Ethical Issues in IT ⭐
+
+Ethical issues moral principles se related hain.
+
+IT industry me ethics aur legality important hain.
+
+Unlike doctors, teachers, IT me standardization nahi hai.
+
+Top 5 Pressing Issues ⭐
+
+1. Privacy:
+   • Personal data spread everywhere.
+   • Email/accounts monitored.
+   • Employers check computer habits.
+   • Privacy concerns.
+   • Slippery slope issue.
+
+2. Digital Ownership:
+   • Information flow freely.
+   • Intellectual property hard to control.
+   • Copyright struggling.
+   • Music/entertainment industry push.
+   • Exchange of ideas freedom debate.
+
+3. Data Gathering:
+   • Online lives monitored.
+   • Government legislation.
+   • National security vs privacy.
+   • Consent issue.
+   • What can be gathered?
+
+4. Consent:
+   • People know monitoring?
+   • Right to know data usage?
+   • Transparency issue.
+
+5. Surveillance:
+   • Government surveillance.
+   • Private companies monitoring.
+   • Individual rights.
+
+Key Points ⭐
+
+• IT ethical issues important hain.
+• Privacy = Major concern.
+• Digital ownership = Intellectual property.
+• Data gathering = Surveillance vs Privacy.
+• Consent = User knowledge.
+• IT lacks standardization.
+• These issues complex hain.
+
+Exam Tips ⭐
+
+• Privacy = Personal data protection.
+• Digital ownership = Intellectual property rights.
+• Data gathering = Monitoring.
+• Consent = User awareness.
+• IT industry standardization nahi hai.
+• Ethical issues legal implications.
+• Privacy = Slippery slope concern.`,
+  questions: [
+    {
+      q: 'What is a primary ethical concern regarding privacy in IT?',
+      options: [
+        'A. Personal data is widely spread and often monitored without complete user awareness.',
+        'B. Data is not stored securely enough.',
+        'C. Software is too expensive.',
+        'D. Computers are too slow.'
+      ],
+      answer: 'A. Personal data is widely spread and often monitored without complete user awareness.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the issue of "digital ownership"?',
+      options: [
+        'A. How to establish ownership of intellectual property in the digital realm.',
+        'B. How to buy digital cameras.',
+        'C. How to own a computer.',
+        'D. How to sell digital products.'
+      ],
+      answer: 'A. How to establish ownership of intellectual property in the digital realm.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the "consent" issue in data gathering?',
+      options: [
+        'A. Whether individuals know what information is being monitored and have a say in it.',
+        'B. Whether data is stored in a database.',
+        'C. Whether data is accurate.',
+        'D. Whether data is deleted.'
+      ],
+      answer: 'A. Whether individuals know what information is being monitored and have a say in it.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which debate is revived by government legislation allowing monitoring of private citizens?',
+      options: [
+        'A. The debate about what information can be gathered and why.',
+        'B. The debate about CPU speed.',
+        'C. The debate about software licensing.',
+        'D. The debate about internet speed.'
+      ],
+      answer: 'A. The debate about what information can be gathered and why.',
+      diff: 'hard',
+    },
+    {
+      q: 'Why is standardization in IT ethics difficult compared to fields like medicine?',
+      options: [
+        'A. Because IT is a rapidly evolving field with diverse and widespread applications.',
+        'B. Because doctors are not regulated.',
+        'C. Because teachers are less ethical.',
+        'D. Because IT is less important.'
+      ],
+      answer: 'A. Because IT is a rapidly evolving field with diverse and widespread applications.',
+      diff: 'hard',
+    },
+  ]
+},
+
+180: {
+  title: "CS Impact: Software Licenses and Information Privacy",
+  summary: `Software Licenses ⭐
+
+Software license end user ko copyright violation kiye baghair software use karne ka right deta hai.
+
+License defines responsibilities aur restrictions.
+
+License Types ⭐
+
+1. Proprietary:
+   • Standard commercial.
+   • Restrictions.
+   • Ownership.
+
+2. Free:
+   • No cost.
+   • May have restrictions.
+
+3. Open Source:
+   • Source code available.
+   • Modification allowed.
+   • Redistribution allowed.
+
+Information Privacy Laws ⭐
+
+1. COPPA (Children's Online Privacy Protection Act):
+   • Parents control website data collection from kids.
+   • Children protection.
+
+2. HIPAA (Health Insurance Portability and Accountability Act):
+   • Healthcare data confidentiality.
+   • Patient privacy.
+   • All health-related data.
+
+3. ECPA (Electronic Communications Privacy Act):
+   • Government wire taps restriction.
+   • Electronic data transmission.
+   • Privacy protection.
+
+4. Video Privacy Protection Act:
+   • Audiovisual material privacy.
+   • Personal information protection.
+   • Rental/purchase data.
+
+5. Gramm-Leach-Bliley Act:
+   • Financial institutions.
+   • Private information handling.
+   • Customer privacy.
+
+Key Points ⭐
+
+• Software license = Legal agreement.
+• Proprietary, free, open source types.
+• IP laws protect privacy.
+• COPPA = Children protection.
+• HIPAA = Healthcare data.
+• ECPA = Electronic communication.
+• Video Privacy = Audiovisual data.
+• Gramm-Leach-Bliley = Financial data.
+
+Exam Tips ⭐
+
+• License = Usage rights.
+• Proprietary = Commercial.
+• Open source = Source available.
+• COPPA = Children online privacy.
+• HIPAA = Health data privacy.
+• ECPA = Electronic communication privacy.
+• Video Privacy = Rental/ purchase privacy.
+• Gramm-Leach-Bliley = Financial privacy.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of a software license?',
+      options: [
+        'A. To grant users certain permissions to use the software without violating copyrights.',
+        'B. To sell software.',
+        'C. To prevent software installation.',
+        'D. To make software free.'
+      ],
+      answer: 'A. To grant users certain permissions to use the software without violating copyrights.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between proprietary and open-source software licenses?',
+      options: [
+        'A. Open-source licenses allow users to redistribute and modify the source code, while proprietary licenses do not.',
+        'B. Proprietary software is always better.',
+        'C. Open-source software is always free.',
+        'D. There is no difference.'
+      ],
+      answer: 'A. Open-source licenses allow users to redistribute and modify the source code, while proprietary licenses do not.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which law is designed to protect the online privacy of children?',
+      options: [
+        'A. COPPA.',
+        'B. HIPAA.',
+        'C. ECPA.',
+        'D. GLBA.'
+      ],
+      answer: 'A. COPPA.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the main focus of the Health Insurance Portability and Accountability Act (HIPAA)?',
+      options: [
+        'A. Ensuring patient confidentiality for all healthcare-related data.',
+        'B. Protecting children\'s online privacy.',
+        'C. Regulating electronic communications.',
+        'D. Protecting video rental records.'
+      ],
+      answer: 'A. Ensuring patient confidentiality for all healthcare-related data.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which law mandates how financial institutions must deal with the private information of individuals?',
+      options: [
+        'A. Gramm-Leach-Bliley Act.',
+        'B. ECPA.',
+        'C. COPPA.',
+        'D. Video Privacy Protection Act.'
+      ],
+      answer: 'A. Gramm-Leach-Bliley Act.',
+      diff: 'hard',
+    },
+  ]
+},
+
+181: {
+  title: "CS Impact: Intellectual Property",
+  summary: `Intellectual Property (IP) ⭐
+
+IP = Ideas, information, and knowledge.
+
+Creative output = Intellectual.
+Tradable commodity = Property.
+
+IPR (Intellectual Property Rights) ⭐
+
+Legal rights protect owners of IP.
+
+IPR Categories ⭐
+
+1. Patent:
+   • Inventions.
+   • 20 years monopoly.
+   • Application required.
+   • Public disclosure before application destroys.
+
+2. Copyright:
+   • Literary, dramatic, artistic works.
+   • Audio, video recordings.
+   • Software protection.
+   • No application needed.
+   • 70 years after author's death.
+
+3. Database Right:
+   • Databases not protected by copyright.
+   • EU right.
+   • 15 years maximum.
+
+4. Design Right:
+   • Shape/configuration.
+   • Internal/external features.
+   • Registered designs: 25 years.
+   • Example: Computer chips.
+
+5. Trademark:
+   • Mark/logo.
+   • Distinctive sign.
+   • No description of products.
+   • Unlimited duration.
+   • Registration required.
+
+6. Confidential Information:
+   • Unpublished secret.
+   • Non-disclosure agreement.
+   • Unlimited duration.
+   • Only you possess.
+
+IPR Table Summary ⭐
+
+Patent:
+• Covers: Inventions
+• Apply: Yes
+• Duration: 20 years
+
+Copyright:
+• Covers: Literary, musical, artistic works, software
+• Apply: No
+• Duration: 70 years after death
+
+Registered Design:
+• Covers: Image (look and feel)
+• Apply: Yes
+• Duration: 25 years
+
+Registered Trademark:
+• Covers: Name, logo
+• Apply: Yes
+• Duration: Unlimited
+
+Confidential Information:
+• Covers: Unpublished secret
+• Apply: No
+• Duration: Unlimited
+
+Database Right:
+• Covers: Databases
+• Apply: No
+• Duration: 15 years
+
+Key Points ⭐
+
+• IP = Creative output property.
+• IPR = Legal rights protect IP.
+• Patent = Inventions.
+• Copyright = Creative works.
+• Trademark = Brand identity.
+• Confidential info = Secrets.
+
+Exam Tips ⭐
+
+• IP = Ideas + Information + Knowledge.
+• Patent requires application.
+• Copyright automatic hai.
+• Trademark registration required.
+• Confidential info unlimited.
+• Database right EU specific.
+• IPR protection important hai.`,
+  questions: [
+    {
+      q: 'What is Intellectual Property (IP)?',
+      options: [
+        'A. Ideas, information, and knowledge that are viewed as a tradable commodity.',
+        'B. Physical property like a computer.',
+        'C. A type of software license.',
+        'D. A person\'s social status.'
+      ],
+      answer: 'A. Ideas, information, and knowledge that are viewed as a tradable commodity.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between a patent and a copyright?',
+      options: [
+        'A. A patent protects inventions and requires application, while copyright protects creative works and is automatic.',
+        'B. Copyright protects inventions.',
+        'C. Patents are for software only.',
+        'D. Copyrights require application.'
+      ],
+      answer: 'A. A patent protects inventions and requires application, while copyright protects creative works and is automatic.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which type of intellectual property is protected for 20 years?',
+      options: [
+        'A. Patent.',
+        'B. Copyright.',
+        'C. Trademark.',
+        'D. Database right.'
+      ],
+      answer: 'A. Patent.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which intellectual property right covers the "look and feel" of a product?',
+      options: [
+        'A. Registered Design.',
+        'B. Copyright.',
+        'C. Patent.',
+        'D. Confidential Information.'
+      ],
+      answer: 'A. Registered Design.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the maximum duration of a registered trademark?',
+      options: [
+        'A. Unlimited.',
+        'B. 20 years.',
+        'C. 70 years.',
+        'D. 15 years.'
+      ],
+      answer: 'A. Unlimited.',
+      diff: 'hard',
+    },
+  ]
+},
+
+182: {
+  title: "CS Impact: Security",
+  summary: `Computer Security ⭐
+
+Computer security = Cyber-security = IT security.
+
+Protection of information systems from theft, damage, and disruption.
+
+Security Areas ⭐
+
+1. Confidentiality:
+   • Only authorized users access.
+   • Data and resources protected.
+   • Unauthorized access prevented.
+
+2. Integrity:
+   • Only authorized users modify.
+   • Data accuracy maintained.
+   • Unauthorized changes prevented.
+
+3. Availability:
+   • Data available when needed.
+   • System availability.
+   • No downtime.
+
+4. Authentication:
+   • Verify identity.
+   • Confirming communication.
+   • Prevent impersonation.
+
+Why Security Important ⭐
+
+1. Data Theft Prevention:
+   • Bank account numbers.
+   • Credit card information.
+   • Passwords.
+   • Work documents.
+
+2. Data Misuse Prevention:
+   • Unauthorized intrusions.
+   • Program source code modification.
+   • Fake social accounts.
+   • Derogatory content.
+
+3. Malicious Intent Prevention:
+   • Attacks on other computers.
+   • Website crashes.
+   • DDOS attacks.
+   • Data loss.
+
+Firewall ⭐
+
+• Security-conscious hardware/software.
+• Between Internet and network.
+• Security guard role.
+• All traffic passes through.
+• Prevents unauthorized access.
+
+Key Points ⭐
+
+• Security = Confidentiality, Integrity, Availability, Authentication.
+• Data theft prevention important hai.
+• Firewall security device hai.
+• Cybercrime rising.
+• Authentication verify identity.
+
+Exam Tips ⭐
+
+• Confidentiality = Access control.
+• Integrity = Modification control.
+• Availability = Access when needed.
+• Authentication = Identity verification.
+• Firewall = Security guard.
+• Data theft = Bank info, passwords.
+• Malicious attacks = DDOS, website crashes.`,
+  questions: [
+    {
+      q: 'Which area of computer security ensures that data is available to users when needed?',
+      options: [
+        'A. Availability.',
+        'B. Confidentiality.',
+        'C. Integrity.',
+        'D. Authentication.'
+      ],
+      answer: 'A. Availability.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the role of a firewall in computer security?',
+      options: [
+        'A. To act as a security guard between the Internet and a local network, preventing unauthorized access.',
+        'B. To store all passwords.',
+        'C. To write programs.',
+        'D. To install software.'
+      ],
+      answer: 'A. To act as a security guard between the Internet and a local network, preventing unauthorized access.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which security concern addresses the question: "Are you really communicating with whom you think you are?"',
+      options: [
+        'A. Authentication.',
+        'B. Confidentiality.',
+        'C. Integrity.',
+        'D. Availability.'
+      ],
+      answer: 'A. Authentication.',
+      diff: 'hard',
+    },
+    {
+      q: 'An attacker modifying a program\'s source code is a violation of which security principle?',
+      options: [
+        'A. Integrity.',
+        'B. Confidentiality.',
+        'C. Availability.',
+        'D. Authentication.'
+      ],
+      answer: 'A. Integrity.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is NOT a reason why computer security is important?',
+      options: [
+        'A. To make the computer run faster.',
+        'B. To prevent data theft like bank account numbers.',
+        'C. To protect against malicious intrusions.',
+        'D. To ensure data remains safe and confidential.'
+      ],
+      answer: 'A. To make the computer run faster.',
+      diff: 'hard',
+    },
+  ]
+},
+
+183: {
+  title: "CS Impact: Privacy",
+  summary: `Privacy ⭐
+
+Privacy = Individual's right to own data generated by life and activities.
+
+Natural rights theory.
+
+"Right to be let alone" - Warren and Brandeis.
+
+Data Sources ⭐
+
+1. Social Sites:
+   • Facebook.
+   • Twitter.
+   • Instagram.
+
+2. Telephone Companies:
+   • Mobile networks.
+   • Call records.
+   • Location data.
+
+3. Smart City Cameras:
+   • Road cameras.
+   • Public surveillance.
+
+4. Emails:
+   • Communication records.
+   • Content.
+
+5. Personal Software:
+   • Apps.
+   • Usage data.
+
+6. Passwords and Logins:
+   • Account credentials.
+   • Access patterns.
+
+How to Protect Privacy ⭐
+
+1. Email Encryption:
+   • Secure communication.
+   • Cannot read without key.
+
+2. Anonymizing Proxies:
+   • Hide IP address.
+   • Anonymous browsing.
+
+3. Anonymizing Networks:
+   • Tor network.
+   • Complete anonymity.
+
+Privacy Organizations ⭐
+
+EPIC (Electronic Privacy Information Center):
+• Washington D.C.
+• Non-profit research.
+• Privacy and human rights.
+• Consumer privacy complaints.
+• Snapchat, WhatsApp, Google cases.
+
+PI (Privacy International):
+• London charity.
+• Challenging Data Exploitation.
+• Building Global Privacy Movement.
+• Contesting Surveillance.
+
+Key Points ⭐
+
+• Privacy = Right to own data.
+• Multiple data sources.
+• Encryption protect.
+• Anonymizing tools.
+• EPIC and PI organizations.
+• Privacy movement global.
+
+Exam Tips ⭐
+
+• Privacy = Data ownership right.
+• Data sources: Social, phone, cameras.
+• Encryption = Secure communication.
+• Proxies = Hide identity.
+• EPIC = US privacy organization.
+• PI = UK privacy organization.
+• Privacy concerns rising.`,
+  questions: [
+    {
+      q: 'What is the definition of privacy in the context of CS and IT?',
+      options: [
+        'A. An individual\'s right to own the data generated by their activities and restrict its outward flow.',
+        'B. The right to access any data.',
+        'C. The right to delete all data.',
+        'D. The right to use any software.'
+      ],
+      answer: 'A. An individual\'s right to own the data generated by their activities and restrict its outward flow.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is a source of personal data?',
+      options: [
+        'A. Social media sites.',
+        'B. A simple calculator.',
+        'C. A pencil.',
+        'D. A printed book.'
+      ],
+      answer: 'A. Social media sites.',
+      diff: 'hard',
+    },
+    {
+      q: 'How can an individual protect their privacy on the internet?',
+      options: [
+        'A. By encrypting emails and using anonymizing proxies.',
+        'B. By posting all personal information online.',
+        'C. By using the same password for all accounts.',
+        'D. By not using any security software.'
+      ],
+      answer: 'A. By encrypting emails and using anonymizing proxies.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the Electronic Privacy Information Center (EPIC)?',
+      options: [
+        'A. A non-profit research center focused on privacy and human rights issues.',
+        'B. A government spy agency.',
+        'C. A software development company.',
+        'D. A social media platform.'
+      ],
+      answer: 'A. A non-profit research center focused on privacy and human rights issues.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the mission of Privacy International (PI)?',
+      options: [
+        'A. To challenge data exploitation, contest surveillance, and build the global privacy movement.',
+        'B. To collect personal data.',
+        'C. To provide free internet.',
+        'D. To develop computer hardware.'
+      ],
+      answer: 'A. To challenge data exploitation, contest surveillance, and build the global privacy movement.',
+      diff: 'hard',
+    },
+  ]
+},
+
+184: {
+  title: "CS Impact: Social Issues of IT",
+  summary: `Social Issues of IT ⭐
+
+IT ne society me major changes laye hain.
+
+Positive changes ke sath negative issues bhi hain.
+
+10 Major Social Issues ⭐
+
+1. Communication Breakdown:
+   • Family communication lack.
+   • Multiple devices.
+   • Individual entertainment.
+   • Less group interaction.
+
+2. Defamation of Character:
+   • Social media public defamation.
+   • Message boards.
+   • Facebook/Twitter usage.
+   • Public character assassination.
+
+3. Identity Theft:
+   • Personal details stolen.
+   • Online transactions.
+   • Malicious purposes.
+   • Serious ramifications.
+
+4. Cyber Bullying:
+   • Anonymous attacks.
+   • Personal and strangers.
+   • Online harassment.
+   • Victims suffer.
+
+5. Gaming Addiction:
+   • New addiction type.
+   • All ages affected.
+   • Social problems.
+   • Financial problems.
+
+6. Privacy:
+   • Online identity theft.
+   • Personal information risk.
+   • Social media compromise.
+
+7. Health & Fitness:
+   • Sedentary lifestyle.
+   • Less physical activity.
+   • Health issues.
+
+8. Education:
+   • Plagiarism problem.
+   • Copy-paste from online.
+   • Academic dishonesty.
+   • Institutions strict.
+
+9. Terrorism & Crime:
+   • Global movements.
+   • Criminal exploitation.
+   • Nefarious purposes.
+
+10. Forbidden Literature:
+    • Access to harmful content.
+    • Social problems.
+    • Unrestricted access.
+
+Key Points ⭐
+
+• IT social issues = Multiple.
+• Communication breakdown = Family.
+• Defamation = Public character.
+• Identity theft = Personal info.
+• Cyber bullying = Online harassment.
+• Gaming addiction = New addiction.
+• Privacy = Personal data.
+• Health = Sedentary lifestyle.
+• Education = Plagiarism.
+• Terrorism = Exploitation.
+• Forbidden content = Harmful access.
+
+Exam Tips ⭐
+
+• 10 major social issues.
+• Communication, Defamation, Identity theft.
+• Cyber bullying, Gaming addiction.
+• Privacy, Health, Education.
+• Terrorism, Forbidden content.
+• Each issue significant hai.
+• Society impacted deeply.`,
+  questions: [
+    {
+      q: 'Which social issue refers to the lack of communication within a family due to individual computer usage?',
+      options: [
+        'A. Communication Breakdown.',
+        'B. Identity Theft.',
+        'C. Cyber Bullying.',
+        'D. Gaming Addiction.'
+      ],
+      answer: 'A. Communication Breakdown.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "Identity Theft"?',
+      options: [
+        'A. When a third party harvests personal details to carry out fraudulent activities.',
+        'B. When a person changes their identity.',
+        'C. When a company creates fake profiles.',
+        'D. When software deletes personal information.'
+      ],
+      answer: 'A. When a third party harvests personal details to carry out fraudulent activities.',
+      diff: 'hard',
+    },
+    {
+      q: 'How has IT contributed to the problem of defamation of character?',
+      options: [
+        'A. By providing public platforms like social media for people to make defamatory statements.',
+        'B. By reducing the number of defamatory statements.',
+        'C. By making all information private.',
+        'D. By eliminating free speech.'
+      ],
+      answer: 'A. By providing public platforms like social media for people to make defamatory statements.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a major educational problem caused by IT?',
+      options: [
+        'A. Plagiarism, where students copy-paste content from online sources.',
+        'B. Students are studying more.',
+        'C. Teachers are more effective.',
+        'D. Schools are closing.'
+      ],
+      answer: 'A. Plagiarism, where students copy-paste content from online sources.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which new form of addiction has arisen due to computers and the internet?',
+      options: [
+        'A. Gaming addiction.',
+        'B. Food addiction.',
+        'C. Exercise addiction.',
+        'D. Book addiction.'
+      ],
+      answer: 'A. Gaming addiction.',
+      diff: 'hard',
+    },
+  ]
+},
+
+185: {
+  title: "CS Impact: Content Filtering, Email-Spams and Laws",
+  summary: `Content Filtering ⭐
+
+Content filtering program ko use karta hai certain items ko block karne ke liye.
+
+Most common: Emails, websites, executables.
+
+How It Works ⭐
+
+• Strings of characters match.
+• Match = Content not allowed.
+• Part of Internet firewalls.
+• Security purpose.
+• Company policy implementation.
+
+Examples:
+• Filter Facebook.
+• Filter YouTube.
+• Work-related websites only.
+
+Spam Emails ⭐
+
+Unwanted junk email.
+
+Major issue globally.
+
+Governments have specific regulations.
+
+International Anti-Spam Laws ⭐
+
+1. CAN-SPAM Act (US).
+2. CASL (Canada's Anti-Spam Legislation).
+3. Anti-Spam Law (Europe).
+4. Spam Act 2003 (Australia).
+5. Africa, Asia, South America: Loose requirements.
+
+CAN-SPAM Requirements ⭐
+
+1. Don't use false/misleading header info.
+2. Don't use deceptive subject lines.
+3. Identify message as ad.
+4. Tell recipients location.
+5. Honor opt-out requests promptly.
+6. Monitor what others do on your behalf.
+
+Major Requirements ⭐
+
+• Ask permission before adding emails.
+• User could identify you as Sender.
+• Do not give email address to others.
+• Be honest.
+
+Key Points ⭐
+
+• Content filtering = Block certain content.
+• Firewall part hai.
+• Company policies implement.
+• Spam = Unwanted email.
+• International laws exist.
+• CAN-SPAM US law hai.
+• Permission required before emailing.
+
+Exam Tips ⭐
+
+• Content filtering = String matching.
+• Spam laws international hain.
+• CAN-SPAM = US law.
+• CASL = Canada law.
+• Europe, Australia laws exist.
+• Permission required.
+• Honesty important.
+• Opt-out requests honor karo.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of content filtering?',
+      options: [
+        'A. To prevent access to certain items like websites or emails based on string matching.',
+        'B. To increase internet speed.',
+        'C. To store more data.',
+        'D. To make software free.'
+      ],
+      answer: 'A. To prevent access to certain items like websites or emails based on string matching.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which US law regulates commercial email and spam?',
+      options: [
+        'A. CAN-SPAM Act.',
+        'B. CASL.',
+        'C. Spam Act 2003.',
+        'D. ECPA.'
+      ],
+      answer: 'A. CAN-SPAM Act.',
+      diff: 'hard',
+    },
+    {
+      q: 'According to the CAN-SPAM Act, what is a key requirement for sending commercial emails?',
+      options: [
+        'A. To honor opt-out requests promptly.',
+        'B. To use deceptive subject lines.',
+        'C. To hide the sender\'s identity.',
+        'D. To not include an address.'
+      ],
+      answer: 'A. To honor opt-out requests promptly.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which country has the CASL legislation?',
+      options: [
+        'A. Canada.',
+        'B. United States.',
+        'C. Australia.',
+        'D. United Kingdom.'
+      ],
+      answer: 'A. Canada.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a major requirement in many anti-spam laws?',
+      options: [
+        'A. To ask for permission before adding someone to an email list.',
+        'B. To send more emails.',
+        'C. To hide the email address.',
+        'D. To use no subject lines.'
+      ],
+      answer: 'A. To ask for permission before adding someone to an email list.',
+      diff: 'hard',
+    },
+  ]
+},
+
+186: {
+  title: "CS Impact: Children Protection and Electronic Theft",
+  summary: `Children Protection ⭐
+
+Parental controls children ko digital world me protect karte hain.
+
+Goal: Responsible aur disciplined usage.
+
+Risks Involved ⭐
+
+1. Content Risks:
+   • Illegal content.
+   • Harmful content.
+   • Harmful advice.
+
+2. Contact Risks:
+   • Online harassment.
+   • Cyberbullying.
+   • Illegal interactions.
+   • Problematic content sharing.
+
+3. Online Marketing:
+   • Inappropriate products.
+   • Illegal products.
+   • Age-restricted products.
+
+4. Electronic Theft:
+   • Online fraud.
+   • Online scam.
+   • Identity theft.
+
+5. Information Privacy:
+   • Personal data collection.
+   • Children data.
+   • Privacy violation.
+
+6. Information Security:
+   • Malicious code.
+   • Commercial spyware.
+   • Virus threats.
+
+Protection Methods ⭐
+
+1. Web Filtering:
+   • Block harmful sites.
+   • Content restriction.
+
+2. Parental Control Software:
+   • Monitor usage.
+   • Set limits.
+   • Activity tracking.
+
+3. Enable Safety Features:
+   • Browser settings.
+   • Privacy settings.
+   • Security features.
+
+4. Guide Kids:
+   • Education.
+   • Awareness.
+   • Communication.
+
+Parent/Child Phone Contract ⭐
+
+• Social media method.
+• Build responsibility.
+• Priorities set.
+• Family agreement.
+
+Key Points ⭐
+
+• Children protection important hai.
+• Multiple risks involved.
+• Content risks: Illegal, harmful.
+• Contact risks: Harassment, bullying.
+• Electronic theft: Fraud, identity.
+• Protection methods available.
+• Parental controls effective.
+
+Exam Tips ⭐
+
+• Content Risks = Illegal, harmful content.
+• Contact Risks = Harassment, cyberbullying.
+• Electronic Theft = Fraud, identity theft.
+• Information Privacy = Personal data.
+• Information Security = Malware.
+• Web Filtering = Block harmful sites.
+• Parental Control = Monitor usage.
+• Guide Kids = Education + Awareness.`,
+  questions: [
+    {
+      q: 'What is a primary goal of using parental controls?',
+      options: [
+        'A. To help children become more responsible in their use of digital technology.',
+        'B. To prevent children from using any technology.',
+        'C. To spy on children.',
+        'D. To delete all files.'
+      ],
+      answer: 'A. To help children become more responsible in their use of digital technology.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which risk involves a child being exposed to illegal content online?',
+      options: [
+        'A. Content Risk.',
+        'B. Contact Risk.',
+        'C. Online Marketing Risk.',
+        'D. Electronic Theft Risk.'
+      ],
+      answer: 'A. Content Risk.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "Cyberbullying"?',
+      options: [
+        'A. Online harassment and bullying.',
+        'B. A type of software.',
+        'C. A new video game.',
+        'D. An online shopping site.'
+      ],
+      answer: 'A. Online harassment and bullying.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which protection method involves setting limits and tracking activity?',
+      options: [
+        'A. Parental Control Software.',
+        'B. Web Filtering.',
+        'C. Enabling Safety Features.',
+        'D. Guide Kids.'
+      ],
+      answer: 'A. Parental Control Software.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the "Parent/Child Phone Contract"?',
+      options: [
+        'A. An agreement to build responsibility and set priorities for phone use.',
+        'B. A contract to buy a new phone.',
+        'C. A document for school.',
+        'D. A type of software.'
+      ],
+      answer: 'A. An agreement to build responsibility and set priorities for phone use.',
+      diff: 'hard',
+    },
+  ]
+},
+
+187: {
+  title: "Word Processing: MS Word",
+  summary: `MS Word Introduction ⭐
+
+Word processor digital documents prepare karne ke liye software hai.
+
+MS Word Microsoft Office ka hissa hai.
+
+Open MS Word ⭐
+
+• Start Menu → Microsoft Office → MS Word.
+• Windows XP screenshot (Figure 130).
+
+Office Button ⭐
+
+• Top left corner.
+• Colorful icon.
+• Click = Menu open.
+• Recent documents pane.
+• File menu commands.
+
+Ribbon System ⭐
+
+• Tabs, Groups, Commands.
+• Each tab different ribbon.
+• Intuitive placement.
+• Less mouse clicks.
+
+Home Ribbon ⭐
+
+• Main ribbon.
+• Similar in Excel and PowerPoint.
+• Most used commands.
+
+Dialog Expanders (Launchers) ⭐
+
+• Small down arrow.
+• Bottom right of groups.
+• Click = Dialog window.
+• Additional options.
+
+Commands Types ⭐
+
+1. Simple Buttons:
+   • Toggle/on-off switch.
+   • Blue = Off.
+   • Orange = On.
+   • Example: Bold.
+
+2. Drop-down Buttons:
+   • Down arrow right side.
+   • Options available.
+   • Example: Change Case.
+
+3. Combination Buttons:
+   • Left = Simple button.
+   • Right = Drop-down arrow.
+   • Default value = Last used.
+   • Example: Underline.
+
+Tooltips ⭐
+
+• Mouse over command.
+• Text box appears.
+• Command name.
+• Keyboard shortcut.
+• Explanation.
+
+Mini Toolbar ⭐
+
+• Appears on text selection.
+• Common formatting commands.
+• Click command to apply.
+• Click outside to close.
+
+Key Points ⭐
+
+• MS Word = Word processor.
+• Office Button = File menu.
+• Ribbon = Tabs + Groups.
+• Dialog Expanders = Extra options.
+• Tooltips = Command help.
+• Mini Toolbar = Quick formatting.
+
+Exam Tips ⭐
+
+• MS Word document creation tool hai.
+• Office Button top-left corner.
+• Home Ribbon most important.
+• Launcher = Extra options.
+• Simple Button = Toggle.
+• Drop-down = Options list.
+• Mini Toolbar = Quick access.`,
+  questions: [
+    {
+      q: 'What is the primary function of MS Word?',
+      options: [
+        'A. To create and format digital documents.',
+        'B. To create spreadsheets.',
+        'C. To develop presentations.',
+        'D. To manage databases.'
+      ],
+      answer: 'A. To create and format digital documents.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the Office Button in MS Word used for?',
+      options: [
+        'A. To access the File menu and recent documents.',
+        'B. To change the font.',
+        'C. To insert images.',
+        'D. To spell-check the document.'
+      ],
+      answer: 'A. To access the File menu and recent documents.',
+      diff: 'hard',
+    },
+    {
+      q: 'What are Dialog Expanders (Launchers) in the Ribbon?',
+      options: [
+        'A. Small arrows in the bottom right of groups that open dialog windows with more options.',
+        'B. Large buttons in the center of the screen.',
+        'C. The main menu of MS Word.',
+        'D. The status bar.'
+      ],
+      answer: 'A. Small arrows in the bottom right of groups that open dialog windows with more options.',
+      diff: 'hard',
+    },
+    {
+      q: 'When does the Mini Toolbar appear in MS Word?',
+      options: [
+        'A. When you select text.',
+        'B. When you open a new document.',
+        'C. When you click the Office Button.',
+        'D. When you print a document.'
+      ],
+      answer: 'A. When you select text.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a "Simple Button" in the Ribbon?',
+      options: [
+        'A. A toggle or on/off switch that changes color when activated.',
+        'B. A button that always opens a drop-down menu.',
+        'C. A button that is always hidden.',
+        'D. A button that cannot be clicked.'
+      ],
+      answer: 'A. A toggle or on/off switch that changes color when activated.',
+      diff: 'hard',
+    },
+  ]
+},
+
+188: {
+  title: "Word Processing: MS Word (Quick Access bar)",
+  summary: `Quick Access Toolbar ⭐
+
+Quick Access Toolbar frequently used commands ka easy access provide karta hai.
+
+Default Buttons ⭐
+
+1. Save
+2. Undo
+3. Redo/Repeat
+4. Quick Print
+
+Customization ⭐
+
+• Add commands.
+• Remove commands.
+• Meet your needs.
+
+Undo and Redo ⭐
+
+Undo:
+• Reverse most commands.
+• Click Undo button.
+• Keyboard shortcut: Ctrl+Z.
+
+Redo:
+• Reapply undone commands.
+• Click Redo button.
+• Keyboard shortcut: Ctrl+Y.
+
+Undo Multiple Actions ⭐
+
+• Click down arrow next to Undo.
+• List of actions.
+• Select actions to undo.
+• Multiple actions at once.
+
+Exercise: Undo and Redo ⭐
+
+1. Type "Undo example".
+2. Click Undo → typing disappears.
+3. Click Redo → typing reappears.
+
+Keyboard Shortcut Exercise:
+1. Type "Undo example".
+2. Press Ctrl+Z → typing disappears.
+3. Press Ctrl+Y → typing reappears.
+
+Multiple Actions Exercise:
+1. Select "Undo example".
+2. Ctrl+B (Bold).
+3. Ctrl+I (Italic).
+4. Ctrl+U (Underline).
+5. Click Undo arrow → see actions list.
+6. Click Underline, Italic, etc. to undo.
+
+Key Points ⭐
+
+• Quick Access = Default + Custom.
+• Undo = Reverse actions.
+• Redo = Reapply actions.
+• Ctrl+Z = Undo.
+• Ctrl+Y = Redo.
+• Multiple undo possible.
+• Customizable toolbar.
+
+Exam Tips ⭐
+
+• Quick Access Toolbar top.
+• Default buttons: Save, Undo, Redo, Print.
+• Undo = Ctrl+Z.
+• Redo = Ctrl+Y.
+• Multiple undo = Click arrow.
+• Customization possible.`,
+  questions: [
+    {
+      q: 'Which buttons appear on the Quick Access Toolbar by default?',
+      options: [
+        'A. Save, Undo, Redo, and Quick Print.',
+        'B. Bold, Italic, Underline.',
+        'C. Copy, Cut, Paste.',
+        'D. Insert, Design, Layout.'
+      ],
+      answer: 'A. Save, Undo, Redo, and Quick Print.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the keyboard shortcut for the Undo command?',
+      options: [
+        'A. Ctrl+Z.',
+        'B. Ctrl+Y.',
+        'C. Ctrl+X.',
+        'D. Ctrl+V.'
+      ],
+      answer: 'A. Ctrl+Z.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the keyboard shortcut for the Redo command?',
+      options: [
+        'A. Ctrl+Y.',
+        'B. Ctrl+Z.',
+        'C. Ctrl+X.',
+        'D. Ctrl+V.'
+      ],
+      answer: 'A. Ctrl+Y.',
+      diff: 'hard',
+    },
+    {
+      q: 'How can you undo multiple actions at once in MS Word?',
+      options: [
+        'A. Click the down arrow next to the Undo button and select the actions to undo.',
+        'B. Press Ctrl+Z multiple times.',
+        'C. Use the Redo button.',
+        'D. Close and reopen the document.'
+      ],
+      answer: 'A. Click the down arrow next to the Undo button and select the actions to undo.',
+      diff: 'hard',
+    },
+    {
+      q: 'Can the Quick Access Toolbar be customized?',
+      options: [
+        'A. Yes, you can add and remove commands to meet your needs.',
+        'B. No, it is fixed and cannot be changed.',
+        'C. Only Microsoft can change it.',
+        'D. It is not customizable in any version.'
+      ],
+      answer: 'A. Yes, you can add and remove commands to meet your needs.',
+      diff: 'hard',
+    },
+  ]
+},
+
+189: {
+  title: "Word Processing: MS Word (Home Ribbon)",
+  summary: `Home Ribbon ⭐
+
+Home Ribbon MS Word me sab se important ribbon hai.
+
+Most commonly used commands yahan hain.
+
+Groups in Home Ribbon ⭐
+
+1. Clipboard Group:
+   • Copy, Cut, Paste.
+   • Format Painter.
+   • Clipboard launcher.
+
+2. Font Group:
+   • Font typeface.
+   • Font size.
+   • Bold, Italic, Underline.
+   • Font color.
+   • Font launcher.
+
+3. Paragraph Group:
+   • Alignment (left, right, center, justify).
+   • Line spacing.
+   • Bullets and numbering.
+   • Indentation.
+   • Border and shading.
+   • Paragraph launcher.
+
+4. Styles Group:
+   • Predefined styles.
+   • Heading 1, Heading 2.
+   • Quick formatting.
+   • Consistent look.
+
+5. Editing Group:
+   • Find.
+   • Replace.
+   • Select.
+   • Go To.
+
+Key Points ⭐
+
+• Home Ribbon most important.
+• 5 groups: Clipboard, Font, Paragraph, Styles, Editing.
+• Clipboard = Copy, Cut, Paste.
+• Font = Text formatting.
+• Paragraph = Alignment, bullets.
+• Styles = Quick formatting.
+• Editing = Find, Replace.
+
+Exam Tips ⭐
+
+• Home Ribbon = Most used.
+• Clipboard commands = Copy, Cut, Paste.
+• Font = Text appearance.
+• Paragraph = Paragraph appearance.
+• Styles = Predefined formatting.
+• Editing = Find, Replace, Select.
+• Each group has launcher.`,
+  questions: [
+    {
+      q: 'Which group in the Home Ribbon contains the Copy, Cut, and Paste commands?',
+      options: [
+        'A. Clipboard Group.',
+        'B. Font Group.',
+        'C. Paragraph Group.',
+        'D. Styles Group.'
+      ],
+      answer: 'A. Clipboard Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Home Ribbon group is used to change text formatting like Bold and Italic?',
+      options: [
+        'A. Font Group.',
+        'B. Clipboard Group.',
+        'C. Paragraph Group.',
+        'D. Editing Group.'
+      ],
+      answer: 'A. Font Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which group in the Home Ribbon is used to apply predefined styles like Heading 1?',
+      options: [
+        'A. Styles Group.',
+        'B. Paragraph Group.',
+        'C. Clipboard Group.',
+        'D. Font Group.'
+      ],
+      answer: 'A. Styles Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'The Find and Replace commands are found in which group?',
+      options: [
+        'A. Editing Group.',
+        'B. Clipboard Group.',
+        'C. Font Group.',
+        'D. Paragraph Group.'
+      ],
+      answer: 'A. Editing Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Home Ribbon group is used for paragraph alignment and line spacing?',
+      options: [
+        'A. Paragraph Group.',
+        'B. Font Group.',
+        'C. Styles Group.',
+        'D. Clipboard Group.'
+      ],
+      answer: 'A. Paragraph Group.',
+      diff: 'hard',
+    },
+  ]
+},
+
+190: {
+  title: "Word Processing: MS Word (Clipboard Group)",
+  summary: `Clipboard Group ⭐
+
+Clipboard Group Home Ribbon ka pehla group hai.
+
+Commands: Copy, Cut, Paste, Format Painter.
+
+Cut Command ⭐
+
+• Selected text remove.
+• Text Clipboard me store.
+• Ctrl+X shortcut.
+• Can be pasted later.
+
+Copy Command ⭐
+
+• Text duplicate.
+• Original remains.
+• Clipboard me store.
+• Ctrl+C shortcut.
+
+Paste Command ⭐
+
+• Clipboard content insert.
+• Anywhere in document.
+• Ctrl+V shortcut.
+• Multiple times possible.
+
+Format Painter ⭐
+
+• Copy formatting.
+• Apply to other text.
+• Double-click = Apply multiple times.
+
+Office Clipboard ⭐
+
+• Storage area.
+• Multiple items store.
+• Up to 24 items.
+• Click launcher = Show.
+
+Cut/Paste Exercise ⭐
+
+Text: "I want to move. I am content where I am."
+
+1. Select "I want to move."
+2. Cut (Home → Cut or Ctrl+X).
+3. Place cursor after period.
+4. Paste (Home → Paste or Ctrl+V).
+5. Result: "I am content where I am. I want to move."
+
+Alternate Method ⭐
+
+1. Select text.
+2. Right-click → Cut.
+3. Right-click → Paste.
+4. Context menu.
+
+Keyboard Shortcuts ⭐
+
+• Ctrl+X = Cut.
+• Ctrl+C = Copy.
+• Ctrl+V = Paste.
+
+Key Points ⭐
+
+• Cut = Remove + Store.
+• Copy = Duplicate + Store.
+• Paste = Insert from Clipboard.
+• Clipboard storage area hai.
+• Context menu available.
+• Keyboard shortcuts convenient.
+
+Exam Tips ⭐
+
+• Cut = Ctrl+X.
+• Copy = Ctrl+C.
+• Paste = Ctrl+V.
+• Clipboard = Storage area.
+• Cut = Remove text.
+• Copy = Duplicate text.
+• Paste = Insert text.
+• Context menu = Right-click.`,
+  questions: [
+    {
+      q: 'What is the function of the Cut command in the Clipboard group?',
+      options: [
+        'A. To remove selected text and store it on the Clipboard.',
+        'B. To duplicate selected text.',
+        'C. To insert text from the Clipboard.',
+        'D. To delete text permanently.'
+      ],
+      answer: 'A. To remove selected text and store it on the Clipboard.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the keyboard shortcut for the Paste command?',
+      options: [
+        'A. Ctrl+V.',
+        'B. Ctrl+X.',
+        'C. Ctrl+C.',
+        'D. Ctrl+Z.'
+      ],
+      answer: 'A. Ctrl+V.',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens to text when you use the Copy command?',
+      options: [
+        'A. A copy of the text is placed on the Clipboard, and the original text remains in the document.',
+        'B. The text is removed from the document.',
+        'C. The text is permanently deleted.',
+        'D. The text is moved to a new location.'
+      ],
+      answer: 'A. A copy of the text is placed on the Clipboard, and the original text remains in the document.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the Office Clipboard?',
+      options: [
+        'A. A storage area that holds items that have been cut or copied.',
+        'B. A font style.',
+        'C. A type of document.',
+        'D. A toolbar.'
+      ],
+      answer: 'A. A storage area that holds items that have been cut or copied.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the keyboard shortcut for the Cut command?',
+      options: [
+        'A. Ctrl+X.',
+        'B. Ctrl+C.',
+        'C. Ctrl+V.',
+        'D. Ctrl+Z.'
+      ],
+      answer: 'A. Ctrl+X.',
+      diff: 'hard',
+    },
+  ]
+},
+
+191: {
+  title: "Word Processing: MS Word (Font Group)",
+  summary: `Font Group ⭐
+
+Font Group Home Ribbon ka doosra group hai.
+
+Text formatting ke liye important tools.
+
+Font Group Commands ⭐
+
+1. Font Typeface:
+   • Font style selection.
+   • Arial, Times New Roman etc.
+   • Preview available.
+
+2. Font Size:
+   • Text size selection.
+   • Default: 11 or 12.
+   • Size increase/decrease.
+
+3. Bold:
+   • Thicker text.
+   • Highlighted important.
+   • Toggle button.
+
+4. Italic:
+   • Slanted text.
+   • Emphasis.
+   • Toggle button.
+
+5. Underline:
+   • Text underline.
+   • Various styles.
+   • Combination button.
+
+6. Font Color:
+   • Text color change.
+   • Theme colors.
+   • Standard colors.
+
+7. Change Case:
+   • Uppercase, lowercase.
+   • Sentence case.
+   • Title case.
+
+8. Text Highlight Color:
+   • Highlight text.
+   • Like marker.
+
+Live Preview ⭐
+
+• Hover over new font.
+• Text previews changes.
+• See before apply.
+
+Font Dialog Launcher ⭐
+
+• Small arrow bottom right.
+• Font dialog window.
+• More options.
+
+Exercise: Basic Text Formatting ⭐
+
+1. Type your name.
+2. Change font to Arial.
+3. Make bold and underlined.
+4. Change font size to 24.
+
+Steps:
+• Home → Font Arrow → Select Arial.
+• Click Bold button.
+• Click Underline button.
+• Font Size Arrow → Select 24.
+
+Key Points ⭐
+
+• Font Group = Text formatting.
+• Font, Size, Bold, Italic, Underline.
+• Color, Highlight, Case.
+• Live preview available.
+• Launcher for more options.
+• Most common formatting tools.
+
+Exam Tips ⭐
+
+• Font typeface = Style.
+• Font size = Text size.
+• Bold = Thicker text.
+• Italic = Slanted text.
+• Underline = Underline text.
+• Change Case = Text case.
+• Live Preview = See before apply.`,
+  questions: [
+    {
+      q: 'Which command in the Font group is used to make text thicker?',
+      options: [
+        'A. Bold.',
+        'B. Italic.',
+        'C. Underline.',
+        'D. Font Color.'
+      ],
+      answer: 'A. Bold.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Font Dialog Launcher?',
+      options: [
+        'A. To open a dialog window with additional font options.',
+        'B. To change the font color.',
+        'C. To increase the font size.',
+        'D. To apply a new style.'
+      ],
+      answer: 'A. To open a dialog window with additional font options.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is Live Preview in the Font group?',
+      options: [
+        'A. The ability to see how a new font will look by hovering over it before selecting it.',
+        'B. A command to print the document.',
+        'C. A way to save the document.',
+        'D. A type of document view.'
+      ],
+      answer: 'A. The ability to see how a new font will look by hovering over it before selecting it.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which button in the Font group is used to change text to uppercase or lowercase?',
+      options: [
+        'A. Change Case.',
+        'B. Bold.',
+        'C. Font Color.',
+        'D. Underline.'
+      ],
+      answer: 'A. Change Case.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the default font size in MS Word?',
+      options: [
+        'A. 11 or 12.',
+        'B. 14.',
+        'C. 16.',
+        'D. 20.'
+      ],
+      answer: 'A. 11 or 12.',
+      diff: 'hard',
+    },
+  ]
+},
+
+192: {
+  title: "Word Processing: MS Word (Paragraph Group-I)",
+  summary: `Paragraph Group ⭐
+
+Paragraph Group Home Ribbon ka teesra group hai.
+
+Paragraph formatting ke liye important tools.
+
+Paragraph Group Commands ⭐
+
+1. Alignment:
+   • Left alignment.
+   • Center alignment.
+   • Right alignment.
+   • Justify.
+
+2. Line Spacing:
+   • Space between lines.
+   • 1.0, 1.5, 2.0.
+   • Custom spacing.
+
+3. Bullets:
+   • Bulleted lists.
+   • Various bullet styles.
+   • Library available.
+
+4. Numbering:
+   • Numbered lists.
+   • Various number styles.
+   • Library available.
+
+5. Multilevel List:
+   • Outline lists.
+   • Nested levels.
+   • Hierarchical numbering.
+
+6. Indentation:
+   • Increase indent.
+   • Decrease indent.
+   • Left/right indent.
+
+7. Sort:
+   • Alphabetical sorting.
+   • Paragraph sorting.
+   • Ascending/descending.
+
+8. Show/Hide Formatting:
+   • Display/hide paragraph marks.
+   • See spaces, tabs.
+   • Debug formatting.
+
+Bullets and Numbers Exercise ⭐
+
+Create bulleted list:
+1. Type: Apple, Orange, Grape, Mango, Cherry.
+2. Select words.
+3. Home → Bullets arrow.
+4. Select bullet style.
+
+Remove bullets:
+1. Select list.
+2. Bullets arrow → None.
+
+Numbered list:
+1. Same process.
+2. Home → Numbering arrow.
+3. Select number style.
+
+Remove numbering:
+1. Select list.
+2. Numbering arrow → None.
+
+Bullet Library ⭐
+
+• Various bullet styles.
+• Custom bullets.
+• Define new bullet.
+• Images as bullets.
+
+Key Points ⭐
+
+• Paragraph Group = Paragraph formatting.
+• Alignment = Text position.
+• Bullets = Unordered lists.
+• Numbering = Ordered lists.
+• Indentation = Margins.
+• Show/Hide = Debug.
+
+Exam Tips ⭐
+
+• Alignment: Left, Center, Right, Justify.
+• Bullets = Points list.
+• Numbering = Step list.
+• Indent = Margin adjust.
+• Library = More styles.
+• None = Remove bullets.
+• Custom bullets possible.`,
+  questions: [
+    {
+      q: 'Which alignment option in the Paragraph group makes text flush with both left and right margins?',
+      options: [
+        'A. Justify.',
+        'B. Left Alignment.',
+        'C. Right Alignment.',
+        'D. Center Alignment.'
+      ],
+      answer: 'A. Justify.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the primary difference between "Bullets" and "Numbering" in MS Word?',
+      options: [
+        'A. Bullets use symbols or dots for a list, while Numbering uses sequential numbers or letters.',
+        'B. Bullets are for paragraphs, and Numbering is for words.',
+        'C. Bullets cannot be customized.',
+        'D. Numbering cannot be removed.'
+      ],
+      answer: 'A. Bullets use symbols or dots for a list, while Numbering uses sequential numbers or letters.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you remove bullets from a list?',
+      options: [
+        'A. Select the list, click the Bullets arrow, and choose None.',
+        'B. Click the Undo button.',
+        'C. Delete the list and retype it.',
+        'D. Use the Format Painter.'
+      ],
+      answer: 'A. Select the list, click the Bullets arrow, and choose None.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where can you find the command to show or hide paragraph marks and other formatting symbols?',
+      options: [
+        'A. In the Paragraph group (Show/Hide button).',
+        'B. In the Font group.',
+        'C. In the Clipboard group.',
+        'D. In the Styles group.'
+      ],
+      answer: 'A. In the Paragraph group (Show/Hide button).',
+      diff: 'hard',
+    },
+    {
+      q: 'The "Increase Indent" button in the Paragraph group does what?',
+      options: [
+        'A. Moves the paragraph further away from the left margin.',
+        'B. Changes the font size.',
+        'C. Applies bold formatting.',
+        'D. Changes the line spacing.'
+      ],
+      answer: 'A. Moves the paragraph further away from the left margin.',
+      diff: 'hard',
+    },
+  ]
+},
+
+193: {
+  title: "Word Processing: MS Word (Paragraph Group-II)",
+  summary: `Bullet and Numbering Customization ⭐
+
+MS Word me bullet aur numbering customize karna.
+
+Custom Bullet Library ⭐
+
+Exercise: Create Custom Bullet
+
+1. Type list: Apple, Orange, Grape, Mango, Cherry.
+2. Select words.
+3. Home → Bullets arrow.
+4. Bullet Library appears.
+5. Click to select bullet style.
+6. Word adds bullets.
+
+Live Preview:
+• Hover over bullet styles.
+• Word displays bullet style onscreen.
+
+Remove Bullets:
+1. Select list.
+2. Bullets arrow.
+3. Click None.
+4. Bullets removed.
+
+Numbers Task ⭐
+
+Create Numbered List:
+
+1. Type list: Apple, Orange, Grape, Mango, Cherry.
+2. Select words.
+3. Home → Numbering arrow.
+4. Numbering Library appears.
+5. Click number style.
+6. Word numbers list.
+
+Live Preview:
+• Hover over number styles.
+• Word displays number style onscreen.
+
+Remove Numbering:
+1. Select list.
+2. Numbering arrow.
+3. Click None.
+4. Numbering removed.
+
+Bullet Library Features ⭐
+
+• Built-in styles.
+• Custom define.
+• Image bullets.
+• Recently used.
+• Document bullets.
+
+Numbering Library Features ⭐
+
+• Arabic numbers.
+• Roman numerals.
+• Letters.
+• Custom format.
+
+Key Points ⭐
+
+• Bullets = List with symbols.
+• Numbers = List with numbers.
+• Live preview available.
+• Library has many styles.
+• None removes bullets/numbers.
+• Custom bullets possible.
+
+Exam Tips ⭐
+
+• Bullets = Symbol list.
+• Numbers = Ordered list.
+• Library = Multiple styles.
+• None = Remove formatting.
+• Live preview = Hover to see.
+• Custom bullets = Define new.`,
+  questions: [
+    {
+      q: 'How can you create a bulleted list using a custom bullet style?',
+      options: [
+        'A. Select the text, click the Bullets arrow, and choose a style from the library.',
+        'B. Type "bullet" before each line.',
+        'C. Use the Bold button.',
+        'D. It is not possible.'
+      ],
+      answer: 'A. Select the text, click the Bullets arrow, and choose a style from the library.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the function of the "None" option in the Bullet and Numbering libraries?',
+      options: [
+        'A. To remove bullets or numbering from the selected list.',
+        'B. To apply a new bullet style.',
+        'C. To increase the indent.',
+        'D. To change the font color.'
+      ],
+      answer: 'A. To remove bullets or numbering from the selected list.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is "Live Preview" when using Bullet and Numbering libraries?',
+      options: [
+        'A. The ability to see the bullet/number style on the text before selecting it by hovering over it.',
+        'B. A feature that automatically prints the document.',
+        'C. A way to save the document.',
+        'D. A type of document view.'
+      ],
+      answer: 'A. The ability to see the bullet/number style on the text before selecting it by hovering over it.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following can be used as a numbering style?',
+      options: [
+        'A. Roman numerals.',
+        'B. Only Arabic numbers.',
+        'C. Only letters.',
+        'D. No options are available.'
+      ],
+      answer: 'A. Roman numerals.',
+      diff: 'hard',
+    },
+    {
+      q: 'After selecting a list and opening the Bullet Library, where is the "None" option located?',
+      options: [
+        'A. In the Bullet Library dialog box.',
+        'B. On the Font group.',
+        'C. On the Clipboard group.',
+        'D. On the Insert tab.'
+      ],
+      answer: 'A. In the Bullet Library dialog box.',
+      diff: 'hard',
+    },
+  ]
+},
+
+194: {
+  title: "Word Processing: MS Word (Style Group)",
+  summary: `Style Group ⭐
+
+Style Group Home Ribbon ka chautha group hai.
+
+Styles formatting options ka collection hai.
+
+What is a Style ⭐
+
+• Set of formatting characteristics.
+• Font name, size, color.
+• Paragraph alignment and spacing.
+• Borders and shading.
+
+Benefits ⭐
+
+• Quick formatting.
+• Consistent look.
+• Easy updates.
+• Professional appearance.
+
+Example ⭐
+
+Heading 1 style:
+• 16-point font.
+• Bold.
+• Cambria font.
+• One step = All formatting.
+
+How to Use Styles ⭐
+
+1. Click in heading.
+2. No need to select all text.
+3. Click Heading 1 in gallery.
+4. Formatting applied.
+
+Built-in Styles ⭐
+
+• Normal.
+• Heading 1.
+• Heading 2.
+• Heading 3.
+• Title.
+• Subtitle.
+• Quote.
+• List Paragraph.
+
+Style Gallery ⭐
+
+• Visual preview.
+• Live preview.
+• Hover to see.
+• Click to apply.
+
+Style Set ⭐
+
+• Collection of styles.
+• Different look.
+• Quick changes.
+• Document themes.
+
+Custom Styles ⭐
+
+• Create new style.
+• Modify existing.
+• Save for reuse.
+• Personal branding.
+
+Key Points ⭐
+
+• Styles = Formatting collection.
+• Quick application.
+• Consistent formatting.
+• Built-in styles available.
+• Custom styles possible.
+• Professional documents.
+
+Exam Tips ⭐
+
+• Style = Set of formatting.
+• Heading 1 = Title style.
+• Built-in styles available.
+• Custom styles possible.
+• Consistency achieved.
+• Easy document formatting.
+• Style gallery has preview.`,
+  questions: [
+    {
+      q: 'What is a "style" in MS Word?',
+      options: [
+        'A. A set of formatting characteristics that can be applied to text in one step.',
+        'B. A type of font.',
+        'C. A document theme.',
+        'D. A page layout setting.'
+      ],
+      answer: 'A. A set of formatting characteristics that can be applied to text in one step.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which built-in style is typically used for the main title of a document?',
+      options: [
+        'A. Heading 1.',
+        'B. Normal.',
+        'C. Quote.',
+        'D. List Paragraph.'
+      ],
+      answer: 'A. Heading 1.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the advantage of using styles in a document?',
+      options: [
+        'A. It ensures consistent formatting and makes it easy to update the document\'s appearance.',
+        'B. It makes the document larger.',
+        'C. It changes the font color automatically.',
+        'D. It adds images to the document.'
+      ],
+      answer: 'A. It ensures consistent formatting and makes it easy to update the document\'s appearance.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where is the Styles group located?',
+      options: [
+        'A. On the Home Ribbon.',
+        'B. On the Insert Ribbon.',
+        'C. On the Design Ribbon.',
+        'D. On the Page Layout Ribbon.'
+      ],
+      answer: 'A. On the Home Ribbon.',
+      diff: 'hard',
+    },
+    {
+      q: 'Can you create and save your own custom styles in MS Word?',
+      options: [
+        'A. Yes, you can create new styles or modify existing ones.',
+        'B. No, only the built-in styles can be used.',
+        'C. Only Microsoft can create styles.',
+        'D. It is not possible in any version.'
+      ],
+      answer: 'A. Yes, you can create new styles or modify existing ones.',
+      diff: 'hard',
+    },
+  ]
+},
+
+195: {
+  title: "Word Processing: MS Word (Editing Group)",
+  summary: `Editing Group ⭐
+
+Editing Group Home Ribbon ka panchwa (last) group hai.
+
+Commands: Find, Replace, Select.
+
+Find Command ⭐
+
+• Search for text.
+• Navigation pane opens.
+• Type search term.
+• Results highlighted.
+• Next/Previous navigation.
+
+Replace Command ⭐
+
+• Find and replace text.
+• Replace one at a time.
+• Replace all.
+• Advanced options.
+
+Use Cases:
+• Change repeated word.
+• Update entire document.
+• Quick corrections.
+
+Go To Command ⭐
+
+• Navigate to specific location.
+• Page number.
+• Section.
+• Line.
+• Bookmark.
+
+Select Command Options ⭐
+
+1. Select All:
+   • Select entire document.
+   • Quick selection.
+   • Ctrl+A shortcut.
+
+2. Select Objects:
+   • Select shapes.
+   • Hidden/stacked objects.
+   • Draw box over shapes.
+
+3. Select Text with Similar Formatting:
+   • Select all similar formatting.
+   • Apply changes together.
+   • Efficient editing.
+
+Navigation Pane ⭐
+
+• Find results.
+• Thumbnails.
+• Document structure.
+• Easy navigation.
+
+Key Points ⭐
+
+• Editing Group = Find, Replace, Select.
+• Find = Search text.
+• Replace = Find and replace.
+• Go To = Navigate.
+• Select All = Whole document.
+• Select Objects = Shapes.
+• Similar Formatting = Efficient.
+
+Exam Tips ⭐
+
+• Find = Ctrl+F.
+• Replace = Ctrl+H.
+• Go To = Ctrl+G.
+• Select All = Ctrl+A.
+• Navigation Pane shows results.
+• Find and Replace powerful tools.
+• Save time in editing.`,
+  questions: [
+    {
+      q: 'Which command in the Editing group is used to locate specific text within a document?',
+      options: [
+        'A. Find.',
+        'B. Replace.',
+        'C. Select.',
+        'D. Go To.'
+      ],
+      answer: 'A. Find.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Replace command in the Editing group?',
+      options: [
+        'A. To find specific text and replace it with new text.',
+        'B. To delete all text.',
+        'C. To copy the document.',
+        'D. To save the document.'
+      ],
+      answer: 'A. To find specific text and replace it with new text.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Select command option would you use to select all text in a document?',
+      options: [
+        'A. Select All.',
+        'B. Select Objects.',
+        'C. Select Text with Similar Formatting.',
+        'D. Go To.'
+      ],
+      answer: 'A. Select All.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the function of the "Go To" command?',
+      options: [
+        'A. To navigate directly to a specific page, section, or line in the document.',
+        'B. To find and replace text.',
+        'C. To select all text.',
+        'D. To check spelling.'
+      ],
+      answer: 'A. To navigate directly to a specific page, section, or line in the document.',
+      diff: 'hard',
+    },
+    {
+      q: 'If you want to select all shapes in a document, which Select option would you use?',
+      options: [
+        'A. Select Objects.',
+        'B. Select All.',
+        'C. Select Text with Similar Formatting.',
+        'D. Go To.'
+      ],
+      answer: 'A. Select Objects.',
+      diff: 'hard',
+    },
+  ]
+},
+
+196: {
+  title: "Word Processing: MS Word (Insert Functionalities)",
+  summary: `Insert Tab ⭐
+
+Insert Tab document me graphics aur links add karne ke liye hai.
+
+Groups in Insert Tab ⭐
+
+1. Pages Group:
+   • Cover Page.
+   • Blank Page.
+   • Page Break.
+
+2. Tables Group:
+   • Insert Table.
+   • Draw Table.
+   • Excel Spreadsheet.
+   • Quick Tables.
+
+3. Illustrations Group:
+   • Pictures.
+   • Clip Art.
+   • Shapes.
+   • SmartArt.
+   • Chart.
+
+4. Media:
+   • Video.
+   • Audio.
+
+5. Links:
+   • Hyperlink.
+   • Bookmark.
+   • Cross-reference.
+
+6. Comments:
+   • Add comment.
+   • Review comments.
+
+7. Header & Footer:
+   • Header.
+   • Footer.
+   • Page Number.
+
+8. Text:
+   • Text Box.
+   • Quick Parts.
+   • WordArt.
+   • Drop Cap.
+   • Object.
+
+9. Symbols:
+   • Equation.
+   • Symbol.
+
+Key Points ⭐
+
+• Insert Tab = Add elements.
+• Pages = Cover, Blank, Break.
+• Tables = Data organization.
+• Illustrations = Images, Shapes.
+• Links = Hyperlinks, Bookmarks.
+• Header & Footer = Page info.
+• Text = Boxes, WordArt.
+• Symbols = Equations.
+
+Exam Tips ⭐
+
+• Insert Tab = Add content.
+• Pages Group = Document pages.
+• Tables Group = Tables.
+• Illustrations = Visual elements.
+• Links = Connections.
+• Header/Footer = Page numbers.
+• Text = Special text formats.
+• Symbols = Math, special chars.`,
+  questions: [
+    {
+      q: 'Which Insert Tab group is used to add a Cover Page to a document?',
+      options: [
+        'A. Pages Group.',
+        'B. Tables Group.',
+        'C. Illustrations Group.',
+        'D. Links Group.'
+      ],
+      answer: 'A. Pages Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which group in the Insert Tab is used to add shapes like circles and rectangles?',
+      options: [
+        'A. Illustrations Group.',
+        'B. Tables Group.',
+        'C. Pages Group.',
+        'D. Links Group.'
+      ],
+      answer: 'A. Illustrations Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Insert Tab group would you use to create a hyperlink to a website?',
+      options: [
+        'A. Links Group.',
+        'B. Pages Group.',
+        'C. Tables Group.',
+        'D. Illustrations Group.'
+      ],
+      answer: 'A. Links Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Insert Tab group is used to add a page number to the top or bottom of the page?',
+      options: [
+        'A. Header & Footer Group.',
+        'B. Pages Group.',
+        'C. Text Group.',
+        'D. Symbols Group.'
+      ],
+      answer: 'A. Header & Footer Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which group in the Insert Tab contains the WordArt command?',
+      options: [
+        'A. Text Group.',
+        'B. Illustrations Group.',
+        'C. Symbols Group.',
+        'D. Media Group.'
+      ],
+      answer: 'A. Text Group.',
+      diff: 'hard',
+    },
+  ]
+},
+
+197: {
+  title: "Word Processing: MS Word (page Group)",
+  summary: `Pages Group ⭐
+
+Pages Group Insert Tab ka far left group hai.
+
+Commands: Cover Page, Blank Page, Page Break.
+
+Cover Page ⭐
+
+• Title page of document.
+• Professional look.
+• Built-in templates.
+• Gallery available.
+• Customizable.
+
+Exercise: Create Cover Page
+1. Insert tab.
+2. Cover Page arrow.
+3. Scroll through gallery.
+4. Click desired cover.
+5. Cover page added.
+
+Remove Cover Page:
+1. Insert tab → Cover Page arrow.
+2. Scroll down.
+3. Select Remove Current Cover Page.
+
+Blank Page ⭐
+
+• Insert new page anywhere.
+• Automatic vs manual.
+• Useful for sections.
+• Quick insertion.
+
+Blank Page Exercise:
+1. Click where page needed.
+2. Insert → Blank Page.
+3. New page inserted.
+
+Page Break ⭐
+
+• Force page break.
+• Start new page.
+• Section separation.
+• More control than automatic.
+
+Page Break Exercise:
+1. Click location.
+2. Insert → Page Break.
+3. New page starts.
+
+Key Points ⭐
+
+• Pages Group = Page management.
+• Cover Page = Title page.
+• Blank Page = New page.
+• Page Break = Force new page.
+• Built-in templates.
+• Professional documents.
+
+Exam Tips ⭐
+
+• Cover Page = Document title.
+• Blank Page = Insert page.
+• Page Break = Force page.
+• Gallery = Cover page templates.
+• Remove cover page available.
+• Useful for long documents.`,
+  questions: [
+    {
+      q: 'Which Pages Group command is used to add a professional title page to a document?',
+      options: [
+        'A. Cover Page.',
+        'B. Blank Page.',
+        'C. Page Break.',
+        'D. Table of Contents.'
+      ],
+      answer: 'A. Cover Page.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Page Break command?',
+      options: [
+        'A. To force the document to start a new page at the insertion point.',
+        'B. To add a blank page at the beginning of the document.',
+        'C. To delete the current page.',
+        'D. To add a cover page.'
+      ],
+      answer: 'A. To force the document to start a new page at the insertion point.',
+      diff: 'hard',
+    },
+    {
+      q: 'How can you remove a cover page that was inserted using the Pages Group?',
+      options: [
+        'A. Go to Insert > Cover Page arrow > Remove Current Cover Page.',
+        'B. Delete the page manually.',
+        'C. Use the Undo button.',
+        'D. It cannot be removed.'
+      ],
+      answer: 'A. Go to Insert > Cover Page arrow > Remove Current Cover Page.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Pages Group command is used to insert a new page at the cursor location?',
+      options: [
+        'A. Blank Page.',
+        'B. Cover Page.',
+        'C. Page Break.',
+        'D. Table of Contents.'
+      ],
+      answer: 'A. Blank Page.',
+      diff: 'hard',
+    },
+    {
+      q: 'When inserting a cover page from the gallery, what happens?',
+      options: [
+        'A. A pre-designed cover page is added to the document.',
+        'B. The document is saved.',
+        'C. The document is printed.',
+        'D. All text is deleted.'
+      ],
+      answer: 'A. A pre-designed cover page is added to the document.',
+      diff: 'hard',
+    },
+  ]
+},
+
+198: {
+  title: "Word Processing: MS Word (Table Group)",
+  summary: `Table Group ⭐
+
+Table Group data ko organized tarike se place karne ke liye hai.
+
+Insert Table ⭐
+
+1. Insert tab → Table.
+2. Select rows and columns.
+3. Grid selection.
+4. Click to apply.
+
+Table Insertion Methods ⭐
+
+• Grid: Drag to select.
+• Insert Table: Dialog box.
+• Draw Table: Draw manually.
+• Excel Spreadsheet: Insert Excel.
+• Quick Tables: Built-in templates.
+
+Rows and Columns ⭐
+
+• Select top to bottom = rows.
+• Select left to right = columns.
+• Grid shows selection.
+• Click when happy.
+
+Table Tools ⭐
+
+• Design tab: Table styles.
+• Layout tab: Cell adjustments.
+• Merge/split cells.
+• Add/delete rows.
+• Column width.
+• Row height.
+
+Exercise: Create Table ⭐
+
+1. Insert tab → Table.
+2. Select rows and columns.
+3. Click to create.
+4. Click box to enter text.
+5. Table Tools appears.
+
+Table Features ⭐
+
+• Enter text in cells.
+• Format table.
+• Add borders.
+• Adjust cell size.
+• Merge cells.
+• Split cells.
+
+Key Points ⭐
+
+• Table Group = Data organization.
+• Insert Table = Grid selection.
+• Table Tools = Additional options.
+• Rows = Horizontal.
+• Columns = Vertical.
+• Flexible insertion methods.
+
+Exam Tips ⭐
+
+• Table = Grid of rows/columns.
+• Rows = Horizontal.
+• Columns = Vertical.
+• Table Tools = Two tabs.
+• Design = Table appearance.
+• Layout = Cell manipulation.
+• Insert Table multiple methods.`,
+  questions: [
+    {
+      q: 'Where is the Table Group located in MS Word?',
+      options: [
+        'A. In the Insert Tab.',
+        'B. In the Home Tab.',
+        'C. In the Design Tab.',
+        'D. In the Page Layout Tab.'
+      ],
+      answer: 'A. In the Insert Tab.',
+      diff: 'hard',
+    },
+    {
+      q: 'When inserting a table using the grid, what do the columns represent?',
+      options: [
+        'A. Vertical divisions in the table.',
+        'B. Horizontal divisions in the table.',
+        'C. The number of pages.',
+        'D. The font style.'
+      ],
+      answer: 'A. Vertical divisions in the table.',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens when you click on a table after inserting it?',
+      options: [
+        'A. The Table Tools tabs (Design and Layout) appear on the Ribbon.',
+        'B. The document is saved.',
+        'C. The table is deleted.',
+        'D. The table is converted to text.'
+      ],
+      answer: 'A. The Table Tools tabs (Design and Layout) appear on the Ribbon.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Table Tools tab is used to change the table\'s appearance and apply styles?',
+      options: [
+        'A. Design Tab.',
+        'B. Layout Tab.',
+        'C. Insert Tab.',
+        'D. Home Tab.'
+      ],
+      answer: 'A. Design Tab.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Table Tools tab is used to adjust cell size and merge cells?',
+      options: [
+        'A. Layout Tab.',
+        'B. Design Tab.',
+        'C. Insert Tab.',
+        'D. Home Tab.'
+      ],
+      answer: 'A. Layout Tab.',
+      diff: 'hard',
+    },
+  ]
+},
+
+199: {
+  title: "Word Processing: MS Word (Illustration Group)",
+  summary: `Illustration Group ⭐
+
+Illustration Group Insert Tab me images aur graphics add karne ke liye hai.
+
+Commands ⭐
+
+1. Picture:
+   • Insert from file.
+   • Browse computer.
+   • Various formats.
+
+2. Clip Art:
+   • Office clip art.
+   • Media files.
+   • Search online.
+
+3. Shapes:
+   • Wide range.
+   • Lines, Basic Shapes.
+   • Block Arrows.
+   • Flowcharts.
+   • Callouts.
+   • Stars and Banners.
+
+4. SmartArt:
+   • Visual diagrams.
+   • Process.
+   • Hierarchy.
+   • Cycle.
+   • Relationship.
+   • Matrix.
+   • Pyramid.
+
+5. Chart:
+   • Graph.
+   • Column, Line, Pie.
+   • Bar, Area, Scatter.
+
+Shapes Exercise: Snowman ⭐
+
+1. Insert → Shapes → Draw Canvas.
+2. Insert required shapes.
+3. Arrange shapes.
+4. Form Snowman.
+
+Shapes Required:
+• Circles (for body).
+• Smaller circles (eyes).
+• Triangle (nose).
+• Lines (arms).
+
+SmartArt Exercise ⭐
+
+1. Insert → SmartArt.
+2. Choose Cycle.
+3. Select Basic Cycle.
+4. Click [TEXT] to add.
+5. Add: Baby, Child, Teen, Adult.
+6. Remove extra circle (Del).
+
+Key Points ⭐
+
+• Illustrations = Visual content.
+• Picture = From file.
+• Clip Art = Office collection.
+• Shapes = Drawing tools.
+• SmartArt = Diagrams.
+• Chart = Graphs.
+• Draw Canvas = Shape container.
+
+Exam Tips ⭐
+
+• Picture = File insert.
+• Clip Art = Office library.
+• Shapes = Lines, Circles, Arrows.
+• SmartArt = Process diagrams.
+• Chart = Data visualization.
+• Canvas = Shape grouping.
+• WordArt = Special text.`,
+  questions: [
+    {
+      q: 'Which Illustration Group command is used to insert a picture from a file on your computer?',
+      options: [
+        'A. Picture.',
+        'B. Clip Art.',
+        'C. Shapes.',
+        'D. SmartArt.'
+      ],
+      answer: 'A. Picture.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Illustration Group command is used to create diagrams like the Human Life Cycle?',
+      options: [
+        'A. SmartArt.',
+        'B. Shapes.',
+        'C. Picture.',
+        'D. Clip Art.'
+      ],
+      answer: 'A. SmartArt.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the "Canvas" when working with Shapes?',
+      options: [
+        'A. To place all shapes together so they don\'t move independently.',
+        'B. To change the color of shapes.',
+        'C. To delete all shapes.',
+        'D. To print shapes.'
+      ],
+      answer: 'A. To place all shapes together so they don\'t move independently.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which SmartArt category is used to represent a series of steps in a process?',
+      options: [
+        'A. Process.',
+        'B. Cycle.',
+        'C. Hierarchy.',
+        'D. Relationship.'
+      ],
+      answer: 'A. Process.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command in the Illustrations group is used to add pre-made shapes like rectangles and ovals?',
+      options: [
+        'A. Shapes.',
+        'B. Picture.',
+        'C. Clip Art.',
+        'D. SmartArt.'
+      ],
+      answer: 'A. Shapes.',
+      diff: 'hard',
+    },
+  ]
+},
+
+200: {
+  title: "Word Processing: MS Word (Media and Links Groups)",
+  summary: `Media and Links Groups ⭐
+
+Media aur Links Groups Insert Tab me multimedia aur connections add karne ke liye hain.
+
+Media Group ⭐
+
+• Video:
+  • Online video.
+  • From file.
+  • Embed code.
+
+• Audio:
+  • From file.
+  • Record audio.
+  • Playback options.
+
+Links Group ⭐
+
+1. Hyperlink:
+   • Link to website.
+   • Link to file.
+   • Link to place in document.
+   • Email link.
+   • ScreenTip.
+
+Exercise: Hyperlink
+1. Select text.
+2. Insert → Hyperlink.
+3. Choose link type.
+4. Enter address.
+5. Click OK.
+6. ScreenTip option.
+
+2. Bookmark:
+   • Mark location.
+   • Easy navigation.
+   • Name no spaces.
+
+Bookmark Exercise:
+1. Click location.
+2. Insert → Bookmark.
+3. Enter name (no spaces).
+4. Click Add.
+5. Navigate to bookmark.
+
+3. Cross-reference:
+   • Reference headings.
+   • Reference figures.
+   • Reference tables.
+   • Update automatically.
+
+4. Table of Contents:
+   • Insert TOC.
+   • Based on headings.
+   • Update automatically.
+
+Hyperlink Features ⭐
+
+• Text to display.
+• ScreenTip (hover text).
+• Address (URL).
+• Link to existing file.
+• Link to web page.
+• Link to email.
+• Link to bookmark.
+
+Key Points ⭐
+
+• Media = Video, Audio.
+• Links = Hyperlinks, Bookmarks.
+• Hyperlink = External/internal link.
+• Bookmark = Location mark.
+• Cross-reference = References.
+• Table of Contents = Document map.
+
+Exam Tips ⭐
+
+• Media Group = Multimedia content.
+• Links Group = Connections.
+• Hyperlink = Clickable link.
+• Bookmark = Navigation marker.
+• Cross-reference = Auto-update.
+• Table of Contents = Heading list.`,
+  questions: [
+    {
+      q: 'Which group in the Insert Tab is used to add a hyperlink to a website?',
+      options: [
+        'A. Links Group.',
+        'B. Media Group.',
+        'C. Pages Group.',
+        'D. Illustrations Group.'
+      ],
+      answer: 'A. Links Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of a Bookmark in MS Word?',
+      options: [
+        'A. To mark a specific location in a document for easy navigation.',
+        'B. To save the document.',
+        'C. To add a picture.',
+        'D. To change the font.'
+      ],
+      answer: 'A. To mark a specific location in a document for easy navigation.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Media Group command would you use to insert a video file into a document?',
+      options: [
+        'A. Video.',
+        'B. Audio.',
+        'C. Picture.',
+        'D. Clip Art.'
+      ],
+      answer: 'A. Video.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the function of a ScreenTip in a hyperlink?',
+      options: [
+        'A. To show text when the user hovers over the hyperlink.',
+        'B. To display the document.',
+        'C. To play a video.',
+        'D. To format the text.'
+      ],
+      answer: 'A. To show text when the user hovers over the hyperlink.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you insert a Table of Contents in MS Word?',
+      options: [
+        'A. From the Links Group in the Insert Tab.',
+        'B. From the Tables Group in the Insert Tab.',
+        'C. From the Pages Group in the Insert Tab.',
+        'D. From the Text Group in the Insert Tab.'
+      ],
+      answer: 'A. From the Links Group in the Insert Tab.',
+      diff: 'hard',
+    },
+  ]
+},
+
+
+201: {
+  title: "Word Processing: MS Word (Comments and Header & footer)",
+  summary: `Comments and Header/Footer Groups ⭐
+
+Comments aur Header/Footer Insert Tab me document annotation aur page information ke liye hain.
+
+Comments Group ⭐
+
+New Comment:
+• Document me comment add karna.
+• Review or feedback purpose.
+• CTRL+ALT+M shortcut.
+• Comment bubbles appear.
+• Reviewer name shown.
+
+Delete Comment:
+• Selected comment delete.
+• Delete all comments.
+• Delete all shown.
+
+Previous/Next:
+• Navigate comments.
+• Review one by one.
+• Easy tracking.
+
+Header and Footer Group ⭐
+
+Header:
+• Top margin area.
+• Repeats on all pages.
+• Text or graphics.
+• Page numbers.
+• Document title.
+
+Footer:
+• Bottom margin area.
+• Repeats on all pages.
+• Page numbers.
+• Date, time.
+• Document info.
+
+Exercise: Create Header ⭐
+
+1. Insert tab → Header.
+2. Edit mode opens.
+3. Enter text: "Virtual University of Pakistan".
+4. Close Header & Footer.
+5. Header appears all pages.
+
+Exercise: Add Footer ⭐
+
+1. Insert tab → Footer.
+2. Edit mode opens.
+3. Add page numbers.
+4. Add date/time.
+5. Close Footer.
+
+Header/Footer Features ⭐
+
+• Different first page.
+• Odd/even different.
+• Image insertion.
+• Field codes.
+• Quick Parts.
+
+Key Points ⭐
+
+• Comments = Annotations.
+• Header = Top margin content.
+• Footer = Bottom margin content.
+• Repeats on all pages.
+• Images possible.
+• Different first page possible.
+
+Exam Tips ⭐
+
+• Comments = Review notes.
+• Header = Top of page.
+• Footer = Bottom of page.
+• Repeat throughout document.
+• Page numbers in header/footer.
+• Different first page option.
+• Close to exit edit mode.`,
+  questions: [
+    {
+      q: 'Which group in the Insert Tab is used to add comments to a document?',
+      options: [
+        'A. Comments Group.',
+        'B. Header & Footer Group.',
+        'C. Links Group.',
+        'D. Text Group.'
+      ],
+      answer: 'A. Comments Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where does a header appear in a document?',
+      options: [
+        'A. At the top margin of each page.',
+        'B. At the bottom margin of each page.',
+        'C. In the middle of each page.',
+        'D. At the end of the document.'
+      ],
+      answer: 'A. At the top margin of each page.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the "Different First Page" option in Header/Footer?',
+      options: [
+        'A. To have a unique header or footer on the first page.',
+        'B. To delete the first page.',
+        'C. To add a cover page.',
+        'D. To change the font.'
+      ],
+      answer: 'A. To have a unique header or footer on the first page.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you add a comment in MS Word?',
+      options: [
+        'A. Insert tab → Comments → New Comment.',
+        'B. Home tab → Font group.',
+        'C. Review tab → Spelling.',
+        'D. View tab → Page Layout.'
+      ],
+      answer: 'A. Insert tab → Comments → New Comment.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which shortcut key is used to insert a new comment?',
+      options: [
+        'A. CTRL+ALT+M.',
+        'B. CTRL+Z.',
+        'C. CTRL+C.',
+        'D. CTRL+V.'
+      ],
+      answer: 'A. CTRL+ALT+M.',
+      diff: 'hard',
+    },
+  ]
+},
+
+202: {
+  title: "Word Processing: MS Word (Text Group (Part-1))",
+  summary: `Text Group (Part 1) ⭐
+
+Text Group Insert Tab me special text elements add karne ke liye hai.
+
+Commands ⭐
+
+1. Text Box:
+   • Graphical text container.
+   • Moveable/resizable.
+   • Predefined styles.
+   • Draw custom.
+
+Exercise: Text Box
+1. Insert → Text Box.
+2. Choose Draw Text Box.
+3. Click and drag.
+4. Type text.
+5. Format as needed.
+
+2. Quick Parts:
+   • Reusable content.
+   • Building blocks.
+   • Save text/graphics.
+   • AutoText.
+   • Document Properties.
+
+Exercise: Quick Part
+1. Select text.
+2. Insert → Quick Parts.
+3. Save Selection.
+4. Name the building block.
+5. Use later from gallery.
+
+3. WordArt:
+   • Special text effects.
+   • Curved text.
+   • 3D text.
+   • Shadow effects.
+   • Gradient fill.
+   • Outline text.
+
+Exercise: WordArt
+1. Insert → WordArt.
+2. Choose style.
+3. Type text.
+4. Select font and size.
+5. Bold or italic option.
+6. Click OK.
+
+WordArt Features ⭐
+
+• Text effects gallery.
+• Transform effects.
+• Shadow and reflection.
+• 3D rotation.
+• Glow effects.
+• Multiple styles.
+
+Key Points ⭐
+
+• Text Box = Floating text container.
+• Quick Parts = Reusable content.
+• WordArt = Special text effects.
+• Text Box moveable.
+• Quick Parts save time.
+• WordArt decorative text.
+
+Exam Tips ⭐
+
+• Text Box = Container.
+• Quick Parts = Reusable.
+• WordArt = Effects.
+• Building Blocks = Quick Parts.
+• Draw Text Box = Custom.
+• WordArt Gallery = Many styles.
+• Save Selection = Quick Part.`,
+  questions: [
+    {
+      q: 'Which Text Group command is used to insert a moveable text container?',
+      options: [
+        'A. Text Box.',
+        'B. Quick Parts.',
+        'C. WordArt.',
+        'D. Drop Cap.'
+      ],
+      answer: 'A. Text Box.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of Quick Parts?',
+      options: [
+        'A. To save and reuse text or graphics as building blocks.',
+        'B. To create curved text.',
+        'C. To add a drop cap.',
+        'D. To insert a text box.'
+      ],
+      answer: 'A. To save and reuse text or graphics as building blocks.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command is used to create decorative text with effects like shadow and 3D?',
+      options: [
+        'A. WordArt.',
+        'B. Text Box.',
+        'C. Quick Parts.',
+        'D. Drop Cap.'
+      ],
+      answer: 'A. WordArt.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you draw a custom text box?',
+      options: [
+        'A. Insert → Text Box → Draw Text Box.',
+        'B. Insert → WordArt.',
+        'C. Insert → Quick Parts.',
+        'D. Home → Text Box.'
+      ],
+      answer: 'A. Insert → Text Box → Draw Text Box.',
+      diff: 'hard',
+    },
+    {
+      q: 'What can you do with WordArt text?',
+      options: [
+        'A. Apply effects like transform, shadow, and 3D rotation.',
+        'B. Only change the font color.',
+        'C. Only change the font size.',
+        'D. Cannot modify after insertion.'
+      ],
+      answer: 'A. Apply effects like transform, shadow, and 3D rotation.',
+      diff: 'hard',
+    },
+  ]
+},
+
+203: {
+  title: "Word Processing: MS Word (Text Group (Part-II) and Symbols Group)",
+  summary: `Text Group (Part 2) and Symbols Group ⭐
+
+Text Group aur Symbols Group special text elements aur symbols add karne ke liye hain.
+
+Drop Cap ⭐
+
+• Large first letter.
+• Newspaper style.
+• Spills down into text.
+• Two styles: Dropped, In margin.
+
+Exercise: Drop Cap
+1. Type paragraph.
+2. Insert → Drop Cap.
+3. Choose style.
+4. Adjust if needed.
+5. Options available.
+
+Drop Cap Options ⭐
+
+• Dropped (in text).
+• In margin (outside).
+• Font selection.
+• Lines to drop.
+• Distance from text.
+
+Symbols Group ⭐
+
+1. Equation:
+   • Pre-made equations.
+   • Math expressions.
+   • Insert from gallery.
+   • Create custom.
+
+2. Symbol:
+   • Special characters.
+   • Currency symbols.
+   • Mathematical symbols.
+   • Greek letters.
+   • Technical symbols.
+
+Equation Features ⭐
+
+• Built-in equations.
+• Quadratic formula.
+• Pythagorean theorem.
+• Area calculations.
+• Fourier series.
+• Custom equations.
+
+Symbol Exercise ⭐
+
+1. Insert → Equation button.
+2. Equation control inserted.
+3. Equation Tools Design tab.
+4. Create/insert equation.
+
+Symbol Insertion:
+1. Insert → Symbol.
+2. Choose symbol.
+3. Shortcut key.
+4. Insert.
+
+Key Points ⭐
+
+• Drop Cap = Large first letter.
+• Equation = Math expressions.
+• Symbol = Special characters.
+• Drop Cap newspaper style.
+• Equations from gallery.
+• Symbols for technical docs.
+
+Exam Tips ⭐
+
+• Drop Cap = Large initial letter.
+• Dropped = In text.
+• In Margin = Outside text.
+• Equation = Math formula.
+• Symbol = Special character.
+• Equation Tools appear.
+• Symbol gallery available.`,
+  questions: [
+    {
+      q: 'What is a Drop Cap in MS Word?',
+      options: [
+        'A. A large letter at the beginning of a paragraph.',
+        'B. A type of font style.',
+        'C. A page layout setting.',
+        'D. A paragraph alignment option.'
+      ],
+      answer: 'A. A large letter at the beginning of a paragraph.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which group in the Insert Tab contains the Equation and Symbol commands?',
+      options: [
+        'A. Symbols Group.',
+        'B. Text Group.',
+        'C. Illustrations Group.',
+        'D. Links Group.'
+      ],
+      answer: 'A. Symbols Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Equation command?',
+      options: [
+        'A. To insert mathematical expressions and formulas.',
+        'B. To add a symbol.',
+        'C. To create a drop cap.',
+        'D. To insert a text box.'
+      ],
+      answer: 'A. To insert mathematical expressions and formulas.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where does a "Dropped" Drop Cap appear?',
+      options: [
+        'A. Inside the text, spilling down.',
+        'B. Outside the text margin.',
+        'C. At the end of the paragraph.',
+        'D. At the top of the page.'
+      ],
+      answer: 'A. Inside the text, spilling down.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following can be inserted using the Symbol command?',
+      options: [
+        'A. Greek letters and currency symbols.',
+        'B. Only mathematical equations.',
+        'C. Only pictures.',
+        'D. Only text boxes.'
+      ],
+      answer: 'A. Greek letters and currency symbols.',
+      diff: 'hard',
+    },
+  ]
+},
+
+204: {
+  title: "Word Processing: MS Word (Design Ribbon)",
+  summary: `Design Ribbon ⭐
+
+Design Ribbon document ko professional look dene ke liye hai.
+
+Groups in Design Ribbon ⭐
+
+1. Themes Group:
+   • Office, Apex, Aspect.
+   • Overall design.
+   • Colors, fonts, effects.
+   • Built-in themes.
+   • Custom themes.
+
+Theme Components:
+   • Colors: Theme colors.
+   • Fonts: Heading/body fonts.
+   • Effects: Graphic effects.
+   • Style Set: Paragraph styles.
+
+2. Page Background Group:
+   • Watermark.
+   • Page Color.
+   • Page Borders.
+
+Watermark ⭐
+
+• Background text/image.
+• Confidential, Draft.
+• Custom text.
+• Picture watermark.
+
+Exercise: Watermark
+1. Design → Watermark.
+2. Choose built-in.
+3. Or Custom Watermark.
+4. Text or Picture.
+5. Layout options.
+
+Watermark Types:
+• Confidential.
+• Draft.
+• Sample.
+• Do Not Copy.
+• Custom text.
+
+Page Color ⭐
+
+• Background color.
+• Theme colors.
+• Standard colors.
+• Fill effects.
+• Gradient, texture.
+• Pattern, picture.
+
+Page Borders ⭐
+
+• Box, Shadow, 3D.
+• Custom border.
+• Color, width.
+• Art borders.
+• Apply to sections.
+
+Key Points ⭐
+
+• Design Ribbon = Document appearance.
+• Themes = Overall design.
+• Watermark = Background text.
+• Page Color = Background color.
+• Page Borders = Border.
+• Themes include Colors, Fonts, Effects.
+
+Exam Tips ⭐
+
+• Themes = Colors + Fonts + Effects.
+• Watermark = Draft/Confidential.
+• Page Color = Background.
+• Page Borders = Decorate page.
+• Style Set = Paragraph styles.
+• Custom theme possible.
+• Picture watermark possible.`,
+  questions: [
+    {
+      q: 'Which Design Ribbon group is used to add a watermark to a document?',
+      options: [
+        'A. Page Background Group.',
+        'B. Themes Group.',
+        'C. Page Setup Group.',
+        'D. Document Formatting Group.'
+      ],
+      answer: 'A. Page Background Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does a theme in MS Word consist of?',
+      options: [
+        'A. Colors, fonts, and effects.',
+        'B. Only page colors.',
+        'C. Only font styles.',
+        'D. Only page borders.'
+      ],
+      answer: 'A. Colors, fonts, and effects.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command is used to change the background color of the page?',
+      options: [
+        'A. Page Color.',
+        'B. Watermark.',
+        'C. Page Borders.',
+        'D. Themes.'
+      ],
+      answer: 'A. Page Color.',
+      diff: 'hard',
+    },
+    {
+      q: 'What type of watermark can be added to a document?',
+      options: [
+        'A. Text or Picture watermarks.',
+        'B. Only text watermarks.',
+        'C. Only picture watermarks.',
+        'D. Only page color watermarks.'
+      ],
+      answer: 'A. Text or Picture watermarks.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Page Borders command?',
+      options: [
+        'A. To add a decorative border around the page.',
+        'B. To change the font color.',
+        'C. To add a watermark.',
+        'D. To change the page size.'
+      ],
+      answer: 'A. To add a decorative border around the page.',
+      diff: 'hard',
+    },
+  ]
+},
+
+205: {
+  title: "Word Processing: MS Word (Page Setup Group in Page Layout Ribbon)",
+  summary: `Page Setup Group ⭐
+
+Page Setup Group document page layout aur margins control karta hai.
+
+Commands ⭐
+
+1. Margins:
+   • Normal, Narrow, Wide.
+   • Custom margins.
+   • Top, Bottom, Left, Right.
+
+2. Orientation:
+   • Portrait (vertical).
+   • Landscape (horizontal).
+
+3. Size:
+   • Letter, A4.
+   • Legal, Custom.
+   • Page size selection.
+
+4. Columns:
+   • One, Two, Three.
+   • Newspaper style.
+   • Left, Right.
+
+5. Breaks:
+   • Page break.
+   • Section break.
+   • Column break.
+
+6. Line Numbers:
+   • Add line numbers.
+   • Legal documents.
+   • Poetry.
+
+7. Hyphenation:
+   • Automatic hyphenation.
+   • Manual.
+
+Columns Exercise ⭐
+
+1. Select text.
+2. Page Layout → Columns.
+3. Choose Two.
+4. Text in two columns.
+
+Breaks Types ⭐
+
+• Page: New page.
+• Section (Next Page): New section.
+• Section (Continuous): Same page.
+• Column: New column.
+• Text Wrapping: Around images.
+
+Margins Options ⭐
+
+• Normal (1 inch).
+• Narrow (0.5 inch).
+• Wide (2 inch).
+• Moderate (1.25 inch).
+• Custom (user defined).
+
+Key Points ⭐
+
+• Page Setup = Page layout.
+• Margins = Space around page.
+• Orientation = Portrait/Landscape.
+• Size = Paper size.
+• Columns = Newspaper format.
+• Breaks = Page/Section/Column.
+
+Exam Tips ⭐
+
+• Margins = Page edges.
+• Portrait = Vertical.
+• Landscape = Horizontal.
+• Columns = Multi-column text.
+• Section Break = New section.
+• Page Break = New page.
+• Hyphenation = Word breaking.`,
+  questions: [
+    {
+      q: 'Which Page Layout group is used to change the page orientation to landscape?',
+      options: [
+        'A. Page Setup Group.',
+        'B. Paragraph Group.',
+        'C. Arrange Group.',
+        'D. Themes Group.'
+      ],
+      answer: 'A. Page Setup Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Margins command control?',
+      options: [
+        'A. The space between the text and the edge of the page.',
+        'B. The font size.',
+        'C. The line spacing.',
+        'D. The page color.'
+      ],
+      answer: 'A. The space between the text and the edge of the page.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which columns option would you use to create a newspaper-style layout?',
+      options: [
+        'A. Two or Three columns.',
+        'B. One column.',
+        'C. Left column only.',
+        'D. Right column only.'
+      ],
+      answer: 'A. Two or Three columns.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between a Page Break and a Section Break?',
+      options: [
+        'A. A page break simply starts a new page; a section break can change formatting.',
+        'B. There is no difference.',
+        'C. A section break starts a new paragraph.',
+        'D. A page break changes margins.'
+      ],
+      answer: 'A. A page break simply starts a new page; a section break can change formatting.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which page size is commonly used in North America?',
+      options: [
+        'A. Letter.',
+        'B. A4.',
+        'C. Legal.',
+        'D. Custom.'
+      ],
+      answer: 'A. Letter.',
+      diff: 'hard',
+    },
+  ]
+},
+
+206: {
+  title: "Word Processing: MS Word (Page Setup Group in Page Layout Ribbon)",
+  summary: `Page Setup Group - Paragraph Settings ⭐
+
+Page Setup Group me paragraph spacing aur indentation settings bhi available hain.
+
+Indentation Controls ⭐
+
+Indent Left:
+• Left margin increase.
+• Paragraph move right.
+• Text box control.
+• Updates automatically.
+
+Indent Right:
+• Right margin increase.
+• Paragraph move left.
+• Text box control.
+• Updates automatically.
+
+Spacing Controls ⭐
+
+Spacing Before:
+• Space above paragraph.
+• Controls between sections.
+• Updates automatically.
+
+Spacing After:
+• Space below paragraph.
+• Controls between paragraphs.
+• Updates automatically.
+
+Launcher ⭐
+
+• Bottom right corner.
+• Opens Paragraph dialog.
+• Indents and Spacing tab.
+• More options available.
+
+Paragraph Dialog Options ⭐
+
+• Alignment (Left, Center, Right, Justify).
+• Outline level.
+• Indentation (Left, Right, Special).
+• Spacing (Before, After, Line).
+• Tabs settings.
+
+Special Indentation ⭐
+
+• First Line.
+• Hanging.
+• Mirror indents.
+• Custom values.
+
+Line Spacing Options ⭐
+
+• Single, 1.5, Double.
+• Exactly, Multiple.
+• At least.
+• Custom values.
+
+Key Points ⭐
+
+• Indent Left = Move right.
+• Indent Right = Move left.
+• Spacing Before = Above.
+• Spacing After = Below.
+• Launcher = More options.
+• Dialog = Full control.
+
+Exam Tips ⭐
+
+• Indent Left = Right shift.
+• Indent Right = Left shift.
+• Spacing Before = Top space.
+• Spacing After = Bottom space.
+• Launcher = Dialog box.
+• First Line = Paragraph indent.
+• Hanging = List indent.`,
+  questions: [
+    {
+      q: 'What does the "Indent Left" control do in the Page Layout tab?',
+      options: [
+        'A. Increases the space between the text and the left margin.',
+        'B. Increases the space between the text and the right margin.',
+        'C. Increases the space above the paragraph.',
+        'D. Increases the space below the paragraph.'
+      ],
+      answer: 'A. Increases the space between the text and the left margin.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which control is used to adjust the space above a paragraph?',
+      options: [
+        'A. Spacing Before.',
+        'B. Spacing After.',
+        'C. Indent Left.',
+        'D. Indent Right.'
+      ],
+      answer: 'A. Spacing Before.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the launcher in the Page Setup group open?',
+      options: [
+        'A. The Paragraph dialog box.',
+        'B. The Font dialog box.',
+        'C. The Page Setup dialog box.',
+        'D. The Themes gallery.'
+      ],
+      answer: 'A. The Paragraph dialog box.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which special indentation is used to create a hanging indent for lists?',
+      options: [
+        'A. Hanging.',
+        'B. First Line.',
+        'C. Mirror.',
+        'D. None.'
+      ],
+      answer: 'A. Hanging.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which control adjusts the space between the text and the right margin?',
+      options: [
+        'A. Indent Right.',
+        'B. Indent Left.',
+        'C. Spacing Before.',
+        'D. Spacing After.'
+      ],
+      answer: 'A. Indent Right.',
+      diff: 'hard',
+    },
+  ]
+},
+
+207: {
+  title: "Word Processing: MS Word (Arrange Group in Page Layout Ribbon)",
+  summary: `Arrange Group ⭐
+
+Arrange Group objects (pictures, shapes) ko position aur layer karne ke liye hai.
+
+Commands ⭐
+
+1. Position:
+   • Object positioning.
+   • Text wrapping options.
+   • Predefined positions.
+   • In line with text.
+   • With text wrapping.
+
+2. Wrap Text:
+   • Text flow around object.
+   • Square, Tight, Through.
+   • Top and Bottom.
+   • Behind Text.
+   • In Front of Text.
+   • Edit Wrap Points.
+
+3. Bring Forward:
+   • Object up in stacking order.
+   • Overlay other objects.
+   • Bring to Front.
+   • Bring Forward one level.
+
+4. Send Backward:
+   • Object down in stacking order.
+   • Place behind others.
+   • Send to Back.
+   • Send Backward one level.
+
+5. Selection Pane:
+   • Show/hide objects.
+   • Reorder objects.
+   • Rename objects.
+   • Visibility control.
+
+6. Align:
+   • Align Left, Center, Right.
+   • Align Top, Middle, Bottom.
+   • Distribute Horizontally.
+   • Distribute Vertically.
+   • Align to Page.
+   • Align to Margin.
+   • View Gridlines.
+
+7. Group:
+   • Group objects together.
+   • Move as one.
+   • Regroup.
+   • Ungroup.
+
+8. Rotate:
+   • Rotate Right 90.
+   • Rotate Left 90.
+   • Flip Vertical.
+   • Flip Horizontal.
+   • More Rotation Options.
+
+Key Points ⭐
+
+• Arrange Group = Object management.
+• Position = Placement.
+• Wrap Text = Text flow.
+• Bring Forward = Stack up.
+• Send Backward = Stack down.
+• Group = Combine objects.
+
+Exam Tips ⭐
+
+• Position = Object location.
+• Wrap Text = Text behavior.
+• Bring Forward = Front layer.
+• Send Backward = Back layer.
+• Selection Pane = Object list.
+• Group = Combine selected.
+• Rotate = Turn/flip objects.`,
+  questions: [
+    {
+      q: 'Which Arrange Group command is used to change the layering order of an object so it appears in front?',
+      options: [
+        'A. Bring Forward.',
+        'B. Send Backward.',
+        'C. Align.',
+        'D. Group.'
+      ],
+      answer: 'A. Bring Forward.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Wrap Text command?',
+      options: [
+        'A. To control how text flows around an object.',
+        'B. To group objects together.',
+        'C. To rotate an object.',
+        'D. To align an object.'
+      ],
+      answer: 'A. To control how text flows around an object.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command is used to combine multiple objects so they move as one?',
+      options: [
+        'A. Group.',
+        'B. Align.',
+        'C. Bring Forward.',
+        'D. Rotate.'
+      ],
+      answer: 'A. Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Selection Pane do?',
+      options: [
+        'A. Shows a list of all objects and allows you to manage their visibility and order.',
+        'B. Deletes all objects.',
+        'C. Changes the page color.',
+        'D. Adds a watermark.'
+      ],
+      answer: 'A. Shows a list of all objects and allows you to manage their visibility and order.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command would you use to flip an object upside down?',
+      options: [
+        'A. Flip Vertical.',
+        'B. Rotate Right 90.',
+        'C. Flip Horizontal.',
+        'D. Align.'
+      ],
+      answer: 'A. Flip Vertical.',
+      diff: 'hard',
+    },
+  ]
+},
+
+208: {
+  title: "Word Processing: MS Word (References Ribbon)",
+  summary: `References Ribbon ⭐
+
+References Ribbon document citations aur references manage karne ke liye hai.
+
+Groups in References Ribbon ⭐
+
+1. Table of Contents Group:
+   • Insert table of contents.
+   • Automatic from headings.
+   • Update table.
+   • Built-in styles.
+   • Custom TOC.
+
+Table of Contents:
+• Based on heading styles.
+• Automatic updating.
+• Page numbers.
+• Hyperlinks.
+• Gallery available.
+
+2. Footnotes Group:
+   • Insert Footnote.
+   • Insert Endnote.
+   • Next/Previous.
+   • Show Notes.
+
+Footnote:
+• At bottom of page.
+• Numbered automatically.
+• Explanatory text.
+
+Endnote:
+• At end of document.
+• Numbered automatically.
+• References.
+
+3. Citations & Bibliography:
+   • Insert Citation.
+   • Manage Sources.
+   • Bibliography.
+   • Styles (APA, MLA, Chicago).
+
+4. Captions:
+   • Insert Caption.
+   • Figure numbers.
+   • Table numbers.
+   • Cross-reference.
+
+5. Index:
+   • Mark Entry.
+   • Insert Index.
+   • Alphabetical listing.
+
+6. Table of Authorities:
+   • Legal documents.
+   • Mark Citation.
+   • Insert TOA.
+
+Key Points ⭐
+
+• References = Citations management.
+• Table of Contents = Document map.
+• Footnotes = Page references.
+• Citations = Source references.
+• Bibliography = Sources list.
+• Cross-reference = Figure/table links.
+
+Exam Tips ⭐
+
+• Table of Contents = Heading list.
+• Footnote = Bottom of page.
+• Endnote = End of document.
+• Citation = Source credit.
+• Bibliography = References list.
+• Caption = Figure/table labels.
+• Index = Alphabetical list.`,
+  questions: [
+    {
+      q: 'Which References Ribbon group is used to insert a Table of Contents?',
+      options: [
+        'A. Table of Contents Group.',
+        'B. Footnotes Group.',
+        'C. Citations & Bibliography Group.',
+        'D. Captions Group.'
+      ],
+      answer: 'A. Table of Contents Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between a footnote and an endnote?',
+      options: [
+        'A. A footnote appears at the bottom of the page, while an endnote appears at the end of the document.',
+        'B. There is no difference.',
+        'C. Footnotes appear at the end of the document.',
+        'D. Endnotes appear at the bottom of the page.'
+      ],
+      answer: 'A. A footnote appears at the bottom of the page, while an endnote appears at the end of the document.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which group is used to manage sources and create a bibliography?',
+      options: [
+        'A. Citations & Bibliography Group.',
+        'B. Table of Contents Group.',
+        'C. Footnotes Group.',
+        'D. Index Group.'
+      ],
+      answer: 'A. Citations & Bibliography Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Caption command?',
+      options: [
+        'A. To add labels to figures and tables.',
+        'B. To create a table of contents.',
+        'C. To insert footnotes.',
+        'D. To add a bibliography.'
+      ],
+      answer: 'A. To add labels to figures and tables.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which citation style is commonly used in academic writing?',
+      options: [
+        'A. APA, MLA, Chicago.',
+        'B. Only APA.',
+        'C. Only MLA.',
+        'D. Only Chicago.'
+      ],
+      answer: 'A. APA, MLA, Chicago.',
+      diff: 'hard',
+    },
+  ]
+},
+
+209: {
+  title: "Word Processing: MS Word (Proofing Group in Review Ribbon)",
+  summary: `Proofing Group ⭐
+
+Proofing Group document spelling aur grammar check karne ke liye hai.
+
+Commands ⭐
+
+1. Spelling & Grammar:
+   • Spelling check.
+   • Grammar check.
+   • Suggestions provided.
+   • Ignore or change.
+
+2. Thesaurus:
+   • Synonyms.
+   • Antonyms.
+   • Research pane.
+   • Word choice improvement.
+
+3. Word Count:
+   • Page count.
+   • Word count.
+   • Character count.
+   • Paragraph count.
+   • Line count.
+
+Spelling & Grammar Process ⭐
+
+• Red underline = Spelling error.
+• Green underline = Grammar error.
+• Blue underline = Contextual error.
+• Right-click for suggestions.
+• Dialog box for options.
+
+Thesaurus Usage ⭐
+
+• Select word.
+• Click Thesaurus.
+• Research pane opens.
+• Synonyms listed.
+• Choose appropriate.
+
+Word Count Features ⭐
+
+• Status bar display.
+• Word Count dialog.
+• Include textboxes/footnotes.
+• Pages, words, chars.
+• Paragraphs, lines.
+
+Proofing Options ⭐
+
+• AutoCorrect.
+• Ignore words.
+• Add to dictionary.
+• Check grammar.
+• Readability statistics.
+
+Key Points ⭐
+
+• Proofing = Spelling + Grammar.
+• Spelling & Grammar = Error check.
+• Thesaurus = Synonyms.
+• Word Count = Document stats.
+• Red underline = Spelling error.
+• Green underline = Grammar error.
+
+Exam Tips ⭐
+
+• Spelling & Grammar = Check errors.
+• Thesaurus = Synonyms/antonyms.
+• Word Count = Pages, words, chars.
+• Red = Spelling mistake.
+• Green = Grammar mistake.
+• Right-click = Suggestions.
+• Add to dictionary = Custom words.`,
+  questions: [
+    {
+      q: 'Which Review Ribbon group is used to check spelling and grammar?',
+      options: [
+        'A. Proofing Group.',
+        'B. Comments Group.',
+        'C. Tracking Group.',
+        'D. Changes Group.'
+      ],
+      answer: 'A. Proofing Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does a red underline indicate in MS Word?',
+      options: [
+        'A. A possible spelling error.',
+        'B. A possible grammar error.',
+        'C. A formatting error.',
+        'D. A page break.'
+      ],
+      answer: 'A. A possible spelling error.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Thesaurus command?',
+      options: [
+        'A. To find synonyms and antonyms for a selected word.',
+        'B. To count words in a document.',
+        'C. To check grammar.',
+        'D. To add comments.'
+      ],
+      answer: 'A. To find synonyms and antonyms for a selected word.',
+      diff: 'hard',
+    },
+    {
+      q: 'What information does the Word Count feature provide?',
+      options: [
+        'A. Pages, words, characters, paragraphs, and lines.',
+        'B. Only the total number of pages.',
+        'C. Only the total number of words.',
+        'D. Only the font size.'
+      ],
+      answer: 'A. Pages, words, characters, paragraphs, and lines.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does a green underline indicate in MS Word?',
+      options: [
+        'A. A possible grammar error.',
+        'B. A possible spelling error.',
+        'C. A formatting error.',
+        'D. A hyperlink.'
+      ],
+      answer: 'A. A possible grammar error.',
+      diff: 'hard',
+    },
+  ]
+},
+
+210: {
+  title: "Word Processing: MS Word (Language Group in Review Ribbon)",
+  summary: `Language Group ⭐
+
+Language Group document language aur translation settings ke liye hai.
+
+Commands ⭐
+
+1. Translate:
+   • Translate Document.
+   • Translate Selected Text.
+   • Mini Translator.
+   • Choose Translation Language.
+
+Translate Options:
+• Translate whole document.
+• Translate selected text.
+• Mini translator (hover).
+• Language pairs.
+
+2. Language:
+   • Set Proofing Language.
+   • Language Preferences.
+   • Dictionary language.
+   • Spell check language.
+
+Set Proofing Language ⭐
+
+• Select text/documents.
+• Choose language.
+• Spell check in that language.
+• Dictionary changes.
+• Language-specific formatting.
+
+Language Preferences ⭐
+
+• Display language.
+• Help language.
+• Editing language.
+• Add/remove languages.
+• Language pack install.
+
+Mini Translator ⭐
+
+• Hover over word/phrase.
+• Translation appears.
+• Pronunciation available.
+• Copy option.
+• Play audio.
+
+Translate Document ⭐
+
+• Entire document translate.
+• Online service.
+• Source/target language.
+• Retains formatting.
+• Web view.
+
+Key Points ⭐
+
+• Language Group = Translation + Proofing.
+• Translate = Document/text translation.
+• Mini Translator = On-hover translation.
+• Language = Proofing language.
+• Multiple languages support.
+• Language preferences available.
+
+Exam Tips ⭐
+
+• Translate = Document/selection.
+• Mini Translator = Quick hover.
+• Set Proofing Language = Spell check.
+• Language Preferences = Display.
+• Multiple languages possible.
+• Translation online service.`,
+  questions: [
+    {
+      q: 'Which Review Ribbon group is used to translate text?',
+      options: [
+        'A. Language Group.',
+        'B. Proofing Group.',
+        'C. Comments Group.',
+        'D. Tracking Group.'
+      ],
+      answer: 'A. Language Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Mini Translator do?',
+      options: [
+        'A. Displays a translation when you hover over a word or phrase.',
+        'B. Translates the entire document.',
+        'C. Checks spelling.',
+        'D. Counts words.'
+      ],
+      answer: 'A. Displays a translation when you hover over a word or phrase.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Set Proofing Language command?',
+      options: [
+        'A. To change the language used for spell checking and grammar.',
+        'B. To translate the document.',
+        'C. To add comments.',
+        'D. To change the font.'
+      ],
+      answer: 'A. To change the language used for spell checking and grammar.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command would you use to change the display language of the Word interface?',
+      options: [
+        'A. Language Preferences.',
+        'B. Translate Document.',
+        'C. Mini Translator.',
+        'D. Set Proofing Language.'
+      ],
+      answer: 'A. Language Preferences.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Translate Selected Text command do?',
+      options: [
+        'A. Translates only the selected text.',
+        'B. Translates the entire document.',
+        'C. Translates the document title.',
+        'D. Adds a comment.'
+      ],
+      answer: 'A. Translates only the selected text.',
+      diff: 'hard',
+    },
+  ]
+},
+
+211: {
+  title: "Word Processing: MS Word (Comments Group in Review Ribbon)",
+  summary: `Comments Group ⭐
+
+Comments Group document me review comments add aur manage karne ke liye hai.
+
+Commands ⭐
+
+1. New Comment:
+   • Add comment at cursor.
+   • Review/feedback.
+   • Shift+F2 shortcut.
+   • Reviewer name.
+
+2. Delete:
+   • Delete selected comment.
+   • Delete All Comments Shown.
+   • Delete All Comments in Document.
+   • Options available.
+
+3. Previous:
+   • Navigate to previous comment.
+   • Review backwards.
+   • Comments review.
+
+4. Next:
+   • Navigate to next comment.
+   • Review forwards.
+   • Comments review.
+
+Comment Features ⭐
+
+• Comment bubble in margin.
+• Reviewer initials displayed.
+• Timestamp.
+• Reply to comment.
+• Mark as done.
+
+Reviewing Comments ⭐
+
+• Read each comment.
+• Resolve or reply.
+• Delete when addressed.
+• Track changes together.
+
+Delete All Comments ⭐
+
+• Delete all from specific reviewer.
+• Delete all in document.
+• Delete all shown.
+• Quick cleanup.
+
+Comment Options ⭐
+
+• Show/hide comments.
+• Show markup.
+• Reviewing pane.
+• Resolve comments.
+
+Key Points ⭐
+
+• Comments = Review notes.
+• New Comment = Add note.
+• Delete = Remove comments.
+• Previous/Next = Navigate.
+• Resolve = Mark addressed.
+• Reviewing pane = All comments.
+
+Exam Tips ⭐
+
+• New Comment = Add feedback.
+• Delete = Remove comment.
+• Previous = Backward navigation.
+• Next = Forward navigation.
+• Shift+F2 = Insert comment.
+• Comments = Collaboration.
+• Delete all = Bulk cleanup.`,
+  questions: [
+    {
+      q: 'Which Review Ribbon group is used to add and manage comments?',
+      options: [
+        'A. Comments Group.',
+        'B. Tracking Group.',
+        'C. Changes Group.',
+        'D. Proofing Group.'
+      ],
+      answer: 'A. Comments Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the keyboard shortcut to insert a new comment?',
+      options: [
+        'A. Shift+F2.',
+        'B. Ctrl+Z.',
+        'C. Ctrl+C.',
+        'D. Ctrl+V.'
+      ],
+      answer: 'A. Shift+F2.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command is used to remove all comments from a document?',
+      options: [
+        'A. Delete All Comments in Document.',
+        'B. Delete Selected Comment.',
+        'C. Previous Comment.',
+        'D. Next Comment.'
+      ],
+      answer: 'A. Delete All Comments in Document.',
+      diff: 'hard',
+    },
+    {
+      q: 'What information is shown in a comment bubble?',
+      options: [
+        'A. Reviewer initials, text, and timestamp.',
+        'B. Only the text.',
+        'C. Only the reviewer name.',
+        'D. Only the date.'
+      ],
+      answer: 'A. Reviewer initials, text, and timestamp.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which button allows you to navigate to the previous comment in the document?',
+      options: [
+        'A. Previous.',
+        'B. Next.',
+        'C. New Comment.',
+        'D. Delete.'
+      ],
+      answer: 'A. Previous.',
+      diff: 'hard',
+    },
+  ]
+},
+
+212: {
+  title: "Word Processing: MS Word (Tracking and Changes Groups in Review Ribbon)",
+  summary: `Tracking and Changes Groups ⭐
+
+Tracking aur Changes Groups document changes track karne ke liye hain.
+
+Tracking Group ⭐
+
+1. Track Changes:
+   • Toggle on/off.
+   • Ctrl+Shift+E shortcut.
+   • Changes marked.
+   • Insertions/deletions visible.
+
+2. Show Markup:
+   • Comments.
+   • Ink.
+   • Insertions and Deletions.
+   • Formatting.
+   • Markup Area Highlight.
+
+3. Reviewing Pane:
+   • Summary of changes.
+   • List of changes.
+   • Vertical/Horizontal.
+   • Summary information.
+
+Changes Group ⭐
+
+1. Accept:
+   • Accept and Move to Next.
+   • Accept Change.
+   • Accept All Changes Shown.
+   • Accept All Changes in Document.
+
+2. Reject:
+   • Reject and Move to Next.
+   • Reject Change.
+   • Reject All Changes Shown.
+   • Reject All Changes in Document.
+
+3. Previous/Next:
+   • Navigate changes.
+   • Review each change.
+
+Track Changes Options ⭐
+
+• Change tracking options.
+• Balloon display.
+• Color settings.
+• User name.
+• Markup options.
+
+Accept/Reject Process ⭐
+
+1. Navigate to change.
+2. Review change.
+3. Accept or Reject.
+4. Move to next.
+5. All changes resolved.
+
+Key Points ⭐
+
+• Tracking = Change monitoring.
+• Track Changes = Toggle.
+• Accept = Keep change.
+• Reject = Remove change.
+• Reviewing Pane = Summary.
+• Show Markup = Visibility control.
+
+Exam Tips ⭐
+
+• Track Changes = Ctrl+Shift+E.
+• Accept = Keep changes.
+• Reject = Remove changes.
+• Reviewing Pane = Change list.
+• Show Markup = Show/hide.
+• Previous/Next = Navigate.
+• Accept All = Quick accept.`,
+  questions: [
+    {
+      q: 'Which command toggles the Track Changes feature on and off?',
+      options: [
+        'A. Track Changes.',
+        'B. Accept.',
+        'C. Reject.',
+        'D. Show Markup.'
+      ],
+      answer: 'A. Track Changes.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the keyboard shortcut for Track Changes?',
+      options: [
+        'A. Ctrl+Shift+E.',
+        'B. Ctrl+Z.',
+        'C. Ctrl+C.',
+        'D. Ctrl+V.'
+      ],
+      answer: 'A. Ctrl+Shift+E.',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens when you "Accept" a change in a document?',
+      options: [
+        'A. The change is kept and becomes part of the final document.',
+        'B. The change is removed.',
+        'C. The change is highlighted in red.',
+        'D. The change is sent to the printer.'
+      ],
+      answer: 'A. The change is kept and becomes part of the final document.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Reviewing Pane?',
+      options: [
+        'A. To display a summary and list of all changes in the document.',
+        'B. To add new comments.',
+        'C. To check spelling.',
+        'D. To change the font.'
+      ],
+      answer: 'A. To display a summary and list of all changes in the document.',
+      diff: 'hard',
+    },
+    {
+      q: 'If you want to remove a change, which command would you use?',
+      options: [
+        'A. Reject.',
+        'B. Accept.',
+        'C. Track Changes.',
+        'D. Show Markup.'
+      ],
+      answer: 'A. Reject.',
+      diff: 'hard',
+    },
+  ]
+},
+
+213: {
+  title: "Word Processing: MS Word (Compare and Protect Groups in Review Ribbon)",
+  summary: `Compare and Protect Groups ⭐
+
+Compare aur Protect Groups documents ko compare aur protect karne ke liye hain.
+
+Compare Group ⭐
+
+1. Compare:
+   • Compare two versions.
+   • View differences.
+   • Legal blacklining.
+   • Changes shown.
+
+2. Combine:
+   • Combine revisions.
+   • Multiple authors.
+   • Merge changes.
+   • Resolve conflicts.
+
+Compare Features ⭐
+
+• Original vs Revised.
+• Differences highlighted.
+• Side by side view.
+• Accept/reject changes.
+• Save as new document.
+
+Combine Features ⭐
+
+• Multiple author versions.
+• Changes from multiple documents.
+• Merge all changes.
+• Resolve conflicts.
+• Track changes combined.
+
+Protect Group ⭐
+
+1. Block Authors:
+   • Prevent changes.
+   • Protect selected text.
+   • Restrict editing.
+   • Manage credentials.
+
+2. Restrict Editing:
+   • Formatting restrictions.
+   • Editing restrictions.
+   • No changes (read only).
+   • Comments only.
+   • Filling in forms.
+   • Users/groups.
+
+3. Protect Document:
+   • Unrestricted Access.
+   • Restricted Access.
+   • Manage Credentials.
+   • Password protection.
+
+Protect Document Options ⭐
+
+• Mark as Final.
+• Encrypt with Password.
+• Restrict Editing.
+• Restrict Permission.
+• Add a Digital Signature.
+
+Key Points ⭐
+
+• Compare = Two versions.
+• Combine = Multiple versions.
+• Protect = Restrict changes.
+• Block Authors = Prevent edits.
+• Restrict Editing = Read only.
+• Password protection available.
+
+Exam Tips ⭐
+
+• Compare = Show differences.
+• Combine = Merge changes.
+• Protect = Lock document.
+• Block Authors = Restrict text.
+• Restrict Editing = Permissions.
+• Password protect = Security.`,
+  questions: [
+    {
+      q: 'Which Review Ribbon group is used to compare two versions of a document?',
+      options: [
+        'A. Compare Group.',
+        'B. Protect Group.',
+        'C. Tracking Group.',
+        'D. Changes Group.'
+      ],
+      answer: 'A. Compare Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Combine command?',
+      options: [
+        'A. To merge revisions from multiple authors into one document.',
+        'B. To delete all changes.',
+        'C. To compare two versions.',
+        'D. To protect the document.'
+      ],
+      answer: 'A. To merge revisions from multiple authors into one document.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Protect Group command is used to restrict editing to filling in forms only?',
+      options: [
+        'A. Restrict Editing.',
+        'B. Block Authors.',
+        'C. Protect Document.',
+        'D. Compare.'
+      ],
+      answer: 'A. Restrict Editing.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Block Authors command do?',
+      options: [
+        'A. Prevent others from making changes to the selected text.',
+        'B. Delete all authors.',
+        'C. Add a new author.',
+        'D. Compare documents.'
+      ],
+      answer: 'A. Prevent others from making changes to the selected text.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which option is available in the Protect Document dropdown?',
+      options: [
+        'A. Encrypt with Password.',
+        'B. Create a Table of Contents.',
+        'C. Compare Documents.',
+        'D. Track Changes.'
+      ],
+      answer: 'A. Encrypt with Password.',
+      diff: 'hard',
+    },
+  ]
+},
+
+214: {
+  title: "Word Processing: MS Word (View Ribbon)",
+  summary: `View Ribbon ⭐
+
+View Ribbon document ko different views me dekhne ke liye hai.
+
+Views Group ⭐
+
+1. Read Mode:
+   • Full screen reading.
+   • Toolbars hidden.
+   • Easy reading.
+
+2. Print Layout:
+   • Default view.
+   • As printed.
+   • Accurate representation.
+
+3. Web Layout:
+   • Web page view.
+   • No page breaks.
+   • Continuous scrolling.
+
+4. Outline:
+   • Document outline.
+   • Headings visible.
+   • Structure view.
+
+5. Draft:
+   • Quick editing.
+   • Headers/footers hidden.
+   • Fast performance.
+
+Show Group ⭐
+
+1. Ruler:
+   • Show/hide ruler.
+   • Indentation marks.
+   • Tab stops.
+
+2. Gridlines:
+   • Show/hide gridlines.
+   • Object alignment.
+   • Visual guide.
+
+3. Navigation Pane:
+   • Find results.
+   • Thumbnails.
+   • Document map.
+   • Search.
+
+Zoom Group ⭐
+
+• Zoom: Dialog box.
+• 100%: Normal size.
+• One Page: Fit page.
+• Two Pages: Two pages.
+• Page Width: Fit width.
+
+Windows Group ⭐
+
+1. New Window:
+   • Same document new view.
+   • Different zoom/position.
+
+2. Arrange All:
+   • Tile windows.
+   • Side by side.
+
+3. Split:
+   • Split window.
+   • Two panes.
+
+4. View Side by Side:
+   • Two documents compare.
+   • Synchronous Scrolling.
+
+5. Switch Windows:
+   • Switch between documents.
+   • List of open.
+
+Key Points ⭐
+
+• Views = Different display modes.
+• Print Layout = Default.
+• Read Mode = Full screen.
+• Outline = Structure.
+• Navigation Pane = Find/thumbnails.
+• Zoom = Size adjustment.
+
+Exam Tips ⭐
+
+• Print Layout = As printed.
+• Web Layout = Web page.
+• Outline = Headings view.
+• Draft = Fast editing.
+• Navigation Pane = Search.
+• Zoom = 100%, Page Width.
+• Synchronous Scrolling = Compare.`,
+  questions: [
+    {
+      q: 'Which View Ribbon view is used for full-screen reading without toolbars?',
+      options: [
+        'A. Read Mode.',
+        'B. Print Layout.',
+        'C. Web Layout.',
+        'D. Outline.'
+      ],
+      answer: 'A. Read Mode.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the default view in MS Word?',
+      options: [
+        'A. Print Layout.',
+        'B. Read Mode.',
+        'C. Web Layout.',
+        'D. Draft.'
+      ],
+      answer: 'A. Print Layout.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Show Group command displays rulers for measuring and alignment?',
+      options: [
+        'A. Ruler.',
+        'B. Gridlines.',
+        'C. Navigation Pane.',
+        'D. Zoom.'
+      ],
+      answer: 'A. Ruler.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the "Split" command do in the Windows group?',
+      options: [
+        'A. Divides the current window into two panes to view different parts of the document.',
+        'B. Closes the document.',
+        'C. Saves the document.',
+        'D. Creates a new document.'
+      ],
+      answer: 'A. Divides the current window into two panes to view different parts of the document.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Zoom option adjusts the view so the width of the page fits the window?',
+      options: [
+        'A. Page Width.',
+        'B. 100%.',
+        'C. One Page.',
+        'D. Two Pages.'
+      ],
+      answer: 'A. Page Width.',
+      diff: 'hard',
+    },
+  ]
+},
+
+215: {
+  title: "Presentations: MS-PowerPoint (Introduction)",
+  summary: `MS PowerPoint Introduction ⭐
+
+MS PowerPoint presentation development ke liye powerful tool hai.
+
+Applications ⭐
+
+• Visual presentations.
+• Tools for collaboration.
+• Easy access.
+• Information sharing.
+• Reduce speaking anxiety.
+
+PowerPoint Features ⭐
+
+• Slides.
+• Themes.
+• Transitions.
+• Animations.
+• Multimedia.
+• Notes.
+• Handouts.
+
+Ribbons in PowerPoint ⭐
+
+• Home (Similar to Word).
+• Insert (Similar to Word).
+• Design.
+• Transitions.
+• Animations.
+• Slide Show.
+• Review.
+• View.
+
+New to PowerPoint ⭐
+
+1. Slides Group (Home):
+   • New Slide.
+   • Layout.
+   • Reset.
+   • Delete.
+
+2. Design Ribbon:
+   • Themes.
+   • Variants.
+   • Slide Size.
+   • Background.
+
+3. Transitions Ribbon:
+   • Transition styles.
+   • Effects options.
+   • Sound.
+   • Duration.
+   • Apply to All.
+
+4. Animations Ribbon:
+   • Entrance, Emphasis.
+   • Exit, Motion Path.
+   • Effect Options.
+   • Timing.
+
+PowerPoint vs Word ⭐
+
+• Similar ribbons.
+• Some groups same.
+• New groups for presentations.
+• Slides focus.
+
+Key Points ⭐
+
+• PowerPoint = Presentations.
+• Slides = Basic unit.
+• Themes = Design.
+• Transitions = Slide changes.
+• Animations = Element motion.
+• Similar to Word interface.
+
+Exam Tips ⭐
+
+• PowerPoint = Presentation tool.
+• Slides = Pages.
+• Home Ribbon = Similar to Word.
+• Design Ribbon = Themes.
+• Transitions = Between slides.
+• Animations = Within slides.
+• Collaboration tools available.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of MS PowerPoint?',
+      options: [
+        'A. To develop presentations.',
+        'B. To create documents.',
+        'C. To manage databases.',
+        'D. To process spreadsheets.'
+      ],
+      answer: 'A. To develop presentations.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Ribbon in PowerPoint is used to add transitions between slides?',
+      options: [
+        'A. Transitions Ribbon.',
+        'B. Animations Ribbon.',
+        'C. Design Ribbon.',
+        'D. Home Ribbon.'
+      ],
+      answer: 'A. Transitions Ribbon.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between Transitions and Animations in PowerPoint?',
+      options: [
+        'A. Transitions are for between slides; Animations are for elements on a slide.',
+        'B. Transitions are for elements on a slide; Animations are for between slides.',
+        'C. They mean the same thing.',
+        'D. Transitions are only for text.'
+      ],
+      answer: 'A. Transitions are for between slides; Animations are for elements on a slide.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Ribbon is used to apply a theme to a presentation?',
+      options: [
+        'A. Design Ribbon.',
+        'B. Home Ribbon.',
+        'C. Insert Ribbon.',
+        'D. Transitions Ribbon.'
+      ],
+      answer: 'A. Design Ribbon.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which feature in PowerPoint is used to add a new slide?',
+      options: [
+        'A. New Slide in Home Ribbon.',
+        'B. Insert Slide in Insert Ribbon.',
+        'C. Design Slide in Design Ribbon.',
+        'D. Add Slide in View Ribbon.'
+      ],
+      answer: 'A. New Slide in Home Ribbon.',
+      diff: 'hard',
+    },
+  ]
+},
+
+216: {
+  title: "Presentations: MS-PowerPoint (Slides Group on Home Ribbon)",
+  summary: `Slides Group ⭐
+
+Slides Group Home Ribbon me slides manage karne ke liye hai.
+
+Commands ⭐
+
+1. New Slide:
+   • Add new slide.
+   • Title Slide.
+   • Title and Content.
+   • Section Header.
+   • Comparison.
+   • Picture with Caption.
+
+New Slide Options:
+• Title Slide.
+• Title and Content.
+• Section Header.
+• Two Content.
+• Comparison.
+• Title Only.
+• Blank.
+• Content with Caption.
+• Picture with Caption.
+
+2. Layout:
+   • Change slide layout.
+   • Apply to selected slide.
+   • Different content arrangement.
+
+3. Reset:
+   • Reset position/size.
+   • Default formatting.
+   • Placeholders reset.
+   • Original layout.
+
+4. Delete:
+   • Remove selected slide(s).
+   • Multiple selection.
+   • Right-click option.
+
+Slide Layouts ⭐
+
+• Title Slide: Title + Subtitle.
+• Title and Content: Bullet points.
+• Section Header: Section divider.
+• Two Content: Two columns.
+• Comparison: Compare items.
+• Title Only: Just title.
+• Blank: Empty slide.
+
+Slide Management ⭐
+
+• Add new slides.
+• Delete unnecessary slides.
+• Change layout.
+• Reset formatting.
+• Reorder slides.
+
+Key Points ⭐
+
+• Slides Group = Slide management.
+• New Slide = Add slide.
+• Layout = Change arrangement.
+• Reset = Default formatting.
+• Delete = Remove slide.
+• Multiple layouts available.
+
+Exam Tips ⭐
+
+• New Slide = Add new page.
+• Layout = Content arrangement.
+• Reset = Original formatting.
+• Delete = Remove slide.
+• Title Slide = First slide.
+• Blank = Empty slide.
+• Comparison = Compare content.`,
+  questions: [
+    {
+      q: 'Which Slides Group command is used to add a new slide to a presentation?',
+      options: [
+        'A. New Slide.',
+        'B. Layout.',
+        'C. Reset.',
+        'D. Delete.'
+      ],
+      answer: 'A. New Slide.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Layout command in the Slides Group do?',
+      options: [
+        'A. Changes the arrangement of content on a slide.',
+        'B. Adds a new slide.',
+        'C. Deletes a slide.',
+        'D. Resets the slide formatting.'
+      ],
+      answer: 'A. Changes the arrangement of content on a slide.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which slide layout is typically used for the first slide of a presentation?',
+      options: [
+        'A. Title Slide.',
+        'B. Title and Content.',
+        'C. Blank.',
+        'D. Section Header.'
+      ],
+      answer: 'A. Title Slide.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Reset command do?',
+      options: [
+        'A. Restores the slide\'s placeholders to their default position, size, and formatting.',
+        'B. Deletes the slide.',
+        'C. Adds a new slide.',
+        'D. Changes the layout.'
+      ],
+      answer: 'A. Restores the slide\'s placeholders to their default position, size, and formatting.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which command would you use to remove a slide from the presentation?',
+      options: [
+        'A. Delete.',
+        'B. Reset.',
+        'C. Layout.',
+        'D. New Slide.'
+      ],
+      answer: 'A. Delete.',
+      diff: 'hard',
+    },
+  ]
+},
+
+217: {
+  title: "Presentations: MS-PowerPoint (Design Ribbon)",
+  summary: `Design Ribbon ⭐
+
+Design Ribbon presentation ko professional look dene ke liye hai.
+
+Groups in Design Ribbon ⭐
+
+1. Themes Group:
+   • Built-in themes.
+   • Gallery available.
+   • Hover preview.
+   • Apply to all slides.
+   • Custom themes.
+
+Theme Categories:
+• Office, Facet, Integral.
+• Ion, Organic, Retrospect.
+• Slice, Wisp, Gallery.
+
+2. Variants Group:
+   • Theme variations.
+   • Color variants.
+   • Font variants.
+   • Style variants.
+   • Quick change.
+
+3. Customize Group:
+   • Slide Size.
+   • Format Background.
+
+Slide Size ⭐
+
+• Standard (4:3).
+• Widescreen (16:9).
+• Custom size.
+• Width/height adjust.
+• Orientation.
+
+Format Background ⭐
+
+• Solid fill.
+• Gradient fill.
+• Picture or texture fill.
+• Pattern fill.
+• Transparency.
+
+Design Features ⭐
+
+• Apply theme globally.
+• Different theme per slide.
+• Color palette.
+• Font selection.
+• Effects.
+
+Theme Components ⭐
+
+• Colors: Theme colors.
+• Fonts: Heading/body fonts.
+• Effects: Shape effects.
+• Background: Background styles.
+
+Key Points ⭐
+
+• Design Ribbon = Presentation appearance.
+• Themes = Overall design.
+• Variants = Theme variations.
+• Slide Size = 4:3 or 16:9.
+• Format Background = Slide background.
+• Customize = Personalization.
+
+Exam Tips ⭐
+
+• Themes = Design package.
+• Variants = Color/Font changes.
+• Slide Size = Aspect ratio.
+• Background = Fill options.
+• Hover preview = See before.
+• Apply to all = Consistent.`,
+  questions: [
+    {
+      q: 'Which Design Ribbon group is used to apply a theme to a presentation?',
+      options: [
+        'A. Themes Group.',
+        'B. Variants Group.',
+        'C. Customize Group.',
+        'D. Slide Size Group.'
+      ],
+      answer: 'A. Themes Group.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Variants group?',
+      options: [
+        'A. To change the colors, fonts, and style of the current theme.',
+        'B. To add a new slide.',
+        'C. To insert a picture.',
+        'D. To change the slide size.'
+      ],
+      answer: 'A. To change the colors, fonts, and style of the current theme.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which slide size option is used for modern widescreen displays?',
+      options: [
+        'A. Widescreen (16:9).',
+        'B. Standard (4:3).',
+        'C. Custom.',
+        'D. Letter.'
+      ],
+      answer: 'A. Widescreen (16:9).',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Format Background command allow you to do?',
+      options: [
+        'A. Apply a solid, gradient, picture, or texture fill to the slide background.',
+        'B. Change the theme.',
+        'C. Add a slide.',
+        'D. Insert a chart.'
+      ],
+      answer: 'A. Apply a solid, gradient, picture, or texture fill to the slide background.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does a theme in PowerPoint consist of?',
+      options: [
+        'A. Colors, fonts, and effects.',
+        'B. Only fonts.',
+        'C. Only colors.',
+        'D. Only slide size.'
+      ],
+      answer: 'A. Colors, fonts, and effects.',
+      diff: 'hard',
+    },
+  ]
+},
+
+218: {
+  title: "Presentations: MS-PowerPoint (Transition Ribbon)",
+  summary: `Transition Ribbon ⭐
+
+Transition Ribbon slides ke darmiyan effects add karne ke liye hai.
+
+Transition Types ⭐
+
+1. Subtle:
+   • Fade, Push, Wipe.
+   • Split, Reveal.
+   • Smooth transitions.
+
+2. Exciting:
+   • Curtains, Doors.
+   • Honeycomb, Ripple.
+   • Dramatic effects.
+
+3. Dynamic Content:
+   • Pan, Ferris Wheel.
+   • Conveyor, Flip.
+   • Content movement.
+
+Transition Options ⭐
+
+1. Effect Options:
+   • Direction (Left, Right, Top, Bottom).
+   • Shape (Circle, Diamond, Square).
+   • Variation.
+
+2. Sound:
+   • Add sound effect.
+   • Built-in sounds.
+   • Custom sound file.
+   • Loop until next sound.
+
+3. Duration:
+   • Transition speed.
+   • Seconds setting.
+   • Fast/Slow adjust.
+
+4. Apply to All:
+   • Same transition all slides.
+   • Consistent look.
+   • One click apply.
+
+5. On Mouse Click:
+   • Manual advance.
+   • Click to proceed.
+   • Control pace.
+
+6. After:
+   • Automatic advance.
+   • Set time.
+   • Auto-play.
+
+Preview ⭐
+
+• Preview button.
+• See transition effect.
+• Before applying.
+
+Key Points ⭐
+
+• Transitions = Slide effects.
+• Subtle = Simple effects.
+• Exciting = Dramatic effects.
+• Sound = Audio effect.
+• Duration = Speed.
+• Apply to All = Consistent.
+• On Mouse Click = Manual.
+
+Exam Tips ⭐
+
+• Transitions = Between slides.
+• Subtle = Fade, Push, Wipe.
+• Exciting = Curtains, Honeycomb.
+• Effect Options = Direction.
+• Sound = Audio.
+• Duration = Speed.
+• Apply to All = All slides.
+• On Mouse Click = Manual advance.`,
+  questions: [
+    {
+      q: 'Which Transition Ribbon group is used to add effects between slides?',
+      options: [
+        'A. Transition to This Slide.',
+        'B. Timing.',
+        'C. Preview.',
+        'D. Themes.'
+      ],
+      answer: 'A. Transition to This Slide.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the "Apply to All" button?',
+      options: [
+        'A. To apply the selected transition to all slides in the presentation.',
+        'B. To delete all transitions.',
+        'C. To add a transition to one slide only.',
+        'D. To change the theme.'
+      ],
+      answer: 'A. To apply the selected transition to all slides in the presentation.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which transition type would you use for a simple, professional effect?',
+      options: [
+        'A. Subtle.',
+        'B. Exciting.',
+        'C. Dynamic Content.',
+        'D. None.'
+      ],
+      answer: 'A. Subtle.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the "Duration" control in the Timing group adjust?',
+      options: [
+        'A. The speed of the transition.',
+        'B. The sound of the transition.',
+        'C. The direction of the transition.',
+        'D. The shape of the transition.'
+      ],
+      answer: 'A. The speed of the transition.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which option allows a slide to advance automatically after a set time?',
+      options: [
+        'A. After (with time setting).',
+        'B. On Mouse Click.',
+        'C. Apply to All.',
+        'D. Sound.'
+      ],
+      answer: 'A. After (with time setting).',
+      diff: 'hard',
+    },
+  ]
+},
+
+219: {
+  title: "Presentations: MS-PowerPoint (Animation Ribbon)",
+  summary: `Animation Ribbon ⭐
+
+Animation Ribbon slide elements ko animate karne ke liye hai.
+
+Animation Types ⭐
+
+1. Entrance:
+   • Appear, Fade, Fly In.
+   • Float In, Wipe.
+   • Object enters slide.
+
+2. Emphasis:
+   • Grow/Shrink.
+   • Spin, Teeter.
+   • Object change.
+
+3. Exit:
+   • Disappear, Fade Out.
+   • Fly Out, Float Out.
+   • Object leaves slide.
+
+4. Motion Paths:
+   • Lines, Arcs.
+   • Loops, Custom paths.
+   • Object moves along path.
+
+Animation Commands ⭐
+
+1. Add Animation:
+   • Apply to selected object.
+   • Choose animation type.
+   • Multiple animations possible.
+
+2. Animation Pane:
+   • List of animations.
+   • Reorder animations.
+   • Timing settings.
+   • Trigger options.
+
+3. Effect Options:
+   • Direction.
+   • Sequence.
+   • Shape.
+   • Other settings.
+
+4. Start:
+   • On Click.
+   • With Previous.
+   • After Previous.
+
+Timing Options ⭐
+
+• Duration: Animation speed.
+• Delay: Pause before start.
+• Triggers: Click, Time, Bookmark.
+
+Animation Features ⭐
+
+• Multiple animations per object.
+• Animation painter.
+• Preview animation.
+• Trigger options.
+• Custom motion paths.
+
+Key Points ⭐
+
+• Animations = Element effects.
+• Entrance = Appear on slide.
+• Emphasis = Highlight.
+• Exit = Leave slide.
+• Motion Path = Move around.
+• Animation Pane = Manage.
+
+Exam Tips ⭐
+
+• Entrance = Object appears.
+• Emphasis = Object change.
+• Exit = Object disappears.
+• Motion Path = Object moves.
+• Animation Pane = Timeline.
+• Start = When animation starts.
+• Duration = Speed.
+• Delay = Pause before.`,
+  questions: [
+    {
+      q: 'Which Animation Ribbon group is used to add an animation effect to a selected object?',
+      options: [
+        'A. Animation.',
+        'B. Animations.',
+        'C. Advanced Animation.',
+        'D. Animation Pane.'
+      ],
+      answer: 'A. Animation.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between an "Entrance" and an "Exit" animation?',
+      options: [
+        'A. Entrance makes an object appear; Exit makes an object disappear.',
+        'B. Entrance makes an object disappear; Exit makes an object appear.',
+        'C. They are the same.',
+        'D. Entrance is for text; Exit is for images.'
+      ],
+      answer: 'A. Entrance makes an object appear; Exit makes an object disappear.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Animation Pane?',
+      options: [
+        'A. To list, reorder, and manage all animations on a slide.',
+        'B. To add a new animation.',
+        'C. To delete all animations.',
+        'D. To preview the slide.'
+      ],
+      answer: 'A. To list, reorder, and manage all animations on a slide.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Start option makes an animation play automatically after the previous animation finishes?',
+      options: [
+        'A. After Previous.',
+        'B. On Click.',
+        'C. With Previous.',
+        'D. Trigger.'
+      ],
+      answer: 'A. After Previous.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the "Motion Path" animation do?',
+      options: [
+        'A. Moves an object along a specified path on the slide.',
+        'B. Makes an object fade in.',
+        'C. Makes an object spin.',
+        'D. Makes an object disappear.'
+      ],
+      answer: 'A. Moves an object along a specified path on the slide.',
+      diff: 'hard',
+    },
+  ]
+},
+
+220: {
+  title: "Spreadsheets: MS Excel (Introduction)",
+  summary: `MS Excel Introduction ⭐
+
+MS Excel spreadsheet application hai.
+
+Data store, organize, aur manipulate karne ke liye.
+
+Spreadsheet Concept ⭐
+
+• Grid of columns and rows.
+• Cells hold data.
+• Formulas for calculations.
+• Charts for visualization.
+
+Excel Layout ⭐
+
+• Ribbon (similar to Word).
+• Rows = Numbers.
+• Columns = Letters.
+• Cell = Intersection (A1, B2).
+
+Cell Addressing ⭐
+
+• A1: Column A, Row 1.
+• $A$1: Absolute reference.
+• $A1: Mixed reference.
+• A$1: Mixed reference.
+
+Excel Ribbon Tabs ⭐
+
+• Home.
+• Insert.
+• Page Layout.
+• Formulas.
+• Data.
+• Review.
+• View.
+
+Cell Formatting ⭐
+
+• Font, Size, Color.
+• Number format.
+• Alignment.
+• Borders.
+• AutoFit Row Height.
+• AutoFit Column Width.
+
+Charts ⭐
+
+• Visual representation.
+• Column, Line, Pie.
+• Bar, Area, Scatter.
+• Select data.
+• Insert chart.
+
+Chart Creation ⭐
+
+1. Select data cells.
+2. Insert tab → Chart type.
+3. Choose chart style.
+4. Chart appears.
+5. Format as needed.
+
+Key Points ⭐
+
+• Excel = Spreadsheet.
+• Rows = Numbers.
+• Columns = Letters.
+• Cell = Address (A1).
+• Charts = Visual data.
+• Formulas = Calculations.
+
+Exam Tips ⭐
+
+• Excel = Data management.
+• Rows = Horizontal.
+• Columns = Vertical.
+• Cell = Row + Column.
+• Charts = Visual representation.
+• AutoFit = Fit content.
+• Ribbon similar to Word.`,
+  questions: [
+    {
+      q: 'What is a spreadsheet used for?',
+      options: [
+        'A. Storing, organizing, and manipulating data.',
+        'B. Creating documents.',
+        'C. Developing presentations.',
+        'D. Managing databases.'
+      ],
+      answer: 'A. Storing, organizing, and manipulating data.',
+      diff: 'hard',
+    },
+    {
+      q: 'In Excel, rows are identified by:',
+      options: [
+        'A. Numbers.',
+        'B. Letters.',
+        'C. Symbols.',
+        'D. Colors.'
+      ],
+      answer: 'A. Numbers.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the cell address for the intersection of column C and row 5?',
+      options: [
+        'A. C5.',
+        'B. 5C.',
+        'C. C:E.',
+        'D. 5:5.'
+      ],
+      answer: 'A. C5.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Excel Ribbon tab is used to insert charts?',
+      options: [
+        'A. Insert Tab.',
+        'B. Home Tab.',
+        'C. Formulas Tab.',
+        'D. Data Tab.'
+      ],
+      answer: 'A. Insert Tab.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the AutoFit feature do in Excel?',
+      options: [
+        'A. Adjusts row height or column width to fit the content.',
+        'B. Automatically saves the file.',
+        'C. Prints the worksheet.',
+        'D. Creates a chart.'
+      ],
+      answer: 'A. Adjusts row height or column width to fit the content.',
+      diff: 'hard',
+    },
+  ]
+},
+
+221: {
+  title: "Spreadsheets: MS Excel (Functions)",
+  summary: `Excel Functions ⭐
+
+Functions built-in formulas hain.
+
+Calculations perform karne ke liye.
+
+Formula Basics ⭐
+
+• Start with = sign.
+• Cell references.
+• Operators.
+• Functions.
+
+Example: =A1+B1
+
+Common Functions ⭐
+
+1. SUM:
+   • Adds values.
+   • =SUM(range).
+   • Example: =SUM(A1:A10).
+
+2. AVERAGE:
+   • Average of values.
+   • =AVERAGE(range).
+   • Example: =AVERAGE(B1:B10).
+
+3. MIN:
+   • Minimum value.
+   • =MIN(range).
+   • Example: =MIN(C1:C10).
+
+4. MAX:
+   • Maximum value.
+   • =MAX(range).
+   • Example: =MAX(D1:D10).
+
+5. COUNT:
+   • Count numeric cells.
+   • =COUNT(range).
+   • Example: =COUNT(E1:E10).
+
+Function Library ⭐
+
+• AutoSum button.
+• Recently Used.
+• Financial, Logical.
+• Text, Date & Time.
+• Lookup & Reference.
+• Math & Trig.
+• More Functions.
+
+Insert Function ⭐
+
+1. Click cell.
+2. Insert Function button.
+3. Choose category.
+4. Choose function.
+5. Select arguments.
+6. Click OK.
+
+Cell References ⭐
+
+• Relative: A1 (changes).
+• Absolute: $A$1 (fixed).
+• Mixed: $A1 or A$1.
+
+Range Selection ⭐
+
+• A1:A10 (column).
+• A1:E1 (row).
+• A1:E10 (block).
+• Colon = range.
+
+Key Points ⭐
+
+• Functions = Built-in formulas.
+• SUM = Add values.
+• AVERAGE = Mean value.
+• MIN = Smallest value.
+• MAX = Largest value.
+• COUNT = Count numbers.
+
+Exam Tips ⭐
+
+• Formula starts with =.
+• SUM = Addition.
+• AVERAGE = Average.
+• MIN = Minimum.
+• MAX = Maximum.
+• COUNT = Count cells.
+• Range = Cells selection.`,
+  questions: [
+    {
+      q: 'What symbol must be used at the beginning of a formula in Excel?',
+      options: [
+        'A. =',
+        'B. +',
+        'C. -',
+        'D. *'
+      ],
+      answer: 'A. =',
+      diff: 'hard',
+    },
+    {
+      q: 'Which function is used to add a range of values in Excel?',
+      options: [
+        'A. SUM.',
+        'B. AVERAGE.',
+        'C. MIN.',
+        'D. MAX.'
+      ],
+      answer: 'A. SUM.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the AVERAGE function do?',
+      options: [
+        'A. Calculates the average of the cells in the argument.',
+        'B. Adds all cells in the argument.',
+        'C. Finds the maximum value.',
+        'D. Counts the cells.'
+      ],
+      answer: 'A. Calculates the average of the cells in the argument.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Insert Function button?',
+      options: [
+        'A. To open a dialog box to search for and select a function.',
+        'B. To insert a new worksheet.',
+        'C. To insert a chart.',
+        'D. To save the file.'
+      ],
+      answer: 'A. To open a dialog box to search for and select a function.',
+      diff: 'hard',
+    },
+    {
+      q: 'In Excel, which function is used to find the largest value in a range?',
+      options: [
+        'A. MAX.',
+        'B. MIN.',
+        'C. SUM.',
+        'D. AVERAGE.'
+      ],
+      answer: 'A. MAX.',
+      diff: 'hard',
+    },
+  ]
+},
+
+222: {
+  title: "Spreadsheets: MS Excel (Application Scenarios-I)",
+  summary: `Excel Application Scenarios ⭐
+
+Real-world examples ke sath formulas apply karna.
+
+Student Marks Example ⭐
+
+Data: 5 students, 5 subjects.
+Goal: Total marks each student.
+
+Process:
+1. Enter data.
+2. Select cell for total.
+3. Apply SUM formula.
+4. Copy formula down.
+
+Formula:
+=SUM(B2:F2)
+
+Copy Formula ⭐
+
+• Drag fill handle.
+• Double-click fill handle.
+• Copy-paste.
+• Relative references adjust.
+
+Result ⭐
+
+• Each student total.
+• Quick calculation.
+• Automatic update.
+
+Example Data ⭐
+
+Student | Sub1 | Sub2 | Sub3 | Sub4 | Sub5 | Total
+------------------------------------------------------
+Ali     | 85   | 90   | 78   | 88   | 92   | =SUM(B2:F2)
+Sara    | 75   | 80   | 72   | 85   | 78   | =SUM(B3:F3)
+
+Functions Used ⭐
+
+• SUM: Add all marks.
+• AVERAGE: Average marks.
+• MIN: Lowest marks.
+• MAX: Highest marks.
+
+Advanced Application ⭐
+
+• Add percentage.
+• Add grade.
+• Conditional formatting.
+• Charts.
+
+Key Points ⭐
+
+• SUM = Total marks.
+• Copy formula = Efficiency.
+• Relative references = Auto-update.
+• Fill handle = Quick copy.
+• Real data = Practical.
+
+Exam Tips ⭐
+
+• SUM formula = Total.
+• Copy formula = Drag fill.
+• Relative reference = Adjusts.
+• Fill handle = Cross cursor.
+• AutoCalculate = Status bar.`,
+  questions: [
+    {
+      q: 'In the student marks example, which formula is used to calculate the total marks for a student?',
+      options: [
+        'A. =SUM(B2:F2).',
+        'B. =AVERAGE(B2:F2).',
+        'C. =MIN(B2:F2).',
+        'D. =MAX(B2:F2).'
+      ],
+      answer: 'A. =SUM(B2:F2).',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the most efficient way to apply the same formula to multiple rows?',
+      options: [
+        'A. Use the fill handle to drag or double-click it to copy the formula down.',
+        'B. Retype the formula in each row.',
+        'C. Use the Insert Function button for each row.',
+        'D. It is not possible to copy formulas.'
+      ],
+      answer: 'A. Use the fill handle to drag or double-click it to copy the formula down.',
+      diff: 'hard',
+    },
+    {
+      q: 'What happens to cell references when you copy a formula like =SUM(B2:F2) down to the next row?',
+      options: [
+        'A. They adjust automatically to =SUM(B3:F3).',
+        'B. They remain the same.',
+        'C. They change to absolute references.',
+        'D. They delete the formula.'
+      ],
+      answer: 'A. They adjust automatically to =SUM(B3:F3).',
+      diff: 'hard',
+    },
+    {
+      q: 'Which function would you use to find the highest marks for a particular subject?',
+      options: [
+        'A. MAX.',
+        'B. MIN.',
+        'C. SUM.',
+        'D. AVERAGE.'
+      ],
+      answer: 'A. MAX.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the fill handle look like in Excel?',
+      options: [
+        'A. A small square at the bottom-right corner of the selected cell.',
+        'B. A large green button.',
+        'C. A red triangle.',
+        'D. A blue arrow.'
+      ],
+      answer: 'A. A small square at the bottom-right corner of the selected cell.',
+      diff: 'hard',
+    },
+  ]
+},
+
+223: {
+  title: "Spreadsheets: MS Excel (Application Scenarios-II)",
+  summary: `Excel Application Scenarios II ⭐
+
+Personal expenses management example.
+
+Personal Expense Sheet ⭐
+
+Data: Monthly expenses by head.
+
+Heads: Electricity, Gas, Water, Phone, Groceries, etc.
+
+Months: Jan to Dec.
+
+Queries on Data ⭐
+
+1. Total expense for January.
+   • =SUM(B3:B14)
+   • Adds all expense heads.
+
+2. Total expense for Electricity Bill.
+   • =SUM(B3:M3)
+   • Adds all months.
+
+3. Average monthly expense.
+   • =AVERAGE(B3:M3)
+
+4. Highest expense head.
+   • =MAX(B3:M3)
+
+5. Lowest expense head.
+   • =MIN(B3:M3)
+
+6. Total annual expense.
+   • =SUM(B16:H16)
+   • Sum of all totals.
+
+Example Functions ⭐
+
+• =SUM(b3:b14) = January total.
+• =SUM(b3:m3) = Electricity total.
+• =AVERAGE(b3:m3) = Average electricity.
+• =MAX(b3:m3) = Highest electricity month.
+• =MIN(b3:m3) = Lowest electricity month.
+• =SUM(B16:H16) = Annual total.
+
+Practical Application ⭐
+
+• Budget tracking.
+• Expense analysis.
+• Financial planning.
+• Decision making.
+
+Key Points ⭐
+
+• SUM = Add expenses.
+• AVERAGE = Average expense.
+• MAX = Highest expense.
+• MIN = Lowest expense.
+• SUM = Annual total.
+• Real-world application.
+
+Exam Tips ⭐
+
+• =SUM(vertical) = Monthly total.
+• =SUM(horizontal) = Head total.
+• =AVERAGE = Mean.
+• =MAX = Highest.
+• =MIN = Lowest.
+• Copy formula = Quick.
+• Range selection = Important.`,
+  questions: [
+    {
+      q: 'In the personal expense sheet, which formula calculates the total expense for the month of January?',
+      options: [
+        'A. =SUM(B3:B14).',
+        'B. =SUM(B3:M3).',
+        'C. =AVERAGE(B3:B14).',
+        'D. =MAX(B3:B14).'
+      ],
+      answer: 'A. =SUM(B3:B14).',
+      diff: 'hard',
+    },
+    {
+      q: 'Which formula would you use to find the total electricity bill expense for the entire year?',
+      options: [
+        'A. =SUM(B3:M3).',
+        'B. =SUM(B3:B14).',
+        'C. =AVERAGE(B3:M3).',
+        'D. =MAX(B3:M3).'
+      ],
+      answer: 'A. =SUM(B3:M3).',
+      diff: 'hard',
+    },
+    {
+      q: 'How can you calculate the average monthly expense for a specific expense head like gas?',
+      options: [
+        'A. =AVERAGE(range).',
+        'B. =SUM(range).',
+        'C. =MAX(range).',
+        'D. =MIN(range).'
+      ],
+      answer: 'A. =AVERAGE(range).',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the formula =MAX(B3:M3) return?',
+      options: [
+        'A. The highest monthly expense for the specified expense head.',
+        'B. The lowest monthly expense.',
+        'C. The total expense.',
+        'D. The average expense.'
+      ],
+      answer: 'A. The highest monthly expense for the specified expense head.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which formula calculates the total annual expense in the personal expense sheet example?',
+      options: [
+        'A. =SUM(B16:H16).',
+        'B. =SUM(B3:B14).',
+        'C. =AVERAGE(B16:H16).',
+        'D. =MAX(B16:H16).'
+      ],
+      answer: 'A. =SUM(B16:H16).',
+      diff: 'hard',
+    },
+  ]
+},
+
+224: {
+  title: "Spreadsheets: MS Excel (Sorting and Filter)",
+  summary: `Sorting and Filter ⭐
+
+Sorting aur Filter data ko manipulate karne ke liye hain.
+
+Sorting ⭐
+
+Data ko order me arrange karna.
+
+Ascending Order:
+• A to Z.
+• Smallest to largest.
+• Oldest to newest.
+
+Descending Order:
+• Z to A.
+• Largest to smallest.
+• Newest to oldest.
+
+Basic Sort ⭐
+
+1. Highlight cells.
+2. Sort & Filter button.
+3. Sort Ascending (A-Z).
+4. Sort Descending (Z-A).
+
+Custom Sort ⭐
+
+Multiple columns sort.
+
+1. Sort & Filter button.
+2. Choose column first.
+3. Add Level.
+4. Choose next column.
+5. Click OK.
+
+Filter ⭐
+
+Specific data show/hide.
+
+1. Select data.
+2. Filter button.
+3. Dropdown arrows appear.
+4. Select criteria.
+5. Only matching rows show.
+
+Filter Options ⭐
+
+• Text Filters.
+• Number Filters.
+• Date Filters.
+• Custom Filters.
+• Clear Filter.
+
+Sort Options ⭐
+
+• Sort by color.
+• Sort by icon.
+• Sort by cell value.
+• Case sensitive.
+• Custom list.
+
+Key Points ⭐
+
+• Sort = Arrange data.
+• Ascending = A-Z.
+• Descending = Z-A.
+• Filter = Show specific.
+• Custom Sort = Multiple columns.
+• Add Level = More columns.
+
+Exam Tips ⭐
+
+• Sort = Order data.
+• Ascending = Small to large.
+• Descending = Large to small.
+• Filter = Show/hide data.
+• Custom Sort = Multiple levels.
+• Add Level = New sort key.
+• Sort & Filter = Home tab.`,
+  questions: [
+    {
+      q: 'What is the difference between ascending and descending order in sorting?',
+      options: [
+        'A. Ascending sorts from smallest to largest (A-Z), while descending sorts from largest to smallest (Z-A).',
+        'B. Ascending sorts from largest to smallest.',
+        'C. Descending sorts from smallest to largest.',
+        'D. There is no difference.'
+      ],
+      answer: 'A. Ascending sorts from smallest to largest (A-Z), while descending sorts from largest to smallest (Z-A).',
+      diff: 'hard',
+    },
+    {
+      q: 'Where is the Sort & Filter button located in Excel?',
+      options: [
+        'A. On the Home tab.',
+        'B. On the Insert tab.',
+        'C. On the Formulas tab.',
+        'D. On the Data tab.'
+      ],
+      answer: 'A. On the Home tab.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of a custom sort?',
+      options: [
+        'A. To sort by more than one column.',
+        'B. To sort by one column only.',
+        'C. To delete duplicates.',
+        'D. To create a chart.'
+      ],
+      answer: 'A. To sort by more than one column.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the Filter feature do?',
+      options: [
+        'A. Shows only rows that meet specified criteria.',
+        'B. Permanently deletes rows.',
+        'C. Sorts data alphabetically.',
+        'D. Adds a new column.'
+      ],
+      answer: 'A. Shows only rows that meet specified criteria.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you add another level to a custom sort?',
+      options: [
+        'A. Click Add Level.',
+        'B. Click Delete Level.',
+        'C. Click OK.',
+        'D. Click Cancel.'
+      ],
+      answer: 'A. Click Add Level.',
+      diff: 'hard',
+    },
+  ]
+},
+
+225: {
+  title: "Database: MS Access (Introduction)",
+  summary: `MS Access Introduction ⭐
+
+MS Access database management system (DBMS) hai.
+
+Tables, forms, queries, aur reports create karne ke liye.
+
+Database vs DBMS ⭐
+
+Database = Filing cabinet.
+• Stores files/tables.
+• Information organized.
+
+DBMS = Office Clerk.
+• Organizes and retrieves.
+• Manages data.
+• Creates queries.
+
+SQL ⭐
+
+Structured Query Language.
+
+Database queries ke liye standard.
+
+SQL Syntax:
+• SELECT: Retrieve data.
+• INSERT: Add data.
+• UPDATE: Modify data.
+• DELETE: Remove data.
+
+Access Ribbon ⭐
+
+• Home.
+• Create (New).
+• External Data (Import/Export).
+• Database Tools.
+• Similar to Word/Excel.
+
+Create Database ⭐
+
+1. Click Blank Database.
+2. Type Database name.
+3. Browse location.
+4. Click Create.
+
+Navigation Pane ⭐
+
+• Left side.
+• Lists tables, forms, queries, reports.
+• Access all objects.
+• Organize database.
+
+External Data Tab ⭐
+
+• Import data.
+• Export data.
+• Share data.
+• Excel integration.
+• Multiple formats.
+
+Key Points ⭐
+
+• Access = DBMS.
+• Database = Filing cabinet.
+• DBMS = Office clerk.
+• SQL = Query language.
+• Navigation Pane = Object list.
+• Create Tab = New objects.
+
+Exam Tips ⭐
+
+• Access = Database tool.
+• Database = Tables.
+• DBMS = Management.
+• SQL = Queries.
+• Navigation Pane = All objects.
+• Blank Database = New.
+• External Data = Import/Export.`,
+  questions: [
+    {
+      q: 'In the analogy used, what does the database represent?',
+      options: [
+        'A. The filing cabinet.',
+        'B. The office clerk.',
+        'C. The files.',
+        'D. The computer.'
+      ],
+      answer: 'A. The filing cabinet.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does SQL stand for?',
+      options: [
+        'A. Structured Query Language.',
+        'B. Simple Query Logic.',
+        'C. Standard Query Listing.',
+        'D. System Query Language.'
+      ],
+      answer: 'A. Structured Query Language.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which tab in MS Access is used to create new tables, forms, and reports?',
+      options: [
+        'A. Create Tab.',
+        'B. Home Tab.',
+        'C. External Data Tab.',
+        'D. Database Tools Tab.'
+      ],
+      answer: 'A. Create Tab.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where are all the tables, forms, queries, and reports listed in Access?',
+      options: [
+        'A. Navigation Pane.',
+        'B. Ribbon.',
+        'C. Status Bar.',
+        'D. Formula Bar.'
+      ],
+      answer: 'A. Navigation Pane.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the External Data tab?',
+      options: [
+        'A. To import and export data.',
+        'B. To create new tables.',
+        'C. To run queries.',
+        'D. To create reports.'
+      ],
+      answer: 'A. To import and export data.',
+      diff: 'hard',
+    },
+  ]
+},
+
+226: {
+  title: "Database: MS Access (Creating and Managing Tables)",
+  summary: `Creating and Managing Tables ⭐
+
+Tables Access me data store karne ke liye hain.
+
+Columns = Fields.
+Rows = Records.
+
+Table Creation ⭐
+
+1. Create tab → Table.
+2. Default Table added.
+3. Switch to Design View.
+4. Name the table.
+5. Add fields.
+6. Set data types.
+
+Field Data Types ⭐
+
+• Text: Letters/numbers (short).
+• Number: Numeric data.
+• Currency: Money values.
+• Date/Time: Dates and times.
+• Yes/No: Boolean (True/False).
+• Memo: Long text.
+• AutoNumber: Automatic number.
+
+Design View ⭐
+
+• Field Name.
+• Data Type.
+• Description.
+• Field Properties.
+
+Table Design Example ⭐
+
+Table: courses
+
+Fields:
+• cid (AutoNumber) - Primary Key.
+• ctitle (Text).
+• csection (Number).
+• cinstructor (Text).
+
+Datasheet View ⭐
+
+• Enter data.
+• View records.
+• Add new records.
+• Edit/delete records.
+
+Adding Data ⭐
+
+1. Datasheet View.
+2. Click next empty row.
+3. Enter data.
+4. Auto save.
+
+Key Points ⭐
+
+• Tables = Data storage.
+• Fields = Columns.
+• Records = Rows.
+• Design View = Define structure.
+• Datasheet View = Enter data.
+• Data types important.
+
+Exam Tips ⭐
+
+• Table = Data container.
+• Field = Column.
+• Record = Row.
+• Text = Alphanumeric.
+• Number = Numeric.
+• Primary Key = Unique ID.
+• Design View = Structure.`,
+  questions: [
+    {
+      q: 'What is a field in a database table?',
+      options: [
+        'A. A column that stores a specific type of data.',
+        'B. A row of data.',
+        'C. The entire table.',
+        'D. A query.'
+      ],
+      answer: 'A. A column that stores a specific type of data.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which data type would you use for a student\'s name?',
+      options: [
+        'A. Text.',
+        'B. Number.',
+        'C. Date/Time.',
+        'D. Yes/No.'
+      ],
+      answer: 'A. Text.',
+      diff: 'hard',
+    },
+    {
+      q: 'In which view do you define the structure of a table (field names and data types)?',
+      options: [
+        'A. Design View.',
+        'B. Datasheet View.',
+        'C. Form View.',
+        'D. Report View.'
+      ],
+      answer: 'A. Design View.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is a primary key?',
+      options: [
+        'A. A field that uniquely identifies each record in a table.',
+        'B. A field that contains text.',
+        'C. A field that is optional.',
+        'D. The last field in the table.'
+      ],
+      answer: 'A. A field that uniquely identifies each record in a table.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which view is used to enter and view the actual data in a table?',
+      options: [
+        'A. Datasheet View.',
+        'B. Design View.',
+        'C. Form View.',
+        'D. Report View.'
+      ],
+      answer: 'A. Datasheet View.',
+      diff: 'hard',
+    },
+  ]
+},
+
+227: {
+  title: "Database: MS Access (Creating Forms)",
+  summary: `Creating Forms ⭐
+
+Forms data entry aur navigation ke liye hain.
+
+User-friendly interface.
+
+Form Benefits ⭐
+
+• Easy data entry.
+• Navigate records.
+• Professional look.
+• Add icons.
+• Apply designs.
+
+Create Form ⭐
+
+1. Select table.
+2. Create tab → Form.
+3. Form auto-created.
+4. Fields as labels.
+5. Text boxes for data.
+6. Save form.
+
+Form Features ⭐
+
+• Navigate records.
+• Add new record.
+• Edit existing.
+• Delete records.
+• Search data.
+• Sort/Filter.
+
+Form Components ⭐
+
+• Labels: Field names.
+• Text Boxes: Data entry.
+• Buttons: Navigation.
+• Combo Boxes: Dropdown.
+• Check Boxes: Yes/No.
+• Subforms: Related data.
+
+Saving Form ⭐
+
+1. Right-click form tab.
+2. Select Save.
+3. Enter form name.
+4. Click OK.
+5. Appears in Navigation Pane.
+
+Exercise: Student Form ⭐
+
+1. Select student table.
+2. Create → Form.
+3. Form created.
+4. Save as "studentForm".
+5. Use for data entry.
+
+Navigation Buttons ⭐
+
+• First Record.
+• Previous Record.
+• Next Record.
+• Last Record.
+• New (blank) Record.
+
+Key Points ⭐
+
+• Forms = Data entry.
+• User-friendly interface.
+• Auto-created from table.
+• Labels + Text boxes.
+• Navigation buttons.
+• Save in Navigation Pane.
+
+Exam Tips ⭐
+
+• Form = Data entry screen.
+• Labels = Field names.
+• Text Boxes = Data fields.
+• Navigation = Move records.
+• Save = Store form.
+• Create → Form = Quick form.
+• Customizable layout.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of a form in MS Access?',
+      options: [
+        'A. To provide a user-friendly interface for entering and viewing data.',
+        'B. To store the actual data.',
+        'C. To create reports.',
+        'D. To run queries.'
+      ],
+      answer: 'A. To provide a user-friendly interface for entering and viewing data.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you create a form for a table in MS Access?',
+      options: [
+        'A. Select the table, then go to Create → Form.',
+        'B. Click on Datasheet View.',
+        'C. Use the Query Wizard.',
+        'D. Click on Design View.'
+      ],
+      answer: 'A. Select the table, then go to Create → Form.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does a form typically display for each field?',
+      options: [
+        'A. A label and a text box for data entry.',
+        'B. A label only.',
+        'C. A text box only.',
+        'D. A graph.'
+      ],
+      answer: 'A. A label and a text box for data entry.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where are saved forms listed in MS Access?',
+      options: [
+        'A. Navigation Pane.',
+        'B. Design View.',
+        'C. Datasheet View.',
+        'D. Report View.'
+      ],
+      answer: 'A. Navigation Pane.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which navigation button in a form is used to add a new record?',
+      options: [
+        'A. New (blank) Record.',
+        'B. First Record.',
+        'C. Previous Record.',
+        'D. Last Record.'
+      ],
+      answer: 'A. New (blank) Record.',
+      diff: 'hard',
+    },
+  ]
+},
+
+228: {
+  title: "Database: MS Access (Creating Reports)",
+  summary: `Creating Reports ⭐
+
+Reports organized aur summarized data hain.
+
+Printing aur analysis ke liye.
+
+Report Purpose ⭐
+
+• Print data.
+• View onscreen.
+• Analyze data.
+• Present to others.
+• Professional format.
+
+Create Report ⭐
+
+1. Select table.
+2. Create tab → Report.
+3. Report auto-generated.
+4. Organized layout.
+5. Save report.
+
+Report Features ⭐
+
+• Group data.
+• Sort data.
+• Add totals.
+• Add summaries.
+• Formatting.
+• Headers/Footers.
+
+Report Components ⭐
+
+• Report Header.
+• Page Header.
+• Detail Section.
+• Group Headers.
+• Group Footers.
+• Page Footer.
+• Report Footer.
+
+Saving Report ⭐
+
+1. Right-click report tab.
+2. Select Save.
+3. Enter report name.
+4. Click OK.
+5. Appears in Navigation Pane.
+
+Exercise: Student Report ⭐
+
+1. Select student table.
+2. Create → Report.
+3. Report generated.
+4. Save as "studentReport".
+5. Rename title.
+
+Report Sections ⭐
+
+• Report Header: Title.
+• Page Header: Column headings.
+• Detail: Data records.
+• Page Footer: Page numbers.
+• Report Footer: Totals.
+
+Key Points ⭐
+
+• Reports = Organized data.
+• Print/View data.
+• Auto-generated.
+• Grouping possible.
+• Summaries possible.
+• Save in Navigation Pane.
+
+Exam Tips ⭐
+
+• Report = Data presentation.
+• Create → Report = Quick.
+• Report Header = Title.
+• Detail = Records.
+• Page Footer = Page numbers.
+• Save = Store report.
+• Navigation Pane = List.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of a report in MS Access?',
+      options: [
+        'A. To organize and summarize data for printing or viewing.',
+        'B. To enter new data.',
+        'C. To store data.',
+        'D. To run queries.'
+      ],
+      answer: 'A. To organize and summarize data for printing or viewing.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you create a report for a table in MS Access?',
+      options: [
+        'A. Select the table, then go to Create → Report.',
+        'B. Click on Form Design.',
+        'C. Use the Query Wizard.',
+        'D. Click on Datasheet View.'
+      ],
+      answer: 'A. Select the table, then go to Create → Report.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which section of a report typically contains the column headings?',
+      options: [
+        'A. Page Header.',
+        'B. Report Header.',
+        'C. Detail Section.',
+        'D. Page Footer.'
+      ],
+      answer: 'A. Page Header.',
+      diff: 'hard',
+    },
+    {
+      q: 'Where are saved reports listed in MS Access?',
+      options: [
+        'A. Navigation Pane.',
+        'B. Report View.',
+        'C. Design View.',
+        'D. Print Preview.'
+      ],
+      answer: 'A. Navigation Pane.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which report section is used to display the actual data records?',
+      options: [
+        'A. Detail Section.',
+        'B. Report Header.',
+        'C. Page Header.',
+        'D. Page Footer.'
+      ],
+      answer: 'A. Detail Section.',
+      diff: 'hard',
+    },
+  ]
+},
+
+229: {
+  title: "Database: MS Access (Query Wizard)",
+  summary: `Query Wizard ⭐
+
+Queries specific data retrieve karne ke liye hain.
+
+Query Types ⭐
+
+1. SELECT:
+   • Retrieve data.
+   • SELECT fields FROM table.
+   • WHERE clause for criteria.
+
+2. INSERT:
+   • Add new records.
+   • INSERT INTO table VALUES.
+
+3. UPDATE:
+   • Modify existing records.
+   • UPDATE table SET.
+
+4. DELETE:
+   • Remove records.
+   • DELETE FROM table WHERE.
+
+Query Wizard Steps ⭐
+
+1. Create tab → Query Wizard.
+2. Choose Simple Query.
+3. Select table.
+4. Select fields.
+5. Name query.
+6. Finish.
+
+Query Design View ⭐
+
+• Add tables.
+• Select fields.
+• Set criteria.
+• Sort order.
+• Run query.
+
+SQL View ⭐
+
+• See SQL syntax.
+• Generated by Access.
+• Understand structure.
+• Edit manually.
+
+Exercise: Student Query ⭐
+
+1. Query Wizard → Select student.
+2. Choose fields: sname, ssems.
+3. Name: "StudentTBQuery1".
+4. Run query.
+5. Save.
+
+Criteria in Queries ⭐
+
+• Where clause.
+• Exact match.
+• Range.
+• Pattern match.
+• Calculated fields.
+
+Key Points ⭐
+
+• Queries = Retrieve data.
+• SELECT = Get data.
+• WHERE = Criteria.
+• Query Wizard = Easy.
+• Design View = Advanced.
+• SQL View = Code.
+
+Exam Tips ⭐
+
+• Query = Data retrieval.
+• SELECT = Main query.
+• WHERE = Filter.
+• Query Wizard = Simple.
+• Design View = Custom.
+• SQL View = Syntax.
+• Save query = Navigation Pane.`,
+  questions: [
+    {
+      q: 'What is the primary purpose of a query in a database?',
+      options: [
+        'A. To retrieve specific data from tables.',
+        'B. To create reports.',
+        'C. To design forms.',
+        'D. To store data.'
+      ],
+      answer: 'A. To retrieve specific data from tables.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which SQL command is used to retrieve data?',
+      options: [
+        'A. SELECT.',
+        'B. INSERT.',
+        'C. UPDATE.',
+        'D. DELETE.'
+      ],
+      answer: 'A. SELECT.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the WHERE clause do in a SELECT query?',
+      options: [
+        'A. It filters the records based on specified criteria.',
+        'B. It sorts the data.',
+        'C. It adds new records.',
+        'D. It deletes records.'
+      ],
+      answer: 'A. It filters the records based on specified criteria.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which view in MS Access shows the SQL code generated by a query?',
+      options: [
+        'A. SQL View.',
+        'B. Design View.',
+        'C. Datasheet View.',
+        'D. Form View.'
+      ],
+      answer: 'A. SQL View.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Query Wizard option is used to create a basic query in MS Access?',
+      options: [
+        'A. Simple Query Wizard.',
+        'B. Crosstab Query Wizard.',
+        'C. Find Duplicates Query Wizard.',
+        'D. Find Unmatched Query Wizard.'
+      ],
+      answer: 'A. Simple Query Wizard.',
+      diff: 'hard',
+    },
+  ]
+},
+
+230: {
+  title: "Web page Development (Notepad Editor)",
+  summary: `Web Page Development - Notepad ⭐
+
+HTML editor se web pages bana sakte hain.
+
+Notepad simple editor hai.
+
+What is a Webpage ⭐
+
+• HTML file.
+• Extension .html or .htm.
+• Browser displays.
+• Information sharing.
+
+HTML Basics ⭐
+
+• Markup language.
+• Tags define content.
+• Browser interprets.
+• Visual/audible display.
+
+HTML Structure ⭐
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <p>Paragraph text.</p>
+  </body>
+</html>
+
+HTML Tags ⭐
+
+• Opening tag: <tag>
+• Closing tag: </tag>
+• Content between tags.
+• Elements.
+
+Common Tags ⭐
+
+• <html>: Web page.
+• <head>: Page info.
+• <title>: Browser title.
+• <body>: Visible content.
+• <h1> to <h6>: Headings.
+• <p>: Paragraph.
+• <b>: Bold.
+• <i>: Italic.
+• <a>: Link.
+• <img>: Image.
+
+HTML Attributes ⭐
+
+• Provide extra info.
+• Inside opening tag.
+• Example: <img src="file.jpg">
+
+Notepad Exercise ⭐
+
+1. Open Notepad.
+2. Write HTML code.
+3. Save as .html file.
+4. Open in browser.
+5. View webpage.
+
+Key Points ⭐
+
+• Webpage = HTML file.
+• Tags = Instructions.
+• Browser = Display.
+• Notepad = Editor.
+• .html extension.
+• Visible content in body.
+
+Exam Tips ⭐
+
+• Webpage = HTML.
+• Tags = < and >.
+• Body = Visible content.
+• Head = Metadata.
+• Title = Browser tab.
+• h1 = Main heading.
+• p = Paragraph.
+• Attributes = Extra info.`,
+  questions: [
+    {
+      q: 'What file extension is used for a web page?',
+      options: [
+        'A. .html or .htm.',
+        'B. .txt.',
+        'C. .doc.',
+        'D. .xls.'
+      ],
+      answer: 'A. .html or .htm.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the <body> tag in HTML?',
+      options: [
+        'A. To contain the visible content of the web page.',
+        'B. To define the page title.',
+        'C. To create a hyperlink.',
+        'D. To insert an image.'
+      ],
+      answer: 'A. To contain the visible content of the web page.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which tag is used to create a main heading in HTML?',
+      options: [
+        'A. <h1>.',
+        'B. <p>.',
+        'C. <b>.',
+        'D. <a>.'
+      ],
+      answer: 'A. <h1>.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the src attribute specify in the <img> tag?',
+      options: [
+        'A. The location of the image file.',
+        'B. The width of the image.',
+        'C. The height of the image.',
+        'D. The alt text.'
+      ],
+      answer: 'A. The location of the image file.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between an opening tag and a closing tag?',
+      options: [
+        'A. A closing tag has a slash (e.g., </tag>), an opening tag does not.',
+        'B. An opening tag has a slash.',
+        'C. There is no difference.',
+        'D. Only closing tags have attributes.'
+      ],
+      answer: 'A. A closing tag has a slash (e.g., </tag>), an opening tag does not.',
+      diff: 'hard',
+    },
+  ]
+},
+
+231: {
+  title: "Web page Development (Introduction to Dreamweaver)",
+  summary: `Dreamweaver Introduction ⭐
+
+Dreamweaver professional HTML editor hai.
+
+WYSIWYG (What You See Is What You Get) editor.
+
+Dreamweaver Benefits ⭐
+
+• Visual editor.
+• Code editor.
+• Syntax highlighting.
+• Code completion.
+• Real-time syntax checking.
+• Code hints.
+
+Features ⭐
+
+• HTML editing.
+• CSS support.
+• JavaScript support.
+• XML support.
+• Visual layout.
+• Properties panel.
+
+Dreamweaver Views ⭐
+
+1. Design View:
+   • Visual editing.
+   • WYSIWYG.
+   • Page layout.
+
+2. Code View:
+   • Hand-coding.
+   • Write HTML directly.
+   • Syntax help.
+
+3. Split Code View:
+   • Two code sections.
+   • Scroll independently.
+
+4. Code and Design View:
+   • Both views together.
+   • Visual + Code.
+
+5. Live View:
+   • Realistic browser view.
+   • Interactive.
+   • Not editable.
+
+Properties Inspector ⭐
+
+• Display/edit attributes.
+• Selected element properties.
+• Quick changes.
+
+Document Toolbar ⭐
+
+• View options.
+• Browser preview.
+• Common operations.
+
+Key Points ⭐
+
+• Dreamweaver = HTML editor.
+• WYSIWYG = Visual.
+• Code editor available.
+• CSS, JavaScript support.
+• Design + Code views.
+• Properties Inspector.
+
+Exam Tips ⭐
+
+• Dreamweaver = Professional editor.
+• WYSIWYG = Visual editing.
+• Design View = Visual.
+• Code View = Hand coding.
+• Live View = Browser preview.
+• Properties = Element attributes.
+• Notepad simple vs Dreamweaver professional.`,
+  questions: [
+    {
+      q: 'What type of editor is Adobe Dreamweaver?',
+      options: [
+        'A. A visual WYSIWYG HTML editor.',
+        'B. A simple text editor.',
+        'C. A spreadsheet program.',
+        'D. A database management system.'
+      ],
+      answer: 'A. A visual WYSIWYG HTML editor.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does WYSIWYG stand for?',
+      options: [
+        'A. What You See Is What You Get.',
+        'B. What You Show Is What You Give.',
+        'C. Where You See Is Where You Go.',
+        'D. When You Save Is When You Get.'
+      ],
+      answer: 'A. What You See Is What You Get.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Dreamweaver view shows a realistic representation of how the page will look in a browser?',
+      options: [
+        'A. Live View.',
+        'B. Design View.',
+        'C. Code View.',
+        'D. Split View.'
+      ],
+      answer: 'A. Live View.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the Properties Inspector in Dreamweaver?',
+      options: [
+        'A. To display and edit the properties of the selected element.',
+        'B. To preview the page in a browser.',
+        'C. To add new CSS styles.',
+        'D. To manage the site files.'
+      ],
+      answer: 'A. To display and edit the properties of the selected element.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which view in Dreamweaver allows you to see both the code and the design simultaneously?',
+      options: [
+        'A. Code and Design View.',
+        'B. Live View.',
+        'C. Split Code View.',
+        'D. Design View.'
+      ],
+      answer: 'A. Code and Design View.',
+      diff: 'hard',
+    },
+  ]
+},
+
+232: {
+  title: "Web page Development (Inserting Tables using Dreamweaver)",
+  summary: `Inserting Tables in Dreamweaver ⭐
+
+Tables web pages me data organize karne ke liye.
+
+Insert Table Process ⭐
+
+1. New HTML page.
+2. Insert tab → Table.
+3. Specify rows/columns.
+4. Adjust row sizes.
+5. Add content.
+
+Table Properties ⭐
+
+• Rows: Horizontal.
+• Columns: Vertical.
+• Width: Table width.
+• Cell padding: Space inside cells.
+• Cell spacing: Space between cells.
+• Border: Table border.
+
+Insert Table Dialog ⭐
+
+• Rows: Number.
+• Columns: Number.
+• Table width.
+• Border thickness.
+• Cell padding.
+• Cell spacing.
+
+Row Sizes ⭐
+
+• Adjust individually.
+• Height set.
+• Content fit.
+• Uniform layout.
+
+Table Features ⭐
+
+• Merge cells.
+• Split cells.
+• Add rows.
+• Delete rows.
+• Add columns.
+• Delete columns.
+• Cell alignment.
+
+Exercise: Insert Table ⭐
+
+1. New HTML page.
+2. Insert → Table.
+3. Set rows and columns.
+4. Click OK.
+5. Adjust row sizes.
+6. Add content.
+
+Key Points ⭐
+
+• Tables = Organize data.
+• Rows = Horizontal.
+• Columns = Vertical.
+• Insert tab → Table.
+• Properties adjust.
+• Merge/split possible.
+
+Exam Tips ⭐
+
+• Table = Data grid.
+• Rows = Horizontal lines.
+• Columns = Vertical lines.
+• Insert → Table.
+• Cell padding = Inner space.
+• Cell spacing = Between cells.
+• Merge = Combine cells.`,
+  questions: [
+    {
+      q: 'How do you insert a table in Dreamweaver?',
+      options: [
+        'A. Go to Insert tab and click Table.',
+        'B. Type <table> in Code View.',
+        'C. Click the Table button on the toolbar.',
+        'D. All of the above.'
+      ],
+      answer: 'A. Go to Insert tab and click Table.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the "Rows" property define in a table?',
+      options: [
+        'A. The number of horizontal lines in the table.',
+        'B. The number of vertical lines in the table.',
+        'C. The width of the table.',
+        'D. The border of the table.'
+      ],
+      answer: 'A. The number of horizontal lines in the table.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the "Cell Padding" property?',
+      options: [
+        'A. To add space between the cell border and its content.',
+        'B. To add space between cells.',
+        'C. To change the border color.',
+        'D. To merge cells.'
+      ],
+      answer: 'A. To add space between the cell border and its content.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which action would you use to combine two cells into one?',
+      options: [
+        'A. Merge cells.',
+        'B. Split cells.',
+        'C. Delete cells.',
+        'D. Add cells.'
+      ],
+      answer: 'A. Merge cells.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the difference between "Cell Padding" and "Cell Spacing"?',
+      options: [
+        'A. Cell padding is space inside the cell; cell spacing is space between cells.',
+        'B. Cell padding is space between cells; cell spacing is space inside the cell.',
+        'C. They are the same.',
+        'D. Cell padding is only for the border.'
+      ],
+      answer: 'A. Cell padding is space inside the cell; cell spacing is space between cells.',
+      diff: 'hard',
+    },
+  ]
+},
+
+233: {
+  title: "Web page Development (Inserting Lists)",
+  summary: `Inserting Lists ⭐
+
+Lists web pages me information present karne ke liye.
+
+List Types ⭐
+
+1. Unordered List (Bullets):
+   • Bullet points.
+   • No order.
+   • <ul> tag.
+
+2. Ordered List (Numbers):
+   • Sequential numbers.
+   • Order matters.
+   • <ol> tag.
+
+3. Definition List:
+   • Term and definition.
+   • <dl>, <dt>, <dd>.
+
+Unordered List Example ⭐
+
+<ul>
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Grape</li>
+</ul>
+
+Ordered List Example ⭐
+
+<ol>
+  <li>Step 1</li>
+  <li>Step 2</li>
+  <li>Step 3</li>
+</ol>
+
+List Properties ⭐
+
+Unordered List Styles:
+• Disc (default bullet).
+• Circle.
+• Square.
+• None.
+
+Ordered List Styles:
+• Numbers (1, 2, 3).
+• Letters (A, B, C).
+• Roman numerals (I, II, III).
+
+Dreamweaver List Insertion ⭐
+
+1. Select text.
+2. Property Inspector.
+3. Unordered List button.
+4. Ordered List button.
+5. List Properties dialog.
+
+List Properties Dialog ⭐
+
+• List type.
+• Style.
+• Start number.
+• Custom bullet.
+
+Exercise: Create List ⭐
+
+1. Type list items.
+2. Select text.
+3. Click Unordered List.
+4. Bullets appear.
+5. Change to Ordered List.
+6. Numbers appear.
+
+Key Points ⭐
+
+• Unordered = Bullets.
+• Ordered = Numbers.
+• <ul> = Bullet list.
+• <ol> = Number list.
+• <li> = List item.
+• Property Inspector = Format.
+
+Exam Tips ⭐
+
+• <ul> = Bulleted list.
+• <ol> = Numbered list.
+• <li> = List item.
+• Disc = Default bullet.
+• Circle = Empty circle.
+• Square = Square bullet.
+• Property Inspector = List options.`,
+  questions: [
+    {
+      q: 'Which HTML tag is used to create a bulleted (unordered) list?',
+      options: [
+        'A. <ul>.',
+        'B. <ol>.',
+        'C. <li>.',
+        'D. <dl>.'
+      ],
+      answer: 'A. <ul>.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which HTML tag is used to create a numbered (ordered) list?',
+      options: [
+        'A. <ol>.',
+        'B. <ul>.',
+        'C. <li>.',
+        'D. <dl>.'
+      ],
+      answer: 'A. <ol>.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the <li> tag?',
+      options: [
+        'A. To define a list item within <ul> or <ol>.',
+        'B. To start a new list.',
+        'C. To end a list.',
+        'D. To create a definition.'
+      ],
+      answer: 'A. To define a list item within <ul> or <ol>.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which button in the Dreamweaver Property Inspector creates an unordered list?',
+      options: [
+        'A. Unordered List button.',
+        'B. Ordered List button.',
+        'C. Bold button.',
+        'D. Italic button.'
+      ],
+      answer: 'A. Unordered List button.',
+      diff: 'hard',
+    },
+    {
+      q: 'What does the "Square" style do in a bulleted list?',
+      options: [
+        'A. Changes the bullet to a square shape.',
+        'B. Changes the bullet to a circle.',
+        'C. Removes the bullet.',
+        'D. Changes to numbers.'
+      ],
+      answer: 'A. Changes the bullet to a square shape.',
+      diff: 'hard',
+    },
+  ]
+},
+
+234: {
+  title: "Web page Development (Inserting Images)",
+  summary: `Inserting Images ⭐
+
+Images web pages me visual content add karne ke liye.
+
+Insert Image Process ⭐
+
+1. Place cursor.
+2. Insert tab → Image.
+3. Browse to image.
+4. Select file.
+5. Image inserted.
+
+Image Properties ⭐
+
+• src: Source file.
+• alt: Alternative text.
+• width: Width in pixels.
+• height: Height in pixels.
+• border: Border thickness.
+• hspace: Horizontal space.
+• vspace: Vertical space.
+
+Image Attributes ⭐
+
+• src = "path/to/image.jpg"
+• alt = "Description"
+• width = "200"
+• height = "150"
+
+Image Formats ⭐
+
+• JPEG: Photos (lossy).
+• PNG: Graphics (lossless).
+• GIF: Animations, simple.
+• SVG: Vector graphics.
+• WebP: Modern format.
+
+Best Practices ⭐
+
+• Use alt text.
+• Optimize file size.
+• Use descriptive names.
+• Appropriate format.
+• Responsive design.
+
+Insert Image Exercise ⭐
+
+1. Place cursor where image needed.
+2. Insert → Image.
+3. Select image file.
+4. Click OK.
+5. Image appears.
+
+Image Placement ⭐
+
+• Inline with text.
+• Float left/right.
+• Center aligned.
+• With caption.
+
+Key Points ⭐
+
+• Images = Visual content.
+• src = File location.
+• alt = Alternative text.
+• width/height = Size.
+• Insert tab → Image.
+• Many formats supported.
+
+Exam Tips ⭐
+
+• Image = Visual element.
+• src = Image source.
+• alt = Accessibility.
+• width = Image width.
+• height = Image height.
+• Insert → Image.
+• Browse = Select file.`,
+  questions: [
+    {
+      q: 'Which HTML attribute specifies the location of the image file?',
+      options: [
+        'A. src.',
+        'B. alt.',
+        'C. width.',
+        'D. height.'
+      ],
+      answer: 'A. src.',
+      diff: 'hard',
+    },
+    {
+      q: 'What is the purpose of the alt attribute in an image tag?',
+      options: [
+        'A. To provide alternative text if the image cannot be displayed.',
+        'B. To specify the image width.',
+        'C. To specify the image height.',
+        'D. To add a border.'
+      ],
+      answer: 'A. To provide alternative text if the image cannot be displayed.',
+      diff: 'hard',
+    },
+    {
+      q: 'How do you insert an image in Dreamweaver?',
+      options: [
+        'A. Go to Insert tab and click Image.',
+        'B. Drag and drop from file explorer.',
+        'C. Type <img> in Code View.',
+        'D. All of the above.'
+      ],
+      answer: 'A. Go to Insert tab and click Image.',
+      diff: 'hard',
+    },
+    {
+      q: 'Which image format is commonly used for photographs?',
+      options: [
+        'A. JPEG.',
+        'B. PNG.',
+        'C. GIF.',
+        'D. SVG.'
+      ],
+      answer: 'A. JPEG.',
+      diff: 'hard',
+    },
+    {
+      q: 'What do the width and height attributes do?',
+      options: [
+        'A. Set the display size of the image in pixels.',
+        'B. Set the file size.',
+        'C. Set the color depth.',
+        'D. Set the image resolution.'
+      ],
+      answer: 'A. Set the display size of the image in pixels.',
+      diff: 'hard',
+    },
+  ]
+},
 
   },
 
