@@ -246,6 +246,74 @@ export default function ExamPaper({ subject, paperType, setPage }) {
           </div>
         </div>
 
+        {/* Live Progress Stats */}
+        {mcqs.length > 0 && (
+          <div style={{
+            background: 'var(--card-bg)',
+            border: '1.5px solid var(--border)',
+            borderRadius: 14,
+            padding: '14px 16px',
+            marginBottom: 16,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 0,
+          }}>
+            {/* Total */}
+            <div style={{ flex: 1, textAlign: 'center', borderRight: '1px solid var(--border)' }}>
+              <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--text-primary)' }}>
+                {mcqs.length}
+              </div>
+              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>Total</div>
+            </div>
+
+            {/* Attempted */}
+            <div style={{ flex: 1, textAlign: 'center', borderRight: '1px solid var(--border)' }}>
+              <div style={{ fontSize: 22, fontWeight: 700, color: '#2563eb' }}>
+                {Object.keys(mcqAnswers).length}
+              </div>
+              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>Attempted</div>
+            </div>
+
+            {/* Correct */}
+            <div style={{ flex: 1, textAlign: 'center', borderRight: '1px solid var(--border)' }}>
+              <div style={{ fontSize: 22, fontWeight: 700, color: '#16a34a' }}>
+                {Object.keys(mcqAnswers).filter(i => mcqAnswers[i] === mcqs[i]?.answer).length}
+              </div>
+              <div style={{ fontSize: 11, color: '#16a34a', marginTop: 2, fontWeight: 600 }}>✓ Correct</div>
+            </div>
+
+            {/* Wrong */}
+            <div style={{ flex: 1, textAlign: 'center' }}>
+              <div style={{ fontSize: 22, fontWeight: 700, color: '#dc2626' }}>
+                {Object.keys(mcqAnswers).filter(i => mcqAnswers[i] !== mcqs[i]?.answer).length}
+              </div>
+              <div style={{ fontSize: 11, color: '#dc2626', marginTop: 2, fontWeight: 600 }}>✗ Wrong</div>
+            </div>
+          </div>
+        )}
+
+        {/* Progress bar */}
+        {Object.keys(mcqAnswers).length > 0 && (
+          <div style={{ marginBottom: 16 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: 'var(--text-muted)', marginBottom: 4 }}>
+              <span>Progress</span>
+              <span>{Object.keys(mcqAnswers).length}/{mcqs.length} attempted</span>
+            </div>
+            <div style={{ height: 6, background: 'var(--border)', borderRadius: 3, overflow: 'hidden', display: 'flex' }}>
+              {/* Green portion - correct */}
+              <div style={{
+                width: `${(Object.keys(mcqAnswers).filter(i => mcqAnswers[i] === mcqs[i]?.answer).length / mcqs.length) * 100}%`,
+                background: '#10b981', transition: 'width 0.3s ease',
+              }} />
+              {/* Red portion - wrong */}
+              <div style={{
+                width: `${(Object.keys(mcqAnswers).filter(i => mcqAnswers[i] !== mcqs[i]?.answer).length / mcqs.length) * 100}%`,
+                background: '#ef4444', transition: 'width 0.3s ease',
+              }} />
+            </div>
+          </div>
+        )}
+
         {/* Section A: MCQs */}
         <p className="sec-label">Section A — Multiple Choice ({mcqs.length} marks)</p>
         {mcqs.map((q, i) => {

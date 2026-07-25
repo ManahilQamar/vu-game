@@ -16662,7 +16662,403 @@ const examData = {
             "D. By pressing Ctrl+P."
         ],
         "answer": "A. By using the Dialog expander arrow."
-    }
+    },
+    
+  {
+    "q": "The Word Count command on the Tools menu displays the number of words as well as the number of _________ in the current document",
+    "options": ["Lines", "Paragraphs", "all of the above", "Characters"],
+    "answer": "all of the above"
+  },
+  {
+    "q": "The _____________ feature in Word automatically corrects certain spelling, typing, and capitalisation or grammar errors.",
+    "options": ["AutoSpell", "AutoFix", "AutoMark", "AutoCorrect"],
+    "answer": "AutoCorrect"
+  },
+  {
+    "q": "What is the name of the feature that allows us to take a step backward if we've made a mistake?",
+    "options": ["Redo", "Backspace", "Undo", "Cancel"],
+    "answer": "Undo"
+  },
+  {
+    "q": "How many margins are surrounded around the document page?",
+    "options": ["Four (center, top, left and bottom)", "Two (landscape and portrait)", "Four (top, bottom, right and left)", "Two (header and footer)"],
+    "answer": "Four (top, bottom, right and left)"
+  },
+  {
+    "q": "Which of the following drop down contains the commands: Set Proofing Language and Language Preferences.",
+    "options": ["Language", "Thesaurus", "Translate", "Word Count"],
+    "answer": "Language"
+  },
+  {
+    "q": "Which of the following does not belong to Translate command in MS Word?",
+    "options": ["Mini Translator", "Translate Document", "Translate Selected Text", "Spell Check"],
+    "answer": "Spell Check"
+  },
+  {
+    "q": "Which of the following commands is present in the Review tab?",
+    "options": ["Comments", "All of the above", "Proofing", "Tracking"],
+    "answer": "All of the above"
+  },
+  {
+    "q": "Changing the appearance of an MS Word document is called:",
+    "options": ["Reviewing", "Formatting", "Editing", "Proofing"],
+    "answer": "Formatting"
+  },
+  {
+    "q": "You have just completed your first novel. It's perfect but the publisher still wants their editor to check it over and make any necessary corrections. You reluctantly agree but you want final say over any changes. \"Grammer is more of an art than a science\", you argue. But how can you review the editor's changes in a 1500-page novel without missing any of those changes?",
+    "options": ["Track changes", "Word count", "Find and replace", "Quick parts"],
+    "answer": "Track changes"
+  },
+  {
+    "q": "How can you quickly delete ALL the comments made within a document at once?",
+    "options": ["Right-click on each comment within the document and select Delete Comment from the list.", "Under the Review tab on the Ribbon, in the Comments group, select Delete and then Delete All Comments in Document.", "All of the options listed above are correct.", "Click on Select All Comments under the Review tab on the ribbon and press the Delete button on your keyboard."],
+    "answer": "Under the Review tab on the Ribbon, in the Comments group, select Delete and then Delete All Comments in Document."
+  },
+  {
+    "q": "____________ are advanced features that can speed up editing or formatting you may perform often in a word document.",
+    "options": ["Track changes", "Comment", "Macros", "Ribbon"],
+    "answer": "Macros"
+  },
+  {
+    "q": "Which command Inserts a comment at the active cell?",
+    "options": ["(Ctrl + F2)", "(Shift + F2)", "(Shift + F4)", "(Shif + F3)"],
+    "answer": "(Shift + F2)"
+  },
+  {
+    "q": "What action do you need to take to switch off track changes?",
+    "options": ["Under the Review tab on the Ribbon, in the Tracking group, click on the Show Markup button to switch track changes off.", "Under the Review tab on the Ribbon, in the Tracking group, click on the Track Changes button to switch track changes off.", "None of the options listed above are correct.", "Under the Review tab on the Ribbon, in the Changes group, click on the Accept button to switch track changes off."],
+    "answer": "Under the Review tab on the Ribbon, in the Tracking group, click on the Track Changes button to switch track changes off."
+  },
+  {
+    "q": "How do you permanently apply all the edits that were made in track changes, to a document?",
+    "options": ["In the Display for Review box in the Tracking group, select No Markup to accept all the changes in a document.", "Right-click the document and select Apply Track Changes and Stop Tracking from the list to accept all the changes in a document.", "Click on the dropdown arrow below the Accept button in the Changes group and select Accept All Changes.", "Click on the Track Changes button in the Tracking group to accept all changes in a document and to stop tracking changes."],
+    "answer": "Click on the dropdown arrow below the Accept button in the Changes group and select Accept All Changes."
+  },
+  {
+    "q": "To block another user from switching off track changes in a document, what function should you enable?",
+    "options": ["The Lock Tracking option, which is located under the Track Changes button, will discourage users from switching off track changes.", "All of the options listed above are correct.", "No function is necessary, once Track Changes is switched on, they cannot be stopped unless all changes are accepted.", "Activate the Reviewing Pane in the Tracking group. This will prevent other users from switching off the track changes function."],
+    "answer": "The Lock Tracking option, which is located under the Track Changes button, will discourage users from switching off track changes."
+  },
+  {
+    "q": "Which of the following provides a list of synonyms?",
+    "options": ["Spelling and Grammar", "Find Command", "Replace Command", "Thesaurus"],
+    "answer": "Thesaurus"
+  },
+  {
+    "q": "The ribbon in Word 2007 consists of a series of?",
+    "options": ["Gates", "Smaller ribbons", "Tabs", "Icons"],
+    "answer": "Tabs"
+  },
+  {
+    "q": "In PowerPoint, the header and footer button can be found on the insert tab in what group?",
+    "options": ["Illustrations group", "Object group", "Tables group", "Text group"],
+    "answer": "Text group"
+  },
+  {
+    "q": "Which view helps to rearrange the slides easily and quickly?",
+    "options": ["Notes page", "Slide sorter", "Normal", "Slide master"],
+    "answer": "Slide sorter"
+  },
+  {
+    "q": "The PowerPoint view that displays only text (title and bullets) is ____________",
+    "options": ["Notes page view", "Outline view", "Slide show", "Slide sorter"],
+    "answer": "Outline view"
+  },
+  {
+    "q": "What is the default PowerPoint standard layout?",
+    "options": ["Comparison", "Title only", "Blank", "Title slide"],
+    "answer": "Title slide"
+  },
+  {
+    "q": "Which type of view is not present in MS PowerPoint?",
+    "options": ["Slide show", "Extreme animation", "Normal", "Slide sorter"],
+    "answer": "Extreme animation"
+  },
+  {
+    "q": "Which feature is not in MS PowerPoint?",
+    "options": ["Slide show", "Scan a virus", "Zoom", "Background color"],
+    "answer": "Scan a virus"
+  },
+  {
+    "q": "What's the best way to design the layout for your slides?",
+    "options": ["Create layouts for slides, handouts and notes using the Master Layout dialog box in slide master view", "None of above", "Apply templates from the Slide Design task pane", "For each new slide, select a layout from the Slide Layout task pane"],
+    "answer": "Create layouts for slides, handouts and notes using the Master Layout dialog box in slide master view"
+  },
+  {
+    "q": "In which bar we can see the current position of the slide?",
+    "options": ["Status bar", "Title bar", "View option bar", "Ribbon"],
+    "answer": "Status bar"
+  },
+  {
+    "q": "Which of the following file format can be added to a PowerPoint show?",
+    "options": [".wav", "All of these", ".gif", ".jpg"],
+    "answer": "All of these"
+  },
+  {
+    "q": "In a presentation of PowerPoint, the special effects used to introduce slides are known as ________________",
+    "options": ["None of the above", "Transitions", "Custom Animation", "Annotations"],
+    "answer": "Transitions"
+  },
+  {
+    "q": "What are the three options available in Insert >> Picture menu?",
+    "options": ["Clipart, From File, Shapes", "Clipart, From Files, AutoShapes", "Clipart, Pictures, Shapes", "Clipart, Pictures, AutoShapes"],
+    "answer": "Clipart, From File, Shapes"
+  },
+  {
+    "q": "In Powerpoint, the objects on the slide used to hold the text are called as ______________",
+    "options": ["Textbox", "Text holders", "Placeholders", "None of the above"],
+    "answer": "Placeholders"
+  },
+  {
+    "q": "Which of the following fill effects can be used to fill the background of the slide?",
+    "options": ["Picture", "Texture", "All of the above", "Gradient"],
+    "answer": "All of the above"
+  },
+  {
+    "q": "Is it possible to apply the same transition on all slides in a powerpoint presentation?",
+    "options": ["True", "Can't say", "False", "May be"],
+    "answer": "True"
+  },
+  {
+    "q": "Which of the following is the shortcut key used to start the presentation from the current slide?",
+    "options": ["Ctrl + F5", "Shift + F5", "F5", "None of the above"],
+    "answer": "Shift + F5"
+  },
+  {
+    "q": "The address of a cell is represented with combination of an alphabet and a number e.g. A1. Here in A1 , A represents ......... and 1 represents .......",
+    "options": ["Column , Row", "Row, Column"],
+    "answer": "Column , Row"
+  },
+  {
+    "q": "Software that is used to organize, manipulate and display data arranged in rows and columns is known as",
+    "options": ["File", "Spreadsheed", "Register", "Document"],
+    "answer": "Spreadsheed"
+  },
+  {
+    "q": "______ is an electronic spreadsheet application that enables users to store, organize, calculate and manipulate the data.",
+    "options": ["Microsoft Excel", "Microsoft Access", "Microsoft Word", "Microsoft Powerpoint"],
+    "answer": "Microsoft Excel"
+  },
+  {
+    "q": "In MS Excel, charts can be inserted from ........... tab",
+    "options": ["Formula", "Data", "Insert", "Home"],
+    "answer": "Insert"
+  },
+  {
+    "q": "In Excel formula starts with ________ sign",
+    "options": ["=", "$", "@", "#"],
+    "answer": "="
+  },
+  {
+    "q": "A file that exists of cells in rows and columns and can help arrange, calculate and sort data is called",
+    "options": ["Document", "Spreadsheet", "None of the Above", "Presentation file"],
+    "answer": "Spreadsheet"
+  },
+  {
+    "q": "The ________ feature of MS Excel quickly completes a series of data",
+    "options": ["Fill Handle", "Auto Fill", "Auto Complete", "Sorting"],
+    "answer": "Auto Fill"
+  },
+  {
+    "q": "Which of the following identifies a cell in Excel?",
+    "options": ["Name", "Formula", "Label", "Address"],
+    "answer": "Address"
+  },
+  {
+    "q": "In MS Excel two or more cells can be combined to create a new, single and larger cell by using ............. option.",
+    "options": ["Pivot", "Filter", "Merge", "Wrap"],
+    "answer": "Merge"
+  },
+  {
+    "q": "In Excel, which one denoted a range from B1 through E5",
+    "options": ["B1 - E5", "B1:E5", "B1$E5", "B1 to E5"],
+    "answer": "B1:E5"
+  },
+  {
+    "q": "…………. of data lets you hide unimportant data and show only that data you're interested in.",
+    "options": ["Alignment", "Sorting", "Filtering", "Restricting"],
+    "answer": "Filtering"
+  },
+  {
+    "q": "The process of arranging the data in ascending and descending order is known as ……...",
+    "options": ["Sorting", "Alignment", "Restricting", "Filtering"],
+    "answer": "Sorting"
+  },
+  {
+    "q": "________ allows you to manipulate data in a worksheet based on a given set of criteria.",
+    "options": ["Formatting", "Sorting and Filtering"],
+    "answer": "Sorting and Filtering"
+  },
+  {
+    "q": "In Microsoft Excel, Sort & Filter button can be found in ________.",
+    "options": ["Formula tab", "Review tab", "Insert tab", "Home tab"],
+    "answer": "Home tab"
+  },
+  {
+    "q": "You can sort the data in",
+    "options": ["None of the above", "Descending order", "Ascending order", "Both 1 and 2"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "q": "Organized collection of data or information that can be accessed, updated, and managed is called _______",
+    "options": ["File", "Database", "DBMS", "None of the above"],
+    "answer": "Database"
+  },
+  {
+    "q": "________ Tab is used to import, export, collect and share data between different databases.",
+    "options": ["Create", "External Data", "Database Tools", "Datasheet"],
+    "answer": "External Data"
+  },
+  {
+    "q": "Information is organized in these tables in the form of ________ and ________ for easy access and management purposes.",
+    "options": ["Key and Value", "Fields and record", "None of the above", "All of the above"],
+    "answer": "Fields and record"
+  },
+  {
+    "q": "________ Tab helps you to provide a quick and easy way to create tables, forms, reports and queries.",
+    "options": ["Database Tools", "Create", "Datasheet", "External Data"],
+    "answer": "Create"
+  },
+  {
+    "q": "Each column in the table is referred to as a",
+    "options": ["Record", "None of the above", "Tuple", "Field"],
+    "answer": "Field"
+  },
+  {
+    "q": "In Access, ________ are used to store the data.",
+    "options": ["Form", "Query", "Table", "Report"],
+    "answer": "Table"
+  },
+  {
+    "q": "Each row of a table is referred to as a",
+    "options": ["a single record", "field", "None of the above", "a single type of data"],
+    "answer": "a single record"
+  },
+  {
+    "q": "Which of the following Microsoft Office tool is used to create database",
+    "options": ["Microsoft PowerPoint", "Microsoft Excel", "Microsoft Word", "Microsoft Access"],
+    "answer": "Microsoft Access"
+  },
+  {
+    "q": "Press _____ to quit MS Access.",
+    "options": ["Alt+F4", "Tab +F4", "Esc+ W", "Ctrl +F4"],
+    "answer": "Alt+F4"
+  },
+  {
+    "q": "Which of the following is not a type of Microsoft Access database object?",
+    "options": ["Table", "Worksheets", "Modules", "Form"],
+    "answer": "Worksheets"
+  },
+  {
+    "q": "How many basic types of queries are used to manipulate the databases",
+    "options": ["4", "None of the Above", "2", "3"],
+    "answer": "3"
+  },
+  {
+    "q": "Query design views can be used to design or create a query with the addition of other parameters",
+    "options": ["Datasheet View", "Design View", "SQL View", "PivotChart View"],
+    "answer": "Design View"
+  },
+  {
+    "q": "An Access database object that is used to enter, view or edit records",
+    "options": ["Form", "Table", "Query", "Report"],
+    "answer": "Form"
+  },
+  {
+    "q": "Tool that allows users to manage, store, retrieve and analyze the information.",
+    "options": ["Record", "Query", "Database management system (DBMS)", "Field"],
+    "answer": "Database management system (DBMS)"
+  },
+  {
+    "q": "Following are the examples of block elements except _______",
+    "options": ["<ul>", "<b>", "<p>", "<h1>"],
+    "answer": "<b>"
+  },
+  {
+    "q": "Which of the following program is used by users to view the web pages?",
+    "options": ["Web server", "Search Engine", "Web browser", "Protocol"],
+    "answer": "Web browser"
+  },
+  {
+    "q": "HTML stands for:",
+    "options": ["Hypertext Markup Language", "None of these", "Hypertext Markup Links", "High Text Machine Language"],
+    "answer": "Hypertext Markup Language"
+  },
+  {
+    "q": "A web page is a document that is commonly written in",
+    "options": ["CSS", "Java", "C++", "HTML"],
+    "answer": "HTML"
+  },
+  {
+    "q": "The text between tags ___________ is presented as a first heading.",
+    "options": ["<heading> and </heading>", "<h> and </h>", "<head> and </head>", "<h1> and </h1>"],
+    "answer": "<h1> and </h1>"
+  },
+  {
+    "q": "The text between tags ___________ describes the start and end of the web page.",
+    "options": ["<html> and </html>", "<head> and </head>", "<body> and </body>", "<title> and </title>"],
+    "answer": "<html> and </html>"
+  },
+  {
+    "q": "A web page can be written using the following editor",
+    "options": ["Dreamweaver", "None of the above", "Both 1 and 2", "Notepad"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "q": "What is the use of the <b> tag?",
+    "options": ["None of the above.", "It is used to change the font size.", "It is used to write black-colored font.", "It converts the text within it to bold font."],
+    "answer": "It converts the text within it to bold font."
+  },
+  {
+    "q": "Use the Unordered List button in the Property Inspector to create _______",
+    "options": ["Sequential numbers List", "Numbered List", "None of the above", "a bulleted list"],
+    "answer": "a bulleted list"
+  },
+  {
+    "q": "Use the Ordered List button in the Property Inspector to create ……",
+    "options": ["A bulleted list", "Numbered list", "None of the above", "Both 1 and 2"],
+    "answer": "Numbered list"
+  },
+  {
+    "q": "HTML tags can be written within?",
+    "options": ["! !", "None of the above", "< >", "{ }"],
+    "answer": "< >"
+  },
+  {
+    "q": "How to create an ordered list in HTML?",
+    "options": ["<ul>", "<href>", "<b>", "<ol>"],
+    "answer": "<ol>"
+  },
+  {
+    "q": "To insert the table, we need to go to the",
+    "options": ["Modify tab", "Edit tab", "Format tab", "Insert tab"],
+    "answer": "Insert tab"
+  },
+  {
+    "q": "How to create an Unordered list in HTML?",
+    "options": ["<ol>", "<href>", "<ul>", "<b>"],
+    "answer": "<ul>"
+  },
+  {
+    "q": "What tag is used to display an image on a webpage?",
+    "options": ["<image>", "<img>", "None of the above", "<src>"],
+    "answer": "<img>"
+  },
+  {
+    "q": "What is the function of the HTML style attribute?",
+    "options": ["None of the above.", "Both 1 and 2.", "It is used to add styles to an HTML element.", "It is used to uniquely identify some specific styles of some element."],
+    "answer": "It is used to add styles to an HTML element."
+  },
+  {
+    "q": "After selecting the image from the Insert tab, the image will be added to your webpage wherever you had placed the ……",
+    "options": ["All of the Above", "Cursor", "Mouse", "Pointer"],
+    "answer": "Cursor"
+  },
+  {
+    "q": "In Dreamweaver, we need to go to the _______ to insert an image in HTML page, in Dreamweaver.",
+    "options": ["Edit tab", "Insert tab", "Format Tab", "Command tab"],
+    "answer": "Insert tab"
+  }
 
 
 

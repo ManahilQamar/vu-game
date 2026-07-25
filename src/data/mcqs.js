@@ -46167,12 +46167,12 @@ Exam Tips ⭐
     {
       q: 'Which of the following best represents a collection of prefabricated reusable components for Java?',
       options: [
-        'A. Java API',
-        'B. HTML DOM',
+        'A. HTML DOM',
+        'B. Java API',
         'C. BIOS',
         'D. SQL Engine'
       ],
-      answer: 'A. Java API',
+      answer: 'B. Java API',
       diff: 'hard',
     },
     {
@@ -46277,12 +46277,12 @@ Exam Tips ⭐
     {
       q: 'Which statement best describes the Decorator Pattern?',
       options: [
-        'A. It adds new functionality without modifying the original component.',
+        'A. It divides software into sequential development phases.',
         'B. It converts one interface into another compatible interface.',
-        'C. It divides software into sequential development phases.',
+        'C. It adds new functionality without modifying the original component.',
         'D. It minimizes the number of software modules.'
       ],
-      answer: 'A. It adds new functionality without modifying the original component.',
+      answer: 'C. It adds new functionality without modifying the original component.',
       diff: 'hard',
     },
     {
@@ -46299,12 +46299,12 @@ Exam Tips ⭐
     {
       q: 'Which software engineering principles are commonly reflected in well-designed Design Patterns?',
       options: [
-        'A. Low Coupling and High Cohesion',
-        'B. High Coupling and Global Data',
+                'A. Sequential Execution and Throwaway Coding',
+                'B. High Coupling and Global Data',
         'C. Logical Cohesion and High Coupling',
-        'D. Sequential Execution and Throwaway Coding'
+        'D. Low Coupling and High Cohesion'
       ],
-      answer: 'A. Low Coupling and High Cohesion',
+      answer: 'D. Low Coupling and High Cohesion',
       diff: 'hard',
     },
   ]
@@ -46371,12 +46371,12 @@ Exam Tips ⭐
     {
       q: 'Which statement best describes the Factory Design Pattern?',
       options: [
-        'A. It creates required objects through a factory instead of direct object creation.',
+        'A. It divides software into sequential development phases.',
         'B. It stores multiple products until payment is completed.',
         'C. It improves software performance by reducing memory usage only.',
-        'D. It divides software into sequential development phases.'
+        'D. It creates required objects through a factory instead of direct object creation.'
       ],
-      answer: 'A. It creates required objects through a factory instead of direct object creation.',
+      answer: 'D. It creates required objects through a factory instead of direct object creation.',
       diff: 'hard',
     },
     {
@@ -46393,12 +46393,12 @@ Exam Tips ⭐
     {
       q: 'Which situation is the most appropriate for using the Shopping Cart Design Pattern?',
       options: [
-        'A. An online store where users can buy multiple products and complete payment later.',
+        'A. A calculator application that performs arithmetic operations.',
         'B. A website that allows purchasing only one fixed product at a time.',
-        'C. A calculator application that performs arithmetic operations.',
+        'C. An online store where users can buy multiple products and complete payment later.',
         'D. A login screen that authenticates a single user.'
       ],
-      answer: 'A. An online store where users can buy multiple products and complete payment later.',
+      answer: 'C. An online store where users can buy multiple products and complete payment later.',
       diff: 'hard',
     },
     {
@@ -46521,23 +46521,23 @@ Exam Tips ⭐
     {
       q: 'What is the main responsibility of an SQA (Software Quality Assurance) group?',
       options: [
-        'A. Monitor compliance with quality standards and development procedures.',
+        'A. Replace software testers during the testing phase.',
         'B. Write all application source code for the development team.',
-        'C. Replace software testers during the testing phase.',
+        'C. Monitor compliance with quality standards and development procedures.',
         'D. Design database schemas for every software project.'
       ],
-      answer: 'A. Monitor compliance with quality standards and development procedures.',
+      answer: 'C. Monitor compliance with quality standards and development procedures.',
       diff: 'hard',
     },
     {
       q: 'Why is accurate record keeping considered important in Software Engineering?',
       options: [
-        'A. It keeps project documentation reliable for future development and maintenance.',
+                'A. It reduces the need for software requirements analysis.',
         'B. It completely removes the need for software reviews.',
         'C. It guarantees that software will never require maintenance.',
-        'D. It reduces the need for software requirements analysis.'
+        'D. It keeps project documentation reliable for future development and maintenance.',
       ],
-      answer: 'A. It keeps project documentation reliable for future development and maintenance.',
+      answer: 'D. It keeps project documentation reliable for future development and maintenance.',
       diff: 'hard',
     },
     {
@@ -46546,7 +46546,7 @@ Exam Tips ⭐
         'A. To identify misunderstandings and defects before they become major problems.',
         'B. To replace software testing completely.',
         'C. To perform final product installation.',
-        'D. To increase coupling between software modules.'
+        'D. To identify misunderstandings and increases coupling  between software modules',
       ],
       answer: 'A. To identify misunderstandings and defects before they become major problems.',
       diff: 'hard',
@@ -46923,12 +46923,12 @@ Exam Tips ⭐
     {
       q: 'What is the primary objective of Human-Machine Interface (HMI) design?',
       options: [
-        'A. To make interaction between users and software simple, efficient, and less error-prone.',
+        'A. To maximize hardware utilization regardless of user experience.',
         'B. To increase the internal complexity of software algorithms.',
         'C. To replace software testing with user feedback.',
-        'D. To maximize hardware utilization regardless of user experience.'
+        'D. To make interaction between users and software simple.',
       ],
-      answer: 'A. To make interaction between users and software simple, efficient, and less error-prone.',
+      answer: 'D. To make interaction between users and software simple.',
       diff: 'hard',
     },
     {
@@ -46945,12 +46945,12 @@ Exam Tips ⭐
     {
       q: 'Why can confirmation dialogs (such as "Do you really want to delete this file?") still fail to prevent user mistakes?',
       options: [
-        'A. Because users may develop habits and confirm actions automatically without careful thinking.',
+        'C. Because users may develop habits and confirm actions automatically without careful thinking.',
         'B. Because confirmation dialogs cannot be implemented in modern operating systems.',
-        'C. Because users are required to memorize confirmation messages before responding.',
+        'A. Because users are required to memorize confirmation messages before responding.',
         'D. Because confirmation dialogs work only in command-line applications.'
       ],
-      answer: 'A. Because users may develop habits and confirm actions automatically without careful thinking.',
+      answer: 'C. Because users may develop habits and confirm actions automatically without careful thinking.',
       diff: 'hard',
     },
     {
@@ -47412,7 +47412,7 @@ Exam Tips ⭐
         'A. A collection whose entries are arranged sequentially.',
         'B. A collection that has no order.',
         'C. A single data item.',
-        'D. A type of database.'
+        'D. A collection whose entries are arranged rendomly.'
       ],
       answer: 'A. A collection whose entries are arranged sequentially.',
       diff: 'hard',
@@ -47442,23 +47442,23 @@ Exam Tips ⭐
     {
       q: 'The operation of inserting a new entry at the top of a stack is called:',
       options: [
-        'A. Pushing.',
+        'C. Pushing.',
         'B. Popping.',
-        'C. Queuing.',
+        'A. Queuing.',
         'D. Listing.'
       ],
-      answer: 'A. Pushing.',
+      answer: 'C. Pushing.',
       diff: 'hard',
     },
     {
       q: 'What is the primary characteristic of a queue?',
       options: [
+        'B. It is a FIFO structure where entries are changed in the order they were added.',
         'A. It is a FIFO structure where entries are removed in the order they were added.',
-        'B. It is a LIFO structure.',
         'C. It only allows access to the middle element.',
         'D. It cannot be changed after creation.'
       ],
-      answer: 'A. It is a FIFO structure where entries are removed in the order they were added.',
+      answer: 'B. It is a FIFO structure where entries are removed in the order they were added.',
       diff: 'hard',
     },
     {
@@ -52922,34 +52922,34 @@ Exam Tips ⭐
     {
       q: 'What is the primary function of MS Word?',
       options: [
-        'A. To create and format digital documents.',
-        'B. To create spreadsheets.',
+        'A. To create spreadsheets.',
+        'B. To create digital documents.',
         'C. To develop presentations.',
         'D. To manage databases.'
       ],
-      answer: 'A. To create and format digital documents.',
+      answer: 'B. To create digital documents.',
       diff: 'hard',
     },
     {
       q: 'What is the Office Button in MS Word used for?',
       options: [
-        'A. To access the File menu and recent documents.',
+        'D. To access the File menu.',
         'B. To change the font.',
         'C. To insert images.',
-        'D. To spell-check the document.'
+        'A. To spell-check the document.'
       ],
-      answer: 'A. To access the File menu and recent documents.',
+      answer: 'D. To access the File menu.',
       diff: 'hard',
     },
     {
       q: 'What are Dialog Expanders (Launchers) in the Ribbon?',
       options: [
-        'A. Small arrows in the bottom right of groups that open dialog windows with more options.',
+        'A. Small arrows in the bottom right.',
         'B. Large buttons in the center of the screen.',
         'C. The main menu of MS Word.',
         'D. The status bar.'
       ],
-      answer: 'A. Small arrows in the bottom right of groups that open dialog windows with more options.',
+      answer: 'A. Small arrows in the bottom right.',
       diff: 'hard',
     },
     {
@@ -52968,7 +52968,7 @@ Exam Tips ⭐
       options: [
         'A. A toggle or on/off switch that changes color when activated.',
         'B. A button that always opens a drop-down menu.',
-        'C. A button that is always hidden.',
+        'C. A toggle or on/off switch that changes all text style when activated.',
         'D. A button that cannot be clicked.'
       ],
       answer: 'A. A toggle or on/off switch that changes color when activated.',
@@ -53187,23 +53187,23 @@ Exam Tips ⭐
     {
       q: 'Which Home Ribbon group is used to change text formatting like Bold and Italic?',
       options: [
-        'A. Font Group.',
-        'B. Clipboard Group.',
+        'A. Clipboard Group.',
+        'B. Font Group.',
         'C. Paragraph Group.',
         'D. Editing Group.'
       ],
-      answer: 'A. Font Group.',
+      answer: 'B. Font Group.',
       diff: 'hard',
     },
     {
       q: 'Which group in the Home Ribbon is used to apply predefined styles like Heading 1?',
       options: [
-        'A. Styles Group.',
+        'A. Clipboard Group.',
         'B. Paragraph Group.',
-        'C. Clipboard Group.',
+        'C. Styles Group.',
         'D. Font Group.'
       ],
-      answer: 'A. Styles Group.',
+      answer: 'C. Styles Group.',
       diff: 'hard',
     },
     {
@@ -53220,12 +53220,12 @@ Exam Tips ⭐
     {
       q: 'Which Home Ribbon group is used for paragraph alignment and line spacing?',
       options: [
-        'A. Paragraph Group.',
+                'A. Clipboard Group.',
         'B. Font Group.',
         'C. Styles Group.',
-        'D. Clipboard Group.'
+        'D. Paragraph Group.',
       ],
-      answer: 'A. Paragraph Group.',
+      answer: 'D. Paragraph Group.',
       diff: 'hard',
     },
   ]
@@ -54184,34 +54184,34 @@ Exam Tips ⭐
     {
       q: 'Which Insert Tab group is used to add a Cover Page to a document?',
       options: [
-        'A. Pages Group.',
+                'A. Links Group.',
         'B. Tables Group.',
         'C. Illustrations Group.',
-        'D. Links Group.'
+        'D. Pages Group.',
       ],
-      answer: 'A. Pages Group.',
+      answer: 'D. Pages Group.',
       diff: 'hard',
     },
     {
       q: 'Which group in the Insert Tab is used to add shapes like circles and rectangles?',
       options: [
-        'A. Illustrations Group.',
-        'B. Tables Group.',
+        'A. Tables Group.',
+        'B. Illustrations Group.',
         'C. Pages Group.',
         'D. Links Group.'
       ],
-      answer: 'A. Illustrations Group.',
+      answer: 'B. Illustrations Group.',
       diff: 'hard',
     },
     {
       q: 'Which Insert Tab group would you use to create a hyperlink to a website?',
       options: [
-        'A. Links Group.',
+        'A. Tables Group.',
         'B. Pages Group.',
-        'C. Tables Group.',
+        'C. Links Group.',
         'D. Illustrations Group.'
       ],
-      answer: 'A. Links Group.',
+      answer: 'C. Links Group.',
       diff: 'hard',
     },
     {
@@ -54312,23 +54312,23 @@ Exam Tips ⭐
     {
       q: 'Which Pages Group command is used to add a professional title page to a document?',
       options: [
-        'A. Cover Page.',
-        'B. Blank Page.',
+        'A. Blank Page.',
+        'B. Cover Page.',
         'C. Page Break.',
         'D. Table of Contents.'
       ],
-      answer: 'A. Cover Page.',
+      answer: 'B. Cover Page.',
       diff: 'hard',
     },
     {
       q: 'What is the purpose of the Page Break command?',
       options: [
-        'A. To force the document to start a new page at the insertion point.',
+                'A. To add a cover page.',
         'B. To add a blank page at the beginning of the document.',
         'C. To delete the current page.',
-        'D. To add a cover page.'
+        'D. To force the document to start a new page at the insertion point.',
       ],
-      answer: 'A. To force the document to start a new page at the insertion point.',
+      answer: 'D. To force the document to start a new page at the insertion point.',
       diff: 'hard',
     },
     {
@@ -54345,12 +54345,12 @@ Exam Tips ⭐
     {
       q: 'Which Pages Group command is used to insert a new page at the cursor location?',
       options: [
-        'A. Blank Page.',
-        'B. Cover Page.',
+        'A. Cover Page.',
+        'B. Blank Page.',
         'C. Page Break.',
         'D. Table of Contents.'
       ],
-      answer: 'A. Blank Page.',
+      answer: 'B. Blank Page.',
       diff: 'hard',
     },
     {
@@ -54443,34 +54443,34 @@ Exam Tips ⭐
     {
       q: 'Where is the Table Group located in MS Word?',
       options: [
-        'A. In the Insert Tab.',
-        'B. In the Home Tab.',
+        'A. In the Home Tab.',
+        'B. In the Insert Tab.',
         'C. In the Design Tab.',
         'D. In the Page Layout Tab.'
       ],
-      answer: 'A. In the Insert Tab.',
+      answer: 'B. In the Insert Tab.',
       diff: 'hard',
     },
     {
       q: 'When inserting a table using the grid, what do the columns represent?',
       options: [
-        'A. Vertical divisions in the table.',
+                'A. To add a cover page.',
         'B. Horizontal divisions in the table.',
         'C. The number of pages.',
-        'D. The font style.'
+        'D. Vertical divisions in the table.',
       ],
-      answer: 'A. Vertical divisions in the table.',
+      answer: 'D. Vertical divisions in the table.',
       diff: 'hard',
     },
     {
       q: 'What happens when you click on a table after inserting it?',
       options: [
-        'A. The Table Tools tabs (Design and Layout) appear on the Ribbon.',
+        'A. The Table Tools tabs appear on the Ribbon.',
         'B. The document is saved.',
         'C. The table is deleted.',
         'D. The table is converted to text.'
       ],
-      answer: 'A. The Table Tools tabs (Design and Layout) appear on the Ribbon.',
+      answer: 'A. The Table Tools tabs appear on the Ribbon.',
       diff: 'hard',
     },
     {
@@ -54487,12 +54487,12 @@ Exam Tips ⭐
     {
       q: 'Which Table Tools tab is used to adjust cell size and merge cells?',
       options: [
-        'A. Layout Tab.',
+        'A. Insert Tab.',
         'B. Design Tab.',
-        'C. Insert Tab.',
+        'C. Layout Tab.',
         'D. Home Tab.'
       ],
-      answer: 'A. Layout Tab.',
+      answer: 'C. Layout Tab.',
       diff: 'hard',
     },
   ]
@@ -54583,12 +54583,12 @@ Exam Tips ⭐
     {
       q: 'Which Illustration Group command is used to insert a picture from a file on your computer?',
       options: [
-        'A. Picture.',
-        'B. Clip Art.',
+        'A. Clip Art.',
+        'B. Picture.',
         'C. Shapes.',
         'D. SmartArt.'
       ],
-      answer: 'A. Picture.',
+      answer: 'B. Picture.',
       diff: 'hard',
     },
     {
@@ -54616,12 +54616,12 @@ Exam Tips ⭐
     {
       q: 'Which SmartArt category is used to represent a series of steps in a process?',
       options: [
-        'A. Process.',
+                'A. Relationship.',
         'B. Cycle.',
         'C. Hierarchy.',
-        'D. Relationship.'
+        'D. Process.',
       ],
-      answer: 'A. Process.',
+      answer: 'D. Process.',
       diff: 'hard',
     },
     {
@@ -54727,12 +54727,12 @@ Exam Tips ⭐
     {
       q: 'Which group in the Insert Tab is used to add a hyperlink to a website?',
       options: [
-        'A. Links Group.',
+        'A. Pages Group.',
         'B. Media Group.',
-        'C. Pages Group.',
+        'C. Links Group.',
         'D. Illustrations Group.'
       ],
-      answer: 'A. Links Group.',
+      answer: 'C. Links Group.',
       diff: 'hard',
     },
     {
@@ -54749,12 +54749,12 @@ Exam Tips ⭐
     {
       q: 'Which Media Group command would you use to insert a video file into a document?',
       options: [
-        'A. Video.',
+        'A. Picture.',
         'B. Audio.',
-        'C. Picture.',
+        'C. Video.',
         'D. Clip Art.'
       ],
-      answer: 'A. Video.',
+      answer: 'C. Video.',
       diff: 'hard',
     },
     {
@@ -54771,12 +54771,12 @@ Exam Tips ⭐
     {
       q: 'How do you insert a Table of Contents in MS Word?',
       options: [
-        'A. From the Links Group in the Insert Tab.',
+                'A. From the Text Group in the Insert Tab.',
         'B. From the Tables Group in the Insert Tab.',
         'C. From the Pages Group in the Insert Tab.',
-        'D. From the Text Group in the Insert Tab.'
+        'D. From the Links Group in the Insert Tab.',
       ],
-      answer: 'A. From the Links Group in the Insert Tab.',
+      answer: 'D. From the Links Group in the Insert Tab.',
       diff: 'hard',
     },
   ]
@@ -58939,12 +58939,12 @@ Exam Tips ⭐
     {
       q: 'What file extension is used for a web page?',
       options: [
-        'A. .html or .htm.',
-        'B. .txt.',
+        'A. .txt.',
+        'B. .html',
         'C. .doc.',
         'D. .xls.'
       ],
-      answer: 'A. .html or .htm.',
+      answer: 'B. .html',
       diff: 'hard',
     },
     {
@@ -58961,23 +58961,23 @@ Exam Tips ⭐
     {
       q: 'Which tag is used to create a main heading in HTML?',
       options: [
-        'A. <h1>.',
+                'A. <a>.',
         'B. <p>.',
         'C. <b>.',
-        'D. <a>.'
+        'D. <h1>.',
       ],
-      answer: 'A. <h1>.',
+      answer: 'D. <h1>.',
       diff: 'hard',
     },
     {
       q: 'What does the src attribute specify in the <img> tag?',
       options: [
-        'A. The location of the image file.',
+        'A. The height of the image.',
         'B. The width of the image.',
-        'C. The height of the image.',
+        'C. The location of the image file.',
         'D. The alt text.'
       ],
-      answer: 'A. The location of the image file.',
+      answer: 'C. The location of the image file.',
       diff: 'hard',
     },
     {
@@ -59079,34 +59079,34 @@ Exam Tips ⭐
     {
       q: 'What type of editor is Adobe Dreamweaver?',
       options: [
-        'A. A visual WYSIWYG HTML editor.',
+        'A. A spreadsheet program.',
         'B. A simple text editor.',
-        'C. A spreadsheet program.',
+        'C. A visual WYSIWYG HTML editor.',
         'D. A database management system.'
       ],
-      answer: 'A. A visual WYSIWYG HTML editor.',
+      answer: 'C. A visual WYSIWYG HTML editor.',
       diff: 'hard',
     },
     {
       q: 'What does WYSIWYG stand for?',
       options: [
-        'A. What You See Is What You Get.',
+        'A. Where You See Is Where You Go.',
         'B. What You Show Is What You Give.',
-        'C. Where You See Is Where You Go.',
+        'C. What You See Is What You Get.',
         'D. When You Save Is When You Get.'
       ],
-      answer: 'A. What You See Is What You Get.',
+      answer: 'C. What You See Is What You Get.',
       diff: 'hard',
     },
     {
       q: 'Which Dreamweaver view shows a realistic representation of how the page will look in a browser?',
       options: [
-        'A. Live View.',
+        'A. Split View.',
         'B. Design View.',
         'C. Code View.',
-        'D. Split View.'
+        'A. Live View.',
       ],
-      answer: 'A. Live View.',
+      answer: 'D. Live View.',
       diff: 'hard',
     },
     {
@@ -59123,12 +59123,12 @@ Exam Tips ⭐
     {
       q: 'Which view in Dreamweaver allows you to see both the code and the design simultaneously?',
       options: [
-        'A. Code and Design View.',
+        'A. Split Code View.',
         'B. Live View.',
-        'C. Split Code View.',
+        'C. Code and Design View.',
         'D. Design View.'
       ],
-      answer: 'A. Code and Design View.',
+      answer: 'C. Code and Design View.',
       diff: 'hard',
     },
   ]
@@ -59214,23 +59214,23 @@ Exam Tips ⭐
     {
       q: 'How do you insert a table in Dreamweaver?',
       options: [
-        'A. Go to Insert tab and click Table.',
+        'A. Click the Table button on the toolbar.',
         'B. Type <table> in Code View.',
-        'C. Click the Table button on the toolbar.',
+        'C. Go to Insert tab and click Table.',
         'D. All of the above.'
       ],
-      answer: 'A. Go to Insert tab and click Table.',
+      answer: 'C. Go to Insert tab and click Table.',
       diff: 'hard',
     },
     {
       q: 'What does the "Rows" property define in a table?',
       options: [
-        'A. The number of horizontal lines in the table.',
+        'A. The border of the table.',
         'B. The number of vertical lines in the table.',
         'C. The width of the table.',
-        'D. The border of the table.'
+        'D. The number of horizontal lines in the table.',
       ],
-      answer: 'A. The number of horizontal lines in the table.',
+      answer: 'D. The number of horizontal lines in the table.',
       diff: 'hard',
     },
     {
@@ -59247,19 +59247,19 @@ Exam Tips ⭐
     {
       q: 'Which action would you use to combine two cells into one?',
       options: [
-        'A. Merge cells.',
+        'A. Delete cells.',
         'B. Split cells.',
-        'C. Delete cells.',
+        'C. Merge cells.',
         'D. Add cells.'
       ],
-      answer: 'A. Merge cells.',
+      answer: 'C. Merge cells.',
       diff: 'hard',
     },
     {
       q: 'What is the difference between "Cell Padding" and "Cell Spacing"?',
       options: [
-        'A. Cell padding is space inside the cell; cell spacing is space between cells.',
-        'B. Cell padding is space between cells; cell spacing is space inside the cell.',
+        'A. Cell padding is space between cells; cell spacing is space inside the cell.',
+        'B. Cell padding is space inside the cell; cell spacing is space between cells.',
         'C. They are the same.',
         'D. Cell padding is only for the border.'
       ],
@@ -59366,23 +59366,23 @@ Exam Tips ⭐
     {
       q: 'Which HTML tag is used to create a bulleted (unordered) list?',
       options: [
-        'A. <ul>.',
+        'A. <dl>.',
         'B. <ol>.',
         'C. <li>.',
-        'D. <dl>.'
+        'D. <ul>.',
       ],
-      answer: 'A. <ul>.',
+      answer: 'D. <ul>.',
       diff: 'hard',
     },
     {
       q: 'Which HTML tag is used to create a numbered (ordered) list?',
       options: [
-        'A. <ol>.',
-        'B. <ul>.',
+        'A. <ul>.',
+        'B. <ol>.',
         'C. <li>.',
         'D. <dl>.'
       ],
-      answer: 'A. <ol>.',
+      answer: 'B. <ol>.',
       diff: 'hard',
     },
     {
@@ -59399,23 +59399,23 @@ Exam Tips ⭐
     {
       q: 'Which button in the Dreamweaver Property Inspector creates an unordered list?',
       options: [
-        'A. Unordered List button.',
+        'A. Italic button.',
         'B. Ordered List button.',
         'C. Bold button.',
-        'D. Italic button.'
+        'D. Unordered List button.',
       ],
-      answer: 'A. Unordered List button.',
+      answer: 'D. Unordered List button.',
       diff: 'hard',
     },
     {
       q: 'What does the "Square" style do in a bulleted list?',
       options: [
-        'A. Changes the bullet to a square shape.',
+        'A. Removes the bullet.',
         'B. Changes the bullet to a circle.',
-        'C. Removes the bullet.',
+        'C. Changes the bullet to a square shape.',
         'D. Changes to numbers.'
       ],
-      answer: 'A. Changes the bullet to a square shape.',
+      answer: 'C. Changes the bullet to a square shape.',
       diff: 'hard',
     },
   ]
@@ -59505,12 +59505,12 @@ Exam Tips ⭐
     {
       q: 'Which HTML attribute specifies the location of the image file?',
       options: [
-        'A. src.',
-        'B. alt.',
-        'C. width.',
+        'A. alt.',
+        'B. src.',
+        'C. loc.',
         'D. height.'
       ],
-      answer: 'A. src.',
+      answer: 'B. src.',
       diff: 'hard',
     },
     {
@@ -59527,12 +59527,12 @@ Exam Tips ⭐
     {
       q: 'How do you insert an image in Dreamweaver?',
       options: [
-        'A. Go to Insert tab and click Image.',
+        'A. All of the above.',
         'B. Drag and drop from file explorer.',
         'C. Type <img> in Code View.',
-        'D. All of the above.'
+        'D. Go to Insert tab and click Image.',
       ],
-      answer: 'A. Go to Insert tab and click Image.',
+      answer: 'D. Go to Insert tab and click Image.',
       diff: 'hard',
     },
     {
