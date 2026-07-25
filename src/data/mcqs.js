@@ -51536,6167 +51536,9638 @@ Exam Tips ⭐
     }
   ]
 },
+
+
+
+
+15: {
+  title: 'Problems of the New State (1947)',
+  summary: `**Key Topics Covered:**
+- Problems after Independence
+- New Administration
+- Division of Assets
+- Integration of Princely States
+- Refugees & Communal Riots
+- Canal Water Dispute
+- Trade & Economic Problems
+
+**Short Notes (Roman Urdu):**
+
+### Introduction
+14 August 1947 ko Pakistan azaad hua, lekin azaadi ke sath bohat se bara challenges bhi aaye. Pakistan ek bilkul naya mulk tha jiske paas na proper offices thay, na experienced officers, na paisa aur na hi industries. India ki non-cooperative policy ne bhi Pakistan ki mushkilat ko aur barha diya.
+
+---
+
+## 1. New Administration
+
+Pakistan ko nayi government establish karni thi.
+
+Problems:
+- Experienced officers ki kami thi.
+- Zyada Muslim officers India se migrate kar rahe thay.
+- Karachi mein office buildings, furniture aur equipment ki shortage thi.
+- Federal aur Provincial governments ke darmiyan communication weak tha.
+- Refugees ki madad karna bohat mushkil ho gaya.
+
+**Important Point:**
+Pakistan ki sab se pehli problem administrative system banana thi.
+
+---
+
+## 2. Division of Assets
+
+Partition ke baad India aur Pakistan ke darmiyan assets divide hone thay.
+
+### Financial Assets
+- Pakistan ka financial share poora nahi diya gaya.
+- Sirf Rs. 200 million diye gaye.
+- Baqi amount India ne rok li.
+- Gandhi ke Fast Unto Death ke baad kuch aur paisa mila.
+- Phir bhi Pakistan ko poora share kabhi nahi mila.
+
+### Military Assets
+Pakistan ko:
+- Broken weapons mile.
+- Damaged equipment mila.
+- Koi ordnance factory nahi mili.
+- Senior army officers ki bohat shortage thi.
+- British officers ko temporary continue karna para.
+
+**Important Point:**
+India ne Pakistan ke military aur financial assets ki division mein cooperation nahi ki.
+
+---
+
+## 3. Integration of Princely States
+
+British India mein 560 se zyada princely states thay.
+
+### Junagadh
+- Muslim ruler
+- Hindu majority
+- Pakistan ke sath join kiya.
+- India ne November 1947 mein army bhej kar qabza kar liya.
+- Referendum India ke favour mein gaya.
+
+### Hyderabad
+- Rich aur bara state.
+- Muslim ruler.
+- Hindu majority.
+- Nizam independent rehna chahta tha.
+- India ne September 1948 mein military action karke Hyderabad ko India mein mila liya.
+
+### Kashmir
+Sab se important state.
+
+Reason:
+- Muslim majority
+- Pakistan ke sath natural links.
+- Hindu ruler Hari Singh ne India ke sath accession kar diya.
+- 27 October 1947 ko Indian army Srinagar pohanch gayi.
+- Kashmir issue ab tak unresolved hai.
+- UN ne plebiscite ki recommendation di thi.
+
+**Exam Point:**
+Kashmir Pakistan ke liye sab se important princely state thi.
+
+---
+
+## 4. Communal Riots & Refugees
+
+Partition ke waqt:
+- Hindus aur Sikhs ne Muslim caravans aur trains par attacks kiye.
+- Lakho Muslims Pakistan migrate hue.
+- Refugees ke paas ghar, khana aur kapray nahi thay.
+- Pakistan ko refugee camps banana pare.
+- Army ko bhi refugee management mein lagaya gaya.
+
+**Important Point:**
+Refugee crisis Pakistan ki sab se bari humanitarian problem thi.
+
+---
+
+## 5. Canal Water Problem
+
+1948 mein India ne kuch canals ka pani band kar diya.
+
+Effects:
+- Agriculture ko nuksan hua.
+- Punjab ki farming affect hui.
+- Pakistan ki economy ko threat mila.
+
+Solution:
+1960 mein World Bank ki mediation se **Indus Water Treaty** sign hui.
+
+---
+
+## 6. Trade Problem
+
+1949 mein:
+- India ne apni currency devalue ki.
+- Pakistan ne mana kar diya.
+- India ne trade band kar di.
+
+Result:
+- Imports aur exports affect hue.
+- Economy weak ho gayi.
+- Industries kam thin.
+- Pakistan ko economic difficulties ka samna karna para.
+
+---
+
+## Overall Impact
+
+Pakistan ko ek sath:
+- Government establish karni thi.
+- Refugees settle karne thay.
+- Economy chalani thi.
+- Army organize karni thi.
+- India ke hostile attitude ka samna karna tha.
+
+Bohat logon ne predict kiya tha ke Pakistan survive nahi karega, lekin Allah ke fazal se Pakistan ne tamam mushkilat ka muqabla kiya.
+
+**Quick Revision Points:**
+- Pakistan faced 5 major initial problems.
+- Administration was weak due to shortage of officers.
+- India delayed Pakistan's financial assets.
+- Pakistan received damaged military equipment.
+- Junagadh joined Pakistan but India occupied it.
+- Hyderabad wanted independence but India annexed it.
+- Kashmir remains an unresolved dispute.
+- Refugees created humanitarian and economic problems.
+- India stopped canal water in 1948.
+- Indus Water Treaty signed in 1960.
+- Trade stopped after currency dispute in 1949.
+- Pakistan survived despite severe challenges.`,
+
+  questions: [
+    {
+      q: 'Which city became the first federal capital of Pakistan?',
+      options: ['A. Lahore', 'B. Karachi', 'C. Islamabad', 'D. Peshawar'],
+      answer: 'B. Karachi',
+      diff: 'hard',
+    },
+    {
+      q: 'How much financial share was initially transferred to Pakistan?',
+      options: ['A. Rs.100 million', 'B. Rs.200 million', 'C. Rs.500 million', 'D. Rs.1 billion'],
+      answer: 'B. Rs.200 million',
+      diff: 'hard',
+    },
+    {
+      q: 'Who pressured India to release Pakistan’s financial assets through a fast?',
+      options: ['A. Nehru', 'B. Mountbatten', 'C. Gandhi', 'D. Patel'],
+      answer: 'C. Gandhi',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan did not receive which military facility after partition?',
+      options: ['A. Air Force', 'B. Navy', 'C. Ordnance Factory', 'D. Military Academy'],
+      answer: 'C. Ordnance Factory',
+      diff: 'hard',
+    },
+    {
+      q: 'Which princely state voluntarily acceded to Pakistan?',
+      options: ['A. Kashmir', 'B. Hyderabad', 'C. Junagadh', 'D. Travancore'],
+      answer: 'C. Junagadh',
+      diff: 'hard',
+    },
+    {
+      q: 'Which princely state wanted to remain independent?',
+      options: ['A. Hyderabad', 'B. Junagadh', 'C. Kashmir', 'D. Bahawalpur'],
+      answer: 'A. Hyderabad',
+      diff: 'hard',
+    },
+    {
+      q: 'Indian troops entered Kashmir on:',
+      options: ['A. 14 August 1947', 'B. 27 October 1947', 'C. 15 August 1947', 'D. 1 January 1948'],
+      answer: 'B. 27 October 1947',
+      diff: 'hard',
+    },
+    {
+      q: 'Which issue was settled by the Indus Water Treaty?',
+      options: ['A. Refugees', 'B. Kashmir', 'C. Canal Water', 'D. Trade'],
+      answer: 'C. Canal Water',
+      diff: 'hard',
+    },
+    {
+      q: 'The Indus Water Treaty was signed in:',
+      options: ['A. 1948', 'B. 1956', 'C. 1960', 'D. 1965'],
+      answer: 'C. 1960',
+      diff: 'hard',
+    },
+    {
+      q: 'Why did trade between India and Pakistan stop in 1949?',
+      options: ['A. War', 'B. Currency devaluation dispute', 'C. Refugees', 'D. Canal water issue'],
+      answer: 'B. Currency devaluation dispute',
+      diff: 'hard',
+    },
+  ],
+},
+
+16: {
+  title: 'Objectives Resolution (1949)',
+  summary: `**Key Topics Covered:**
+- Objectives Resolution
+- Constituent Assembly
+- Features
+- Importance
+- Objections by Non-Muslims
+
+**Short Notes (Roman Urdu):**
+
+### Introduction
+
+Objectives Resolution Pakistan ki constitutional history ka sab se pehla aur important constitutional document tha.
+
+Ye Resolution:
+- Liaquat Ali Khan ne present kiya.
+- 12 March 1949 ko Constituent Assembly ne approve kiya.
+- Isay Pakistan ke tamam constitutions ka foundation mana jata hai.
+
+---
+
+## Constituent Assembly
+
+Indian Independence Act 1947 ke baad Pakistan ki pehli Constituent Assembly bani.
+
+Functions:
+1. Constitution banana.
+2. Parliament ki tarah law making karna.
+
+Initially:
+- 69 members thay.
+- Baad mein 79 members ho gaye.
+
+Major political parties:
+- All India Muslim League
+- Congress
+
+---
+
+## Features of Objectives Resolution
+
+### 1. Sovereignty belongs to Allah
+Poori kainat ki sovereignty sirf Allah Almighty ki hai.
+
+---
+
+### 2. Authority is a Sacred Trust
+Pakistan ki state authority Allah ki amanat hai jo awam ke zariye use hogi.
+
+---
+
+### 3. Constitution for Pakistan
+Pakistan ke liye ek sovereign aur independent constitution banaya jayega.
+
+---
+
+### 4. Democracy
+Government awam ke elected representatives ke zariye chalegi.
+
+---
+
+### 5. Islamic Principles
+Islam ke principles:
+- Democracy
+- Equality
+- Freedom
+- Tolerance
+- Social Justice
+
+sab implement kiye jayenge.
+
+---
+
+### 6. Muslims' Life
+Muslims ko Quran aur Sunnah ke mutabiq zindagi guzarnay ka moka diya jayega.
+
+---
+
+### 7. Rights of Minorities
+
+Minorities ko:
+- Religion practice karne ki freedom hogi.
+- Apni culture develop karne ka haq hoga.
+
+---
+
+### 8. Protection of Minorities
+
+Backward classes aur minorities ke rights protect kiye jayenge.
+
+---
+
+### 9. Federal System
+
+Pakistan ek federation hoga.
+
+Provinces ko autonomy di jayegi.
+
+---
+
+### 10. International Peace
+
+Pakistan duniya mein:
+- Peace
+- Cooperation
+- Humanity
+ko promote karega.
+
+---
+
+## Importance
+
+Objectives Resolution:
+- Pakistan ki constitutional history ka foundation hai.
+- Har constitution ka preamble bani.
+- Islamic values aur democracy ko combine kiya.
+- Federal system ko recognize kiya.
+- Minority rights guarantee kiye.
+- Pakistan ki ideology ko define kiya.
+
+---
+
+## Objections by Non-Muslims
+
+Non-Muslim members ne objections kiye:
+
+- Religion aur politics ko mix nahi karna chahiye.
+- Sovereignty of Allah democracy ke against hai.
+- Minority rights weak ho sakte hain.
+- Pakistan theocratic state ban jayega.
+- Shariah modern era ke liye suitable nahi.
+
+---
+
+## Final Conclusion
+
+Objectives Resolution ne Pakistan ki future constitution ke liye direction set ki.
+
+Ye Islamic ideology aur democratic principles ka balanced combination tha.
+
+Isi wajah se isay Pakistan ki constitutional history ka sab se important constitutional document mana jata hai.
+
+**Quick Revision Points:**
+- Presented by Liaquat Ali Khan.
+- Passed on 12 March 1949.
+- First constitutional document of Pakistan.
+- Sovereignty belongs to Allah.
+- Democracy through elected representatives.
+- Muslims to follow Quran & Sunnah.
+- Minority rights protected.
+- Pakistan declared a federation.
+- Promotes democracy, equality and social justice.
+- Became the preamble of all constitutions.
+- Non-Muslims objected to mixing religion and politics.
+- Foundation of Pakistan's constitutional development.`,
+
+  questions: [
+    {
+      q: 'Who presented the Objectives Resolution?',
+      options: ['A. Muhammad Ali Jinnah', 'B. Liaquat Ali Khan', 'C. Ayub Khan', 'D. Khawaja Nazimuddin'],
+      answer: 'B. Liaquat Ali Khan',
+      diff: 'hard',
+    },
+    {
+      q: 'The Objectives Resolution was passed on:',
+      options: ['A. 14 August 1947', 'B. 23 March 1956', 'C. 12 March 1949', 'D. 16 October 1951'],
+      answer: 'C. 12 March 1949',
+      diff: 'hard',
+    },
+    {
+      q: 'The Objectives Resolution is regarded as the:',
+      options: ['A. First Election Law', 'B. Foundation of Pakistan’s Constitution', 'C. First Budget', 'D. First Five-Year Plan'],
+      answer: 'B. Foundation of Pakistan’s Constitution',
+      diff: 'hard',
+    },
+    {
+      q: 'According to the Objectives Resolution, sovereignty belongs to:',
+      options: ['A. Parliament', 'B. The People', 'C. Almighty Allah', 'D. Prime Minister'],
+      answer: 'C. Almighty Allah',
+      diff: 'hard',
+    },
+    {
+      q: 'State authority is exercised through:',
+      options: ['A. Army', 'B. Judiciary', 'C. Representatives of the People', 'D. Governors'],
+      answer: 'C. Representatives of the People',
+      diff: 'hard',
+    },
+    {
+      q: 'Muslims were to organize their lives according to:',
+      options: ['A. British Law', 'B. UN Charter', 'C. Quran and Sunnah', 'D. Provincial Laws'],
+      answer: 'C. Quran and Sunnah',
+      diff: 'hard',
+    },
+    {
+      q: 'The Objectives Resolution guarantees freedom for:',
+      options: ['A. Muslims only', 'B. Minorities to practice their religion', 'C. Government officials only', 'D. Foreign citizens'],
+      answer: 'B. Minorities to practice their religion',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan was declared a:',
+      options: ['A. Confederation', 'B. Federation', 'C. Kingdom', 'D. Colony'],
+      answer: 'B. Federation',
+      diff: 'hard',
+    },
+    {
+      q: 'Which political party had the majority in the first Constituent Assembly?',
+      options: ['A. Congress', 'B. Muslim League', 'C. PPP', 'D. Republican Party'],
+      answer: 'B. Muslim League',
+      diff: 'hard',
+    },
+    {
+      q: 'The Objectives Resolution became the ______ of all constitutions of Pakistan.',
+      options: ['A. Schedule', 'B. Preamble', 'C. Amendment', 'D. Annexure'],
+      answer: 'B. Preamble',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+17: {
+  title: 'Constitutional Issues of Pakistan',
+  summary: `**Key Topics Covered:**
+- Meaning of Constitution
+- Federalism
+- Representation Issue
+- Separate vs Joint Electorate
+- National Language Issue
+- Parliamentary vs Presidential System
+- Islamic vs Secular State
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Constitution**
+Constitution kisi bhi mulk ka basic law hota hai. Ye batata hai ke government kaise chalegi, powers kis ke paas hongi, aur institutions kaise kaam karenge. Pakistan ne shuru me Government of India Act 1935 ko temporary constitution ke tor par use kiya.
+
+**2. Federalism**
+Pakistan ke do hissay thay:
+- East Pakistan (ziada population)
+- West Pakistan (4 provinces)
+
+Sab se bara issue tha ke Centre aur Provinces ke darmiyan powers kaise divide hongi.
+British system ki wajah se Strong Centre ko importance mili, jabke provinces zyada autonomy chahte thay.
+
+**3. Representation Issue**
+East Pakistan ki population zyada thi, is liye woh zyada seats chahta tha.
+West Pakistan equality (parity) chahta tha.
+
+**Basic Principles Committee (BPC)**
+Banai gayi: 12 March 1949
+
+**First Report (1950)**
+- Bicameral Parliament
+- Lower House = Population basis
+- Upper House = Equal representation
+- Dono Houses ko equal powers
+- National language ka zikr nahi
+
+East Pakistan ne reject kar diya.
+
+**Second Report (1952)**
+- East aur West ko equal representation
+- Dono Houses equal status
+- Phir bhi dono sides satisfied nahi hui.
+
+**Muhammad Ali Bogra Formula (1953)**
+- Upper House = Equal representation
+- Lower House = Population basis
+- Joint session me East aur West equal
+- Urdu aur Bengali dono national languages
+
+Ye formula sab se successful mana gaya.
+
+**One Unit Scheme (1955)**
+Punjab, Sindh, NWFP aur Balochistan ko mila kar West Pakistan ka ek province bana diya gaya taa ke East aur West ke darmiyan parity ho sake.
+
+**4. Separate vs Joint Electorate**
+Separate Electorate:
+Har religion apne candidates ko vote deta hai.
+
+Joint Electorate:
+Sab mil kar vote dete hain.
+
+East Pakistan → Joint Electorate
+West Pakistan → Separate Electorate
+
+1957 me National Assembly ne Joint Electorate adopt kar liya.
+
+**5. National Language Issue**
+1948 me Quaid-e-Azam ne Urdu ko National Language declare kiya.
+East Pakistan Bengali bhi National Language banana chahta tha.
+
+1952 me Language Movement shuru hui.
+1954 me Urdu aur Bengali dono National Languages ban gayin.
+
+1973 Constitution me bhi Urdu National Language rahi aur regional languages ko support diya gaya.
+
+**6. Parliamentary vs Presidential System**
+Shuru me sab Parliamentary System ke supporter thay.
+1958 ke baad Presidential System popular hua.
+1962 Constitution Presidential tha.
+
+**7. Islamic vs Secular State**
+Pakistan banate waqt majority chahti thi ke state ka relation Islam se ho.
+
+Objectives Resolution ne decide kiya:
+- Pakistan Islamic principles follow karega.
+- Democracy bhi hogi.
+- Theocracy (rule by religious scholars) reject ki gayi.
+- Islam aur Modern Democracy dono ko combine kiya gaya.
+
+**Exam Revision**
+✔ Constitution = Supreme Law
+✔ BPC = 1949
+✔ Bogra Formula = 1953
+✔ One Unit = 1955
+✔ Urdu declared = 1948
+✔ Language Movement = 1952
+✔ Two Language Formula = 1954
+✔ Joint Electorate = 1957
+✔ 1962 Constitution = Presidential
+✔ Objectives Resolution = Islamic + Democratic framework`,
+  questions: [
+    {
+      q: 'The modified Government of India Act 1935 served as Pakistan’s:',
+      options: ['A. Permanent Constitution', 'B. Interim Constitution', 'C. Provincial Law', 'D. Basic Principles Report'],
+      answer: 'B. Interim Constitution',
+      diff: 'hard',
+    },
+    {
+      q: 'The Basic Principles Committee (BPC) was formed in:',
+      options: ['A. 1947', 'B. 1948', 'C. 1949', 'D. 1950'],
+      answer: 'C. 1949',
+      diff: 'hard',
+    },
+    {
+      q: 'The First BPC Report proposed:',
+      options: ['A. One House', 'B. Bicameral Legislature', 'C. Presidential Government only', 'D. Provincial Parliament'],
+      answer: 'B. Bicameral Legislature',
+      diff: 'hard',
+    },
+    {
+      q: 'Which formula solved the representation issue?',
+      options: ['A. Objectives Resolution', 'B. Bogra Formula', 'C. One Unit Scheme', 'D. Lahore Resolution'],
+      answer: 'B. Bogra Formula',
+      diff: 'hard',
+    },
+    {
+      q: 'The One Unit Scheme was introduced in:',
+      options: ['A. 1953', 'B. 1954', 'C. 1955', 'D. 1956'],
+      answer: 'C. 1955',
+      diff: 'hard',
+    },
+    {
+      q: 'The Language Movement started in:',
+      options: ['A. 1948', 'B. 1950', 'C. 1952', 'D. 1955'],
+      answer: 'C. 1952',
+      diff: 'hard',
+    },
+    {
+      q: 'Which two languages were accepted as national languages?',
+      options: ['A. Urdu & Punjabi', 'B. Urdu & Sindhi', 'C. Urdu & Bengali', 'D. Bengali & English'],
+      answer: 'C. Urdu & Bengali',
+      diff: 'hard',
+    },
+    {
+      q: 'Joint Electorate was adopted for all Pakistan in:',
+      options: ['A. 1954', 'B. 1955', 'C. 1956', 'D. 1957'],
+      answer: 'D. 1957',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Constitution introduced the Presidential System?',
+      options: ['A. 1956', 'B. 1962', 'C. 1973', 'D. 1947'],
+      answer: 'B. 1962',
+      diff: 'hard',
+    },
+    {
+      q: 'Objectives Resolution rejected:',
+      options: ['A. Democracy', 'B. Federalism', 'C. Theocracy', 'D. Parliament'],
+      answer: 'C. Theocracy',
+      diff: 'hard',
+    },
+  ],
+},
+
+18: {
+  title: 'Constitution Making (1947–1956)',
+  summary: `**Key Topics Covered:**
+- Constitution Making Process
+- Basic Principles Committee
+- First BPC Report
+- Second BPC Report
+- Muhammad Ali Formula
+- Dissolution of Constituent Assembly
+- Second Constituent Assembly
+- One Unit Scheme
+- Constitution of 1956
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Constitution Making**
+Pakistan azadi ke baad apna constitution banana chahta tha.
+Temporary Constitution:
+Government of India Act 1935
+
+Constitution banane ki zimmedari Constituent Assembly ko di gayi.
+
+**2. Objectives Resolution**
+Sab se pehla constitutional step.
+Islamic aur democratic principles future constitution ki foundation bane.
+
+**3. Basic Principles Committee (BPC)**
+24 members ki committee bani.
+Sub-committees:
+- Federal Powers
+- Provincial Powers
+- Judiciary
+- Fundamental Rights
+- Franchise
+
+Board of Talimat-e-Islamia bhi banaya gaya.
+
+**First BPC Report (1950)**
+- Objectives Resolution include hogi.
+- Bicameral Parliament
+- Upper House = Equal representation
+- Lower House = Population
+- President powerful hoga.
+- Cabinet Parliament ko answerable hogi.
+- National language mention nahi.
+
+**Criticism**
+East Pakistan ne oppose kiya:
+- Majority ignore ki gayi.
+- Urdu language issue.
+Religious groups ne bhi Islamisation ki kami par objection kiya.
+
+**Second BPC Report (1952)**
+- President Muslim hoga.
+- East & West equal representation.
+- Cabinet Lower House ko answerable.
+- Islamic laws follow hongi.
+- Islamic Advisory Board banega.
+- National language phir bhi mention nahi.
+
+Punjab aur East Pakistan dono ne criticize kiya.
+
+**Muhammad Ali Formula (1953)**
+- Upper House = Equal representation
+- Lower House = Population basis
+- Joint Session me East & West equal votes
+- Urdu aur Bengali official languages
+
+Ye formula generally accept kar liya gaya aur constitution drafting start hui.
+
+**Constituent Assembly Dissolution (1954)**
+Governor General Ghulam Muhammad ne Assembly dissolve kar di.
+Maulvi Tamizuddin ne court me challenge kiya.
+Federal Court ne dissolution ko legal declare kiya.
+
+**Second Constituent Assembly (1955)**
+Indirect elections se bani.
+Is Assembly ne constitution complete kiya.
+
+**One Unit Scheme (1955)**
+West Pakistan ke tamam provinces ko mila kar ek unit bana diya gaya taa ke East aur West equal ho saken.
+
+**Constitution of 1956**
+Approved:
+29 January 1956
+
+Enforced:
+23 March 1956
+
+Pakistan officially "Islamic Republic of Pakistan" ban gaya.
+
+**Exam Revision**
+✔ Interim Constitution = GOI Act 1935
+✔ Objectives Resolution = Foundation
+✔ First BPC = 1950
+✔ Second BPC = 1952
+✔ Bogra Formula = 1953
+✔ CA dissolved = 1954
+✔ Second CA = 1955
+✔ One Unit = 1955
+✔ Constitution enforced = 23 March 1956
+✔ Pakistan became Islamic Republic`,
+  questions: [
+    {
+      q: 'Pakistan initially used which Act as its Interim Constitution?',
+      options: ['A. Government of India Act 1919', 'B. Government of India Act 1935', 'C. Indian Independence Act 1947', 'D. Objectives Resolution'],
+      answer: 'B. Government of India Act 1935',
+      diff: 'hard',
+    },
+    {
+      q: 'The Basic Principles Committee consisted of:',
+      options: ['A. 12 Members', 'B. 18 Members', 'C. 24 Members', 'D. 30 Members'],
+      answer: 'C. 24 Members',
+      diff: 'hard',
+    },
+    {
+      q: 'The First BPC Report was presented in:',
+      options: ['A. 1949', 'B. 1950', 'C. 1952', 'D. 1953'],
+      answer: 'B. 1950',
+      diff: 'hard',
+    },
+    {
+      q: 'According to the Second BPC Report, the Head of State had to be:',
+      options: ['A. Any Citizen', 'B. Muslim', 'C. Governor', 'D. Judge'],
+      answer: 'B. Muslim',
+      diff: 'hard',
+    },
+    {
+      q: 'Muhammad Ali Formula was introduced in:',
+      options: ['A. 1950', 'B. 1951', 'C. 1952', 'D. 1953'],
+      answer: 'D. 1953',
+      diff: 'hard',
+    },
+    {
+      q: 'Who dissolved the Constituent Assembly in 1954?',
+      options: ['A. Liaquat Ali Khan', 'B. Iskander Mirza', 'C. Ghulam Muhammad', 'D. Ayub Khan'],
+      answer: 'C. Ghulam Muhammad',
+      diff: 'hard',
+    },
+    {
+      q: 'Who challenged the dissolution of the Constituent Assembly?',
+      options: ['A. Muhammad Ali Bogra', 'B. Maulvi Tamizuddin', 'C. Khawaja Nazimuddin', 'D. Fazlul Huq'],
+      answer: 'B. Maulvi Tamizuddin',
+      diff: 'hard',
+    },
+    {
+      q: 'The Second Constituent Assembly came into existence in:',
+      options: ['A. 1954', 'B. 1955', 'C. 1956', 'D. 1957'],
+      answer: 'B. 1955',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan became an Islamic Republic on:',
+      options: ['A. 14 August 1947', 'B. 12 March 1949', 'C. 23 March 1956', 'D. 7 October 1958'],
+      answer: 'C. 23 March 1956',
+      diff: 'hard',
+    },
+    {
+      q: 'Which report finally removed the constitutional deadlock?',
+      options: ['A. First BPC Report', 'B. Second BPC Report', 'C. Muhammad Ali Formula', 'D. Objectives Resolution'],
+      answer: 'C. Muhammad Ali Formula',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+19: {
+  title: 'The Constitution of 1956',
+  summary: `**Key Topics Covered:**
+- Background
+- Parliamentary System
+- Federal System
+- Provincial Structure
+- Independent Judiciary
+- Fundamental Rights
+- Directive Principles
+- Islamic Character
+- Working of the Constitution
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Background**
+1956 Constitution Pakistan ka pehla permanent Constitution tha. Is ne Interim Constitution (Government of India Act 1935) ko replace kiya.
+
+**Important Facts**
+- Enforced: 23 March 1956
+- Total Articles: 234
+- Schedules: 6
+- Pakistan ka official naam:
+  **Islamic Republic of Pakistan**
+
+**2. Parliamentary System**
+Pakistan ne Parliamentary System adopt kiya.
+
+**President**
+- Head of State (Ceremonial Head)
+- Real powers PM ke advice par use karta tha.
+- Muslim hona zaroori.
+- Minimum age: 45 years.
+- National Assembly aur Provincial Assemblies mil kar elect karti thin.
+
+**Prime Minister**
+- Head of Government.
+- President appoint karta tha.
+- Cabinet PM ke under kaam karti thi.
+- Cabinet collectively National Assembly ko answerable thi.
+- PM tab tak office me rehta jab tak National Assembly ka majority support hasil ho.
+
+**3. One House Parliament**
+Sirf National Assembly thi.
+
+**Composition**
+- 300 General Seats
+- 10 Reserved Seats for Women
+
+**Important Powers**
+- Laws banana.
+- Executive ko control karna.
+- Budget approve karna.
+- President Bill ko:
+  - Sign
+  - Return
+  - Reject kar sakta tha.
+
+Parity ka principle East aur West Pakistan ke darmiyan maintain kiya gaya.
+
+**4. Federal System**
+Pakistan me 2 Provinces thin:
+- East Pakistan
+- West Pakistan
+
+Power ko divide karne ke liye 3 Lists banai gayin:
+- Federal List
+- Provincial List
+- Concurrent List
+
+**5. Provincial Government**
+Har province me:
+- Governor (Ceremonial Head)
+- Chief Minister (Real Executive)
+
+Centre ke paas Emergency Powers bhi thay.
+
+**Emergency Clauses**
+Clause 191:
+Security ya Economy ko threat ho.
+
+Clause 193:
+Province me Constitutional Crisis ho.
+
+**6. Independent Judiciary**
+Judicial Structure:
+- Supreme Court
+- High Courts
+- Lower Courts
+
+Functions:
+- Constitution ki interpretation.
+- Government disputes solve karna.
+- Citizens ke rights protect karna.
+
+**7. Fundamental Rights**
+Logon ko Civil aur Political Rights diye gaye.
+
+Lekin Emergency me suspend kiye ja sakte thay.
+
+**8. Directive Principles**
+Government ko policy banane ke guidelines di gayin.
+
+Main Points:
+- Welfare State
+- Non-discrimination
+- Basic Needs
+- Islamic Values
+- Objectives Resolution as Preamble
+
+**9. Islamic Character**
+- Pakistan = Islamic Republic.
+- Objectives Resolution Preamble bani.
+- Islam ke khilaf law nahi ban sakta.
+- Purane laws ko Islamic teachings ke mutabiq banana tha.
+- Islamic Commission banani thi.
+- Parliament decide karti thi ke law Islamic hai ya nahi.
+- Judiciary bhi review kar sakti thi.
+
+**Important**
+Islam ko State Religion declare nahi kiya gaya tha.
+
+**10. Working**
+Constitution:
+Started → 23 March 1956
+Ended → 7 October 1958
+
+Reason:
+Ayub Khan ke Martial Law ki wajah se Constitution abrogate kar diya gaya.
+
+**Exam Revision**
+✔ First Constitution = 1956
+✔ Islamic Republic of Pakistan
+✔ Parliamentary System
+✔ PM = Real Executive
+✔ President = Ceremonial Head
+✔ 234 Articles
+✔ 6 Schedules
+✔ 300 + 10 Women Seats
+✔ 3 Lists (Federal, Provincial, Concurrent)
+✔ Judiciary Independent
+✔ Abrogated = 7 October 1958`,
+  questions: [
+    {
+      q: 'The Constitution of 1956 declared Pakistan as:',
+      options: ['A. Republic of Pakistan', 'B. Federal Republic', 'C. Islamic Republic of Pakistan', 'D. Democratic Republic'],
+      answer: 'C. Islamic Republic of Pakistan',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1956 contained:',
+      options: ['A. 200 Articles', 'B. 234 Articles', 'C. 250 Articles', 'D. 280 Articles'],
+      answer: 'B. 234 Articles',
+      diff: 'hard',
+    },
+    {
+      q: 'Which form of government was introduced in the 1956 Constitution?',
+      options: ['A. Presidential', 'B. Parliamentary', 'C. Military', 'D. Monarchy'],
+      answer: 'B. Parliamentary',
+      diff: 'hard',
+    },
+    {
+      q: 'The minimum age for the President under the 1956 Constitution was:',
+      options: ['A. 35 Years', 'B. 40 Years', 'C. 45 Years', 'D. 50 Years'],
+      answer: 'C. 45 Years',
+      diff: 'hard',
+    },
+    {
+      q: 'How many general seats were in the National Assembly?',
+      options: ['A. 200', 'B. 250', 'C. 300', 'D. 310'],
+      answer: 'C. 300',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1956 provided how many legislative lists?',
+      options: ['A. One', 'B. Two', 'C. Three', 'D. Four'],
+      answer: 'C. Three',
+      diff: 'hard',
+    },
+    {
+      q: 'The highest court under the Constitution of 1956 was:',
+      options: ['A. High Court', 'B. Federal Court', 'C. Supreme Court', 'D. Shariat Court'],
+      answer: 'C. Supreme Court',
+      diff: 'hard',
+    },
+    {
+      q: 'Which document became the Preamble of the 1956 Constitution?',
+      options: ['A. Lahore Resolution', 'B. Objectives Resolution', 'C. Delhi Resolution', 'D. Pakistan Resolution'],
+      answer: 'B. Objectives Resolution',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1956 remained in force until:',
+      options: ['A. 1957', 'B. 1958', 'C. 1962', 'D. 1969'],
+      answer: 'B. 1958',
+      diff: 'hard',
+    },
+    {
+      q: 'Who was the real executive under the 1956 Constitution?',
+      options: ['A. President', 'B. Governor', 'C. Prime Minister', 'D. Chief Justice'],
+      answer: 'C. Prime Minister',
+      diff: 'hard',
+    },
+  ],
+},
+
+20: {
+  title: 'The Constitution of 1962',
+  summary: `**Key Topics Covered:**
+- Background
+- Constitution Making
+- Basic Democracies
+- Presidential System
+- National Assembly
+- Federal System
+- Principles of Policy
+- Fundamental Rights
+- Islamic Provisions
+- Working of Constitution
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Background**
+7 October 1958 ko Ayub Khan ne Martial Law lagaya.
+
+Us ke baad 1956 Constitution khatam kar diya gaya aur naya Constitution banane ka faisla hua.
+
+Government ka maanna tha ke Parliamentary System instability ka sabab bana.
+
+**2. Constitution Making**
+1959 me Basic Democracies System introduce hua.
+
+Har Province me:
+40,000 Basic Democrats elect kiye gaye.
+
+Functions:
+- Local Government chalana.
+- Development work.
+- Electoral College banna.
+
+Yehi President aur National Assembly ko elect karte thay.
+
+**Constitutional Commission**
+Chairman:
+Justice Shahabuddin
+
+Tasks:
+- Parliamentary system ki failures ka review.
+- Pakistan ke liye suitable constitution banana.
+
+Commission Report:
+1961
+
+Constitution Announced:
+1 March 1962
+
+Enforced:
+8 June 1962
+
+Total:
+- 250 Articles
+- 5 Schedules
+
+**3. Presidential System**
+1962 Constitution ne Presidential System introduce kiya.
+
+**President**
+- Head of State
+- Head of Government
+- Most Powerful Person
+
+Requirements:
+- Muslim
+- Minimum Age = 40 Years
+- NA member banne ki qualification
+
+Election:
+Indirect election
+Term = 5 Years
+
+**President Powers**
+- Cabinet appoint karna.
+- Governors appoint karna.
+- Judges appoint karna.
+- Ordinances issue karna.
+- Emergency declare karna.
+- National Assembly dissolve karna.
+
+**4. National Assembly**
+One House Parliament.
+
+Composition:
+- 150 Seats
+- 6 Reserved Women Seats
+
+Election:
+Indirect
+
+Minimum Age:
+25 Years
+
+Financial Powers:
+Limited
+
+President final approval deta tha.
+
+**5. Federal System**
+Sirf 2 Provinces:
+- East Pakistan
+- West Pakistan
+
+Sirf ek Legislative List thi:
+Central List
+
+Strong Centre establish kiya gaya.
+
+Provincial Governments President ke control me thin.
+
+Emergency me Centre direct control le sakta tha.
+
+**6. Principles of Policy**
+Government ko instructions di gayin:
+
+- National Unity
+- Welfare
+- Education
+- Backward Classes ki help
+- Islamic Values promote karna
+
+**7. Fundamental Rights**
+Citizens ko Fundamental Rights diye gaye.
+
+**8. Political Parties**
+Initially Political Parties allow nahi thin.
+
+1962 me Political Parties Act pass hua.
+
+**9. Islamic Provisions**
+Objectives Resolution Preamble bani.
+
+Advisory Council of Islamic Ideology banaya gaya.
+
+Members:
+5 to 12
+
+Islamic Research Institute bhi establish hua taa ke Islamic research aur guidance di ja sake.
+
+**10. Working**
+Constitution:
+Started → 8 June 1962
+
+Ended → 25 March 1969
+
+Reason:
+Ayub Khan ke resignation aur Yahya Khan ke Martial Law ki wajah se Constitution khatam ho gaya.
+
+**Exam Revision**
+✔ Martial Law = 1958
+✔ Ayub Khan
+✔ Basic Democracies = 1959
+✔ 40,000 Basic Democrats
+✔ Constitution Announced = 1 March 1962
+✔ Enforced = 8 June 1962
+✔ Presidential System
+✔ Powerful President
+✔ 250 Articles
+✔ 5 Schedules
+✔ 150 + 6 Women Seats
+✔ Central List only
+✔ Political Parties Act = 1962
+✔ Constitution ended = 25 March 1969`,
+  questions: [
+    {
+      q: 'Who imposed Martial Law on 7 October 1958?',
+      options: ['A. Iskander Mirza', 'B. Liaquat Ali Khan', 'C. Ayub Khan', 'D. Yahya Khan'],
+      answer: 'C. Ayub Khan',
+      diff: 'hard',
+    },
+    {
+      q: 'The Basic Democracies System was introduced in:',
+      options: ['A. 1958', 'B. 1959', 'C. 1960', 'D. 1962'],
+      answer: 'B. 1959',
+      diff: 'hard',
+    },
+    {
+      q: 'How many Basic Democrats were elected in each province?',
+      options: ['A. 20,000', 'B. 30,000', 'C. 40,000', 'D. 50,000'],
+      answer: 'C. 40,000',
+      diff: 'hard',
+    },
+    {
+      q: 'Who headed the Constitutional Commission of 1960?',
+      options: ['A. Justice Cornelius', 'B. Justice Shahabuddin', 'C. Justice Munir', 'D. Justice Kayani'],
+      answer: 'B. Justice Shahabuddin',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1962 was enforced on:',
+      options: ['A. 1 March 1962', 'B. 8 June 1962', 'C. 23 March 1962', 'D. 14 August 1962'],
+      answer: 'B. 8 June 1962',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1962 introduced which system?',
+      options: ['A. Parliamentary', 'B. Presidential', 'C. Federal Parliamentary', 'D. Cabinet System'],
+      answer: 'B. Presidential',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1962 contained:',
+      options: ['A. 234 Articles', 'B. 240 Articles', 'C. 250 Articles', 'D. 280 Articles'],
+      answer: 'C. 250 Articles',
+      diff: 'hard',
+    },
+    {
+      q: 'The minimum age for the President under the 1962 Constitution was:',
+      options: ['A. 35 Years', 'B. 40 Years', 'C. 45 Years', 'D. 50 Years'],
+      answer: 'B. 40 Years',
+      diff: 'hard',
+    },
+    {
+      q: 'Initially, political parties under the 1962 Constitution were:',
+      options: ['A. Encouraged', 'B. Banned', 'C. Mandatory', 'D. Registered'],
+      answer: 'B. Banned',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1962 remained in force until:',
+      options: ['A. 1965', 'B. 1967', 'C. 1969', 'D. 1973'],
+      answer: 'C. 1969',
+      diff: 'hard',
+    },
+  ],
+},
+
+21: {
+  title: 'The 1973 Constitution',
+  summary: `**Key Topics Covered:**
+- Background
+- Constitution Making
+- Parliamentary System
+- Parliament
+- Federal System
+- Provincial Government
+- Principles of Policy
+- Fundamental Rights
+- Islamic Provisions
+- National Language
+- Judiciary
+- Working of the Constitution
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Background**
+25 March 1969 ko 1962 Constitution abrogate kar diya gaya aur Martial Law lag gaya.
+
+20 December 1971 ko Yahya Khan ne power Zulfikar Ali Bhutto ko transfer ki.
+
+Us waqt Pakistan ke paas permanent Constitution nahi tha.
+
+Is liye 21 April 1972 ko Interim Constitution enforce kiya gaya.
+
+---
+
+**2. Constitution Making**
+
+April 1972 me National Assembly ke tamam political parties ke members par mushtamil Constitutional Committee banai gayi.
+
+October 1972 me tamam parties Parliamentary System par agree ho gayin.
+
+31 December 1972 ko Committee ne apni report submit ki.
+
+10 April 1973 ko National Assembly ne Constitution unanimously approve kar diya.
+
+14 August 1973 ko naya Constitution enforce kar diya gaya.
+
+---
+
+**3. Working of Constitution**
+
+1973-1977 → Operational
+
+1977-1985 → Suspended
+
+1985-1999 → Operational (Amendments ke baad)
+
+1999-2002 → Suspended
+
+2002 onward → Operational
+
+Ye Constitution aaj bhi amendments ke sath Pakistan ka Constitution hai.
+
+---
+
+**4. Parliamentary System**
+
+1973 Constitution ne Parliamentary System adopt kiya.
+
+**Prime Minister**
+- Head of Government.
+- Sab executive powers PM ke paas hoti hain.
+- National Assembly ko answerable hota hai.
+- Cabinet PM ke under kaam karti hai.
+
+**President**
+- Head of State.
+- Sirf ceremonial position.
+- PM ke advice par kaam karta hai.
+
+Requirements:
+- Muslim
+- Minimum age = 45 years
+- National Assembly member banne ki qualification
+
+Election:
+Parliament aur Provincial Assemblies mil kar President ko elect karti hain.
+
+1985 ke baad President ko kuch additional powers di gayin:
+- National Assembly dissolve kar sakta tha.
+- Caretaker Prime Minister appoint kar sakta tha.
+- PM ki appointment me kuch discretion mili.
+
+---
+
+**5. Parliament**
+
+Pakistan me Bicameral Parliament hai.
+
+**Senate (Upper House)**
+
+Purpose:
+Har province ko equal representation dena.
+
+Election:
+Indirect
+
+Original Seats:
+63
+
+Later:
+87
+
+Current:
+100
+
+Reserved Seats:
+- Women
+- Technocrats
+- Tribal Areas
+
+Senate Permanent House hai.
+
+Half members har 3 saal baad retire hote hain.
+
+---
+
+**National Assembly (Lower House)**
+
+Election:
+Direct Election
+
+Original Seats:
+210
+
+Current Seats:
+342
+
+Term:
+5 Years
+
+Budget sirf National Assembly me present hota hai.
+
+Cabinet National Assembly ko answerable hoti hai.
+
+National Assembly Senate se zyada powerful hai.
+
+---
+
+**6. Federal System**
+
+Pakistan ke Provinces:
+
+- Punjab
+- Sindh
+- Khyber Pakhtunkhwa
+- Balochistan
+
+Saath hi Federally Administered Areas bhi federation ka hissa hain.
+
+Constitution me 2 Legislative Lists di gayin:
+
+- Federal List
+- Concurrent List
+
+Residuary Powers Provinces ke paas hain.
+
+---
+
+**7. Provincial Government**
+
+Governor:
+President PM ke advice par appoint karta hai.
+
+Chief Minister:
+Province ka real executive head hota hai.
+
+Har province me Parliamentary System hota hai.
+
+Constitution provincial autonomy deta hai.
+
+Lekin Centre Emergency ki surat me Governor Rule bhi laga sakta hai.
+
+Financially provinces Centre par depend karti hain.
+
+---
+
+**8. Principles of Policy**
+
+Government ko policy banane ke liye guidelines di gayin.
+
+Main Points:
+- Islamic Values
+- Welfare of People
+- Foreign Policy Principles
+- National Unity
+
+---
+
+**9. Fundamental Rights**
+
+1973 Constitution citizens ko Fundamental Rights deta hai.
+
+Supreme Court aur High Courts in rights ki protection karti hain.
+
+---
+
+**10. Islamic Provisions**
+
+- Pakistan ka official naam:
+  Islamic Republic of Pakistan
+
+- Islam ko State Religion declare kiya gaya.
+
+- Objectives Resolution pehle sirf Preamble thi.
+
+- 1985 me Article 2-A ke zariye Constitution ka permanent part bana di gayi.
+
+- Muslim ki definition Constitution me include ki gayi.
+
+- Council of Islamic Ideology establish ki gayi.
+
+- Federal Shariat Court 1981 me establish hui.
+
+---
+
+**11. National Language**
+
+National Language:
+Urdu
+
+English temporary official language ke tor par use hoti rahegi jab tak Urdu uski jagah na le le.
+
+Provincial Assemblies apni regional languages ko bhi promote kar sakti hain.
+
+---
+
+**12. Judiciary**
+
+Pakistan me Independent Judiciary hai.
+
+Judicial Structure:
+
+- Supreme Court
+- High Courts
+- Lower Courts
+
+Supreme Court Pakistan ki highest court hai.
+
+Judiciary Constitution aur Fundamental Rights ki hifazat karti hai.
+
+---
+
+**Exam Revision**
+
+✔ Constitution Enforced = 14 August 1973
+
+✔ Interim Constitution = 21 April 1972
+
+✔ Parliamentary System
+
+✔ PM = Real Executive
+
+✔ President = Ceremonial Head
+
+✔ President Age = 45 Years
+
+✔ Bicameral Parliament
+
+✔ Senate = Indirect Election
+
+✔ National Assembly = Direct Election
+
+✔ Islam = State Religion
+
+✔ Objectives Resolution = Article 2-A (1985)
+
+✔ National Language = Urdu
+
+✔ Highest Court = Supreme Court
+
+✔ 1973 Constitution is still in force with amendments.`,
+  questions: [
+    {
+      q: 'The Constitution of 1973 was enforced on:',
+      options: ['A. 10 April 1973', 'B. 21 April 1972', 'C. 14 August 1973', 'D. 23 March 1973'],
+      answer: 'C. 14 August 1973',
+      diff: 'hard',
+    },
+    {
+      q: 'The Constitution of 1973 introduced which form of government?',
+      options: ['A. Presidential', 'B. Parliamentary', 'C. Military', 'D. Monarchy'],
+      answer: 'B. Parliamentary',
+      diff: 'hard',
+    },
+    {
+      q: 'Who is the real executive under the 1973 Constitution?',
+      options: ['A. President', 'B. Chief Justice', 'C. Prime Minister', 'D. Governor'],
+      answer: 'C. Prime Minister',
+      diff: 'hard',
+    },
+    {
+      q: 'The President under the 1973 Constitution must be at least:',
+      options: ['A. 35 Years', 'B. 40 Years', 'C. 45 Years', 'D. 50 Years'],
+      answer: 'C. 45 Years',
+      diff: 'hard',
+    },
+    {
+      q: 'The Upper House of Parliament is called:',
+      options: ['A. National Assembly', 'B. Senate', 'C. Provincial Assembly', 'D. Federal Council'],
+      answer: 'B. Senate',
+      diff: 'hard',
+    },
+    {
+      q: 'Members of the Senate are elected through:',
+      options: ['A. Direct Elections', 'B. Indirect Elections', 'C. Presidential Nomination', 'D. Public Voting'],
+      answer: 'B. Indirect Elections',
+      diff: 'hard',
+    },
+    {
+      q: 'The National Assembly is elected through:',
+      options: ['A. Indirect Elections', 'B. Presidential Appointment', 'C. Direct Elections', 'D. Senate Vote'],
+      answer: 'C. Direct Elections',
+      diff: 'hard',
+    },
+    {
+      q: 'Which religion was declared the State Religion under the 1973 Constitution?',
+      options: ['A. Christianity', 'B. Hinduism', 'C. Islam', 'D. Buddhism'],
+      answer: 'C. Islam',
+      diff: 'hard',
+    },
+    {
+      q: 'Through which Article was the Objectives Resolution made a permanent part of the Constitution?',
+      options: ['A. Article 25', 'B. Article 58', 'C. Article 2-A', 'D. Article 227'],
+      answer: 'C. Article 2-A',
+      diff: 'hard',
+    },
+    {
+      q: 'The highest court under the 1973 Constitution is:',
+      options: ['A. High Court', 'B. Federal Shariat Court', 'C. Supreme Court', 'D. District Court'],
+      answer: 'C. Supreme Court',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+22: {
+  title: 'Political History (1947–1971)',
+  summary: `**Key Topics Covered:**
+- First Phase (1947–1958)
+- Governors General & Prime Ministers
+- Major Issues
+- Second Phase (1958–1969)
+- Ayub Khan Era
+- Downfall of Ayub Khan
+- Third Phase (1969–1971)
+- Yahya Khan
+- General Elections 1970
+- Separation of East Pakistan
+
+**Complete Short Notes (Roman Urdu)**
+
+## 1. Introduction
+Pakistan ki siyasi tareekh ko 3 major phases me divide kiya jata hai:
+
+• First Phase → 1947–1958
+• Second Phase → 1958–1969
+• Third Phase → 1969–1971
+
+Ye lecture sirf 1947 se 1971 tak ke political events ko explain karta hai.
+
+----------------------------------
+
+## 2. First Phase (1947–1958)
+
+Pakistan azadi ke baad bohat mushkil halaat me tha.
+
+Sab se bari problems:
+
+• Administration nahi tha.
+• Refugees ka bohat pressure tha.
+• Riots hue.
+• Economy weak thi.
+• India ke sath Kashmir issue tha.
+• Constitution banana tha.
+
+Temporary Constitution:
+
+Government of India Act 1935 ko modify karke Interim Constitution banaya gaya.
+
+### First Governor General
+
+Muhammad Ali Jinnah
+
+Term:
+August 1947 – September 1948
+
+### Governors General
+
+• M.A. Jinnah
+(1947–1948)
+
+• Khawaja Nazimuddin
+(1948–1951)
+
+• Ghulam Muhammad
+(1951–1955)
+
+• Iskander Mirza
+(1955–1956)
+
+### First President
+
+Iskander Mirza
+(March 1956 – October 1958)
+
+### Prime Ministers
+
+1. Liaquat Ali Khan
+(1947–1951)
+
+2. Khawaja Nazimuddin
+(1951–1953)
+
+3. Muhammad Ali Bogra
+(1953–1955)
+
+4. Chaudhry Muhammad Ali
+(1955–1956)
+
+5. H.S. Suhrawardy
+(1956–1957)
+
+6. I.I. Chundrigar
+(1957)
+
+7. Firoz Khan Noon
+(1957–1958)
+
+----------------------------------
+
+## 3. Major Political Issues
+
+Is period me important kaam ye thay:
+
+• Constitution banana.
+• Provincial Elections.
+• First Constituent Assembly dissolve hui.
+• Second Constituent Assembly bani.
+• One Unit Scheme introduce hui.
+• Five Year Plan shuru hua.
+• Agriculture improve karna.
+• Industries establish karna.
+• Education reforms.
+• Political instability.
+
+### Provincial Elections
+
+Punjab & NWFP → 1951
+
+Sindh → 1953
+
+East Bengal → 1954
+
+### One Unit Scheme
+
+Implemented:
+October 1955
+
+West Pakistan ke tamam provinces ko mila kar aik province bana diya gaya.
+
+----------------------------------
+
+## 4. Political Instability
+
+Government bohat frequently change hoti rahi.
+
+Prime Ministers ka tenure bohat short tha.
+
+Political parties weak hoti gayin.
+
+Isi instability ne military intervention ka raasta asaan banaya.
+
+----------------------------------
+
+## 5. Second Phase (1958–1969)
+
+7 October 1958 ko Martial Law lag gaya.
+
+Ayub Khan:
+
+• Chief Martial Law Administrator bane.
+• President bhi bane.
+
+1962 me Constitution enforce hua.
+
+1965 me dubara President elect hue.
+
+----------------------------------
+
+## 6. Ayub Khan Reforms
+
+Ayub Khan ne kai reforms introduce kiye.
+
+### Administrative Reforms
+
+1662 officers remove kiye.
+
+### Political Reforms
+
+EBDO law introduce hua.
+
+Kai politicians ko politics se temporarily ban kar diya gaya.
+
+### Economic Reforms
+
+• Industrial development.
+• Green Revolution.
+• Economic Planning.
+
+### Educational Reforms
+
+Education system improve karne ki koshish ki gayi.
+
+### Constitutional Reform
+
+1962 Constitution introduce kiya gaya.
+
+----------------------------------
+
+## 7. Downfall of Ayub Khan
+
+Ayub Khan ki popularity dheere dheere kam ho gayi.
+
+Reasons:
+
+• 1965 Indo-Pak War.
+• Tashkent Agreement se log naraz hue.
+• Election controversies.
+• Wealth sirf kuch families tak limited rahi.
+• Public protests barh gaye.
+
+Finally Ayub Khan ne resignation de diya.
+
+----------------------------------
+
+## 8. Third Phase (1969–1971)
+
+Power Yahya Khan ko transfer hui.
+
+Unhon ne:
+
+• Martial Law impose kiya.
+• 1962 Constitution abolish kar diya.
+
+Important Steps:
+
+• 303 officers remove kiye.
+• Provinces restore kiye.
+• One Unit khatam kiya.
+• Parity abolish ki.
+• Legal Framework Order (LFO) issue kiya.
+
+----------------------------------
+
+## 9. Legal Framework Order (LFO)
+
+Issued:
+March 1970
+
+Purpose:
+
+• Constitution making.
+• Election rules.
+• Assembly seats decide karna.
+
+National Assembly:
+
+313 Seats
+
+300 General
+
+13 Women Seats
+
+East Pakistan:
+
+162 General
+
+7 Women
+
+West Pakistan:
+
+138 General
+
+6 Women
+
+----------------------------------
+
+## 10. General Elections 1970
+
+Pakistan ki history ke pehle General Elections December 1970 me hue.
+
+Results:
+
+Awami League
+160 Seats
+
+Pakistan Peoples Party (PPP)
+81 Seats
+
+----------------------------------
+
+## 11. Separation of East Pakistan
+
+Election ke baad power transfer par agreement nahi hua.
+
+Top leaders ke darmiyan talks fail ho gayin.
+
+25 March 1971 ko military action hua.
+
+Civil War shuru hui.
+
+India ne East Pakistan me military intervention ki.
+
+December 1971 me East Pakistan alag ho kar Bangladesh ban gaya.
+
+----------------------------------
+
+## Exam Revision
+
+✔ Independence = 1947
+✔ Interim Constitution = Government of India Act 1935
+✔ First Governor General = M.A. Jinnah
+✔ First PM = Liaquat Ali Khan
+✔ One Unit Scheme = October 1955
+✔ Martial Law = 1958
+✔ Ayub Khan = President
+✔ EBDO introduced
+✔ Green Revolution
+✔ Yahya Khan = 1969
+✔ LFO = March 1970
+✔ General Elections = December 1970
+✔ Awami League = 160 Seats
+✔ PPP = 81 Seats
+✔ East Pakistan separated in 1971`,
+  questions: [
+    {
+      q: 'Which Act served as the Interim Constitution of Pakistan after independence?',
+      options: [
+        'A. Government of India Act 1919',
+        'B. Government of India Act 1935',
+        'C. Indian Independence Act 1947',
+        'D. Objectives Resolution'
+      ],
+      answer: 'B. Government of India Act 1935',
+      diff: 'hard',
+    },
+    {
+      q: 'Who was the first Governor General of Pakistan?',
+      options: [
+        'A. Liaquat Ali Khan',
+        'B. Iskander Mirza',
+        'C. Muhammad Ali Jinnah',
+        'D. Ghulam Muhammad'
+      ],
+      answer: 'C. Muhammad Ali Jinnah',
+      diff: 'hard',
+    },
+    {
+      q: 'Who was the first Prime Minister of Pakistan?',
+      options: [
+        'A. Khawaja Nazimuddin',
+        'B. Liaquat Ali Khan',
+        'C. Muhammad Ali Bogra',
+        'D. Firoz Khan Noon'
+      ],
+      answer: 'B. Liaquat Ali Khan',
+      diff: 'hard',
+    },
+    {
+      q: 'The One Unit Scheme was introduced in:',
+      options: [
+        'A. 1954',
+        'B. 1955',
+        'C. 1956',
+        'D. 1958'
+      ],
+      answer: 'B. 1955',
+      diff: 'hard',
+    },
+    {
+      q: 'Who imposed Martial Law in October 1958?',
+      options: [
+        'A. Yahya Khan',
+        'B. Liaquat Ali Khan',
+        'C. Ayub Khan',
+        'D. Iskander Mirza'
+      ],
+      answer: 'C. Ayub Khan',
+      diff: 'hard',
+    },
+    {
+      q: 'EBDO was introduced during the rule of:',
+      options: [
+        'A. Yahya Khan',
+        'B. Ayub Khan',
+        'C. Bhutto',
+        'D. Liaquat Ali Khan'
+      ],
+      answer: 'B. Ayub Khan',
+      diff: 'hard',
+    },
+    {
+      q: 'Legal Framework Order (LFO) was issued in:',
+      options: [
+        'A. 1969',
+        'B. 1970',
+        'C. 1971',
+        'D. 1972'
+      ],
+      answer: 'B. 1970',
+      diff: 'hard',
+    },
+    {
+      q: 'Which party won the highest number of seats in the 1970 General Elections?',
+      options: [
+        'A. Muslim League',
+        'B. Pakistan Peoples Party',
+        'C. Awami League',
+        'D. Jamaat-e-Islami'
+      ],
+      answer: 'C. Awami League',
+      diff: 'hard',
+    },
+    {
+      q: 'How many general seats were won by the Pakistan Peoples Party in the 1970 elections?',
+      options: [
+        'A. 60',
+        'B. 75',
+        'C. 81',
+        'D. 90'
+      ],
+      answer: 'C. 81',
+      diff: 'hard',
+    },
+    {
+      q: 'The separation of East Pakistan took place in:',
+      options: [
+        'A. 1969',
+        'B. 1970',
+        'C. 1971',
+        'D. 1973'
+      ],
+      answer: 'C. 1971',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+23: {
+  title: 'Political History (1972–2003)',
+  summary: `**Key Topics Covered:**
+- Bhutto Era (1972–1977)
+- Zia-ul-Haq Era (1977–1985)
+- Civilian Rule (1985–1999)
+- Musharraf Era (1999–2002)
+- Return to Democracy (2002 Onwards)
+
+**Complete Short Notes (Roman Urdu)**
+
+## 1. Introduction
+
+1971 me East Pakistan ki separation ke baad Pakistan ki politics naye daur me dakhil hui.
+
+Is lecture ko 5 phases me divide kiya gaya hai:
+
+• 1972–1977 → Z.A. Bhutto
+• 1977–1985 → General Zia-ul-Haq
+• 1985–1999 → Civilian Governments
+• 1999–2002 → General Musharraf
+• 2002 Onwards → Democratic Setup
+
+----------------------------------
+
+## 2. Z.A. Bhutto Era (1972–1977)
+
+20 December 1971 ko Zulfikar Ali Bhutto ne power sambhali.
+
+Wo:
+• President bane.
+• Pakistan ke pehle Civilian Chief Martial Law Administrator bhi bane.
+
+Sab se pehla aur important kaam tha Constitution banana.
+
+1972 me Interim Constitution bana.
+
+14 August 1973 ko naya Constitution enforce hua.
+
+----------------------------------
+
+## 3. Nationalisation Policy
+
+Bhutto ki sab se famous policy Nationalisation thi.
+
+Government ne nationalise kiye:
+
+• Emerald Mines (Swat)
+• Iron & Steel Industries
+• Heavy Engineering
+• Heavy Electrical Industries
+• Motor Vehicles & Tractors
+• Heavy Chemicals
+• Petro Chemicals
+• Cement Industry
+• Gas
+• Oil Refineries
+• Life Insurance (1972)
+• Banks (1974)
+• Schools & Colleges (1972)
+
+1973 me New University Ordinance bhi introduce hua.
+
+Managing aur Sub-Agencies bhi abolish kar di gayin.
+
+----------------------------------
+
+## 4. Labour Policy
+
+Mazdooron ko zyada rights aur facilities di gayin.
+
+Workers ki protection aur benefits increase kiye gaye.
+
+----------------------------------
+
+## 5. Health Policy
+
+Government ne sasti medicines aur behtar health facilities dene ka wada kiya.
+
+----------------------------------
+
+## 6. Administrative Reforms
+
+Corruption khatam karne ke liye reforms kiye gaye.
+
+Kai civil servants ko corruption ke charges par remove kiya gaya.
+
+Lekin reforms ke expected results hasil na ho sake aur public me dissatisfaction barh gaya.
+
+----------------------------------
+
+## 7. Elections of 1977
+
+1977 ke elections me PPP jeet gayi.
+
+Opposition ne election rigging ka ilzam lagaya.
+
+Fresh elections ka demand hua.
+
+Political protests barh gaye.
+
+Students, businessmen, women aur professionals bhi protests me shamil ho gaye.
+
+Natija:
+
+5 July 1977 ko General Zia-ul-Haq ne Martial Law laga diya.
+
+----------------------------------
+
+## 8. Zia-ul-Haq Era (1977–1985)
+
+General Muhammad Zia-ul-Haq ne Constitution suspend kar diya.
+
+Ye Pakistan ki history ka sab se lamba Military Rule tha.
+
+Unka agenda tha:
+
+• Effective Administration
+• Islamisation
+• Return to Democracy
+
+----------------------------------
+
+## 9. Islamisation
+
+Zia-ul-Haq ne Islamic system ko promote karne ke liye bohat se qadam uthaye.
+
+Important Measures:
+
+• Shariat Benches (1979)
+• Federal Shariat Court (1981)
+• Islamic Punishments
+• Interest Free Banking (1981)
+• Zakat deduction on bank accounts
+• Ushr on agricultural produce (1983)
+• Islamic Education Policy
+• Pakistan Studies aur Islamiat compulsory
+• Islamisation of Mass Media
+• Prayer Breaks in offices
+• Mohallah Salat Committees
+• Pakistan Bait-ul-Mal established
+
+----------------------------------
+
+## 10. Return to Democracy
+
+Democracy restore karne ke liye Zia-ul-Haq ne ye steps liye:
+
+• Local Bodies Elections (1979)
+• Referendum (1984)
+• Non-Party Elections (1985)
+• National Assembly restore ki.
+• Civilian Government banai.
+• Revival of Constitution Order (1985)
+• 8th Constitutional Amendment introduce hui.
+• Martial Law 30 December 1985 ko withdraw kar diya.
+
+----------------------------------
+
+## 11. Civilian Rule (1985–1999)
+
+1985 me democracy wapas aa gayi.
+
+Lekin koi bhi elected government apna 5 saal ka tenure complete na kar saki.
+
+Reason:
+
+Article 58(2)(b)
+
+Is ke zariye President National Assembly dissolve kar sakta tha.
+
+Prime Ministers:
+
+• Muhammad Khan Junejo
+(1985–1988)
+
+• Benazir Bhutto
+(1988–1990)
+
+• Nawaz Sharif
+(1990–1993)
+
+• Benazir Bhutto
+(1993–1996)
+
+• Nawaz Sharif
+(1997–1999)
+
+----------------------------------
+
+## 12. Caretaker Prime Ministers
+
+Election conduct karwane ke liye caretaker PM appoint kiye gaye.
+
+• Ghulam Mustafa Jatoi
+• Balkh Sher Mazari
+• Dr. Moeen Qureshi
+• Malik Meraj Khalid
+
+----------------------------------
+
+## 13. Problems During Civilian Governments
+
+Civilian governments ko kai problems ka samna karna pada.
+
+Main Issues:
+
+• Coalition Governments
+• Weak Political Parties
+• Political Confrontation
+• Corruption Allegations
+• Misuse of Government Resources
+
+----------------------------------
+
+## 14. Musharraf Era (1999–2002)
+
+1999 me General Pervez Musharraf ne takeover kiya.
+
+Reason:
+
+Nawaz Sharif ne Army Chief ko remove karne ki koshish ki.
+
+General Musharraf ne power sambhali.
+
+Important Points:
+
+• Constitution suspend hua.
+• Martial Law officially declare nahi hua.
+• Military Courts establish nahi hui.
+• Press Freedom zyada had tak maintain rahi.
+
+----------------------------------
+
+## 15. Musharraf's Political Priorities
+
+General Musharraf ne kuch major goals announce kiye.
+
+• National Confidence restore karna.
+• Federation ko strong banana.
+• Provincial differences khatam karna.
+• National Unity.
+• Economy improve karna.
+• Law and Order improve karna.
+• Accountability.
+• Devolution of Power.
+
+----------------------------------
+
+## 16. Musharraf Reforms
+
+Major Reforms:
+
+• Accountability drive
+• Recovery of looted wealth
+• Foreign exchange reserves increase
+• International debt reduce
+• Poverty Reduction
+• Social Uplift
+• District Government System
+• New Local Bodies System
+
+----------------------------------
+
+## 17. Return to Democracy
+
+General Musharraf ne democracy restore karne ke liye:
+
+• Referendum (April 2002)
+• Legal Framework Order (LFO)
+• General Elections (10 October 2002)
+• Constitution revive kiya.
+• Federal aur Provincial Governments banayi.
+
+----------------------------------
+
+## 18. Civilian Rule after 2002
+
+2002 ke elections ke baad:
+
+President:
+General Pervez Musharraf
+
+Prime Minister:
+Mir Zafarullah Khan Jamali
+
+Federal Government coalition thi.
+
+PML(Q) ne zyada provinces me government banayi.
+
+NWFP me MMA ki government bani.
+
+----------------------------------
+
+## Exam Revision
+
+✔ Z.A. Bhutto took power = 20 Dec 1971
+✔ Interim Constitution = 1972
+✔ 1973 Constitution enforced = 14 Aug 1973
+✔ Nationalisation Policy
+✔ Banks Nationalised = 1974
+✔ Schools & Colleges Nationalised = 1972
+✔ Zia Martial Law = 5 July 1977
+✔ Federal Shariat Court = 1981
+✔ Interest Free Banking = 1981
+✔ Ushr = 1983
+✔ Referendum = 1984
+✔ Non-Party Elections = 1985
+✔ 8th Amendment = 1985
+✔ Musharraf Takeover = 1999
+✔ Referendum = April 2002
+✔ General Elections = 10 October 2002
+✔ PM after 2002 = Mir Zafarullah Khan Jamali`,
+  questions: [
+    {
+      q: 'Who assumed power on 20 December 1971?',
+      options: ['A. Zia-ul-Haq', 'B. Yahya Khan', 'C. Zulfikar Ali Bhutto', 'D. Nawaz Sharif'],
+      answer: 'C. Zulfikar Ali Bhutto',
+      diff: 'hard',
+    },
+    {
+      q: 'Which policy became the hallmark of Bhutto’s government?',
+      options: ['A. Islamisation', 'B. Nationalisation', 'C. Privatization', 'D. Green Revolution'],
+      answer: 'B. Nationalisation',
+      diff: 'hard',
+    },
+    {
+      q: 'Banks were nationalised in:',
+      options: ['A. 1972', 'B. 1973', 'C. 1974', 'D. 1975'],
+      answer: 'C. 1974',
+      diff: 'hard',
+    },
+    {
+      q: 'Who imposed Martial Law in July 1977?',
+      options: ['A. Ayub Khan', 'B. Yahya Khan', 'C. Zia-ul-Haq', 'D. Musharraf'],
+      answer: 'C. Zia-ul-Haq',
+      diff: 'hard',
+    },
+    {
+      q: 'The Federal Shariat Court was established in:',
+      options: ['A. 1979', 'B. 1980', 'C. 1981', 'D. 1983'],
+      answer: 'C. 1981',
+      diff: 'hard',
+    },
+    {
+      q: 'Interest-free banking was introduced in:',
+      options: ['A. 1979', 'B. 1980', 'C. 1981', 'D. 1984'],
+      answer: 'C. 1981',
+      diff: 'hard',
+    },
+    {
+      q: 'Which constitutional amendment gave the President power to dissolve the National Assembly?',
+      options: ['A. 5th Amendment', 'B. 7th Amendment', 'C. 8th Amendment', 'D. 13th Amendment'],
+      answer: 'C. 8th Amendment',
+      diff: 'hard',
+    },
+    {
+      q: 'Who took over power in 1999?',
+      options: ['A. Benazir Bhutto', 'B. Nawaz Sharif', 'C. Pervez Musharraf', 'D. Zia-ul-Haq'],
+      answer: 'C. Pervez Musharraf',
+      diff: 'hard',
+    },
+    {
+      q: 'General Elections under Musharraf were held on:',
+      options: ['A. 14 August 2002', 'B. 10 October 2002', 'C. 25 December 2002', 'D. 12 March 2002'],
+      answer: 'B. 10 October 2002',
+      diff: 'hard',
+    },
+    {
+      q: 'Who became Prime Minister after the 2002 General Elections?',
+      options: ['A. Shaukat Aziz', 'B. Nawaz Sharif', 'C. Mir Zafarullah Khan Jamali', 'D. Benazir Bhutto'],
+      answer: 'C. Mir Zafarullah Khan Jamali',
+      diff: 'hard',
+    },
+  ],
+},
+
+24: {
+  title: 'Geography, Land, Boundaries and Neighborhoods',
+  summary: `**Key Topics Covered:**
+- Geography and the People
+- Location & Territory
+- Climate
+- Population
+- Boundaries
+- Neighbourhood Importance
+
+**Complete Short Notes (Roman Urdu)**
+
+## 1. Introduction
+
+Pakistan 14 August 1947 ko azaad hua.
+
+Shuru me Pakistan ke 2 wings thay:
+
+• West Pakistan
+• East Pakistan
+
+1971 me East Pakistan alag ho kar Bangladesh ban gaya.
+
+Aaj ka Pakistan South Asia ke North-Western hissay me waqia hai.
+
+----------------------------------
+
+## 2. Historical Background
+
+Pakistan ki zameen bohat purani civilization ki malik hai.
+
+Important Civilizations:
+
+• Indus Valley Civilization
+• Harappa
+• Mohenjo-Daro
+
+Ye civilization takriban:
+
+2500 BC – 1600 BC
+
+ke darmiyan mojood thi.
+
+Baad me:
+
+• Aryans aaye.
+• Central Asia aur Afghanistan se Muslims aaye.
+• Muslim rule taqreeban 1000 saal raha.
+• Phir British Rule aya.
+• 1947 me Pakistan aur India alag mulk ban gaye.
+
+----------------------------------
+
+## 3. Location
+
+Pakistan ki geographical location:
+
+Latitude:
+24°–37° North
+
+Longitude:
+61°–75° East
+
+Ye location Pakistan ko Asia ka ek bohat important strategic country banati hai.
+
+----------------------------------
+
+## 4. Total Area
+
+Pakistan ka total area:
+
+796,095 Square Kilometres
+
+----------------------------------
+
+## 5. Provincial Area
+
+Sab se bara province:
+
+Balochistan
+43.61%
+
+Us ke baad:
+
+Punjab
+25.81%
+
+Sindh
+17.71%
+
+NWFP (KPK)
+9.4%
+
+FATA
+3.4%
+
+Islamabad
+0.1%
+
+----------------------------------
+
+## 6. Physical Features
+
+Pakistan ki land bohat diverse hai.
+
+### Northern Areas
+
+Yahan Himalaya, Karakoram aur Pamir mountain ranges hain.
+
+Famous Peaks:
+
+• K2
+• Nanga Parbat
+
+Ye duniya ke sab se unche mountains me shamil hain.
+
+### Western Area
+
+Balochistan Plateau
+
+• Dry mountains
+• Kam rainfall
+• Average elevation lagbhag 1000 feet
+
+### Indus Plain
+
+Pakistan ka sab se important agricultural area.
+
+Yahin zyada farming hoti hai.
+
+### Potohar Plateau
+
+Upper Indus Plain ke east me waqia hai.
+
+### Deserts
+
+South-East me:
+
+• Thal
+• Cholistan
+• Thar Desert
+
+----------------------------------
+
+## 7. Climate
+
+Pakistan ka climate har region me different hai.
+
+### Mountains
+
+Winter:
+Bohat zyada thand
+
+Summer:
+Mild weather
+
+### Indus Plains
+
+Summer:
+Bohat garmi
+
+Winter:
+Cold aur dry
+
+### Coastal Areas
+
+Weather moderate aur temperate hota hai.
+
+----------------------------------
+
+## 8. Four Seasons
+
+Summer:
+May – September
+
+Winter:
+November – February
+
+Spring:
+March – April
+
+Autumn:
+September – October
+
+----------------------------------
+
+## 9. Rainfall
+
+Pakistan me rainfall har area me different hoti hai.
+
+Sab se important rainy season:
+
+Monsoon (Summer)
+
+----------------------------------
+
+## 10. Population
+
+Pakistan ki population bohat rapidly increase hui.
+
+Population Census:
+
+1951 → 36.2 Million
+
+1961 → 46.2 Million
+
+1972 → 65.3 Million
+
+1981 → 84.3 Million
+
+1998 → 130.6 Million
+
+2006 Estimate:
+
+160 Million se zyada
+
+----------------------------------
+
+## 11. Important Population Facts
+
+• 50% se zyada population 21 saal se kam age ki hai.
+
+• Lagbhag 30% log urban areas me rehte hain.
+
+Log cities me shift hote hain:
+
+• Jobs
+• Education
+• Better Facilities
+
+Urbanization ki wajah se:
+
+• Housing problems
+• Traffic
+• Health issues
+• Poor town planning
+• Education problems
+
+----------------------------------
+
+## 12. Provincial Population
+
+Punjab
+56–57%
+
+Sindh
+23%
+
+NWFP (KPK)
+14%
+
+Balochistan
+5.3%
+
+----------------------------------
+
+## 13. Literacy
+
+Official Literacy Rate:
+
+46%
+
+Women Literacy:
+
+Mardon se kaafi kam.
+
+Kuch areas me women literacy bohat low ya almost zero hai.
+
+----------------------------------
+
+## 14. Importance of Population Data
+
+Population data ki zarurat hoti hai:
+
+• Development Planning
+• Budget Planning
+• Education
+• Health
+• Poverty Reduction
+• Employment Planning
+
+Achi planning ke liye accurate census bohat zaroori hota hai.
+
+----------------------------------
+
+## 15. International Boundaries
+
+Pakistan ki boundaries 4 countries ke sath lagti hain.
+
+### China
+
+Direction:
+North-East
+
+Border:
+Lagbhag 600 km
+
+Important Route:
+
+Silk Route
+
+Trade aur tourism ke liye important.
+
+### Afghanistan
+
+Direction:
+North-West
+
+Border:
+Lagbhag 1200 Miles
+
+Border ka naam:
+
+Durand Line
+
+Draw hui:
+
+1893
+
+### Iran
+
+Direction:
+West
+
+Border:
+Lagbhag 590 Miles
+
+### India
+
+Direction:
+East
+
+Border:
+Lagbhag 1400 Miles
+
+1947 me establish hui.
+
+Kashmir me Line of Control (LOC) bhi India ke sath hai jo bohat sensitive border hai.
+
+### South
+
+Arabian Sea
+
+Coastline:
+
+Lagbhag 450 Miles
+
+----------------------------------
+
+## 16. Neighbourhood Importance
+
+Pakistan ki location bohat strategic hai.
+
+Pakistan:
+
+• China ke qareeb hai.
+• Afghanistan ke through Central Asia se connected hai.
+• Gulf Countries ke qareeb hai.
+• Arabian Sea ki wajah se international trade me important role rakhta hai.
+
+Isi wajah se duniya ki major powers Pakistan me interest rakhti hain.
+
+Future me Oil aur Gas Pipelines Pakistan se guzarnay ki planning bhi ki gayi thi.
+
+Ye Pakistan ki economy ke liye bohat important ho sakta hai.
+
+----------------------------------
+
+## Exam Revision
+
+✔ Independence = 14 August 1947
+✔ East Pakistan separated = 1971
+✔ Location = 24°–37° North, 61°–75° East
+✔ Area = 796,095 sq km
+✔ Largest Province = Balochistan
+✔ Highest Peak = K2
+✔ Major Civilization = Indus Valley
+✔ Main River Plain = Indus Plain
+✔ Main Rain = Monsoon
+✔ Durand Line = 1893
+✔ China Border = 600 km
+✔ Afghanistan Border = 1200 miles
+✔ Iran Border = 590 miles
+✔ India Border = 1400 miles
+✔ Coastline = 450 miles
+✔ Census = Every 10 Years
+✔ Official Literacy ≈ 46%
+✔ Pakistan links South Asia, Central Asia and the Middle East`,
+  questions: [
+    {
+      q: 'Pakistan is located in which part of South Asia?',
+      options: [
+        'A. North-East',
+        'B. North-West',
+        'C. South-East',
+        'D. South-West'
+      ],
+      answer: 'B. North-West',
+      diff: 'hard',
+    },
+    {
+      q: 'The total area of Pakistan is:',
+      options: [
+        'A. 796,095 sq km',
+        'B. 698,095 sq km',
+        'C. 896,095 sq km',
+        'D. 706,095 sq km'
+      ],
+      answer: 'A. 796,095 sq km',
+      diff: 'hard',
+    },
+    {
+      q: 'Which is the largest province of Pakistan by area?',
+      options: [
+        'A. Punjab',
+        'B. Sindh',
+        'C. KPK',
+        'D. Balochistan'
+      ],
+      answer: 'D. Balochistan',
+      diff: 'hard',
+    },
+    {
+      q: 'Which mountain peak is the highest in Pakistan?',
+      options: [
+        'A. Tirich Mir',
+        'B. Rakaposhi',
+        'C. Nanga Parbat',
+        'D. K2'
+      ],
+      answer: 'D. K2',
+      diff: 'hard',
+    },
+    {
+      q: 'The major rainy season in Pakistan is:',
+      options: [
+        'A. Winter',
+        'B. Spring',
+        'C. Monsoon',
+        'D. Autumn'
+      ],
+      answer: 'C. Monsoon',
+      diff: 'hard',
+    },
+    {
+      q: 'The border between Pakistan and Afghanistan is called:',
+      options: [
+        'A. Radcliffe Line',
+        'B. McMahon Line',
+        'C. Durand Line',
+        'D. LOC'
+      ],
+      answer: 'C. Durand Line',
+      diff: 'hard',
+    },
+    {
+      q: 'The Durand Line was drawn in:',
+      options: [
+        'A. 1857',
+        'B. 1893',
+        'C. 1905',
+        'D. 1947'
+      ],
+      answer: 'B. 1893',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan shares its longest international border with:',
+      options: [
+        'A. China',
+        'B. Iran',
+        'C. Afghanistan',
+        'D. India'
+      ],
+      answer: 'D. India',
+      diff: 'hard',
+    },
+    {
+      q: 'Which sea lies to the south of Pakistan?',
+      options: [
+        'A. Red Sea',
+        'B. Arabian Sea',
+        'C. Mediterranean Sea',
+        'D. Caspian Sea'
+      ],
+      answer: 'B. Arabian Sea',
+      diff: 'hard',
+    },
+    {
+      q: 'The famous archaeological sites of Pakistan are:',
+      options: [
+        'A. Taxila & Multan',
+        'B. Harappa & Mohenjo-Daro',
+        'C. Lahore & Peshawar',
+        'D. Swat & Gilgit'
+      ],
+      answer: 'B. Harappa & Mohenjo-Daro',
+      diff: 'hard',
+    },
+  ],
+},
+25: {
+  title: 'Natural Resources & Agriculture',
+  summary: `**Key Topics Covered:**
+- Natural Resources
+- Mineral Resources
+- Rivers & Canals
+- Forests
+- Animals & Fisheries
+- Agriculture
+- Crops
+- Problems in Agriculture
+- Development Plans
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Natural Resources**
+Natural Resources wo resources hote hain jo Allah ki taraf se mulk ko naturally milte hain.
+
+Examples:
+- Minerals
+- Rivers
+- Forests
+- Animals
+
+Kisi bhi country ki taraqqi in resources ke sahi istemal, planning aur modern technology par depend karti hai.
+
+---
+
+**2. Mineral Resources**
+
+Pakistan minerals se rich hai lekin abhi bhi bohat se resources properly explore nahi hue.
+
+**Iron Ore**
+- Steel industry me use hota hai.
+- Pakistan me quantity aur quality dono kam hain.
+- Is liye import karna parta hai.
+- Major Areas:
+  - Chitral
+  - Chaghai
+  - Kohat
+  - Mardan
+  - Hazara
+  - Kalabagh
+  - DG Khan
+
+**Chromite**
+Uses:
+- Stainless Steel
+- Leather Industry
+- Weapons
+- Metal Industry
+
+Areas:
+- Muslim Bagh
+- Chaghai
+- Malakand
+- Mohmand
+- Waziristan
+
+**Gypsum**
+Uses:
+- Cement
+- Paint
+- Plaster of Paris
+
+Areas:
+- Jhelum
+- Mianwali
+- DG Khan
+- Kohat
+- Loralai
+
+**Sulphur**
+Uses:
+- Chemical Industry
+
+Areas:
+- Kalat
+- Khairpur
+- Mardan
+- Jacobabad
+
+**Coal**
+Use:
+- Fuel
+- Electricity Generation
+
+Major Areas:
+- Thar
+- Thatta
+- Mach
+- Sharig
+- Cherat
+- Makarwal
+
+**Oil**
+Pakistan zyada Oil import karta hai.
+
+Important Areas:
+- Attock
+- Chakwal
+- Jhelum
+- Balkasar
+- Dhodak
+
+**Natural Gas**
+Uses:
+- Fuel
+- Electricity
+
+Major Areas:
+- Sui
+- Mari
+- Uch
+- Khairpur
+- Jacobabad
+
+**Uranium**
+Use:
+- Nuclear Energy
+- Defence
+
+Areas:
+- DG Khan
+- Hazara
+- Kohat
+
+---
+
+**3. Rivers & Canals**
+
+Pakistan ka river system River Indus aur us ki tributaries par mabni hai.
+
+Importance:
+- Agriculture
+- Drinking Water
+- Hydroelectric Power
+- Irrigation
+
+Water Management bohat zaroori hai:
+- Dams
+- Water Storage
+- Flood Control
+- Canal Cleaning
+
+---
+
+**4. Forests**
+
+Ideal forest area:
+25%
+
+Pakistan:
+Sirf 4-5%
+
+Reasons:
+- Kam rainfall
+- Deserts
+- Dry mountains
+- Deforestation
+
+Benefits:
+- Weather improve karte hain.
+- Floods kam karte hain.
+- Fresh air dete hain.
+- Timber aur fuel provide karte hain.
+- Medicines aur chemicals milte hain.
+- Wildlife ka habitat hain.
+
+---
+
+**5. Animals**
+
+Animals provide:
+- Milk
+- Meat
+- Wool
+- Leather
+- Hides
+
+Importance:
+- Agriculture
+- Transport
+- Foreign Exchange
+
+Government:
+- Livestock Department
+- Animal Research Centres
+- Government Farms
+
+---
+
+**6. Fisheries**
+
+Importance:
+- Food
+- Employment
+- Income
+- Foreign Exchange
+
+Government private fish farming ko bhi support karti hai.
+
+---
+
+**7. Agriculture**
+
+Pakistan ek Agricultural Country hai.
+
+Important Facts:
+- 70% population rural areas me rehti hai.
+- 50% log directly farming se related hain.
+- GDP me Agriculture ka share lagbhag 26% hai.
+
+Punjab aur Sindh sab se zyada agricultural provinces hain.
+
+---
+
+**8. Crops**
+
+**Rabi Crops**
+Sowing:
+October-November
+
+Harvest:
+April-May
+
+Examples:
+- Wheat
+- Gram
+- Oil Seeds
+
+**Kharif Crops**
+Sowing:
+May-June
+
+Harvest:
+October-November
+
+Examples:
+- Rice
+- Cotton
+- Sugarcane
+
+Other Crops:
+- Maize
+- Tobacco
+- Mustard
+- Fruits
+- Vegetables
+
+---
+
+**9. Land Reforms**
+
+Land Reforms introduce hui:
+- 1959
+- 1972
+- 1977
+
+Purpose:
+- Land distribution improve karna.
+- Farmers ki condition better banana.
+- Crop production increase karna.
+- Poverty kam karna.
+
+---
+
+**10. Problems of Agriculture**
+
+Main Problems:
+
+1. Purane farming methods.
+2. Water Logging.
+3. Salinity.
+4. Crop Diseases.
+5. Poor Quality Seeds.
+6. Mehngi Fertilizers.
+7. Electricity aur Tube Well problems.
+8. Water shortage ya floods.
+9. Credit facilities ki kami.
+10. Market tak access mushkil.
+11. Farmers ko reasonable prices nahi milti.
+
+---
+
+**11. Development Plans**
+
+Government ki efforts:
+
+- High Yield Seeds research.
+- Modern Farming Technology.
+- Agriculture Universities.
+- Farmer Training.
+- Better Roads & Transport.
+- Better Irrigation.
+- Quick payment to farmers.
+
+---
+
+**Exam Revision**
+
+✔ Natural Resources = Minerals, Rivers, Forests, Animals
+✔ Forest Area = 4-5%
+✔ Ideal Forest = 25%
+✔ Major Gas Field = Sui
+✔ Major Coal = Thar
+✔ Agriculture Share in GDP = 26%
+✔ Rural Population = 70%
+✔ Rabi = Wheat
+✔ Kharif = Rice, Cotton, Sugarcane
+✔ Land Reforms = 1959, 1972, 1977
+✔ Biggest Problems = Water, Seeds, Fertilizer, Market`,
+  questions: [
+    {
+      q: 'Pakistan is primarily an ______ country.',
+      options: ['A. Industrial', 'B. Agricultural', 'C. Commercial', 'D. Mining'],
+      answer: 'B. Agricultural',
+      diff: 'hard',
+    },
+    {
+      q: 'The major natural gas field of Pakistan is:',
+      options: ['A. Kalabagh', 'B. Sui', 'C. Chagai', 'D. Thar'],
+      answer: 'B. Sui',
+      diff: 'hard',
+    },
+    {
+      q: 'Coal is mainly used for:',
+      options: ['A. Textile', 'B. Fuel and Power Generation', 'C. Jewellery', 'D. Farming'],
+      answer: 'B. Fuel and Power Generation',
+      diff: 'hard',
+    },
+    {
+      q: 'Which crop is a Rabi crop?',
+      options: ['A. Rice', 'B. Cotton', 'C. Wheat', 'D. Sugarcane'],
+      answer: 'C. Wheat',
+      diff: 'hard',
+    },
+    {
+      q: 'Kharif crops are harvested in:',
+      options: ['A. April-May', 'B. June-July', 'C. October-November', 'D. January-February'],
+      answer: 'C. October-November',
+      diff: 'hard',
+    },
+    {
+      q: 'Agriculture contributes approximately ______ to Pakistan’s GDP.',
+      options: ['A. 10%', 'B. 18%', 'C. 26%', 'D. 40%'],
+      answer: 'C. 26%',
+      diff: 'hard',
+    },
+    {
+      q: 'Which mineral is mainly used for atomic energy?',
+      options: ['A. Coal', 'B. Iron Ore', 'C. Uranium', 'D. Gypsum'],
+      answer: 'C. Uranium',
+      diff: 'hard',
+    },
+    {
+      q: 'Approximately how much area of Pakistan is covered by forests?',
+      options: ['A. 25%', 'B. 15%', 'C. 10%', 'D. 4-5%'],
+      answer: 'D. 4-5%',
+      diff: 'hard',
+    },
+    {
+      q: 'Which river system is the backbone of Pakistan’s irrigation?',
+      options: ['A. Nile', 'B. Indus', 'C. Ganges', 'D. Brahmaputra'],
+      answer: 'B. Indus',
+      diff: 'hard',
+    },
+    {
+      q: 'Land reforms in Pakistan were introduced to:',
+      options: ['A. Increase imports', 'B. Reduce land holdings and improve agriculture', 'C. Build industries', 'D. Increase taxes'],
+      answer: 'B. Reduce land holdings and improve agriculture',
+      diff: 'hard',
+    },
+  ],
+},
+
+26: {
+  title: 'Industrial Development',
+  summary: `**Key Topics Covered:**
+- Importance of Industrialization
+- Historical Overview
+- Industrial Development Institutions
+- Nationalisation & Privatisation
+- Major Industries
+- Future Directions
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Importance of Industrialization**
+
+Industrialization kisi bhi country ki economic development ki backbone hoti hai.
+
+Is ke benefits:
+- Economy strong hoti hai.
+- Rozgar (Employment) create hota hai.
+- Poverty kam hoti hai.
+- Foreign Exchange save hota hai.
+- Exports increase hote hain.
+- Agriculture ko support milta hai.
+- Defence aur Technology strong hoti hai.
+- Country self-reliant banti hai.
+- Quality of life improve hoti hai.
+
+Agriculture raw material provide karti hai aur industries finished products banati hain.
+
+---
+
+**2. Historical Overview**
+
+1947 me Pakistan ko sirf lagbhag **4% industries** mili jo British India me mojood thin.
+
+Shuru me Pakistan ne basic industries establish ki:
+
+- Sugar Mills
+- Biscuit Factories
+- Cement Factories
+- Cigarette Factories
+- Oil Mills
+- Glass Factories
+- Steel Rolling Units
+- Match Factories
+
+**Early Industrial Priorities**
+
+- Local raw material use karna.
+- Daily use ki goods banana.
+- Private sector ko encourage karna.
+- Government financial support dena.
+- Tax incentives dena.
+- Research aur training provide karna.
+
+**Industrial Development Board**
+Established:
+**1948**
+
+Is ka purpose industries ko develop karna tha.
+
+---
+
+**3. Important Industrial Institutions**
+
+**PIDC (Pakistan Industrial Development Corporation)**
+Established:
+**1950**
+
+Purpose:
+Private sector ko support dena aur new industries establish karna.
+
+---
+
+**IDBP (Industrial Development Bank of Pakistan)**
+
+Established:
+**1961**
+
+Purpose:
+Industries ko low-interest loans provide karna.
+
+---
+
+**PICIC**
+Purpose:
+- Industrial loans
+- Investment schemes
+- Foreign exchange facilities
+
+---
+
+**Investment Promotion Bureau**
+
+Established:
+**1959**
+
+Purpose:
+- Local investment promote karna.
+- Foreign investment attract karna.
+- Investors ko guidance dena.
+
+---
+
+**International Support**
+
+Pakistan ko financial aur technical help mili:
+
+- World Bank
+- IMF
+- Colombo Plan
+
+---
+
+**4. Nationalisation (1970s)**
+
+PPP Government ne 1970s me Nationalisation policy adopt ki.
+
+Government ne:
+- Major industries
+- Banks
+- Insurance
+- Aur kai organizations apne control me le li.
+
+**Advantages**
+- Government control increase hua.
+
+**Disadvantages**
+- Industrial production kam hui.
+- Investors ka confidence kam hua.
+- Capital flight hui.
+
+---
+
+**5. Privatisation (1990s)**
+
+1990 ke baad governments ne Privatisation aur Free Economy policy adopt ki.
+
+Main Points:
+- Private sector ko encourage kiya.
+- Foreign Direct Investment (FDI) promote hui.
+- Overseas Pakistanis ko investment ki invitation di gayi.
+- Denationalisation shuru hui.
+
+---
+
+**6. Major Industries**
+
+**Textile Industry**
+Pakistan ki sab se bari industry.
+
+Major Cities:
+- Faisalabad
+- Lahore
+- Karachi
+- Multan
+
+---
+
+**Sugar Industry**
+Sugarcane par based industry.
+
+Major Areas:
+- Punjab
+- Sindh
+- KPK
+
+---
+
+**Cement Industry**
+
+Major Centres:
+- Wah
+- Dandot
+- Daud Khel
+- Rohri
+- Karachi
+
+---
+
+**Vegetable Ghee Industry**
+
+Cooking oil produce karti hai.
+
+About:
+**60 Units**
+
+Mostly:
+- Punjab
+- Sindh
+- KPK
+
+---
+
+**Iron & Steel Industry**
+
+Pakistan Steel Mills Karachi former Soviet Union ki help se establish hui.
+
+Problem:
+High-quality Iron Ore ki shortage.
+
+---
+
+**Paper Industry**
+
+1971 ke baad East Pakistan separate hone se paper industry ko nuksan hua.
+
+Major Areas:
+- Nowshera
+- Charsadda
+- Gujranwala
+- Lahore
+- Gharo
+
+---
+
+**Heavy Mechanical Complex (HMC) Taxila**
+
+Chinese cooperation se establish hua.
+
+Manufactures:
+- Machinery
+- Industrial Equipment
+- Engineering Goods
+- Sugar Industry Machinery
+- Cement Industry Machinery
+- Fertilizer Machinery
+
+---
+
+**Defence Industry**
+
+Important Centres:
+
+- Wah Ordnance Complex
+- HMC Taxila
+- Kamra Aircraft Complex
+
+Products:
+- Weapons
+- Tanks
+- Aircraft Repair
+- Mushshak Aircraft
+- K-8 Aircraft
+
+---
+
+**Other Industries**
+
+- Fertilizer
+- Tobacco
+- Cigarettes
+- Oil Refineries
+- Cars
+- Tractors
+- Ship Building
+- Ship Breaking
+
+---
+
+**Cottage Industries**
+
+Small-scale industries jin me kam investment aur kam workers hote hain.
+
+Examples:
+- Carpets
+- Sports Goods
+- Handicrafts
+- Toys
+- Handlooms
+
+---
+
+**7. Future Directions**
+
+Pakistan ki development ke liye Industrialization bohat zaroori hai.
+
+Future Focus:
+
+- Private Sector ko support
+- Foreign Investment
+- Political Stability
+- Economic Stability
+- Better Infrastructure
+- Kam Corruption
+- Easy Loans
+- Investor Security
+- Modern Technology
+
+Ye tamam cheezen Pakistan ki industrial growth ko mazboot banati hain.
+
+---
+
+**Exam Revision**
+
+✔ Pakistan inherited only 4% industries in 1947
+✔ Industrial Development Board = 1948
+✔ PIDC = 1950
+✔ Investment Promotion Bureau = 1959
+✔ IDBP = 1961
+✔ PPP introduced Nationalisation
+✔ 1990s = Privatisation & FDI
+✔ Largest Industry = Textile
+✔ Pakistan Steel Mills = Karachi
+✔ HMC = Taxila
+✔ Wah Ordnance = Defence Industry
+✔ Cottage Industries = Carpets, Sports Goods, Handicrafts`,
+  questions: [
+    {
+      q: 'Industrialization is considered the backbone of:',
+      options: ['A. Agriculture', 'B. Education', 'C. A Strong Economy', 'D. Tourism'],
+      answer: 'C. A Strong Economy',
+      diff: 'hard',
+    },
+    {
+      q: 'Approximately how much industry did Pakistan inherit in 1947?',
+      options: ['A. 2%', 'B. 4%', 'C. 8%', 'D. 10%'],
+      answer: 'B. 4%',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan Industrial Development Corporation (PIDC) was established in:',
+      options: ['A. 1948', 'B. 1950', 'C. 1955', 'D. 1961'],
+      answer: 'B. 1950',
+      diff: 'hard',
+    },
+    {
+      q: 'Industrial Development Bank of Pakistan (IDBP) was established in:',
+      options: ['A. 1959', 'B. 1960', 'C. 1961', 'D. 1965'],
+      answer: 'C. 1961',
+      diff: 'hard',
+    },
+    {
+      q: 'Which government introduced the policy of Nationalisation in the 1970s?',
+      options: ['A. Ayub Khan', 'B. Yahya Khan', 'C. PPP Government', 'D. Musharraf Government'],
+      answer: 'C. PPP Government',
+      diff: 'hard',
+    },
+    {
+      q: 'Which industry is the largest industry of Pakistan?',
+      options: ['A. Cement', 'B. Textile', 'C. Sugar', 'D. Steel'],
+      answer: 'B. Textile',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan Steel Mills is located in:',
+      options: ['A. Lahore', 'B. Karachi', 'C. Faisalabad', 'D. Taxila'],
+      answer: 'B. Karachi',
+      diff: 'hard',
+    },
+    {
+      q: 'Heavy Mechanical Complex (HMC) is located at:',
+      options: ['A. Wah', 'B. Karachi', 'C. Taxila', 'D. Lahore'],
+      answer: 'C. Taxila',
+      diff: 'hard',
+    },
+    {
+      q: 'Which institution was established to promote domestic and foreign investment?',
+      options: ['A. PIDC', 'B. IDBP', 'C. Investment Promotion Bureau', 'D. HMC'],
+      answer: 'C. Investment Promotion Bureau',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is an example of a cottage industry?',
+      options: ['A. Steel Mill', 'B. Oil Refinery', 'C. Carpet Weaving', 'D. Cement Factory'],
+      answer: 'C. Carpet Weaving',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+27: {
+  title: 'Education in Pakistan',
+  summary: `**Key Topics Covered:**
+- Importance of Education
+- Educational Issues
+- Kinds of Education
+- Distance Education
+- Privatization
+- Modern Technology
+- Conclusion
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Importance of Education**
+Education individual, society aur state ki development ki key hai.
+
+Education:
+- Character build karti hai.
+- Skills aur talents improve karti hai.
+- Jobs aur professions ke liye prepare karti hai.
+- Rights aur duties ka awareness deti hai.
+- Nation building me important role ada karti hai.
+- Literacy aur socio-economic development ko improve karti hai.
+- Islam bhi education hasil karne ki talqeen karta hai.
+
+**2. Educational Issues**
+
+**Resource Problem**
+- Education budget kam hai.
+- Zyada paisa salaries aur administration par kharch hota hai.
+- Research aur infrastructure par kam investment hoti hai.
+
+**Low Literacy**
+- Official literacy rate ≈ 46%.
+- Female literacy aur rural literacy aur bhi kam hai.
+
+**Enrollment & Dropout**
+- Bohat se bachay school hi nahi jate.
+- Primary aur High School level par dropout rate high hai.
+- Reasons:
+  - Poverty
+  - Ghost Schools
+  - Facilities ki kami
+
+**Teachers Related Issues**
+- Qualified teachers ki shortage.
+- Student-teacher ratio bohat zyada.
+- Teachers ki salaries aur incentives kam.
+- Training aur refresher courses inadequate hain.
+
+**Examination System**
+Problems:
+- Ratta system (memory based learning).
+- Understanding par kam focus.
+- Unfair means ka use.
+- Annual vs Semester system par debate.
+
+**Politicization**
+Student politics educational environment ko affect karti hai.
+
+**3. Kinds of Education**
+
+**Primary**
+Class 1–5
+
+**Middle**
+Class 6–8
+
+**Secondary**
+Class 9–10
+
+**Higher Secondary**
+Class 11–12
+
+**Degree Level**
+Bachelor Programs (BA / BSc etc.)
+
+**University Level**
+- MA
+- MSc
+- MPhil
+- PhD
+
+Professional education:
+- Medical
+- Engineering
+- Business
+- Commerce
+
+**Adult Education**
+Un logon ke liye jo bachpan me taleem hasil na kar sake.
+
+**Distance Education**
+Ghar baithe education hasil ki jati hai.
+
+Examples:
+- Allama Iqbal Open University
+- Virtual University
+
+**Privatization**
+Private Schools, Colleges aur Universities bhi education provide karte hain.
+
+**Military Educational Institutions**
+- NUST
+- Bahria University
+- Air University
+
+**Modern Technology**
+IT aur Computer Education ko promote kiya ja raha hai.
+
+**Conclusion**
+Pakistan ko development ke liye:
+✔ Education budget increase karna hoga.
+✔ Technical education ko promote karna hoga.
+✔ Women education improve karni hogi.
+✔ Universal Primary Education ensure karni hogi.
+
+**Exam Revision**
+✔ Literacy Rate ≈ 46%
+✔ Primary = Class 1–5
+✔ Middle = Class 6–8
+✔ Secondary = Class 9–10
+✔ Higher Secondary = Class 11–12
+✔ Distance Education = AIOU & VU
+✔ NUST, Bahria, Air University
+✔ Technical Education is essential`,
+  questions: [
+    {
+      q: 'Education is considered the key to:',
+      options: ['A. Politics', 'B. Development', 'C. Trade', 'D. Defence'],
+      answer: 'B. Development',
+      diff: 'hard',
+    },
+    {
+      q: 'According to the lecture, the official literacy rate of Pakistan is approximately:',
+      options: ['A. 36%', 'B. 40%', 'C. 46%', 'D. 55%'],
+      answer: 'C. 46%',
+      diff: 'hard',
+    },
+    {
+      q: 'One major problem in Pakistan’s education system is:',
+      options: ['A. High research funding', 'B. Ghost Schools', 'C. Excess teachers', 'D. Free university education'],
+      answer: 'B. Ghost Schools',
+      diff: 'hard',
+    },
+    {
+      q: 'Primary education in Pakistan consists of classes:',
+      options: ['A. 1–4', 'B. 1–5', 'C. 1–6', 'D. 1–8'],
+      answer: 'B. 1–5',
+      diff: 'hard',
+    },
+    {
+      q: 'Middle level education covers classes:',
+      options: ['A. 5–7', 'B. 6–8', 'C. 7–9', 'D. 8–10'],
+      answer: 'B. 6–8',
+      diff: 'hard',
+    },
+    {
+      q: 'Higher Secondary education consists of classes:',
+      options: ['A. 9–10', 'B. 10–11', 'C. 11–12', 'D. 12–13'],
+      answer: 'C. 11–12',
+      diff: 'hard',
+    },
+    {
+      q: 'Which university is an example of Distance Education in Pakistan?',
+      options: ['A. Punjab University', 'B. NUST', 'C. Allama Iqbal Open University', 'D. UET Lahore'],
+      answer: 'C. Allama Iqbal Open University',
+      diff: 'hard',
+    },
+    {
+      q: 'Virtual University mainly provides education through:',
+      options: ['A. Newspapers', 'B. TV and Internet', 'C. Radio only', 'D. Printed books only'],
+      answer: 'B. TV and Internet',
+      diff: 'hard',
+    },
+    {
+      q: 'Which of the following is a Military Foundation University?',
+      options: ['A. Bahria University', 'B. Karachi University', 'C. BZU', 'D. GCU Lahore'],
+      answer: 'A. Bahria University',
+      diff: 'hard',
+    },
+    {
+      q: 'According to the lecture, Pakistan needs to improve development mainly by:',
+      options: ['A. Reducing universities', 'B. Increasing military schools only', 'C. Promoting technical education and increasing education spending', 'D. Ending private education'],
+      answer: 'C. Promoting technical education and increasing education spending',
+      diff: 'hard',
+    },
+  ],
+},
+
+28: {
+  title: 'Foreign Policy of Pakistan',
+  summary: `**Key Topics Covered:**
+- Features of Foreign Policy
+- Relations with Major Powers
+- Muslim Countries
+- United Nations
+- Nuclear Policy
+- Relations with India
+- Kashmir Issue
+- Terrorism
+- Concluding Remarks
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Introduction**
+Foreign Policy kisi bhi country ke dusre mulkon ke sath relations ko manage karti hai.
+
+Pakistan ki Foreign Policy ke main objectives:
+- Independence ki protection
+- Sovereignty ki hifazat
+- Territorial Integrity
+- National Security
+- Peaceful Relations
+- Economic Development
+
+Pakistan Bilateral aur Multilateral dono levels par kaam karta hai aur UN ka member hai.
+
+**2. Features of Foreign Policy**
+Main aims:
+- National Security
+- Strong Defence
+- Peaceful Diplomacy
+- Mutual Cooperation
+- Non-interference in internal affairs
+- Peaceful settlement of disputes
+
+**3. Relations with Major Powers**
+
+**United States (USA)**
+- Generally friendly relations.
+- Nuclear issue, Kashmir aur arms sales par kabhi kabhi differences rahe.
+
+**China**
+Pakistan ka sab se reliable aur consistent dost.
+
+Cooperation:
+- Defence
+- Trade
+- Economy
+- Technology
+- Science
+- Industrial Development
+
+Pakistan ne China ko UN me support bhi kiya.
+
+**Russia**
+Cold War ke dauran Russia India ke qareeb tha.
+
+Positive Development:
+- Karachi Steel Mill establish karne me Russia ne help ki.
+
+Post-Cold War period me relations improve hue.
+
+**4. Economic Relations**
+Foreign Policy ka important goal:
+
+- Foreign Investment lana.
+- Trade increase karna.
+- Technology hasil karna.
+- International financial institutions ke sath cooperation.
+
+Major Organizations:
+- World Bank
+- IMF
+- Asian Development Bank
+
+**5. Relations with Muslim Countries**
+Pakistan hamesha Muslim countries ke sath strong relations ka supporter raha hai.
+
+Focus:
+- Islamic Unity
+- Mutual Cooperation
+- Peace
+- Economic Relations
+
+**6. Developing Countries**
+Pakistan Asia, Africa aur Latin America ke developing countries ki support karta hai.
+
+Support:
+- Poverty reduction
+- Economic cooperation
+- Technical assistance
+- Self-determination
+
+**7. United Nations**
+Pakistan joined UN on:
+30 September 1947
+
+Important Facts:
+- UN Charter ko support karta hai.
+- Security Council ka member 6 times raha.
+- UN Peace Keeping Missions me active role.
+
+**8. Anti-Colonialism**
+Pakistan support karta hai:
+- Decolonization
+- Racial Equality
+- Right of Self Determination
+
+Support kiya:
+- Kashmir
+- Palestine
+- Namibia
+- Zimbabwe
+
+**9. Arms Control**
+Pakistan arms race ke khilaf hai.
+
+Belief:
+Resources weapons ki bajaye human development par spend hone chahiye.
+
+**10. Nuclear Policy**
+Pakistan peaceful nuclear technology ka supporter hai.
+
+Important Point:
+India ke nuclear tests ke baad deterrence ke liye nuclear capability maintain ki.
+
+**11. Relations with India**
+India ke sath relations sab se zyada sensitive rahe hain.
+
+Major Wars:
+- 1947–48
+- 1965
+- 1971
+
+LoC par tensions aur Kashmir dispute relations ko affect karte rahe.
+
+**12. Kashmir Issue**
+Pakistan ka stance:
+Kashmir dispute ko UN Resolutions ke mutabiq solve hona chahiye.
+
+India Kashmir ko apna integral part samajhta hai.
+
+**13. Terrorism**
+Pakistan global war against terrorism me active participant raha.
+
+Steps:
+- Taliban ki support withdraw ki.
+- Terrorists ke khilaf operations kiye.
+- Root causes ko khatam karne par zor diya.
+
+**14. Conclusion**
+Pakistan diplomacy, peace aur cooperation ke zariye international community me apna role ada karta hai.
+
+**Exam Revision**
+✔ Main Aim = Security
+✔ UN Membership = 30 Sept 1947
+✔ China = Most Reliable Friend
+✔ Russia helped establish Karachi Steel Mill
+✔ Pakistan supports Muslim countries
+✔ Pakistan opposes Arms Race
+✔ Peaceful Nuclear Policy
+✔ Three Wars with India = 1947–48, 1965, 1971
+✔ Kashmir = Main dispute with India
+✔ Active in UN Peacekeeping Missions`,
+  questions: [
+    {
+      q: 'Pakistan became a member of the United Nations on:',
+      options: ['A. 14 August 1947', 'B. 30 September 1947', 'C. 23 March 1956', 'D. 1 January 1948'],
+      answer: 'B. 30 September 1947',
+      diff: 'hard',
+    },
+    {
+      q: 'The primary objective of Pakistan’s foreign policy is:',
+      options: ['A. Tourism', 'B. Security', 'C. Sports', 'D. Culture'],
+      answer: 'B. Security',
+      diff: 'hard',
+    },
+    {
+      q: 'Which country is considered Pakistan’s most reliable and consistent friend?',
+      options: ['A. USA', 'B. Russia', 'C. China', 'D. Iran'],
+      answer: 'C. China',
+      diff: 'hard',
+    },
+    {
+      q: 'Russia assisted Pakistan in establishing:',
+      options: ['A. Gwadar Port', 'B. Karachi Steel Mill', 'C. Tarbela Dam', 'D. Pakistan Railways'],
+      answer: 'B. Karachi Steel Mill',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan has served as a non-permanent member of the UN Security Council:',
+      options: ['A. 2 Times', 'B. 4 Times', 'C. 6 Times', 'D. 8 Times'],
+      answer: 'C. 6 Times',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan supports the peaceful use of:',
+      options: ['A. Missiles', 'B. Nuclear Technology', 'C. Chemical Weapons', 'D. Biological Weapons'],
+      answer: 'B. Nuclear Technology',
+      diff: 'hard',
+    },
+    {
+      q: 'The main dispute between Pakistan and India is:',
+      options: ['A. Water', 'B. Trade', 'C. Kashmir', 'D. Borders with China'],
+      answer: 'C. Kashmir',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan believes disputes between states should be resolved through:',
+      options: ['A. War', 'B. Diplomacy and Peaceful Means', 'C. Sanctions', 'D. Military Alliances'],
+      answer: 'B. Diplomacy and Peaceful Means',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan actively participates in:',
+      options: ['A. NATO Missions', 'B. UN Peacekeeping Missions', 'C. EU Parliament', 'D. ASEAN'],
+      answer: 'B. UN Peacekeeping Missions',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan joined the global campaign against terrorism after withdrawing support from:',
+      options: ['A. Al-Qaeda', 'B. Taliban', 'C. ISIS', 'D. Hamas'],
+      answer: 'B. Taliban',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+29: {
+  title: 'Pakistan and the Muslim World',
+  summary: `**Key Topics Covered:**
+- Foundations
+- Support for Independence
+- Palestine
+- Organization of Islamic Conference (OIC)
+- RCD & ECO
+- Relations with Muslim Countries
+- Saudi Arabia
+- Iran
+- Turkey
+- Egypt
+- Libya
+- Jordan
+- Afghanistan
+- Bangladesh
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Foundations**
+Pakistan ke Muslims ka Muslim World ke sath gehra rishta Islam aur Muslim Brotherhood ki bunyaad par hai.
+
+Main Ideas:
+- Pan-Islamism
+- Islamic Values
+- Muslim Unity
+- Close relations with Muslim countries
+
+Pakistan ki tamam Constitutions me Muslim Ummah aur Islamic heritage ko importance di gayi hai.
+
+**2. Support for Independence**
+Pakistan ne kai Muslim countries ki independence movement ki moral support ki.
+
+Supported Countries:
+- Indonesia
+- Tunisia
+- Morocco
+- Algeria
+- Libya
+- Sudan
+- Eritrea
+
+**3. Palestine**
+Pakistan hamesha Palestine ke haq me raha.
+
+Pakistan:
+- Independent Palestinian State ko support karta hai.
+- Israeli policies ki muzammat karta hai.
+- Palestinian Muslims ke rights ki himayat karta hai.
+
+**4. Organization of Islamic Conference (OIC)**
+
+OIC duniya ki sab se bari Muslim organization hai.
+
+Important Facts:
+- First OIC Summit: Rabat (1969)
+- Pakistan founding participants me shamil tha.
+- Second OIC Summit:
+  Lahore (1974)
+
+OIC ne hamesha Kashmir issue par Pakistan ki support ki.
+
+**5. RCD and ECO**
+
+RCD (Regional Cooperation for Development):
+Established:
+July 1964
+
+Members:
+- Pakistan
+- Iran
+- Turkey
+
+1985 me iska naam ECO (Economic Cooperation Organization) rakh diya gaya.
+
+Later Members:
+- Afghanistan
+- Azerbaijan
+- Kazakhstan
+- Kyrgyzstan
+- Tajikistan
+- Turkmenistan
+- Uzbekistan
+
+**6. Relations with Muslim Countries**
+
+**Saudi Arabia**
+- Pakistan ka close ally.
+- Kashmir issue par support.
+- OIC me cooperation.
+- India ke sath wars me support.
+
+**UAE & Gulf States**
+- Strong diplomatic aur economic relations.
+- Gwadar Port ke baad economic cooperation aur barhi.
+
+**Iran**
+- Pakistan ko recognize karne wala pehla country.
+- Shah of Iran Pakistan visit karne wale pehle Head of State thay.
+- CENTO, RCD aur ECO me cooperation.
+- 1965 aur 1971 wars me Pakistan ki support ki.
+- Iranian Revolution (1979) ko Pakistan ne welcome kiya.
+
+**Turkey**
+- Historical aur friendly relations.
+- CENTO, RCD aur ECO me cooperation.
+
+**Egypt**
+- Shuru me reservations thin Pakistan ke Western alliances ki wajah se.
+- Pakistan ne Egypt ko 1956, 1967 aur 1973 Arab-Israel wars me support kiya.
+- 1970 ke baad relations improve hue.
+
+**Libya**
+- Colonel Gaddafi Pakistan ke supporter thay.
+- Pakistan ne 1986 ke US air attacks on Libya ki condemnation ki.
+
+**Jordan**
+- Friendly relations.
+- King Hussain aur King Abdullah ne Pakistan ki support ki.
+- Military, trade aur diplomatic cooperation.
+
+**Afghanistan**
+- Neighboring Muslim country.
+- Pakhtunistan issue ki wajah se tensions rahe.
+- Soviet invasion ke baad Mujahideen aur Taliban ka emergence hua.
+- 9/11 ke baad Karzai Government bani.
+
+**Bangladesh**
+1971 me East Pakistan se Bangladesh bana.
+
+Pakistan:
+- 1974 me Bangladesh ko officially recognize kiya.
+- Dono countries SAARC aur OIC me mil kar kaam karti hain.
+
+**Exam Revision**
+✔ Pan-Islamism
+✔ Palestine Support
+✔ OIC = 1969 (Rabat)
+✔ Second OIC = Lahore 1974
+✔ RCD = 1964
+✔ ECO = 1985
+✔ Iran first country to recognize Pakistan
+✔ Saudi Arabia = Close Ally
+✔ Turkey = Historical Friend
+✔ Bangladesh recognized in 1974`,
+  questions: [
+    {
+      q: 'The ideology behind Pakistan’s close relations with Muslim countries is:',
+      options: ['A. Capitalism', 'B. Pan-Islamism', 'C. Socialism', 'D. Nationalism'],
+      answer: 'B. Pan-Islamism',
+      diff: 'hard',
+    },
+    {
+      q: 'The first OIC Summit was held in:',
+      options: ['A. Lahore', 'B. Jeddah', 'C. Rabat', 'D. Karachi'],
+      answer: 'C. Rabat',
+      diff: 'hard',
+    },
+    {
+      q: 'The second OIC Summit was held in:',
+      options: ['A. Islamabad', 'B. Lahore', 'C. Tehran', 'D. Riyadh'],
+      answer: 'B. Lahore',
+      diff: 'hard',
+    },
+    {
+      q: 'RCD was established in:',
+      options: ['A. 1962', 'B. 1964', 'C. 1969', 'D. 1974'],
+      answer: 'B. 1964',
+      diff: 'hard',
+    },
+    {
+      q: 'RCD was renamed as:',
+      options: ['A. SAARC', 'B. GCC', 'C. ECO', 'D. OPEC'],
+      answer: 'C. ECO',
+      diff: 'hard',
+    },
+    {
+      q: 'Which country was the first to recognize Pakistan?',
+      options: ['A. Saudi Arabia', 'B. Turkey', 'C. Iran', 'D. Egypt'],
+      answer: 'C. Iran',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan officially recognized Bangladesh in:',
+      options: ['A. 1971', 'B. 1972', 'C. 1973', 'D. 1974'],
+      answer: 'D. 1974',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan consistently supports the establishment of an independent:',
+      options: ['A. Kashmir State', 'B. Palestinian State', 'C. Kurdish State', 'D. Afghan State'],
+      answer: 'B. Palestinian State',
+      diff: 'hard',
+    },
+    {
+      q: 'Which organization has consistently supported Pakistan on the Kashmir issue?',
+      options: ['A. SAARC', 'B. ECO', 'C. OIC', 'D. ASEAN'],
+      answer: 'C. OIC',
+      diff: 'hard',
+    },
+    {
+      q: 'The original members of RCD were:',
+      options: ['A. Pakistan, Iran and Turkey', 'B. Pakistan, Saudi Arabia and Iran', 'C. Pakistan, Afghanistan and Iran', 'D. Pakistan, Turkey and Egypt'],
+      answer: 'A. Pakistan, Iran and Turkey',
+      diff: 'hard',
+    },
+  ],
+},
+
+
+30: {
+  title: 'Course Review',
+  summary: `**Key Topics Covered:**
+- Ideology of Pakistan
+- Freedom Movement
+- New State & Constitutions
+- Political History
+- Basic Data of Pakistan
+- Foreign Policy
+
+**Complete Short Notes (Roman Urdu)**
+
+**1. Ideology of Pakistan**
+Ideology beliefs, values aur ideals ka majmua hota hai jo kisi nation ko direction deta hai.
+
+Functions:
+- Principles aur vision provide karta hai.
+- Political, social aur economic system ka review karta hai.
+- National consciousness create karta hai.
+- Leadership ko direction deta hai.
+- Nation ko commitment aur unity deta hai.
+
+**Ideology of Pakistan**
+Pakistan ki ideology **Two-Nation Theory** par mabni hai.
+
+Main Points:
+- Muslims ek separate Nation thay.
+- Islam ne Muslim identity ko mazboot banaya.
+- History, culture, economy aur political experience ne bhi ideology ko support kiya.
+
+**2. Freedom Movement**
+Freedom Movement ka maqsad Muslim identity ko protect karna aur separate homeland hasil karna tha.
+
+Important Reasons:
+- Muslim political experience (1857–1947)
+- British Colonial Rule
+- Modern educated Muslim leadership
+- Hindu-Muslim political competition
+- Constitutional safeguards ki demand
+
+Important Events:
+- Lucknow Pact
+- Delhi Muslim Proposals
+- Jinnah's 14 Points
+- Round Table Conferences
+- Nehru Report
+- Provincial Ministries
+- Cabinet Mission Plan
+
+**3. New State, Constitution & Political History**
+Pakistan banne ke baad sab se bara challenge state aur constitution banana tha.
+
+Major Issues:
+- Federal Structure
+- Representation
+- National Language
+- Electoral System
+- Islamic State
+- Parliamentary vs Presidential System
+
+Important Constitutional Developments:
+- Two Constituent Assemblies
+- One Unit Scheme
+- Constitution 1956
+- Constitution 1962
+- Constitution 1973
+- Parliamentary aur Presidential systems ka experiment
+
+Political History:
+- 1947–1971
+- 1972 onwards
+
+**4. Basic Data of Pakistan**
+Course me Pakistan ke basic facts bhi study kiye gaye.
+
+Topics:
+- Geography
+- Physical Features
+- Boundaries
+- Neighborhood
+- Natural Resources
+- Agriculture
+- Industrial Development
+- Education
+
+Ye tamam factors national planning aur policy making me important role ada karte hain.
+
+**5. Foreign Policy**
+Pakistan ki Foreign Policy ka basic objective national interest ko protect karna hai.
+
+Main Objectives:
+- National Interest
+- Independence
+- Sovereignty
+- Territorial Integrity
+- Friendly Relations with all states
+- Mutual Benefits
+- Non-interference
+- Peaceful Settlement of Disputes
+- Faith in United Nations Charter
+
+**Exam Revision**
+✔ Ideology = Beliefs, Values & Ideals
+✔ Pakistan Ideology = Two-Nation Theory
+✔ Islam is the core of Pakistan's ideology
+✔ Freedom Movement = Separate Muslim State
+✔ Important Events = Lucknow Pact, Delhi Proposals, 14 Points, Round Table Conferences
+✔ Constitutions = 1956, 1962, 1973
+✔ Political History = 1947–1971 & 1972 onwards
+✔ Basic Data = Geography, Resources, Agriculture, Industry, Education
+✔ Foreign Policy = National Interest, Sovereignty & Peace`,
+  questions: [
+    {
+      q: 'The ideology of Pakistan is primarily based on:',
+      options: ['A. Socialism', 'B. Democracy', 'C. Two-Nation Theory', 'D. Secularism'],
+      answer: 'C. Two-Nation Theory',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan ideology is mainly strengthened by:',
+      options: ['A. Geography', 'B. Islam', 'C. Economy', 'D. Language'],
+      answer: 'B. Islam',
+      diff: 'hard',
+    },
+    {
+      q: 'Which event is NOT directly related to the Freedom Movement?',
+      options: ['A. Lucknow Pact', 'B. Jinnah’s 14 Points', 'C. Round Table Conferences', 'D. Simla Agreement'],
+      answer: 'D. Simla Agreement',
+      diff: 'hard',
+    },
+    {
+      q: 'Which constitutional issue was discussed after independence?',
+      options: ['A. Electoral System', 'B. Federal Structure', 'C. National Language', 'D. All of these'],
+      answer: 'D. All of these',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan adopted its first Constitution in:',
+      options: ['A. 1954', 'B. 1956', 'C. 1962', 'D. 1973'],
+      answer: 'B. 1956',
+      diff: 'hard',
+    },
+    {
+      q: 'Which Constitutions are covered in this course review?',
+      options: ['A. 1956 only', 'B. 1956 & 1962', 'C. 1962 & 1973', 'D. 1956, 1962 & 1973'],
+      answer: 'D. 1956, 1962 & 1973',
+      diff: 'hard',
+    },
+    {
+      q: 'Which topic is included under Basic Data of Pakistan?',
+      options: ['A. Geography', 'B. Agriculture', 'C. Education', 'D. All of these'],
+      answer: 'D. All of these',
+      diff: 'hard',
+    },
+    {
+      q: 'The primary aim of Pakistan’s Foreign Policy is to protect:',
+      options: ['A. National Interest', 'B. Tourism', 'C. Sports', 'D. Population'],
+      answer: 'A. National Interest',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan’s Foreign Policy believes in:',
+      options: ['A. Use of Force', 'B. Non-interference & Peaceful Resolution', 'C. Expansionism', 'D. Isolation'],
+      answer: 'B. Non-interference & Peaceful Resolution',
+      diff: 'hard',
+    },
+    {
+      q: 'Pakistan has faith in which international organization according to its Foreign Policy?',
+      options: ['A. NATO', 'B. OIC', 'C. United Nations', 'D. SAARC'],
+      answer: 'C. United Nations',
+      diff: 'hard',
+    },
+  ],
+},
   
   },
 
   // ─────────────────────────────────────────
   //  ENG101
   // ─────────────────────────────────────────
+ 
+
+
+
+
+
   ENG101: {
-    1: {
-      title: 'Dictionary Skills — Spelling, Meaning & Usage',
-      summary: `**Key Topics Covered:**
-- British vs American English spelling
-- Multiple meanings of words (Polysemy)
-- Context-based meanings of "play"
-- Phrasal verbs and idioms
-- Usage labels (slang, informal, colloquial)
-- Foreign words and phrases
-
-**Important Concepts:**
-
-**Spelling Variations:**
-British and American English have different spellings for the same words — both are correct:
-- Theatre (British) = Theater (American)
-- Catalogue (British) = Catalog (American)
-Past tense of "play" = played (regular verb: add -ed)
-
-**Polysemy — Multiple Meanings:**
-One word can have many meanings depending on context. "Set" has one of the LARGEST number of meanings in the English language.
-
-**The Word "Play" in Context:**
-- "Boys play on court" = take part in a game or sport
-- "Amna will play sitar" = perform on a musical instrument
-- "The play was a success" = a dramatic stage performance
-- "A clever play" = a move or strategy in a game
-- "Played the hose on flowers" = direct a stream of water
-- "Play on words" = a pun (humorous use of similar-sounding words)
-
-**Phrasal Verbs and Idioms:**
-- "Held forth" = spoke at length about a topic
-- "Don't get it" = don't understand
-- "Hard up" = short of money / in financial difficulty
-
-**Usage Labels:**
-- Slang/Informal: "Guys", "Cool"
-- Colloquial: "O.K." = all right
-Avoid slang/informal words in formal academic writing.
-
-**Foreign Words and Phrases:**
-- et cetera (etc.) = and so on
-- e.g. = for example
-- et al. = and others (academic citations)
-- a priori = reasoning before experience
-- coup d'état = sudden overthrow of a government
-- per se = by or in itself
-
-**Quick Revision Points:**
-- Theatre = British | Theater = American
-- Catalogue = British | Catalog = American
-- "Set" has the most meanings in English
-- Context determines meaning of a word
-- Slang = NOT used in formal writing
-- "et al." = academic citations
-- "e.g." = for example | "etc." = and so on
-- "a priori" = before experience
-- Phrasal verbs change meaning from the base verb`,
-      questions: [
+    "1": {
+      "title": "Dictionary Skills — Spelling, Meaning & Usage",
+      "summary": "**Key Topics Covered:**\n- British vs American English spelling\n- Multiple meanings of words (Polysemy)\n- Context-based meanings of \"play\"\n- Phrasal verbs and idioms\n- Usage labels (slang, informal, colloquial)\n- Foreign words and phrases\n\n**Important Concepts:**\n\n**Spelling Variations:**\nBritish and American English have different spellings for the same words — both are correct:\n- Theatre (British) = Theater (American)\n- Catalogue (British) = Catalog (American)\nPast tense of \"play\" = played (regular verb: add -ed)\n\n**Polysemy — Multiple Meanings:**\nOne word can have many meanings depending on context. \"Set\" has one of the LARGEST number of meanings in the English language.\n\n**The Word \"Play\" in Context:**\n- \"Boys play on court\" = take part in a game or sport\n- \"Amna will play sitar\" = perform on a musical instrument\n- \"The play was a success\" = a dramatic stage performance\n- \"A clever play\" = a move or strategy in a game\n- \"Played the hose on flowers\" = direct a stream of water\n- \"Play on words\" = a pun (humorous use of similar-sounding words)\n\n**Phrasal Verbs and Idioms:**\n- \"Held forth\" = spoke at length about a topic\n- \"Don't get it\" = don't understand\n- \"Hard up\" = short of money / in financial difficulty\n\n**Usage Labels:**\n- Slang/Informal: \"Guys\", \"Cool\"\n- Colloquial: \"O.K.\" = all right\nAvoid slang/informal words in formal academic writing.\n\n**Foreign Words and Phrases:**\n- et cetera (etc.) = and so on\n- e.g. = for example\n- et al. = and others (academic citations)\n- a priori = reasoning before experience\n- coup d'état = sudden overthrow of a government\n- per se = by or in itself\n\n**Quick Revision Points:**\n- Theatre = British | Theater = American\n- Catalogue = British | Catalog = American\n- \"Set\" has the most meanings in English\n- Context determines meaning of a word\n- Slang = NOT used in formal writing\n- \"et al.\" = academic citations\n- \"e.g.\" = for example | \"etc.\" = and so on\n- \"a priori\" = before experience\n- Phrasal verbs change meaning from the base verb",
+      "questions": [
         {
-          q: '"Theatre" and "Theater" are:',
-          options: ['A. Words with completely different meanings', 'B. The same word with different regional spellings', 'C. Both incorrect spellings', 'D. Slang words'],
-          answer: 'B. The same word with different regional spellings',
-          diff: 'easy',
+          "q": "\"Theatre\" and \"Theater\" are:",
+          "options": ["A. Words with completely different meanings", "B. The same word with different regional spellings", "C. Both incorrect spellings", "D. Slang words"],
+          "answer": "B. The same word with different regional spellings",
+          "diff": "easy"
         },
         {
-          q: 'Which spelling is American English?',
-          options: ['A. Theatre', 'B. Catalogue', 'C. Theater', 'D. Colour'],
-          answer: 'C. Theater',
-          diff: 'easy',
+          "q": "Which spelling is American English?",
+          "options": ["A. Theatre", "B. Catalogue", "C. Theater", "D. Colour"],
+          "answer": "C. Theater",
+          "diff": "easy"
         },
         {
-          q: 'Which spelling is British English?',
-          options: ['A. Catalog', 'B. Theater', 'C. Catalogue', 'D. Color'],
-          answer: 'C. Catalogue',
-          diff: 'easy',
+          "q": "Which spelling is British English?",
+          "options": ["A. Catalog", "B. Theater", "C. Catalogue", "D. Color"],
+          "answer": "C. Catalogue",
+          "diff": "easy"
         },
         {
-          q: 'The past tense of "play" is:',
-          options: ['A. playd', 'B. played', 'C. playing', 'D. plays'],
-          answer: 'B. played',
-          diff: 'easy',
+          "q": "The past tense of \"play\" is:",
+          "options": ["A. playd", "B. played", "C. playing", "D. plays"],
+          "answer": "B. played",
+          "diff": "easy"
         },
         {
-          q: 'The word "fast" is notable because it has:',
-          options: ['A. Only one meaning', 'B. No noun form', 'C. Many different meanings across parts of speech', 'D. Only verb meanings'],
-          answer: 'C. Many different meanings across parts of speech',
-          diff: 'medium',
+          "q": "The word \"fast\" is notable because it has:",
+          "options": ["A. Only one meaning", "B. No noun form", "C. Many different meanings across parts of speech", "D. Only verb meanings"],
+          "answer": "C. Many different meanings across parts of speech",
+          "diff": "medium"
         },
         {
-          q: 'The word "set" is known for:',
-          options: ['A. Having very few meanings', 'B. Having one of the largest number of meanings in English', 'C. Being only a verb', 'D. Having no adjective form'],
-          answer: 'B. Having one of the largest number of meanings in English',
-          diff: 'medium',
+          "q": "The word \"set\" is known for:",
+          "options": ["A. Having very few meanings", "B. Having one of the largest number of meanings in English", "C. Being only a verb", "D. Having no adjective form"],
+          "answer": "B. Having one of the largest number of meanings in English",
+          "diff": "medium"
         },
         {
-          q: '"The boys like to play on the hard court." Here "play" means:',
-          options: ['A. Perform music', 'B. Act in a drama', 'C. Take part in a game or sport', 'D. Use water'],
-          answer: 'C. Take part in a game or sport',
-          diff: 'easy',
+          "q": "\"The boys like to play on the hard court.\" Here \"play\" means:",
+          "options": ["A. Perform music", "B. Act in a drama", "C. Take part in a game or sport", "D. Use water"],
+          "answer": "C. Take part in a game or sport",
+          "diff": "easy"
         },
         {
-          q: '"Amna will play the sitar in the concert." Here "play" means:',
-          options: ['A. Take part in a game', 'B. Perform on a musical instrument', 'C. Act in a drama', 'D. Use a strategy'],
-          answer: 'B. Perform on a musical instrument',
-          diff: 'easy',
+          "q": "\"Amna will play the sitar in the concert.\" Here \"play\" means:",
+          "options": ["A. Take part in a game", "B. Perform on a musical instrument", "C. Act in a drama", "D. Use a strategy"],
+          "answer": "B. Perform on a musical instrument",
+          "diff": "easy"
         },
         {
-          q: '"The play produced by the arts club was a success." Here "play" means:',
-          options: ['A. A game', 'B. A strategy', 'C. A dramatic performance or stage production', 'D. A musical performance'],
-          answer: 'C. A dramatic performance or stage production',
-          diff: 'easy',
+          "q": "\"The play produced by the arts club was a success.\" Here \"play\" means:",
+          "options": ["A. A game", "B. A strategy", "C. A dramatic performance or stage production", "D. A musical performance"],
+          "answer": "C. A dramatic performance or stage production",
+          "diff": "easy"
         },
         {
-          q: '"It was a clever play that won the football game." Here "play" means:',
-          options: ['A. A drama', 'B. Music performance', 'C. A move or strategy in a game', 'D. Water direction'],
-          answer: 'C. A move or strategy in a game',
-          diff: 'medium',
+          "q": "\"It was a clever play that won the football game.\" Here \"play\" means:",
+          "options": ["A. A drama", "B. Music performance", "C. A move or strategy in a game", "D. Water direction"],
+          "answer": "C. A move or strategy in a game",
+          "diff": "medium"
         },
         {
-          q: '"The gardener played the hose on the flower beds." Here "play" means:',
-          options: ['A. Perform music', 'B. Direct a stream of water onto something', 'C. Act in a drama', 'D. Use a game strategy'],
-          answer: 'B. Direct a stream of water onto something',
-          diff: 'medium',
+          "q": "\"The gardener played the hose on the flower beds.\" Here \"play\" means:",
+          "options": ["A. Perform music", "B. Direct a stream of water onto something", "C. Act in a drama", "D. Use a game strategy"],
+          "answer": "B. Direct a stream of water onto something",
+          "diff": "medium"
         },
         {
-          q: '"A week without water can make one weak" is a play on words. This means:',
-          options: ['A. A physical game using words', 'B. A humorous use of words that sound alike but have different meanings', 'C. A dramatic performance', 'D. A musical piece'],
-          answer: 'B. A humorous use of words that sound alike but have different meanings',
-          diff: 'hard',
+          "q": "\"A week without water can make one weak\" is a play on words. This means:",
+          "options": ["A. A physical game using words", "B. A humorous use of words that sound alike but have different meanings", "C. A dramatic performance", "D. A musical piece"],
+          "answer": "B. A humorous use of words that sound alike but have different meanings",
+          "diff": "hard"
         },
         {
-          q: '"Prof. Widdowson held forth for over an hour." The phrase "held forth" means:',
-          options: ['A. Kept quiet for a long time', 'B. Spoke at length about a topic', 'C. Walked forward', 'D. Listened carefully'],
-          answer: 'B. Spoke at length about a topic',
-          diff: 'medium',
+          "q": "\"Prof. Widdowson held forth for over an hour.\" The phrase \"held forth\" means:",
+          "options": ["A. Kept quiet for a long time", "B. Spoke at length about a topic", "C. Walked forward", "D. Listened carefully"],
+          "answer": "B. Spoke at length about a topic",
+          "diff": "medium"
         },
         {
-          q: '"I don\'t get how you found the answer." Here "get" means:',
-          options: ['A. Receive something', 'B. Go somewhere', 'C. Understand', 'D. Buy something'],
-          answer: 'C. Understand',
-          diff: 'easy',
+          "q": "\"I don't get how you found the answer.\" Here \"get\" means:",
+          "options": ["A. Receive something", "B. Go somewhere", "C. Understand", "D. Buy something"],
+          "answer": "C. Understand",
+          "diff": "easy"
         },
         {
-          q: '"My roommate is pretty hard up these days." The phrase "hard up" means:',
-          options: ['A. Working very hard', 'B. Physically strong', 'C. Short of money or in financial difficulty', 'D. Very busy'],
-          answer: 'C. Short of money or in financial difficulty',
-          diff: 'medium',
+          "q": "\"My roommate is pretty hard up these days.\" The phrase \"hard up\" means:",
+          "options": ["A. Working very hard", "B. Physically strong", "C. Short of money or in financial difficulty", "D. Very busy"],
+          "answer": "C. Short of money or in financial difficulty",
+          "diff": "medium"
         },
         {
-          q: 'The word "Guys" is labeled as:',
-          options: ['A. Formal', 'B. Slang or informal', 'C. Technical', 'D. Academic'],
-          answer: 'B. Slang or informal',
-          diff: 'easy',
+          "q": "The word \"Guys\" is labeled as:",
+          "options": ["A. Formal", "B. Slang or informal", "C. Technical", "D. Academic"],
+          "answer": "B. Slang or informal",
+          "diff": "easy"
         },
         {
-          q: 'The word "Cool" (meaning great/excellent) is labeled as:',
-          options: ['A. Formal', 'B. Scientific', 'C. Slang or informal', 'D. Legal term'],
-          answer: 'C. Slang or informal',
-          diff: 'easy',
+          "q": "The word \"Cool\" (meaning great/excellent) is labeled as:",
+          "options": ["A. Formal", "B. Scientific", "C. Slang or informal", "D. Legal term"],
+          "answer": "C. Slang or informal",
+          "diff": "easy"
         },
         {
-          q: 'What does "et cetera (etc.)" mean?',
-          options: ['A. For example', 'B. And others (of the same kind) / and so on', 'C. That is', 'D. Before experience'],
-          answer: 'B. And others (of the same kind) / and so on',
-          diff: 'easy',
+          "q": "What does \"et cetera (etc.)\" mean?",
+          "options": ["A. For example", "B. And others (of the same kind) / and so on", "C. That is", "D. Before experience"],
+          "answer": "B. And others (of the same kind) / and so on",
+          "diff": "easy"
         },
         {
-          q: 'What does "e.g." mean?',
-          options: ['A. And so on', 'B. That is', 'C. For example', 'D. And others'],
-          answer: 'C. For example',
-          diff: 'easy',
+          "q": "What does \"e.g.\" mean?",
+          "options": ["A. And so on", "B. That is", "C. For example", "D. And others"],
+          "answer": "C. For example",
+          "diff": "easy"
         },
         {
-          q: 'What does "coup d\'état" mean?',
-          options: ['A. A peace agreement between nations', 'B. A sudden, forceful overthrow of a government', 'C. A democratic election', 'D. A legal court decision'],
-          answer: 'B. A sudden, forceful overthrow of a government',
-          diff: 'hard',
+          "q": "What does \"coup d'état\" mean?",
+          "options": ["A. A peace agreement between nations", "B. A sudden, forceful overthrow of a government", "C. A democratic election", "D. A legal court decision"],
+          "answer": "B. A sudden, forceful overthrow of a government",
+          "diff": "hard"
         },
         {
-          q: 'What does "per se" mean?',
-          options: ['A. For example', 'B. And others', 'C. By or in itself', 'D. Before experience'],
-          answer: 'C. By or in itself',
-          diff: 'medium',
+          "q": "What does \"per se\" mean?",
+          "options": ["A. For example", "B. And others", "C. By or in itself", "D. Before experience"],
+          "answer": "C. By or in itself",
+          "diff": "medium"
         },
         {
-          q: 'What does "a priori" mean?',
-          options: ['A. Based on experience', 'B. And so on', 'C. By itself', 'D. Based on reasoning before experience or observation'],
-          answer: 'D. Based on reasoning before experience or observation',
-          diff: 'hard',
+          "q": "What does \"a priori\" mean?",
+          "options": ["A. Based on experience", "B. And so on", "C. By itself", "D. Based on reasoning before experience or observation"],
+          "answer": "D. Based on reasoning before experience or observation",
+          "diff": "hard"
         },
         {
-          q: 'What does "et al." mean?',
-          options: ['A. For example', 'B. And others (used in academic citations)', 'C. And so on', 'D. By itself'],
-          answer: 'B. And others (used in academic citations)',
-          diff: 'medium',
-        },
-      ],
+          "q": "What does \"et al.\" mean?",
+          "options": ["A. For example", "B. And others (used in academic citations)", "C. And so on", "D. By itself"],
+          "answer": "B. And others (used in academic citations)",
+          "diff": "medium"
+        }
+      ]
     },
-
-
-    /// lecture 2//
-
-    2: {
-  title: 'Pronunciation & Stress',
+    "2": {
+      "title": "Pronunciation & Stress",
+      "summary": "**Key Topics Covered:**\n- English pronunciation\n- Dictionary usage\n- Phonemic symbols\n- Vowel sounds\n- Consonant sounds\n- Stress in words\n- Meaning changes due to stress\n\n---\n\n**Simple Understanding:**\n\n**What is Pronunciation?**\n👉 Pronunciation means speaking words with correct sounds.\n\n👉 English spelling and pronunciation are often different.\n\n---\n\n**Dictionary Usage:**\n👉 Dictionaries show pronunciation using phonemic symbols.\n\n👉 These symbols are written between slash brackets:\n/ /\n\n---\n\n**Examples of Different Sounds:**\n\n- Chorus → ch = /k/\n- Church → ch = /ch/\n- Ration → tion = /sh/\n- Machine → ch = /sh/\n\n👉 The same letters can produce different sounds.\n\n---\n\n**Phonemic Symbols:**\n👉 Special symbols used to show exact speech sounds.\n\n👉 Every sound has its own symbol.\n\n---\n\n**Vowel Sounds:**\nEnglish has 20 vowel phonemes:\n\n- 7 Short vowels\n- 5 Long vowels\n- 8 Diphthongs\n\n---\n\n**Long Vowels:**\n👉 Long vowel symbols contain /ː/\n\n👉 The sound is pronounced for a longer time.\n\n---\n\n**Diphthongs:**\n👉 Diphthongs are made by combining two vowel sounds.\n\n👉 The mouth moves from one sound to another.\n\n---\n\n**Consonant Sounds:**\n👉 English has 24 consonant sounds.\n\n👉 These sounds are produced by complete or partial stoppage of breath.\n\n---\n\n**Stress:**\n👉 Stress means giving extra force to a syllable while speaking.\n\n👉 Dictionaries show stress with a tiny mark.\n\nExamples:\n- mother\n- table\n- after\n\n👉 In these words, the first syllable is stressed.\n\n---\n\n**Second Syllable Stress:**\nExamples:\n- hotel\n- bamboo\n- banana\n\n👉 In these words, the second syllable is stressed.\n\n---\n\n**Meaning Change Due to Stress:**\n👉 Some words change meaning or part of speech because of stress.\n\nExamples:\n- rebel (noun)\n- rebel (verb)\n\n- present (noun/adjective)\n- present (verb)\n\n---\n\n**Quick Revision Points:**\n- Pronunciation = correct sound\n- Dictionaries use phonemic symbols\n- Symbols are written in / /\n- Chorus → /k/\n- Church → /ch/\n- Machine → /sh/\n- Total vowel phonemes = 20\n- Long vowels contain /ː/\n- Diphthongs combine 2 vowel sounds\n- English has 24 consonant sounds\n- Stress = extra force on syllable\n- Stress can change meaning",
+      "questions": [
+        {
+          "q": "Pronunciation means:",
+          "options": ["A. Writing words", "B. Speaking words correctly", "C. Reading silently", "D. Grammar rules"],
+          "answer": "B. Speaking words correctly",
+          "diff": "easy"
+        },
+        {
+          "q": "Students face pronunciation problems because:",
+          "options": ["A. English has no vowels", "B. Spellings are confusing", "C. Dictionaries do not exist", "D. Words are too short"],
+          "answer": "B. Spellings are confusing",
+          "diff": "easy"
+        },
+        {
+          "q": "Dictionaries show pronunciation using:",
+          "options": ["A. Pictures", "B. Phonemic symbols", "C. Numbers", "D. Colors"],
+          "answer": "B. Phonemic symbols",
+          "diff": "easy"
+        },
+        {
+          "q": "Phonemic symbols are written between:",
+          "options": ["A. ( )", "B. [ ]", "C. / /", "D. { }"],
+          "answer": "C. / /",
+          "diff": "easy"
+        },
+        {
+          "q": "In the word \"chorus\", \"ch\" sounds like:",
+          "options": ["A. /sh/", "B. /ch/", "C. /k/", "D. /t/"],
+          "answer": "C. /k/",
+          "diff": "easy"
+        },
+        {
+          "q": "In the word \"church\", \"ch\" sounds like:",
+          "options": ["A. /k/", "B. /sh/", "C. /ch/", "D. /z/"],
+          "answer": "C. /ch/",
+          "diff": "easy"
+        },
+        {
+          "q": "In the word \"ration\", \"tion\" sounds like:",
+          "options": ["A. /sh/", "B. /k/", "C. /ch/", "D. /t/"],
+          "answer": "A. /sh/",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word has \"ch\" pronounced as /sh/?",
+          "options": ["A. Church", "B. Chorus", "C. Machine", "D. Chair"],
+          "answer": "C. Machine",
+          "diff": "medium"
+        },
+        {
+          "q": "English has total vowel phonemes:",
+          "options": ["A. 10", "B. 15", "C. 20", "D. 24"],
+          "answer": "C. 20",
+          "diff": "easy"
+        },
+        {
+          "q": "How many short vowels are there in English?",
+          "options": ["A. 5", "B. 7", "C. 8", "D. 10"],
+          "answer": "B. 7",
+          "diff": "easy"
+        },
+        {
+          "q": "How many long vowels are there in English?",
+          "options": ["A. 5", "B. 7", "C. 8", "D. 20"],
+          "answer": "A. 5",
+          "diff": "easy"
+        },
+        {
+          "q": "How many diphthongs are there in English?",
+          "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+          "answer": "D. 8",
+          "diff": "medium"
+        },
+        {
+          "q": "Diphthongs are made by:",
+          "options": ["A. Two consonants", "B. One vowel", "C. Two vowel sounds", "D. Silence"],
+          "answer": "C. Two vowel sounds",
+          "diff": "medium"
+        },
+        {
+          "q": "Long vowels contain:",
+          "options": ["A. A star", "B. /ː/", "C. Brackets", "D. Dash"],
+          "answer": "B. /ː/",
+          "diff": "easy"
+        },
+        {
+          "q": "English has how many consonant sounds?",
+          "options": ["A. 20", "B. 22", "C. 24", "D. 26"],
+          "answer": "C. 24",
+          "diff": "easy"
+        },
+        {
+          "q": "Consonant sounds are produced by:",
+          "options": ["A. Complete or partial stoppage of breath", "B. Only vowels", "C. Silent reading", "D. Nose only"],
+          "answer": "A. Complete or partial stoppage of breath",
+          "diff": "medium"
+        },
+        {
+          "q": "Stress means:",
+          "options": ["A. Fast reading", "B. Extra force in pronunciation", "C. Writing clearly", "D. Silence"],
+          "answer": "B. Extra force in pronunciation",
+          "diff": "easy"
+        },
+        {
+          "q": "Dictionaries indicate stress using:",
+          "options": ["A. Tiny mark", "B. Capital letters", "C. Full stop", "D. Slash"],
+          "answer": "A. Tiny mark",
+          "diff": "medium"
+        },
+        {
+          "q": "Which word has stress on the first syllable?",
+          "options": ["A. Hotel", "B. Banana", "C. Mother", "D. Bamboo"],
+          "answer": "C. Mother",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word has stress on the second syllable?",
+          "options": ["A. Table", "B. After", "C. Hotel", "D. Mother"],
+          "answer": "C. Hotel",
+          "diff": "easy"
+        },
+        {
+          "q": "Words with the same spelling may change meaning because of:",
+          "options": ["A. Punctuation", "B. Stress difference", "C. Color", "D. Size"],
+          "answer": "B. Stress difference",
+          "diff": "hard"
+        }
+      ]
+    },
+    "3": {
+      "title": "Topic Sentences & Main Ideas",
+      "summary": "**Key Topics Covered:**\n- Topic sentences\n- Main ideas\n- Supporting details\n- Communication and groups\n- Plant science\n- Reading skills\n- Language and grammar\n- Effective listening\n\n---\n\n**Simple Understanding:**\n\n**Topic Sentence:**\n👉 A topic sentence tells the main idea of a paragraph.\n\n👉 Supporting details explain the topic sentence.\n\n---\n\n**Main Idea:**\n👉 Every paragraph focuses on one central idea.\n\n👉 Readers should identify what the writer mainly wants to explain.\n\n---\n\n**Text About Plants:**\n👉 New plant species are discovered every year.\n\n👉 Taxonomists classify and name plants scientifically.\n\n👉 Plant classification is important for scientists.\n\n---\n\n**Groups in Sociology:**\n👉 A group exists when people communicate with each other.\n\n👉 Physical closeness alone does not make a group.\n\n---\n\n**Plant Physiology:**\n👉 Plants absorb water, oxygen, and minerals.\n\n👉 Plant physiology studies plant functions and activities.\n\n---\n\n**Reading Skills:**\n👉 Good readers read for understanding, not pronunciation.\n\n👉 Reading word by word slows comprehension.\n\n---\n\n**Language and Grammar:**\n👉 Learning a language means learning sounds, words, and grammar rules.\n\n👉 Grammar represents linguistic competence.\n\n---\n\n**Chinese Writing System:**\n👉 Chinese writing uses characters representing meanings instead of sounds.\n\n👉 Thousands of characters are needed to read Chinese.\n\n---\n\n**Effective Listening:**\n👉 Good listeners prepare before lectures.\n\n👉 They sit where they can hear clearly.\n\n👉 After listening, they review and evaluate ideas.\n\n---\n\n**Mathematics and Units:**\n👉 Unlike quantities cannot be added together.\n\n👉 Quantities must have the same units.\n\n---\n\n**Computers:**\n👉 There are two main types:\n- Analog computers\n- Digital computers\n\n👉 Most modern computers are digital.\n\n---\n\n**Newspapers and Advertising:**\n👉 Newspapers are important advertising media.\n\n👉 Advertisers can target specific local areas.\n\n---\n\n**Speech Development in Infants:**\n👉 Infant speech develops in a sequence.\n\n👉 Vowel sounds usually develop before consonants.\n\n---\n\n**Famine Causes:**\n👉 Famine is caused by population growth and lack of food supply.\n\n👉 Agricultural production may not support growing populations.\n\n---\n\n**Anxiety Responses:**\n👉 Anxiety affects people physically and psychologically.\n\n👉 Different people react differently to anxiety.\n\n---\n\n**Quick Revision Points:**\n- Topic sentence = main idea\n- Supporting details explain the topic\n- Groups require communication\n- Taxonomists classify plants\n- Reading for meaning is important\n- Grammar = language rules\n- Chinese writing uses characters\n- Good listeners prepare and review\n- Unlike quantities cannot be added\n- Modern computers are mostly digital",
+      "questions": [
+        {
+          "q": "A topic sentence mainly tells:",
+          "options": ["A. Minor details", "B. Main idea", "C. Conclusion only", "D. Examples only"],
+          "answer": "B. Main idea",
+          "diff": "easy"
+        },
+        {
+          "q": "Scientists who classify plants are called:",
+          "options": ["A. Florists", "B. Morphologists", "C. Taxonomists", "D. Foresters"],
+          "answer": "C. Taxonomists",
+          "diff": "easy"
+        },
+        {
+          "q": "Approximately how many new plant species are proposed yearly?",
+          "options": ["A. 470", "B. 4700", "C. 7000", "D. 500"],
+          "answer": "B. 4700",
+          "diff": "medium"
+        },
+        {
+          "q": "A group in sociology requires:",
+          "options": ["A. Physical closeness only", "B. Communication", "C. Friendship only", "D. Family relation"],
+          "answer": "B. Communication",
+          "diff": "easy"
+        },
+        {
+          "q": "Plant physiology studies:",
+          "options": ["A. Plant history", "B. Plant classification", "C. Plant functions and activities", "D. Soil only"],
+          "answer": "C. Plant functions and activities",
+          "diff": "medium"
+        },
+        {
+          "q": "Good reading focuses on:",
+          "options": ["A. Pronunciation only", "B. Reading slowly", "C. Understanding meaning", "D. Finger movement"],
+          "answer": "C. Understanding meaning",
+          "diff": "easy"
+        },
+        {
+          "q": "Grammar represents:",
+          "options": ["A. Vocabulary only", "B. Linguistic competence", "C. Pronunciation only", "D. Writing style"],
+          "answer": "B. Linguistic competence",
+          "diff": "medium"
+        },
+        {
+          "q": "Chinese writing system mainly represents:",
+          "options": ["A. Sounds", "B. Meanings", "C. Numbers", "D. Symbols only"],
+          "answer": "B. Meanings",
+          "diff": "medium"
+        },
+        {
+          "q": "To read a Chinese newspaper, a person needs about:",
+          "options": ["A. 500 characters", "B. 1000 characters", "C. 5000 characters", "D. 10000 characters"],
+          "answer": "C. 5000 characters",
+          "diff": "hard"
+        },
+        {
+          "q": "A good listener prepares before:",
+          "options": ["A. Sleeping", "B. Writing", "C. Speech or lecture", "D. Examination"],
+          "answer": "C. Speech or lecture",
+          "diff": "easy"
+        },
+        {
+          "q": "Effective listening is:",
+          "options": ["A. Passive process", "B. Active process", "C. Difficult process", "D. Silent process"],
+          "answer": "B. Active process",
+          "diff": "medium"
+        },
+        {
+          "q": "Unlike quantities in mathematics:",
+          "options": ["A. Can always be added", "B. Cannot be added", "C. Become equal", "D. Are ignored"],
+          "answer": "B. Cannot be added",
+          "diff": "easy"
+        },
+        {
+          "q": "Most modern computers are:",
+          "options": ["A. Analog", "B. Mechanical", "C. Digital", "D. Hybrid"],
+          "answer": "C. Digital",
+          "diff": "easy"
+        },
+        {
+          "q": "Analog computers operate using:",
+          "options": ["A. Counting only", "B. Physical quantities", "C. Writing systems", "D. Binary code only"],
+          "answer": "B. Physical quantities",
+          "diff": "medium"
+        },
+        {
+          "q": "Mathematics is called the language of:",
+          "options": ["A. Nature", "B. Science", "C. Number and size", "D. Computers"],
+          "answer": "C. Number and size",
+          "diff": "easy"
+        },
+        {
+          "q": "Newspapers are important because they:",
+          "options": ["A. Have limited coverage", "B. Are expensive", "C. Reach many areas", "D. Replace television"],
+          "answer": "C. Reach many areas",
+          "diff": "easy"
+        },
+        {
+          "q": "Infant speech development follows:",
+          "options": ["A. Random order", "B. Definite sequence", "C. No pattern", "D. Adult speech"],
+          "answer": "B. Definite sequence",
+          "diff": "medium"
+        },
+        {
+          "q": "Famine is partly caused by:",
+          "options": ["A. Reduced population", "B. Increased food supply", "C. Increased population", "D. Better farming"],
+          "answer": "C. Increased population",
+          "diff": "medium"
+        },
+        {
+          "q": "Anxiety may produce:",
+          "options": ["A. Better memory only", "B. Physical and psychological responses", "C. Happiness only", "D. Sleep only"],
+          "answer": "B. Physical and psychological responses",
+          "diff": "medium"
+        },
+        {
+          "q": "Supporting details in a paragraph:",
+          "options": ["A. Introduce a new topic", "B. Explain the topic sentence", "C. End the paragraph", "D. Change the subject"],
+          "answer": "B. Explain the topic sentence",
+          "diff": "easy"
+        }
+      ]
+    },
+    "4": {
+      "title": "What is a Computer?",
+      "summary": "**Key Topics Covered:**\n- Definition of a computer\n- Computer functions\n- Input and output devices\n- Memory and data processing\n- Computer capabilities\n- Decision making in computers\n- Advantages and limitations of computers\n\n---\n\n**Simple Understanding:**\n\n**What is a Computer?**\n👉 A computer is an electronic machine.\n\n👉 It works using electronic circuits and switches.\n\n👉 It can store, process, and manipulate data.\n\n---\n\n**How Does a Computer Work?**\n👉 A computer works by receiving instructions and data.\n\n👉 Instructions are called programs.\n\n👉 Data and programs are stored in memory.\n\n---\n\n**Main Function of a Computer:**\n👉 The main job of a computer is processing information.\n\n👉 It performs mathematical and logical operations.\n\n---\n\n**Basic Capabilities of Computers:**\n\n1. Arithmetic Operations\n- Addition\n- Subtraction\n- Multiplication\n- Division\n- Exponentiation\n\n2. Communication with User\n👉 Computers receive input and give output.\n\n3. Decision Making\n👉 Computers can compare numbers.\n\n---\n\n**Input Devices:**\n👉 Devices used to enter information into a computer.\n\nExamples:\n- Punched cards\n- Magnetic tape\n- Disks\n- Terminals\n\n---\n\n**Output Devices:**\n👉 Devices used to display results.\n\nExamples:\n- Printer\n- CRT display screen\n\n---\n\n**Computer Decisions:**\n👉 Computers can decide:\n- Less than\n- Equal to\n- Greater than\n\n👉 Computers cannot make human judgments.\n\n---\n\n**Advantages of Computers:**\n- Work very fast\n- Solve problems quickly\n- Perform thousands of operations\n- Never become tired or bored\n\n---\n\n**Limitations of Computers:**\n👉 Computers have no originality.\n\n👉 They only follow instructions.\n\n👉 They cannot think like humans.\n\n---\n\n**Important Point:**\n👉 A computer cannot do anything unless a person gives instructions and data.\n\n---\n\n**Quick Revision Points:**\n- Computer = electronic machine\n- Main job = information processing\n- Instructions = program\n- Data stored in memory\n- Input devices enter data\n- Output devices show results\n- Computers perform arithmetic operations\n- Computers compare numbers\n- Computers work very fast\n- Computers cannot think independently",
+      "questions": [
+        {
+          "q": "A computer is basically an:",
+          "options": ["A. Animal", "B. Electronic machine", "C. Human brain", "D. Calculator only"],
+          "answer": "B. Electronic machine",
+          "diff": "easy"
+        },
+        {
+          "q": "The basic job of a computer is:",
+          "options": ["A. Drawing pictures", "B. Processing information", "C. Playing games", "D. Printing books"],
+          "answer": "B. Processing information",
+          "diff": "easy"
+        },
+        {
+          "q": "Instructions given to a computer are called:",
+          "options": ["A. Memory", "B. Data", "C. Program", "D. Signals"],
+          "answer": "C. Program",
+          "diff": "easy"
+        },
+        {
+          "q": "Programs and data are stored in:",
+          "options": ["A. Screen", "B. Keyboard", "C. Printer", "D. Memory"],
+          "answer": "D. Memory",
+          "diff": "easy"
+        },
+        {
+          "q": "Computers can perform:",
+          "options": ["A. Arithmetic operations", "B. Cooking", "C. Sleeping", "D. Breathing"],
+          "answer": "A. Arithmetic operations",
+          "diff": "easy"
+        },
+        {
+          "q": "Which is NOT an arithmetic operation?",
+          "options": ["A. Addition", "B. Multiplication", "C. Division", "D. Painting"],
+          "answer": "D. Painting",
+          "diff": "easy"
+        },
+        {
+          "q": "Computers communicate with users through:",
+          "options": ["A. Input and output devices", "B. Books only", "C. Television only", "D. Voice only"],
+          "answer": "A. Input and output devices",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is an input device?",
+          "options": ["A. Printer", "B. CRT screen", "C. Magnetic tape", "D. Speaker"],
+          "answer": "C. Magnetic tape",
+          "diff": "medium"
+        },
+        {
+          "q": "Which device is commonly used for output?",
+          "options": ["A. Disk drive", "B. Printer", "C. Tape drive", "D. Terminal"],
+          "answer": "B. Printer",
+          "diff": "easy"
+        },
+        {
+          "q": "A CRT display screen looks like:",
+          "options": ["A. Radio", "B. TV screen", "C. Mobile phone", "D. Typewriter"],
+          "answer": "B. TV screen",
+          "diff": "easy"
+        },
+        {
+          "q": "Computers can make decisions by:",
+          "options": ["A. Comparing numbers", "B. Thinking emotionally", "C. Guessing answers", "D. Making opinions"],
+          "answer": "A. Comparing numbers",
+          "diff": "medium"
+        },
+        {
+          "q": "Computers cannot:",
+          "options": ["A. Add numbers", "B. Compare values", "C. Make human judgments", "D. Process information"],
+          "answer": "C. Make human judgments",
+          "diff": "medium"
+        },
+        {
+          "q": "Computers work according to:",
+          "options": ["A. Emotions", "B. Instructions", "C. Feelings", "D. Imagination"],
+          "answer": "B. Instructions",
+          "diff": "easy"
+        },
+        {
+          "q": "A computer can work without becoming:",
+          "options": ["A. Fast", "B. Intelligent", "C. Tired or bored", "D. Useful"],
+          "answer": "C. Tired or bored",
+          "diff": "easy"
+        },
+        {
+          "q": "Computers perform operations at:",
+          "options": ["A. Walking speed", "B. Human speed", "C. Speed of light", "D. Sound speed"],
+          "answer": "C. Speed of light",
+          "diff": "hard"
+        },
+        {
+          "q": "Computers can replace humans in:",
+          "options": ["A. Creative thinking", "B. Routine tasks", "C. Emotional decisions", "D. Leadership"],
+          "answer": "B. Routine tasks",
+          "diff": "medium"
+        },
+        {
+          "q": "Computers have no:",
+          "options": ["A. Circuits", "B. Memory", "C. Originality", "D. Input devices"],
+          "answer": "C. Originality",
+          "diff": "easy"
+        },
+        {
+          "q": "Most computers have how many basic capabilities?",
+          "options": ["A. Two", "B. Three", "C. Four", "D. Five"],
+          "answer": "B. Three",
+          "diff": "medium"
+        },
+        {
+          "q": "Computers can solve problems:",
+          "options": ["A. Slowly", "B. Instantly in many cases", "C. Only manually", "D. Without data"],
+          "answer": "B. Instantly in many cases",
+          "diff": "medium"
+        },
+        {
+          "q": "A computer cannot do anything without:",
+          "options": ["A. Electricity only", "B. Human instructions", "C. Internet", "D. Printer"],
+          "answer": "B. Human instructions",
+          "diff": "easy"
+        }
+      ]
+    },
+    "5": {
+      "title": "Link Words & History of Computers",
+      "summary": "**Key Topics Covered:**\n- Link words and connectives\n- Result words\n- Contrast words\n- Comparison words\n- Cause and effect\n- Addition and sequence words\n- History of computers\n- Computer generations\n- Contextual references\n\n---\n\n**Simple Understanding:**\n\n**What are Link Words?**\n👉 Link words connect ideas and sentences.\n\n👉 They improve understanding and flow of writing.\n\n---\n\n**Words Showing Result:**\nExamples:\n- therefore\n- thus\n- consequently\n- hence\n\n👉 These words show results or conclusions.\n\n---\n\n**Words Showing Contrast:**\nExamples:\n- but\n- however\n- although\n- nevertheless\n\n👉 These words show opposite ideas.\n\n---\n\n**Words Showing Comparison:**\nExamples:\n- similarly\n- likewise\n- just like\n- equally\n\n👉 These words compare ideas.\n\n---\n\n**Words Showing Examples:**\nExamples:\n- for example\n- for instance\n- such as\n\n👉 These introduce examples.\n\n---\n\n**Cause and Effect Words:**\nExamples:\n- because\n- since\n- therefore\n- as a result\n\n👉 These show reasons and outcomes.\n\n---\n\n**Series and Time Words:**\nExamples:\n- first\n- second\n- next\n- finally\n\n👉 These show order or sequence.\n\n---\n\n**Addition Words:**\nExamples:\n- and\n- besides\n- furthermore\n- in addition\n\n👉 These add more information.\n\n---\n\n**History of Computers:**\n\n**Primitive Times:**\n👉 People used fingers for counting.\n\n👉 The abacus was later invented.\n\n---\n\n**17th and 18th Centuries:**\n👉 Logarithm tables and calculus were developed.\n\n👉 Slide rule was invented.\n\n---\n\n**Charles Babbage:**\n👉 Designed the Analytical Engine.\n\n👉 Known as the father of computers.\n\n---\n\n**First Computers:**\n👉 Early computers used vacuum tubes.\n\n👉 They were large and slow.\n\n---\n\n**Transistors:**\n👉 Replaced vacuum tubes.\n\n👉 Made computers faster and smaller.\n\n---\n\n**Integrated Circuits & Chips:**\n👉 Reduced computer size.\n\n👉 Increased speed and reliability.\n\n---\n\n**Modern Computers:**\n👉 Use microchips and integrated circuits.\n\n👉 Have more circuits in smaller sizes.\n\n---\n\n**Future Computers:**\n👉 Future computers may be very different from today’s computers.\n\n---\n\n**Contextual Reference:**\n👉 Reference words point to previously mentioned ideas.\n\nExamples:\n- it\n- they\n- which\n- that\n\n👉 Readers must identify what these words refer to.\n\n---\n\n**Quick Revision Points:**\n- Link words connect ideas\n- therefore = result\n- however = contrast\n- similarly = comparison\n- for example = illustration\n- because = cause\n- first/next/finally = sequence\n- Abacus = counting device\n- Charles Babbage = father of computers\n- Transistors replaced vacuum tubes\n- Chips made computers smaller and faster\n- Reference words refer to earlier nouns",
+      "questions": [
+        {
+          "q": "Link words are used to:",
+          "options": ["A. Break sentences", "B. Connect ideas", "C. Translate words", "D. Count numbers"],
+          "answer": "B. Connect ideas",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word shows a result?",
+          "options": ["A. However", "B. Similarly", "C. Therefore", "D. Although"],
+          "answer": "C. Therefore",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word shows contrast?",
+          "options": ["A. Consequently", "B. However", "C. Furthermore", "D. Since"],
+          "answer": "B. However",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word is used for comparison?",
+          "options": ["A. Similarly", "B. Because", "C. Finally", "D. Yet"],
+          "answer": "A. Similarly",
+          "diff": "easy"
+        },
+        {
+          "q": "Which phrase introduces an example?",
+          "options": ["A. On the contrary", "B. For instance", "C. Therefore", "D. Since"],
+          "answer": "B. For instance",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word shows cause and effect?",
+          "options": ["A. Because", "B. Likewise", "C. However", "D. Next"],
+          "answer": "A. Because",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word shows sequence?",
+          "options": ["A. Finally", "B. Although", "C. Besides", "D. Yet"],
+          "answer": "A. Finally",
+          "diff": "easy"
+        },
+        {
+          "q": "Which word shows addition?",
+          "options": ["A. Conversely", "B. Furthermore", "C. Despite", "D. Although"],
+          "answer": "B. Furthermore",
+          "diff": "easy"
+        },
+        {
+          "q": "The earliest counting device mentioned is:",
+          "options": ["A. Calculator", "B. Slide rule", "C. Abacus", "D. Chip"],
+          "answer": "C. Abacus",
+          "diff": "easy"
+        },
+        {
+          "q": "People first used what for counting?",
+          "options": ["A. Computers", "B. Fingers", "C. Chips", "D. Tables"],
+          "answer": "B. Fingers",
+          "diff": "easy"
+        },
+        {
+          "q": "Who is known as the father of computers?",
+          "options": ["A. Henry Briggs", "B. Charles Babbage", "C. Alan Turing", "D. Pascal"],
+          "answer": "B. Charles Babbage",
+          "diff": "easy"
+        },
+        {
+          "q": "Charles Babbage designed:",
+          "options": ["A. Slide rule", "B. Abacus", "C. Analytical Engine", "D. Calculator"],
+          "answer": "C. Analytical Engine",
+          "diff": "medium"
+        },
+        {
+          "q": "Early computers used:",
+          "options": ["A. Chips", "B. Transistors", "C. Vacuum tubes", "D. Microprocessors"],
+          "answer": "C. Vacuum tubes",
+          "diff": "easy"
+        },
+        {
+          "q": "Transistors replaced:",
+          "options": ["A. Chips", "B. Vacuum tubes", "C. Abacus", "D. Circuits"],
+          "answer": "B. Vacuum tubes",
+          "diff": "easy"
+        },
+        {
+          "q": "Transistors made computers:",
+          "options": ["A. Larger and slower", "B. Smaller and faster", "C. More expensive only", "D. Mechanical"],
+          "answer": "B. Smaller and faster",
+          "diff": "easy"
+        },
+        {
+          "q": "Integrated circuits are also called:",
+          "options": ["A. Tubes", "B. Engines", "C. Chips", "D. Beads"],
+          "answer": "C. Chips",
+          "diff": "medium"
+        },
+        {
+          "q": "Microminiaturization means:",
+          "options": ["A. Increasing computer size", "B. Reducing circuitry onto a chip", "C. Removing memory", "D. Printing data"],
+          "answer": "B. Reducing circuitry onto a chip",
+          "diff": "hard"
+        },
+        {
+          "q": "Modern computers contain:",
+          "options": ["A. Fewer circuits", "B. No circuits", "C. More circuits", "D. Wooden parts"],
+          "answer": "C. More circuits",
+          "diff": "medium"
+        },
+        {
+          "q": "Reference words like “it” and “they” are used to:",
+          "options": ["A. Replace earlier nouns", "B. Create questions", "C. Show examples", "D. Compare ideas"],
+          "answer": "A. Replace earlier nouns",
+          "diff": "medium"
+        },
+        {
+          "q": "Future computers may be:",
+          "options": ["A. Exactly the same", "B. Very different from today’s computers", "C. Mechanical only", "D. Impossible to build"],
+          "answer": "B. Very different from today’s computers",
+          "diff": "easy"
+        }
+      ]
+    },
+    "6": {
+      "title": "History of Computers",
+      "summary": "**Key Topics Covered:**\n- Early calculating devices\n- Development of computers\n- Charles Babbage\n- Generations of computers\n- Vacuum tubes and transistors\n- Integrated circuits and chips\n- Microminiaturization\n- Future of computers\n\n---\n\n**Simple Understanding:**\n\n**Early Counting Methods:**\n👉 In primitive times, people used fingers for counting.\n\n👉 Later, the abacus was invented.\n\n---\n\n**Abacus:**\n👉 An instrument used for counting.\n\n👉 It is still used in some places today.\n\n---\n\n**17th and 18th Centuries:**\n👉 Logarithm tables and calculus were developed.\n\n👉 The slide rule was invented for multiplication and division.\n\n---\n\n**Charles Babbage:**\n👉 An English mathematician.\n\n👉 Designed the Analytical Engine.\n\n👉 Called the father of computers.\n\n---\n\n**First Computers:**\n👉 Early computers used vacuum tubes.\n\n👉 They were very large and slow.\n\n---\n\n**Digital Computers:**\n👉 Invented by Americans in 1944.\n\n👉 Used mainly for calculations and military purposes.\n\n---\n\n**Transistors:**\n👉 Replaced vacuum tubes in 1947.\n\n👉 Made computers:\n- Smaller\n- Faster\n- More reliable\n\n---\n\n**Integrated Circuits (Chips):**\n👉 Many circuits were placed on a small chip.\n\n👉 This reduced computer size greatly.\n\n---\n\n**Microminiaturization:**\n👉 Reduction of circuitry onto tiny chips.\n\n👉 Increased computer speed and efficiency.\n\n---\n\n**Modern Computers:**\n👉 Modern computers have more circuits than older computers.\n\n👉 They are faster and more dependable.\n\n---\n\n**Future Computers:**\n👉 Future computers may be very different from today’s computers.\n\n---\n\n**Important Vocabulary:**\n- Abacus = counting device\n- Calculus = branch of mathematics\n- Slide rule = multiplication/division tool\n- Vacuum tubes = first generation technology\n- Transistors = second generation technology\n- Chip = integrated circuit\n\n---\n\n**Quick Revision Points:**\n- Fingers were first counting tools\n- Abacus used for counting\n- Slide rule used for calculations\n- Charles Babbage designed Analytical Engine\n- Vacuum tubes used in first computers\n- Transistors replaced vacuum tubes\n- Chips reduced computer size\n- Modern computers are faster and smaller\n- Future computers may change greatly",
+      "questions": [
+        {
+          "q": "In primitive times, people counted using:",
+          "options": ["A. Computers", "B. Fingers", "C. Chips", "D. Robots"],
+          "answer": "B. Fingers",
+          "diff": "easy"
+        },
+        {
+          "q": "The abacus is used for:",
+          "options": ["A. Printing", "B. Counting", "C. Typing", "D. Drawing"],
+          "answer": "B. Counting",
+          "diff": "easy"
+        },
+        {
+          "q": "The abacus is:",
+          "options": ["A. No longer used", "B. Still used today", "C. A modern chip", "D. A transistor"],
+          "answer": "B. Still used today",
+          "diff": "easy"
+        },
+        {
+          "q": "The slide rule was used for:",
+          "options": ["A. Gaming", "B. Counting only", "C. Multiplication and division", "D. Printing"],
+          "answer": "C. Multiplication and division",
+          "diff": "medium"
+        },
+        {
+          "q": "Calculus is a branch of:",
+          "options": ["A. Biology", "B. Mathematics", "C. Chemistry", "D. Physics"],
+          "answer": "B. Mathematics",
+          "diff": "easy"
+        },
+        {
+          "q": "Who produced logarithm tables?",
+          "options": ["A. Charles Babbage", "B. Henry Briggs", "C. Pascal", "D. Newton"],
+          "answer": "B. Henry Briggs",
+          "diff": "medium"
+        },
+        {
+          "q": "Charles Babbage was:",
+          "options": ["A. An American scientist", "B. An English mathematician", "C. A doctor", "D. A physicist"],
+          "answer": "B. An English mathematician",
+          "diff": "easy"
+        },
+        {
+          "q": "Charles Babbage designed the:",
+          "options": ["A. Calculator", "B. Slide rule", "C. Analytical Engine", "D. Abacus"],
+          "answer": "C. Analytical Engine",
+          "diff": "easy"
+        },
+        {
+          "q": "Charles Babbage is called the:",
+          "options": ["A. King of Computers", "B. Father of Computers", "C. Inventor of Internet", "D. Father of Mathematics"],
+          "answer": "B. Father of Computers",
+          "diff": "easy"
+        },
+        {
+          "q": "First generation computers used:",
+          "options": ["A. Chips", "B. Transistors", "C. Vacuum tubes", "D. Microprocessors"],
+          "answer": "C. Vacuum tubes",
+          "diff": "easy"
+        },
+        {
+          "q": "Vacuum tube computers were:",
+          "options": ["A. Small and fast", "B. Large and slow", "C. Wireless", "D. Portable"],
+          "answer": "B. Large and slow",
+          "diff": "medium"
+        },
+        {
+          "q": "Digital computers were invented by:",
+          "options": ["A. British scientists", "B. Americans", "C. Chinese scientists", "D. Germans"],
+          "answer": "B. Americans",
+          "diff": "medium"
+        },
+        {
+          "q": "Transistors replaced:",
+          "options": ["A. Chips", "B. Vacuum tubes", "C. Slide rules", "D. Abacus"],
+          "answer": "B. Vacuum tubes",
+          "diff": "easy"
+        },
+        {
+          "q": "Transistors made computers:",
+          "options": ["A. Larger", "B. Slower", "C. Smaller and faster", "D. Mechanical"],
+          "answer": "C. Smaller and faster",
+          "diff": "easy"
+        },
+        {
+          "q": "Integrated circuits are also called:",
+          "options": ["A. Tubes", "B. Chips", "C. Beads", "D. Engines"],
+          "answer": "B. Chips",
+          "diff": "easy"
+        },
+        {
+          "q": "Microminiaturization means:",
+          "options": ["A. Enlarging circuits", "B. Reducing circuitry onto chips", "C. Removing memory", "D. Printing data"],
+          "answer": "B. Reducing circuitry onto chips",
+          "diff": "hard"
+        },
+        {
+          "q": "Modern computers have:",
+          "options": ["A. Fewer circuits", "B. No circuits", "C. More circuits", "D. Wooden parts"],
+          "answer": "C. More circuits",
+          "diff": "medium"
+        },
+        {
+          "q": "As computers evolved, their size:",
+          "options": ["A. Increased", "B. Decreased", "C. Stayed the same", "D. Disappeared"],
+          "answer": "B. Decreased",
+          "diff": "medium"
+        },
+        {
+          "q": "Modern computers are more:",
+          "options": ["A. Expensive only", "B. Dependable", "C. Mechanical", "D. Fragile"],
+          "answer": "B. Dependable",
+          "diff": "medium"
+        },
+        {
+          "q": "Future computers may be:",
+          "options": ["A. Exactly the same", "B. Very different from today’s computers", "C. Impossible to build", "D. Mechanical only"],
+          "answer": "B. Very different from today’s computers",
+          "diff": "easy"
+        }
+      ]
+    },
+    "7": {
+      "title": "Affixes (Word Formation)",
+      "summary": "**Key Topics Covered:**\n- Word formation (prefix, suffix)\n- Affixes (prefix + suffix)\n- Types of suffixes\n- Noun, verb, adjective, adverb formation\n- Base word spelling rules\n\n---\n\n**Simple Understanding:**\n\n**Word Formation:**\n👉 English mein naye words banane ke liye:\n- Prefix (start) + Root word + Suffix (end)\n\n👉 Example:\n- act → action → active → activity\n- react → reaction → reactivation\n\n---\n\n**Affixes:**\n👉 Prefix + Suffix = Affixes\n\n👉 Prefix word ke start mein lagta hai  \n👉 Suffix word ke end mein lagta hai  \n\n---\n\n**Noun-forming suffixes:**\n👉 -er / -or → person (teacher, operator)  \n👉 -ness → condition (cleanliness)  \n👉 -tion / -ion → action (execution)  \n👉 -ment → state/action (measurement)  \n👉 -ity → quality (electricity)  \n\n---\n\n**Verb-forming suffixes:**\n👉 -ize → computerize  \n👉 -ate → activate  \n👉 -fy → simplify  \n👉 -en → widen  \n\n---\n\n**Adjective-forming suffixes:**\n👉 -able / -ible → capable (comparable)  \n👉 -ful → full of (helpful)  \n👉 -less → without (careless)  \n👉 -ic / -ical → related (logical, electrical)  \n👉 -ive → quality (interactive)  \n\n---\n\n**Adverb-forming suffix:**\n👉 -ly → (quickly, logically, electronically)  \n\n---\n\n**Base Word Rules:**\n\n👉 Rule 1:\nIf word ends with \"e\", remove e  \nExample: mature → maturity  \n\n👉 Rule 2:\nIf word ends with \"y\", change y → i  \nExample: harmony → harmonious  \n\n👉 Rule 3:\nSpelling may change  \nExample: reclaim → reclamation  \n\n---\n\n**Computer Examples:**\n👉 analyst, programmer, operator  \n👉 interactive, electronic  \n👉 programmable, calculation  \n👉 multiplexing, processing  \n\n---\n\n**Quick Revision Points:**\n- Prefix + Suffix = Affixes  \n- -er / -or = person  \n- -ness = condition  \n- -ly = adverb  \n- -able = capability  \n- e drop hota hai  \n- y → i change hota hai  \n- spelling change ho sakti hai",
+      "questions": [
+        {
+          "q": "Affixes include:",
+          "options": ["A. Prefix only", "B. Suffix only", "C. Prefix and Suffix", "D. Root word"],
+          "answer": "C. Prefix and Suffix",
+          "diff": "easy"
+        },
+        {
+          "q": "The suffix \"-er\" refers to:",
+          "options": ["A. Place", "B. Person", "C. Action", "D. Time"],
+          "answer": "B. Person",
+          "diff": "easy"
+        },
+        {
+          "q": "The suffix \"-ly\" forms:",
+          "options": ["A. Nouns", "B. Verbs", "C. Adverbs", "D. Adjectives"],
+          "answer": "C. Adverbs",
+          "diff": "easy"
+        },
+        {
+          "q": "In \"happiness\", \"-ness\" shows:",
+          "options": ["A. Action", "B. Condition", "C. Person", "D. Place"],
+          "answer": "B. Condition",
+          "diff": "easy"
+        },
+        {
+          "q": "Prefix is added at:",
+          "options": ["A. End", "B. Middle", "C. Start", "D. None"],
+          "answer": "C. Start",
+          "diff": "easy"
+        },
+        {
+          "q": "Which is a verb-forming suffix?",
+          "options": ["A. -ness", "B. -ize", "C. -ly", "D. -ful"],
+          "answer": "B. -ize",
+          "diff": "medium"
+        },
+        {
+          "q": "\"Careless\" means:",
+          "options": ["A. Full of care", "B. Without care", "C. Action of care", "D. Person who cares"],
+          "answer": "B. Without care",
+          "diff": "medium"
+        },
+        {
+          "q": "In \"maturity\", what happened to base word?",
+          "options": ["A. y removed", "B. e removed", "C. t removed", "D. nothing changed"],
+          "answer": "B. e removed",
+          "diff": "medium"
+        },
+        {
+          "q": "\"Harmonious\" comes from:",
+          "options": ["A. harmony", "B. harmon", "C. harm", "D. mony"],
+          "answer": "A. harmony",
+          "diff": "medium"
+        },
+        {
+          "q": "\"Operator\" refers to:",
+          "options": ["A. Machine", "B. Person", "C. Action", "D. Quality"],
+          "answer": "B. Person",
+          "diff": "easy"
+        },
+        {
+          "q": "Which suffix shows \"state or quality\"?",
+          "options": ["A. -ly", "B. -ness", "C. -ize", "D. -fy"],
+          "answer": "B. -ness",
+          "diff": "hard"
+        },
+        {
+          "q": "\"Reclamation\" shows:",
+          "options": ["A. No change", "B. Spelling change", "C. Prefix removal", "D. No suffix"],
+          "answer": "B. Spelling change",
+          "diff": "hard"
+        },
+        {
+          "q": "\"Interactive\" is:",
+          "options": ["A. Noun", "B. Verb", "C. Adjective", "D. Adverb"],
+          "answer": "C. Adjective",
+          "diff": "medium"
+        },
+        {
+          "q": "\"Multiplexing\" represents:",
+          "options": ["A. Person", "B. Action/activity", "C. Place", "D. Quality"],
+          "answer": "B. Action/activity",
+          "diff": "hard"
+        },
+        {
+          "q": "Which word is an adverb?",
+          "options": ["A. Logical", "B. Logic", "C. Logically", "D. Logician"],
+          "answer": "C. Logically",
+          "diff": "medium"
+        }
+      ]
+    },
+    "8": {
+      "title": "Prefixes, Synonyms & Antonyms",
+      "summary": "**Key Topics Covered:**\n- Prefixes (word formation)\n- Types of prefixes (negative, size, location, time, number)\n- Vocabulary building\n- Synonyms (same meaning words)\n- Antonyms (opposite meaning words)\n- Use of prefixes with stem words\n\n---\n\n**Simple Understanding:**\n\n**Prefixes:**\n👉 Prefix word ke start mein lagta hai\n\n👉 Example:\n- un + true = untrue  \n- il + legal = illegal  \n\n👉 Prefix meaning change kar deta hai\n\n---\n\n**Understanding Difficult Words:**\n👉 Unknown word ko samajhne ke liye:\n- Prefix identify karo  \n- Root word identify karo  \n\n👉 Example:\n- illimitability = il (not) + limit  \n👉 Meaning: no limit  \n\n---\n\n**Negative Prefixes:**\n👉 not / opposite show karte hain\n\n- un-, in-, im-, il-, ir- → not  \n- non- → not connected  \n- mis- → wrong  \n- dis- → opposite  \n- anti- → against  \n- de- → reverse  \n- under- → too little  \n\n---\n\n**Positive Prefixes:**\n👉 positive ya repetition show karte hain\n\n- re- → again (redo)  \n- over- → too much  \n\n---\n\n**Prefixes of Size:**\n👉 size show karte hain\n\n- micro → small  \n- mini → little  \n- macro → large  \n- mega → very large  \n- semi → half  \n\n---\n\n**Prefixes of Location:**\n👉 position show karte hain\n\n- inter → between  \n- super → above  \n- trans → across  \n- sub → under  \n- extra → beyond  \n\n---\n\n**Prefixes of Time & Order:**\n👉 time ya sequence show karte hain\n\n- pre → before  \n- post → after  \n- ante → before  \n- prime → first  \n- retro → backward  \n\n---\n\n**Prefixes of Numbers:**\n👉 quantity show karte hain\n\n- mono → one  \n- bi → two  \n- tri → three  \n- quad → four  \n- multi → many  \n\n---\n\n**Other Prefixes:**\n👉 special meanings\n\n- auto → self  \n- co → together  \n- neo → new  \n- pan → all  \n\n---\n\n**Synonyms:**\n👉 Same ya similar meaning words\n\n👉 Example:\n- big = large = huge  \n\n---\n\n**Important Points (Synonyms):**\n\n👉 1. Same meaning har jagah use nahi hota  \nExample:\n- apt = fit / likely  \n- appropriate = only fit  \n\n👉 2. Slight meaning difference hota hai  \nExample:\n- blame = fault dena  \n- denounce = public criticize  \n\n---\n\n**Antonyms:**\n👉 Opposite meaning words  \nExample:\n- big ↔ small  \n- happy ↔ sad  \n\n---\n\n**Quick Revision Points:**\n- Prefix word ke start mein lagta hai  \n- Prefix meaning change karta hai  \n- un-, in- = not  \n- micro = small  \n- pre = before  \n- mono = one  \n- Synonyms = similar meaning  \n- Antonyms = opposite meaning  \n- Synonyms always interchangeable nahi hote",
+      "questions": [
+        {
+          "q": "A prefix is added at the:",
+          "options": ["A. End of word", "B. Middle of word", "C. Beginning of word", "D. None"],
+          "answer": "C. Beginning of word",
+          "diff": "easy"
+        },
+        {
+          "q": "The prefix \"un-\" means:",
+          "options": ["A. Again", "B. Not", "C. Before", "D. Many"],
+          "answer": "B. Not",
+          "diff": "easy"
+        },
+        {
+          "q": "Illimitability means:",
+          "options": ["A. Limited", "B. No limit", "C. Small limit", "D. Half limit"],
+          "answer": "B. No limit",
+          "diff": "medium"
+        },
+        {
+          "q": "The prefix \"re-\" means:",
+          "options": ["A. Not", "B. Again", "C. Before", "D. Under"],
+          "answer": "B. Again",
+          "diff": "easy"
+        },
+        {
+          "q": "The prefix \"micro-\" means:",
+          "options": ["A. Large", "B. Small", "C. Many", "D. Half"],
+          "answer": "B. Small",
+          "diff": "easy"
+        },
+        {
+          "q": "The prefix \"pre-\" indicates:",
+          "options": ["A. After", "B. Before", "C. Under", "D. Around"],
+          "answer": "B. Before",
+          "diff": "easy"
+        },
+        {
+          "q": "Which prefix means \"two\"?",
+          "options": ["A. mono", "B. tri", "C. bi", "D. multi"],
+          "answer": "C. bi",
+          "diff": "easy"
+        },
+        {
+          "q": "Synonyms are words that:",
+          "options": ["A. Opposite meaning", "B. Same meaning", "C. No meaning", "D. Long words"],
+          "answer": "B. Same meaning",
+          "diff": "easy"
+        },
+        {
+          "q": "Antonyms are words that:",
+          "options": ["A. Same meaning", "B. Opposite meaning", "C. Similar spelling", "D. Same sound"],
+          "answer": "B. Opposite meaning",
+          "diff": "easy"
+        },
+        {
+          "q": "The prefix \"sub-\" means:",
+          "options": ["A. Above", "B. Under", "C. Before", "D. After"],
+          "answer": "B. Under",
+          "diff": "medium"
+        },
+        {
+          "q": "Which prefix means \"across\"?",
+          "options": ["A. inter", "B. trans", "C. super", "D. sub"],
+          "answer": "B. trans",
+          "diff": "medium"
+        },
+        {
+          "q": "“Blame” and “denounce” differ because:",
+          "options": ["A. Same usage", "B. Denounce is stronger", "C. Blame is stronger", "D. Both same"],
+          "answer": "B. Denounce is stronger",
+          "diff": "hard"
+        },
+        {
+          "q": "Synonyms may differ in:",
+          "options": ["A. Spelling only", "B. Meaning shades", "C. Length", "D. Sound"],
+          "answer": "B. Meaning shades",
+          "diff": "hard"
+        },
+        {
+          "q": "The prefix \"auto-\" means:",
+          "options": ["A. Together", "B. Self", "C. New", "D. Many"],
+          "answer": "B. Self",
+          "diff": "medium"
+        },
+        {
+          "q": "Which prefix means \"many\"?",
+          "options": ["A. mono", "B. bi", "C. multi", "D. tri"],
+          "answer": "C. multi",
+          "diff": "easy"
+        }
+      ]
+    },
+    "9": {
+      "title": "Introduction to Computers",
+      "summary": "**Key Topics Covered:**\n- What is a computer\n- Data and processing\n- Input, Processing, Output cycle\n- Hardware components (CPU, memory, storage)\n- Characteristics of computers\n- Evolution of computers\n- Impact of computers on life\n\n---\n\n**Simple Understanding:**\n\n**What is a Computer?**\n👉 Computer ek machine hai jo data ko process karti hai  \n\n👉 Data = information jo computer ko di jati hai  \n\n👉 Processing = data ko handle karna (calculate, compare, add)\n\n---\n\n**Computer Working (IPO Cycle):**\n👉 Computer 3 steps par kaam karta hai:\n\n1. Input → data dena  \n2. Processing → data par kaam karna  \n3. Output → result dena  \n\n📌 Example:\n👉 Cloth (input) → sewing (processing) → shirt (output)\n\n---\n\n**Computer Components:**\n\n👉 CPU (Central Processing Unit)\n- Main part of computer  \n- Processing karta hai  \n\n👉 Input Devices:\n- Keyboard, card reader  \n\n👉 Output:\n- Result display hota hai  \n\n👉 Storage Devices:\n- Data save hota hai  \n- Example: magnetic disks, tapes  \n\n---\n\n**Important Concept:**\n👉 Computer sirf adding machine nahi hai  \n\n👉 Yeh unlimited kaam kar sakta hai  \n👉 Limit sirf human imagination hai  \n\n---\n\n**Old vs Modern Computers:**\n\n👉 Old computers:\n- Bohat expensive  \n- Large size  \n- Zyada staff needed  \n\n👉 Modern computers:\n- Cheap  \n- Small (compact)  \n- Fast  \n- Reliable  \n\n---\n\n**Impact of Computers:**\n\n👉 Routine kaam reduce karte hain  \n👉 Time save hota hai  \n👉 Creative work ke liye time milta hai  \n👉 New jobs create hui hain  \n\n---\n\n**Quick Revision Points:**\n- Computer data process karta hai  \n- Input → Processing → Output  \n- CPU main part hai  \n- Storage data save karta hai  \n- Computer versatile hai  \n- Old computers large thay  \n- Modern computers fast aur cheap hain  \n- Computers ne life change kar di",
+      "questions": [
+        {
+          "q": "Computers are machines designed to:",
+          "options": ["A. Play games only", "B. Process data", "C. Print papers", "D. Draw images"],
+          "answer": "B. Process data",
+          "diff": "easy"
+        },
+        {
+          "q": "Data means:",
+          "options": ["A. Machine", "B. Information", "C. Device", "D. Program"],
+          "answer": "B. Information",
+          "diff": "easy"
+        },
+        {
+          "q": "Processing means:",
+          "options": ["A. Storing data", "B. Handling data", "C. Deleting data", "D. Printing data"],
+          "answer": "B. Handling data",
+          "diff": "easy"
+        },
+        {
+          "q": "Which is correct order?",
+          "options": ["A. Output → Input → Processing", "B. Input → Output → Processing", "C. Input → Processing → Output", "D. Processing → Input → Output"],
+          "answer": "C. Input → Processing → Output",
+          "diff": "easy"
+        },
+        {
+          "q": "The main part of computer is:",
+          "options": ["A. Keyboard", "B. CPU", "C. Mouse", "D. Monitor"],
+          "answer": "B. CPU",
+          "diff": "easy"
+        },
+        {
+          "q": "CPU stands for:",
+          "options": ["A. Central Program Unit", "B. Central Processing Unit", "C. Computer Processing Unit", "D. Control Processing Unit"],
+          "answer": "B. Central Processing Unit",
+          "diff": "medium"
+        },
+        {
+          "q": "Which is an input device?",
+          "options": ["A. Monitor", "B. Printer", "C. Keyboard", "D. Speaker"],
+          "answer": "C. Keyboard",
+          "diff": "easy"
+        },
+        {
+          "q": "Storage devices are used to:",
+          "options": ["A. Show output", "B. Save data", "C. Process data", "D. Input data"],
+          "answer": "B. Save data",
+          "diff": "easy"
+        },
+        {
+          "q": "Computer versatility means:",
+          "options": ["A. Limited work", "B. Only calculations", "C. Many types of work", "D. No work"],
+          "answer": "C. Many types of work",
+          "diff": "medium"
+        },
+        {
+          "q": "Computers are limited by:",
+          "options": ["A. Size", "B. Cost", "C. Human imagination", "D. Speed"],
+          "answer": "C. Human imagination",
+          "diff": "medium"
+        },
+        {
+          "q": "Old computers were:",
+          "options": ["A. Small and cheap", "B. Fast and reliable", "C. Large and expensive", "D. Portable"],
+          "answer": "C. Large and expensive",
+          "diff": "easy"
+        },
+        {
+          "q": "Modern computers are:",
+          "options": ["A. Large", "B. Slow", "C. Cheap and compact", "D. Manual"],
+          "answer": "C. Cheap and compact",
+          "diff": "easy"
+        },
+        {
+          "q": "Computers help to:",
+          "options": ["A. Increase boring work", "B. Reduce routine tasks", "C. Stop creativity", "D. Remove jobs"],
+          "answer": "B. Reduce routine tasks",
+          "diff": "medium"
+        },
+        {
+          "q": "Secondary storage is used for:",
+          "options": ["A. Temporary data", "B. Long-term storage", "C. Input", "D. Output"],
+          "answer": "B. Long-term storage",
+          "diff": "hard"
+        },
+        {
+          "q": "Which statement is true?",
+          "options": ["A. Computers do only one task", "B. Computers cannot process data", "C. Computers changed our lives", "D. Computers are useless"],
+          "answer": "C. Computers changed our lives",
+          "diff": "easy"
+        }
+      ]
+    },
+    "10": {
+      "title": "Mainframe Computers",
+      "summary": "**Key Topics Covered:**\n- Mainframe computers\n- Digital vs Analog computers\n- Hybrid computers\n- Features of mainframes\n- Advantages and limitations\n- Future developments\n\n---\n\n**Simple Understanding:**\n\n**Mainframes:**\n👉 Mainframe bohat large aur powerful computers hotay hain  \n\n👉 Huge amount of data process karte hain  \n👉 Mostly big organizations use karti hain  \n\n---\n\n**Features of Mainframes:**\n👉 High-speed processing  \n👉 Large memory  \n👉 Complex instructions execute karte hain  \n👉 Faster than small computers  \n\n👉 Small computer:\n- Multiple steps leta hai  \n\n👉 Mainframe:\n- Same kaam 1 step mein kar sakta hai  \n\n---\n\n**Types of Computers:**\n\n### 👉 1. Digital Computers\n👉 Sabse zyada use hotay hain (90%)\n\n👉 Data digits (0,1) ki form mein hota hai  \n👉 Step-by-step calculations karte hain  \n👉 Fast aur accurate  \n\n---\n\n### 👉 2. Analog Computers\n👉 Continuous calculations karte hain  \n\n👉 Example:\n- Speedometer  \n\n👉 Measurement problems ke liye use hotay hain  \n\n---\n\n### 👉 3. Hybrid Computers\n👉 Digital + Analog ka combination  \n\n👉 Scientific research mein use hotay hain  \n\n---\n\n**Mainframe Requirements:**\n👉 Large space chahiye  \n👉 Cooling system (AC)  \n👉 High power consumption  \n👉 Expensive machines  \n\n👉 Peripheral devices (tapes, disks) zyada space lete hain  \n\n---\n\n**Important Concept:**\n👉 Digital computer ab analog ka kaam bhi kar sakta hai  \n\n👉 Easier to use  \n👉 Cheaper than analog  \n\n---\n\n**Future of Computers:**\n👉 Mechanical devices improve hongay  \n👉 Efficiency aur reliability better hogi  \n\n---\n\n**Quick Revision Points:**\n- Mainframes = large powerful computers  \n- Digital computers = most used  \n- Analog = continuous calculations  \n- Hybrid = combination  \n- Mainframes fast aur expensive hotay hain  \n- Large space aur cooling required  \n- Future mein improvement expected",
+      "questions": [
+        {
+          "q": "Mainframe computers are:",
+          "options": ["A. Small", "B. Portable", "C. Large and powerful", "D. Manual"],
+          "answer": "C. Large and powerful",
+          "diff": "easy"
+        },
+        {
+          "q": "Mainframes process:",
+          "options": ["A. Small data", "B. No data", "C. Huge amount of data", "D. Images only"],
+          "answer": "C. Huge amount of data",
+          "diff": "easy"
+        },
+        {
+          "q": "Digital computers use:",
+          "options": ["A. Letters", "B. Symbols", "C. Digits", "D. Images"],
+          "answer": "C. Digits",
+          "diff": "easy"
+        },
+        {
+          "q": "Digital computers perform calculations:",
+          "options": ["A. Continuously", "B. Step-by-step", "C. Randomly", "D. Slowly"],
+          "answer": "B. Step-by-step",
+          "diff": "easy"
+        },
+        {
+          "q": "Analog computers are used for:",
+          "options": ["A. Gaming", "B. Measurement", "C. Printing", "D. Writing"],
+          "answer": "B. Measurement",
+          "diff": "easy"
+        },
+        {
+          "q": "Hybrid computer is:",
+          "options": ["A. Only digital", "B. Only analog", "C. Combination of both", "D. Manual"],
+          "answer": "C. Combination of both",
+          "diff": "easy"
+        },
+        {
+          "q": "Which type is most commonly used?",
+          "options": ["A. Analog", "B. Hybrid", "C. Digital", "D. Manual"],
+          "answer": "C. Digital",
+          "diff": "medium"
+        },
+        {
+          "q": "Analog computer works like:",
+          "options": ["A. Calculator", "B. Keyboard", "C. Speedometer", "D. Printer"],
+          "answer": "C. Speedometer",
+          "diff": "medium"
+        },
+        {
+          "q": "Mainframes require:",
+          "options": ["A. Small space", "B. No power", "C. Large space and cooling", "D. No devices"],
+          "answer": "C. Large space and cooling",
+          "diff": "medium"
+        },
+        {
+          "q": "Peripheral devices include:",
+          "options": ["A. CPU only", "B. Tape and disks", "C. Keyboard only", "D. Monitor only"],
+          "answer": "B. Tape and disks",
+          "diff": "medium"
+        },
+        {
+          "q": "Digital computers are preferred because they are:",
+          "options": ["A. Expensive", "B. Difficult", "C. Easier and cheaper", "D. Slower"],
+          "answer": "C. Easier and cheaper",
+          "diff": "medium"
+        },
+        {
+          "q": "Mainframe power consumption is:",
+          "options": ["A. Low", "B. Medium", "C. High", "D. Zero"],
+          "answer": "C. High",
+          "diff": "hard"
+        },
+        {
+          "q": "Hybrid computers are mainly used in:",
+          "options": ["A. Gaming", "B. Offices", "C. Scientific research", "D. Schools"],
+          "answer": "C. Scientific research",
+          "diff": "medium"
+        },
+        {
+          "q": "Future development is needed in:",
+          "options": ["A. Software only", "B. Mechanical devices", "C. Screens", "D. Input devices"],
+          "answer": "B. Mechanical devices",
+          "diff": "hard"
+        },
+        {
+          "q": "Mainframes are expensive because:",
+          "options": ["A. Small size", "B. Low speed", "C. High power and equipment", "D. No memory"],
+          "answer": "C. High power and equipment",
+          "diff": "hard"
+        }
+      ]
+    },
+    "11": {
+      "title": "Reading Comprehension & Inference",
+      "summary": "**Key Topics Covered:**\n- Reading speed vs comprehension\n- Vocalization\n- Silent reading\n- Understanding text (Why, What, How)\n- Making inferences\n- Logical thinking in reading\n\n---\n\n**Simple Understanding:**\n\n**Reading Speed & Comprehension:**\n👉 Fast reading se comprehension kharab hoti hai — yeh galat hai  \n\n👉 Practice se:\n- Speed bhi improve hoti hai  \n- Understanding bhi better hoti hai  \n\n---\n\n**Vocalization (Important ⚠️):**\n👉 Words ko mind mein pronounce karna  \n\n👉 Yeh slow reading ka main reason hai  \n\n👉 Solution:\n- Lips use na karo  \n- Eyes + mind se read karo  \n- Silent reading practice karo  \n\n---\n\n**Better Reading Strategy:**\n\n👉 Har text ko samajhne ke liye 3 questions pocho:\n\n- Why? (kyun likha gaya)  \n- What? (kya likha gaya)  \n- How? (kaise explain kiya gaya)  \n\n👉 Yeh method comprehension strong karta hai  \n\n---\n\n**Making Inferences:**\n👉 \"Reading between the lines\"  \n\n👉 Matlab:\n- Jo directly nahi likha  \n- Usko samajhna  \n\n👉 Writer hint deta hai, direct nahi batata  \n\n---\n\n**Inference kaise banate hain:**\n👉 Clues use karo:\n- Given information  \n- Apna experience  \n- Logic  \n\n👉 Strong inference:\n- Sirf wahi jo clearly support ho  \n\n---\n\n**Example:**\n👉 Sohail last row mein baithta hai  \n\nCorrect inference:\n👉 Woh front mein baithna pasand nahi karta  \n\n❌ Wrong:\n- Woh weak student hai  \n- Woh prepared nahi hai  \n\n👉 Kyun?\n➡️ Evidence nahi hai  \n\n---\n\n**Important Rule:**\n👉 Guess mat karo  \n👉 Sirf logical conclusion nikalo  \n\n---\n\n**Quick Revision Points:**\n- Fast reading harmful nahi hoti  \n- Vocalization slow karta hai  \n- Silent reading best hai  \n- Why, What, How samjho  \n- Inference = hidden meaning  \n- Clues + logic use karo  \n- Unsupported conclusion avoid karo",
+      "questions": [
+        {
+          "q": "Reading faster always reduces comprehension:",
+          "options": ["A. True", "B. False", "C. Sometimes", "D. Never"],
+          "answer": "B. False",
+          "diff": "easy"
+        },
+        {
+          "q": "Vocalization means:",
+          "options": ["A. Writing words", "B. Speaking loudly", "C. Pronouncing words in mind", "D. Skipping words"],
+          "answer": "C. Pronouncing words in mind",
+          "diff": "easy"
+        },
+        {
+          "q": "Vocalization causes:",
+          "options": ["A. Fast reading", "B. Slow reading", "C. Better memory", "D. No effect"],
+          "answer": "B. Slow reading",
+          "diff": "easy"
+        },
+        {
+          "q": "Best way to read is:",
+          "options": ["A. Loudly", "B. With lips", "C. Silently", "D. Slowly"],
+          "answer": "C. Silently",
+          "diff": "easy"
+        },
+        {
+          "q": "Rhetoric helps in:",
+          "options": ["A. Writing only", "B. Reading understanding", "C. Speaking only", "D. Typing"],
+          "answer": "B. Reading understanding",
+          "diff": "medium"
+        },
+        {
+          "q": "Good readers ask:",
+          "options": ["A. Where only", "B. Why, What, How", "C. When only", "D. Who only"],
+          "answer": "B. Why, What, How",
+          "diff": "easy"
+        },
+        {
+          "q": "Inference means:",
+          "options": ["A. Direct meaning", "B. Hidden meaning", "C. Wrong meaning", "D. No meaning"],
+          "answer": "B. Hidden meaning",
+          "diff": "easy"
+        },
+        {
+          "q": "“Reading between the lines” means:",
+          "options": ["A. Skipping text", "B. Reading loudly", "C. Making inferences", "D. Writing notes"],
+          "answer": "C. Making inferences",
+          "diff": "medium"
+        },
+        {
+          "q": "Inference is based on:",
+          "options": ["A. Guess", "B. Logic and clues", "C. Memory only", "D. Speed"],
+          "answer": "B. Logic and clues",
+          "diff": "easy"
+        },
+        {
+          "q": "Strong inference should be:",
+          "options": ["A. Random", "B. Unsupported", "C. Logical", "D. Emotional"],
+          "answer": "C. Logical",
+          "diff": "medium"
+        },
+        {
+          "q": "Sohail sits at the back. Best inference is:",
+          "options": ["A. He is weak", "B. He dislikes front seats", "C. He is lazy", "D. He is blind"],
+          "answer": "B. He dislikes front seats",
+          "diff": "medium"
+        },
+        {
+          "q": "Unsupported conclusions should be:",
+          "options": ["A. Accepted", "B. Avoided", "C. Ignored sometimes", "D. Written"],
+          "answer": "B. Avoided",
+          "diff": "easy"
+        },
+        {
+          "q": "Silent reading improves:",
+          "options": ["A. Speed only", "B. Understanding only", "C. Both speed and comprehension", "D. Nothing"],
+          "answer": "C. Both speed and comprehension",
+          "diff": "medium"
+        },
+        {
+          "q": "Inference uses:",
+          "options": ["A. Only text", "B. Only experience", "C. Text + experience + logic", "D. Guess"],
+          "answer": "C. Text + experience + logic",
+          "diff": "hard"
+        },
+        {
+          "q": "Poor readers usually:",
+          "options": ["A. Read silently", "B. Avoid vocalization", "C. Use vocalization", "D. Read fast"],
+          "answer": "C. Use vocalization",
+          "diff": "medium"
+        }
+      ]
+    },
+    "12": {
+      "title": "Inference, Fact vs Opinion & Time Relaters",
+      "summary": "**Key Topics Covered:**\n- Making inferences (practice)\n- Logical reasoning\n- Fact vs Opinion\n- Value words\n- Time relaters (time expressions)\n- Understanding paragraphs\n\n---\n\n**Simple Understanding:**\n\n**Making Inferences (Advanced):**\n👉 Inference = hidden meaning samajhna  \n\n👉 Direct likha nahi hota  \n👉 Clues + logic use karte hain  \n\n---\n\n**Important Rule:**\n👉 Sirf wahi inference choose karo jo strongly supported ho  \n\n👉 Weak ya guess-based answer avoid karo  \n\n---\n\n**Examples:**\n\n👉 School mein police ho:\n➡️ Problem ya discipline issue ho sakta hai  \n\n👉 Dog cringes:\n➡️ Dog dara hua hai ya abuse hua hai  \n\n---\n\n**Logical Thinking:**\n👉 Har statement ka correct inference:\n- Evidence based hona chahiye  \n- Guess nahi hona chahiye  \n\n---\n\n**Superautomation (Concept):**\n👉 Machines aur computers ka use kaam automate karne ke liye  \n\n👉 Effects:\n- Jobs replace ho sakti hain  \n- New jobs create hoti hain  \n- Work efficient hota hai  \n\n---\n\n**Fact vs Opinion:**\n\n👉 Fact:\n- Real, verifiable  \n- Evidence hota hai  \n\n👉 Opinion:\n- Personal belief  \n- Prove nahi hota  \n\n---\n\n**Important Rules:**\n\n👉 Fact galat bhi ho sakta hai (new evidence se)  \n👉 Opinion ko kabhi fact jaisa present kiya jata hai  \n👉 Value words = opinion  \n\n---\n\n**Value Words Examples:**\n👉 good, bad, best, worst, great, terrible  \n\n👉 Yeh subjective hote hain  \n\n---\n\n**Time Relaters:**\n\n👉 Time show karte hain  \n\n---\n\n**Present Time:**\n👉 now, today, at present, at the moment  \n\n---\n\n**Simultaneous (same time):**\n👉 meanwhile, at the same time  \n\n---\n\n**Future / After:**\n👉 later, next, afterwards, soon  \n\n---\n\n**Understanding Paragraphs:**\n👉 Time relaters help:\n- Sequence samajhne mein  \n- Events order identify karne mein  \n\n---\n\n**Quick Revision Points:**\n- Inference = hidden meaning  \n- Strong inference = logical + evidence  \n- Guess avoid karo  \n- Fact = proven  \n- Opinion = belief  \n- Value words = opinion  \n- Time relaters = sequence show karte hain  \n- meanwhile = same time  \n- afterwards = later",
+      "questions": [
+        {
+          "q": "Inference means:",
+          "options": ["A. Direct meaning", "B. Hidden meaning", "C. No meaning", "D. Guess"],
+          "answer": "B. Hidden meaning",
+          "diff": "easy"
+        },
+        {
+          "q": "Strong inference is based on:",
+          "options": ["A. Guess", "B. Emotion", "C. Logic and evidence", "D. Memory"],
+          "answer": "C. Logic and evidence",
+          "diff": "easy"
+        },
+        {
+          "q": "A dog cringes when touched. Best inference:",
+          "options": ["A. Dog is happy", "B. Dog is hungry", "C. Dog is afraid", "D. Dog is fast"],
+          "answer": "C. Dog is afraid",
+          "diff": "easy"
+        },
+        {
+          "q": "Police in school may indicate:",
+          "options": ["A. Party", "B. Discipline issue", "C. Sports event", "D. Holiday"],
+          "answer": "B. Discipline issue",
+          "diff": "medium"
+        },
+        {
+          "q": "Fact is:",
+          "options": ["A. Opinion", "B. Guess", "C. Verifiable truth", "D. Feeling"],
+          "answer": "C. Verifiable truth",
+          "diff": "easy"
+        },
+        {
+          "q": "Opinion is:",
+          "options": ["A. Proven fact", "B. Personal belief", "C. Data", "D. Number"],
+          "answer": "B. Personal belief",
+          "diff": "easy"
+        },
+        {
+          "q": "Value words represent:",
+          "options": ["A. Facts", "B. Opinions", "C. Numbers", "D. Data"],
+          "answer": "B. Opinions",
+          "diff": "easy"
+        },
+        {
+          "q": "Which is a value word?",
+          "options": ["A. Computer", "B. Good", "C. Data", "D. Input"],
+          "answer": "B. Good",
+          "diff": "easy"
+        },
+        {
+          "q": "“Now” is a:",
+          "options": ["A. Past relater", "B. Time relater", "C. Verb", "D. Noun"],
+          "answer": "B. Time relater",
+          "diff": "easy"
+        },
+        {
+          "q": "“Meanwhile” shows:",
+          "options": ["A. Past", "B. Future", "C. Same time", "D. End"],
+          "answer": "C. Same time",
+          "diff": "medium"
+        },
+        {
+          "q": "“Afterwards” means:",
+          "options": ["A. Before", "B. During", "C. Later", "D. Now"],
+          "answer": "C. Later",
+          "diff": "easy"
+        },
+        {
+          "q": "Superautomation means:",
+          "options": ["A. Manual work", "B. Automated machines", "C. Slow work", "D. No work"],
+          "answer": "B. Automated machines",
+          "diff": "medium"
+        },
+        {
+          "q": "Machines help to:",
+          "options": ["A. Reduce work", "B. Increase errors", "C. Stop jobs", "D. Waste time"],
+          "answer": "A. Reduce work",
+          "diff": "easy"
+        },
+        {
+          "q": "Opinion may be presented as:",
+          "options": ["A. Fact", "B. Data", "C. Code", "D. Input"],
+          "answer": "A. Fact",
+          "diff": "hard"
+        },
+        {
+          "q": "Time relaters help in:",
+          "options": ["A. Grammar only", "B. Sequence understanding", "C. Writing only", "D. Speaking"],
+          "answer": "B. Sequence understanding",
+          "diff": "medium"
+        }
+      ]
+    },
+    "13": {
+      "title": "Fact vs Opinion and Time Sequences (Lecture 13)",
+      "summary": "**Key Topics Covered:**\n- Distinguishing facts from opinions\n- What is a fact (provable through objective evidence)\n- What is an opinion (expresses beliefs, feelings, judgments)\n- Value-words as signals of opinion (good, bad, best, worst, etc.)\n- Facts can be untrue; opinions can be masked as facts\n- Mixture of fact and opinion in real texts\n- Time sequences: simultaneous, subsequent, and prior events\n- Time relaters (adjectives and adverbials) for chronological order\n\n---\n\n**Simple Understanding:**\n\n**Fact vs Opinion:**\n👉 **Fact:** A statement that can be proved true through objective evidence (physical proof, witness testimony).\n   Example: \"The neem tree is 25 feet tall\" – can be measured.\n👉 **Opinion:** A statement that cannot be objectively proved true or false; expresses beliefs, feelings, judgments.\n   Example: \"The building is the most beautiful in Lahore\" – beauty is subjective.\n\n**Value-Words:**\n👉 Words like good, bad, best, worst, beautiful, terrible signal an opinion.\n👉 These are subjective, not objective.\n\n**Important Distinctions:**\n- A statement of fact may turn out to be false (new evidence).\n- Opinions can be presented as facts (e.g., \"The economy is in the worst shape\").\n- Much of what we read/hear is a mixture of fact and opinion.\n\n---\n\n**Time Sequences in Texts:**\n👉 Events occur before, during, or after other events.\n👉 Time relaters help order information chronologically, logically, or causally.\n\n**Simultaneous (during):**\n👉 at present, at this point, now, today, meanwhile, at the same time\n\n**Subsequent (after):**\n👉 afterwards, after that, eventually, since then, soon, next, later, following\n\n**Prior (before):**\n👉 earlier, previously, before, formerly\n\n---\n\n**Sample Analysis:**\n👉 \"More than 5000 years ago, a need to count was recognized… first fingers, then pebbles… Since that time, the abacus was invented… During the 17th and 18th centuries… It was not until the early 1800s… not too long after, Charles Babbage designed…\"\n\n---\n\n**Important Vocabulary:**\n- Fact = provable statement\n- Opinion = subjective judgment\n- Value-word = signals opinion (good, best, etc.)\n- Objective = based on observable reality\n- Subjective = based on personal interpretation\n- Time relater = word/phrase indicating time sequence\n- Simultaneous = happening at the same time\n- Subsequent = happening after\n- Prior = happening before\n\n---\n\n**Quick Revision Points:**\n- Facts can be verified; opinions cannot.\n- Value-words (good, bad, best) indicate opinion.\n- Facts may be false if evidence disproves them.\n- Opinions can be masked as facts using phrases like \"in fact\".\n- Time relaters organize chronological order.\n- Recognizing time sequences is crucial for understanding historical, scientific, and procedural texts.",
+      "questions": [
+        {
+          "q": "A statement that can be proved true through objective evidence is called a:",
+          "options": ["A. Fact", "B. Opinion", "C. Value-word", "D. Judgment"],
+          "answer": "A. Fact",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an opinion?",
+          "options": ["A. The neem tree is 25 feet tall.", "B. Pakistan won the 1992 World Cup.", "C. The Alhamra Arts Council building is the most beautiful building in Lahore.", "D. The Lahore Museum is the oldest museum in Pakistan."],
+          "answer": "C. The Alhamra Arts Council building is the most beautiful building in Lahore.",
+          "diff": "easy"
+        },
+        {
+          "q": "Words like 'good', 'bad', 'best', 'worst' are called:",
+          "options": ["A. Facts", "B. Time relaters", "C. Value-words", "D. Objective terms"],
+          "answer": "C. Value-words",
+          "diff": "easy"
+        },
+        {
+          "q": "Which statement is a fact?",
+          "options": ["A. My brother is very handsome.", "B. Mohammad Ali Bogra was the worst Prime Minister.", "C. Ostriches do not hide their heads in the sand.", "D. The Pakistan cricket team is the best in the world."],
+          "answer": "C. Ostriches do not hide their heads in the sand.",
+          "diff": "easy"
+        },
+        {
+          "q": "A statement of fact may be found to be untrue if:",
+          "options": ["A. It is an opinion", "B. New evidence disproves it", "C. It contains value-words", "D. It is subjective"],
+          "answer": "B. New evidence disproves it",
+          "diff": "easy"
+        },
+        {
+          "q": "Which phrase often masks an opinion as a fact?",
+          "options": ["A. 'It is raining outside'", "B. 'In point of fact'", "C. 'The tree is 25 feet tall'", "D. 'The museum opened in 1864'"],
+          "answer": "B. 'In point of fact'",
+          "diff": "medium"
+        },
+        {
+          "q": "The statement 'It is bad weather' is considered:",
+          "options": ["A. A fact", "B. An objective observation", "C. A subjective interpretation", "D. A verifiable truth"],
+          "answer": "C. A subjective interpretation",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a time relater indicating simultaneous action?",
+          "options": ["A. Afterwards", "B. Meanwhile", "C. Later", "D. Eventually"],
+          "answer": "B. Meanwhile",
+          "diff": "easy"
+        },
+        {
+          "q": "Which time relater indicates subsequent (after) action?",
+          "options": ["A. At present", "B. At the same time", "C. Since then", "D. Now"],
+          "answer": "C. Since then",
+          "diff": "easy"
+        },
+        {
+          "q": "In the sentence 'It was not until the early 1800s that the first calculating machine appeared', the time relater is:",
+          "options": ["A. Not until", "B. Since then", "C. During", "D. After that"],
+          "answer": "A. Not until",
+          "diff": "medium"
+        },
+        {
+          "q": "Read the following: 'She is one of the most interesting figures in Egyptian history.' This statement is:",
+          "options": ["A. Fact", "B. Opinion", "C. Verifiable", "D. Objective"],
+          "answer": "B. Opinion",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'According to historical records' before a statement usually signals:",
+          "options": ["A. Opinion", "B. A fact (or claimed fact)", "C. A value-word", "D. A time relater"],
+          "answer": "B. A fact (or claimed fact)",
+          "diff": "easy"
+        },
+        {
+          "q": "In the paragraph about computers, 'But since then, computers have evolved tremendously.' The words 'since then' indicate:",
+          "options": ["A. Simultaneous time", "B. Prior time", "C. Subsequent time", "D. No time reference"],
+          "answer": "C. Subsequent time",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a value-word?",
+          "options": ["A. Yesterday", "B. Beautiful", "C. Meanwhile", "D. Subsequently"],
+          "answer": "B. Beautiful",
+          "diff": "easy"
+        },
+        {
+          "q": "An advertisement claims a car 'is the most economical on the road.' This is most likely:",
+          "options": ["A. A fact", "B. An opinion (economical is debatable)", "C. A historical record", "D. A scientific law"],
+          "answer": "B. An opinion (economical is debatable)",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'the truth of the matter is' often introduces:",
+          "options": ["A. An objective fact", "B. A masked opinion", "C. A time relater", "D. A simultaneous event"],
+          "answer": "B. A masked opinion",
+          "diff": "medium"
+        },
+        {
+          "q": "Which sentence is a mixture of fact and opinion?",
+          "options": ["A. 'Edgar Allan Poe was born in 1809.'", "B. 'Edgar Allan Poe is the greatest writer of horror stories.'", "C. 'Edgar Allan Poe wrote 'The Raven'.'", "D. 'Poe had to leave the University of Virginia because he couldn't pay his debts.'"],
+          "answer": "B. 'Edgar Allan Poe is the greatest writer of horror stories.'",
+          "diff": "easy"
+        },
+        {
+          "q": "Time relaters help to order information in which way?",
+          "options": ["A. Alphabetically", "B. Chronologically, logically, or causally", "C. Randomly", "D. By importance"],
+          "answer": "B. Chronologically, logically, or causally",
+          "diff": "easy"
+        },
+        {
+          "q": "In the sentence 'During the 17th and 18th centuries many easy ways of calculating were devised,' the time relater is:",
+          "options": ["A. During", "B. Were devised", "C. Many easy ways", "D. Calculating"],
+          "answer": "A. During",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a time relater?",
+          "options": ["A. Afterwards", "B. Eventually", "C. Beautiful", "D. Meanwhile"],
+          "answer": "C. Beautiful",
+          "diff": "easy"
+        }
+      ]
+    },
+    "14": {
+      "title": "Character Description and Using Examples in Writing (ENG 101 Lesson 14)",
+      "summary": "**Key Topics Covered:**\n- Analyzing character through descriptive language and details\n- How word choice reveals personality (e.g., \"trenchant\", \"apothecary kind of way\")\n- Examples from Dickens (Great Expectations, Hard Times) and Wodehouse (Thank You, Jeeves)\n- Using specific, vivid details to make characters come alive\n- Markers for giving examples (e.g., for example, such as, namely, for instance)\n- Implicit vs explicit exemplification\n\n---\n\n**Simple Understanding:**\n\n**Character Description Through Language:**\n👉 Writers reveal character traits through carefully chosen words and actions.\n👉 Example: Mrs. Gargery cutting bread – “trenchant” (sharp/forceful), “apothecary kind of way” (suggests clinical, unfeeling), “slapping dexterity” (rough efficiency). Shows she is practical, harsh, not tender.\n\n👉 Jeeves dialogue: formal, respectful, precise – “I can conceive that after what occurred…”, “the contingency need scarcely arise”. Shows intelligence, restraint, loyalty.\n\n👉 Thomas Gradgrind: “man of realities… facts and calculations… two and two are four”. Repetition of “sir”, rejection of “nonsensical belief”. Shows rigid, utilitarian, emotionless.\n\n**Writing Vivid Characters:**\n👉 Use specific physical details: “leathery white face”, “enormous gumboots”, “peppered with a white-and-black bristle”.\n👉 Use actions and mannerisms: “tut over his machine as if it were some moody woman”.\n👉 Use contrast: “tall, silent, dark man, very gentle”.\n\n---\n\n**Markers for Examples (Exemplification):**\n👉 Explicit markers: such as, for example, for instance, namely, like, illustrated by, as an example, that is, etc.\n👉 Examples from text:\n   - “such as: addition, subtraction, division…”\n   - “namely: Is one number less than another?…”\n   - “for example, they can solve certain arithmetic problems…”\n   - “for instance, can be done quite easily”\n\n**Placement:** Markers can be before or after the example, sometimes set off by commas.\n\n**Implicit Examples:** Not all texts use explicit markers; sometimes examples are given without signals.\n\n---\n\n**Important Vocabulary:**\n- Trenchant = sharp, incisive, forceful\n- Apothecary = pharmacist (clinical, detached)\n- Dexterity = skill, nimbleness\n- Peremptorily = abruptly, commandingly\n- Suppositious = hypothetical, assumed\n- Contingency = possible future event\n- Exemplification = giving examples\n- Explicit = clearly stated\n- Implicit = implied, not directly stated\n\n---\n\n**Quick Revision Points:**\n- Character description: choose specific verbs, nouns, adjectives.\n- Actions reveal personality (how someone does something).\n- Physical details create vivid mental images.\n- Example markers: such as, for example, for instance, namely, like.\n- Use examples to clarify abstract concepts.\n- Examples can be lists, phrases, or full sentences.",
+      "questions": [
+        {
+          "q": "In the passage from Great Expectations, the word 'trenchant' used to describe Mrs. Gargery's way of cutting bread suggests:",
+          "options": ["A. Gentle and careful", "B. Sharp and forceful", "C. Slow and lazy", "D. Kind and loving"],
+          "answer": "B. Sharp and forceful",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'in an apothecary kind of way' implies that Mrs. Gargery's butter-spreading is:",
+          "options": ["A. Artistic and creative", "B. Clinical and detached", "C. Enthusiastic and joyful", "D. Hasty and careless"],
+          "answer": "B. Clinical and detached",
+          "diff": "medium"
+        },
+        {
+          "q": "In the dialogue from 'Thank You, Jeeves', Jeeves' use of words like 'conceive' and 'contingency' indicates he is:",
+          "options": ["A. Uneducated and simple", "B. Formal and intelligent", "C. Angry and aggressive", "D. Sad and depressed"],
+          "answer": "B. Formal and intelligent",
+          "diff": "easy"
+        },
+        {
+          "q": "Thomas Gradgrind is described as 'a man of realities... a man of facts and calculations'. This characterization suggests he is:",
+          "options": ["A. Imaginative and creative", "B. Rigid and utilitarian", "C. Emotional and sympathetic", "D. Humorous and light-hearted"],
+          "answer": "B. Rigid and utilitarian",
+          "diff": "easy"
+        },
+        {
+          "q": "The repetition of 'sir' in the description of Thomas Gradgrind emphasizes his:",
+          "options": ["A. Politeness", "B. Authoritative and dismissive tone", "C. Friendliness", "D. Uncertainty"],
+          "answer": "B. Authoritative and dismissive tone",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is an example of a vivid physical detail used to describe a character?",
+          "options": ["A. 'He was a tall man'", "B. 'leathery white face under black hair'", "C. 'He was nice'", "D. 'She was kind'"],
+          "answer": "B. 'leathery white face under black hair'",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'tut over his machine as if it were some moody woman' reveals the farmer is:",
+          "options": ["A. Indifferent to his machine", "B. Treating the machine with gentle concern", "C. Angry at the machine", "D. Scared of the machine"],
+          "answer": "B. Treating the machine with gentle concern",
+          "diff": "medium"
+        },
+        {
+          "q": "Which word is an explicit marker for giving an example?",
+          "options": ["A. However", "B. Therefore", "C. For instance", "D. Meanwhile"],
+          "answer": "C. For instance",
+          "diff": "easy"
+        },
+        {
+          "q": "In the sentence 'Computers have circuits for performing arithmetic operations such as addition, subtraction, division...', the marker 'such as' introduces:",
+          "options": ["A. A conclusion", "B. An example", "C. A contrast", "D. A cause"],
+          "answer": "B. An example",
+          "diff": "easy"
+        },
+        {
+          "q": "The word 'namely' is typically used to introduce:",
+          "options": ["A. A list of specific examples", "B. A contradictory statement", "C. A time sequence", "D. A rhetorical question"],
+          "answer": "A. A list of specific examples",
+          "diff": "easy"
+        },
+        {
+          "q": "Which sentence uses an example marker correctly?",
+          "options": ["A. 'Computers are fast, for example they can solve problems quickly.'", "B. 'Computers are fast; for example, they can solve problems quickly.'", "C. 'Computers are fast, namely they can solve problems quickly.'", "D. 'Computers are fast such as they can solve problems quickly.'"],
+          "answer": "B. 'Computers are fast; for example, they can solve problems quickly.'",
+          "diff": "medium"
+        },
+        {
+          "q": "Explicit exemplification means:",
+          "options": ["A. Examples are given without any markers", "B. Examples are introduced by words like 'for example' or 'such as'", "C. Examples are hidden", "D. Examples are not needed"],
+          "answer": "B. Examples are introduced by words like 'for example' or 'such as'",
+          "diff": "easy"
+        },
+        {
+          "q": "Implicit exemplification occurs when:",
+          "options": ["A. The writer uses 'for instance'", "B. The writer provides an example without using a marker", "C. No examples are given", "D. The reader must guess the example"],
+          "answer": "B. The writer provides an example without using a marker",
+          "diff": "medium"
+        },
+        {
+          "q": "In the description 'He was a tiny fellow, with a leathery white face under black hair', the phrase 'leathery white face' suggests:",
+          "options": ["A. Youth and health", "B. Aged, weathered skin", "C. Smooth, soft skin", "D. Pale and sickly"],
+          "answer": "B. Aged, weathered skin",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'peppered with a white-and-black bristle' creates an image of:",
+          "options": ["A. Clean-shaven face", "B. Unshaven, stubbly face", "C. Long beard", "D. Smooth skin"],
+          "answer": "B. Unshaven, stubbly face",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a typical marker for giving examples?",
+          "options": ["A. Like", "B. Such as", "C. Because", "D. For instance"],
+          "answer": "C. Because",
+          "diff": "easy"
+        },
+        {
+          "q": "When describing a character, using 'slapping dexterity' instead of 'skill' adds:",
+          "options": ["A. A sense of violence or roughness", "B. A sense of elegance", "C. A sense of boredom", "D. A sense of happiness"],
+          "answer": "A. A sense of violence or roughness",
+          "diff": "medium"
+        },
+        {
+          "q": "The passage from Hard Times repeatedly uses the phrase 'a man of' to emphasize Gradgrind's:",
+          "options": ["A. Uncertainty", "B. Fixed identity and obsession with facts", "C. Kindness", "D. Humor"],
+          "answer": "B. Fixed identity and obsession with facts",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following sentences uses 'that is' as an example marker?",
+          "options": ["A. 'He arrived late, that is, after the meeting had started.'", "B. 'That is a good idea.'", "C. 'He said that is the way to do it.'", "D. 'That is why I left.'"],
+          "answer": "A. 'He arrived late, that is, after the meeting had started.'",
+          "diff": "hard"
+        },
+        {
+          "q": "The purpose of using vivid descriptive details in character writing is to:",
+          "options": ["A. Make the character seem flat", "B. Make the character come alive in the reader's mind", "C. Confuse the reader", "D. Lengthen the text"],
+          "answer": "B. Make the character come alive in the reader's mind",
+          "diff": "easy"
+        }
+      ]
+    },
+    "15": {
+      "title": "Interpreting Data, Comparative and Superlative Forms, Microcomputers (ENG 101 Lesson 15)",
+      "summary": "**Key Topics Covered:**\n- True/false questions based on tables and graphs (death rates, language speakers)\n- Geography of Japan: islands, seas, distances, directions, cities\n- Comparative and superlative forms of adjectives and adverbs (rules and exceptions)\n- Microcomputers vs minicomputers: history, price, performance, applications\n- Understanding non-equivalence markers (not as…as, greater than, less than, etc.)\n\n---\n\n**Simple Understanding:**\n\n**Interpreting Tables and Graphs:**\n👉 Carefully read headings and axes to understand what is being measured.\n👉 Examples: death rates (heart disease, cancer, tuberculosis), language speakers (millions of native speakers).\n👉 Use data to evaluate true/false statements.\n\n**Japan Geography:**\n👉 Four major islands: Honshu (largest), Hokkaido (northernmost), Kyushu (southernmost), Shikoku.\n👉 Surrounding seas: Sea of Japan (west), Pacific Ocean (east/southeast), East China Sea, Sea of Okhotsk.\n👉 Nearest country: Russia (Sakhalin), also South Korea, North Korea, China.\n\n---\n\n**Comparative and Superlative Forms:**\n\n**Rule 1 – One syllable: add -er and -est**\n👉 new → newer → newest; big → bigger → biggest; soon → sooner → soonest\n\n**Rule 2 – Three or more syllables: use more and most**\n👉 interesting → more interesting → most interesting; easily → more easily → most easily\n\n**Rule 3 – Two-syllable ending in -y, -ly, -ow, -le, -er: usually -er/-est**\n👉 happy → happier → happiest; early → earlier → earliest; narrow → narrower → narrowest; gentle → gentler → gentlest; clever → cleverer → cleverest\n👉 Exception: two-syllable adverbs ending in -ly use more/most (quickly → more quickly → most quickly)\n\n**Rule 4 – Some two-syllable adjectives allow both forms**\n👉 common (commoner/commonest or more common/most common); polite, quiet, handsome\n\n**Rule 5 – Irregular forms**\n👉 good/well → better → best; bad/badly → worse → worst; many/much → more → most; little → less → least; far → further/farther → furthest/farthest\n\n---\n\n**Equivalence and Non-Equivalence Markers:**\n👉 Equivalence: as…as, the same…as, similar to, like, equal to, compare to/with\n👉 Non-equivalence: not as…as, greater than, less than, fewer than, more…than, unlike, not equal to\n\n---\n\n**Microcomputers vs Minicomputers:**\n👉 Microcomputers (micros) use a microprocessor on a single chip; minicomputers (minis) are larger.\n👉 Price: microprocessors now as cheap as $10; complete micro system $500–$10,000.\n👉 Word lengths: micros 4-,8-,16-bit; minis up to 32-bit.\n👉 Micros are slower, simpler instruction sets, less software, but much cheaper.\n👉 Applications: industrial robots, automobile engine control, TV games, personal computers, education.\n👉 Prediction: performance increase ten-fold by 1990, prices could decrease similarly.\n\n---\n\n**Important Vocabulary:**\n- Comparative = compares two items (e.g., faster)\n- Superlative = compares three or more (e.g., fastest)\n- Syllable = unit of pronunciation\n- Irregular = does not follow standard pattern\n- Equivalence = equal or similar\n- Non-equivalence = not equal or different\n- Microprocessor = CPU on a single chip\n- Minicomputer = smaller than mainframe, larger than micro\n- Word length = bits processed at once\n- Peripheral equipment = input/output devices\n\n---\n\n**Quick Revision Points:**\n- For data interpretation, verify each statement against the table/graph.\n- Japan's four main islands: Hokkaido (north), Honshu, Shikoku, Kyushu (south).\n- Comparative: add -er or use more; superlative: add -est or use most.\n- Irregular forms must be memorized.\n- Microcomputers are cheaper, slower, less powerful than minis but rapidly improving.",
+      "questions": [
+        {
+          "q": "According to the lesson, which of the following is TRUE about the annual death rate since 1900?",
+          "options": ["A. It has more than doubled.", "B. It has been reduced by slightly less than half.", "C. It has remained exactly the same.", "D. It has increased for all diseases."],
+          "answer": "B. It has been reduced by slightly less than half.",
+          "diff": "medium"
+        },
+        {
+          "q": "Which disease has consistently been the major cause of death according to the table?",
+          "options": ["A. Tuberculosis", "B. Pneumonia", "C. Heart disease", "D. Cancer"],
+          "answer": "C. Heart disease",
+          "diff": "easy"
+        },
+        {
+          "q": "The northernmost island of Japan is:",
+          "options": ["A. Honshu", "B. Shikoku", "C. Kyushu", "D. Hokkaido"],
+          "answer": "D. Hokkaido",
+          "diff": "easy"
+        },
+        {
+          "q": "Which sea lies to the west of Japan?",
+          "options": ["A. Pacific Ocean", "B. Sea of Japan", "C. East China Sea", "D. Sea of Okhotsk"],
+          "answer": "B. Sea of Japan",
+          "diff": "easy"
+        },
+        {
+          "q": "Approximately how many native speakers of English are there in the world (based on the graph)?",
+          "options": ["A. 100 million", "B. 200 million", "C. 300 million", "D. 400 million"],
+          "answer": "C. 300 million",
+          "diff": "medium"
+        },
+        {
+          "q": "Which language ranks fifth in total number of speakers?",
+          "options": ["A. Arabic", "B. Portuguese", "C. Japanese", "D. Russian"],
+          "answer": "D. Russian",
+          "diff": "hard"
+        },
+        {
+          "q": "The comparative form of 'big' is:",
+          "options": ["A. More big", "B. Bigger", "C. Bigest", "D. Most big"],
+          "answer": "B. Bigger",
+          "diff": "easy"
+        },
+        {
+          "q": "The superlative form of 'interesting' is:",
+          "options": ["A. Interestingest", "B. Most interesting", "C. More interesting", "D. Interester"],
+          "answer": "B. Most interesting",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an irregular comparative form?",
+          "options": ["A. Newer", "B. Happier", "C. Better", "D. More careful"],
+          "answer": "C. Better",
+          "diff": "easy"
+        },
+        {
+          "q": "The comparative of 'bad' is:",
+          "options": ["A. Badder", "B. Worse", "C. Worst", "D. More bad"],
+          "answer": "B. Worse",
+          "diff": "easy"
+        },
+        {
+          "q": "For two-syllable adverbs ending in -ly, the comparative is formed with:",
+          "options": ["A. -er", "B. -est", "C. more/most", "D. -ier"],
+          "answer": "C. more/most",
+          "diff": "medium"
+        },
+        {
+          "q": "According to the microcomputer passage, the central processor of a micro is called a:",
+          "options": ["A. Minicomputer", "B. Microprocessor", "C. Mainframe", "D. Peripheral"],
+          "answer": "B. Microprocessor",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the approximate price range for a complete microcomputer system?",
+          "options": ["A. $10–$100", "B. $100–$500", "C. $500–$10,000", "D. $10,000–$100,000"],
+          "answer": "C. $500–$10,000",
+          "diff": "medium"
+        },
+        {
+          "q": "Compared to minicomputers, microcomputers typically have:",
+          "options": ["A. More flexible instruction sets", "B. Faster processing speeds", "C. Simpler instruction sets and slower speeds", "D. Larger word lengths"],
+          "answer": "C. Simpler instruction sets and slower speeds",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is an example of a microcomputer application mentioned?",
+          "options": ["A. Space shuttle program", "B. Automobile emission control", "C. Industrial robots", "D. All of the above"],
+          "answer": "D. All of the above",
+          "diff": "easy"
+        },
+        {
+          "q": "The passage predicts that by 1990, the performance of microprocessors could increase by:",
+          "options": ["A. Two times", "B. Five times", "C. Ten times", "D. Fifty times"],
+          "answer": "C. Ten times",
+          "diff": "hard"
+        },
+        {
+          "q": "What does the abbreviation 'n.a.' in tables typically stand for?",
+          "options": ["A. Not Available", "B. Not Applicable", "C. No Answer", "D. New Addition"],
+          "answer": "B. Not Applicable",
+          "diff": "easy"
+        },
+        {
+          "q": "The superlative form of 'far' can be:",
+          "options": ["A. Farer", "B. Farest", "C. Farthest or furthest", "D. Most far"],
+          "answer": "C. Farthest or furthest",
+          "diff": "easy"
+        },
+        {
+          "q": "Which marker is used to show equivalence (similarity)?",
+          "options": ["A. Greater than", "B. Less than", "C. The same as", "D. Not as much as"],
+          "answer": "C. The same as",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'not as … as' is used to indicate:",
+          "options": ["A. Equality", "B. Non-equivalence", "C. Superlative", "D. Comparative"],
+          "answer": "B. Non-equivalence",
+          "diff": "easy"
+        }
+      ]
+    },
+    "16": {
+      "title": "Cloze Exercises and Reading Comprehension (ENG 101 Lesson 17)",
+      "summary": "**Key Topics Covered:**\n- Cloze passages: filling missing words in context\n- Education and examination system (negative effects)\n- Global warming (greenhouse effect, ozone depletion)\n- Personal narrative (grandmother taking grandchildren to circus, elephant sits on car)\n- Overpopulation and future population growth\n- Robot design (desired capabilities and limitations)\n- Film review (Oliver Twist by Charles Dickens)\n\n---\n\n**Simple Understanding:**\n\n**Cloze Exercises:**\n👉 Passages with missing words (blanks) that must be filled using context clues.\n👉 Tests vocabulary, grammar, logical flow, and understanding of text.\n\n---\n\n**Passage 1 – Education and Examinations:**\n👉 Argues that examination system does NOT encourage thinking for oneself.\n👉 Students learn only prescribed syllabus; reading is narrowed, not widened.\n👉 Teachers judged by exam results, forced to coach students for exams.\n👉 Successful candidates are best trained under stress, not necessarily best educated.\n\n**Key vocabulary:** prescribed, syllabus, motivate, narrow, deprive, reduce, despise.\n\n---\n\n**Passage 2 – Global Warming:**\n👉 Existed since Earth's creation; initially beneficial (ended ice ages).\n👉 Now problematic due to runaway greenhouse effect and ozone depletion.\n👉 Normally: Sun's energy reaches Earth, reflects back into space.\n👉 Greenhouse gases trap energy → atmosphere heats up.\n\n**Key vocabulary:** phenomenon, beneficial, runway effect, ozone depletion, reflected, trapped.\n\n---\n\n**Passage 3 – Letter about Circus Visit (Grandmother):**\n👉 Grandmother takes grandchildren Mark and Michelle to circus.\n👉 Borrows Susan's bright red Mini car.\n👉 Children loved zoo and circus; Mark liked wild animals; Michelle wants to be acrobat.\n👉 Announcement: owner of red Mini (PUR 727V) to manager's office.\n👉 Elephant trained to sit on red boxes sat on the car!\n👉 Car squashed but drivable; circus will pay for damage.\n👉 On way home, police stopped them about an accident; officer's face was priceless.\n👉 Grandmother asks family not to forget to water plants.\n\n---\n\n**Passage 4 – Overpopulation:**\n👉 World's exploding population causing growing pains.\n👉 UN study: by year ____ five billion persons will be added to 6.5 billion today.\n👉 More troubling than number of inhabitants are estimates of where they will be concentrated.\n\n---\n\n**Passage 5 – Robot:**\n👉 Ideal robot could wax floor, wash dishes, iron clothes, entertain, learn.\n👉 Self-ambulatory robot would save time.\n👉 Designer would want intellectual robot: reason, understand, help with math problems, proofread.\n👉 Intellectual quality is key.\n\n---\n\n**Passage 6 – Oliver (Film):**\n👉 Orphan boy escapes workhouse, goes to London.\n👉 Meets villain Bill Sykes, girlfriend Nancy, pickpocket Artful Dodger, beggar Fagin.\n👉 Eventually, Bill Sykes killed, Oliver lives happily with wealthy uncle Mr. Brownlow.\n👉 Moving story about boy's search for happiness.\n\n---\n\n**Important Vocabulary:**\n- Cloze = fill-in-the-blank exercise\n- Syllabus = course outline\n- Deprive = take away\n- Despise = hate\n- Runaway effect = uncontrolled feedback\n- Ozone depletion = thinning of ozone layer\n- Self-ambulatory = able to walk on its own\n- Orphan = child without parents\n- Workhouse = place for poor people to live and work\n\n---\n\n**Quick Revision Points:**\n- Use context to guess missing words in cloze passages.\n- Education passage criticizes exam system.\n- Global warming: greenhouse gases trap heat.\n- Circus letter: humorous anecdote about elephant sitting on car.\n- Overpopulation: billions more people expected.\n- Ideal robot should be intellectual, not just do chores.\n- Oliver Twist is a classic orphan story.",
+      "questions": [
+        {
+          "q": "In the passage about education, the examination system is described as:",
+          "options": ["A. Encouraging students to think for themselves", "B. Narrowing students' reading and study", "C. Expanding knowledge widely", "D. Motivating students to read extensively"],
+          "answer": "B. Narrowing students' reading and study",
+          "diff": "easy"
+        },
+        {
+          "q": "According to the education passage, teachers are judged by:",
+          "options": ["A. Their teaching methods", "B. Examination results", "C. Student evaluations", "D. Their freedom in the classroom"],
+          "answer": "B. Examination results",
+          "diff": "easy"
+        },
+        {
+          "q": "The most successful candidates in examinations are described as:",
+          "options": ["A. The best educated", "B. The most knowledgeable", "C. The best trained in working under stress", "D. The most creative thinkers"],
+          "answer": "C. The best trained in working under stress",
+          "diff": "medium"
+        },
+        {
+          "q": "Initially, global warming was beneficial because it:",
+          "options": ["A. Created new deserts", "B. Brought Earth out of ice ages", "C. Increased rainfall", "D. Reduced carbon dioxide"],
+          "answer": "B. Brought Earth out of ice ages",
+          "diff": "easy"
+        },
+        {
+          "q": "The 'runway effect' and ozone depletion are both:",
+          "options": ["A. Solutions to global warming", "B. Natural weather patterns", "C. Causes of global warming problems", "D. Results of volcanic eruptions"],
+          "answer": "C. Causes of global warming problems",
+          "diff": "medium"
+        },
+        {
+          "q": "In the greenhouse effect, energy from the Sun is normally:",
+          "options": ["A. Absorbed permanently by the Earth", "B. Reflected back into space", "C. Used to create ozone", "D. Stored in clouds"],
+          "answer": "B. Reflected back into space",
+          "diff": "easy"
+        },
+        {
+          "q": "Greenhouse gases trap energy and cause the atmosphere to:",
+          "options": ["A. Cool down", "B. Heat up", "C. Remain constant", "D. Disappear"],
+          "answer": "B. Heat up",
+          "diff": "easy"
+        },
+        {
+          "q": "In the grandmother's letter, she borrowed Susan's car which was a:",
+          "options": ["A. Blue sedan", "B. Bright red Mini", "C. Black SUV", "D. Green station wagon"],
+          "answer": "B. Bright red Mini",
+          "diff": "easy"
+        },
+        {
+          "q": "The children's reactions to the circus were:",
+          "options": ["A. Disappointed and bored", "B. Excited and loved everything", "C. Scared of the animals", "D. Indifferent"],
+          "answer": "B. Excited and loved everything",
+          "diff": "easy"
+        },
+        {
+          "q": "Why was the manager upset about the red Mini?",
+          "options": ["A. It was parked illegally", "B. An elephant had sat on it", "C. It had been stolen", "D. The lights were left on"],
+          "answer": "B. An elephant had sat on it",
+          "diff": "easy"
+        },
+        {
+          "q": "The elephant was trained to sit on:",
+          "options": ["A. Yellow boxes", "B. Blue mats", "C. Red boxes", "D. Green carpets"],
+          "answer": "C. Red boxes",
+          "diff": "easy"
+        },
+        {
+          "q": "After the elephant incident, the grandmother was stopped by police because:",
+          "options": ["A. She was speeding", "B. There had been a serious accident nearby", "C. The car was on fire", "D. She had no license"],
+          "answer": "B. There had been a serious accident nearby",
+          "diff": "medium"
+        },
+        {
+          "q": "The grandmother asked her family to remember to:",
+          "options": ["A. Feed the cat", "B. Water her plants", "C. Pay the bills", "D. Clean the house"],
+          "answer": "B. Water her plants",
+          "diff": "easy"
+        },
+        {
+          "q": "According to the overpopulation passage, the new UN study predicts that by a certain year, how many billion persons will be added to the world population?",
+          "options": ["A. Two billion", "B. Three billion", "C. Five billion", "D. Ten billion"],
+          "answer": "C. Five billion",
+          "diff": "hard"
+        },
+        {
+          "q": "The passage says that more troubling than the number of inhabitants are estimates of:",
+          "options": ["A. Their ages", "B. Where they will be concentrated", "C. Their incomes", "D. Their education levels"],
+          "answer": "B. Where they will be concentrated",
+          "diff": "medium"
+        },
+        {
+          "q": "In the robot passage, the writer says an ideal robot would need to be more than just a household helper; it would need to be:",
+          "options": ["A. Strong", "B. Fast", "C. Intellectual", "D. Cheap"],
+          "answer": "C. Intellectual",
+          "diff": "easy"
+        },
+        {
+          "q": "The writer wants her robot to be able to help with math problems and proofread English essays, showing that she values:",
+          "options": ["A. Physical strength", "B. Speed", "C. Mental activity and reasoning", "D. Appearance"],
+          "answer": "C. Mental activity and reasoning",
+          "diff": "easy"
+        },
+        {
+          "q": "In the film Oliver, the orphan boy meets all the following characters EXCEPT:",
+          "options": ["A. Bill Sykes", "B. Fagin", "C. Artful Dodger", "D. Mr. Brownlow from the start"],
+          "answer": "D. Mr. Brownlow from the start (he meets him later)",
+          "diff": "medium"
+        },
+        {
+          "q": "At the end of Oliver, Bill Sykes is killed and Oliver lives happily with:",
+          "options": ["A. Fagin", "B. Nancy", "C. His wealthy uncle Mr. Brownlow", "D. The Artful Dodger"],
+          "answer": "C. His wealthy uncle Mr. Brownlow",
+          "diff": "easy"
+        },
+        {
+          "q": "The overall tone of the grandmother's letter about the circus is:",
+          "options": ["A. Sad and tragic", "B. Humorous and light-hearted", "C. Angry and bitter", "D. Formal and academic"],
+          "answer": "B. Humorous and light-hearted",
+          "diff": "easy"
+        }
+      ]
+    },
+    "17": {
+      "title": "Cloze Passages and Reading Comprehension (ENG 101 Lesson 17)",
+      "summary": "**Key Topics Covered:**\n- Cloze exercises: filling missing words in context\n- Passage 1: Education and examination system (negative effects)\n- Passage 2: Global warming (greenhouse effect, ozone depletion)\n- Passage 3: Letter about circus visit (elephant sits on car)\n- Passage 4: Overpopulation and UN predictions\n- Passage 5: Ideal robot design (intellectual qualities)\n- Passage 6: Film Oliver (orphan boy's story)\n\n---\n\n**Simple Understanding:**\n\n**Cloze Exercises:**\n👉 Passages with missing words (blanks) that must be filled using context clues.\n👉 Tests vocabulary, grammar, logical flow, and understanding of text.\n\n---\n\n**Passage 1 – Education and Examinations:**\n👉 Argues that examination system does NOT encourage thinking for oneself.\n👉 Students learn only prescribed syllabus; reading is narrowed, not widened.\n👉 Teachers judged by exam results, forced to coach students for exams.\n👉 Successful candidates are best trained under stress, not necessarily best educated.\n\n**Key vocabulary:** prescribed, syllabus, motivate, narrow, deprive, reduce, despise.\n\n---\n\n**Passage 2 – Global Warming:**\n👉 Existed since Earth's creation; initially beneficial (ended ice ages).\n👉 Now problematic due to runaway greenhouse effect and ozone depletion.\n👉 Normally: Sun's energy reaches Earth, reflects back into space.\n👉 Greenhouse gases trap energy → atmosphere heats up.\n\n**Key vocabulary:** phenomenon, beneficial, runway effect, ozone depletion, reflected, trapped.\n\n---\n\n**Passage 3 – Letter about Circus Visit (Grandmother):**\n👉 Grandmother takes grandchildren Mark and Michelle to circus.\n👉 Borrows Susan's bright red Mini car.\n👉 Children loved zoo and circus; Mark liked wild animals; Michelle wants to be acrobat.\n👉 Announcement: owner of red Mini (PUR 727V) to manager's office.\n👉 Elephant trained to sit on red boxes sat on the car!\n👉 Car squashed but drivable; circus will pay for damage.\n👉 On way home, police stopped them about an accident; officer's face was priceless.\n👉 Grandmother asks family not to forget to water plants.\n\n---\n\n**Passage 4 – Overpopulation:**\n👉 World's exploding population causing growing pains.\n👉 UN study: by year ____ five billion persons will be added to 6.5 billion today.\n👉 More troubling than number of inhabitants are estimates of where they will be concentrated.\n\n---\n\n**Passage 5 – Robot:**\n👉 Ideal robot could wax floor, wash dishes, iron clothes, entertain, learn.\n👉 Self-ambulatory robot would save time.\n👉 Designer would want intellectual robot: reason, understand, help with math problems, proofread.\n👉 Intellectual quality is key.\n\n---\n\n**Passage 6 – Oliver (Film):**\n👉 Orphan boy escapes workhouse, goes to London.\n👉 Meets villain Bill Sykes, girlfriend Nancy, pickpocket Artful Dodger, beggar Fagin.\n👉 Eventually, Bill Sykes killed, Oliver lives happily with wealthy uncle Mr. Brownlow.\n👉 Moving story about boy's search for happiness.\n\n---\n\n**Important Vocabulary:**\n- Cloze = fill-in-the-blank exercise\n- Syllabus = course outline\n- Deprive = take away\n- Despise = hate\n- Runaway effect = uncontrolled feedback\n- Ozone depletion = thinning of ozone layer\n- Self-ambulatory = able to walk on its own\n- Orphan = child without parents\n- Workhouse = place for poor people to live and work\n\n---\n\n**Quick Revision Points:**\n- Use context to guess missing words in cloze passages.\n- Education passage criticizes exam system.\n- Global warming: greenhouse gases trap heat.\n- Circus letter: humorous anecdote about elephant sitting on car.\n- Overpopulation: billions more people expected.\n- Ideal robot should be intellectual, not just do chores.\n- Oliver Twist is a classic orphan story.",
+      "questions": [
+        {
+          "q": "In the passage about education, the examination system is described as:",
+          "options": ["A. Encouraging students to think for themselves", "B. Narrowing students' reading and study", "C. Expanding knowledge widely", "D. Motivating students to read extensively"],
+          "answer": "B. Narrowing students' reading and study",
+          "diff": "easy"
+        },
+        {
+          "q": "According to the education passage, teachers are judged by:",
+          "options": ["A. Their teaching methods", "B. Examination results", "C. Student evaluations", "D. Their freedom in the classroom"],
+          "answer": "B. Examination results",
+          "diff": "easy"
+        },
+        {
+          "q": "The most successful candidates in examinations are described as:",
+          "options": ["A. The best educated", "B. The most knowledgeable", "C. The best trained in working under stress", "D. The most creative thinkers"],
+          "answer": "C. The best trained in working under stress",
+          "diff": "medium"
+        },
+        {
+          "q": "Initially, global warming was beneficial because it:",
+          "options": ["A. Created new deserts", "B. Brought Earth out of ice ages", "C. Increased rainfall", "D. Reduced carbon dioxide"],
+          "answer": "B. Brought Earth out of ice ages",
+          "diff": "easy"
+        },
+        {
+          "q": "The 'runway effect' and ozone depletion are both:",
+          "options": ["A. Solutions to global warming", "B. Natural weather patterns", "C. Causes of global warming problems", "D. Results of volcanic eruptions"],
+          "answer": "C. Causes of global warming problems",
+          "diff": "medium"
+        },
+        {
+          "q": "In the greenhouse effect, energy from the Sun is normally:",
+          "options": ["A. Absorbed permanently by the Earth", "B. Reflected back into space", "C. Used to create ozone", "D. Stored in clouds"],
+          "answer": "B. Reflected back into space",
+          "diff": "easy"
+        },
+        {
+          "q": "Greenhouse gases trap energy and cause the atmosphere to:",
+          "options": ["A. Cool down", "B. Heat up", "C. Remain constant", "D. Disappear"],
+          "answer": "B. Heat up",
+          "diff": "easy"
+        },
+        {
+          "q": "In the grandmother's letter, she borrowed Susan's car which was a:",
+          "options": ["A. Blue sedan", "B. Bright red Mini", "C. Black SUV", "D. Green station wagon"],
+          "answer": "B. Bright red Mini",
+          "diff": "easy"
+        },
+        {
+          "q": "The children's reactions to the circus were:",
+          "options": ["A. Disappointed and bored", "B. Excited and loved everything", "C. Scared of the animals", "D. Indifferent"],
+          "answer": "B. Excited and loved everything",
+          "diff": "easy"
+        },
+        {
+          "q": "Why was the manager upset about the red Mini?",
+          "options": ["A. It was parked illegally", "B. An elephant had sat on it", "C. It had been stolen", "D. The lights were left on"],
+          "answer": "B. An elephant had sat on it",
+          "diff": "easy"
+        },
+        {
+          "q": "The elephant was trained to sit on:",
+          "options": ["A. Yellow boxes", "B. Blue mats", "C. Red boxes", "D. Green carpets"],
+          "answer": "C. Red boxes",
+          "diff": "easy"
+        },
+        {
+          "q": "After the elephant incident, the grandmother was stopped by police because:",
+          "options": ["A. She was speeding", "B. There had been a serious accident nearby", "C. The car was on fire", "D. She had no license"],
+          "answer": "B. There had been a serious accident nearby",
+          "diff": "medium"
+        },
+        {
+          "q": "The grandmother asked her family to remember to:",
+          "options": ["A. Feed the cat", "B. Water her plants", "C. Pay the bills", "D. Clean the house"],
+          "answer": "B. Water her plants",
+          "diff": "easy"
+        },
+        {
+          "q": "According to the overpopulation passage, the new UN study predicts that by a certain year, how many billion persons will be added to the world population?",
+          "options": ["A. Two billion", "B. Three billion", "C. Five billion", "D. Ten billion"],
+          "answer": "C. Five billion",
+          "diff": "hard"
+        },
+        {
+          "q": "The passage says that more troubling than the number of inhabitants are estimates of:",
+          "options": ["A. Their ages", "B. Where they will be concentrated", "C. Their incomes", "D. Their education levels"],
+          "answer": "B. Where they will be concentrated",
+          "diff": "medium"
+        },
+        {
+          "q": "In the robot passage, the writer says an ideal robot would need to be more than just a household helper; it would need to be:",
+          "options": ["A. Strong", "B. Fast", "C. Intellectual", "D. Cheap"],
+          "answer": "C. Intellectual",
+          "diff": "easy"
+        },
+        {
+          "q": "The writer wants her robot to be able to help with math problems and proofread English essays, showing that she values:",
+          "options": ["A. Physical strength", "B. Speed", "C. Mental activity and reasoning", "D. Appearance"],
+          "answer": "C. Mental activity and reasoning",
+          "diff": "easy"
+        },
+        {
+          "q": "In the film Oliver, the orphan boy meets all the following characters EXCEPT:",
+          "options": ["A. Bill Sykes", "B. Fagin", "C. Artful Dodger", "D. Mr. Brownlow from the start"],
+          "answer": "D. Mr. Brownlow from the start (he meets him later)",
+          "diff": "medium"
+        },
+        {
+          "q": "At the end of Oliver, Bill Sykes is killed and Oliver lives happily with:",
+          "options": ["A. Fagin", "B. Nancy", "C. His wealthy uncle Mr. Brownlow", "D. The Artful Dodger"],
+          "answer": "C. His wealthy uncle Mr. Brownlow",
+          "diff": "easy"
+        },
+        {
+          "q": "The overall tone of the grandmother's letter about the circus is:",
+          "options": ["A. Sad and tragic", "B. Humorous and light-hearted", "C. Angry and bitter", "D. Formal and academic"],
+          "answer": "B. Humorous and light-hearted",
+          "diff": "easy"
+        }
+      ]
+    },
+    "18": {
+      "title": "Primary and Secondary Memory (ENG 101 Lesson 18)",
+      "summary": "**Key Topics Covered:**\n- Primary memory (internal storage, real storage, RAM)\n- Secondary memory (sequential vs random-access devices)\n- Memory units: K (1024 bytes), byte (8 bits)\n- Random access and speed as requirements for processing\n- Magnetic tape (sequential, low cost, slow access)\n- Magnetic disk (random-access, faster, more expensive)\n- Virtual storage (using disks to extend primary memory)\n- Dedicated function in mini and micro applications\n- Addresses and contents of memory compartments\n\n---\n\n**Simple Understanding:**\n\n**Primary Memory:**\n👉 Also called internal storage, real storage, primary memory.\n👉 Measured in K (kilobytes): 1K = 1024 bytes, 1 byte = 8 bits.\n👉 Stores programs and data temporarily for immediate CPU processing.\n👉 Requires random access (any location equally quick) and high speed.\n👉 Uses addresses (fixed locations like house addresses).\n👉 Contents = information stored in memory compartments.\n\n**Secondary Memory:**\n👉 Developed because primary memory is costly and used transiently.\n👉 Two categories:\n   - **Sequential devices** (e.g., magnetic tape): low cost, but access time long (must pass over preceding data).\n   - **Random-access devices** (e.g., magnetic disk): faster access, bypass irrelevant data, more expensive.\n\n**Virtual Storage:**\n👉 Disks hooked up as extension of internal storage to increase capacity.\n👉 Example: 256K real storage may appear as 512K virtual storage.\n\n**Mini and Micro Applications:**\n👉 Often perform dedicated functions (same task all the time).\n\n---\n\n**Important Vocabulary:**\n- Primary memory = internal storage, real storage\n- Secondary memory = external storage devices\n- K (kilobyte) = 1024 bytes\n- Byte = 8 bits\n- Random access = equally quick access to any location\n- Sequential access = fixed order access only\n- Address = unique identifier for memory location\n- Contents = data stored at an address\n- Virtual storage = simulated extra memory using disks\n\n---\n\n**Quick Revision Points:**\n- Primary memory is fast, expensive, temporary.\n- Secondary memory is slower, cheaper, permanent.\n- Magnetic tape: sequential, cheap, slow retrieval.\n- Magnetic disk: random-access, faster, moderate cost.\n- Virtual storage uses disks to fake more primary memory.\n- Random access and speed are crucial for processing.",
+      "questions": [
+        {
+          "q": "The term 'memory' in computers usually refers to:",
+          "options": ["A. External storage only", "B. Internal storage locations", "C. Magnetic tape", "D. Virtual memory only"],
+          "answer": "B. Internal storage locations",
+          "diff": "easy"
+        },
+        {
+          "q": "One kilobyte (1K) is equal to:",
+          "options": ["A. 1000 bytes", "B. 1024 bytes", "C. 8 bits", "D. 1024 bits"],
+          "answer": "B. 1024 bytes",
+          "diff": "easy"
+        },
+        {
+          "q": "One byte consists of how many bits?",
+          "options": ["A. 4", "B. 8", "C. 16", "D. 32"],
+          "answer": "B. 8",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a requirement for primary memory to facilitate processing?",
+          "options": ["A. Random access", "B. Speed", "C. Low cost per bit", "D. Immediate availability to CPU"],
+          "answer": "C. Low cost per bit",
+          "diff": "medium"
+        },
+        {
+          "q": "Random access means that:",
+          "options": ["A. Memory locations are accessed in fixed order", "B. Any part of memory can be accessed equally quickly", "C. Only sequential devices are used", "D. Information is stored permanently"],
+          "answer": "B. Any part of memory can be accessed equally quickly",
+          "diff": "easy"
+        },
+        {
+          "q": "The addresses in primary memory are compared to:",
+          "options": ["A. Car license plates", "B. House addresses", "C. Telephone numbers", "D. Book page numbers"],
+          "answer": "B. House addresses",
+          "diff": "easy"
+        },
+        {
+          "q": "Most primary memory is used transiently, meaning:",
+          "options": ["A. It is permanent", "B. It is only temporary while a program is executing", "C. It is never changed", "D. It stores data for years"],
+          "answer": "B. It is only temporary while a program is executing",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is an example of a sequential secondary storage device?",
+          "options": ["A. Magnetic disk", "B. Magnetic tape", "C. RAM", "D. ROM"],
+          "answer": "B. Magnetic tape",
+          "diff": "easy"
+        },
+        {
+          "q": "Which statement about magnetic tape is true?",
+          "options": ["A. It is random-access", "B. It is low cost but access time is long", "C. It is faster than magnetic disk", "D. It is used as primary memory"],
+          "answer": "B. It is low cost but access time is long",
+          "diff": "easy"
+        },
+        {
+          "q": "Magnetic disk is an example of:",
+          "options": ["A. Sequential device", "B. Random-access device", "C. Primary memory", "D. Read-only memory"],
+          "answer": "B. Random-access device",
+          "diff": "easy"
+        },
+        {
+          "q": "Compared to magnetic tape, magnetic disk is:",
+          "options": ["A. Slower and cheaper", "B. Faster and more expensive", "C. Slower and more expensive", "D. Faster and cheaper"],
+          "answer": "B. Faster and more expensive",
+          "diff": "easy"
+        },
+        {
+          "q": "Virtual storage is achieved by:",
+          "options": ["A. Adding more RAM chips", "B. Using disks as an extension of internal storage", "C. Compressing data", "D. Using faster processors"],
+          "answer": "B. Using disks as an extension of internal storage",
+          "diff": "medium"
+        },
+        {
+          "q": "If a computer has 256K bytes of real storage, virtual storage could make it appear to have:",
+          "options": ["A. 128K", "B. 256K", "C. 512K", "D. 1024K"],
+          "answer": "C. 512K",
+          "diff": "hard"
+        },
+        {
+          "q": "Minicomputers and microcomputers often perform:",
+          "options": ["A. General-purpose tasks", "B. Dedicated functions", "C. Only arithmetic operations", "D. Virtual memory management"],
+          "answer": "B. Dedicated functions",
+          "diff": "medium"
+        },
+        {
+          "q": "The main idea of the text is best expressed by:",
+          "options": ["A. Primary memory is more important than secondary memory.", "B. Secondary memory devices are unimportant in a computer system.", "C. There are two types of memory: primary and secondary.", "D. Virtual storage is the best memory technology."],
+          "answer": "C. There are two types of memory: primary and secondary.",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is stated (S) in the text?",
+          "options": ["A. Minicomputers and microcomputers have similar memory capacity.", "B. Primary memory is more expensive than secondary memory.", "C. Information stored on magnetic disk can be retrieved faster than from tape.", "D. Disks and tapes can be stored in a library."],
+          "answer": "C. Information stored on magnetic disk can be retrieved faster than from tape.",
+          "diff": "medium"
+        },
+        {
+          "q": "In paragraph 4, the writer uses the example of magnetic disk to illustrate:",
+          "options": ["A. Sequential access devices", "B. Random-access devices", "C. Virtual storage", "D. Primary memory"],
+          "answer": "B. Random-access devices",
+          "diff": "easy"
+        },
+        {
+          "q": "The synonym for 'erases' in the context of memory (paragraph 2) is:",
+          "options": ["A. Reads", "B. Wipes out", "C. Accesses", "D. Stores"],
+          "answer": "B. Wipes out",
+          "diff": "easy"
+        },
+        {
+          "q": "The antonym for 'go through' (as in sequential access) is likely:",
+          "options": ["A. Bypass", "B. Pass over", "C. Access slowly", "D. Read sequentially"],
+          "answer": "A. Bypass",
+          "diff": "medium"
+        },
+        {
+          "q": "The phrase 'the contents of the memory' (paragraph 2) refers to:",
+          "options": ["A. The addresses of storage locations", "B. The information stored in memory compartments", "C. The size of memory in K", "D. The type of memory used"],
+          "answer": "B. The information stored in memory compartments",
+          "diff": "easy"
+        }
+      ]
+    },
+    "19": {
+      "title": "Types of Computer Memory (ENG 101 Lesson 19)",
+      "summary": "**Key Topics Covered:**\n- Core memory (magnetic cores/ferrite rings)\n- Semiconductor memory (chips, integrated circuits)\n- Bubble memory (magnetic bubbles on thin film)\n- Evolution of memory: core → semiconductor → bubble\n- Storage capacity: early 80,000 bits; modern millions of bits\n- Characteristics of each memory type (size, composition, capacity)\n- Definitions: term, group, distinguishing characteristics\n\n---\n\n**Simple Understanding:**\n\n**Core Memory:**\n👉 First type of computer memory developed.\n👉 Uses small ferrite rings (cores) arranged in a grid of vertical and horizontal wires.\n👉 Each core can be magnetized (1) or unmagnetized (0) – one bit per core.\n👉 Early computers had capacity around 80,000 bits (10K bytes).\n👉 Dominated the market until semiconductor memory.\n\n**Semiconductor Memory (Chips):**\n👉 Developed after core memory, before bubble memory.\n👉 Uses integrated circuits on a non-metallic element (silicon).\n👉 Revolutionized the computer field – made minicomputers and microcomputers possible.\n👉 Much smaller size, higher capacity (millions of bits).\n👉 Transistors and chips are related but not identical; a chip contains many circuits.\n\n**Bubble Memory:**\n👉 Latest development (at time of writing).\n👉 Uses thin film over a memory board; produces magnetic bubbles.\n👉 Each bubble represents one bit (presence/absence).\n👉 Non-volatile (retains data without power), very small size.\n👉 Still a lot to learn about this process; many advantages.\n\n**Definitions:**\n👉 A definition includes: term (what is being defined), group (category it belongs to), distinguishing characteristics (what makes it unique).\n👉 Example: \"A core is a ferrite ring which is capable of being either magnetized or demagnetized.\"\n\n---\n\n**Important Vocabulary:**\n- Core memory = magnetic ring memory\n- Ferrite = magnetic ceramic material\n- Semiconductor = material with conductivity between conductor and insulator\n- Chip = integrated circuit on silicon\n- Bubble memory = magnetic bubble memory\n- Non-volatile = retains data when power off\n- Bit = binary digit (0 or 1)\n- Integrated circuit = electronic circuit on a chip\n- Transistor = semiconductor switch\n\n---\n\n**Quick Revision Points:**\n- Core memory was first (ferrite rings on wire grid).\n- Semiconductor memory (chips) replaced core memory.\n- Bubble memory is newer, smaller, non-volatile.\n- Early memory: 80,000 bits; modern: millions of bits.\n- Chips made minicomputers and microcomputers possible.\n- Definitions have three parts: term, group, characteristics.",
+      "questions": [
+        {
+          "q": "The first type of computer memory developed was:",
+          "options": ["A. Semiconductor memory", "B. Bubble memory", "C. Core memory", "D. Virtual memory"],
+          "answer": "C. Core memory",
+          "diff": "easy"
+        },
+        {
+          "q": "Core memory uses small rings made of:",
+          "options": ["A. Silicon", "B. Copper", "C. Ferrite", "D. Plastic"],
+          "answer": "C. Ferrite",
+          "diff": "easy"
+        },
+        {
+          "q": "In core memory, a core could be either magnetized or unmagnetized, representing:",
+          "options": ["A. 0 or 1 (one bit)", "B. One byte", "C. One word", "D. One address"],
+          "answer": "A. 0 or 1 (one bit)",
+          "diff": "easy"
+        },
+        {
+          "q": "Early core memory computers typically had a capacity of about:",
+          "options": ["A. 8,000 bits", "B. 80,000 bits", "C. 800,000 bits", "D. 8 million bits"],
+          "answer": "B. 80,000 bits",
+          "diff": "medium"
+        },
+        {
+          "q": "Which memory type revolutionized the computer field and made minicomputers and microcomputers possible?",
+          "options": ["A. Core memory", "B. Bubble memory", "C. Semiconductor memory (chips)", "D. Magnetic tape"],
+          "answer": "C. Semiconductor memory (chips)",
+          "diff": "easy"
+        },
+        {
+          "q": "Semiconductor memory is built on a non-metallic element called:",
+          "options": ["A. Copper", "B. Aluminum", "C. Silicon", "D. Iron"],
+          "answer": "C. Silicon",
+          "diff": "easy"
+        },
+        {
+          "q": "The development of chips allowed:",
+          "options": ["A. Only mainframe computers", "B. Minicomputers and microcomputers", "C. Only supercomputers", "D. Only analog computers"],
+          "answer": "B. Minicomputers and microcomputers",
+          "diff": "easy"
+        },
+        {
+          "q": "Bubble memory is described as the:",
+          "options": ["A. Oldest type of memory", "B. Most expensive type", "C. Latest development in computer memory", "D. Slowest type"],
+          "answer": "C. Latest development in computer memory",
+          "diff": "easy"
+        },
+        {
+          "q": "In bubble memory, each magnetic bubble represents:",
+          "options": ["A. One byte", "B. One bit", "C. One word", "D. One address"],
+          "answer": "B. One bit",
+          "diff": "medium"
+        },
+        {
+          "q": "Which memory type uses a thin film over a memory board to produce magnetic bubbles?",
+          "options": ["A. Core memory", "B. Semiconductor memory", "C. Bubble memory", "D. Optical memory"],
+          "answer": "C. Bubble memory",
+          "diff": "easy"
+        },
+        {
+          "q": "An advantage of bubble memory mentioned in the text is:",
+          "options": ["A. Very low cost", "B. Extremely fast access", "C. Many advantages including small size and non-volatility", "D. Easy to manufacture"],
+          "answer": "C. Many advantages including small size and non-volatility",
+          "diff": "medium"
+        },
+        {
+          "q": "True or False: Minicomputers, microcomputers, and mainframes all have the same kind of memory.",
+          "options": ["A. True", "B. False (they use different memory types)", "C. True only for mainframes", "D. False only for microcomputers"],
+          "answer": "B. False (they use different memory types)",
+          "diff": "easy"
+        },
+        {
+          "q": "The statement 'A transistor and a chip are the same kind of device' is:",
+          "options": ["A. True", "B. False (a chip contains many transistors and other circuits)", "C. True only for early chips", "D. False because transistors are larger"],
+          "answer": "B. False (a chip contains many transistors and other circuits)",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following best expresses the main idea of the text?",
+          "options": ["A. Core memory was the first type of computer memory developed.", "B. There are at least three different kinds of memory used in computers.", "C. Bubble memory is the latest development in computer memory.", "D. Semiconductor memory is the most important."],
+          "answer": "B. There are at least three different kinds of memory used in computers.",
+          "diff": "easy"
+        },
+        {
+          "q": "According to the text, early computer memories had:",
+          "options": ["A. More storage capacity than newer ones", "B. Less storage capacity than newer ones", "C. The same capacity as newer ones", "D. No storage capacity"],
+          "answer": "B. Less storage capacity than newer ones",
+          "diff": "easy"
+        },
+        {
+          "q": "The text mentions that core memory dominated the market until:",
+          "options": ["A. The invention of bubble memory", "B. The development of semiconductor memory", "C. The invention of magnetic tape", "D. The 1980s"],
+          "answer": "B. The development of semiconductor memory",
+          "diff": "medium"
+        },
+        {
+          "q": "In a definition, the part that tells what category the term belongs to is called the:",
+          "options": ["A. Term", "B. Group", "C. Characteristics", "D. Example"],
+          "answer": "B. Group",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a correct definition format?",
+          "options": ["A. Term + characteristics + group", "B. Group + term + characteristics", "C. Term + group + distinguishing characteristics", "D. Characteristics + term + group"],
+          "answer": "C. Term + group + distinguishing characteristics",
+          "diff": "easy"
+        },
+        {
+          "q": "In the definition 'An abacus is a bead frame in which the beads are moved from left to right', the group is:",
+          "options": ["A. Abacus", "B. Bead frame", "C. Beads moved from left to right", "D. Frame"],
+          "answer": "B. Bead frame",
+          "diff": "medium"
+        },
+        {
+          "q": "The text suggests that there is still a lot to learn about which memory process?",
+          "options": ["A. Core memory", "B. Semiconductor memory", "C. Bubble memory", "D. Virtual memory"],
+          "answer": "C. Bubble memory",
+          "diff": "easy"
+        }
+      ]
+    },
+    "20": {
+      "title": "Steps in Problem Solving (ENG 101 Lesson 20)",
+      "summary": "**Key Topics Covered:**\n- Problem solving steps (define, algorithm, program, keypunch, test, add data)\n- Role of the programmer vs computer (computer follows instructions, does not think)\n- Algorithm: sequence of instructions to solve a problem\n- Flowchart/block diagram: diagrammatic representation of algorithm\n- Coding sheets: special forms for writing programs\n- Testing programs: finding bugs (errors)\n- Computer components: CPU (control unit, arithmetic-logic unit), memory (primary, secondary), input/output devices\n\n---\n\n**Simple Understanding:**\n\n**Problem Solving Steps:**\n👉 Step 1: Define the problem clearly – understand what needs to be solved.\n👉 Step 2: Formulate an algorithm – a straightforward sequence of instructions.\n   - Algorithm can be described by a flowchart (block diagram).\n   - Flowchart uses arrows to show relationships, repetition, alternative routes.\n👉 Step 3: Translate algorithm into a computer program using a programming language.\n   - Program written on coding sheets (special format).\n👉 Step 4: Keypunch the program or enter it at a terminal with visual display unit.\n👉 Step 5: Test the program – find bugs (errors). Printout shows if it works.\n   - Using a terminal, can store program in memory and get printout.\n👉 Step 6: Add data and run the job completely. Computer performs calculations.\n\n**Key Concepts:**\n👉 Computer is a robot – doesn't think, does what it is told.\n👉 Programmer solves problems; computer executes instructions.\n👉 Bugs = errors in the program.\n\n**Computer Components (from diagram):**\n👉 Four basic components: input, processor, memory, output.\n👉 CPU has control unit (directs signals) and arithmetic-logic unit (does operations, decision-making).\n👉 Primary memory (internal) – core, chip, bubble memory.\n👉 Secondary memory (peripheral storage).\n👉 Input devices: card reader, tape drive, disk drive, terminal.\n👉 Output devices: printer, terminal.\n\n---\n\n**Important Vocabulary:**\n- Algorithm = step-by-step procedure\n- Flowchart = block diagram of algorithm\n- Coding sheets = forms for writing programs\n- Keypunch = machine to punch cards\n- Bugs = program errors\n- Printout = printed output from computer\n- CPU = Central Processing Unit\n- Control unit = directs signals and commands\n- Arithmetic-logic unit = performs calculations and decisions\n- Primary memory = internal storage\n- Secondary memory = peripheral storage\n\n---\n\n**Quick Revision Points:**\n- Programmer solves problems; computer follows instructions.\n- Six steps: define, algorithm, program, keypunch, test, run.\n- Algorithm is the most important part (time-consuming).\n- Flowchart shows sequence with arrows.\n- Test program before adding data.\n- Computer does not think; it is a robot.",
+      "questions": [
+        {
+          "q": "Who actually solves problems when using a computer?",
+          "options": ["A. The computer", "B. The programmer", "C. The operator", "D. The CPU"],
+          "answer": "B. The programmer",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the first step in problem solving according to the text?",
+          "options": ["A. Formulate an algorithm", "B. Write the program", "C. Define the problem clearly", "D. Test the program"],
+          "answer": "C. Define the problem clearly",
+          "diff": "easy"
+        },
+        {
+          "q": "An algorithm is defined as:",
+          "options": ["A. A computer program", "B. A sequence of steps or instructions used to solve a problem", "C. A type of computer memory", "D. A debugging tool"],
+          "answer": "B. A sequence of steps or instructions used to solve a problem",
+          "diff": "easy"
+        },
+        {
+          "q": "Which step is described as 'the most important part of problem solving and is usually time-consuming'?",
+          "options": ["A. Defining the problem", "B. Constructing an algorithm", "C. Translating to a program", "D. Testing the program"],
+          "answer": "B. Constructing an algorithm",
+          "diff": "easy"
+        },
+        {
+          "q": "A flowchart is also called a:",
+          "options": ["A. Coding sheet", "B. Block diagram", "C. Printout", "D. Program listing"],
+          "answer": "B. Block diagram",
+          "diff": "easy"
+        },
+        {
+          "q": "The relationship between events in a flowchart is shown by means of:",
+          "options": ["A. Numbers", "B. Connecting arrows", "C. Colored boxes", "D. Brackets"],
+          "answer": "B. Connecting arrows",
+          "diff": "easy"
+        },
+        {
+          "q": "A block diagram can show if a process has to be repeated or if there are alternative routes. This indicates:",
+          "options": ["A. Input and output", "B. Loops and decisions", "C. Only sequential flow", "D. Only data storage"],
+          "answer": "B. Loops and decisions",
+          "diff": "medium"
+        },
+        {
+          "q": "Programs are usually written on:",
+          "options": ["A. Blank paper", "B. Coding sheets", "C. Punch cards", "D. Magnetic tape"],
+          "answer": "B. Coding sheets",
+          "diff": "easy"
+        },
+        {
+          "q": "The process of transferring the program to the computer memory using cards is called:",
+          "options": ["A. Keypunching", "B. Compiling", "C. Loading", "D. Debugging"],
+          "answer": "A. Keypunching",
+          "diff": "medium"
+        },
+        {
+          "q": "What does the text call errors in a program?",
+          "options": ["A. Glitches", "B. Bugs", "C. Viruses", "D. Crashes"],
+          "answer": "B. Bugs",
+          "diff": "easy"
+        },
+        {
+          "q": "What is a printout?",
+          "options": ["A. The computer's memory contents", "B. Printed output showing if the program works or has errors", "C. The algorithm written on paper", "D. The coding sheet after keypunching"],
+          "answer": "B. Printed output showing if the program works or has errors",
+          "diff": "easy"
+        },
+        {
+          "q": "Why is it a good idea to test the program before adding the data?",
+          "options": ["A. To save time", "B. To find and fix errors before processing real data", "C. To make the computer faster", "D. To reduce memory usage"],
+          "answer": "B. To find and fix errors before processing real data",
+          "diff": "easy"
+        },
+        {
+          "q": "According to the text, a computer is called a robot because:",
+          "options": ["A. It can think like a human", "B. It does what it is told without thinking", "C. It has moving parts", "D. It can solve problems on its own"],
+          "answer": "B. It does what it is told without thinking",
+          "diff": "easy"
+        },
+        {
+          "q": "Which statement best expresses the main idea of the text?",
+          "options": ["A. Constructing an algorithm is the basic step in solving a problem.", "B. Solving problems becomes easier if certain steps are followed.", "C. The computer does what the programmer tells it to do.", "D. Programmers are more important than computers."],
+          "answer": "B. Solving problems becomes easier if certain steps are followed.",
+          "diff": "medium"
+        },
+        {
+          "q": "True or False: A computer is capable of thinking and solving problems on its own.",
+          "options": ["A. True", "B. False (it follows instructions given by the programmer)", "C. Only supercomputers can think", "D. It depends on the programming language"],
+          "answer": "B. False (it follows instructions given by the programmer)",
+          "diff": "easy"
+        },
+        {
+          "q": "What does CPU stand for?",
+          "options": ["A. Central Processing Unit", "B. Computer Peripheral Unit", "C. Control Program Utility", "D. Central Program User"],
+          "answer": "A. Central Processing Unit",
+          "diff": "easy"
+        },
+        {
+          "q": "Which part of the CPU directs and controls signals and commands?",
+          "options": ["A. Arithmetic-logic unit", "B. Control unit", "C. Memory unit", "D. Input unit"],
+          "answer": "B. Control unit",
+          "diff": "easy"
+        },
+        {
+          "q": "Which part of the CPU performs arithmetic operations and decision-making?",
+          "options": ["A. Control unit", "B. Arithmetic-logic unit", "C. Memory register", "D. Cache"],
+          "answer": "B. Arithmetic-logic unit",
+          "diff": "easy"
+        },
+        {
+          "q": "Primary memory is also called:",
+          "options": ["A. Secondary memory", "B. Internal memory", "C. External storage", "D. Virtual memory"],
+          "answer": "B. Internal memory",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an example of an input device mentioned in the text?",
+          "options": ["A. Printer", "B. Terminal", "C. CPU", "D. Primary memory"],
+          "answer": "B. Terminal",
+          "diff": "easy"
+        }
+      ]
+    },
+    "21": {
+      "title": "Flowcharting (ENG 101 Lesson 21)",
+      "summary": "**Key Topics Covered / Aasan Lafzo Mai Samjhein:**\n\n- **Flowchart Kya Hai? (What is a Flowchart):**\n  Flowchart aik road map ya drawing ki tarah hota hai jo program ka logical path (rasta) dikhata hai. Yeh kisi specific programming language ka mohtaj nahi hota, balke har bade program ko likhne se pehle banaya jata hai.\n- **Faida Kya Hai? (Why Use Flowcharts):**\n  Agar program mai koi error (bug) aa jaye, toh use code ki maze (uljhan) mai dhoodne ke bajaye flowchart par dhoodna zyada aasan hota hai.\n- **Flowchart Banane Ke Do Tareeqay (Two Methods):**\n  1. *Freehand Version:* Haath se jaldi-jaldi rough jotted down kiya jata hai (not for permanent records).\n  2. *Template Method:* Aik plastic sheet (template) use kiye jati hai jisme saare symbols cut out hote hain taake neat aur readable flowchart ban sake.\n- **Flowchart Symbols Aur Unka Matlab:**\n  - *Oval/Terminal symbol:* Start aur Stop ke liye use hota hai.\n  - *Parallelogram:* Input aur Output (kuch lane ya lejane) ke liye use hota hai.\n  - *Rectangle:* Processing aur Action lene ke liye use hota hai.\n  - *Diamond:* Decision making (Yes/No questions) ke liye use hota hai.\n  - *Arrows:* Flow or direction (rasta) dikhane ke liye use hote hain.\n- **Program Documentation:**\n  Program ko samajhne ke liye uske sath flowchart aur detailed instructions ka record rakhna program documentation kehlata hai. Agar documentation na ho, toh hum program se ulta (backwards) chalkar bhi flowchart bana sakte hain.\n- **Logical Ability:**\n  Flowcharting se student programmer ki logical aur analytical sochne ki salahiyat (thinking process) ka pata chalta hai.\n\n---\n\n**Exercise Key Solved Data (For Quick Revision):**\n- **Main Idea:** Flowcharting is a basic step in programming.\n- **True/False Insights:** Template ke baghair bhi freehand flowchart ban sakta hai (False statement in exercise). Aik problem ke mukhtalif programmers alag-alag flowcharts bana sakte hain. Flowchart se code chalne ki 100% guarantee nahi hoti jab tak logic aur problem understanding theek na ho.\n- **Important Vocabulary Synonyms:** route = path | try = attempt | answer = solution / reply | put in = insert | show = reveal.\n- **Antonyms:** unlimited = restricted | undiscovered = detected | temporary = permanent | inaccessible = available | illogical = logical.",
+      "questions": [
+        {
+          "q": "Which statement expresses the main idea of Lesson 21 text?",
+          "options": ["A. Every programmer must know how to flowchart.", "B. Program documentation specifies what the program is supposed to do.", "C. Flowcharting is a basic step in programming.", "D. Templates make flowcharts permanent."],
+          "answer": "C. Flowcharting is a basic step in programming.",
+          "diff": "medium"
+        },
+        {
+          "q": "Why are errors more easily detected on a flowchart than in the program code?",
+          "options": ["A. Because flowcharts use different colors.", "B. Because it avoids the maze of words, characters, and numbers of the code.", "C. Because flowcharts are always made using plastic templates.", "D. Because flowcharts automatically fix the errors."],
+          "answer": "B. Because it avoids the maze of words, characters, and numbers of the code.",
+          "diff": "easy"
+        },
+        {
+          "q": "Is it possible to draw a flowchart without using a plastic template?",
+          "options": ["A. No, templates are mandatory.", "B. Yes, by making a freehand version.", "C. Only if the program is very short.", "D. Only if written in a specific language."],
+          "answer": "B. Yes, by making a freehand version.",
+          "diff": "easy"
+        },
+        {
+          "q": "Two programmers working separately on the same problem will always come up with identical flowcharts.",
+          "options": ["A. True, because the problem is the same.", "B. False, they may come up with altogether different flowcharts and programs.", "C. True, because flowcharts follow strict standard templates.", "D. False, because templates restrict variations."],
+          "answer": "B. False, they may come up with altogether different flowcharts and programs.",
+          "diff": "medium"
+        },
+        {
+          "q": "Which symbol indicates the beginning or the end of a program?",
+          "options": ["A. Rectangle", "B. Parallelogram", "C. Terminal symbol", "D. Diamond shaped symbol"],
+          "answer": "C. Terminal symbol",
+          "diff": "easy"
+        },
+        {
+          "q": "A parallelogram shape in flowcharting is used as an:",
+          "options": ["A. Processing symbol", "B. Input/Output symbol", "C. Decision symbol", "D. Terminal symbol"],
+          "answer": "B. Input/Output symbol",
+          "diff": "easy"
+        },
+        {
+          "q": "What does a rectangular symbol stand for in a flowchart?",
+          "options": ["A. Decision making", "B. Processing / action taken", "C. Input data entry", "D. Ending of a program"],
+          "answer": "B. Processing / action taken",
+          "diff": "easy"
+        },
+        {
+          "q": "The diamond-shaped symbol is used in a flowchart to indicate a:",
+          "options": ["A. Sequential process", "B. Input command", "C. Decision usually answered by Yes or No", "D. Document storage link"],
+          "answer": "C. Decision usually answered by Yes or No",
+          "diff": "easy"
+        },
+        {
+          "q": "What is used to show the flow or direction in which the different actions are performed?",
+          "options": ["A. Rectangles", "B. Templates", "C. Arrows", "D. Connectors"],
+          "answer": "C. Arrows",
+          "diff": "easy"
+        },
+        {
+          "q": "Keeping a copy of the flowchart along with detailed instructions after working out a program is known as:",
+          "options": ["A. Keypunching", "B. Program documentation", "C. Freehand processing", "D. Reclassifying code"],
+          "answer": "B. Program documentation",
+          "diff": "medium"
+        },
+        {
+          "q": "If the original flowchart is missing, is it possible to work backwards and create one from an application program?",
+          "options": ["A. No, it is impossible.", "B. Yes, it is always possible.", "C. Only if a template is available.", "D. Only if the program contains zero loops."],
+          "answer": "B. Yes, it is always possible.",
+          "diff": "medium"
+        },
+        {
+          "q": "Flowcharting is taught early to student programmers because it reveals their:",
+          "options": ["A. Typing speed and language knowledge", "B. Logical and analytical ability", "C. Ability to use templates cleanly", "D. Memory capacity"],
+          "answer": "B. Logical and analytical ability",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the synonym of the word 'route' used in the text?",
+          "options": ["A. Map", "B. Path", "C. Maze", "D. Step"],
+          "answer": "B. Path",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the antonym of the word 'temporary' according to the passage context?",
+          "options": ["A. Freehand", "B. Readable", "C. Permanent", "D. Plastic"],
+          "answer": "C. Permanent",
+          "diff": "easy"
+        },
+        {
+          "q": "Complete the sentence with the correct form: 'Flowcharting _________ a logical analysis of a problem...'",
+          "options": ["A. involve", "B. involves", "C. involvement", "D. involving"],
+          "answer": "B. involves",
+          "diff": "medium"
+        },
+        {
+          "q": "Complete the sentence: 'A piece of plastic with different shapes used for flowcharting is called a _________.'",
+          "options": ["A. document", "B. terminal", "C. template", "D. parallelogram"],
+          "answer": "C. template",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the type of clause: 'If computer technology continues growing at the rate it has...'",
+          "options": ["A. Prediction", "B. Condition", "C. Main Idea", "D. Process"],
+          "answer": "B. Condition",
+          "diff": "medium"
+        },
+        {
+          "q": "In the phrase 'the original one is missing', what does the word 'one' refer to?",
+          "options": ["A. Program", "B. Flowchart", "C. Template", "D. Symbol"],
+          "answer": "B. Flowchart",
+          "diff": "easy"
+        },
+        {
+          "q": "True or False: The method of flowcharting depends on the programming language being used.",
+          "options": ["A. True", "B. False (it is not restricted to any particular language)"],
+          "answer": "B. False (it is not restricted to any particular language)",
+          "diff": "easy"
+        },
+        {
+          "q": "Complete the grammar form: 'He submitted the _________ version of the program to be keypunched.'",
+          "options": ["A. correct", "B. corrected", "C. correcting", "D. correction"],
+          "answer": "B. corrected",
+          "diff": "medium"
+        }
+      ]
+    },
+    "22": {
+      "title": "Sentence Types and Structures (ENG 101 Lesson 22)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: BASIC GRAMMAR COMBINATIONS (Mixed Forms)\nYeh concepts aam taur par direct MCQ definitions ya identification ke liye aate hain:\n\n👉 **1. Participle (Verb + Adjective):** \nJab koi verb ka word kisi noun ki khubi ya haalat batane ke liye (adjective ban kar) aaye.\n*   *Pehchan:* Yeh noun se pehle lag kar uski condition batata hai.\n*   *Example:* The **retired** headmaster distributed the prizes. (Yahan \"retired\" aik verb hai jo headmaster ki halat bata raha hai).\n\n👉 **2. Gerund (Verb + Noun):** \nJab verb ki `-ing` wali form sentence mai action ke bajaye aik \"naam\" ya \"activity\" (noun) ka kaam kare.\n*   *Pehchan:* Yeh sentence mai subject ya object ki jagah aata hai.\n*   *Example:* She is thinking of **leaving** her job.\n\n👉 **3. Infinitive (To + Verb):** \nJab `to` ke sath verb ki first form lag kar noun ka kaam kare.\n*   *Example:* She wishes **to deposit** the money.\n\n👉 **4. Relative Adverb (Adverb + Conjunction):** \nYeh aik aisa adverb hota hai jo do clauses ya baaton ko aapas mai jorhta (connect) bhi hai.\n*   *Example:* I was relieved **when** the program ended.\n\n---\n\n### 🏛️ SECTION 2: SENTENCES BY MEANING / PURPOSE\nSentence baat kehne ke maqsad ke mutabiq 5 tarah ke hote hain:\n\n1. **Statement / Assertion / Declaration:** Kisi aam baat ka elaan ya sabaat karna. (e.g., *He is a teacher.* / *It is cloudy.*)\n2. **Question:** Koi sawal poochna. (e.g., *What day is it?*)\n3. **Commands / Imperative:** Hukm ya ijazat dena. (e.g., *Go in.* / *Shut up.*)\n4. **Exclamations:** Shaded jazbaat ya afsos ka izhaar. (e.g., *If only it would stop raining!*)\n5. **Greetings:** Duaia ya aam khair-sangat wale alfaz jinka koi fix rules nahi hota. (e.g., *Good morning.* / *Hello.*)\n\n---\n\n### 🛠️ SECTION 3: SENTENCES BY STRUCTURE (Most Important Part)\nSentence banta kaise hai? Iski 4 barhi types hain. Inko samajhne se pehle yaad rakhein:\n*   *Independent Clause:* Jo poori baat samajhaye aur akele khara ho sake.\n*   *Dependent Clause:* Jo `Dependent Word` se shuru ho aur akele poora matlab na de sake (ismai bhi subject aur verb hota hai).\n\n#### 🟢 1. The Simple Sentence\nIsmai sirf **AIK** Independent Clause hoti hai (yani aik hi mukammal thought).\n*   *🚨 Concept Clear karein:* Simple sentence chota bhi ho sakta hai aur bohot lamba bhi. Ismai aik se zyada subjects aur aik se zyada verbs ho sakte hain, jab tak wo sab mil kar aik hi complete thought banayein!\n*   *Example (1 Subject + 1 Verb):* Sparks fly upwards.\n*   *Example (Multiple Subjects & Verbs):* Shama, Salman and Minko **(3 Subjects)** go to the movies, eat at a restaurant and play cards **(3 Verbs)** every Saturday night. (Yeh abhi bhi simple sentence hai kyun ke koi dependent clause nahi hai).\n\n#### 🔵 2. The Compound Sentence\nJab **DO ya do se zyada** mukammal thoughts (Independent Clauses) ko aapas mai jorha jaye.\n*   *Formula:* Independent Clause + **, (Comma)** + **Joining Word** + Independent Clause.\n*   *Co-ordinating / Joining Words Ka Matlab:*\n    *   `and` = In addition (izafa karna) -> *The driver failed to signal, and he went through a stop sign.*\n    *   `but` / `yet` = However (lekin / iske bawajood) -> *I was tired, but I still studied.*\n    *   `so` = As a result (is liye / nateejatan) -> *The meal was bad, so we sent it back.*\n    *   `for` = Because (kyun ke - yaad rakhein yahan 'for' ka matlab 'because' hai) -> *She works at home, for she wants to be with her kids.*\n    *   `or` = Alternative (ya phir / choice) -> *You can ride with us, or you can go with someone else.*\n    *   `nor` = Second negative statement (na hi yeh) -> *Saad does not eat meat, nor does he eat fish.*\n\n#### 🟡 3. The Complex Sentence\nIsmai **AIK Independent Statement** hoti hai aur **kam az kam AIK Dependent Statement** hoti hai jo akele stand nahi kar sakti.\n*   *Pehchan:* Dependent statement hamesha in **Dependent Words** se shuru hoti hai: *after, although, as, because, before, even if, even though, since, though, unless, until, when, whenever, whether, while, where, wherever.*\n*   *Punctuation Rule:* Agar dependent clause shuru mai aaye toh darmyan mai comma (,) lagega. Agar baad mai aaye toh comma nahi lagta.\n*   *Example:* **When the century began**, there were many coffee houses. (Underlined part dependent hai).\n*   *Example:* Ghazala will not sell her old gramophone **even if she is offered a large sum of money**.\n\n#### 🟠 4. The Compound-Complex Sentence\nIsmai kam az kam **DO Independent Clauses** (compound ki tarah) aur kam az kam **AIK Dependent Clause** (complex ki tarah) hoti hai.\n*   *Example:* **When Bobby saw a rainbow** [Dependent], he ran to get his camera [Independent 1], **and** the rainbow disappeared [Independent 2].\n\n---\n\n### 📝 SECTION 4: PRACTICE EXERCISE DIRECT SOLUTIONS\n*   *Garbage strike issue:* The city sanitary workers are on strike, **so** the streets are littered with garbage.\n*   *Computer issue:* The computer was on, **but** no one was working at it.\n*   *Rain & Picnic text combine:* Although it had rained for many days, the sun finally came out; the children wanted a picnic, but the ground was too wet.",
+      "questions": [
+        {
+          "q": "What is a participle according to the text?",
+          "options": ["A. A verb and a noun combined", "B. A verb and an adjective combined", "C. An adverb and a conjunction combined", "D. A noun and an adjective combined"],
+          "answer": "B. A verb and an adjective combined",
+          "diff": "easy"
+        },
+        {
+          "q": "In the sentence 'She is thinking of leaving her job', the word 'leaving' is an example of a:",
+          "options": ["A. Participle", "B. Gerund", "C. Infinitive", "D. Relative Adverb"],
+          "answer": "B. Gerund",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is an example of an Infinitive?",
+          "options": ["A. Retired headmaster", "B. Thinking", "C. To deposit", "D. When the program ended"],
+          "answer": "C. To deposit",
+          "diff": "easy"
+        },
+        {
+          "q": "A simple sentence can have which of the following?",
+          "options": ["A. Only one subject and one verb", "B. More than one verb but only one subject", "C. Several subjects and several verbs as long as it expresses one independent thought", "D. At least one dependent clause"],
+          "answer": "C. Several subjects and several verbs as long as it expresses one independent thought",
+          "diff": "medium"
+        },
+        {
+          "q": "In a compound sentence, clauses are typically joined together by a:",
+          "options": ["A. Dependent word", "B. Comma and a joining (co-ordinating) word", "C. Colon alone", "D. Relative adverb"],
+          "answer": "B. Comma and a joining (co-ordinating) word",
+          "diff": "easy"
+        },
+        {
+          "q": "Which joining word is used to show a second negative statement?",
+          "options": ["A. or", "B. nor", "C. but", "D. yet"],
+          "answer": "B. nor",
+          "diff": "easy"
+        },
+        {
+          "q": "What does the joining word 'for' mean when connecting independent thoughts in a compound sentence?",
+          "options": ["A. In addition", "B. However", "C. Because", "D. As a result"],
+          "answer": "C. Because",
+          "diff": "medium"
+        },
+        {
+          "q": "A complex sentence must include:",
+          "options": ["A. Two or more independent clauses only", "B. One independent statement and at least one dependent statement", "C. No verbs in the dependent clause", "D. A semicolon and a joining word"],
+          "answer": "B. One independent statement and at least one dependent statement",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following words is on the list of 'dependent words'?",
+          "options": ["A. but", "B. although", "C. nor", "D. so"],
+          "answer": "B. although",
+          "diff": "easy"
+        },
+        {
+          "q": "Combine correctly using a joining word: 'The computer was on. No one was working at it.'",
+          "options": ["A. The computer was on so no one was working at it.", "B. The computer was on, but no one was working at it.", "C. Although the computer was on no one worked.", "D. The computer was on nor no one was working at it."],
+          "answer": "B. The computer was on, but no one was working at it.",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a Simple Sentence?",
+          "options": ["A. The fire alarm sounded.", "B. When the fire alarm sounded she was in bed.", "C. The fire alarm sounded, and they evacuated the building.", "D. Because the alarm sounded, everyone left."],
+          "answer": "A. The fire alarm sounded.",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a Compound Sentence?",
+          "options": ["A. Terry seems unfriendly.", "B. The book was very expensive, so I didn't buy it.", "C. When Jack did a U-turn, his bike slipped.", "D. The raindrops slide slowly down the window."],
+          "answer": "B. The book was very expensive, so I didn't buy it.",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a Complex Sentence?",
+          "options": ["A. Jack did a U-turn.", "B. When Jack did a U-turn, his bike slipped.", "C. Jack did a U-turn, and he fell off the bike.", "D. Jack did a U-turn but he did not fall."],
+          "answer": "B. When Jack did a U-turn, his bike slipped.",
+          "diff": "medium"
+        },
+        {
+          "q": "Which sentence is a Compound-Complex sentence?",
+          "options": ["A. The raindrops slide slowly down the window.", "B. The bell rang six times, but no one answered.", "C. Because I heard a scream outside, I called the police.", "D. When Bobby saw a rainbow he ran to get his camera and the rainbow disappeared."],
+          "answer": "D. When Bobby saw a rainbow he ran to get his camera and the rainbow disappeared.",
+          "diff": "hard"
+        },
+        {
+          "q": "What is the correct way to fix the punctuation here: 'As the mad man made demands on the phone police surrounded the building.'",
+          "options": ["A. Place a comma after 'phone'", "B. Place a semicolon after 'demands'", "C. Place a comma after 'man'", "D. No punctuation is needed"],
+          "answer": "A. Place a comma after 'phone'",
+          "diff": "medium"
+        },
+        {
+          "q": "In the compound sentence joining words, 'yet' carries the same meaning as:",
+          "options": ["A. and", "B. so", "C. but", "D. for"],
+          "answer": "C. but",
+          "diff": "easy"
+        },
+        {
+          "q": "Every dependent statement/clause must contain a:",
+          "options": ["A. Semicolon and joining word", "B. Subject and a verb", "C. Conjunction and a list", "D. Prepositional phrase only"],
+          "answer": "B. Subject and a verb",
+          "diff": "medium"
+        },
+        {
+          "q": "The sentence 'Go in' falls under which category of purpose?",
+          "options": ["A. Statement", "B. Question", "C. Issue commands", "D. Utter exclamations"],
+          "answer": "C. Issue commands",
+          "diff": "easy"
+        },
+        {
+          "q": "Complete the compound sentence: 'Saad does not eat meat, _________ does he eat fish.'",
+          "options": ["A. or", "B. nor", "C. but", "D. yet"],
+          "answer": "B. nor",
+          "diff": "medium"
+        },
+        {
+          "q": "A statement that cannot stand alone as a complete thought is called a/an:",
+          "options": ["A. Simple sentence", "B. Independent clause", "C. Dependent clause / statement", "D. Compound declaration"],
+          "answer": "C. Dependent clause / statement",
+          "diff": "easy"
+        }
+      ]
+    },
+    "23": {
+      "title": "Sentence Improvements and Coherence (ENG 101 Lesson 23)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: SUBORDINATION & SENTENCE UNITY\nKuch sentences mai main baat chup jati hai aur aam baat par zor parh jata hai. Unko sahi connective se behtar banaya jata hai. Sahi subordinating conjunctions use karna aur adhure sentences (lacking unity) ko poora karna zaroori hai.\n\n👉 **Key Rules & Corrections:**\n- `just as` ya `when` ko main event ke sath nahi lagate. Jo bada ya sudden event ho, usko main clause banayein.\n- `because` aur `reason` aik sath use karna ghalat hai (Redundancy). `The reason... was that` likhein.\n- Adhure statements jaise \"She is so talented\" ya \"such a problem\" ke aage details lagana lazmi hai taake baat mukammal ho (Sentence Unity).\n\n---\n\n### 🏛️ SECTION 2: PARALLELISM (Faulty Constructions)\nParallelism ka matlab hai ke agar aik sentence mai ek se zyada cheezon ki list ho, toh un sab ka grammatical structure **AIK JAISA** hona chahiye. Agar aik `-ing` form hai toh baqi bhi `-ing` hon, agar aik `to + verb` hai toh baqi bhi `to + verb` hon.\n\n👉 **Key Rules & Corrections:**\n- *Ghalat:* Reading books and to write reviews. ❌\n- *Sahi:* **Reading** books and **writing** book reviews.  (Dono `-ing` nouns / Gerunds ban gaye).\n- *Correlatives Rule:* `Both... and`, `not only... but also`, `either... or` ke baad bilkul aik jaisay part of speech aane chahiye.\n- *Ghalat:* He not only likes tennis but also golf. ❌\n- *Sahi:* He likes **not only** tennis **but also** golf.  (Dono nouns se pehle correlatives aaye).\n\n---\n\n### 🛠️ SECTION 3: COHERENCE (Pronouns, Split Construction, Shifting)\nSentence mai coherence (rabt) paida karne ke liye 4 barhi chizon ka khyal rakhna parta hai:\n\n1. **Pronoun Reference:** Pronoun (`he, she, it, they`) kis noun ke liye use ho raha hai, yeh bilkul clear hona chahiye (Ambiguity nahi honi chahiye).\n2. **Pronoun Agreement:** Kisi company ya club ko singular treat karein toh poore sentence mai singular (`its`) rakhein, (`their`) mat lagayein.\n3. **Split Infinitive:** `to` aur `verb` ke darmyan mai koi adverb ghusana ghalat hai. (e.g., *to viciously hit* ❌ -> *to hit viciously* ).\n4. **Shifting Point of View:** Sentence ke darmyan bina wajah tense (Past se Present), voice (Active se Passive), ya number (Singular se Plural) tabdeel mat karein.\n   - *Ghalat:* He ran to the station and the train was taken by him. ❌ (Active to Passive shift)\n   - *Sahi:* He **ran** to the station and **took** the train.  (Dono active).\n\n---\n\n### ⚡ SECTION 4: EMPHASIS (Zor Dena)\nSentence mai jo sab se ahem baat hoti hai, usko aisi jagah rakha jata hai jahan parhne wale ka dhayan sab se pehle jaye:\n\n- **Position:** Sab se ahem baat sentence ke **shuru** mai ya **aakhiri** hisse mai honi chahiye. Faizay dar phrases jaise `I think`, `we were told` ko aakhir mai chorhne se emphasis kamzoor ho jata hai.\n- **Order of Climax:** Cheezon ki list ko hamesha chote se bade ki taraf (Climax order) mai likhein. (e.g., *Middle school, high school, and then college*).\n\n---\n\n### 📝 SECTION 5: PRACTICE EXERCISE DIRECT SOLUTIONS\n*   *Parallelism:* **Swimming** and **fishing** are my favourite sports.\n*   *Correlative Position:* I want **both** to exercise **and** to be amused.\n*   *Pronoun Fix:* Susan and her sister both saw the film, but **Susan** was disappointed.\n*   *Split Fix:* He took an oath **never to reveal** the secrets...\n*   *Climax Order:* He testified that he had passed **middle school, high school, and college** examinations.",
+      "questions": [
+        {
+          "q": "What is the error in the sentence: 'The main reason I left early was because I was bored.'?",
+          "options": ["A. Faulty Parallelism", "B. Split Infinitive", "C. Redundant construction (using 'reason' and 'because' together)", "D. Incorrect pronoun reference"],
+          "answer": "C. Redundant construction (using 'reason' and 'because' together)",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following sentences shows correct parallel structure?",
+          "options": ["A. Seema's job is reading books and to write book reviews.", "B. Seema's job is reading books and writing book reviews.", "C. Seema's job is to read books and writing book reviews.", "D. Seema's job is read books and writing book reviews."],
+          "answer": "B. Seema's job is reading books and writing book reviews.",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the error: 'Swimming and to go fishing are my favourite sports.'",
+          "options": ["A. To swim and fishing are my favourite sports.", "B. Swimming and fishing are my favourite sports.", "C. Swimming and to fish are my favourite sports.", "D. To swimming and go fishing are my favourite sports."],
+          "answer": "B. Swimming and fishing are my favourite sports.",
+          "diff": "easy"
+        },
+        {
+          "q": "What is a 'Split Infinitive' error?",
+          "options": ["A. Shifting from past tense to present tense", "B. Placing an adverb between 'to' and the base verb", "C. Using a plural pronoun for a singular noun", "D. Ending a sentence with a preposition"],
+          "answer": "B. Placing an adverb between 'to' and the base verb",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the correct way to fix the split construction: 'to viciously hit'",
+          "options": ["A. viciously to hit", "B. to hit viciously", "C. to be viciously hitting", "D. hit viciously to"],
+          "answer": "B. to hit viciously",
+          "diff": "easy"
+        },
+        {
+          "q": "Why is this sentence ambiguous: 'Ahmed saw Basit yesterday and he said that he had the money.'?",
+          "options": ["A. It has a split construction.", "B. It is missing a joining word.", "C. The pronoun 'he' has an unclear reference (could be Ahmed or Basit).", "D. It shifts from active to passive voice."],
+          "answer": "C. The pronoun 'he' has an unclear reference (could be Ahmed or Basit).",
+          "diff": "medium"
+        },
+        {
+          "q": "If an antecedent is singular (e.g., 'The club'), how should it be treated throughout the sentence?",
+          "options": ["A. First as singular, then as plural", "B. Consistently as plural", "C. Consistently as singular (using 'its' instead of 'their')", "D. It does not matter"],
+          "answer": "C. Consistently as singular (using 'its' instead of 'their')",
+          "diff": "medium"
+        },
+        {
+          "q": "What error occurs when a sentence changes needlessly from active to passive voice?",
+          "options": ["A. Lack of parallelism", "B. Aimless shifting destroying coherence", "C. Redundancy", "D. Climax error"],
+          "answer": "B. Aimless shifting destroying coherence",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct the shift in tense: 'The only words that we were able to distinguish are 'horse' and 'cart'.'",
+          "options": ["A. ...distinguish is 'horse' and 'cart'.", "B. ...distinguish were 'horse' and 'cart'.", "C. ...distinguished are 'horse' and 'cart'.", "D. No correction needed."],
+          "answer": "B. ...distinguish were 'horse' and 'cart'.",
+          "diff": "medium"
+        },
+        {
+          "q": "What is the correct 'Order of Climax' for arranging educational qualifications?",
+          "options": ["A. College, middle school, high school", "B. Middle school, high school, college", "C. High school, college, middle school", "D. College, high school, middle school"],
+          "answer": "B. Middle school, high school, college",
+          "diff": "easy"
+        },
+        {
+          "q": "How can you improve emphasis in the sentence: 'It is a worthy cause, I think.'?",
+          "options": ["A. I think it is a worthy cause.", "B. A worthy cause it is, I think.", "C. It is, I think, a worthy cause.", "D. It is a very worthy cause."],
+          "answer": "A. I think it is a worthy cause.",
+          "diff": "medium"
+        },
+        {
+          "q": "Choose the correct parallel construction using correlatives:",
+          "options": ["A. He both wants exercise and to be amused.", "B. He wants both exercise and amusement.", "C. He wants both to exercise and amused.", "D. Both he wants exercise and amusement."],
+          "answer": "B. He wants both exercise and amusement.",
+          "diff": "hard"
+        },
+        {
+          "q": "The sentence 'The young ladies wore bright coloured socks and were kind hearted' lacks what?",
+          "options": ["A. Correct pronouns", "B. Emphasis", "C. Sentence Unity (combining unrelated ideas)", "D. Parallelism"],
+          "answer": "C. Sentence Unity (combining unrelated ideas)",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following sentences has a correct pronoun agreement?",
+          "options": ["A. The club has done their best to raise money.", "B. The club has done its best to raise money.", "C. The club have done its best to raise money.", "D. The club has done our best to raise money."],
+          "answer": "B. The club has done its best to raise money.",
+          "diff": "easy"
+        },
+        {
+          "q": "Fix the double preposition error: 'This is the book to which I was referring to.'",
+          "options": ["A. This is the book which I was referring to.", "B. This is the book to which I was referring.", "C. Both A and B are correct.", "D. This is the book to who I was referring."],
+          "answer": "C. Both A and B are correct.",
+          "diff": "hard"
+        },
+        {
+          "q": "To make a sentence more emphatic, where should less important expressions like 'we were told' or 'in all probability' generally be placed?",
+          "options": ["A. Right at the very end of the main point", "B. Tucked away in the middle or placed at the beginning", "C. Repeated multiple times", "D. Omitted completely from all sentences"],
+          "answer": "B. Tucked away in the middle or placed at the beginning",
+          "diff": "medium"
+        },
+        {
+          "q": "What is wrong with 'If one tries hard, they can accomplish much'?",
+          "options": ["A. Aimless shift from singular 'one' to plural 'they'", "B. Faulty parallel list", "C. Split construction", "D. Climax order error"],
+          "answer": "A. Aimless shift from singular 'one' to plural 'they'",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct the parallelism in daily tasks: 'Getting the groceries, taking the children to school and to feed the dog...'",
+          "options": ["A. ...and food the dog", "B. ...and feeding the dog", "C. ...and for feeding the dog", "D. ...and to be feeding the dog"],
+          "answer": "B. ...and feeding the dog",
+          "diff": "easy"
+        },
+        {
+          "q": "What destroys coherence in a sentence according to the text?",
+          "options": ["A. Using commas properly", "B. Aimless shifting of points of view, tenses, or voice", "C. Placing main thoughts first", "D. Using standard conjunctions"],
+          "answer": "B. Aimless shifting of points of view, tenses, or voice",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'My castles in air came tumbling down into a bottomless heap' is an example of:",
+          "options": ["A. Correct parallel list", "B. Mixture of figures of speech", "C. Clear pronoun reference", "D. Order of climax"],
+          "answer": "B. Mixture of figures of speech",
+          "diff": "hard"
+        }
+      ]
+    },
+    "24": {
+      "title": "Sentence Fragments (ENG 101 Lesson 24)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: SENTENCE FRAGMENT KYA HAI? (The Core Concept)\nAik mukammal sentence banne ke liye 3 chizen zaroori hain: **Subject**, **Verb**, aur **Complete Thought (Poori Baat)**. Agar inme se aik bhi cheez missing ho, toh use **Sentence Fragment** (adhura jumla) kehte hain. Lesson 24 mai fragments ki 4 barhi types aur unko theek karne ka tareeqa samjhaya gaya hai.\n\n---\n\n### 🏛️ SECTION 2: THE 4 TYPES OF FRAGMENTS & THEIR FIXES\n\n👉 **1. Dependent Word Fragments:**\nYeh wo adhure jumle hote hain jo subject aur verb hone ke bawajood poori baat nahi batate kyun ke yeh kisi `Dependent Word` (since, when, after, because, although, unless) se shuru hote hain.\n*   *Fragment:* Because there was a gas leak. ❌ (Kyun ke gas leak thi... agay kya hua?)\n*   *Fix:* Isko sath wali independent clause se jorhein: *The police cordoned off the area **because** there was a gas leak.* ✔️\n\n👉 **2. `-ing` or `To` Fragments (Participle / Infinitive Fragments):**\nJab koi sentence bina kisi subject ke direct `-ing` wale verb ya `to + verb` se shuru ho jaye.\n*   *Fragment:* Rising high into the sky. The huge yellow kite could be seen for miles. ❌\n*   *Fix Method A (Jorhein):* **Rising high into the sky,** the huge yellow kite could be seen for miles. ✔️\n*   *Fix Method B (Subject lagayein):* **It rose** high into the sky. The huge yellow kite could be seen for miles. ✔️\n\n👉 **3. Added-Detail Fragments:**\nYeh wo adhure jumle hote hain jo sirf mazeed tafseel (extra details) batate hain aur aam taur par in words se shuru hote hain: *like, especially, for example, such as, including, except*. Inme na apna subject hota hai na verb.\n*   *Fragment:* Oranges are full of nutrients. Especially vitamin C. ❌\n*   *Fix:* **Especially vitamin C** ko pehle jumle ka hissa banayein: *Oranges are full of nutrients, **especially vitamin C**.* ✔️\n\n👉 **4. Missing-Subject Fragments:**\nIsmai verb toh hota hai aur lagta hai ke baat bhi chal rahi hai, lekin darmyan mai `and`, `but`, `then`, ya `yet` ke baad subject gayab ho jata hai.\n*   *Fragment:* Maryam skipped her afternoon classes. And worked on a paper. ❌ (Yahan 'And' ke baad subject missing hai).\n*   *Fix Method A (Jorhein):* Maryam skipped her afternoon classes **and worked** on a paper. ✔️ (Comma ya full stop hata kar seedha jorhein).\n*   *Fix Method B (Subject lagayein):* Maryam skipped her afternoon classes. **And she worked** on a paper. ✔️\n\n---\n\n### 📝 SECTION 3: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS\n1. To be a sentence, a group of words must contain a subject and a **verb**, and it must express **a complete thought**.\n2. Words such as because, until, and while are known as **dependent** words.\n3. Fragments that begin with words such as like, especially, and for example are known as **added-detail** fragments.\n4. One way to correct an added-detail fragment is to create a new **sentence** by adding a subject and **verb** to the fragment.\n5. One way to correct a missing-subject fragment is to add a **subject** to the fragment.",
+      "questions": [
+        {
+          "q": "To be a complete sentence, a group of words must fulfill which requirements?",
+          "options": ["A. It must have a dependent word and a comma.", "B. It must contain a subject, a verb, and express a complete thought.", "C. It must start with an -ing word and contain a noun.", "D. It must use a transition word like 'especially'."],
+          "answer": "B. It must contain a subject, a verb, and express a complete thought.",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the dependent-word fragment from the options below:",
+          "options": ["A. Several small shops went out of business.", "B. The nurse pierced my arm four times.", "C. Because there was a gas leak.", "D. The child was running and jumping."],
+          "answer": "C. Because there was a gas leak.",
+          "diff": "easy"
+        },
+        {
+          "q": "What makes 'When I rang the doorbell' a sentence fragment?",
+          "options": ["A. It is missing a verb.", "B. It is missing a subject.", "C. It begins with a dependent word and does not express a complete thought.", "D. It is written in the past tense."],
+          "answer": "C. It begins with a dependent word and does not express a complete thought.",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the error in this construction: 'Rising high into the sky. The huge yellow kite could be seen for miles.'",
+          "options": ["A. Missing-Subject Fragment", "B. Added-Detail Fragment", "C. -ing Fragment", "D. Dependent Word Fragment"],
+          "answer": "C. -ing Fragment",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is a correctly fixed version of an -ing fragment?",
+          "options": ["A. Police officers stood all over the road, directing traffic around the accident.", "B. Police officers stood all over the road directing traffic around the accident.", "C. Both A and B are acceptable ways to merge and fix the fragment.", "D. Directing traffic around the accident police officers."],
+          "answer": "C. Both A and B are acceptable ways to merge and fix the fragment.",
+          "diff": "hard"
+        },
+        {
+          "q": "Fragments that begin with words like 'especially', 'including', and 'such as' are known as:",
+          "options": ["A. Missing-Subject Fragments", "B. Added-Detail Fragments", "C. Relative Adverb Fragments", "D. Infinitive Fragments"],
+          "answer": "B. Added-Detail Fragments",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the added-detail fragment: 'For a main dish, I often serve meat and vegetables. For example, fish and spinach.'",
+          "options": ["A. For a main dish, I often serve meat and vegetables for example fish and spinach.", "B. For a main dish, I often serve meat and vegetables, for example, fish and spinach.", "C. For a main dish, I often serve meat and vegetables; especially fish and spinach.", "D. For example, fish and spinach I serve for a main dish with meat and vegetables."],
+          "answer": "B. For a main dish, I often serve meat and vegetables, for example, fish and spinach.",
+          "diff": "medium"
+        },
+        {
+          "q": "What is missing in the second word-group here: 'The poor woman paid all her utility bills. But then had little money left over for food.'?",
+          "options": ["A. A proper verb", "B. An -ing participle", "C. A subject after the coordinator 'but'", "D. An added detail connector"],
+          "answer": "C. A subject after the coordinator 'but'",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is a correctly repaired Missing-Subject sentence?",
+          "options": ["A. The nurse held a smiling baby. Then posed for the photographers.", "B. The nurse held a smiling baby and then posed for the photographers.", "C. The nurse held a smiling baby, then she posed for the photographers.", "D. Both B and C are correct grammatical repairs."],
+          "answer": "D. Both B and C are correct grammatical repairs.",
+          "diff": "hard"
+        },
+        {
+          "q": "Words like 'because', 'unless', 'while', and 'until' are classified as:",
+          "options": ["A. Co-ordinating conjunctions", "B. Dependent words / Subordinating conjunctions", "C. Relative Adjectives", "D. Transition nouns"],
+          "answer": "B. Dependent words / Subordinating conjunctions",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the fragment in this text: 'We go to Murree Hills during the summer vacations. Whenever we can, of course.'",
+          "options": ["A. We go to Murree Hills during the summer vacations, whenever we can, of course.", "B. We go to Murree Hills during the summer vacations; whenever we can of course.", "C. Whenever we can, of course we go to Murree Hills during summer vacations.", "D. Both A and C are grammatically corrected versions."],
+          "answer": "D. Both A and C are grammatically corrected versions.",
+          "diff": "hard"
+        },
+        {
+          "q": "What type of fragment is found in: 'He hated learning foreign languages. Latin, French and German especially.'?",
+          "options": ["A. Dependent-Word Fragment", "B. Added-Detail Fragment", "C. Missing-Subject Fragment", "D. Infinitive Fragment"],
+          "answer": "B. Added-Detail Fragment",
+          "diff": "easy"
+        },
+        {
+          "q": "How can you correct an added-detail fragment by creating a completely separate new sentence?",
+          "options": ["A. By adding a comma at the start", "B. By adding a subject and a verb to that fragment", "C. By changing it into an -ing word", "D. By eliminating all details"],
+          "answer": "B. By adding a subject and a verb to that fragment",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the incorrect fragment in the text: 'The sleeping dog opened one eye to look at the postman. And then went back to sleep.'",
+          "options": ["A. 'The sleeping dog opened one eye'", "B. 'to look at the postman'", "C. 'And then went back to sleep.'", "D. There is no fragment in this text."],
+          "answer": "C. 'And then went back to sleep.'",
+          "diff": "medium"
+        },
+        {
+          "q": "In the sentence test: 'Each hair is attached to a tiny muscle. Which can pull the hair straight up.' What is the correct way to fix the 'which' fragment?",
+          "options": ["A. Each hair is attached to a tiny muscle, which can pull the hair straight up.", "B. Each hair is attached to a tiny muscle which can pull the hair straight up.", "C. Each hair is attached to a tiny muscle; which can pull the hair straight up.", "D. Both A and B are correct."],
+          "answer": "D. Both A and B are correct.",
+          "diff": "hard"
+        },
+        {
+          "q": "One way to correct a missing-subject fragment is to add a ________ to the fragment statement.",
+          "options": ["A. Verb", "B. Semicolon", "C. Subject / Pronoun", "D. Dependent Word"],
+          "answer": "C. Subject / Pronoun",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the fragment here: 'The old lady was trembling with excitement. As it was her first airplane ride.'",
+          "options": ["A. 'The old lady was trembling with excitement.'", "B. 'As it was her first airplane ride.'", "C. 'with excitement'", "D. No fragment present."],
+          "answer": "B. 'As it was her first airplane ride.'",
+          "diff": "easy"
+        },
+        {
+          "q": "What type of fragment is: 'To get off the diving board.'?",
+          "options": ["A. -ing fragment", "B. To / Infinitive fragment", "C. Missing-Subject fragment", "D. Added-Detail fragment"],
+          "answer": "B. To / Infinitive fragment",
+          "diff": "medium"
+        },
+        {
+          "q": "True or False: A dependent-word fragment contains a subject and a verb but still remains a fragment.",
+          "options": ["A. True (because it doesn't express a complete thought due to the dependent word)", "B. False (if it has a subject and verb, it is always a complete sentence)"],
+          "answer": "A. True (because it doesn't express a complete thought due to the dependent word)",
+          "diff": "medium"
+        },
+        {
+          "q": "Fix the fragment: 'When people are scared. The hair on their bodies really can stand on end.'",
+          "options": ["A. When people are scared; the hair on their bodies really can stand on end.", "B. When people are scared, the hair on their bodies really can stand on end.", "C. When people are scared the hair on their bodies really can stand on end.", "D. The hair on their bodies really can stand on end when people are scared."],
+          "answer": "B. When people are scared, the hair on their bodies really can stand on end.",
+          "diff": "medium"
+        }
+      ]
+    },
+    "25": {
+      "title": "Run-ons, Comma Splices, and Modifiers (ENG 101 Lesson 25)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: RUN-ON SENTENCES (Fused & Comma Splices)\nJab do mukammal thoughts (Independent Clauses) ko ghalat tarike se jora jaye, toh use **Run-on sentence** kehte hain. Iske do main types hain:\n1. **Fused Sentence:** Do complete thoughts ko bina kisi punctuation ya joining word ke aapas mai jor dena.\n   * *Ghalat:* The lake is calm today it looks like a blue mirror. ❌\n2. **Comma Splice:** Do complete thoughts ko sirf aik **comma (,)** laga kar jor dena (jo ke kaafi nahi hai).\n   * *Ghalat:* Fahd was talking on the phone, he was switching TV channels. ❌\n\n👉 **The 3 Fixes:**\n- **Method 1:** Dono ke darmyan **Full stop (.)** lagayein aur agla word capital karein.\n- **Method 2:** Comma ke sath aik **Joining Word (FANBOYS: and, but, so, etc.)** lagayein.\n- **Method 3:** Aik thought ke shuru mai **Dependent Word (because, since, although, when)** laga kar use subordinate kar dein.\n\n---\n\n### 🏛️ SECTION 2: MISPLACED MODIFIERS\nModifier un words ko kehte hain jo kisi doosre word ki khususiyaat (description) bayan karein. Agar modifier us word se door likha ho jise wo describe kar raha hai, toh use **Misplaced Modifier** kehte hain. Is se sentence ka matlab ajeeb ho jata hai.\n\n👉 **Key Rules & Corrections:**\n- *Ghalat:* I am returning the jacket to the store **that is too small**. ❌ (Store chota nahi hai, jacket choti hai!)\n- *Sahi:* I am returning the **jacket that is too small** to the store. ✔️\n- *Single-Word Rule:* `only`, `almost`, aur `nearly` ko hamesha us word ke **theek pehle** lagayein jise wo describe kar rahe hon.\n\n---\n\n### 🛠️ SECTION 3: DANGLING MODIFIERS\nJab sentence ke shuru mai koi action-description (`-ing` phrase) ho, lekin poore sentence mai wo asli banda (subject) hi missing ho jo wo kaam kar raha hai, toh use **Dangling Modifier** kehte hain.\n\n👉 **Key Rules & Corrections:**\n- *Ghalat:* Staring dreamily into space, **the instructor's voice startled me**. ❌ (Voice stare nahi kar rahi thi!)\n- *Sahi (Method A):* Staring dreamily into space, **I was startled** by the instructor's voice. ✔️ (Banda introduce kiya).\n- *Sahi (Method B):* **As I was staring** dreamily into space, the instructor's voice startled me. ✔️\n\n---\n\n### 📝 SECTION 4: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS\n1. A **fused sentence** is made up of two complete thoughts that are incorrectly joined together with nothing between them.\n2. A **comma splice** is made up of two complete thoughts that are incorrectly joined together with only a comma between them.\n3. One way to correct fused sentences and comma splices is to add a **period (full stop)** and a capital letter.\n4. Two complete thoughts can be joined together in a sentence by a comma and a **joining / coordinating** word such as and, but or so.\n5. Two complete thoughts can be joined together in one sentence by adding a **dependent / subordinating** word such as when or because.\n6. The fused sentence and the comma splice are also known as **run-on** sentences.",
+      "questions": [
+        {
+          "q": "What is a 'Fused Sentence'?",
+          "options": ["A. A sentence missing a subject and a verb.", "B. Two complete thoughts joined with only a comma.", "C. Two complete thoughts joined together with absolutely no punctuation or joining words.", "D. A sentence that contains too many adjectives."],
+          "answer": "C. Two complete thoughts joined together with absolutely no punctuation or joining words.",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the Comma Splice error from the options below:",
+          "options": ["A. Raheel likes to cook his wife taught him how.", "B. The bell rang the wrestlers returned to the ring.", "C. The room is locked, no one has a key.", "D. It rained during our trip to Murree so we played cards."],
+          "answer": "C. The room is locked, no one has a key.",
+          "diff": "easy"
+        },
+        {
+          "q": "Where should the comma be placed when using a joining word like 'and', 'but', or 'so' to connect two complete thoughts?",
+          "options": ["A. Immediately after the joining word", "B. Immediately before the joining word", "C. Both before and after the joining word", "D. No comma is needed at all"],
+          "answer": "B. Immediately before the joining word",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct this fused sentence using subordination: 'Yousaf Youhanna has a pulled muscle he won't play any cricket this season.'",
+          "options": ["A. Yousaf Youhanna has a pulled muscle, so he won't play any cricket this season.", "B. Because Yousaf Youhanna has a pulled muscle, he won't play any cricket this season.", "C. Yousaf Youhanna has a pulled muscle; he won't play any cricket this season.", "D. Yousaf Youhanna has a pulled muscle because he won't play any cricket this season."],
+          "answer": "B. Because Yousaf Youhanna has a pulled muscle, he won't play any cricket this season.",
+          "diff": "medium"
+        },
+        {
+          "q": "What is the error in: 'I am returning the jacket to the store that is too small.'?",
+          "options": ["A. Dangling Modifier", "B. Comma Splice", "C. Misplaced Modifier", "D. Fused Sentence"],
+          "answer": "C. Misplaced Modifier",
+          "diff": "medium"
+        },
+        {
+          "q": "Choose the correctly revised sentence for: 'The couple looked at thirty sofas shopping on Saturday.'",
+          "options": ["A. Shopping on Saturday, the couple looked at thirty sofas.", "B. The couple looked at thirty sofas on Saturday shopping.", "C. The couple shopping looked at thirty sofas on Saturday.", "D. On Saturday sixty sofas were looked at by the shopping couple."],
+          "answer": "A. Shopping on Saturday, the couple looked at thirty sofas.",
+          "diff": "hard"
+        },
+        {
+          "q": "Where should single-word modifiers like 'only', 'almost', and 'nearly' be placed?",
+          "options": ["A. At the very end of the sentence", "B. Directly in front of the word they describe/modify", "C. Immediately after the main verb", "D. Right after a comma"],
+          "answer": "B. Directly in front of the word they describe/modify",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the dangling modifier in this passage: 'Staring out at the downpour, we were glad to be safe inside. Then we remembered our open car windows, groaning with dismay.'",
+          "options": ["A. 'Staring out at the downpour'", "B. 'we were glad to be safe'", "C. 'groaning with dismay' (wrongly describes the car windows instead of the people)", "D. There is no modifier error here."],
+          "answer": "C. 'groaning with dismay' (wrongly describes the car windows instead of the people)",
+          "diff": "hard"
+        },
+        {
+          "q": "Correct the dangling modifier: 'When pulling out of the driveway, the pillar blocks my view.'",
+          "options": ["A. When pulling out of the driveway, my view is blocked by the pillar.", "B. Whenever I pull out of the driveway, the pillar blocks my view.", "C. Pulling out of the driveway, the pillar is blocking my view.", "D. The pillar blocks my view when pulling out of the driveway."],
+          "answer": "B. Whenever I pull out of the driveway, the pillar blocks my view.",
+          "diff": "hard"
+        },
+        {
+          "q": "Fused sentences and comma splices are collectively known as what?",
+          "options": ["A. Fragment sentences", "B. Run-on sentences", "C. Complex sentences", "D. Compound-complex sentences"],
+          "answer": "B. Run-on sentences",
+          "diff": "easy"
+        },
+        {
+          "q": "Fix this sentence: 'Garlic may smell bad it tastes delicious.' using a comma and a joining word.",
+          "options": ["A. Garlic may smell bad, it tastes delicious.", "B. Garlic may smell bad, but it tastes delicious.", "C. Garlic may smell bad but, it tastes delicious.", "D. Garlic may smell bad. But it tastes delicious."],
+          "answer": "B. Garlic may smell bad, but it tastes delicious.",
+          "diff": "easy"
+        },
+        {
+          "q": "What does a modifier describe or clarify?",
+          "options": ["A. Only verbs", "B. Another word or group of words in the sentence", "C. The punctuation of a clause", "D. The conjunctions used"],
+          "answer": "B. Another word or group of words in the sentence",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the misplaced modifier: 'The sparrow built a nest at the back of our house of grass and twigs.'",
+          "options": ["A. Of grass and twigs, the sparrow built a nest at the back of our house.", "B. The sparrow built a nest of grass and twigs at the back of our house.", "C. The sparrow built a nest at the back of our house which was of grass and twigs.", "D. At the back of our house, the sparrow built a nest of grass and twigs."],
+          "answer": "B. The sparrow built a nest of grass and twigs at the back of our house.",
+          "diff": "medium"
+        },
+        {
+          "q": "What is the error in the sentence: 'Anjum Nisar almost sneezed twenty times last night.'?",
+          "options": ["A. Dangling phrase", "B. Misplaced single-word modifier 'almost'", "C. Fused construction", "D. Comma splice"],
+          "answer": "B. Misplaced single-word modifier 'almost'",
+          "diff": "medium"
+        },
+        {
+          "q": "Which option correctly fixes: 'Anjum Nisar almost sneezed twenty times last night.'?",
+          "options": ["A. Almost last night, Anjum Nisar sneezed twenty times.", "B. Anjum Nisar sneezed almost twenty times last night.", "C. Anjum Nisar sneezed twenty times last night almost.", "D. Anjum Nisar almost twenty times sneezed last night."],
+          "answer": "B. Anjum Nisar sneezed almost twenty times last night.",
+          "diff": "medium"
+        },
+        {
+          "q": "In the phrase 'The woman with gold-rimmed spectacles is my boss', what is the underlined/modified word being described?",
+          "options": ["A. spectacles", "B. boss", "C. woman", "D. gold-rimmed"],
+          "answer": "C. woman",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the error: 'The man returned the overdue book to the librarian with apologies.'",
+          "options": ["A. With apologies, the man returned the overdue book to the librarian.", "B. The man returned the overdue book with apologies to the librarian.", "C. The man with apologies returned the overdue book to the librarian.", "D. Both A and B make the meaning clear and are correct."],
+          "answer": "D. Both A and B make the meaning clear and are correct.",
+          "diff": "hard"
+        },
+        {
+          "q": "What happens when a modifier is 'dangling'?",
+          "options": ["A. The sentence has two commas separated by a conjunction.", "B. The opening word-group lacks a clear subject to logically link to in the main clause.", "C. The sentence is missing a final full stop.", "D. The modifier is placed right before the noun it describes."],
+          "answer": "B. The opening word-group lacks a clear subject to logically link to in the main clause.",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the error type here: 'The trunk is in the basement it has a handle missing.'",
+          "options": ["A. Comma Splice", "B. Fused Sentence", "C. Misplaced Modifier", "D. Dangling Modifier"],
+          "answer": "B. Fused Sentence",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the run-on sentence: 'Bicycles are the world's best method of transportation, they don't pollute.' using subordination.",
+          "options": ["A. Bicycles are the world's best method of transportation, and they don't pollute.", "B. Bicycles are the world's best method of transportation because they don't pollute.", "C. Bicycles are the world's best method of transportation. They don't pollute.", "D. Bicycles are the world's best method of transportation, so they don't pollute."],
+          "answer": "B. Bicycles are the world's best method of transportation because they don't pollute.",
+          "diff": "medium"
+        }
+      ]
+    },
+    "26": {
+      "title": "Subject-Verb Agreement (ENG 101 Lesson 26)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: THE BASIC RULE (Subject-Verb Match)\nSubject-Verb Agreement ka aasan matlab hai ke agar **Subject Singular (aik)** hai toh **Verb bhi Singular** hoga. Agar **Subject Plural (zyada)** hai toh **Verb bhi Plural** hoga.\n👉 **Present Tense Key Difference:** \nPresent tense mai Singular verb ke aakhiri mai **\"s\" ya \"es\"** lagta hai (e.g., *He works*), jabke Plural verb bina \"s\" ke aata hai (e.g., *They work*).\n\n---\n\n### 🏛️ SECTION 2: THE 4 TRICKY SITUATIONS (Jahan Ghalati Hoti Hai)\n\n👉 **1. Words Between Subject and Verb (Prepositional Phrases):**\nJumle mai subject aur verb ke darmyan kuch extra words (like *of, on, with, by*) aa jate hain jo hamein confuse karte hain. Verb hamesha asli subject ke mutabiq lagayein, prepositional phrase ke andar wale noun ke mutabiq nahi.\n*   *Ghalat:* One of my best friends **live** in Dubai. ❌ (Friends plural hai, lekin baat 'One' ki ho rahi hai).\n*   *Sahi:* **One** of my best friends **lives** in Dubai. ✔️\n\n👉 **2. Verb Coming Before the Subject (Inverted Sentences):**\nJab sentence `There`, `Here`, ya kisi sawaal (`Where`, `Why`) se shuru ho, toh verb pehle aata hai aur subject baad mai. Piche dekhein ke subject kya hai!\n*   *Ghalat:* Where **is** the keys of the cupboard? ❌\n*   *Sahi:* Where **are** the **keys** of the cupboard? ✔️ (Keys plural hain).\n\n👉 **3. Indefinite Pronouns (Hamesha Singular):**\nYeh words dekhne mai plural lag sakte hain lekin grammatically yeh **HAMESHA SINGULAR** hote hain aur inke sath singular verb (\"s\" wala) lagta hai: *Each, everyone, everybody, anyone, anybody, someone, somebody, elements with -thing / -one / -body, neither, either, one*.\n*   *Sahi:* **Each** of his students **feels** free to ask questions. ✔️\n*   *Sahi:* **Neither** of the phones **works**. ✔️\n*   *Exception:* `Both` aur `Few` hamesha plural hote hain. `All` aur `Some` ke baad wala noun agar singular hai toh singular, plural hai toh plural (e.g., *Some of the chicken is...* vs *Some of the guests are...*).\n\n👉 **4. Compound Subjects (Joined by 'And' / 'Or'):**\n- Agar do subjects **`and`** se jore hon, toh verb **Plural** lagta hai (e.g., *Khalid and his friends **are** to blame*).\n- Agar subjects **`or`, `nor`, `either...or`, `neither...nor`, `not only...but also`** se jore hon, toh verb **apne sab se kareeb wale subject** ke mutabiq lagta hai (Proximity Rule).\n  *   *Sahi:* Neither the head clerk nor his **assistant clerks have been** fired. ✔️ (Clerks plural hai, toh 'have' aaya).\n\n---\n\n### 📝 SECTION 3: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS\n1. A singular subject takes a **singular** verb.\n2. A plural subject takes a **plural** verb.\n3. The **singular** form of present tense verbs is sometimes formed by adding the letter 's' to the end of the verb.\n4. The subject of a sentence is often found in a prepositional phrase. (**False** - Subject kabhi prepositional phrase ke andar nahi hota).\n5. Compound subjects joined by 'and' require a plural verb. (**True**).\n6. The indefinite pronouns anyone and everybody take a **singular** verb.\n7. The pronouns both and few are always plural and require plural verbs. (**True**).",
+      "questions": [
+        {
+          "q": "Choose the correct verb form: 'The rag picker ________ huge bundles of rags.'",
+          "options": ["A. sort", "B. sorts", "C. sorting", "D. are sort"],
+          "answer": "B. sorts",
+          "diff": "easy"
+        },
+        {
+          "q": "Complete the sentence with correct agreement: 'The students ________ to music while studying.'",
+          "options": ["A. listens", "B. listen", "C. is listening", "D. has listened"],
+          "answer": "B. listen",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the correct verb for this sentence: 'One of my best friends ________ now in Dubai.'",
+          "options": ["A. live", "B. lives", "C. are living", "D. were living"],
+          "answer": "B. lives",
+          "diff": "medium"
+        },
+        {
+          "q": "Why is 'The wafer in this ice cream taste like sawdust' grammatically incorrect?",
+          "options": ["A. Because 'ice cream' is plural.", "B. Because the true subject is 'wafer' (singular), so the verb must be 'tastes'.", "C. Because 'wafer' requires a plural auxiliary verb.", "D. It is completely correct."],
+          "answer": "B. Because the true subject is 'wafer' (singular), so the verb must be 'tastes'.",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct the inverted sentence: 'Where ________ the keys of the cupboard?'",
+          "options": ["A. is", "B. are", "C. am", "D. was"],
+          "answer": "B. are",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the correct option: 'Underneath the big stone ________ many colonies of ants.'",
+          "options": ["A. live", "B. lives", "C. living", "D. is lived"],
+          "answer": "A. live",
+          "diff": "medium"
+        },
+        {
+          "q": "Pronouns like 'each, everyone, neither, somebody, nothing' are always:",
+          "options": ["A. Plural", "B. Singular", "C. Dependent on the context", "D. Combined with plural verbs"],
+          "answer": "B. Singular",
+          "diff": "easy"
+        },
+        {
+          "q": "Select the grammatically accurate statement:",
+          "options": ["A. Neither of the phones work.", "B. Neither of the phones works.", "C. Neither of the phones are working.", "D. Neither of the phones were working."],
+          "answer": "B. Neither of the phones works.",
+          "diff": "medium"
+        },
+        {
+          "q": "What verb does the indefinite pronoun 'Everything' take?",
+          "options": ["A. Plural verb", "B. Singular verb", "C. Infinitive verb", "D. No verb required"],
+          "answer": "B. Singular verb",
+          "diff": "easy"
+        },
+        {
+          "q": "When two or more subjects are joined by 'and', they usually require a:",
+          "options": ["A. Singular verb", "B. Plural verb", "C. Dependent clause", "D. Past participle"],
+          "answer": "B. Plural verb",
+          "diff": "easy"
+        },
+        {
+          "q": "Apply the rule for compound subjects connected by 'or/nor': 'Either Jameela or her daughter ________ at home.'",
+          "options": ["A. stay", "B. stays", "C. staying", "D. are staying"],
+          "answer": "B. stays",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct the following: 'Neither the head clerk nor his assistant clerks ________ fired for corruption.'",
+          "options": ["A. has been", "B. have been", "C. is", "D. was"],
+          "answer": "B. have been",
+          "diff": "hard"
+        },
+        {
+          "q": "How do the indefinite pronouns 'both' and 'a few' behave?",
+          "options": ["A. They are always singular.", "B. They are always plural and require plural verbs.", "C. They change based on the prepositional phrase.", "D. They do not take any verb."],
+          "answer": "B. They are always plural and require plural verbs.",
+          "diff": "easy"
+        },
+        {
+          "q": "The pronouns 'all' and 'some' are singular or plural depending on:",
+          "options": ["A. The first word of the sentence", "B. The words/nouns that follow them", "C. The tense of the sentence", "D. They are always strictly plural"],
+          "answer": "B. The words/nouns that follow them",
+          "diff": "medium"
+        },
+        {
+          "q": "Choose the correct verb form: 'Some of the chicken ________ still on the table.'",
+          "options": ["A. is", "B. are", "C. were", "D. have been"],
+          "answer": "A. is",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the two error words in this passage: 'The rain forests of Brazil is home to many species of frogs. Nobody among the world’s scientists know exactly how many.'",
+          "options": ["A. forests, scientists", "B. is, know", "C. home, species", "D. frogs, many"],
+          "answer": "B. is, know",
+          "diff": "hard"
+        },
+        {
+          "q": "Identify the two error words in this passage: 'The paint on the house and garage are peeling. Also each of the buildings need repairs.'",
+          "options": ["A. paint, house", "B. garage, buildings", "C. are, need", "D. peeling, repairs"],
+          "answer": "C. are, need",
+          "diff": "hard"
+        },
+        {
+          "q": "Can the true subject of a sentence be found inside a prepositional phrase?",
+          "options": ["A. Yes, very frequently", "B. No, the subject is never part of a prepositional phrase", "C. Only if the sentence starts with 'There'", "D. Only when the verb comes first"],
+          "answer": "B. No, the subject is never part of a prepositional phrase",
+          "diff": "medium"
+        },
+        {
+          "q": "Fill in the blank: 'Not only Khalid but also his friends ________ to blame for the accident.'",
+          "options": ["A. is", "B. are", "C. was", "D. has been"],
+          "answer": "B. are",
+          "diff": "medium"
+        },
+        {
+          "q": "Choose the correct option: 'A few of the strawberries ________ funny.'",
+          "options": ["A. tastes", "B. taste", "C. is tasting", "D. was taste"],
+          "answer": "B. taste",
+          "diff": "easy"
+        }
+      ]
+    },
+    "27": {
+      "title": "Pronoun Agreement, Reference, and Point of View (ENG 101 Lesson 27)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: PRONOUN-ANTECEDENT AGREEMENT\nPronoun jis noun ki jagah istemal hota hai, use **Antecedent** kehte hain. Rule yeh hai ke pronoun aur uske antecedent ka number (Singular/Plural) bilkul match hona chahiye.\n\n👉 **The Indefinite Pronoun Rule (Hamesha Singular):**\nYeh words dekhne mai plural lag sakte hain lekin grammatically yeh **HAMESHA SINGULAR** hote hain, isliye inke liye singular pronouns (*his, her, its, he, she*) use hote hain:\n> *Each, either, neither, one, anyone, anybody, anything, everyone, everybody, everything, someone, somebody, something, no one, nobody, nothing.*\n\n*   *Ghalat:* Each of my students passed **their** driving test. ❌\n*   *Sahi:* **Each** of my students passed **his or her** driving test. ✔️\n*   *Sahi:* **Everything** in the office has **its** (not *their*) own place. ✔️\n\n---\n\n### 🏛️ SECTION 2: CLEAR PRONOUN REFERENCE (Ambiguity Hatana)\nJumle mai yeh bilkul saaf pata hona chahiye ke pronoun kis bande ya cheez ke liye lagaya gaya hai. Agar aik sentence mai do nouns hon aur aage `he` ya `she` laga diya jaye, toh confusion paida ho jati hai.\n\n👉 **Key Rules & Corrections:**\n*   *Ambiguous:* Rabia told Nafeesa that **she** had got an A. ❌ (She kaun? Rabia ya Nafeesa?)\n*   *Clear:* Rabia told Nafeesa, **\"I got an A on my term paper.\"** ✔️\n*   *Vague 'They/You':* Students complain that **they** don't keep the library tidy. ❌ (They kaun? Students khud ya staff?)\n*   *Clear:* Students complain that **the maintenance staff** don't keep the library tidy. ✔️\n\n---\n\n### 🛠️ SECTION 3: SHIFT IN PERSON (Point of View Mistakes)\nAgar aap aik sentence **1st person (`I, we`)** ya **3rd person (`they, students, labourers`)** se shuru kar rahe hain, toh darmyan mai bina wajah **2nd person (`you`)** par shift mat karein.\n\n👉 **Key Rules & Corrections:**\n*   *Ghalat:* What **I** like best about holidays is that **you** don't have to set an alarm. ❌ (I se directly 'you' par shift ghalat hai).\n*   *Sahi:* What **I** like best about holidays is that **I** don't have to set an alarm. ✔️\n*   *Ghalat:* Whenever **students** are under stress, **we** go into depression. ❌ (3rd person Plural se 1st person Plural ka shift).\n*   *Sahi:* Whenever **students** are under stress, **they** often go into depression. ✔️\n\n---\n\n### 📝 SECTION 4: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS\n1. Words such as each, everyone, and something are **indefinite** pronouns.\n2. Words such as I, you, and they are **personal** pronouns.\n3. A **second** person pronoun is one that refers to the person being spoken to (`you`).\n4. A pronoun may be singular even if its antecedent is plural. (**False** - It must match).\n5. A writer should not needlessly change from the first person to the second person. (**True**).",
+      "questions": [
+        {
+          "q": "What is an 'antecedent' in grammar?",
+          "options": ["A. A word that describes a verb.", "B. The noun or pronoun to which a pronoun refers.", "C. A dependent word that begins a fragment.", "D. A punctuation mark used to join thoughts."],
+          "answer": "B. The noun or pronoun to which a pronoun refers.",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the correct pronoun for the sentence: 'Neither of the babies has had ________ polio shot yet.'",
+          "options": ["A. their", "B. his or her", "C. they're", "D. its'"],
+          "answer": "B. his or her",
+          "diff": "medium"
+        },
+        {
+          "q": "Fill in the blank with correct agreement: 'Many high schools now require ________ students to take a computer course.'",
+          "options": ["A. its", "B. their", "C. his", "D. it's"],
+          "answer": "B. their",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the correct construction for indefinite pronouns:",
+          "options": ["A. Everything in the office has their own place.", "B. Everything in the office has its own place.", "C. Everything in the office have its own place.", "D. Everything in the office has our own place."],
+          "answer": "B. Everything in the office has its own place.",
+          "diff": "medium"
+        },
+        {
+          "q": "Why is the sentence 'Rabia told Nafeesa that she had got an A' faulty?",
+          "options": ["A. It contains a split infinitive.", "B. The pronoun 'she' has an ambiguous reference.", "C. It uses a plural pronoun for a singular noun.", "D. It has a shift in person."],
+          "answer": "B. The pronoun 'she' has an ambiguous reference.",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the ambiguous reference: 'Mahnoor tore off the wrapping paper from the present and then threw it in the rubbish bin.'",
+          "options": ["A. ...and then threw them in the rubbish bin.", "B. ...and then threw the paper in the rubbish bin.", "C. ...and then threw it, the present, in the rubbish bin.", "D. No correction needed."],
+          "answer": "B. ...and then threw the paper in the rubbish bin.",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the error type in this sentence: 'What I like best about holidays is that you don't have to set an alarm.'",
+          "options": ["A. Pronoun agreement error", "B. Shift in person (Point of view shift)", "C. Fused sentence", "D. Misplaced modifier"],
+          "answer": "B. Shift in person (Point of view shift)",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct the shift in person: 'Though we like most of our neighbors, there are a few you can't get along with.'",
+          "options": ["A. ...there are a few one can't get along with.", "B. ...there are a few we can't get along with.", "C. ...there are a few they can't get along with.", "D. No correction needed."],
+          "answer": "B. ...there are a few we can't get along with.",
+          "diff": "medium"
+        },
+        {
+          "q": "Pronouns like 'each, everyone, nobody, somebody' are strictly classified as:",
+          "options": ["A. Personal pronouns", "B. Indefinite pronouns", "C. Relative pronouns", "D. Possessive pronouns"],
+          "answer": "B. Indefinite pronouns",
+          "diff": "easy"
+        },
+        {
+          "q": "Select the sentence that has NO pronoun agreement or reference errors:",
+          "options": ["A. Each of the actresses believes they should be chosen.", "B. If anybody is interested, they should let the librarian know.", "C. No students in the class wanted to read their papers aloud.", "D. Someone in the lounge stole my glasses, and I want to find them."],
+          "answer": "C. No students in the class wanted to read their papers aloud.",
+          "diff": "hard"
+        },
+        {
+          "q": "Fix the point of view shift: 'If you plan to do well on this course, one should plan on attending every lesson.'",
+          "options": ["A. If you plan to do well on this course, we should plan on attending...", "B. If you plan to do well on this course, you should plan on attending...", "C. If one plans to do well on this course, they should plan on attending...", "D. Both B and C are incorrect."],
+          "answer": "B. If you plan to do well on this course, you should plan on attending...",
+          "diff": "medium"
+        },
+        {
+          "q": "In the sentence 'The book Yousaf lent me is missing its cover', what is the antecedent of 'its'?",
+          "options": ["A. Yousaf", "B. me", "C. book", "D. cover"],
+          "answer": "C. book",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the pronoun reference: 'An angry looking man stood outside the bank, shouting that they had stolen his money.'",
+          "options": ["A. ...shouting that the bank employees had stolen his money.", "B. ...shouting that you had stolen his money.", "C. ...shouting that it had stolen his money.", "D. No correction needed."],
+          "answer": "A. ...shouting that the bank employees had stolen his money.",
+          "diff": "hard"
+        },
+        {
+          "q": "Words like 'I, me, we, us, he, she, they' are classified as:",
+          "options": ["A. Indefinite pronouns", "B. Personal pronouns", "C. Demonstrative pronouns", "D. Relative conjunctions"],
+          "answer": "B. Personal pronouns",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the following: 'Neither of my uncles has ever smoked in ________ life.'",
+          "options": ["A. their", "B. his", "C. our", "D. they're"],
+          "answer": "B. his",
+          "diff": "medium"
+        },
+        {
+          "q": "What person does the pronoun 'you' represent?",
+          "options": ["A. First person", "B. Second person", "C. Third person", "D. Neutral person"],
+          "answer": "B. Second person",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the problem with: 'The worst thing for me living with such a fussy man is you always have to wait for him.'?",
+          "options": ["A. Faulty Parallelism", "B. Shift from first person ('me') to second person ('you')", "C. Missing-Subject Fragment", "D. Plural agreement failure"],
+          "answer": "B. Shift from first person ('me') to second person ('you')",
+          "diff": "medium"
+        },
+        {
+          "q": "True or False: A singular pronoun must be used when referring back to a singular indefinite pronoun like 'nobody' or 'each'.",
+          "options": ["A. True", "B. False"],
+          "answer": "A. True",
+          "diff": "easy"
+        },
+        {
+          "q": "Correct the sentence: 'I won't go to the concert tonight because there's no way you could get a ticket.'",
+          "options": ["A. ...because there's no way one could get a ticket.", "B. ...because there's no way I could get a ticket.", "C. ...because there's no way they could get a ticket.", "D. No error found."],
+          "answer": "B. ...because there's no way I could get a ticket.",
+          "diff": "hard"
+        },
+        {
+          "q": "Fix the reference error: 'Both of Basit's parents are doctors, but it doesn't interest Basit.'",
+          "options": ["A. ...but they don't interest Basit.", "B. ...but medicine doesn't interest Basit.", "C. ...but being doctors doesn't interest him.", "D. No error found."],
+          "answer": "B. ...but medicine doesn't interest Basit.",
+          "diff": "hard"
+        }
+      ]
+    },
+    "28": {
+      "title": "Effective Language, Clichés, Wordiness, and Homophones (ENG 101 Lesson 28)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: SLANG & CLICHÉS VS. EFFECTIVE LANGUAGE\nAcademic aur formal writing mai slang (unprofessional language) aur clichés (overused, purani phrases) se parhez karna chahiye.\n\n👉 **Slang Corrections:**\n*   *Slang:* **trashed** (criticized heavily) / **cheesed off** (angry/annoyed) / **real drag** (boring/tedious) / **gas bag** (talkative/liar) / **gross** (vulgar/offensive).\n\n👉 **Clichés (Avoid Like the Plague):**\n*   *Cliché:* **bored to tears** $\\rightarrow$ *Formal:* deeply bored / extremely uninterested.\n*   *Cliché:* **busy as a bee** $\\rightarrow$ *Formal:* very busy / industrious.\n*   *Cliché:* **happy as a lark** $\\rightarrow$ *Formal:* delighted / extremely happy.\n\n---\n\n### 🏛️ SECTION 2: WORDINESS (Fazool Alfaz Se Pak Writing)\nKam se kam lafzon mai poori baat kehna aik achi writing ki nishani hai. Wordy expressions ko single words se replace karein:\n\n| Wordy Expression | Concise Single Word |\n| :--- | :--- |\n| **Due to the fact that** / **On account of** | Because |\n| **At this point in time** | Now |\n| **During the time that** | While |\n| **In order to** | To |\n| **In my own opinion, I think** | I think |\n| **Small in size** / **Green in color** | Small / Green |\n\n---\n\n### 🛠️ SECTION 3: CONFUSING HOMOPHONES (Frequently Misused Words)\nAise alfaz jinki aawaz milti julti hai par meaning aur spelling alag hote hain:\n\n1.  **Its** (Possessive: uska) vs. **It's** (Contraction: It is).\n2.  **Their** (Unka) vs. **There** (Wahan/Maujood) vs. **They're** (They are).\n3.  **Your** (Aapka) vs. **You're** (You are).\n4.  **Passed** (Guzar gaya/Pass ho gaya) vs. **Past** (Maazi).\n5.  **Whose** (Kiska) vs. **Who's** (Who is).\n6.  **Weather** (Mausam) vs. **Whether** (Agar/Ya ya).\n7.  **All ready** (Sab tayyar hain) vs. **Already** (Pehle hi).\n8.  **Altogether** (Mukammal tour par) vs. **All together** (Aik sath).\n9.  **Accept** (Tasleem karna) vs. **Except** (Alawa/Siwaye).\n10. **Advice** (Noun: Naseehat) vs. **Advise** (Verb: Naseehat karna).\n11. **Affect** (Verb: Asar dalna) vs. **Effect** (Noun: Asar / Verb: tabdeeli lana).\n12. **Desert** (Sehra / Chorr dena) vs. **Dessert** (Meetha khana).\n13. **Coarse** (Khurdura/Badtameez) vs. **Course** (Sabaq/Raasta).\n14. **Quiet** (Khamosh) vs. **Quite** (Kaafi/Mukammal) vs. **Quit** (Chorr dena).\n15. **Wander** (Awaara ghoomna) vs. **Wonder** (Hairan hona/Sochna).\n\n---\n\n### 📝 SECTION 4: PRACTICE EXERCISES SOLVED\n*   **Practice 1 (Slang):** 1. criticized | 2. annoyed/angry | 3. tedious/boring.\n*   **Text Evaluation Sentences:**\n    1. My neighbor's conversation is too **vulgar** for me.\n    2. The audience was **extremely bored** by the lecture on Iqbal.\n    3. **Because** the buses are on strike, no one arrived on time.\n    4. The boys are **teasing you**... they wouldn't miss your party **for any reason**.\n    5. ...He is a **braggart/liar**. **While** I’ve known him...\n    6. She was **delighted**... due to a mistake in compiling the result.\n*   **Main Practice (1-10 Answers):**\n    1. You're, who's | 2. It's, break | 3. their | 4. plane, two | 5. already, quit, accept, advice | 6. dessert, effect, dose | 7. coarse, led | 8. peace, their, piece | 9. Correction: *You're* overweight... | 10. Who's, wondering, whether.",
+      "questions": [
+        {
+          "q": "Replace the slang word in this sentence: 'All the viewers trashed the new film.'",
+          "options": ["A. praised", "B. criticized heavily", "C. recommended", "D. missed"],
+          "answer": "B. criticized heavily",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the wordy expression and its concise replacement: 'Due to the fact that the printer ran out of toner...'",
+          "options": ["A. Due to the fact that -> On account of", "B. Due to the fact that -> Because", "C. Out of toner -> Empty", "D. Ran out of -> Dropped"],
+          "answer": "B. Due to the fact that -> Because",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the correct pair: '(You're, Your) the only person (who's, whose) never on time.'",
+          "options": ["A. Your, whose", "B. You're, who's", "C. Your, who's", "D. You're, whose"],
+          "answer": "B. You're, who's",
+          "diff": "medium"
+        },
+        {
+          "q": "Fill in the blanks: '(Its, It's) difficult to (break, brake) the habit of taking drugs.'",
+          "options": ["A. Its, break", "B. It's, brake", "C. It's, break", "D. Its, brake"],
+          "answer": "C. It's, break",
+          "diff": "medium"
+        },
+        {
+          "q": "Choose the correct words: 'The cheeky young man had (all ready, already) decided to (quit, quite) college.'",
+          "options": ["A. all ready, quite", "B. already, quit", "C. all ready, quit", "D. already, quite"],
+          "answer": "B. already, quit",
+          "diff": "medium"
+        },
+        {
+          "q": "What is the correct formal substitute for the cliché 'bored to tears'?",
+          "options": ["A. crying with laughter", "B. down in the dumps", "C. extremely uninterested / deeply bored", "D. busy as a bee"],
+          "answer": "C. extremely uninterested / deeply bored",
+          "diff": "easy"
+        },
+        {
+          "q": "Fill in the blank: 'The rich ________ (desert/dessert) had the ________ (affect/effect) of giving guests a stomach ache.'",
+          "options": ["A. desert, affect", "B. dessert, effect", "C. dessert, affect", "D. desert, effect"],
+          "answer": "B. dessert, effect",
+          "diff": "hard"
+        },
+        {
+          "q": "Choose the correct form: 'He refused to ________ (accept, except) his father's ________ (advise, advice).'",
+          "options": ["A. except, advise", "B. accept, advice", "C. accept, advise", "D. except, advice"],
+          "answer": "B. accept, advice",
+          "diff": "medium"
+        },
+        {
+          "q": "Fix the error in this sentence: 'Your overweight and you almost never exercise.'",
+          "options": ["A. Change 'Your' to 'You're'", "B. Change 'exercise' to 'exerzise'", "C. Change 'and' to 'but'", "D. No error found"],
+          "answer": "A. Change 'Your' to 'You're'",
+          "diff": "easy"
+        },
+        {
+          "q": "Complete the sentence correctly: '(Whose, Who's) application is this?'",
+          "options": ["A. Who's", "B. Whose", "C. Whoses", "D. Who is"],
+          "answer": "B. Whose",
+          "diff": "medium"
+        },
+        {
+          "q": "Choose the correct options: 'The young man raised his hand, (wandering, wondering) (weather, whether) the clerk approved.'",
+          "options": ["A. wandering, weather", "B. wondering, whether", "C. wandering, whether", "D. wondering, weather"],
+          "answer": "B. wondering, whether",
+          "diff": "medium"
+        },
+        {
+          "q": "Which expression means 'thoroughly' or 'wholly'?",
+          "options": ["A. All together", "B. Altogether", "C. Already", "D. All ready"],
+          "answer": "B. Altogether",
+          "diff": "hard"
+        },
+        {
+          "q": "Fill in the blank: 'We are angry ________ situations, but angry ________ people.'",
+          "options": ["A. with, about", "B. about, with", "C. at, with", "D. about, at"],
+          "answer": "B. about, with",
+          "diff": "hard"
+        },
+        {
+          "q": "The word 'liable' means:",
+          "options": ["A. probably or likely", "B. answerable for / suggesting an undesirable possibility", "C. suited or appropriate", "D. quick to learn"],
+          "answer": "B. answerable for / suggesting an undesirable possibility",
+          "diff": "hard"
+        },
+        {
+          "q": "Complete the sentence: 'The ladies' complaints about the ________ (coarse, course) language ________ (led, lead) to a warning.'",
+          "options": ["A. course, lead", "B. coarse, led", "C. course, led", "D. coarse, lead"],
+          "answer": "B. coarse, led",
+          "diff": "medium"
+        },
+        {
+          "q": "Select the sentence with NO homophone errors:",
+          "options": ["A. The weather won't spoil our holidays whether it rains or not.", "B. The weather won't spoil our holidays weather it rains or not.", "C. The whether won't spoil our holidays whether it rains or not.", "D. The whether won't spoil our holidays weather it rains or not."],
+          "answer": "A. The weather won't spoil our holidays whether it rains or not.",
+          "diff": "medium"
+        },
+        {
+          "q": "What is the single-word replacement for 'at an earlier point in time'?",
+          "options": ["A. Now", "B. Before", "C. Soon", "D. While"],
+          "answer": "B. Before",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the correct words: 'The two brothers have not had any (peace, piece) ever since (their, there) father left.'",
+          "options": ["A. piece, there", "B. peace, their", "C. piece, their", "D. peace, there"],
+          "answer": "B. peace, their",
+          "diff": "easy"
+        },
+        {
+          "q": "The expression 'small in size' should be shortened in concise writing to:",
+          "options": ["A. tiny in nature", "B. small", "C. short size", "D. minor scale"],
+          "answer": "B. small",
+          "diff": "easy"
+        },
+        {
+          "q": "Fill in the blanks: 'The host gave them each a double ________ (dose, does) of medicine.'",
+          "options": ["A. does", "B. dose", "C. doze", "D. douse"],
+          "answer": "B. dose",
+          "diff": "easy"
+        }
+      ]
+    },
+    "29": {
+      "title": "Punctuation: Comma Rules and The Apostrophe (ENG 101 Lesson 29)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: THE FIVE GOLDEN COMMA RULES\nCommas sentence ka structure clear karne aur parhne wale ke liye pause create karne ke liye istemal hote hain.\n\n1.  **Items in a Series:** Jab 3 ya us se zyada cheezein, phrases, ya clauses aik line mai hon, toh unhe commas se alag karein. (Oxford comma lagana behtar hai).\n    *   *Sahi:* Newspapers**,** plastic bottles**,** and aluminum cans. ✔️\n2.  **Introductory Material:** Agar koi clause ya phrase sentence ke shuru mai aaye, toh uske khatam hone par comma lagayein.\n    *   *Sahi:* When the lights went off**,** the children let out a loud yell. ✔️\n3.  **Interrupting Words (Non-essential Info):** Jo words sentence ke flow ko hawa mai rokte hain ya aisi extra maloomat dete hain jinke baghair bhi sentence ka asal matlab wahi rahe, unke dono taraf comma lagta hai.\n    *   *Sahi:* Laila**,** who was wearing a new dress**,** yelled at the boys. ✔️\n4.  **Complete Thoughts + Joining Word:** Jab do mukammal sentences ko *and, but, so, or, nor* se joda jaye, toh joining word se pehle comma lagta hai. (Dono side par subject + verb hona lazmi hai).\n    *   *Sahi:* The cricket team has lost five matches**,** but they are popular. ✔️\n5.  **Direct Quotations:** Kisi ki kahi hui baat ko baqi sentence se alag karne ke liye.\n    *   *Sahi:* The cashier said**,** \"We don't take cheques.\" ✔️\n\n---\n\n### 🏛️ SECTION 2: THE APOSTROPHE [ ’ ]\nApostrophe ke do bade maqsad hote hain: **Contractions** aur **Possession**.\n\n👉 **1. Contractions (Words Chota Karna):** Missing letters ki jagah lagta hai.\n*   *I am*  =>  **I'm** | *Do not* => **don't** | *Will not* => **won't** | *She would/had* => **she'd**.\n\n👉 **2. Possession (Malkiyat Dikhana):**\n*   **Singular Noun:** Owner ke naam ke aage ` 's ` lagayein.\n    *   *Examples:* The **principal's** new rules, **Huxley's** essays, **Greens'** restaurant.\n*   **Plural Noun ending in 's':** Sirf aakhri ` s ` ke baad apostrophe ` ' ` lagayein, extra 's' nahi lagta.\n    *   *Examples:* The **Shahs'** doorbell, **ladies'** washroom, **dogs'** tracks.\n\n⚠️ **WARNING:** Verbs (*owns, runs*) ya normal plurals (*boots, books*) mai kabhi apostrophe mat lagayein!\n\n---\n\n### 📝 SECTION 3: LESSON EXERCISES SOLVED\n*   **Introductory Practice:** i. Before leaving home**,** the child’s nanny collected a milk bottle**,** a bag full of diapers**,** a blanket**,** and a rattle. | ii. Although he is eighty**,** my grand dad walks ten miles daily. | iii. The cutlery box**,** if I remember correctly**,** is in the big trunk upstairs. | iv. The paint company displayed thirty shades of color**,** but the fussy lady still could not find anything to order. | v. The house agent said**,** \"It may take you a while to get used to the place.\"\n*   **Practice 1 (Series):** i. ...newspapers**,** plastic bottles**,** and... | ii. Walking**,** jogging**,** and bicycling... | iii. ...red light**,** steered off the side of a road**,** and...\n*   **Practice 2 (Intro):** i. When the lights went off**,** | ii. During the operation**,** | iii. Disappointed by the batsman’s performance**,** | iv. After waiting in the queue for two hours**,**\n*   **Practice 3 (Interrupters):** i. The house**,** built of white stone**,** was... | ii. The park**,** forty acres of prime land**,** provides... | iii. The scenery of Switzerland**,** which resembles that of Kashmir**,** inspired... | iv. Laila**,** who was wearing a new dress**,** yelled...\n*   **Practice 4 (Joining Words):** i. ...matches in a row**,** but... | ii. ...reading glasses**,** so... | iii. ...very well**,** but... | iv. ...precisely**,** nor...\n*   **Practice 5 (Quotations):** i. 'We are ready to leave'**,** said... | ii. 'This book'**,** complained the student...**,** \"is twenty... | iii. The cashier said**,** \"We don't...\n*   **Review Answers (1-5):** 1. **b** (Introductory) | 2. **d** (Joining word) | 3. **a** (Series) | 4. **c** (Interrupting) | 5. **e** (Quotation)\n*   **Practice 6 (Apostrophe):** i. **department's** | ii. **year's** | iii. **p's and q's**\n*   **Final Review Multiple Choice Answers:** 1. **a** | 2. **b** | 3. **a** | 4. **b**",
+      "questions": [
+        {
+          "q": "Where should the comma be inserted? 'Before leaving home the nanny packed a blanket and a rattle.'",
+          "options": ["A. Before leaving home, the nanny packed...", "B. Before leaving, home the nanny packed...", "C. Before leaving home the nanny packed, a blanket...", "D. No comma is needed."],
+          "answer": "A. Before leaving home, the nanny packed...",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the type of comma rule used in this sentence: 'Walking, jogging, and bicycling are excellent forms of exercise.'",
+          "options": ["A. Comma with direct quotation", "B. Comma after introductory material", "C. Comma between items in a series", "D. Comma around interrupting words"],
+          "answer": "C. Comma between items in a series",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the correctly punctuated sentence containing an interrupter phrase:",
+          "options": ["A. The house built of white stone was completed in 1890.", "B. The house, built of white stone, was finally completed in 1890.", "C. The house built of white stone, was finally completed in 1890.", "D. The house, built of white stone was finally completed in 1890."],
+          "answer": "B. The house, built of white stone, was finally completed in 1890.",
+          "diff": "medium"
+        },
+        {
+          "q": "When connecting two complete thoughts with a joining word like 'but' or 'so', the comma goes:",
+          "options": ["A. Directly after the joining word", "B. Directly before the joining word", "C. On both sides of the joining word", "D. No comma is used at all"],
+          "answer": "B. Directly before the joining word",
+          "diff": "medium"
+        },
+        {
+          "q": "Why does this sentence NOT require a comma: 'Shama spent the morning in college and then went to the secretariat.'?",
+          "options": ["A. It uses the word 'and'.", "B. The phrase 'spent the morning' is too short.", "C. The second clause lacks its own subject.", "D. It contains a dynamic plural noun."],
+          "answer": "C. The second clause lacks its own subject.",
+          "diff": "hard"
+        },
+        {
+          "q": "Select the correctly punctuated quote sequence:",
+          "options": ["A. The cashier said \"we don't take cheques.\"", "B. The cashier said, \"We don't take cheques.\"", "C. \"We don't take cheques\" cashier said.", "D. The cashier, said \"We don't take cheques\"."],
+          "answer": "B. The cashier said, \"We don't take cheques.\"",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the correct punctuation rule classification for this sentence: 'Glaring around the room, the boss demanded silence.'?",
+          "options": ["A. Comma around interrupting words", "B. Comma after introductory material", "C. Comma with direct quotation", "D. Comma between items in a series"],
+          "answer": "B. Comma after introductory material",
+          "diff": "medium"
+        },
+        {
+          "q": "Fix the punctuation: 'I heard a horn blowing so I glanced up at my rearview mirror.'",
+          "options": ["A. I heard a horn blowing, so I glanced up...", "B. I heard a horn, blowing so I glanced up...", "C. I heard a horn blowing so, I glanced up...", "D. No change needed."],
+          "answer": "A. I heard a horn blowing, so I glanced up...",
+          "diff": "easy"
+        },
+        {
+          "q": "In a contraction like 'she'd', what does the apostrophe represent?",
+          "options": ["A. Possession by a feminine subject", "B. Omitted letters (like 'woul' in would or 'ha' in had)", "C. Pluralization of a past-tense state", "D. An introductory break point"],
+          "answer": "B. Omitted letters (like 'woul' in would or 'ha' in had)",
+          "diff": "medium"
+        },
+        {
+          "q": "To make a singular noun possessive, you usually add:",
+          "options": ["A. Just an apostrophe [ ’ ]", "B. An apostrophe plus s [ ’s ]", "C. An s plus an apostrophe [ s’ ]", "D. No punctuation change is made."],
+          "answer": "B. An apostrophe plus s [ ’s ]",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the correct possessive form for a plural noun ending in 's' (e.g., the doorbell belonging to the Shahs):",
+          "options": ["A. The Shah's doorbell", "B. The Shahs's doorbell", "C. The Shahs' doorbell", "D. The Shahs doorbell"],
+          "answer": "C. The Shahs' doorbell",
+          "diff": "hard"
+        },
+        {
+          "q": "Which sentence demonstrates the CORRECT use of an apostrophe?",
+          "options": ["A. No one likes the college principal's new attendance rules.", "B. No one likes the college principals's new attendance rules.", "C. No one likes the college principals new attendance rules.", "D. No one likes the college principal’s new attendance rule's."],
+          "answer": "A. No one likes the college principal's new attendance rules.",
+          "diff": "medium"
+        },
+        {
+          "q": "Identify the sentence that incorrectly uses an apostrophe in a verb or basic plural:",
+          "options": ["A. Samina's new boots have golden buckles.", "B. He own's the neighborhood cinema layout.", "C. Children's games are not always simple.", "D. It's impossible to see stars in daylight."],
+          "answer": "B. He own's the neighborhood cinema layout.",
+          "diff": "medium"
+        },
+        {
+          "q": "Fill in the blank with the correct choice: 'This ________ new television shows are worse than before.'",
+          "options": ["A. years", "B. year's", "C. years'", "D. years's"],
+          "answer": "B. year's",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the rule idiom for plural lowercase letters or specific expressions like 'p' and 'q'?",
+          "options": ["A. ps and qs", "B. p's and q's", "C. ps' and qs'", "D. p’ss and q’ss"],
+          "answer": "B. p's and q's",
+          "diff": "hard"
+        },
+        {
+          "q": "An apostrophe is NOT needed in which structural category?",
+          "options": ["A. A contraction", "B. A possessive word", "C. A standard plural noun", "D. All of the above require it."],
+          "answer": "C. A standard plural noun",
+          "diff": "easy"
+        },
+        {
+          "q": "Choose the option with zero errors: 'They're upset about the damage done to ________ new car.'",
+          "options": ["A. there", "B. their", "C. they're", "D. theirs'"],
+          "answer": "B. their",
+          "diff": "easy"
+        },
+        {
+          "q": "True or False: Do not use a comma when a series contains only two items.",
+          "options": ["A. True", "B. False"],
+          "answer": "A. True",
+          "diff": "easy"
+        },
+        {
+          "q": "Complete the sentence structure: 'Kauser wasn't wearing her reading glasses ________ she couldn't read the dictionary.'",
+          "options": ["A. , so", "B. so,", "C. ,so,", "D. so"],
+          "answer": "A. , so",
+          "diff": "medium"
+        },
+        {
+          "q": "Correct the dialogue punctuation: 'This book' complained the student 'is cheaper elsewhere.'",
+          "options": ["A. 'This book' complained the student, 'is cheaper elsewhere.'", "B. 'This book,' complained the student, 'is cheaper elsewhere.'", "C. 'This book' complained, the student 'is cheaper elsewhere.'", "D. No comma adjustments required."],
+          "answer": "B. 'This book,' complained the student, 'is cheaper elsewhere.'",
+          "diff": "hard"
+        }
+      ]
+    },
+    "30": {
+      "title": "Paragraph Structure: Unity, Support, and Logical Order (ENG 101 Lesson 30)",
+      "summary": "**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**\n\n---\n\n### 🔥 SECTION 1: THE FOUR PILLARS OF PARAGRAPH WRITING\nAik behtareen aur effective paragraph likhne ke liye 4 basic rules ka hona lazmi hai:\n1.  **Make a Point (Topic Sentence):** Paragraph ka aik clear main idea hona chahiye jo aam tour par pehli line hoti hai.\n2.  **Support the Point (Evidence):** Main idea ko sach sabit karne ke liye specific details, facts aur examples honi chahiye.\n3.  **Orderly Arrange Material (Organization):** Details ka aapas mai aik logical sequence hona chahiye (jaise General to Specific ya Chronological order).\n4.  **Write Error-Free Sentences:** Grammar, punctuation aur spelling ki mistakes nahi honi chahiye.\n\n---\n\n### 🏛️ SECTION 2: IDEA VS. EVIDENCE ARRANGEMENT\nWriting ka sunehra usool yeh hai ke pehle **General Idea (Main Point)** pesh kiya jata hai, aur phir usko support karne ke liye **Specific Evidence (Examples)** diye jate hain.\n\n👉 **Example 1 (Reading Habits):**\n*   *Main Idea:* His library testified to the breadth of his reading habits. (Sentence 5)\n*   *Evidence:* Alag alag shelves mai newspapers, classic literature, science fiction, aur cooking/travel books ka dher hona. (Sentences 1, 2, 3, 4)\n\n👉 **Example 2 (Math Struggle):**\n*   *Main Idea:* Mathematics has never been easy for me. (Sentence 1)\n*   *Evidence:* Primary school mai arithmetic mai masla, high school mai algebra/trig mai mushkil se pass hona, aur ab college mai business math mai tang hona.\n\n---\n\n### 🛠️ SECTION 3: LOGICAL CONCLUSIONS & IRRELEVANT EVIDENCE\n*   **Drawing Logical Conclusions:** Jo facts aur data diye gaye hon, conclusion hamesha unhi ke mutabiq hona chahiye—na us se barh kar na kam. (Agar gaari ke saare parts farigh hain, toh it's time to get a new car).\n*   **Eliminating Irrelevant Details (Unity):** Paragraph ke main point se bhatakne wali koi bhi extra details paragraph ki unity ko kharab karti hain, isliye unhe nikal dena chahiye (jaise backyard shade wale paragraph mai rose aur jasmine bushes ka zikr fazool tha).\n\n---\n\n### 📝 SECTION 4: PRACTICE EXERCISES SOLVED\n*   **Practice 1 (Library Order):** Idea: **Sentence 5** | Evidence: **Sentence 1, 2, 3, 4**\n*   **Practice 2 (Math Order):** Idea: **Sentence 1** | Evidence: **Sentence 4, 5, 2, 3** *(Note: Sentence 6 is father's threat, while 4 $\\rightarrow$ 5 $\\rightarrow$ 2 shows chronological educational growth).*\n*   **Practice 3 (Conclusions):** 1) **2** (Its time for me to get a new Suzuki) | 2) **1** (Dhaka rainfall declined steadily between 1960 and 1965).\n*   **Practice 4 (Irrelevant Evidence):** **4** *(Rose, Hibiscus, and jasmine bushes do not provide shade all day, so they are irrelevant to the conclusion).*",
+      "questions": [
+        {
+          "q": "What are the four essential steps in writing an effective paragraph?",
+          "options": ["A. Plot, Character, Setting, Climax", "B. Make a point, Support the point, Orderly arrange material, Write error-free sentences", "C. Introduction, Body 1, Body 2, Conclusion", "D. Brainstorming, Drafting, Outlining, Publishing"],
+          "answer": "B. Make a point, Support the point, Orderly arrange material, Write error-free sentences",
+          "diff": "easy"
+        },
+        {
+          "q": "In Practice 1, which sentence serves as the most general main idea (Topic Sentence)?",
+          "options": ["A. Sentence 1", "B. Sentence 3", "C. Sentence 4", "D. Sentence 5"],
+          "answer": "D. Sentence 5",
+          "diff": "easy"
+        },
+        {
+          "q": "In a well-structured paragraph, how should ideas and evidence ideally be arranged arranged?",
+          "options": ["A. The most specific evidence comes first, followed by general observations.", "B. The most general point comes first, followed by specific supporting evidence.", "C. Randomly to keep the reader highly engaged.", "D. Alternating between grammar edits and idea drafts."],
+          "answer": "B. The most general point comes first, followed by specific supporting evidence.",
+          "diff": "medium"
+        },
+        {
+          "q": "Based on Practice 2, what is the core statement of the main idea?",
+          "options": ["A. Now that I am in college, I am having trouble.", "B. Mathematics has never been easy for me.", "C. My father threatened to take me out of school.", "D. In primary school I had serious trouble."],
+          "answer": "B. Mathematics has never been easy for me.",
+          "diff": "easy"
+        },
+        {
+          "q": "Given the evidence: 'Suzuki has 80,000 miles, needs a new battery, front wheel alignment is out, shock absorbers are weak, and upholstery is frayed.' What is the most appropriate conclusion?",
+          "options": ["A. Japanese cars give good service for 80,000 miles, then break down.", "B. It's time for me to get a new Suzuki.", "C. My four-year old Suzuki needs some minor repairs.", "D. Suzukis are the worst cars on the market."],
+          "answer": "B. It's time for me to get a new Suzuki.",
+          "diff": "medium"
+        },
+        {
+          "q": "Given the evidence of Dhaka rainfall: '88.6 inches in 1960, 86.2 in 1961, 84.2 in 1962, 81.2 in 1963, 80.1 in 1964, and 75.1 in 1965.' What can be inferred logically?",
+          "options": ["A. Dhaka rainfall declined steadily between 1960 and 1965.", "B. Dhaka rainfall eventually returned to normal.", "C. Dhaka rainfall was 74.1 inches in 1967.", "D. Dhaka suffers from catastrophic droughts every year."],
+          "answer": "A. Dhaka rainfall declined steadily between 1960 and 1965.",
+          "diff": "medium"
+        },
+        {
+          "q": "In Practice 4, which piece of evidence is IRRELEVANT to the conclusion: 'The trees in the back yard provide shade all day'?",
+          "options": ["A. Evidence 1 (Four neem trees on the south side)", "B. Evidence 2 (Row of towering eucalyptus trees on the west side)", "C. Evidence 3 (Two great rubber trees capturing noon rays)", "D. Evidence 4 (Low growing rose bushes, Hibiscus and jasmine bushes)"],
+          "answer": "D. Evidence 4 (Low growing rose bushes, Hibiscus and jasmine bushes)",
+          "diff": "easy"
+        },
+        {
+          "q": "What happens to a paragraph when an irrelevant sentence or piece of evidence is included?",
+          "options": ["A. It improves sentence variety.", "B. It destroys the paragraph's unity and focus.", "C. It provides deeper transition steps.", "D. It automatically fixes run-on mistakes."],
+          "answer": "B. It destroys the paragraph's unity and focus.",
+          "diff": "medium"
+        },
+        {
+          "q": "In the paragraph about 'My Neighbors', what is the main disturbing event that happens just when the neighborhood turns in for the night?",
+          "options": ["A. The daughter shouts 'Babaji!'", "B. The children play hide and seek.", "C. Loud stereo music blares from their house.", "D. The dogs start barking at the gate."],
+          "answer": "C. Loud stereo music blares from their house.",
+          "diff": "easy"
+        },
+        {
+          "q": "Which chronological sequence of support matches the writer's life in Practice 2?",
+          "options": ["A. High school -> College -> Primary school", "B. Primary school -> High school -> College", "C. College -> Primary school -> High school", "D. High school -> Primary school -> College"],
+          "answer": "B. Primary school -> High school -> College",
+          "diff": "medium"
+        },
+        {
+          "q": "The main point of a paragraph is usually captured in which specific sentence?",
+          "options": ["A. Supporting sentence", "B. Transitional sentence", "C. Topic sentence", "D. Fragmented sentence"],
+          "answer": "C. Topic sentence",
+          "diff": "easy"
+        },
+        {
+          "q": "Why is structural order important inside a paragraph?",
+          "options": ["A. To reach the maximum required word count quickly.", "B. To make the relationship between the main idea and supporting details logical and clear.", "C. To show that the writer knows many fancy vocabulary terms.", "D. To eliminate the need for any punctuation marks."],
+          "answer": "B. To make the relationship between the main idea and supporting details logical and clear.",
+          "diff": "easy"
+        },
+        {
+          "q": "In the 'History of English Literature' excerpt, what are the friends and enemies doing the day after the burial?",
+          "options": ["A. Demanding their shared money back.", "B. Writing his biography.", "C. Selling his classics and magazines.", "D. Repairing his broken down Suzuki."],
+          "answer": "B. Writing his biography.",
+          "diff": "easy"
+        },
+        {
+          "q": "What kind of details should a writer use to support a topic sentence effectively?",
+          "options": ["A. Vague statements", "B. Specific and concrete details", "C. Plagiarized summaries", "D. Slang and outdated clichés"],
+          "answer": "B. Specific and concrete details",
+          "diff": "easy"
+        },
+        {
+          "q": "If a writer says 'My library testified to the breadth of my reading habits,' what kind of books should NOT be listed as direct evidence?",
+          "options": ["A. Classics and science fiction", "B. Modern daily newspapers", "C. Cooking, gardening, and travel manuals", "D. Blank diaries with no text inside"],
+          "answer": "D. Blank diaries with no text inside",
+          "diff": "easy"
+        },
+        {
+          "q": "True or False: A paragraph can have multiple independent main points that do not relate to each other.",
+          "options": ["A. True", "B. False"],
+          "answer": "B. False",
+          "diff": "easy"
+        },
+        {
+          "q": "Identify the primary source of noise from the neighbor's daughter in the example text:",
+          "options": ["A. Singing loudly along with the stereo setup.", "B. Popping her head out of the window and screaming 'Babaji!'", "C. Playing complex algebra games outside.", "D. Throwing fruit peel at passing cars."],
+          "answer": "B. Popping her head out of the window and screaming 'Babaji!'",
+          "diff": "easy"
+        },
+        {
+          "q": "Which phase of education is mentioned as the period where the writer barely passed algebra and trigonometry?",
+          "options": ["A. Primary school", "B. High school", "C. College", "D. University level"],
+          "answer": "B. High school",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the primary role of the sentences that follow a topic sentence?",
+          "options": ["A. To repeat the main point in five different ways.", "B. To provide solid support, illustration, and evidence.", "C. To add irrelevant information to fill space.", "D. To shift the point of view to the second person."],
+          "answer": "B. To provide solid support, illustration, and evidence.",
+          "diff": "medium"
+        },
+        {
+          "q": "True or False: Logic dictates that you should ensure your sentences are error-free as part of final paragraph polishing.",
+          "options": ["A. True", "B. False"],
+          "answer": "A. True",
+          "diff": "easy"
+        }
+      ]
+    },
+  31: {
+  title: 'Paragraph Writing: Topic Sentence, Unity & Coherence',
   summary: `**Key Topics Covered:**
-- English pronunciation
-- Dictionary usage
-- Phonemic symbols
-- Vowel sounds
-- Consonant sounds
-- Stress in words
-- Meaning changes due to stress
+- Elements of a good paragraph
+- Topic sentence
+- Supporting sentences
+- Concluding sentence
+- Unity
+- Coherence
+- Controlling idea
+- Writing topic sentences
+- Writing concluding sentences
+- Paragraph organization
+
+**Short Notes (Exam Revision):**
+
+### 1. Well-Written Paragraph
+A good paragraph has **5 essential elements:**
+- Topic Sentence
+- Supporting Sentences
+- Concluding Sentence
+- Unity
+- Coherence
 
 ---
 
-**Simple Understanding:**
+### 2. Topic Sentence
+The topic sentence is usually the **first sentence** of a paragraph.
 
-**What is Pronunciation?**
-👉 Pronunciation means speaking words with correct sounds.
+It:
+- Introduces the main idea.
+- Contains a complete sentence (Subject + Verb + Complement).
+- Includes:
+  - **Topic** → what the paragraph is about.
+  - **Controlling Idea** → limits the topic to one specific aspect.
 
-👉 English spelling and pronunciation are often different.
+Example:
+Driving on the motorway requires skill and agility.
 
----
+Topic = Driving on the motorway
 
-**Dictionary Usage:**
-👉 Dictionaries show pronunciation using phonemic symbols.
-
-👉 These symbols are written between slash brackets:
-/ /
-
----
-
-**Examples of Different Sounds:**
-
-- Chorus → ch = /k/
-- Church → ch = /ch/
-- Ration → tion = /sh/
-- Machine → ch = /sh/
-
-👉 The same letters can produce different sounds.
+Controlling Idea = Requires skill and agility
 
 ---
 
-**Phonemic Symbols:**
-👉 Special symbols used to show exact speech sounds.
-
-👉 Every sound has its own symbol.
-
----
-
-**Vowel Sounds:**
-English has 20 vowel phonemes:
-
-- 7 Short vowels
-- 5 Long vowels
-- 8 Diphthongs
+### 3. Supporting Sentences
+Supporting sentences:
+- Explain the topic sentence.
+- Give facts, examples, reasons or details.
+- Every supporting sentence must relate directly to the topic sentence.
 
 ---
 
-**Long Vowels:**
-👉 Long vowel symbols contain /ː/
+### 4. Concluding Sentence
+The concluding sentence:
+- Signals the end of the paragraph.
+- Gives a final opinion or summary.
+- Restates the main idea without repeating exactly.
 
-👉 The sound is pronounced for a longer time.
-
----
-
-**Diphthongs:**
-👉 Diphthongs are made by combining two vowel sounds.
-
-👉 The mouth moves from one sound to another.
-
----
-
-**Consonant Sounds:**
-👉 English has 24 consonant sounds.
-
-👉 These sounds are produced by complete or partial stoppage of breath.
+Common signals:
+- In conclusion
+- Finally
+- In summary
+- Therefore
 
 ---
 
-**Stress:**
-👉 Stress means giving extra force to a syllable while speaking.
+### 5. Unity
+Unity means:
+- Every sentence discusses ONLY one main idea.
+- No irrelevant information should be included.
 
-👉 Dictionaries show stress with a tiny mark.
+A paragraph without unrelated sentences has unity.
+
+---
+
+### 6. Coherence
+Coherence means:
+- Ideas flow smoothly.
+- Sentences are logically connected.
+- Transition words improve coherence.
 
 Examples:
-- mother
-- table
-- after
-
-👉 In these words, the first syllable is stressed.
+First, Next, Then, Moreover, Finally, Therefore, However
 
 ---
 
-**Second Syllable Stress:**
-Examples:
-- hotel
-- bamboo
-- banana
+### 7. Topic + Controlling Idea
+Every topic sentence has two parts.
 
-👉 In these words, the second syllable is stressed.
+Topic:
+The general subject.
+
+Controlling Idea:
+Limits what will be discussed.
+
+Example:
+Television commercials are misleading.
+
+Topic = Television commercials
+
+Controlling Idea = Misleading
+
+---
+
+### 8. Paragraph Structure
+Standard paragraph order:
+
+1. Topic Sentence
+2. Supporting Detail 1
+3. Supporting Detail 2
+4. Supporting Detail 3
+5. Concluding Sentence
 
 ---
 
-**Meaning Change Due to Stress:**
-👉 Some words change meaning or part of speech because of stress.
-
-Examples:
-- rebel (noun)
-- rebel (verb)
-
-- present (noun/adjective)
-- present (verb)
+### 9. Good Supporting Details
+Supporting details may include:
+- Facts
+- Reasons
+- Examples
+- Statistics
+- Personal experience
+- Explanations
 
 ---
+
+### 10. Types of Concluding Sentences
+A concluding sentence may:
+- Restate the main idea.
+- Summarize the paragraph.
+- Give a final opinion.
+- Suggest a conclusion.
+
+---
+
+### 11. Tips for Writing a Good Paragraph
+✔ Stay on one idea.
+✔ Use logical order.
+✔ Include enough supporting details.
+✔ Begin with a strong topic sentence.
+✔ End with a concluding sentence.
+✔ Maintain unity and coherence.
 
 **Quick Revision Points:**
-- Pronunciation = correct sound
-- Dictionaries use phonemic symbols
-- Symbols are written in / /
-- Chorus → /k/
-- Church → /ch/
-- Machine → /sh/
-- Total vowel phonemes = 20
-- Long vowels contain /ː/
-- Diphthongs combine 2 vowel sounds
-- English has 24 consonant sounds
-- Stress = extra force on syllable
-- Stress can change meaning`,
-  
+- Paragraph = Topic sentence + Supporting details + Conclusion.
+- A topic sentence contains Topic + Controlling Idea.
+- Unity means one central idea.
+- Coherence means smooth connection of ideas.
+- Supporting sentences explain the topic sentence.
+- Concluding sentence ends and summarizes the paragraph.
+- Topic sentence usually appears at the beginning.
+- Transition words improve coherence.
+- Remove unrelated details.
+- Every paragraph should have one clear purpose.`,
+
   questions: [
     {
-      q: 'Pronunciation means:',
-      options: ['A. Writing words', 'B. Speaking words correctly', 'C. Reading silently', 'D. Grammar rules'],
-      answer: 'B. Speaking words correctly',
-      diff: 'easy',
-    },
-    {
-      q: 'Students face pronunciation problems because:',
-      options: ['A. English has no vowels', 'B. Spellings are confusing', 'C. Dictionaries do not exist', 'D. Words are too short'],
-      answer: 'B. Spellings are confusing',
-      diff: 'easy',
-    },
-    {
-      q: 'Dictionaries show pronunciation using:',
-      options: ['A. Pictures', 'B. Phonemic symbols', 'C. Numbers', 'D. Colors'],
-      answer: 'B. Phonemic symbols',
-      diff: 'easy',
-    },
-    {
-      q: 'Phonemic symbols are written between:',
-      options: ['A. ( )', 'B. [ ]', 'C. / /', 'D. { }'],
-      answer: 'C. / /',
-      diff: 'easy',
-    },
-    {
-      q: 'In the word "chorus", "ch" sounds like:',
-      options: ['A. /sh/', 'B. /ch/', 'C. /k/', 'D. /t/'],
-      answer: 'C. /k/',
-      diff: 'easy',
-    },
-    {
-      q: 'In the word "church", "ch" sounds like:',
-      options: ['A. /k/', 'B. /sh/', 'C. /ch/', 'D. /z/'],
-      answer: 'C. /ch/',
-      diff: 'easy',
-    },
-    {
-      q: 'In the word "ration", "tion" sounds like:',
-      options: ['A. /sh/', 'B. /k/', 'C. /ch/', 'D. /t/'],
-      answer: 'A. /sh/',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word has "ch" pronounced as /sh/?',
-      options: ['A. Church', 'B. Chorus', 'C. Machine', 'D. Chair'],
-      answer: 'C. Machine',
-      diff: 'medium',
-    },
-    {
-      q: 'English has total vowel phonemes:',
-      options: ['A. 10', 'B. 15', 'C. 20', 'D. 24'],
-      answer: 'C. 20',
-      diff: 'easy',
-    },
-    {
-      q: 'How many short vowels are there in English?',
-      options: ['A. 5', 'B. 7', 'C. 8', 'D. 10'],
-      answer: 'B. 7',
-      diff: 'easy',
-    },
-    {
-      q: 'How many long vowels are there in English?',
-      options: ['A. 5', 'B. 7', 'C. 8', 'D. 20'],
-      answer: 'A. 5',
-      diff: 'easy',
-    },
-    {
-      q: 'How many diphthongs are there in English?',
-      options: ['A. 5', 'B. 6', 'C. 7', 'D. 8'],
-      answer: 'D. 8',
-      diff: 'medium',
-    },
-    {
-      q: 'Diphthongs are made by:',
-      options: ['A. Two consonants', 'B. One vowel', 'C. Two vowel sounds', 'D. Silence'],
-      answer: 'C. Two vowel sounds',
-      diff: 'medium',
-    },
-    {
-      q: 'Long vowels contain:',
-      options: ['A. A star', 'B. /ː/', 'C. Brackets', 'D. Dash'],
-      answer: 'B. /ː/',
-      diff: 'easy',
-    },
-    {
-      q: 'English has how many consonant sounds?',
-      options: ['A. 20', 'B. 22', 'C. 24', 'D. 26'],
-      answer: 'C. 24',
-      diff: 'easy',
-    },
-    {
-      q: 'Consonant sounds are produced by:',
-      options: ['A. Complete or partial stoppage of breath', 'B. Only vowels', 'C. Silent reading', 'D. Nose only'],
-      answer: 'A. Complete or partial stoppage of breath',
-      diff: 'medium',
-    },
-    {
-      q: 'Stress means:',
-      options: ['A. Fast reading', 'B. Extra force in pronunciation', 'C. Writing clearly', 'D. Silence'],
-      answer: 'B. Extra force in pronunciation',
-      diff: 'easy',
-    },
-    {
-      q: 'Dictionaries indicate stress using:',
-      options: ['A. Tiny mark', 'B. Capital letters', 'C. Full stop', 'D. Slash'],
-      answer: 'A. Tiny mark',
-      diff: 'medium',
-    },
-    {
-      q: 'Which word has stress on the first syllable?',
-      options: ['A. Hotel', 'B. Banana', 'C. Mother', 'D. Bamboo'],
-      answer: 'C. Mother',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word has stress on the second syllable?',
-      options: ['A. Table', 'B. After', 'C. Hotel', 'D. Mother'],
-      answer: 'C. Hotel',
-      diff: 'easy',
-    },
-    {
-      q: 'Words with the same spelling may change meaning because of:',
-      options: ['A. Punctuation', 'B. Stress difference', 'C. Color', 'D. Size'],
-      answer: 'B. Stress difference',
-      diff: 'hard',
-    },
-  ],
-},
-    
-
-// lecture 3 //
-
-
-3: {
-  title: 'Topic Sentences & Main Ideas',
-  summary: `**Key Topics Covered:**
-- Topic sentences
-- Main ideas
-- Supporting details
-- Communication and groups
-- Plant science
-- Reading skills
-- Language and grammar
-- Effective listening
-
----
-
-**Simple Understanding:**
-
-**Topic Sentence:**
-👉 A topic sentence tells the main idea of a paragraph.
-
-👉 Supporting details explain the topic sentence.
-
----
-
-**Main Idea:**
-👉 Every paragraph focuses on one central idea.
-
-👉 Readers should identify what the writer mainly wants to explain.
-
----
-
-**Text About Plants:**
-👉 New plant species are discovered every year.
-
-👉 Taxonomists classify and name plants scientifically.
-
-👉 Plant classification is important for scientists.
-
----
-
-**Groups in Sociology:**
-👉 A group exists when people communicate with each other.
-
-👉 Physical closeness alone does not make a group.
-
----
-
-**Plant Physiology:**
-👉 Plants absorb water, oxygen, and minerals.
-
-👉 Plant physiology studies plant functions and activities.
-
----
-
-**Reading Skills:**
-👉 Good readers read for understanding, not pronunciation.
-
-👉 Reading word by word slows comprehension.
-
----
-
-**Language and Grammar:**
-👉 Learning a language means learning sounds, words, and grammar rules.
-
-👉 Grammar represents linguistic competence.
-
----
-
-**Chinese Writing System:**
-👉 Chinese writing uses characters representing meanings instead of sounds.
-
-👉 Thousands of characters are needed to read Chinese.
-
----
-
-**Effective Listening:**
-👉 Good listeners prepare before lectures.
-
-👉 They sit where they can hear clearly.
-
-👉 After listening, they review and evaluate ideas.
-
----
-
-**Mathematics and Units:**
-👉 Unlike quantities cannot be added together.
-
-👉 Quantities must have the same units.
-
----
-
-**Computers:**
-👉 There are two main types:
-- Analog computers
-- Digital computers
-
-👉 Most modern computers are digital.
-
----
-
-**Newspapers and Advertising:**
-👉 Newspapers are important advertising media.
-
-👉 Advertisers can target specific local areas.
-
----
-
-**Speech Development in Infants:**
-👉 Infant speech develops in a sequence.
-
-👉 Vowel sounds usually develop before consonants.
-
----
-
-**Famine Causes:**
-👉 Famine is caused by population growth and lack of food supply.
-
-👉 Agricultural production may not support growing populations.
-
----
-
-**Anxiety Responses:**
-👉 Anxiety affects people physically and psychologically.
-
-👉 Different people react differently to anxiety.
-
----
-
-**Quick Revision Points:**
-- Topic sentence = main idea
-- Supporting details explain the topic
-- Groups require communication
-- Taxonomists classify plants
-- Reading for meaning is important
-- Grammar = language rules
-- Chinese writing uses characters
-- Good listeners prepare and review
-- Unlike quantities cannot be added
-- Modern computers are mostly digital`,
-  
-  questions: [
-    {
-      q: 'A topic sentence mainly tells:',
-      options: ['A. Minor details', 'B. Main idea', 'C. Conclusion only', 'D. Examples only'],
-      answer: 'B. Main idea',
-      diff: 'easy',
-    },
-    {
-      q: 'Scientists who classify plants are called:',
-      options: ['A. Florists', 'B. Morphologists', 'C. Taxonomists', 'D. Foresters'],
-      answer: 'C. Taxonomists',
-      diff: 'easy',
-    },
-    {
-      q: 'Approximately how many new plant species are proposed yearly?',
-      options: ['A. 470', 'B. 4700', 'C. 7000', 'D. 500'],
-      answer: 'B. 4700',
-      diff: 'medium',
-    },
-    {
-      q: 'A group in sociology requires:',
-      options: ['A. Physical closeness only', 'B. Communication', 'C. Friendship only', 'D. Family relation'],
-      answer: 'B. Communication',
-      diff: 'easy',
-    },
-    {
-      q: 'Plant physiology studies:',
-      options: ['A. Plant history', 'B. Plant classification', 'C. Plant functions and activities', 'D. Soil only'],
-      answer: 'C. Plant functions and activities',
-      diff: 'medium',
-    },
-    {
-      q: 'Good reading focuses on:',
-      options: ['A. Pronunciation only', 'B. Reading slowly', 'C. Understanding meaning', 'D. Finger movement'],
-      answer: 'C. Understanding meaning',
-      diff: 'easy',
-    },
-    {
-      q: 'Grammar represents:',
-      options: ['A. Vocabulary only', 'B. Linguistic competence', 'C. Pronunciation only', 'D. Writing style'],
-      answer: 'B. Linguistic competence',
-      diff: 'medium',
-    },
-    {
-      q: 'Chinese writing system mainly represents:',
-      options: ['A. Sounds', 'B. Meanings', 'C. Numbers', 'D. Symbols only'],
-      answer: 'B. Meanings',
-      diff: 'medium',
-    },
-    {
-      q: 'To read a Chinese newspaper, a person needs about:',
-      options: ['A. 500 characters', 'B. 1000 characters', 'C. 5000 characters', 'D. 10000 characters'],
-      answer: 'C. 5000 characters',
+      q: 'A well-written paragraph contains how many essential elements?',
+      options: ['A. 3', 'B. 4', 'C. 5', 'D. 6'],
+      answer: 'C. 5',
       diff: 'hard',
     },
     {
-      q: 'A good listener prepares before:',
-      options: ['A. Sleeping', 'B. Writing', 'C. Speech or lecture', 'D. Examination'],
-      answer: 'C. Speech or lecture',
-      diff: 'easy',
+      q: 'Which sentence introduces the main idea of a paragraph?',
+      options: ['A. Supporting sentence', 'B. Topic sentence', 'C. Concluding sentence', 'D. Transition sentence'],
+      answer: 'B. Topic sentence',
+      diff: 'hard',
     },
     {
-      q: 'Effective listening is:',
-      options: ['A. Passive process', 'B. Active process', 'C. Difficult process', 'D. Silent process'],
-      answer: 'B. Active process',
-      diff: 'medium',
+      q: 'A topic sentence contains:',
+      options: ['A. Topic only', 'B. Controlling idea only', 'C. Topic and controlling idea', 'D. Supporting details'],
+      answer: 'C. Topic and controlling idea',
+      diff: 'hard',
     },
     {
-      q: 'Unlike quantities in mathematics:',
-      options: ['A. Can always be added', 'B. Cannot be added', 'C. Become equal', 'D. Are ignored'],
-      answer: 'B. Cannot be added',
-      diff: 'easy',
-    },
-    {
-      q: 'Most modern computers are:',
-      options: ['A. Analog', 'B. Mechanical', 'C. Digital', 'D. Hybrid'],
-      answer: 'C. Digital',
-      diff: 'easy',
-    },
-    {
-      q: 'Analog computers operate using:',
-      options: ['A. Counting only', 'B. Physical quantities', 'C. Writing systems', 'D. Binary code only'],
-      answer: 'B. Physical quantities',
-      diff: 'medium',
-    },
-    {
-      q: 'Mathematics is called the language of:',
-      options: ['A. Nature', 'B. Science', 'C. Number and size', 'D. Computers'],
-      answer: 'C. Number and size',
-      diff: 'easy',
-    },
-    {
-      q: 'Newspapers are important because they:',
-      options: ['A. Have limited coverage', 'B. Are expensive', 'C. Reach many areas', 'D. Replace television'],
-      answer: 'C. Reach many areas',
-      diff: 'easy',
-    },
-    {
-      q: 'Infant speech development follows:',
-      options: ['A. Random order', 'B. Definite sequence', 'C. No pattern', 'D. Adult speech'],
-      answer: 'B. Definite sequence',
-      diff: 'medium',
-    },
-    {
-      q: 'Famine is partly caused by:',
-      options: ['A. Reduced population', 'B. Increased food supply', 'C. Increased population', 'D. Better farming'],
-      answer: 'C. Increased population',
-      diff: 'medium',
-    },
-    {
-      q: 'Anxiety may produce:',
-      options: ['A. Better memory only', 'B. Physical and psychological responses', 'C. Happiness only', 'D. Sleep only'],
-      answer: 'B. Physical and psychological responses',
-      diff: 'medium',
-    },
-    {
-      q: 'Supporting details in a paragraph:',
-      options: ['A. Introduce a new topic', 'B. Explain the topic sentence', 'C. End the paragraph', 'D. Change the subject'],
+      q: 'Supporting sentences mainly:',
+      options: ['A. Introduce a new paragraph', 'B. Explain the topic sentence', 'C. End the paragraph', 'D. Change the topic'],
       answer: 'B. Explain the topic sentence',
-      diff: 'easy',
-    },
-  ],
-},
-
-
-
-//leacture 4 //
-
-
-4: {
-  title: 'What is a Computer?',
-  summary: `**Key Topics Covered:**
-- Definition of a computer
-- Computer functions
-- Input and output devices
-- Memory and data processing
-- Computer capabilities
-- Decision making in computers
-- Advantages and limitations of computers
-
----
-
-**Simple Understanding:**
-
-**What is a Computer?**
-👉 A computer is an electronic machine.
-
-👉 It works using electronic circuits and switches.
-
-👉 It can store, process, and manipulate data.
-
----
-
-**How Does a Computer Work?**
-👉 A computer works by receiving instructions and data.
-
-👉 Instructions are called programs.
-
-👉 Data and programs are stored in memory.
-
----
-
-**Main Function of a Computer:**
-👉 The main job of a computer is processing information.
-
-👉 It performs mathematical and logical operations.
-
----
-
-**Basic Capabilities of Computers:**
-
-1. Arithmetic Operations
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Exponentiation
-
-2. Communication with User
-👉 Computers receive input and give output.
-
-3. Decision Making
-👉 Computers can compare numbers.
-
----
-
-**Input Devices:**
-👉 Devices used to enter information into a computer.
-
-Examples:
-- Punched cards
-- Magnetic tape
-- Disks
-- Terminals
-
----
-
-**Output Devices:**
-👉 Devices used to display results.
-
-Examples:
-- Printer
-- CRT display screen
-
----
-
-**Computer Decisions:**
-👉 Computers can decide:
-- Less than
-- Equal to
-- Greater than
-
-👉 Computers cannot make human judgments.
-
----
-
-**Advantages of Computers:**
-- Work very fast
-- Solve problems quickly
-- Perform thousands of operations
-- Never become tired or bored
-
----
-
-**Limitations of Computers:**
-👉 Computers have no originality.
-
-👉 They only follow instructions.
-
-👉 They cannot think like humans.
-
----
-
-**Important Point:**
-👉 A computer cannot do anything unless a person gives instructions and data.
-
----
-
-**Quick Revision Points:**
-- Computer = electronic machine
-- Main job = information processing
-- Instructions = program
-- Data stored in memory
-- Input devices enter data
-- Output devices show results
-- Computers perform arithmetic operations
-- Computers compare numbers
-- Computers work very fast
-- Computers cannot think independently`,
-  
-  questions: [
-    {
-      q: 'A computer is basically an:',
-      options: ['A. Animal', 'B. Electronic machine', 'C. Human brain', 'D. Calculator only'],
-      answer: 'B. Electronic machine',
-      diff: 'easy',
-    },
-    {
-      q: 'The basic job of a computer is:',
-      options: ['A. Drawing pictures', 'B. Processing information', 'C. Playing games', 'D. Printing books'],
-      answer: 'B. Processing information',
-      diff: 'easy',
-    },
-    {
-      q: 'Instructions given to a computer are called:',
-      options: ['A. Memory', 'B. Data', 'C. Program', 'D. Signals'],
-      answer: 'C. Program',
-      diff: 'easy',
-    },
-    {
-      q: 'Programs and data are stored in:',
-      options: ['A. Screen', 'B. Keyboard', 'C. Printer', 'D. Memory'],
-      answer: 'D. Memory',
-      diff: 'easy',
-    },
-    {
-      q: 'Computers can perform:',
-      options: ['A. Arithmetic operations', 'B. Cooking', 'C. Sleeping', 'D. Breathing'],
-      answer: 'A. Arithmetic operations',
-      diff: 'easy',
-    },
-    {
-      q: 'Which is NOT an arithmetic operation?',
-      options: ['A. Addition', 'B. Multiplication', 'C. Division', 'D. Painting'],
-      answer: 'D. Painting',
-      diff: 'easy',
-    },
-    {
-      q: 'Computers communicate with users through:',
-      options: ['A. Input and output devices', 'B. Books only', 'C. Television only', 'D. Voice only'],
-      answer: 'A. Input and output devices',
-      diff: 'medium',
-    },
-    {
-      q: 'Which of the following is an input device?',
-      options: ['A. Printer', 'B. CRT screen', 'C. Magnetic tape', 'D. Speaker'],
-      answer: 'C. Magnetic tape',
-      diff: 'medium',
-    },
-    {
-      q: 'Which device is commonly used for output?',
-      options: ['A. Disk drive', 'B. Printer', 'C. Tape drive', 'D. Terminal'],
-      answer: 'B. Printer',
-      diff: 'easy',
-    },
-    {
-      q: 'A CRT display screen looks like:',
-      options: ['A. Radio', 'B. TV screen', 'C. Mobile phone', 'D. Typewriter'],
-      answer: 'B. TV screen',
-      diff: 'easy',
-    },
-    {
-      q: 'Computers can make decisions by:',
-      options: ['A. Comparing numbers', 'B. Thinking emotionally', 'C. Guessing answers', 'D. Making opinions'],
-      answer: 'A. Comparing numbers',
-      diff: 'medium',
-    },
-    {
-      q: 'Computers cannot:',
-      options: ['A. Add numbers', 'B. Compare values', 'C. Make human judgments', 'D. Process information'],
-      answer: 'C. Make human judgments',
-      diff: 'medium',
-    },
-    {
-      q: 'Computers work according to:',
-      options: ['A. Emotions', 'B. Instructions', 'C. Feelings', 'D. Imagination'],
-      answer: 'B. Instructions',
-      diff: 'easy',
-    },
-    {
-      q: 'A computer can work without becoming:',
-      options: ['A. Fast', 'B. Intelligent', 'C. Tired or bored', 'D. Useful'],
-      answer: 'C. Tired or bored',
-      diff: 'easy',
-    },
-    {
-      q: 'Computers perform operations at:',
-      options: ['A. Walking speed', 'B. Human speed', 'C. Speed of light', 'D. Sound speed'],
-      answer: 'C. Speed of light',
       diff: 'hard',
     },
     {
-      q: 'Computers can replace humans in:',
-      options: ['A. Creative thinking', 'B. Routine tasks', 'C. Emotional decisions', 'D. Leadership'],
-      answer: 'B. Routine tasks',
-      diff: 'medium',
-    },
-    {
-      q: 'Computers have no:',
-      options: ['A. Circuits', 'B. Memory', 'C. Originality', 'D. Input devices'],
-      answer: 'C. Originality',
-      diff: 'easy',
-    },
-    {
-      q: 'Most computers have how many basic capabilities?',
-      options: ['A. Two', 'B. Three', 'C. Four', 'D. Five'],
-      answer: 'B. Three',
-      diff: 'medium',
-    },
-    {
-      q: 'Computers can solve problems:',
-      options: ['A. Slowly', 'B. Instantly in many cases', 'C. Only manually', 'D. Without data'],
-      answer: 'B. Instantly in many cases',
-      diff: 'medium',
-    },
-    {
-      q: 'A computer cannot do anything without:',
-      options: ['A. Electricity only', 'B. Human instructions', 'C. Internet', 'D. Printer'],
-      answer: 'B. Human instructions',
-      diff: 'easy',
-    },
-  ],
-},
-
-
-
-//leacture 5
-
-5: {
-  title: 'Link Words & History of Computers',
-  summary: `**Key Topics Covered:**
-- Link words and connectives
-- Result words
-- Contrast words
-- Comparison words
-- Cause and effect
-- Addition and sequence words
-- History of computers
-- Computer generations
-- Contextual references
-
----
-
-**Simple Understanding:**
-
-**What are Link Words?**
-👉 Link words connect ideas and sentences.
-
-👉 They improve understanding and flow of writing.
-
----
-
-**Words Showing Result:**
-Examples:
-- therefore
-- thus
-- consequently
-- hence
-
-👉 These words show results or conclusions.
-
----
-
-**Words Showing Contrast:**
-Examples:
-- but
-- however
-- although
-- nevertheless
-
-👉 These words show opposite ideas.
-
----
-
-**Words Showing Comparison:**
-Examples:
-- similarly
-- likewise
-- just like
-- equally
-
-👉 These words compare ideas.
-
----
-
-**Words Showing Examples:**
-Examples:
-- for example
-- for instance
-- such as
-
-👉 These introduce examples.
-
----
-
-**Cause and Effect Words:**
-Examples:
-- because
-- since
-- therefore
-- as a result
-
-👉 These show reasons and outcomes.
-
----
-
-**Series and Time Words:**
-Examples:
-- first
-- second
-- next
-- finally
-
-👉 These show order or sequence.
-
----
-
-**Addition Words:**
-Examples:
-- and
-- besides
-- furthermore
-- in addition
-
-👉 These add more information.
-
----
-
-**History of Computers:**
-
-**Primitive Times:**
-👉 People used fingers for counting.
-
-👉 The abacus was later invented.
-
----
-
-**17th and 18th Centuries:**
-👉 Logarithm tables and calculus were developed.
-
-👉 Slide rule was invented.
-
----
-
-**Charles Babbage:**
-👉 Designed the Analytical Engine.
-
-👉 Known as the father of computers.
-
----
-
-**First Computers:**
-👉 Early computers used vacuum tubes.
-
-👉 They were large and slow.
-
----
-
-**Transistors:**
-👉 Replaced vacuum tubes.
-
-👉 Made computers faster and smaller.
-
----
-
-**Integrated Circuits & Chips:**
-👉 Reduced computer size.
-
-👉 Increased speed and reliability.
-
----
-
-**Modern Computers:**
-👉 Use microchips and integrated circuits.
-
-👉 Have more circuits in smaller sizes.
-
----
-
-**Future Computers:**
-👉 Future computers may be very different from today’s computers.
-
----
-
-**Contextual Reference:**
-👉 Reference words point to previously mentioned ideas.
-
-Examples:
-- it
-- they
-- which
-- that
-
-👉 Readers must identify what these words refer to.
-
----
-
-**Quick Revision Points:**
-- Link words connect ideas
-- therefore = result
-- however = contrast
-- similarly = comparison
-- for example = illustration
-- because = cause
-- first/next/finally = sequence
-- Abacus = counting device
-- Charles Babbage = father of computers
-- Transistors replaced vacuum tubes
-- Chips made computers smaller and faster
-- Reference words refer to earlier nouns`,
-  
-  questions: [
-    {
-      q: 'Link words are used to:',
-      options: ['A. Break sentences', 'B. Connect ideas', 'C. Translate words', 'D. Count numbers'],
-      answer: 'B. Connect ideas',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word shows a result?',
-      options: ['A. However', 'B. Similarly', 'C. Therefore', 'D. Although'],
-      answer: 'C. Therefore',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word shows contrast?',
-      options: ['A. Consequently', 'B. However', 'C. Furthermore', 'D. Since'],
-      answer: 'B. However',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word is used for comparison?',
-      options: ['A. Similarly', 'B. Because', 'C. Finally', 'D. Yet'],
-      answer: 'A. Similarly',
-      diff: 'easy',
-    },
-    {
-      q: 'Which phrase introduces an example?',
-      options: ['A. On the contrary', 'B. For instance', 'C. Therefore', 'D. Since'],
-      answer: 'B. For instance',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word shows cause and effect?',
-      options: ['A. Because', 'B. Likewise', 'C. However', 'D. Next'],
-      answer: 'A. Because',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word shows sequence?',
-      options: ['A. Finally', 'B. Although', 'C. Besides', 'D. Yet'],
-      answer: 'A. Finally',
-      diff: 'easy',
-    },
-    {
-      q: 'Which word shows addition?',
-      options: ['A. Conversely', 'B. Furthermore', 'C. Despite', 'D. Although'],
-      answer: 'B. Furthermore',
-      diff: 'easy',
-    },
-    {
-      q: 'The earliest counting device mentioned is:',
-      options: ['A. Calculator', 'B. Slide rule', 'C. Abacus', 'D. Chip'],
-      answer: 'C. Abacus',
-      diff: 'easy',
-    },
-    {
-      q: 'People first used what for counting?',
-      options: ['A. Computers', 'B. Fingers', 'C. Chips', 'D. Tables'],
-      answer: 'B. Fingers',
-      diff: 'easy',
-    },
-    {
-      q: 'Who is known as the father of computers?',
-      options: ['A. Henry Briggs', 'B. Charles Babbage', 'C. Alan Turing', 'D. Pascal'],
-      answer: 'B. Charles Babbage',
-      diff: 'easy',
-    },
-    {
-      q: 'Charles Babbage designed:',
-      options: ['A. Slide rule', 'B. Abacus', 'C. Analytical Engine', 'D. Calculator'],
-      answer: 'C. Analytical Engine',
-      diff: 'medium',
-    },
-    {
-      q: 'Early computers used:',
-      options: ['A. Chips', 'B. Transistors', 'C. Vacuum tubes', 'D. Microprocessors'],
-      answer: 'C. Vacuum tubes',
-      diff: 'easy',
-    },
-    {
-      q: 'Transistors replaced:',
-      options: ['A. Chips', 'B. Vacuum tubes', 'C. Abacus', 'D. Circuits'],
-      answer: 'B. Vacuum tubes',
-      diff: 'easy',
-    },
-    {
-      q: 'Transistors made computers:',
-      options: ['A. Larger and slower', 'B. Smaller and faster', 'C. More expensive only', 'D. Mechanical'],
-      answer: 'B. Smaller and faster',
-      diff: 'easy',
-    },
-    {
-      q: 'Integrated circuits are also called:',
-      options: ['A. Tubes', 'B. Engines', 'C. Chips', 'D. Beads'],
-      answer: 'C. Chips',
-      diff: 'medium',
-    },
-    {
-      q: 'Microminiaturization means:',
-      options: ['A. Increasing computer size', 'B. Reducing circuitry onto a chip', 'C. Removing memory', 'D. Printing data'],
-      answer: 'B. Reducing circuitry onto a chip',
+      q: 'Unity means:',
+      options: ['A. Long paragraphs', 'B. One central idea throughout the paragraph', 'C. Difficult vocabulary', 'D. Short sentences'],
+      answer: 'B. One central idea throughout the paragraph',
       diff: 'hard',
     },
     {
-      q: 'Modern computers contain:',
-      options: ['A. Fewer circuits', 'B. No circuits', 'C. More circuits', 'D. Wooden parts'],
-      answer: 'C. More circuits',
-      diff: 'medium',
-    },
-    {
-      q: 'Reference words like “it” and “they” are used to:',
-      options: ['A. Replace earlier nouns', 'B. Create questions', 'C. Show examples', 'D. Compare ideas'],
-      answer: 'A. Replace earlier nouns',
-      diff: 'medium',
-    },
-    {
-      q: 'Future computers may be:',
-      options: ['A. Exactly the same', 'B. Very different from today’s computers', 'C. Mechanical only', 'D. Impossible to build'],
-      answer: 'B. Very different from today’s computers',
-      diff: 'easy',
-    },
-  ],
-},
-
-
-// leacture 6 //
-
-
-
-6: {
-  title: 'History of Computers',
-  summary: `**Key Topics Covered:**
-- Early calculating devices
-- Development of computers
-- Charles Babbage
-- Generations of computers
-- Vacuum tubes and transistors
-- Integrated circuits and chips
-- Microminiaturization
-- Future of computers
-
----
-
-**Simple Understanding:**
-
-**Early Counting Methods:**
-👉 In primitive times, people used fingers for counting.
-
-👉 Later, the abacus was invented.
-
----
-
-**Abacus:**
-👉 An instrument used for counting.
-
-👉 It is still used in some places today.
-
----
-
-**17th and 18th Centuries:**
-👉 Logarithm tables and calculus were developed.
-
-👉 The slide rule was invented for multiplication and division.
-
----
-
-**Charles Babbage:**
-👉 An English mathematician.
-
-👉 Designed the Analytical Engine.
-
-👉 Called the father of computers.
-
----
-
-**First Computers:**
-👉 Early computers used vacuum tubes.
-
-👉 They were very large and slow.
-
----
-
-**Digital Computers:**
-👉 Invented by Americans in 1944.
-
-👉 Used mainly for calculations and military purposes.
-
----
-
-**Transistors:**
-👉 Replaced vacuum tubes in 1947.
-
-👉 Made computers:
-- Smaller
-- Faster
-- More reliable
-
----
-
-**Integrated Circuits (Chips):**
-👉 Many circuits were placed on a small chip.
-
-👉 This reduced computer size greatly.
-
----
-
-**Microminiaturization:**
-👉 Reduction of circuitry onto tiny chips.
-
-👉 Increased computer speed and efficiency.
-
----
-
-**Modern Computers:**
-👉 Modern computers have more circuits than older computers.
-
-👉 They are faster and more dependable.
-
----
-
-**Future Computers:**
-👉 Future computers may be very different from today’s computers.
-
----
-
-**Important Vocabulary:**
-- Abacus = counting device
-- Calculus = branch of mathematics
-- Slide rule = multiplication/division tool
-- Vacuum tubes = first generation technology
-- Transistors = second generation technology
-- Chip = integrated circuit
-
----
-
-**Quick Revision Points:**
-- Fingers were first counting tools
-- Abacus used for counting
-- Slide rule used for calculations
-- Charles Babbage designed Analytical Engine
-- Vacuum tubes used in first computers
-- Transistors replaced vacuum tubes
-- Chips reduced computer size
-- Modern computers are faster and smaller
-- Future computers may change greatly`,
-  
-  questions: [
-    {
-      q: 'In primitive times, people counted using:',
-      options: ['A. Computers', 'B. Fingers', 'C. Chips', 'D. Robots'],
-      answer: 'B. Fingers',
-      diff: 'easy',
-    },
-    {
-      q: 'The abacus is used for:',
-      options: ['A. Printing', 'B. Counting', 'C. Typing', 'D. Drawing'],
-      answer: 'B. Counting',
-      diff: 'easy',
-    },
-    {
-      q: 'The abacus is:',
-      options: ['A. No longer used', 'B. Still used today', 'C. A modern chip', 'D. A transistor'],
-      answer: 'B. Still used today',
-      diff: 'easy',
-    },
-    {
-      q: 'The slide rule was used for:',
-      options: ['A. Gaming', 'B. Counting only', 'C. Multiplication and division', 'D. Printing'],
-      answer: 'C. Multiplication and division',
-      diff: 'medium',
-    },
-    {
-      q: 'Calculus is a branch of:',
-      options: ['A. Biology', 'B. Mathematics', 'C. Chemistry', 'D. Physics'],
-      answer: 'B. Mathematics',
-      diff: 'easy',
-    },
-    {
-      q: 'Who produced logarithm tables?',
-      options: ['A. Charles Babbage', 'B. Henry Briggs', 'C. Pascal', 'D. Newton'],
-      answer: 'B. Henry Briggs',
-      diff: 'medium',
-    },
-    {
-      q: 'Charles Babbage was:',
-      options: ['A. An American scientist', 'B. An English mathematician', 'C. A doctor', 'D. A physicist'],
-      answer: 'B. An English mathematician',
-      diff: 'easy',
-    },
-    {
-      q: 'Charles Babbage designed the:',
-      options: ['A. Calculator', 'B. Slide rule', 'C. Analytical Engine', 'D. Abacus'],
-      answer: 'C. Analytical Engine',
-      diff: 'easy',
-    },
-    {
-      q: 'Charles Babbage is called the:',
-      options: ['A. King of Computers', 'B. Father of Computers', 'C. Inventor of Internet', 'D. Father of Mathematics'],
-      answer: 'B. Father of Computers',
-      diff: 'easy',
-    },
-    {
-      q: 'First generation computers used:',
-      options: ['A. Chips', 'B. Transistors', 'C. Vacuum tubes', 'D. Microprocessors'],
-      answer: 'C. Vacuum tubes',
-      diff: 'easy',
-    },
-    {
-      q: 'Vacuum tube computers were:',
-      options: ['A. Small and fast', 'B. Large and slow', 'C. Wireless', 'D. Portable'],
-      answer: 'B. Large and slow',
-      diff: 'medium',
-    },
-    {
-      q: 'Digital computers were invented by:',
-      options: ['A. British scientists', 'B. Americans', 'C. Chinese scientists', 'D. Germans'],
-      answer: 'B. Americans',
-      diff: 'medium',
-    },
-    {
-      q: 'Transistors replaced:',
-      options: ['A. Chips', 'B. Vacuum tubes', 'C. Slide rules', 'D. Abacus'],
-      answer: 'B. Vacuum tubes',
-      diff: 'easy',
-    },
-    {
-      q: 'Transistors made computers:',
-      options: ['A. Larger', 'B. Slower', 'C. Smaller and faster', 'D. Mechanical'],
-      answer: 'C. Smaller and faster',
-      diff: 'easy',
-    },
-    {
-      q: 'Integrated circuits are also called:',
-      options: ['A. Tubes', 'B. Chips', 'C. Beads', 'D. Engines'],
-      answer: 'B. Chips',
-      diff: 'easy',
-    },
-    {
-      q: 'Microminiaturization means:',
-      options: ['A. Enlarging circuits', 'B. Reducing circuitry onto chips', 'C. Removing memory', 'D. Printing data'],
-      answer: 'B. Reducing circuitry onto chips',
+      q: 'Coherence refers to:',
+      options: ['A. Correct spelling only', 'B. Logical flow of ideas', 'C. Long introductions', 'D. Paragraph length'],
+      answer: 'B. Logical flow of ideas',
       diff: 'hard',
     },
     {
-      q: 'Modern computers have:',
-      options: ['A. Fewer circuits', 'B. No circuits', 'C. More circuits', 'D. Wooden parts'],
-      answer: 'C. More circuits',
-      diff: 'medium',
-    },
-    {
-      q: 'As computers evolved, their size:',
-      options: ['A. Increased', 'B. Decreased', 'C. Stayed the same', 'D. Disappeared'],
-      answer: 'B. Decreased',
-      diff: 'medium',
-    },
-    {
-      q: 'Modern computers are more:',
-      options: ['A. Expensive only', 'B. Dependable', 'C. Mechanical', 'D. Fragile'],
-      answer: 'B. Dependable',
-      diff: 'medium',
-    },
-    {
-      q: 'Future computers may be:',
-      options: ['A. Exactly the same', 'B. Very different from today’s computers', 'C. Impossible to build', 'D. Mechanical only'],
-      answer: 'B. Very different from today’s computers',
-      diff: 'easy',
-    },
-  ],
-},
-
-
-/// l7///
-
-
-7: {
-  title: 'Affixes (Word Formation)',
-  summary: `**Key Topics Covered:**
-- Word formation (prefix, suffix)
-- Affixes (prefix + suffix)
-- Types of suffixes
-- Noun, verb, adjective, adverb formation
-- Base word spelling rules
-
----
-
-**Simple Understanding:**
-
-**Word Formation:**
-👉 English mein naye words banane ke liye:
-- Prefix (start) + Root word + Suffix (end)
-
-👉 Example:
-- act → action → active → activity
-- react → reaction → reactivation
-
----
-
-**Affixes:**
-👉 Prefix + Suffix = Affixes
-
-👉 Prefix word ke start mein lagta hai  
-👉 Suffix word ke end mein lagta hai  
-
----
-
-**Noun-forming suffixes:**
-👉 -er / -or → person (teacher, operator)  
-👉 -ness → condition (cleanliness)  
-👉 -tion / -ion → action (execution)  
-👉 -ment → state/action (measurement)  
-👉 -ity → quality (electricity)  
-
----
-
-**Verb-forming suffixes:**
-👉 -ize → computerize  
-👉 -ate → activate  
-👉 -fy → simplify  
-👉 -en → widen  
-
----
-
-**Adjective-forming suffixes:**
-👉 -able / -ible → capable (comparable)  
-👉 -ful → full of (helpful)  
-👉 -less → without (careless)  
-👉 -ic / -ical → related (logical, electrical)  
-👉 -ive → quality (interactive)  
-
----
-
-**Adverb-forming suffix:**
-👉 -ly → (quickly, logically, electronically)  
-
----
-
-**Base Word Rules:**
-
-👉 Rule 1:
-If word ends with "e", remove e  
-Example: mature → maturity  
-
-👉 Rule 2:
-If word ends with "y", change y → i  
-Example: harmony → harmonious  
-
-👉 Rule 3:
-Spelling may change  
-Example: reclaim → reclamation  
-
----
-
-**Computer Examples:**
-👉 analyst, programmer, operator  
-👉 interactive, electronic  
-👉 programmable, calculation  
-👉 multiplexing, processing  
-
----
-
-**Quick Revision Points:**
-- Prefix + Suffix = Affixes  
-- -er / -or = person  
-- -ness = condition  
-- -ly = adverb  
-- -able = capability  
-- e drop hota hai  
-- y → i change hota hai  
-- spelling change ho sakti hai`,
-
-  questions: [
-    {
-      q: 'Affixes include:',
-      options: ['A. Prefix only', 'B. Suffix only', 'C. Prefix and Suffix', 'D. Root word'],
-      answer: 'C. Prefix and Suffix',
-      diff: 'easy',
-    },
-    {
-      q: 'The suffix "-er" refers to:',
-      options: ['A. Place', 'B. Person', 'C. Action', 'D. Time'],
-      answer: 'B. Person',
-      diff: 'easy',
-    },
-    {
-      q: 'The suffix "-ly" forms:',
-      options: ['A. Nouns', 'B. Verbs', 'C. Adverbs', 'D. Adjectives'],
-      answer: 'C. Adverbs',
-      diff: 'easy',
-    },
-    {
-      q: 'In "happiness", "-ness" shows:',
-      options: ['A. Action', 'B. Condition', 'C. Person', 'D. Place'],
-      answer: 'B. Condition',
-      diff: 'easy',
-    },
-    {
-      q: 'Prefix is added at:',
-      options: ['A. End', 'B. Middle', 'C. Start', 'D. None'],
-      answer: 'C. Start',
-      diff: 'easy',
-    },
-    {
-      q: 'Which is a verb-forming suffix?',
-      options: ['A. -ness', 'B. -ize', 'C. -ly', 'D. -ful'],
-      answer: 'B. -ize',
-      diff: 'medium',
-    },
-    {
-      q: '"Careless" means:',
-      options: ['A. Full of care', 'B. Without care', 'C. Action of care', 'D. Person who cares'],
-      answer: 'B. Without care',
-      diff: 'medium',
-    },
-    {
-      q: 'In "maturity", what happened to base word?',
-      options: ['A. y removed', 'B. e removed', 'C. t removed', 'D. nothing changed'],
-      answer: 'B. e removed',
-      diff: 'medium',
-    },
-    {
-      q: '"Harmonious" comes from:',
-      options: ['A. harmony', 'B. harmon', 'C. harm', 'D. mony'],
-      answer: 'A. harmony',
-      diff: 'medium',
-    },
-    {
-      q: '"Operator" refers to:',
-      options: ['A. Machine', 'B. Person', 'C. Action', 'D. Quality'],
-      answer: 'B. Person',
-      diff: 'easy',
-    },
-    {
-      q: 'Which suffix shows "state or quality"?',
-      options: ['A. -ly', 'B. -ness', 'C. -ize', 'D. -fy'],
-      answer: 'B. -ness',
+      q: 'Which expression is commonly used to begin a concluding sentence?',
+      options: ['A. Suddenly', 'B. In conclusion', 'C. Yesterday', 'D. Once'],
+      answer: 'B. In conclusion',
       diff: 'hard',
     },
     {
-      q: '"Reclamation" shows:',
-      options: ['A. No change', 'B. Spelling change', 'C. Prefix removal', 'D. No suffix'],
-      answer: 'B. Spelling change',
+      q: 'The controlling idea:',
+      options: ['A. Broadens the topic', 'B. Limits the topic to a specific aspect', 'C. Gives examples', 'D. Ends the paragraph'],
+      answer: 'B. Limits the topic to a specific aspect',
       diff: 'hard',
     },
     {
-      q: '"Interactive" is:',
-      options: ['A. Noun', 'B. Verb', 'C. Adjective', 'D. Adverb'],
-      answer: 'C. Adjective',
-      diff: 'medium',
-    },
-    {
-      q: '"Multiplexing" represents:',
-      options: ['A. Person', 'B. Action/activity', 'C. Place', 'D. Quality'],
-      answer: 'B. Action/activity',
+      q: 'Which of the following improves coherence?',
+      options: ['A. Random ideas', 'B. Transition words', 'C. Repetition only', 'D. Long quotations'],
+      answer: 'B. Transition words',
       diff: 'hard',
     },
     {
-      q: 'Which word is an adverb?',
-      options: ['A. Logical', 'B. Logic', 'C. Logically', 'D. Logician'],
-      answer: 'C. Logically',
-      diff: 'medium',
-    },
-  ],
-},
-
-
-
-
-/// l8 ///
-
-
-8: {
-  title: 'Prefixes, Synonyms & Antonyms',
-  summary: `**Key Topics Covered:**
-- Prefixes (word formation)
-- Types of prefixes (negative, size, location, time, number)
-- Vocabulary building
-- Synonyms (same meaning words)
-- Antonyms (opposite meaning words)
-- Use of prefixes with stem words
-
----
-
-**Simple Understanding:**
-
-**Prefixes:**
-👉 Prefix word ke start mein lagta hai
-
-👉 Example:
-- un + true = untrue  
-- il + legal = illegal  
-
-👉 Prefix meaning change kar deta hai
-
----
-
-**Understanding Difficult Words:**
-👉 Unknown word ko samajhne ke liye:
-- Prefix identify karo  
-- Root word identify karo  
-
-👉 Example:
-- illimitability = il (not) + limit  
-👉 Meaning: no limit  
-
----
-
-**Negative Prefixes:**
-👉 not / opposite show karte hain
-
-- un-, in-, im-, il-, ir- → not  
-- non- → not connected  
-- mis- → wrong  
-- dis- → opposite  
-- anti- → against  
-- de- → reverse  
-- under- → too little  
-
----
-
-**Positive Prefixes:**
-👉 positive ya repetition show karte hain
-
-- re- → again (redo)  
-- over- → too much  
-
----
-
-**Prefixes of Size:**
-👉 size show karte hain
-
-- micro → small  
-- mini → little  
-- macro → large  
-- mega → very large  
-- semi → half  
-
----
-
-**Prefixes of Location:**
-👉 position show karte hain
-
-- inter → between  
-- super → above  
-- trans → across  
-- sub → under  
-- extra → beyond  
-
----
-
-**Prefixes of Time & Order:**
-👉 time ya sequence show karte hain
-
-- pre → before  
-- post → after  
-- ante → before  
-- prime → first  
-- retro → backward  
-
----
-
-**Prefixes of Numbers:**
-👉 quantity show karte hain
-
-- mono → one  
-- bi → two  
-- tri → three  
-- quad → four  
-- multi → many  
-
----
-
-**Other Prefixes:**
-👉 special meanings
-
-- auto → self  
-- co → together  
-- neo → new  
-- pan → all  
-
----
-
-**Synonyms:**
-👉 Same ya similar meaning words
-
-👉 Example:
-- big = large = huge  
-
----
-
-**Important Points (Synonyms):**
-
-👉 1. Same meaning har jagah use nahi hota  
-Example:
-- apt = fit / likely  
-- appropriate = only fit  
-
-👉 2. Slight meaning difference hota hai  
-Example:
-- blame = fault dena  
-- denounce = public criticize  
-
----
-
-**Antonyms:**
-👉 Opposite meaning words  
-Example:
-- big ↔ small  
-- happy ↔ sad  
-
----
-
-**Quick Revision Points:**
-- Prefix word ke start mein lagta hai  
-- Prefix meaning change karta hai  
-- un-, in- = not  
-- micro = small  
-- pre = before  
-- mono = one  
-- Synonyms = similar meaning  
-- Antonyms = opposite meaning  
-- Synonyms always interchangeable nahi hote`,
-
-  questions: [
-    {
-      q: 'A prefix is added at the:',
-      options: ['A. End of word', 'B. Middle of word', 'C. Beginning of word', 'D. None'],
-      answer: 'C. Beginning of word',
-      diff: 'easy',
-    },
-    {
-      q: 'The prefix "un-" means:',
-      options: ['A. Again', 'B. Not', 'C. Before', 'D. Many'],
-      answer: 'B. Not',
-      diff: 'easy',
-    },
-    {
-      q: 'Illimitability means:',
-      options: ['A. Limited', 'B. No limit', 'C. Small limit', 'D. Half limit'],
-      answer: 'B. No limit',
-      diff: 'medium',
-    },
-    {
-      q: 'The prefix "re-" means:',
-      options: ['A. Not', 'B. Again', 'C. Before', 'D. Under'],
-      answer: 'B. Again',
-      diff: 'easy',
-    },
-    {
-      q: 'The prefix "micro-" means:',
-      options: ['A. Large', 'B. Small', 'C. Many', 'D. Half'],
-      answer: 'B. Small',
-      diff: 'easy',
-    },
-    {
-      q: 'The prefix "pre-" indicates:',
-      options: ['A. After', 'B. Before', 'C. Under', 'D. Around'],
-      answer: 'B. Before',
-      diff: 'easy',
-    },
-    {
-      q: 'Which prefix means "two"?',
-      options: ['A. mono', 'B. tri', 'C. bi', 'D. multi'],
-      answer: 'C. bi',
-      diff: 'easy',
-    },
-    {
-      q: 'Synonyms are words that:',
-      options: ['A. Opposite meaning', 'B. Same meaning', 'C. No meaning', 'D. Long words'],
-      answer: 'B. Same meaning',
-      diff: 'easy',
-    },
-    {
-      q: 'Antonyms are words that:',
-      options: ['A. Same meaning', 'B. Opposite meaning', 'C. Similar spelling', 'D. Same sound'],
-      answer: 'B. Opposite meaning',
-      diff: 'easy',
-    },
-    {
-      q: 'The prefix "sub-" means:',
-      options: ['A. Above', 'B. Under', 'C. Before', 'D. After'],
-      answer: 'B. Under',
-      diff: 'medium',
-    },
-    {
-      q: 'Which prefix means "across"?',
-      options: ['A. inter', 'B. trans', 'C. super', 'D. sub'],
-      answer: 'B. trans',
-      diff: 'medium',
-    },
-    {
-      q: '“Blame” and “denounce” differ because:',
-      options: ['A. Same usage', 'B. Denounce is stronger', 'C. Blame is stronger', 'D. Both same'],
-      answer: 'B. Denounce is stronger',
-      diff: 'hard',
-    },
-    {
-      q: 'Synonyms may differ in:',
-      options: ['A. Spelling only', 'B. Meaning shades', 'C. Length', 'D. Sound'],
-      answer: 'B. Meaning shades',
-      diff: 'hard',
-    },
-    {
-      q: 'The prefix "auto-" means:',
-      options: ['A. Together', 'B. Self', 'C. New', 'D. Many'],
-      answer: 'B. Self',
-      diff: 'medium',
-    },
-    {
-      q: 'Which prefix means "many"?',
-      options: ['A. mono', 'B. bi', 'C. multi', 'D. tri'],
-      answer: 'C. multi',
-      diff: 'easy',
-    },
-  ],
-},
-
-
-
-// Lecture 9//
-
-
-
-9: {
-  title: 'Introduction to Computers',
-  summary: `**Key Topics Covered:**
-- What is a computer
-- Data and processing
-- Input, Processing, Output cycle
-- Hardware components (CPU, memory, storage)
-- Characteristics of computers
-- Evolution of computers
-- Impact of computers on life
-
----
-
-**Simple Understanding:**
-
-**What is a Computer?**
-👉 Computer ek machine hai jo data ko process karti hai  
-
-👉 Data = information jo computer ko di jati hai  
-
-👉 Processing = data ko handle karna (calculate, compare, add)
-
----
-
-**Computer Working (IPO Cycle):**
-👉 Computer 3 steps par kaam karta hai:
-
-1. Input → data dena  
-2. Processing → data par kaam karna  
-3. Output → result dena  
-
-📌 Example:
-👉 Cloth (input) → sewing (processing) → shirt (output)
-
----
-
-**Computer Components:**
-
-👉 CPU (Central Processing Unit)
-- Main part of computer  
-- Processing karta hai  
-
-👉 Input Devices:
-- Keyboard, card reader  
-
-👉 Output:
-- Result display hota hai  
-
-👉 Storage Devices:
-- Data save hota hai  
-- Example: magnetic disks, tapes  
-
----
-
-**Important Concept:**
-👉 Computer sirf adding machine nahi hai  
-
-👉 Yeh unlimited kaam kar sakta hai  
-👉 Limit sirf human imagination hai  
-
----
-
-**Old vs Modern Computers:**
-
-👉 Old computers:
-- Bohat expensive  
-- Large size  
-- Zyada staff needed  
-
-👉 Modern computers:
-- Cheap  
-- Small (compact)  
-- Fast  
-- Reliable  
-
----
-
-**Impact of Computers:**
-
-👉 Routine kaam reduce karte hain  
-👉 Time save hota hai  
-👉 Creative work ke liye time milta hai  
-👉 New jobs create hui hain  
-
----
-
-**Quick Revision Points:**
-- Computer data process karta hai  
-- Input → Processing → Output  
-- CPU main part hai  
-- Storage data save karta hai  
-- Computer versatile hai  
-- Old computers large thay  
-- Modern computers fast aur cheap hain  
-- Computers ne life change kar di`,
-
-  questions: [
-    {
-      q: 'Computers are machines designed to:',
-      options: ['A. Play games only', 'B. Process data', 'C. Print papers', 'D. Draw images'],
-      answer: 'B. Process data',
-      diff: 'easy',
-    },
-    {
-      q: 'Data means:',
-      options: ['A. Machine', 'B. Information', 'C. Device', 'D. Program'],
-      answer: 'B. Information',
-      diff: 'easy',
-    },
-    {
-      q: 'Processing means:',
-      options: ['A. Storing data', 'B. Handling data', 'C. Deleting data', 'D. Printing data'],
-      answer: 'B. Handling data',
-      diff: 'easy',
-    },
-    {
-      q: 'Which is correct order?',
-      options: ['A. Output → Input → Processing', 'B. Input → Output → Processing', 'C. Input → Processing → Output', 'D. Processing → Input → Output'],
-      answer: 'C. Input → Processing → Output',
-      diff: 'easy',
-    },
-    {
-      q: 'The main part of computer is:',
-      options: ['A. Keyboard', 'B. CPU', 'C. Mouse', 'D. Monitor'],
-      answer: 'B. CPU',
-      diff: 'easy',
-    },
-    {
-      q: 'CPU stands for:',
-      options: ['A. Central Program Unit', 'B. Central Processing Unit', 'C. Computer Processing Unit', 'D. Control Processing Unit'],
-      answer: 'B. Central Processing Unit',
-      diff: 'medium',
-    },
-    {
-      q: 'Which is an input device?',
-      options: ['A. Monitor', 'B. Printer', 'C. Keyboard', 'D. Speaker'],
-      answer: 'C. Keyboard',
-      diff: 'easy',
-    },
-    {
-      q: 'Storage devices are used to:',
-      options: ['A. Show output', 'B. Save data', 'C. Process data', 'D. Input data'],
-      answer: 'B. Save data',
-      diff: 'easy',
-    },
-    {
-      q: 'Computer versatility means:',
-      options: ['A. Limited work', 'B. Only calculations', 'C. Many types of work', 'D. No work'],
-      answer: 'C. Many types of work',
-      diff: 'medium',
-    },
-    {
-      q: 'Computers are limited by:',
-      options: ['A. Size', 'B. Cost', 'C. Human imagination', 'D. Speed'],
-      answer: 'C. Human imagination',
-      diff: 'medium',
-    },
-    {
-      q: 'Old computers were:',
-      options: ['A. Small and cheap', 'B. Fast and reliable', 'C. Large and expensive', 'D. Portable'],
-      answer: 'C. Large and expensive',
-      diff: 'easy',
-    },
-    {
-      q: 'Modern computers are:',
-      options: ['A. Large', 'B. Slow', 'C. Cheap and compact', 'D. Manual'],
-      answer: 'C. Cheap and compact',
-      diff: 'easy',
-    },
-    {
-      q: 'Computers help to:',
-      options: ['A. Increase boring work', 'B. Reduce routine tasks', 'C. Stop creativity', 'D. Remove jobs'],
-      answer: 'B. Reduce routine tasks',
-      diff: 'medium',
-    },
-    {
-      q: 'Secondary storage is used for:',
-      options: ['A. Temporary data', 'B. Long-term storage', 'C. Input', 'D. Output'],
-      answer: 'B. Long-term storage',
-      diff: 'hard',
-    },
-    {
-      q: 'Which statement is true?',
-      options: ['A. Computers do only one task', 'B. Computers cannot process data', 'C. Computers changed our lives', 'D. Computers are useless'],
-      answer: 'C. Computers changed our lives',
-      diff: 'easy',
-    },
-  ],
-},
-
-
-
-
-// Lecture 10///
-
-
-10: {
-  title: 'Mainframe Computers',
-  summary: `**Key Topics Covered:**
-- Mainframe computers
-- Digital vs Analog computers
-- Hybrid computers
-- Features of mainframes
-- Advantages and limitations
-- Future developments
-
----
-
-**Simple Understanding:**
-
-**Mainframes:**
-👉 Mainframe bohat large aur powerful computers hotay hain  
-
-👉 Huge amount of data process karte hain  
-👉 Mostly big organizations use karti hain  
-
----
-
-**Features of Mainframes:**
-👉 High-speed processing  
-👉 Large memory  
-👉 Complex instructions execute karte hain  
-👉 Faster than small computers  
-
-👉 Small computer:
-- Multiple steps leta hai  
-
-👉 Mainframe:
-- Same kaam 1 step mein kar sakta hai  
-
----
-
-**Types of Computers:**
-
-### 👉 1. Digital Computers
-👉 Sabse zyada use hotay hain (90%)
-
-👉 Data digits (0,1) ki form mein hota hai  
-👉 Step-by-step calculations karte hain  
-👉 Fast aur accurate  
-
----
-
-### 👉 2. Analog Computers
-👉 Continuous calculations karte hain  
-
-👉 Example:
-- Speedometer  
-
-👉 Measurement problems ke liye use hotay hain  
-
----
-
-### 👉 3. Hybrid Computers
-👉 Digital + Analog ka combination  
-
-👉 Scientific research mein use hotay hain  
-
----
-
-**Mainframe Requirements:**
-👉 Large space chahiye  
-👉 Cooling system (AC)  
-👉 High power consumption  
-👉 Expensive machines  
-
-👉 Peripheral devices (tapes, disks) zyada space lete hain  
-
----
-
-**Important Concept:**
-👉 Digital computer ab analog ka kaam bhi kar sakta hai  
-
-👉 Easier to use  
-👉 Cheaper than analog  
-
----
-
-**Future of Computers:**
-👉 Mechanical devices improve hongay  
-👉 Efficiency aur reliability better hogi  
-
----
-
-**Quick Revision Points:**
-- Mainframes = large powerful computers  
-- Digital computers = most used  
-- Analog = continuous calculations  
-- Hybrid = combination  
-- Mainframes fast aur expensive hotay hain  
-- Large space aur cooling required  
-- Future mein improvement expected`,
-
-  questions: [
-    {
-      q: 'Mainframe computers are:',
-      options: ['A. Small', 'B. Portable', 'C. Large and powerful', 'D. Manual'],
-      answer: 'C. Large and powerful',
-      diff: 'easy',
-    },
-    {
-      q: 'Mainframes process:',
-      options: ['A. Small data', 'B. No data', 'C. Huge amount of data', 'D. Images only'],
-      answer: 'C. Huge amount of data',
-      diff: 'easy',
-    },
-    {
-      q: 'Digital computers use:',
-      options: ['A. Letters', 'B. Symbols', 'C. Digits', 'D. Images'],
-      answer: 'C. Digits',
-      diff: 'easy',
-    },
-    {
-      q: 'Digital computers perform calculations:',
-      options: ['A. Continuously', 'B. Step-by-step', 'C. Randomly', 'D. Slowly'],
-      answer: 'B. Step-by-step',
-      diff: 'easy',
-    },
-    {
-      q: 'Analog computers are used for:',
-      options: ['A. Gaming', 'B. Measurement', 'C. Printing', 'D. Writing'],
-      answer: 'B. Measurement',
-      diff: 'easy',
-    },
-    {
-      q: 'Hybrid computer is:',
-      options: ['A. Only digital', 'B. Only analog', 'C. Combination of both', 'D. Manual'],
-      answer: 'C. Combination of both',
-      diff: 'easy',
-    },
-    {
-      q: 'Which type is most commonly used?',
-      options: ['A. Analog', 'B. Hybrid', 'C. Digital', 'D. Manual'],
-      answer: 'C. Digital',
-      diff: 'medium',
-    },
-    {
-      q: 'Analog computer works like:',
-      options: ['A. Calculator', 'B. Keyboard', 'C. Speedometer', 'D. Printer'],
-      answer: 'C. Speedometer',
-      diff: 'medium',
-    },
-    {
-      q: 'Mainframes require:',
-      options: ['A. Small space', 'B. No power', 'C. Large space and cooling', 'D. No devices'],
-      answer: 'C. Large space and cooling',
-      diff: 'medium',
-    },
-    {
-      q: 'Peripheral devices include:',
-      options: ['A. CPU only', 'B. Tape and disks', 'C. Keyboard only', 'D. Monitor only'],
-      answer: 'B. Tape and disks',
-      diff: 'medium',
-    },
-    {
-      q: 'Digital computers are preferred because they are:',
-      options: ['A. Expensive', 'B. Difficult', 'C. Easier and cheaper', 'D. Slower'],
-      answer: 'C. Easier and cheaper',
-      diff: 'medium',
-    },
-    {
-      q: 'Mainframe power consumption is:',
-      options: ['A. Low', 'B. Medium', 'C. High', 'D. Zero'],
-      answer: 'C. High',
-      diff: 'hard',
-    },
-    {
-      q: 'Hybrid computers are mainly used in:',
-      options: ['A. Gaming', 'B. Offices', 'C. Scientific research', 'D. Schools'],
-      answer: 'C. Scientific research',
-      diff: 'medium',
-    },
-    {
-      q: 'Future development is needed in:',
-      options: ['A. Software only', 'B. Mechanical devices', 'C. Screens', 'D. Input devices'],
-      answer: 'B. Mechanical devices',
-      diff: 'hard',
-    },
-    {
-      q: 'Mainframes are expensive because:',
-      options: ['A. Small size', 'B. Low speed', 'C. High power and equipment', 'D. No memory'],
-      answer: 'C. High power and equipment',
+      q: 'Which paragraph order is correct?',
+      options: [
+        'A. Conclusion → Topic → Support',
+        'B. Topic → Support → Conclusion',
+        'C. Support → Topic → Conclusion',
+        'D. Topic → Conclusion → Support'
+      ],
+      answer: 'B. Topic → Support → Conclusion',
       diff: 'hard',
     },
   ],
 },
-
-
-
-// lecture 11//
-
-
-
-11: {
-  title: 'Reading Comprehension & Inference',
-  summary: `**Key Topics Covered:**
-- Reading speed vs comprehension
-- Vocalization
-- Silent reading
-- Understanding text (Why, What, How)
-- Making inferences
-- Logical thinking in reading
-
----
-
-**Simple Understanding:**
-
-**Reading Speed & Comprehension:**
-👉 Fast reading se comprehension kharab hoti hai — yeh galat hai  
-
-👉 Practice se:
-- Speed bhi improve hoti hai  
-- Understanding bhi better hoti hai  
-
----
-
-**Vocalization (Important ⚠️):**
-👉 Words ko mind mein pronounce karna  
-
-👉 Yeh slow reading ka main reason hai  
-
-👉 Solution:
-- Lips use na karo  
-- Eyes + mind se read karo  
-- Silent reading practice karo  
-
----
-
-**Better Reading Strategy:**
-
-👉 Har text ko samajhne ke liye 3 questions pocho:
-
-- Why? (kyun likha gaya)  
-- What? (kya likha gaya)  
-- How? (kaise explain kiya gaya)  
-
-👉 Yeh method comprehension strong karta hai  
-
----
-
-**Making Inferences:**
-👉 "Reading between the lines"  
-
-👉 Matlab:
-- Jo directly nahi likha  
-- Usko samajhna  
-
-👉 Writer hint deta hai, direct nahi batata  
-
----
-
-**Inference kaise banate hain:**
-👉 Clues use karo:
-- Given information  
-- Apna experience  
-- Logic  
-
-👉 Strong inference:
-- Sirf wahi jo clearly support ho  
-
----
-
-**Example:**
-👉 Sohail last row mein baithta hai  
-
-Correct inference:
-👉 Woh front mein baithna pasand nahi karta  
-
-❌ Wrong:
-- Woh weak student hai  
-- Woh prepared nahi hai  
-
-👉 Kyun?
-➡️ Evidence nahi hai  
-
----
-
-**Important Rule:**
-👉 Guess mat karo  
-👉 Sirf logical conclusion nikalo  
-
----
-
-**Quick Revision Points:**
-- Fast reading harmful nahi hoti  
-- Vocalization slow karta hai  
-- Silent reading best hai  
-- Why, What, How samjho  
-- Inference = hidden meaning  
-- Clues + logic use karo  
-- Unsupported conclusion avoid karo`,
-
-  questions: [
-    {
-      q: 'Reading faster always reduces comprehension:',
-      options: ['A. True', 'B. False', 'C. Sometimes', 'D. Never'],
-      answer: 'B. False',
-      diff: 'easy',
+    "32": {
+      "title": "Writing: Unity, Coherence, and Organization (ENG101 Lecture 32)",
+      "summary": "**Key Topics Covered:**\n- Unity in a paragraph: all sentences must support the topic sentence.\n- Coherence: smooth flow of ideas using transition signals (first, next, however, therefore, etc.) and logical order.\n- Logical order: chronological (time) or order of importance.\n- Avoid off-topic sentences; every detail must relate to the key terms of the topic sentence.\n- Use transition signals to guide the reader: addition (furthermore), contrast (however), example (for instance), result (as a result).\n- Organize sentences in a clear sequence: time order or importance.\n\n---\n\n**Simple Understanding:**\n\n**What is unity in a paragraph?**\n👉 Every sentence must directly support the main idea (topic sentence).\n👉 Do not include unrelated information.\n👉 Example: If your topic is 'advantages of foreign travel', don't discuss local travel.\n\n**What is coherence?**\n👉 The paragraph should be easy to read and follow.\n👉 Use **transition signals** to connect ideas: first, next, however, therefore, for example.\n👉 Arrange sentences in a logical order: chronological (time) or by importance (most important first).\n\n**Two main ways to organize ideas:**\n1. **Chronological order:** events in time (first, then, next, finally).\n2. **Order of importance:** most important point to least important, or vice versa.\n\n**Transition Signals:**\n- Addition: also, furthermore, in addition.\n- Contrast: however, on the other hand, but.\n- Example: for example, for instance.\n- Result: therefore, as a result, consequently.\n- Time: first, next, then, finally.\n\n---\n\n**Important Vocabulary:**\n- Unity = all parts focus on one main idea.\n- Coherence = clear connection between ideas.\n- Topic sentence = sentence stating the main idea.\n- Transition signals = words that connect ideas (e.g., first, however).\n- Chronological = time order.\n- Order of importance = arranging from most to least important.\n\n---\n\n**Quick Revision Points:**\n- Unity: every sentence supports the topic sentence.\n- Coherence: use transition signals and logical order.\n- Two common orders: chronological and order of importance.\n- Do not include irrelevant details.",
+      "questions": [
+        {
+          "q": "Unity in a paragraph means that:",
+          "options": ["A. The paragraph has many ideas", "B. Every sentence supports the topic sentence", "C. The paragraph is long", "D. Transition signals are used"],
+          "answer": "B. Every sentence supports the topic sentence",
+          "diff": "easy"
+        },
+        {
+          "q": "Coherence in a paragraph is achieved by:",
+          "options": ["A. Using long sentences", "B. Using transition signals and logical order", "C. Including many examples", "D. Writing a long introduction"],
+          "answer": "B. Using transition signals and logical order",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a transition signal for contrast?",
+          "options": ["A. Furthermore", "B. However", "C. For example", "D. Therefore"],
+          "answer": "B. However",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a transition signal for addition?",
+          "options": ["A. On the other hand", "B. In addition", "C. As a result", "D. For instance"],
+          "answer": "B. In addition",
+          "diff": "easy"
+        },
+        {
+          "q": "Chronological order means organizing ideas by:",
+          "options": ["A. Importance", "B. Time", "C. Size", "D. Location"],
+          "answer": "B. Time",
+          "diff": "easy"
+        },
+        {
+          "q": "Order of importance means arranging ideas from:",
+          "options": ["A. Oldest to newest", "B. Most important to least important or vice versa", "C. Largest to smallest", "D. General to specific"],
+          "answer": "B. Most important to least important or vice versa",
+          "diff": "medium"
+        },
+        {
+          "q": "Which sentence would violate unity in a paragraph about 'the benefits of exercise'?",
+          "options": ["A. Exercise helps reduce stress.", "B. Exercise improves heart health.", "C. Exercise is boring.", "D. Exercise increases energy."],
+          "answer": "C. Exercise is boring.",
+          "diff": "hard"
+        },
+        {
+          "q": "The word 'first' is a transition signal for:",
+          "options": ["A. Contrast", "B. Time order", "C. Result", "D. Example"],
+          "answer": "B. Time order",
+          "diff": "easy"
+        },
+        {
+          "q": "To achieve coherence, a writer should:",
+          "options": ["A. Use random sentences", "B. Use transition signals and a logical order", "C. Avoid any connecting words", "D. Only use short sentences"],
+          "answer": "B. Use transition signals and a logical order",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an example of a transition signal for result?",
+          "options": ["A. However", "B. Therefore", "C. Furthermore", "D. For example"],
+          "answer": "B. Therefore",
+          "diff": "easy"
+        },
+        {
+          "q": "If a paragraph discusses steps in a process, which organization is best?",
+          "options": ["A. Chronological", "B. Order of importance", "C. Spatial", "D. Comparison"],
+          "answer": "A. Chronological",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'on the other hand' signals:",
+          "options": ["A. Addition", "B. Contrast", "C. Example", "D. Time"],
+          "answer": "B. Contrast",
+          "diff": "easy"
+        },
+        {
+          "q": "A paragraph that lacks unity might include:",
+          "options": ["A. Only supporting details", "B. An unrelated idea", "C. A topic sentence", "D. Transition signals"],
+          "answer": "B. An unrelated idea",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is NOT a way to achieve coherence?",
+          "options": ["A. Using transition signals", "B. Arranging sentences randomly", "C. Arranging ideas logically", "D. Connecting ideas smoothly"],
+          "answer": "B. Arranging sentences randomly",
+          "diff": "easy"
+        },
+        {
+          "q": "The transition signal 'for example' is used to:",
+          "options": ["A. Show contrast", "B. Give an example", "C. Show addition", "D. Show result"],
+          "answer": "B. Give an example",
+          "diff": "easy"
+        }
+      ]
     },
-    {
-      q: 'Vocalization means:',
-      options: ['A. Writing words', 'B. Speaking loudly', 'C. Pronouncing words in mind', 'D. Skipping words'],
-      answer: 'C. Pronouncing words in mind',
-      diff: 'easy',
+    "33": {
+      "title": "Essay Writing: Structure, Introduction, Body, and Conclusion (ENG101 Lecture 33)",
+      "summary": "**Key Topics Covered:**\n- Essay writing is similar to paragraph writing but longer.\n- Three parts: Introduction, Main Body, Conclusion.\n- Introduction: general statements + thesis statement.\n- Main Body: develops the thesis with paragraphs (subtopics).\n- Conclusion: summarizes main points and gives final comments.\n- Writing process: brainstorming, outline, first draft, revising, proofreading.\n- Thesis statement states main topic and lists subtopics.\n\n---\n\n**Simple Understanding:**\n\n**What is an essay?**\n👉 An essay is a longer piece of writing with multiple paragraphs.\n👉 It has three parts: Introduction, Body, and Conclusion.\n\n**1. Introduction:**\n👉 Catches the reader's attention.\n👉 Gives general background about the topic.\n👉 Ends with a **thesis statement** – the main idea of the whole essay.\n👉 The thesis statement tells the reader what the essay will discuss and lists the main subtopics.\n👉 Example: 'Lahore's traffic problems can be solved by building underpasses, improving public transport, and building rapid transit systems.'\n\n**2. Main Body:**\n👉 Develops the thesis statement.\n👉 Each paragraph discusses one subtopic.\n👉 Paragraphs in the body have topic sentences and supporting details.\n👉 Organization can be chronological (time order) or by order of importance.\n\n**3. Conclusion:**\n👉 Signals the end of the essay (e.g., 'in conclusion', 'to sum up').\n👉 Summarizes the main points of the essay.\n👉 Restates the thesis statement in different words.\n👉 Gives a final comment or opinion.\n\n**Writing Process (5 Steps):**\n1. **Getting Ideas:** Brainstorming, clustering, free writing.\n2. **Outline:** Organize ideas into a plan.\n3. **First Draft:** Write without worrying about perfection.\n4. **Revising:** Improve content, add details, rearrange.\n5. **Proofreading:** Check grammar, spelling, punctuation.\n\n**Thesis Statement:**\n👉 States the main topic.\n👉 Lists the subdivisions of the topic.\n👉 May indicate the method of organization (chronological, compare/contrast, etc.).\n👉 Usually the last sentence of the introduction.\n\n**Example Thesis Statement:**\n- 'The status of women in Pakistan has changed notably in the past decade due to increased educational opportunities and economic independence.'\n\n---\n\n**Important Vocabulary:**\n- Essay = a longer composition with multiple paragraphs\n- Introduction = first paragraph, introduces topic and thesis\n- Thesis statement = main idea of the essay\n- Body = middle paragraphs that develop the thesis\n- Conclusion = final paragraph, summarizes and gives final thoughts\n- Brainstorming = jotting down ideas freely\n- Outline = a plan or skeleton of the essay\n- Revising = improving the content\n- Proofreading = checking for errors\n\n---\n\n**Quick Revision Points:**\n- An essay has three parts: introduction, body, conclusion.\n- Introduction has general statements and a thesis statement.\n- Thesis statement states the main topic and subtopics.\n- Body paragraphs develop subtopics.\n- Conclusion summarizes and restates thesis.\n- Writing process: brainstorming, outline, draft, revise, proofread.",
+      "questions": [
+        {
+          "q": "How many main parts does an essay have?",
+          "options": ["A. Two", "B. Three", "C. Four", "D. Five"],
+          "answer": "B. Three",
+          "diff": "easy"
+        },
+        {
+          "q": "The introduction of an essay typically contains:",
+          "options": ["A. Only a thesis statement", "B. General statements and a thesis statement", "C. Only supporting details", "D. Only a summary"],
+          "answer": "B. General statements and a thesis statement",
+          "diff": "medium"
+        },
+        {
+          "q": "The thesis statement in an essay is usually found:",
+          "options": ["A. At the beginning of the introduction", "B. At the end of the introduction", "C. In the middle of the body", "D. At the end of the conclusion"],
+          "answer": "B. At the end of the introduction",
+          "diff": "hard"
+        },
+        {
+          "q": "What is the purpose of the main body of an essay?",
+          "options": ["A. To catch the reader's attention", "B. To develop the thesis statement with subtopics", "C. To summarize the main points", "D. To give a final comment"],
+          "answer": "B. To develop the thesis statement with subtopics",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a part of an essay?",
+          "options": ["A. Introduction", "B. Body", "C. Outline", "D. Conclusion"],
+          "answer": "C. Outline",
+          "diff": "easy"
+        },
+        {
+          "q": "The concluding paragraph of an essay should:",
+          "options": ["A. Introduce new ideas", "B. Summarize main points and restate the thesis", "C. Only repeat the introduction", "D. Add new subtopics"],
+          "answer": "B. Summarize main points and restate the thesis",
+          "diff": "medium"
+        },
+        {
+          "q": "A good thesis statement does all EXCEPT:",
+          "options": ["A. State the main topic", "B. List the subdivisions of the topic", "C. Provide specific examples", "D. Indicate the method of organization"],
+          "answer": "C. Provide specific examples",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a method of organization for the body of an essay?",
+          "options": ["A. Chronological order", "B. Alphabetical order", "C. Reverse order", "D. Random order"],
+          "answer": "A. Chronological order",
+          "diff": "easy"
+        },
+        {
+          "q": "The first step in the writing process is:",
+          "options": ["A. Revising", "B. Proofreading", "C. Getting ideas (brainstorming)", "D. Writing the final draft"],
+          "answer": "C. Getting ideas (brainstorming)",
+          "diff": "easy"
+        },
+        {
+          "q": "What is the purpose of an outline in essay writing?",
+          "options": ["A. To check grammar", "B. To organize ideas and plan the essay", "C. To write the final draft", "D. To summarize the essay"],
+          "answer": "B. To organize ideas and plan the essay",
+          "diff": "medium"
+        },
+        {
+          "q": "The difference between a paragraph and an essay is mainly one of:",
+          "options": ["A. Grammar", "B. Vocabulary", "C. Length", "D. Punctuation"],
+          "answer": "C. Length",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a way to catch the reader's attention in the introduction?",
+          "options": ["A. Posing a question", "B. Using an apt quotation", "C. Stating a dictionary definition of every word", "D. Making a controversial statement"],
+          "answer": "C. Stating a dictionary definition of every word",
+          "diff": "hard"
+        },
+        {
+          "q": "The stage of the writing process where you check for grammar and spelling errors is called:",
+          "options": ["A. Brainstorming", "B. Outlining", "C. Revising", "D. Proofreading"],
+          "answer": "D. Proofreading",
+          "diff": "easy"
+        },
+        {
+          "q": "In essay writing, 'revising' means:",
+          "options": ["A. Writing the first draft", "B. Checking spelling", "C. Rewriting and improving content", "D. Getting ideas"],
+          "answer": "C. Rewriting and improving content",
+          "diff": "medium"
+        },
+        {
+          "q": "A thesis statement that says 'This paper will examine... and then discuss...' indicates:",
+          "options": ["A. The topic only", "B. The subtopics and possibly the method of organization", "C. The conclusion only", "D. The introduction only"],
+          "answer": "B. The subtopics and possibly the method of organization",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a good thesis statement?",
+          "options": ["A. I will write about pollution.", "B. Pollution is a problem.", "C. Pollution in Lahore is caused by vehicle emissions, industrial waste, and deforestation.", "D. This essay is about Lahore."],
+          "answer": "C. Pollution in Lahore is caused by vehicle emissions, industrial waste, and deforestation.",
+          "diff": "hard"
+        },
+        {
+          "q": "The main body of an essay should:",
+          "options": ["A. Have one paragraph only", "B. Have multiple paragraphs, each developing a subtopic", "C. Repeat the introduction", "D. Only state opinions without support"],
+          "answer": "B. Have multiple paragraphs, each developing a subtopic",
+          "diff": "easy"
+        }
+      ]
     },
-    {
-      q: 'Vocalization causes:',
-      options: ['A. Fast reading', 'B. Slow reading', 'C. Better memory', 'D. No effect'],
-      answer: 'B. Slow reading',
-      diff: 'easy',
+    "34": {
+      "title": "Essay Writing: Introduction, Thesis Statement, and Conclusion (ENG101 Lecture 34)",
+      "summary": "**Key Topics Covered:**\n- Introduction paragraph: four purposes (introduce topic, give background, specify plan, arouse interest).\n- Two parts of introduction: general statements and thesis statement.\n- Thesis statement: states the main topic, lists subtopics, and may indicate method of organization.\n- The thesis statement is usually the last sentence of the introduction.\n- Conclusion paragraph: summarizes main points, restates the thesis in different words, and gives a final comment.\n- Practice in writing introductions and conclusions.\n\n---\n\n**Simple Understanding:**\n\n**What is an introduction?**\n👉 The first paragraph of an essay.\n👉 It has two parts:\n  1. **General statements** to attract attention and introduce the topic.\n  2. **Thesis statement** – the main idea, usually at the end of the introduction.\n\n**Purposes of the introduction:**\n1. Introduce the topic.\n2. Give general background.\n3. Specify the overall plan (thesis).\n4. Arouse the reader's interest.\n\n**Thesis Statement:**\n- States the main topic.\n- Lists the subtopics to be discussed.\n- May indicate the order of organization (chronological, compare/contrast, etc.).\n- Example: 'Capital punishment should be abolished not only because it deprives a human being of life but also because it does not stop crime.'\n\n**Conclusion:**\n- The final paragraph.\n- Summarizes the main points.\n- Restates the thesis in different words.\n- Gives a final comment or recommendation.\n- Use transition signals like 'in conclusion', 'to sum up'.\n\n**How to write a good introduction:**\n- Start with a general statement about the topic.\n- Gradually narrow down to the thesis statement.\n- Make it interesting: use a question, a quotation, a surprising fact, or a short anecdote.\n\n**How to write a good conclusion:**\n- Signal the end (e.g., 'In conclusion').\n- Briefly summarize the main points.\n- Reword the thesis statement.\n- Leave the reader with a final thought.\n\n---\n\n**Important Vocabulary:**\n- Introduction = first paragraph\n- Thesis statement = main idea of the essay\n- General statements = broad remarks to set the scene\n- Conclusion = final paragraph\n- Summarize = give the main points briefly\n- Restate = say again in different words\n\n---\n\n**Quick Revision Points:**\n- Introduction has general statements + thesis statement.\n- Thesis statement lists subtopics.\n- Conclusion summarizes and restates thesis.\n- Use interesting hooks to start the introduction.\n- End the conclusion with a strong final comment.",
+      "questions": [
+        {
+          "q": "The introduction of an essay has how many parts?",
+          "options": ["A. One", "B. Two (general statements and thesis)", "C. Three", "D. Four"],
+          "answer": "B. Two (general statements and thesis)",
+          "diff": "easy"
+        },
+        {
+          "q": "The thesis statement is usually found:",
+          "options": ["A. At the beginning of the introduction", "B. At the end of the introduction", "C. In the first body paragraph", "D. In the conclusion"],
+          "answer": "B. At the end of the introduction",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a purpose of the introduction?",
+          "options": ["A. Introduce the topic", "B. Give background information", "C. Provide supporting details", "D. Arouse reader's interest"],
+          "answer": "C. Provide supporting details",
+          "diff": "easy"
+        },
+        {
+          "q": "A thesis statement should:",
+          "options": ["A. Only state the topic", "B. State the topic and list the subtopics", "C. Be a question", "D. Be very long"],
+          "answer": "B. State the topic and list the subtopics",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is a good hook to start an introduction?",
+          "options": ["A. A dictionary definition", "B. A rhetorical question", "C. A long list of facts", "D. A conclusion"],
+          "answer": "B. A rhetorical question",
+          "diff": "medium"
+        },
+        {
+          "q": "The concluding paragraph should:",
+          "options": ["A. Introduce new ideas", "B. Summarize and restate the thesis", "C. Only repeat the introduction word for word", "D. Be longer than the introduction"],
+          "answer": "B. Summarize and restate the thesis",
+          "diff": "easy"
+        },
+        {
+          "q": "Which transition signal is commonly used to start a conclusion?",
+          "options": ["A. First", "B. However", "C. In conclusion", "D. For example"],
+          "answer": "C. In conclusion",
+          "diff": "easy"
+        },
+        {
+          "q": "A thesis statement that lists subtopics helps the reader to:",
+          "options": ["A. Know the essay's organization", "B. Understand the conclusion", "C. Ignore the body", "D. Find errors"],
+          "answer": "A. Know the essay's organization",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a characteristic of a good thesis statement?",
+          "options": ["A. It is vague", "B. It is specific and debatable", "C. It is a fact", "D. It is a question"],
+          "answer": "B. It is specific and debatable",
+          "diff": "hard"
+        },
+        {
+          "q": "In the introduction, general statements should:",
+          "options": ["A. Be very specific", "B. Gradually narrow down to the thesis", "C. Include all supporting details", "D. Be the same as the conclusion"],
+          "answer": "B. Gradually narrow down to the thesis",
+          "diff": "hard"
+        },
+        {
+          "q": "A conclusion should NOT:",
+          "options": ["A. Summarize main points", "B. Introduce a new subtopic", "C. Restate the thesis in different words", "D. Give a final comment"],
+          "answer": "B. Introduce a new subtopic",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an example of a thesis statement?",
+          "options": ["A. Pollution is bad.", "B. This essay is about pollution.", "C. Pollution in cities is caused by traffic, industry, and waste disposal.", "D. I will write about pollution."],
+          "answer": "C. Pollution in cities is caused by traffic, industry, and waste disposal.",
+          "diff": "hard"
+        },
+        {
+          "q": "The phrase 'to sum up' is used to:",
+          "options": ["A. Introduce the topic", "B. Signal the conclusion", "C. Give an example", "D. Show contrast"],
+          "answer": "B. Signal the conclusion",
+          "diff": "easy"
+        },
+        {
+          "q": "A good introduction should:",
+          "options": ["A. Be very long", "B. Capture the reader's attention", "C. Include all arguments", "D. Start with a conclusion"],
+          "answer": "B. Capture the reader's attention",
+          "diff": "easy"
+        },
+        {
+          "q": "Restating the thesis in the conclusion means:",
+          "options": ["A. Copying it exactly", "B. Saying it in different words", "C. Changing the topic", "D. Adding new subtopics"],
+          "answer": "B. Saying it in different words",
+          "diff": "medium"
+        }
+      ]
     },
-    {
-      q: 'Best way to read is:',
-      options: ['A. Loudly', 'B. With lips', 'C. Silently', 'D. Slowly'],
-      answer: 'C. Silently',
-      diff: 'easy',
+    "35": {
+      "title": "Writing an Outline: Organization and Structure (ENG101 Lecture 35)",
+      "summary": "**Key Topics Covered:**\n- An outline is a way to organize ideas before writing.\n- It helps in both reading (analyzing) and writing (organizing).\n- An outline shows the relationship between main ideas and supporting details.\n- Headings and sub-headings are labeled with Roman numerals, letters, and numbers.\n- Parallel structure means all items at the same level should be in the same grammatical form.\n- Avoid overlapping headings; each heading should be distinct.\n- There must be at least two sub-points under any main point.\n\n---\n\n**Simple Understanding:**\n\n**What is an outline?**\n👉 An outline is a plan or skeleton for a piece of writing.\n👉 It organizes ideas in a logical order.\n👉 It shows the main points and supporting details.\n👉 It helps the writer stay focused and ensures all ideas are covered.\n\n**Why use an outline?**\n- **For writing:** helps organize and present ideas effectively.\n- **For reading:** helps analyze the organization and relationship of ideas in a text.\n\n**How to write an outline:**\n1. Jot down ideas as they occur.\n2. Arrange them in a logical order (headings and sub-headings).\n3. Label headings and sub-headings carefully:\n   - Main headings: I, II, III ...\n   - Sub-headings: A, B, C ...\n   - Further sub-divisions: 1, 2, 3 ...\n4. Indent properly to show levels.\n5. Use parallel structure: all items at the same level should have the same grammatical form.\n\n**Rules for outlining:**\n- Do not have a single heading; if there is an I, there must be a II. If there is an A, there must be a B.\n- Do not allow headings to overlap.\n- Use words or phrases, not full sentences (usually).\n- Do not label Introduction or Conclusion in the outline; they are part of the structure.\n\n**Example Outline:**\nTopic: Books I Enjoy Reading\nI. Fiction\n   A. Love Stories\n   B. Historical Novels\n   C. Spy Thrillers\nII. Non-fiction\n   A. Biographies\n   B. Science/Space Exploration\n\n---\n\n**Important Vocabulary:**\n- Outline = a plan or skeleton for writing\n- Heading = main point or category\n- Sub-heading = supporting point under a heading\n- Parallel structure = using the same grammatical form for equal items\n- Indent = to set in from the margin\n- Roman numerals = I, II, III, IV, V\n- Overlap = when headings are not distinct and share content\n\n---\n\n**Quick Revision Points:**\n- An outline organizes ideas logically.\n- Main headings: Roman numerals (I, II, III).\n- Sub-headings: Capital letters (A, B, C).\n- Further sub-divisions: Numbers (1, 2, 3).\n- There must be at least two sub-points under any heading.\n- All items at the same level must be parallel in form.\n- Avoid overlapping headings.\n- Use phrases or words, not full sentences.",
+      "questions": [
+        {
+          "q": "An outline is best described as:",
+          "options": ["A. The final draft of an essay", "B. A plan or skeleton for writing", "C. A list of random ideas", "D. A summary of the essay"],
+          "answer": "B. A plan or skeleton for writing",
+          "diff": "easy"
+        },
+        {
+          "q": "In an outline, the main headings are usually labelled with:",
+          "options": ["A. A, B, C", "B. 1, 2, 3", "C. I, II, III", "D. a, b, c"],
+          "answer": "C. I, II, III",
+          "diff": "easy"
+        },
+        {
+          "q": "Sub-headings in an outline are labelled with:",
+          "options": ["A. Roman numerals", "B. Capital letters (A, B, C)", "C. Lowercase letters", "D. Numbers (1, 2, 3)"],
+          "answer": "B. Capital letters (A, B, C)",
+          "diff": "easy"
+        },
+        {
+          "q": "The rule that all items at the same level in an outline should have the same grammatical form is called:",
+          "options": ["A. Parallel structure", "B. Coordination", "C. Subordination", "D. Indentation"],
+          "answer": "A. Parallel structure",
+          "diff": "hard"
+        },
+        {
+          "q": "What is the rule regarding a single heading in an outline?",
+          "options": ["A. It is allowed", "B. It is preferred", "C. It is not allowed; there must be at least two sub-points", "D. It is optional"],
+          "answer": "C. It is not allowed; there must be at least two sub-points",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following demonstrates correct outline formatting?",
+          "options": ["A. I. Fiction\n   A. Love Stories\n   B. Historical Novels", "B. I. Fiction\n   A. Love Stories", "C. I. Fiction\n   A. Love Stories\n     1. Historical Novels", "D. A. Fiction\n   I. Love Stories"],
+          "answer": "A. I. Fiction\n   A. Love Stories\n   B. Historical Novels",
+          "diff": "hard"
+        },
+        {
+          "q": "The purpose of an outline in writing is to:",
+          "options": ["A. Check grammar", "B. Organize and present ideas effectively", "C. Write the final draft", "D. Proofread the essay"],
+          "answer": "B. Organize and present ideas effectively",
+          "diff": "easy"
+        },
+        {
+          "q": "When creating an outline, the first step is to:",
+          "options": ["A. Label headings", "B. Jot down ideas as they occur", "C. Indent properly", "D. Check parallel structure"],
+          "answer": "B. Jot down ideas as they occur",
+          "diff": "medium"
+        },
+        {
+          "q": "In an outline, 'overlapping' means:",
+          "options": ["A. Headings are parallel", "B. Headings are not distinct and share content", "C. Headings are indented", "D. Headings are labelled correctly"],
+          "answer": "B. Headings are not distinct and share content",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is NOT a rule for outlining?",
+          "options": ["A. Use parallel structure", "B. Include at least two sub-points", "C. Use full sentences for all headings", "D. Avoid overlapping headings"],
+          "answer": "C. Use full sentences for all headings",
+          "diff": "medium"
+        },
+        {
+          "q": "An outline can also be used for:",
+          "options": ["A. Reading (analyzing organization)", "B. Only writing", "C. Only speaking", "D. Only listening"],
+          "answer": "A. Reading (analyzing organization)",
+          "diff": "medium"
+        },
+        {
+          "q": "In an outline, the sub-headings should be:",
+          "options": ["A. More general than the main heading", "B. More specific than the main heading", "C. At the same level of importance", "D. Unrelated to the main heading"],
+          "answer": "B. More specific than the main heading",
+          "diff": "hard"
+        },
+        {
+          "q": "The label '1, 2, 3' in an outline is used for:",
+          "options": ["A. Main headings", "B. Sub-headings", "C. Further sub-divisions under a sub-heading", "D. The title"],
+          "answer": "C. Further sub-divisions under a sub-heading",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a poor outline because of overlapping?",
+          "options": ["A. I. Fiction\n   A. Love Stories\n   B. Historical Novels\nII. Non-fiction\n   A. Biographies", "B. I. History\nII. Moghuls\nIII. Sikhs\nIV. Period after 1947", "C. I. History\n   A. Moghuls\nII. Period after 1947", "D. I. Books\n   A. Fiction\n   B. Non-fiction"],
+          "answer": "B. I. History\nII. Moghuls\nIII. Sikhs\nIV. Period after 1947",
+          "diff": "hard"
+        },
+        {
+          "q": "In an outline, the introduction and conclusion are:",
+          "options": ["A. Labelled as I and II", "B. Not labelled in the outline", "C. Included as sub-headings", "D. The only parts of the outline"],
+          "answer": "B. Not labelled in the outline",
+          "diff": "hard"
+        }
+      ]
     },
-    {
-      q: 'Rhetoric helps in:',
-      options: ['A. Writing only', 'B. Reading understanding', 'C. Speaking only', 'D. Typing'],
-      answer: 'B. Reading understanding',
-      diff: 'medium',
+    "36": {
+      "title": "Selecting and Researching an Essay Topic: Analysis and Note-Making (ENG101 Lecture 36)",
+      "summary": "**Key Topics Covered:**\n- Choosing an essay topic: analyze the title, identify key words, understand the task.\n- Characteristics of academic essays: combine description with analysis, relate general to particular, gather ideas from sources, consider multiple interpretations.\n- Key directional words: explain, review, outline, summarize (describe); assess, compare, contrast, criticize, analyze, discuss (analyze).\n- Note-making vs. note-taking: note-making is active and selective; note-taking is passive.\n- Purpose of notes: memory aids, raw material for writing, force understanding and interpretation.\n- Principles of note-making: clear identification (author, title, page), flexible format, margins for comments, abbreviation system.\n\n---\n\n**Simple Understanding:**\n\n**How to choose and research an essay topic?**\n\n**1. Analyzing the Essay Title:**\n👉 Look for 'directional words' that tell you what to do.\n👉 **Descriptive tasks:** explain, review, outline, summarize, state.\n👉 **Analytical tasks:** assess, compare, contrast, criticize, analyze, discuss.\n\n**Example:**\n- 'To what extent does environmental pollution affect global warming?'\n   - Topic: global warming and pollution.\n   - Task: analyze the relationship ('to what extent').\n- 'Discuss the causes of inflation.'\n   - Topic: inflation.\n   - Task: discuss (analyze and explain) the causes.\n\n**2. Characteristics of Academic Essays:**\n- Combine description with analysis.\n- Relate general concepts to particular examples (and vice versa).\n- Gather ideas from printed sources (books, articles).\n- Consider multiple interpretations of a problem.\n\n**3. Note-Making for Essay Writing:**\n- **Note-taking:** passive, recording information word-for-word.\n- **Note-making:** active, selecting relevant information, summarizing, interpreting.\n\n**Why make notes?**\n- Aid to memory.\n- Raw material for writing.\n- Forces you to understand and interpret the source.\n\n**Principles of Note-Making:**\n1. **Clear Identification:** Record author, title, publisher, edition, year, and page numbers.\n2. **Flexible Format:** Use loose paper so you can rearrange notes. Number pages.\n3. **Leave Margins:** For your own comments and cross-references.\n4. **Use Abbreviations:** Develop a system (e.g., e.g., b/w, =, >, <).\n\n**Example Abbreviations:**\n- e.g. = for example\n- & = and\n- b/w = between\n- = = is equal to\n- > = greater than or became\n- < = lesser than or came from\n- .. = therefore\n\n---\n\n**Important Vocabulary:**\n- Directional words = words that tell you how to handle the topic\n- Descriptive = explaining or describing\n- Analytical = examining and interpreting\n- Note-taking = passive recording\n- Note-making = active selection and interpretation\n- Abbreviation = shortened form of a word\n- Cross-reference = a note that refers to another part of the text\n\n---\n\n**Quick Revision Points:**\n- Analyze essay titles for directional words.\n- Academic essays combine description and analysis.\n- Note-making is active and selective.\n- Notes should have clear identification, flexible format, margins, and abbreviations.\n- Good notes help in understanding and writing the essay.",
+      "questions": [
+        {
+          "q": "The words 'explain, review, outline, summarize' in an essay title indicate a:",
+          "options": ["A. Descriptive task", "B. Analytical task", "C. Persuasive task", "D. Creative task"],
+          "answer": "A. Descriptive task",
+          "diff": "easy"
+        },
+        {
+          "q": "The words 'assess, compare, analyze, discuss' in an essay title indicate a:",
+          "options": ["A. Descriptive task", "B. Analytical task", "C. Simple task", "D. Narrative task"],
+          "answer": "B. Analytical task",
+          "diff": "easy"
+        },
+        {
+          "q": "What does the phrase 'To what extent' in an essay title suggest?",
+          "options": ["A. There is only one correct answer", "B. There may be some truth but also limitations", "C. The topic is unimportant", "D. No analysis is needed"],
+          "answer": "B. There may be some truth but also limitations",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a characteristic of academic essays?",
+          "options": ["A. Only description is needed", "B. Only analysis is needed", "C. Combine description with analysis", "D. No sources are needed"],
+          "answer": "C. Combine description with analysis",
+          "diff": "medium"
+        },
+        {
+          "q": "Note-taking is different from note-making because note-taking is:",
+          "options": ["A. Active and selective", "B. Passive and records information verbatim", "C. Used for writing essays", "D. More valuable"],
+          "answer": "B. Passive and records information verbatim",
+          "diff": "hard"
+        },
+        {
+          "q": "The purpose of note-making includes all EXCEPT:",
+          "options": ["A. Aid to memory", "B. Raw material for writing", "C. Replacing the original source", "D. Forcing understanding and interpretation"],
+          "answer": "C. Replacing the original source",
+          "diff": "medium"
+        },
+        {
+          "q": "When making notes, the author, title, and page number should be recorded for:",
+          "options": ["A. Decoration", "B. Clear identification and reference", "C. Checking grammar", "D. Writing the introduction"],
+          "answer": "B. Clear identification and reference",
+          "diff": "easy"
+        },
+        {
+          "q": "Using loose paper for notes is recommended because it allows:",
+          "options": ["A. Neat handwriting", "B. Easy rearrangement of notes", "C. No need for page numbers", "D. Less writing"],
+          "answer": "B. Easy rearrangement of notes",
+          "diff": "hard"
+        },
+        {
+          "q": "The symbol 'e.g.' is an abbreviation for:",
+          "options": ["A. That is", "B. For example", "C. And so on", "D. Therefore"],
+          "answer": "B. For example",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a recommended principle of note-making?",
+          "options": ["A. Clear identification of sources", "B. Using a flexible format", "C. Writing everything word-for-word", "D. Using abbreviations"],
+          "answer": "C. Writing everything word-for-word",
+          "diff": "easy"
+        },
+        {
+          "q": "In the essay title 'Discuss the importance of education in Pakistan', the directional word is:",
+          "options": ["A. Education", "B. Pakistan", "C. Discuss", "D. Importance"],
+          "answer": "C. Discuss",
+          "diff": "medium"
+        },
+        {
+          "q": "Academic essays require the writer to relate:",
+          "options": ["A. General concepts to particular materials", "B. Only opinions", "C. Only facts", "D. Only personal experiences"],
+          "answer": "A. General concepts to particular materials",
+          "diff": "hard"
+        },
+        {
+          "q": "Leaving wide margins in notes is useful for:",
+          "options": ["A. Drawing pictures", "B. Writing comments and cross-references", "C. Making the notes longer", "D. No specific purpose"],
+          "answer": "B. Writing comments and cross-references",
+          "diff": "medium"
+        },
+        {
+          "q": "The abbreviation 'b/w' in note-making stands for:",
+          "options": ["A. Between", "B. Both ways", "C. Black and white", "D. By the way"],
+          "answer": "A. Between",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a directional word for an analytical task?",
+          "options": ["A. Describe", "B. Explain", "C. Compare", "D. Summarize"],
+          "answer": "C. Compare",
+          "diff": "easy"
+        }
+      ]
     },
-    {
-      q: 'Good readers ask:',
-      options: ['A. Where only', 'B. Why, What, How', 'C. When only', 'D. Who only'],
-      answer: 'B. Why, What, How',
-      diff: 'easy',
+    "37": {
+      "title": "Ways of Organizing Texts: Linear Relationships (Chronological, Process, Cause-Effect) (ENG101 Lecture 37)",
+      "summary": "**Key Topics Covered:**\n- Organizing the body of an essay: linear, spatial, and comparison/contrast.\n- Linear relationships: chronological order, process (linear and cyclic), and cause-effect.\n- Chronological order: events in time sequence (first, then, next, finally).\n- Process description: steps in a sequence (linear: has a beginning and end; cyclic: no clear beginning).\n- Cause-effect: explaining why something happened and what resulted.\n\n---\n\n**Simple Understanding:**\n\n**What are the ways to organize a text?**\n👉 The body of an essay can be organized in three main ways:\n1. **Linear relationships** (time, process, cause-effect).\n2. **Spatial relationships** (location, description of places).\n3. **Comparison and contrast** (similarities and differences).\n\n**1. Chronological Order (Time):**\n👉 Events are described in the order they happened.\n👉 Used for history, biography, processes, schedules.\n👉 Transition words: *first, then, next, after, before, finally, in 1950, later*.\n\n**Example:**\n'The first generation of computers came out in 1950. In 1960, the second generation was developed. The third generation appeared in 1965.'\n\n**2. Process Description:**\n- **Linear Process:** has a clear beginning and end (e.g., making a cake).\n- **Cyclic Process:** no clear beginning; the cycle continues (e.g., the carbon cycle, water cycle).\n\n**Linear Process Example:**\nDefine the problem → formulate an algorithm → translate into a program → keypunch → test → add data → run.\n\n**Cyclic Process Example:**\nCarbon dioxide → plants use for photosynthesis → animals eat plants → respiration releases CO2 → back to atmosphere.\n\n**3. Cause-Effect:**\n👉 Explains why something happens and what results from it.\n👉 Can focus on cause or effect.\n👉 Transition words: *because, since, as a result, therefore, consequently, due to*.\n\n**Example:**\n'Because of his depression, he remained quiet.' (Cause → Effect)\n\n---\n\n**Important Vocabulary:**\n- Linear = having a beginning and an end\n- Cyclic = repeating in a cycle\n- Chronological = time order\n- Process = a series of steps\n- Cause = why something happens\n- Effect = what happens as a result\n- Transition words = words that connect ideas\n\n---\n\n**Quick Revision Points:**\n- Linear relationships: chronological, process, cause-effect.\n- Chronological order uses time markers (first, then, next).\n- Linear process has a start and end; cyclic process repeats.\n- Cause-effect explains reasons and results.\n- Use appropriate transition words.",
+      "questions": [
+        {
+          "q": "Which type of text organization describes events in the order they happened?",
+          "options": ["A. Spatial", "B. Chronological", "C. Comparison", "D. Cyclic"],
+          "answer": "B. Chronological",
+          "diff": "easy"
+        },
+        {
+          "q": "A process that has a clear beginning and end is called:",
+          "options": ["A. Cyclic", "B. Linear", "C. Spatial", "D. Chronological"],
+          "answer": "B. Linear",
+          "diff": "easy"
+        },
+        {
+          "q": "A process that repeats continuously without a clear beginning is called:",
+          "options": ["A. Linear", "B. Cyclic", "C. Chronological", "D. Causal"],
+          "answer": "B. Cyclic",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a transition word for chronological order?",
+          "options": ["A. Because", "B. In contrast", "C. Next", "D. For example"],
+          "answer": "C. Next",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a transition word for cause-effect?",
+          "options": ["A. First", "B. Then", "C. Therefore", "D. Similarly"],
+          "answer": "C. Therefore",
+          "diff": "easy"
+        },
+        {
+          "q": "The carbon cycle is an example of a:",
+          "options": ["A. Linear process", "B. Cyclic process", "C. Chronological order", "D. Spatial description"],
+          "answer": "B. Cyclic process",
+          "diff": "hard"
+        },
+        {
+          "q": "'How to make carrot pudding' is an example of a:",
+          "options": ["A. Chronological order", "B. Linear process", "C. Cyclic process", "D. Cause-effect"],
+          "answer": "B. Linear process",
+          "diff": "medium"
+        },
+        {
+          "q": "In a cause-effect text, the focus can be on:",
+          "options": ["A. Only the cause", "B. Only the effect", "C. Either the cause or the effect", "D. Neither"],
+          "answer": "C. Either the cause or the effect",
+          "diff": "hard"
+        },
+        {
+          "q": "The sentence 'The war started because the extremists had the upper hand' is an example of:",
+          "options": ["A. Chronological order", "B. Cause-effect", "C. Linear process", "D. Cyclic process"],
+          "answer": "B. Cause-effect",
+          "diff": "easy"
+        },
+        {
+          "q": "Which type of text organization would be used to describe the history of computers?",
+          "options": ["A. Spatial", "B. Chronological", "C. Comparison", "D. Classification"],
+          "answer": "B. Chronological",
+          "diff": "easy"
+        },
+        {
+          "q": "The word 'subsequently' is a marker for:",
+          "options": ["A. Cause-effect", "B. Time sequence", "C. Comparison", "D. Example"],
+          "answer": "B. Time sequence",
+          "diff": "hard"
+        },
+        {
+          "q": "A description of how to assemble a computer would use which organization?",
+          "options": ["A. Spatial", "B. Chronological/Process", "C. Comparison", "D. Cause-effect"],
+          "answer": "B. Chronological/Process",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'as a result' is used to show:",
+          "options": ["A. Time", "B. Comparison", "C. Cause and effect", "D. Example"],
+          "answer": "C. Cause and effect",
+          "diff": "easy"
+        },
+        {
+          "q": "A flowchart is used to represent a:",
+          "options": ["A. Spatial relationship", "B. Process", "C. Comparison", "D. Classification"],
+          "answer": "B. Process",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is NOT a linear relationship?",
+          "options": ["A. Chronological", "B. Process", "C. Cause-effect", "D. Spatial"],
+          "answer": "D. Spatial",
+          "diff": "medium"
+        }
+      ]
     },
-    {
-      q: 'Inference means:',
-      options: ['A. Direct meaning', 'B. Hidden meaning', 'C. Wrong meaning', 'D. No meaning'],
-      answer: 'B. Hidden meaning',
-      diff: 'easy',
+    "38": {
+      "title": "Ways of Organizing Texts: Linear (Cyclic Process & Cause-Effect) (ENG101 Lecture 38)",
+      "summary": "**Key Topics Covered:**\n- Cyclic processes: no clear beginning or end (e.g., carbon cycle, water cycle).\n- Describing a cyclic process: use time markers like 'then', 'after that', 'eventually', but without a final step.\n- Cause-effect relationships: explaining reasons and results.\n- Language for cause-effect: because, since, due to, as a result, therefore, consequently.\n- Expressing certainty and doubt: definitely, probably, possibly, may, might, could.\n- Use of impersonal expressions: 'It is said that...', 'There is evidence to suggest...'.\n- Practice in writing cyclic process descriptions and cause-effect paragraphs.\n\n---\n\n**Simple Understanding:**\n\n**What is a cyclic process?**\n👉 A process that repeats in a cycle.\n👉 No clear starting or ending point.\n👉 Examples: water cycle, carbon cycle, life cycle of a mosquito.\n👉 When writing about a cyclic process, you can start at any point, but you must eventually return to the same point.\n\n**Example (Carbon Cycle):**\nCarbon dioxide in atmosphere → plants use it for photosynthesis → animals eat plants and respire CO2 → decomposition releases CO2 → back to atmosphere.\n\n**Cause-Effect Writing:**\n👉 Explains why something happens (cause) and what happens as a result (effect).\n👉 You can focus on the cause or the effect.\n\n**Cause-Effect Language:**\n- **Cause:** because, since, as, due to, because of.\n- **Effect:** therefore, consequently, as a result, hence, thus.\n\n**Expressing Certainty:**\n- **Complete certainty:** certainly, definitely, will, must.\n- **Probability:** probably, likely, should.\n- **Possibility:** may, might, could, possibly.\n- **Improbability:** unlikely, probably not.\n\n**Example:**\n'If plants keep removing CO2, the atmosphere may soon be without it.' (possibility)\n'This is known as the carbon cycle.' (certainty)\n\n---\n\n**Important Vocabulary:**\n- Cyclic = repeating in a cycle\n- Process = series of steps\n- Cause = reason for something\n- Effect = result of something\n- Certainty = being sure\n- Probability = likelihood\n- Possibility = something that may happen\n\n---\n\n**Quick Revision Points:**\n- Cyclic processes have no clear beginning or end.\n- Describe them in a cycle, using time markers.\n- Cause-effect explains why and what results.\n- Use language for cause (because) and effect (therefore).\n- Express certainty, probability, or possibility with appropriate words.\n- Practice writing cycles and cause-effect paragraphs.",
+      "questions": [
+        {
+          "q": "A cyclic process is one that:",
+          "options": ["A. Has a clear beginning and end", "B. Repeats without a clear beginning", "C. Only happens once", "D. Is linear"],
+          "answer": "B. Repeats without a clear beginning",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an example of a cyclic process?",
+          "options": ["A. Making a cup of tea", "B. The carbon cycle", "C. Building a house", "D. Writing an essay"],
+          "answer": "B. The carbon cycle",
+          "diff": "easy"
+        },
+        {
+          "q": "In a cyclic process description, you should:",
+          "options": ["A. Start and end at the same point", "B. Start at the beginning and end at the end", "C. Only describe one step", "D. Avoid time markers"],
+          "answer": "A. Start and end at the same point",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a cause-effect transition word?",
+          "options": ["A. Next", "B. Because", "C. However", "D. For example"],
+          "answer": "B. Because",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following expresses possibility?",
+          "options": ["A. Definitely", "B. Probably", "C. May", "D. Certainly"],
+          "answer": "C. May",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'as a result' indicates:",
+          "options": ["A. Cause", "B. Effect", "C. Time", "D. Contrast"],
+          "answer": "B. Effect",
+          "diff": "easy"
+        },
+        {
+          "q": "In the sentence 'The extreme cold causes the ice to freeze', the word 'causes' shows:",
+          "options": ["A. Time", "B. Cause-effect", "C. Comparison", "D. Addition"],
+          "answer": "B. Cause-effect",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following expresses complete certainty?",
+          "options": ["A. Might", "B. Possibly", "C. Definitely", "D. Probably"],
+          "answer": "C. Definitely",
+          "diff": "easy"
+        },
+        {
+          "q": "The water cycle is an example of a:",
+          "options": ["A. Linear process", "B. Cyclic process", "C. Chronological order", "D. Spatial description"],
+          "answer": "B. Cyclic process",
+          "diff": "easy"
+        },
+        {
+          "q": "When writing about a cyclic process, the conclusion should:",
+          "options": ["A. Introduce new steps", "B. Return to the starting point", "C. End with a final step", "D. Summarize all details"],
+          "answer": "B. Return to the starting point",
+          "diff": "hard"
+        },
+        {
+          "q": "The phrase 'due to' is used to show:",
+          "options": ["A. Effect", "B. Cause", "C. Time", "D. Contrast"],
+          "answer": "B. Cause",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an impersonal expression for cause?",
+          "options": ["A. I think", "B. It is said that", "C. We believe", "D. They know"],
+          "answer": "B. It is said that",
+          "diff": "hard"
+        },
+        {
+          "q": "The word 'consequently' means:",
+          "options": ["A. However", "B. Therefore", "C. Furthermore", "D. Meanwhile"],
+          "answer": "B. Therefore",
+          "diff": "hard"
+        },
+        {
+          "q": "In a cause-effect paragraph, you can focus on:",
+          "options": ["A. Only the cause", "B. Only the effect", "C. Either the cause or the effect", "D. Neither"],
+          "answer": "C. Either the cause or the effect",
+          "diff": "hard"
+        },
+        {
+          "q": "The sentence 'If the hammer hits a little early, the character will appear above the line' expresses:",
+          "options": ["A. Certainty", "B. Condition and prediction", "C. Time", "D. Comparison"],
+          "answer": "B. Condition and prediction",
+          "diff": "hard"
+        }
+      ]
     },
-    {
-      q: '“Reading between the lines” means:',
-      options: ['A. Skipping text', 'B. Reading loudly', 'C. Making inferences', 'D. Writing notes'],
-      answer: 'C. Making inferences',
-      diff: 'medium',
+    "39": {
+      "title": "Ways of Organizing Texts: Spatial Relationships and Classification (ENG101 Lecture 39)",
+      "summary": "**Key Topics Covered:**\n- Spatial relationships: describing location and arrangement of places/objects.\n- Two views: bird's eye view (from above) and pedestrian's view (walking through).\n- Use location expressions: to the left, on the right, beyond, next to, etc.\n- Classification: grouping things based on similarities.\n- Organize classification by time, general to particular, or scale (importance, size, familiarity).\n\n---\n\n**Simple Understanding:**\n\n**Spatial Relationships:**\n👉 Describing where things are and how they are arranged.\n👉 **Bird's eye view:** describes from above (like a map).\n👉 **Pedestrian's view:** describes as if walking through the place.\n\n**Example:**\n'To the South West of the park are the old Mughal buildings: the Badshahi Mosque and the Old Fort. To the North East is the river Ravi.'\n\n**Location Expressions:**\n- to the left/right of\n- on the north/south/east/west\n- beyond, next to, behind, in front of\n- along, across, through\n\n**Classification:**\n👉 Grouping things into categories based on similarities.\n👉 Used to organize data and ideas.\n\n**Ways to classify:**\n- **Time:** oldest to newest.\n- **General to particular:** from broad categories to specific examples.\n- **Scale:** most important to least important, largest to smallest, best known to least known.\n\n**Example:**\nFruits can be classified as:\n- Simple fruits (guava, tomato)\n- Aggregate fruits (developed from one flower with several ovaries)\n- Multiple fruits (developed from a group of flowers, e.g., jackfruit, pineapple)\n\n---\n\n**Important Vocabulary:**\n- Spatial = relating to space or location\n- Bird's eye view = view from above\n- Pedestrian's view = view from walking through\n- Location expressions = words showing position\n- Classification = grouping based on similarities\n- Scale = order based on size, importance, etc.\n\n---\n\n**Quick Revision Points:**\n- Spatial descriptions organize by location.\n- Use bird's eye or pedestrian's view.\n- Use location expressions (to the left, north of, etc.).\n- Classification groups things into categories.\n- Classify by time, general-to-particular, or scale.",
+      "questions": [
+        {
+          "q": "A description of a place as if seen from above is called:",
+          "options": ["A. Pedestrian's view", "B. Bird's eye view", "C. Linear view", "D. Cyclic view"],
+          "answer": "B. Bird's eye view",
+          "diff": "easy"
+        },
+        {
+          "q": "A description of a place as if walking through it is called:",
+          "options": ["A. Bird's eye view", "B. Pedestrian's view", "C. Chronological view", "D. Spatial view"],
+          "answer": "B. Pedestrian's view",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a location expression?",
+          "options": ["A. First, then, next", "B. To the left of", "C. Because, therefore", "D. For example"],
+          "answer": "B. To the left of",
+          "diff": "easy"
+        },
+        {
+          "q": "The purpose of spatial organization is to describe:",
+          "options": ["A. Time order", "B. Location and arrangement", "C. Cause and effect", "D. Similarities and differences"],
+          "answer": "B. Location and arrangement",
+          "diff": "easy"
+        },
+        {
+          "q": "When describing a room, which view would you use to describe the layout from the doorway?",
+          "options": ["A. Bird's eye view", "B. Pedestrian's view", "C. Chronological view", "D. Cyclic view"],
+          "answer": "B. Pedestrian's view",
+          "diff": "hard"
+        },
+        {
+          "q": "Classification involves:",
+          "options": ["A. Describing location", "B. Grouping things based on similarities", "C. Explaining cause and effect", "D. Telling a story in time order"],
+          "answer": "B. Grouping things based on similarities",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a way to classify data?",
+          "options": ["A. By time", "B. By size", "C. By importance", "D. All of the above"],
+          "answer": "D. All of the above",
+          "diff": "easy"
+        },
+        {
+          "q": "In spatial description, 'to the north' is an example of:",
+          "options": ["A. A time marker", "B. A cause-effect marker", "C. A location expression", "D. A comparison marker"],
+          "answer": "C. A location expression",
+          "diff": "easy"
+        },
+        {
+          "q": "A classification that goes from broad categories to specific examples is called:",
+          "options": ["A. General to particular", "B. Particular to general", "C. Chronological", "D. Spatial"],
+          "answer": "A. General to particular",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a classification of fruits?",
+          "options": ["A. Simple, aggregate, multiple", "B. Sweet, sour, bitter", "C. Red, green, yellow", "D. Large, small, medium"],
+          "answer": "A. Simple, aggregate, multiple",
+          "diff": "hard"
+        },
+        {
+          "q": "A description that says 'The hub of the old city is the Minar-e-Pakistan grounds' is using:",
+          "options": ["A. Chronological order", "B. Spatial description", "C. Cause-effect", "D. Comparison"],
+          "answer": "B. Spatial description",
+          "diff": "medium"
+        },
+        {
+          "q": "The term 'spatial' relates to:",
+          "options": ["A. Time", "B. Space or location", "C. Cause", "D. Effect"],
+          "answer": "B. Space or location",
+          "diff": "easy"
+        },
+        {
+          "q": "Which organization would you use to describe the layout of a university campus?",
+          "options": ["A. Chronological", "B. Spatial", "C. Cause-effect", "D. Linear process"],
+          "answer": "B. Spatial",
+          "diff": "easy"
+        },
+        {
+          "q": "In classification, ordering items from most important to least important is based on:",
+          "options": ["A. Time", "B. Scale", "C. Location", "D. Cause"],
+          "answer": "B. Scale",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is NOT a location expression?",
+          "options": ["A. Next to", "B. Beyond", "C. However", "D. On the west side of"],
+          "answer": "C. However",
+          "diff": "easy"
+        }
+      ]
     },
-    {
-      q: 'Inference is based on:',
-      options: ['A. Guess', 'B. Logic and clues', 'C. Memory only', 'D. Speed'],
-      answer: 'B. Logic and clues',
-      diff: 'easy',
+    "40": {
+      "title": "Writing Skills: Paraphrasing (ENG101 Lecture 40)",
+      "summary": "**Key Topics Covered:**\n- Paraphrasing: expressing the meaning of a passage in different words without changing the meaning.\n- Often used instead of direct quotes.\n- Usually the same length as the original.\n- Techniques: use synonyms, change direct to indirect speech, change active to passive (and vice versa).\n- Steps: read carefully, look up unknown words, jot down main points, make an outline, write in your own words, polish.\n\n---\n\n**Simple Understanding:**\n\n**What is paraphrasing?**\n👉 A paraphrase is a restatement of a text in different words.\n👉 The meaning must stay exactly the same.\n👉 It is usually as long as the original text.\n👉 Used to avoid direct quotation.\n\n**Why paraphrase?**\n👉 To show understanding of the source.\n👉 To integrate sources smoothly into your writing.\n👉 To avoid plagiarism.\n\n**Techniques for Paraphrasing:**\n1. Use synonyms (words with similar meanings).\n2. Change direct speech to indirect (reported) speech.\n3. Change active sentences to passive (and vice versa).\n\n**Steps to Write a Paraphrase:**\n1. Read the passage carefully several times.\n2. Look up unknown words in a dictionary.\n3. Jot down the main points.\n4. Make an outline with the main idea and supporting points.\n5. Write the paraphrase using your own words.\n6. Polish the paraphrase (check grammar and flow).\n\n**Example:**\n**Original:** 'The lives of great men all remind us that we can make our lives sublime.'\n**Paraphrase:** 'The lives of all great men inspire us so that we also may live noble lives.'\n\n---\n\n**Important Vocabulary:**\n- Paraphrase = restatement in different words\n- Synonyms = words with similar meanings\n- Direct speech = quoting exact words\n- Indirect speech = reporting what was said\n- Active voice = subject performs the action\n- Passive voice = subject receives the action\n\n---\n\n**Quick Revision Points:**\n- Paraphrasing means rewriting in your own words.\n- Keep the same meaning.\n- Use synonyms, change voice, change direct to indirect speech.\n- Follow the steps: read, understand, outline, write, polish.\n- A paraphrase is not a summary.",
+      "questions": [
+        {
+          "q": "Paraphrasing means:",
+          "options": ["A. Summarizing a text", "B. Expressing the meaning in different words", "C. Copying the text exactly", "D. Analyzing the text"],
+          "answer": "B. Expressing the meaning in different words",
+          "diff": "easy"
+        },
+        {
+          "q": "A paraphrase is usually:",
+          "options": ["A. Shorter than the original", "B. Longer than the original", "C. The same length as the original", "D. Unrelated to the original"],
+          "answer": "C. The same length as the original",
+          "diff": "medium"
+        },
+        {
+          "q": "Which of the following is a technique for paraphrasing?",
+          "options": ["A. Using synonyms", "B. Changing direct to indirect speech", "C. Changing active to passive voice", "D. All of the above"],
+          "answer": "D. All of the above",
+          "diff": "easy"
+        },
+        {
+          "q": "The first step in paraphrasing is to:",
+          "options": ["A. Write the paraphrase", "B. Read the passage carefully several times", "C. Look for synonyms", "D. Change the voice"],
+          "answer": "B. Read the passage carefully several times",
+          "diff": "easy"
+        },
+        {
+          "q": "When paraphrasing, the meaning should:",
+          "options": ["A. Change slightly", "B. Change completely", "C. Stay exactly the same", "D. Be expanded"],
+          "answer": "C. Stay exactly the same",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is NOT a reason to paraphrase?",
+          "options": ["A. To show understanding", "B. To avoid plagiarism", "C. To make the text longer", "D. To integrate sources smoothly"],
+          "answer": "C. To make the text longer",
+          "diff": "medium"
+        },
+        {
+          "q": "A synonym for 'sublime' in the line 'We can make our lives sublime' could be:",
+          "options": ["A. Ordinary", "B. Noble", "C. Short", "D. Difficult"],
+          "answer": "B. Noble",
+          "diff": "hard"
+        },
+        {
+          "q": "Changing 'He said, I am tired' to 'He said he was tired' is an example of changing:",
+          "options": ["A. Active to passive", "B. Direct to indirect speech", "C. Synonyms", "D. Word order"],
+          "answer": "B. Direct to indirect speech",
+          "diff": "hard"
+        },
+        {
+          "q": "When paraphrasing, an outline helps to:",
+          "options": ["A. Identify the main and supporting points", "B. Check spelling", "C. Add new ideas", "D. Change the meaning"],
+          "answer": "A. Identify the main and supporting points",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a good paraphrase of 'No man is so void of understanding as to prefer war before peace'?",
+          "options": ["A. War is better than peace", "B. No one is stupid enough to prefer war over peace", "C. All men like war", "D. Understanding leads to war"],
+          "answer": "B. No one is stupid enough to prefer war over peace",
+          "diff": "hard"
+        },
+        {
+          "q": "In a paraphrase, you should NOT:",
+          "options": ["A. Use your own words", "B. Add new ideas", "C. Keep the same meaning", "D. Use synonyms"],
+          "answer": "B. Add new ideas",
+          "diff": "easy"
+        },
+        {
+          "q": "Polishing a paraphrase means:",
+          "options": ["A. Changing the meaning", "B. Checking grammar and flow", "C. Adding more ideas", "D. Summarizing"],
+          "answer": "B. Checking grammar and flow",
+          "diff": "medium"
+        },
+        {
+          "q": "The phrase 'a brief sojourn' could be paraphrased as:",
+          "options": ["A. A long stay", "B. A short visit", "C. A difficult journey", "D. A happy time"],
+          "answer": "B. A short visit",
+          "diff": "hard"
+        },
+        {
+          "q": "Changing 'The police arrested the thief' to 'The thief was arrested by the police' is an example of changing:",
+          "options": ["A. Direct to indirect speech", "B. Active to passive voice", "C. Synonyms", "D. Word order"],
+          "answer": "B. Active to passive voice",
+          "diff": "hard"
+        },
+        {
+          "q": "A paraphrase is different from a summary because a paraphrase:",
+          "options": ["A. Is shorter", "B. Is about the same length", "C. Only includes main points", "D. Adds new information"],
+          "answer": "B. Is about the same length",
+          "diff": "hard"
+        }
+      ]
     },
-    {
-      q: 'Strong inference should be:',
-      options: ['A. Random', 'B. Unsupported', 'C. Logical', 'D. Emotional'],
-      answer: 'C. Logical',
-      diff: 'medium',
+    "41": {
+      "title": "Writing Skills: Summary Writing (ENG101 Lecture 41)",
+      "summary": "**Key Topics Covered:**\n- A summary (or precis) is a brief and clear statement of the main points of a longer passage.\n- A summary is shorter than the original.\n- It includes only the main points, leaving out details, examples, repetitions, and illustrations.\n- Steps: read carefully, note main points, strike out non-essential material, arrange points logically, write first draft, polish.\n- Avoid wordiness and repetition.\n\n---\n\n**Simple Understanding:**\n\n**What is a summary?**\n👉 A short version of a longer text.\n👉 Contains only the main ideas.\n👉 Leaves out details, examples, repetitions, and illustrations.\n👉 Written in your own words.\n\n**Why summarize?**\n- Good practice for clear writing and thinking.\n- Helps you express someone else's ideas in your own words.\n\n**How to write a summary:**\n1. Read the passage carefully.\n2. Read it again and note the main points.\n3. Strike out non-essential points (repetitions, illustrations, anecdotes).\n4. Arrange the points logically.\n5. Write the first draft.\n6. Polish the draft (check for clarity and conciseness).\n\n**Tips for writing a summary:**\n- Use your own words.\n- Use single words instead of long phrases (e.g., 'in a brief manner' → 'briefly').\n- Avoid unnecessary repetition.\n- Combine related ideas using subordination.\n\n**Example:**\n**Original (36 words):**\n'It was quite dark; for the sun had set an hour before and the moon had not yet risen when the thief carefully opened the door of his house and prepared to go about his business.'\n**Summary (20 words):**\n'An hour after sunset, on a dark moonless night, the thief crept to his house to go about his business.'\n\n---\n\n**Important Vocabulary:**\n- Summary = brief restatement of main points\n- Precis = French word for summary\n- Substance = main meaning\n- Concise = brief and clear\n- Wordiness = using more words than necessary\n- Repetition = saying the same thing again\n\n---\n\n**Quick Revision Points:**\n- A summary is shorter than the original.\n- It only includes the main points.\n- Leave out details, examples, and repetitions.\n- Write in your own words.\n- Avoid wordiness and repetition.\n- Follow the steps: read, note points, strike non-essentials, arrange, write, polish.",
+      "questions": [
+        {
+          "q": "A summary is best described as:",
+          "options": ["A. A restatement of a text in different words of the same length", "B. A brief statement of the main points of a longer passage", "C. A detailed analysis of a text", "D. A copy of the original text"],
+          "answer": "B. A brief statement of the main points of a longer passage",
+          "diff": "easy"
+        },
+        {
+          "q": "In a summary, you should include:",
+          "options": ["A. All the details", "B. Only the main points", "C. Your own opinions", "D. New information"],
+          "answer": "B. Only the main points",
+          "diff": "easy"
+        },
+        {
+          "q": "In a summary, you should leave out:",
+          "options": ["A. Examples and illustrations", "B. The main idea", "C. Key supporting points", "D. The conclusion"],
+          "answer": "A. Examples and illustrations",
+          "diff": "medium"
+        },
+        {
+          "q": "A summary is usually:",
+          "options": ["A. Longer than the original", "B. The same length as the original", "C. Shorter than the original", "D. Unrelated to the original"],
+          "answer": "C. Shorter than the original",
+          "diff": "easy"
+        },
+        {
+          "q": "The French word for summary is:",
+          "options": ["A. Paraphrase", "B. Precis", "C. Analysis", "D. Outline"],
+          "answer": "B. Precis",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is NOT a step in writing a summary?",
+          "options": ["A. Read the passage carefully", "B. Add new ideas", "C. Strike out non-essential points", "D. Write a first draft"],
+          "answer": "B. Add new ideas",
+          "diff": "easy"
+        },
+        {
+          "q": "When writing a summary, the phrase 'of a disagreeable nature' should be replaced with:",
+          "options": ["A. Disagreeable", "B. Of a nature that is disagreeable", "C. Unpleasant", "D. Not agreeable"],
+          "answer": "A. Disagreeable",
+          "diff": "hard"
+        },
+        {
+          "q": "Why should repetition be avoided in a summary?",
+          "options": ["A. It shows strength", "B. It shows weakness", "C. It makes the text longer", "D. It adds emphasis"],
+          "answer": "B. It shows weakness",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a good summary of the sentence 'For three months, the river is in continuous flood; this state of affairs goes on for the whole of that time without cease'?",
+          "options": ["A. The river is in flood for three months", "B. The river floods continuously", "C. For three months the river is in flood", "D. The river floods and stops"],
+          "answer": "C. For three months the river is in flood",
+          "diff": "hard"
+        },
+        {
+          "q": "A summary should be written in:",
+          "options": ["A. The writer's own words", "B. The exact words of the original", "C. A mix of own and original words", "D. A different language"],
+          "answer": "A. The writer's own words",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'at an earlier point in time' can be simplified in a summary as:",
+          "options": ["A. Earlier", "B. Before", "C. Previously", "D. All of the above"],
+          "answer": "D. All of the above",
+          "diff": "hard"
+        },
+        {
+          "q": "The final step in writing a summary is to:",
+          "options": ["A. Add new ideas", "B. Polish the draft", "C. Change the meaning", "D. Add more details"],
+          "answer": "B. Polish the draft",
+          "diff": "medium"
+        },
+        {
+          "q": "A summary helps in:",
+          "options": ["A. Clear writing", "B. Clear thinking", "C. Expressing someone else's ideas", "D. All of the above"],
+          "answer": "D. All of the above",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is a wordy phrase to avoid in a summary?",
+          "options": ["A. Briefly", "B. In a brief manner", "C. Shortly", "D. Concisely"],
+          "answer": "B. In a brief manner",
+          "diff": "hard"
+        },
+        {
+          "q": "The purpose of striking out non-essential points is to:",
+          "options": ["A. Make the summary longer", "B. Focus only on the main ideas", "C. Add more examples", "D. Change the topic"],
+          "answer": "B. Focus only on the main ideas",
+          "diff": "medium"
+        }
+      ]
     },
-    {
-      q: 'Sohail sits at the back. Best inference is:',
-      options: ['A. He is weak', 'B. He dislikes front seats', 'C. He is lazy', 'D. He is blind'],
-      answer: 'B. He dislikes front seats',
-      diff: 'medium',
+    "42": {
+      "title": "Grammar and Usage: Tenses and Passive Sentences (ENG101 Lecture 42)",
+      "summary": "**Key Topics Covered:**\n- Verb tenses: present, past, future, present perfect, past perfect, future perfect.\n- Progressive tenses: present progressive, past progressive, future progressive.\n- Active and passive voice.\n- Active voice: subject performs the action.\n- Passive voice: subject receives the action.\n- Formation of passive: subject + form of 'be' + past participle + (agent).\n- When to use passive: to de-emphasize the actor, when actor is unknown/unimportant, for objectivity.\n\n---\n\n**Simple Understanding:**\n\n**What are verb tenses?**\n👉 Tenses show the time of an action.\n👉 Six main tenses: present, past, future, present perfect, past perfect, future perfect.\n\n**1. Present Tense:**\n- Describes actions happening now or habitual actions.\n- Example: She works in a bank.\n\n**2. Past Tense:**\n- Describes actions completed in the past.\n- Example: She worked in a bank.\n\n**3. Future Tense:**\n- Describes actions that will happen.\n- Example: She will work in a bank.\n\n**4. Present Perfect Tense:**\n- Action started in the past and continues or is completed now.\n- Form: has/have + past participle.\n- Example: She has worked here for five years.\n\n**5. Past Perfect Tense:**\n- Action completed before another past action.\n- Form: had + past participle.\n- Example: She had worked there before she moved.\n\n**6. Future Perfect Tense:**\n- Action that will be completed before a future time.\n- Form: will have + past participle.\n- Example: She will have finished by tomorrow.\n\n**Progressive Tenses:**\n- Show action in progress.\n- Form: form of 'be' + -ing verb.\n- Present Progressive: She is working now.\n- Past Progressive: She was working yesterday.\n- Future Progressive: She will be working tomorrow.\n\n**Active vs. Passive Voice:**\n- **Active:** Subject does the action. (The cat chased the mouse.)\n- **Passive:** Subject receives the action. (The mouse was chased by the cat.)\n\n**When to use passive:**\n- The actor is unknown.\n- The actor is unimportant.\n- To be objective (scientific writing).\n- To emphasize the receiver of the action.\n\n---\n\n**Important Vocabulary:**\n- Tense = time of the verb\n- Active voice = subject performs action\n- Passive voice = subject receives action\n- Past participle = verb form (e.g., worked, eaten)\n- Progressive = action in progress\n- Agent = the doer of the action (in passive, 'by...')\n\n---\n\n**Quick Revision Points:**\n- Six main tenses: present, past, future, present perfect, past perfect, future perfect.\n- Present perfect: has/have + past participle.\n- Past perfect: had + past participle.\n- Future perfect: will have + past participle.\n- Progressive tenses show action in progress.\n- Passive voice: subject + be + past participle.\n- Use passive when actor is unknown, unimportant, or for objectivity.",
+      "questions": [
+        {
+          "q": "The tense that describes an action happening now is the:",
+          "options": ["A. Past tense", "B. Present tense", "C. Future tense", "D. Past perfect tense"],
+          "answer": "B. Present tense",
+          "diff": "easy"
+        },
+        {
+          "q": "The past perfect tense is formed with:",
+          "options": ["A. Has/have + past participle", "B. Had + past participle", "C. Will have + past participle", "D. Was/were + -ing"],
+          "answer": "B. Had + past participle",
+          "diff": "hard"
+        },
+        {
+          "q": "The present perfect tense is formed with:",
+          "options": ["A. Has/have + past participle", "B. Had + past participle", "C. Will have + past participle", "D. Is/are + -ing"],
+          "answer": "A. Has/have + past participle",
+          "diff": "hard"
+        },
+        {
+          "q": "An action that will be completed before a future time is expressed by the:",
+          "options": ["A. Present perfect", "B. Past perfect", "C. Future perfect", "D. Future"],
+          "answer": "C. Future perfect",
+          "diff": "hard"
+        },
+        {
+          "q": "In an active voice sentence, the subject:",
+          "options": ["A. Receives the action", "B. Performs the action", "C. Is the object", "D. Is not important"],
+          "answer": "B. Performs the action",
+          "diff": "easy"
+        },
+        {
+          "q": "In a passive voice sentence, the subject:",
+          "options": ["A. Performs the action", "B. Receives the action", "C. Is the agent", "D. Is the verb"],
+          "answer": "B. Receives the action",
+          "diff": "easy"
+        },
+        {
+          "q": "A passive sentence is formed with:",
+          "options": ["A. Subject + be + past participle", "B. Subject + verb + object", "C. Subject + have + past participle", "D. Subject + -ing"],
+          "answer": "A. Subject + be + past participle",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a passive sentence?",
+          "options": ["A. The dog chased the cat", "B. The cat was chased by the dog", "C. The dog is chasing the cat", "D. The dog chases the cat"],
+          "answer": "B. The cat was chased by the dog",
+          "diff": "easy"
+        },
+        {
+          "q": "The passive voice is often used in:",
+          "options": ["A. Personal letters", "B. Scientific writing", "C. Casual conversation", "D. Poetry"],
+          "answer": "B. Scientific writing",
+          "diff": "medium"
+        },
+        {
+          "q": "In passive voice, the doer of the action is called the:",
+          "options": ["A. Subject", "B. Object", "C. Agent", "D. Verb"],
+          "answer": "C. Agent",
+          "diff": "hard"
+        },
+        {
+          "q": "The present progressive tense shows:",
+          "options": ["A. A completed action", "B. An action in progress now", "C. A future action", "D. A past action"],
+          "answer": "B. An action in progress now",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is the past progressive tense?",
+          "options": ["A. She works", "B. She worked", "C. She is working", "D. She was working"],
+          "answer": "D. She was working",
+          "diff": "hard"
+        },
+        {
+          "q": "The future progressive tense is formed with:",
+          "options": ["A. Will + verb", "B. Will be + -ing", "C. Is going to + verb", "D. Was + -ing"],
+          "answer": "B. Will be + -ing",
+          "diff": "hard"
+        },
+        {
+          "q": "The agent in a passive sentence is:",
+          "options": ["A. Always included", "B. Often omitted", "C. The subject", "D. The verb"],
+          "answer": "B. Often omitted",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is NOT a reason to use the passive voice?",
+          "options": ["A. The actor is unknown", "B. The actor is unimportant", "C. To emphasize the actor", "D. To be objective"],
+          "answer": "C. To emphasize the actor",
+          "diff": "hard"
+        }
+      ]
     },
-    {
-      q: 'Unsupported conclusions should be:',
-      options: ['A. Accepted', 'B. Avoided', 'C. Ignored sometimes', 'D. Written'],
-      answer: 'B. Avoided',
-      diff: 'easy',
+    "43": {
+      "title": "Grammar and Usage: Word Order (Adverbs) and Specific Words (ENG101 Lecture 43)",
+      "summary": "**Key Topics Covered:**\n- Verb + object: the verb and object usually go together.\n- Place is mentioned before time.\n- Position of adverbs: always, also, probably, etc. go in the middle of the sentence.\n- Still, yet, anymore, any longer, no longer.\n- Although, even though, in spite of, despite.\n- Even: used to emphasize, with comparative forms, with if/when/though.\n- As (time) and as (reason).\n- Like and as.\n\n---\n\n**Simple Understanding:**\n\n**1. Verb + Object:**\n👉 The verb and its object should be together.\n👉 ❌ I like very much animals. → ✅ I like animals very much.\n\n**2. Place before Time:**\n👉 Where? comes before When?.\n👉 ✅ She walks to work every morning.\n👉 ❌ She walks every morning to work.\n\n**3. Position of Adverbs:**\n👉 Adverbs like always, also, probably, usually go in the middle of the sentence.\n👉 ✅ She always goes to work by bus.\n👉 ✅ I was also hungry.\n👉 With multi-word verbs, the adverb goes after the first auxiliary verb.\n👉 ✅ He can never remember my name.\n\n**4. Still, yet, anymore, any longer, no longer:**\n- **Still:** action continues. (She is still working.)\n- **Yet:** in questions/negatives, at the end. (She hasn't arrived yet.)\n- **not… anymore/any longer:** situation has changed. (She doesn't work here anymore.)\n- **no longer:** in the middle. (She no longer works here.)\n\n**5. Although, even though, in spite of, despite:**\n- **Although + subject + verb** (Although he is fat, he is healthy.)\n- **In spite of / despite + noun or -ing** (In spite of the rain, we enjoyed the holiday.)\n\n**6. Even:**\n- Emphasizes something surprising. (Even I can do that.)\n- With comparatives. (It was even colder today.)\n- With if, when, though. (Even if it rains, we'll go.)\n\n**7. As:**\n- **As (time):** two things happening at the same time. (I saw her as I left.)\n- **As (reason):** because. (As I was tired, I went to bed.)\n\n**8. Like vs. As:**\n- **Like:** preposition, followed by noun/pronoun. (She is like a princess.)\n- **As:** conjunction, followed by subject + verb, or to show function. (He works as a teacher.)\n\n---\n\n**Important Vocabulary:**\n- Object = the thing/person receiving the action\n- Adverb = describes a verb, adjective, or other adverb\n- Contraction = shortened form (don't, can't)\n- Comparative = comparing two things (bigger)\n- Preposition = shows relationship (in, on, at)\n\n---\n\n**Quick Revision Points:**\n- Verb + object go together.\n- Place before time.\n- Adverbs like always, also in the middle.\n- Still = continuing; yet = not completed.\n- Although + clause; in spite of + noun.\n- Even = surprising; with comparatives.\n- As = time or reason.\n- Like + noun; as + clause or function.",
+      "questions": [
+        {
+          "q": "Which sentence has correct word order?",
+          "options": ["A. I like very much animals.", "B. I like animals very much.", "C. I very much like animals.", "D. Very much I like animals."],
+          "answer": "B. I like animals very much.",
+          "diff": "easy"
+        },
+        {
+          "q": "In English, place is mentioned _______ time.",
+          "options": ["A. Before", "B. After", "C. With", "D. Instead of"],
+          "answer": "A. Before",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following sentences has the adverb in the correct position?",
+          "options": ["A. She goes always to work by bus.", "B. She always goes to work by bus.", "C. Always she goes to work by bus.", "D. She goes to work by bus always."],
+          "answer": "B. She always goes to work by bus.",
+          "diff": "easy"
+        },
+        {
+          "q": "The word 'still' is used to show:",
+          "options": ["A. A completed action", "B. A continuing action", "C. A future action", "D. A past action"],
+          "answer": "B. A continuing action",
+          "diff": "easy"
+        },
+        {
+          "q": "The word 'yet' is usually used in:",
+          "options": ["A. Positive sentences", "B. Questions and negative sentences", "C. Only past tense", "D. Only future tense"],
+          "answer": "B. Questions and negative sentences",
+          "diff": "medium"
+        },
+        {
+          "q": "'No longer' is placed in the _______ of the sentence.",
+          "options": ["A. Beginning", "B. Middle", "C. End", "D. After the object"],
+          "answer": "B. Middle",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is correct?",
+          "options": ["A. Although the rain, we enjoyed the holiday.", "B. In spite of the rain, we enjoyed the holiday.", "C. Despite the rain, we enjoyed the holiday.", "D. Both B and C"],
+          "answer": "D. Both B and C",
+          "diff": "hard"
+        },
+        {
+          "q": "The phrase 'not... anymore' is used to show:",
+          "options": ["A. An action is continuing", "B. A situation has changed", "C. A future action", "D. A past action"],
+          "answer": "B. A situation has changed",
+          "diff": "hard"
+        },
+        {
+          "q": "The word 'even' is used to:",
+          "options": ["A. Show something is ordinary", "B. Emphasize something surprising", "C. Show contrast", "D. Show time"],
+          "answer": "B. Emphasize something surprising",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is correct?",
+          "options": ["A. She is beautiful as a princess.", "B. She is beautiful like a princess.", "C. She is beautiful like princess.", "D. She is beautiful as princess."],
+          "answer": "B. She is beautiful like a princess.",
+          "diff": "hard"
+        },
+        {
+          "q": "As is used to show reason and means:",
+          "options": ["A. Although", "B. Because", "C. However", "D. Then"],
+          "answer": "B. Because",
+          "diff": "easy"
+        },
+        {
+          "q": "The word 'although' is followed by:",
+          "options": ["A. A noun", "B. Subject + verb", "C. An adjective", "D. A prepositional phrase"],
+          "answer": "B. Subject + verb",
+          "diff": "medium"
+        },
+        {
+          "q": "Which sentence uses 'as' correctly for time?",
+          "options": ["A. I saw her as I left.", "B. As I was tired, I slept.", "C. As a teacher, he is good.", "D. She is as tall as me."],
+          "answer": "A. I saw her as I left.",
+          "diff": "hard"
+        },
+        {
+          "q": "The adverb 'probably' goes in the middle of the sentence. Which is correct?",
+          "options": ["A. He probably will see you.", "B. He will probably see you.", "C. Probably he will see you.", "D. He will see you probably."],
+          "answer": "B. He will probably see you.",
+          "diff": "hard"
+        },
+        {
+          "q": "'In spite of' is followed by:",
+          "options": ["A. A clause", "B. A noun or -ing", "C. A subject + verb", "D. An adverb"],
+          "answer": "B. A noun or -ing",
+          "diff": "hard"
+        }
+      ]
     },
-    {
-      q: 'Silent reading improves:',
-      options: ['A. Speed only', 'B. Understanding only', 'C. Both speed and comprehension', 'D. Nothing'],
-      answer: 'C. Both speed and comprehension',
-      diff: 'medium',
+    "44": {
+      "title": "Grammar and Usage: Articles (ENG101 Lecture 44)",
+      "summary": "**Key Topics Covered:**\n- Articles: 'a/an' (indefinite) and 'the' (definite).\n- Determiners: articles, demonstratives, possessives, quantifiers, wh-determiners.\n- 'A/an' is used with singular count nouns for indefinite meaning.\n- 'The' is used for definite meaning (specific, known).\n- Zero article (no article) is used for plural count nouns and mass nouns for indefinite meaning.\n- Specific vs. generic meaning.\n- Articles with proper nouns.\n\n---\n\n**Simple Understanding:**\n\n**What are articles?**\n👉 Articles are determiners that come before nouns.\n👉 **Definite article:** the (for specific or known things).\n👉 **Indefinite article:** a/an (for non-specific things).\n\n**Forms:**\n- 'a' before consonant sounds: a dog, a pilot.\n- 'an' before vowel sounds: an apple, an egg.\n- 'the' pronounced /ðə/ before consonants, /ði/ before vowels.\n\n**Usage Rules:**\n\n**1. Definite Article 'the':**\n- Used when the reader/listener knows which one.\n- Second mention: I bought a TV and a video. I returned the video.\n- Unique: the sun, the earth, the moon.\n- With post-modification: the book you gave me.\n\n**2. Indefinite Article 'a/an':**\n- Used with singular count nouns.\n- First mention: I saw a film.\n- Generic: A peacock is a beautiful bird.\n\n**3. Zero Article (no article):**\n- Used with plural count nouns for general meaning: Dogs are friendly.\n- Used with mass nouns for general meaning: Water is essential.\n- Used with most proper nouns: Pakistan, Lahore, John.\n\n**Generic Meaning:**\n- 'The' + singular count noun: The peacock is a beautiful bird. (species)\n- 'A' + singular count noun: A peacock is a beautiful bird. (any member)\n- Zero article + plural count noun: Peacocks are beautiful birds. (species)\n\n**Proper Nouns with Articles:**\n- Usually no article: Pakistan, Lahore, John.\n- Exceptions: the Punjab, the Sahara, the Hague.\n- With plural names: the Himalayas, the Netherlands.\n\n---\n\n**Important Vocabulary:**\n- Article = a, an, the\n- Definite = specific/known\n- Indefinite = non-specific/unknown\n- Count noun = can be counted (dog, book)\n- Mass noun = cannot be counted (water, music)\n- Generic = referring to a whole class\n- Proper noun = name of a specific person, place, or thing\n- Zero article = no article\n\n---\n\n**Quick Revision Points:**\n- 'a/an' = indefinite, singular count nouns.\n- 'the' = definite, specific.\n- Zero article = plural count nouns and mass nouns (general).\n- Generic: 'the peacock' = species; 'a peacock' = any member.\n- Proper nouns usually take no article.",
+      "questions": [
+        {
+          "q": "The indefinite article 'a' is used before:",
+          "options": ["A. Vowel sounds", "B. Consonant sounds", "C. Plural nouns", "D. Mass nouns"],
+          "answer": "B. Consonant sounds",
+          "diff": "easy"
+        },
+        {
+          "q": "The indefinite article 'an' is used before:",
+          "options": ["A. Consonant sounds", "B. Vowel sounds", "C. Plural nouns", "D. Mass nouns"],
+          "answer": "B. Vowel sounds",
+          "diff": "easy"
+        },
+        {
+          "q": "The definite article 'the' is used:",
+          "options": ["A. For non-specific things", "B. For specific or known things", "C. Only with singular nouns", "D. Before plural nouns only"],
+          "answer": "B. For specific or known things",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following requires the definite article 'the'?",
+          "options": ["A. A book", "B. The sun", "C. An apple", "D. Water"],
+          "answer": "B. The sun",
+          "diff": "easy"
+        },
+        {
+          "q": "Zero article (no article) is used with:",
+          "options": ["A. Singular count nouns", "B. Plural count nouns and mass nouns for general meaning", "C. Only mass nouns", "D. Only proper nouns"],
+          "answer": "B. Plural count nouns and mass nouns for general meaning",
+          "diff": "hard"
+        },
+        {
+          "q": "Which sentence uses the generic meaning?",
+          "options": ["A. The dog is in the garden.", "B. A dog is a loyal animal.", "C. The dog is a loyal animal.", "D. Both B and C"],
+          "answer": "D. Both B and C",
+          "diff": "hard"
+        },
+        {
+          "q": "In the sentence 'Pass the butter please', 'the' is used because:",
+          "options": ["A. Butter is a mass noun", "B. The butter is specific/known in context", "C. It is a first mention", "D. It is a plural noun"],
+          "answer": "B. The butter is specific/known in context",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a proper noun that usually takes the definite article?",
+          "options": ["A. Pakistan", "B. Lahore", "C. The Himalayas", "D. John"],
+          "answer": "C. The Himalayas",
+          "diff": "hard"
+        },
+        {
+          "q": "In the sentence 'I like milk', the article is omitted because:",
+          "options": ["A. Milk is a count noun", "B. Milk is a mass noun used generally", "C. Milk is a proper noun", "D. It should be 'the milk'"],
+          "answer": "B. Milk is a mass noun used generally",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is correct?",
+          "options": ["A. She is the Mrs. Butt.", "B. She is a Mrs. Butt.", "C. She is Mrs. Butt.", "D. Both B and C can be correct depending on meaning"],
+          "answer": "D. Both B and C can be correct depending on meaning",
+          "diff": "hard"
+        },
+        {
+          "q": "The phrase 'a boy' refers to:",
+          "options": ["A. A specific boy", "B. Any boy, non-specific", "C. All boys", "D. No boy"],
+          "answer": "B. Any boy, non-specific",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following uses the definite article for a unique object?",
+          "options": ["A. A moon", "B. The moon", "C. Moon", "D. Moons"],
+          "answer": "B. The moon",
+          "diff": "easy"
+        },
+        {
+          "q": "The phrase 'the rich' means:",
+          "options": ["A. A rich person", "B. Rich people in general (class)", "C. A rich thing", "D. Richness"],
+          "answer": "B. Rich people in general (class)",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following requires the definite article?",
+          "options": ["A. History of Japan", "B. Japanese history", "C. Japan history", "D. History Japan"],
+          "answer": "A. History of Japan",
+          "diff": "hard"
+        },
+        {
+          "q": "The phrase 'by car' has no article because it refers to:",
+          "options": ["A. A specific car", "B. A means of transport", "C. A car being repaired", "D. The car"],
+          "answer": "B. A means of transport",
+          "diff": "hard"
+        }
+      ]
     },
-    {
-      q: 'Inference uses:',
-      options: ['A. Only text', 'B. Only experience', 'C. Text + experience + logic', 'D. Guess'],
-      answer: 'C. Text + experience + logic',
-      diff: 'hard',
-    },
-    {
-      q: 'Poor readers usually:',
-      options: ['A. Read silently', 'B. Avoid vocalization', 'C. Use vocalization', 'D. Read fast'],
-      answer: 'C. Use vocalization',
-      diff: 'medium',
-    },
-  ],
-},
-
-
-
-
-// lecture 12 //
-
-12: {
-  title: 'Inference, Fact vs Opinion & Time Relaters',
-  summary: `**Key Topics Covered:**
-- Making inferences (practice)
-- Logical reasoning
-- Fact vs Opinion
-- Value words
-- Time relaters (time expressions)
-- Understanding paragraphs
-
----
-
-**Simple Understanding:**
-
-**Making Inferences (Advanced):**
-👉 Inference = hidden meaning samajhna  
-
-👉 Direct likha nahi hota  
-👉 Clues + logic use karte hain  
-
----
-
-**Important Rule:**
-👉 Sirf wahi inference choose karo jo strongly supported ho  
-
-👉 Weak ya guess-based answer avoid karo  
-
----
-
-**Examples:**
-
-👉 School mein police ho:
-➡️ Problem ya discipline issue ho sakta hai  
-
-👉 Dog cringes:
-➡️ Dog dara hua hai ya abuse hua hai  
-
----
-
-**Logical Thinking:**
-👉 Har statement ka correct inference:
-- Evidence based hona chahiye  
-- Guess nahi hona chahiye  
-
----
-
-**Superautomation (Concept):**
-👉 Machines aur computers ka use kaam automate karne ke liye  
-
-👉 Effects:
-- Jobs replace ho sakti hain  
-- New jobs create hoti hain  
-- Work efficient hota hai  
-
----
-
-**Fact vs Opinion:**
-
-👉 Fact:
-- Real, verifiable  
-- Evidence hota hai  
-
-👉 Opinion:
-- Personal belief  
-- Prove nahi hota  
-
----
-
-**Important Rules:**
-
-👉 Fact galat bhi ho sakta hai (new evidence se)  
-👉 Opinion ko kabhi fact jaisa present kiya jata hai  
-👉 Value words = opinion  
-
----
-
-**Value Words Examples:**
-👉 good, bad, best, worst, great, terrible  
-
-👉 Yeh subjective hote hain  
-
----
-
-**Time Relaters:**
-
-👉 Time show karte hain  
-
----
-
-**Present Time:**
-👉 now, today, at present, at the moment  
-
----
-
-**Simultaneous (same time):**
-👉 meanwhile, at the same time  
-
----
-
-**Future / After:**
-👉 later, next, afterwards, soon  
-
----
-
-**Understanding Paragraphs:**
-👉 Time relaters help:
-- Sequence samajhne mein  
-- Events order identify karne mein  
-
----
-
-**Quick Revision Points:**
-- Inference = hidden meaning  
-- Strong inference = logical + evidence  
-- Guess avoid karo  
-- Fact = proven  
-- Opinion = belief  
-- Value words = opinion  
-- Time relaters = sequence show karte hain  
-- meanwhile = same time  
-- afterwards = later`,
-
-  questions: [
-    {
-      q: 'Inference means:',
-      options: ['A. Direct meaning', 'B. Hidden meaning', 'C. No meaning', 'D. Guess'],
-      answer: 'B. Hidden meaning',
-      diff: 'easy',
-    },
-    {
-      q: 'Strong inference is based on:',
-      options: ['A. Guess', 'B. Emotion', 'C. Logic and evidence', 'D. Memory'],
-      answer: 'C. Logic and evidence',
-      diff: 'easy',
-    },
-    {
-      q: 'A dog cringes when touched. Best inference:',
-      options: ['A. Dog is happy', 'B. Dog is hungry', 'C. Dog is afraid', 'D. Dog is fast'],
-      answer: 'C. Dog is afraid',
-      diff: 'easy',
-    },
-    {
-      q: 'Police in school may indicate:',
-      options: ['A. Party', 'B. Discipline issue', 'C. Sports event', 'D. Holiday'],
-      answer: 'B. Discipline issue',
-      diff: 'medium',
-    },
-    {
-      q: 'Fact is:',
-      options: ['A. Opinion', 'B. Guess', 'C. Verifiable truth', 'D. Feeling'],
-      answer: 'C. Verifiable truth',
-      diff: 'easy',
-    },
-    {
-      q: 'Opinion is:',
-      options: ['A. Proven fact', 'B. Personal belief', 'C. Data', 'D. Number'],
-      answer: 'B. Personal belief',
-      diff: 'easy',
-    },
-    {
-      q: 'Value words represent:',
-      options: ['A. Facts', 'B. Opinions', 'C. Numbers', 'D. Data'],
-      answer: 'B. Opinions',
-      diff: 'easy',
-    },
-    {
-      q: 'Which is a value word?',
-      options: ['A. Computer', 'B. Good', 'C. Data', 'D. Input'],
-      answer: 'B. Good',
-      diff: 'easy',
-    },
-    {
-      q: '“Now” is a:',
-      options: ['A. Past relater', 'B. Time relater', 'C. Verb', 'D. Noun'],
-      answer: 'B. Time relater',
-      diff: 'easy',
-    },
-    {
-      q: '“Meanwhile” shows:',
-      options: ['A. Past', 'B. Future', 'C. Same time', 'D. End'],
-      answer: 'C. Same time',
-      diff: 'medium',
-    },
-    {
-      q: '“Afterwards” means:',
-      options: ['A. Before', 'B. During', 'C. Later', 'D. Now'],
-      answer: 'C. Later',
-      diff: 'easy',
-    },
-    {
-      q: 'Superautomation means:',
-      options: ['A. Manual work', 'B. Automated machines', 'C. Slow work', 'D. No work'],
-      answer: 'B. Automated machines',
-      diff: 'medium',
-    },
-    {
-      q: 'Machines help to:',
-      options: ['A. Reduce work', 'B. Increase errors', 'C. Stop jobs', 'D. Waste time'],
-      answer: 'A. Reduce work',
-      diff: 'easy',
-    },
-    {
-      q: 'Opinion may be presented as:',
-      options: ['A. Fact', 'B. Data', 'C. Code', 'D. Input'],
-      answer: 'A. Fact',
-      diff: 'hard',
-    },
-    {
-      q: 'Time relaters help in:',
-      options: ['A. Grammar only', 'B. Sequence understanding', 'C. Writing only', 'D. Speaking'],
-      answer: 'B. Sequence understanding',
-      diff: 'medium',
-    },
-  ],
-},
-
-
-
-
-//lecture 13 ///
-
-
-13: {
-  title: "Fact vs Opinion and Time Sequences (Lecture 13)",
-  summary: `**Key Topics Covered:**
-- Distinguishing facts from opinions
-- What is a fact (provable through objective evidence)
-- What is an opinion (expresses beliefs, feelings, judgments)
-- Value-words as signals of opinion (good, bad, best, worst, etc.)
-- Facts can be untrue; opinions can be masked as facts
-- Mixture of fact and opinion in real texts
-- Time sequences: simultaneous, subsequent, and prior events
-- Time relaters (adjectives and adverbials) for chronological order
-
----
-
-**Simple Understanding:**
-
-**Fact vs Opinion:**
-👉 **Fact:** A statement that can be proved true through objective evidence (physical proof, witness testimony).
-   Example: "The neem tree is 25 feet tall" – can be measured.
-👉 **Opinion:** A statement that cannot be objectively proved true or false; expresses beliefs, feelings, judgments.
-   Example: "The building is the most beautiful in Lahore" – beauty is subjective.
-
-**Value-Words:**
-👉 Words like good, bad, best, worst, beautiful, terrible signal an opinion.
-👉 These are subjective, not objective.
-
-**Important Distinctions:**
-- A statement of fact may turn out to be false (new evidence).
-- Opinions can be presented as facts (e.g., "The economy is in the worst shape").
-- Much of what we read/hear is a mixture of fact and opinion.
-
----
-
-**Time Sequences in Texts:**
-👉 Events occur before, during, or after other events.
-👉 Time relaters help order information chronologically, logically, or causally.
-
-**Simultaneous (during):**
-👉 at present, at this point, now, today, meanwhile, at the same time
-
-**Subsequent (after):**
-👉 afterwards, after that, eventually, since then, soon, next, later, following
-
-**Prior (before):**
-👉 earlier, previously, before, formerly
-
----
-
-**Sample Analysis:**
-👉 "More than 5000 years ago, a need to count was recognized… first fingers, then pebbles… Since that time, the abacus was invented… During the 17th and 18th centuries… It was not until the early 1800s… not too long after, Charles Babbage designed…"
-
----
-
-**Important Vocabulary:**
-- Fact = provable statement
-- Opinion = subjective judgment
-- Value-word = signals opinion (good, best, etc.)
-- Objective = based on observable reality
-- Subjective = based on personal interpretation
-- Time relater = word/phrase indicating time sequence
-- Simultaneous = happening at the same time
-- Subsequent = happening after
-- Prior = happening before
-
----
-
-**Quick Revision Points:**
-- Facts can be verified; opinions cannot.
-- Value-words (good, bad, best) indicate opinion.
-- Facts may be false if evidence disproves them.
-- Opinions can be masked as facts using phrases like "in fact".
-- Time relaters organize chronological order.
-- Recognizing time sequences is crucial for understanding historical, scientific, and procedural texts.`,
-  questions: [
-    {
-      "q": "A statement that can be proved true through objective evidence is called a:",
-      "options": ["A. Fact", "B. Opinion", "C. Value-word", "D. Judgment"],
-      "answer": "A. Fact",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is an opinion?",
-      "options": ["A. The neem tree is 25 feet tall.", "B. Pakistan won the 1992 World Cup.", "C. The Alhamra Arts Council building is the most beautiful building in Lahore.", "D. The Lahore Museum is the oldest museum in Pakistan."],
-      "answer": "C. The Alhamra Arts Council building is the most beautiful building in Lahore.",
-      "diff": "easy"
-    },
-    {
-      "q": "Words like 'good', 'bad', 'best', 'worst' are called:",
-      "options": ["A. Facts", "B. Time relaters", "C. Value-words", "D. Objective terms"],
-      "answer": "C. Value-words",
-      "diff": "easy"
-    },
-    {
-      "q": "Which statement is a fact?",
-      "options": ["A. My brother is very handsome.", "B. Mohammad Ali Bogra was the worst Prime Minister.", "C. Ostriches do not hide their heads in the sand.", "D. The Pakistan cricket team is the best in the world."],
-      "answer": "C. Ostriches do not hide their heads in the sand.",
-      "diff": "easy"
-    },
-    {
-      "q": "A statement of fact may be found to be untrue if:",
-      "options": ["A. It is an opinion", "B. New evidence disproves it", "C. It contains value-words", "D. It is subjective"],
-      "answer": "B. New evidence disproves it",
-      "diff": "easy"
-    },
-    {
-      "q": "Which phrase often masks an opinion as a fact?",
-      "options": ["A. 'It is raining outside'", "B. 'In point of fact'", "C. 'The tree is 25 feet tall'", "D. 'The museum opened in 1864'"],
-      "answer": "B. 'In point of fact'",
-      "diff": "medium"
-    },
-    {
-      "q": "The statement 'It is bad weather' is considered:",
-      "options": ["A. A fact", "B. An objective observation", "C. A subjective interpretation", "D. A verifiable truth"],
-      "answer": "C. A subjective interpretation",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is a time relater indicating simultaneous action?",
-      "options": ["A. Afterwards", "B. Meanwhile", "C. Later", "D. Eventually"],
-      "answer": "B. Meanwhile",
-      "diff": "easy"
-    },
-    {
-      "q": "Which time relater indicates subsequent (after) action?",
-      "options": ["A. At present", "B. At the same time", "C. Since then", "D. Now"],
-      "answer": "C. Since then",
-      "diff": "easy"
-    },
-    {
-      "q": "In the sentence 'It was not until the early 1800s that the first calculating machine appeared', the time relater is:",
-      "options": ["A. Not until", "B. Since then", "C. During", "D. After that"],
-      "answer": "A. Not until",
-      "diff": "medium"
-    },
-    {
-      "q": "Read the following: 'She is one of the most interesting figures in Egyptian history.' This statement is:",
-      "options": ["A. Fact", "B. Opinion", "C. Verifiable", "D. Objective"],
-      "answer": "B. Opinion",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'According to historical records' before a statement usually signals:",
-      "options": ["A. Opinion", "B. A fact (or claimed fact)", "C. A value-word", "D. A time relater"],
-      "answer": "B. A fact (or claimed fact)",
-      "diff": "easy"
-    },
-    {
-      "q": "In the paragraph about computers, 'But since then, computers have evolved tremendously.' The words 'since then' indicate:",
-      "options": ["A. Simultaneous time", "B. Prior time", "C. Subsequent time", "D. No time reference"],
-      "answer": "C. Subsequent time",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is a value-word?",
-      "options": ["A. Yesterday", "B. Beautiful", "C. Meanwhile", "D. Subsequently"],
-      "answer": "B. Beautiful",
-      "diff": "easy"
-    },
-    {
-      "q": "An advertisement claims a car 'is the most economical on the road.' This is most likely:",
-      "options": ["A. A fact", "B. An opinion (economical is debatable)", "C. A historical record", "D. A scientific law"],
-      "answer": "B. An opinion (economical is debatable)",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'the truth of the matter is' often introduces:",
-      "options": ["A. An objective fact", "B. A masked opinion", "C. A time relater", "D. A simultaneous event"],
-      "answer": "B. A masked opinion",
-      "diff": "medium"
-    },
-    {
-      "q": "Which sentence is a mixture of fact and opinion?",
-      "options": ["A. 'Edgar Allan Poe was born in 1809.'", "B. 'Edgar Allan Poe is the greatest writer of horror stories.'", "C. 'Edgar Allan Poe wrote 'The Raven'.'", "D. 'Poe had to leave the University of Virginia because he couldn't pay his debts.'"],
-      "answer": "B. 'Edgar Allan Poe is the greatest writer of horror stories.'",
-      "diff": "easy"
-    },
-    {
-      "q": "Time relaters help to order information in which way?",
-      "options": ["A. Alphabetically", "B. Chronologically, logically, or causally", "C. Randomly", "D. By importance"],
-      "answer": "B. Chronologically, logically, or causally",
-      "diff": "easy"
-    },
-    {
-      "q": "In the sentence 'During the 17th and 18th centuries many easy ways of calculating were devised,' the time relater is:",
-      "options": ["A. During", "B. Were devised", "C. Many easy ways", "D. Calculating"],
-      "answer": "A. During",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is NOT a time relater?",
-      "options": ["A. Afterwards", "B. Eventually", "C. Beautiful", "D. Meanwhile"],
-      "answer": "C. Beautiful",
-      "diff": "easy"
+    45: {
+      "title": "Language Forms and Functions (ENG101 Lecture 45)",
+      "summary": "**Key Topics Covered:**\n- Language function: what you want to do with language.\n- Functions: request information, give information, establish contact, express emotions, influence others, judge/evaluate.\n- Language forms: the grammatical structures and vocabulary used to perform a function.\n- Appropriate use depends on situation and audience (formal vs. informal).\n- Practice in identifying functions from sentences and conversations.\n\n---\n\n**Simple Understanding:**\n\n**What is a language function?**\n👉 A language function is what you are trying to do when you speak or write.\n👉 Examples: asking for information, expressing an opinion, apologizing, thanking, disagreeing.\n\n**Common Language Functions:**\n1. **Requesting information:** asking questions.\n2. **Giving information:** describing, explaining.\n3. **Establishing contact:** greetings, introductions, farewells.\n4. **Responding:** apologizing, agreeing, disagreeing, thanking.\n5. **Expressing emotions:** fear, happiness, shock, surprise.\n6. **Influencing others:** blaming, warning, ordering.\n7. **Judging:** complaining, comparing, criticizing, praising.\n\n**Language Form:**\n👉 The words and grammar structures you use to express a function.\n👉 **Example:** To express disagreement:\n   - Informal: 'That's not true!'\n   - Formal: 'I'm afraid I don't quite agree with you.'\n\n**Context and Audience:**\n- The function and form you choose depend on the situation and the person you are talking to.\n- A friend: casual language.\n- A boss or teacher: polite and formal language.\n\n**Identifying Functions:**\n- Look at what the speaker is trying to do.\n- Example: 'It was nice of you to invite me.' → expressing gratitude/appreciation.\n- Example: 'I think he's marvelous.' → expressing admiration.\n\n---\n\n**Important Vocabulary:**\n- Function = purpose of the language\n- Form = words and grammar used\n- Context = situation\n- Audience = the person being spoken to\n- Formal = polite, official language\n- Informal = casual, friendly language\n- Utterance = a spoken statement\n\n---\n\n**Quick Revision Points:**\n- Language functions are what we do with language.\n- Common functions: requesting, giving information, greeting, responding, expressing emotions, influencing, judging.\n- Language forms are the structures used to perform functions.\n- Choice of form depends on context and audience (formal/informal).\n- To identify a function, ask: What is the speaker trying to do?",
+      "questions": [
+        {
+          "q": "A language function is:",
+          "options": ["A. A grammatical structure", "B. What you want to do with language", "C. A vocabulary word", "D. A type of sentence"],
+          "answer": "B. What you want to do with language",
+          "diff": "easy"
+        },
+        {
+          "q": "The function of 'Where is the suitcase?' is:",
+          "options": ["A. Giving information", "B. Requesting information", "C. Expressing emotion", "D. Influencing others"],
+          "answer": "B. Requesting information",
+          "diff": "easy"
+        },
+        {
+          "q": "The function of 'Open the window' is:",
+          "options": ["A. Requesting information", "B. Influencing others (making someone do something)", "C. Expressing emotions", "D. Judging"],
+          "answer": "B. Influencing others (making someone do something)",
+          "diff": "easy"
+        },
+        {
+          "q": "The function of 'I'll pay you next week' is:",
+          "options": ["A. Making a promise", "B. Giving information", "C. Requesting", "D. Thanking"],
+          "answer": "A. Making a promise",
+          "diff": "easy"
+        },
+        {
+          "q": "Which of the following is an example of expressing appreciation?",
+          "options": ["A. It was nice of you to invite me.", "B. Are you coming?", "C. Close the door!", "D. I am happy."],
+          "answer": "A. It was nice of you to invite me.",
+          "diff": "medium"
+        },
+        {
+          "q": "In the conversation, 'Do you? I think he's marvelous,' the function is:",
+          "options": ["A. Expressing disagreement", "B. Expressing admiration", "C. Requesting information", "D. Warning"],
+          "answer": "B. Expressing admiration",
+          "diff": "hard"
+        },
+        {
+          "q": "The phrase 'Excuse me, sir; you may not be quite right there' expresses:",
+          "options": ["A. Informal disagreement", "B. Formal and polite disagreement", "C. Agreement", "D. Fear"],
+          "answer": "B. Formal and polite disagreement",
+          "diff": "hard"
+        },
+        {
+          "q": "Which of the following is a language function?",
+          "options": ["A. Noun", "B. Verb", "C. Greeting", "D. Punctuation"],
+          "answer": "C. Greeting",
+          "diff": "easy"
+        },
+        {
+          "q": "The response 'That's very kind of you' expresses:",
+          "options": ["A. Disagreement", "B. Gratitude", "C. Surprise", "D. Anger"],
+          "answer": "B. Gratitude",
+          "diff": "easy"
+        },
+        {
+          "q": "The sentence 'I wouldn't do that if I were you' expresses:",
+          "options": ["A. Discouragement", "B. Encouragement", "C. Agreement", "D. Request"],
+          "answer": "A. Discouragement",
+          "diff": "hard"
+        },
+        {
+          "q": "The function of 'Oh, no!' in response to bad news is:",
+          "options": ["A. Disbelief or shock", "B. Agreement", "C. Thanking", "D. Requesting"],
+          "answer": "A. Disbelief or shock",
+          "diff": "medium"
+        },
+        {
+          "q": "The choice of language form (formal/informal) depends on:",
+          "options": ["A. The topic only", "B. The situation and audience", "C. The grammar rules", "D. The dictionary"],
+          "answer": "B. The situation and audience",
+          "diff": "medium"
+        },
+        {
+          "q": "The function of 'How about going to the theatre tonight?' is:",
+          "options": ["A. Request", "B. Suggestion", "C. Command", "D. Complaint"],
+          "answer": "B. Suggestion",
+          "diff": "easy"
+        },
+        {
+          "q": "The function of 'I'm sorry, sir' in response to criticism is:",
+          "options": ["A. Showing regret", "B. Expressing anger", "C. Making a request", "D. Giving information"],
+          "answer": "A. Showing regret",
+          "diff": "medium"
+        },
+        {
+          "q": "In 'I don't believe it,' the function is:",
+          "options": ["A. Denial", "B. Disbelief", "C. Agreement", "D. Surprise"],
+          "answer": "B. Disbelief",
+          "diff": "hard"
+        }
+      ]
     }
-  ]
-},
+  }
 
-14: {
-  title: "Character Description and Using Examples in Writing (ENG 101 Lesson 14)",
-  summary: `**Key Topics Covered:**
-- Analyzing character through descriptive language and details
-- How word choice reveals personality (e.g., "trenchant", "apothecary kind of way")
-- Examples from Dickens (Great Expectations, Hard Times) and Wodehouse (Thank You, Jeeves)
-- Using specific, vivid details to make characters come alive
-- Markers for giving examples (e.g., for example, such as, namely, for instance)
-- Implicit vs explicit exemplification
 
----
 
-**Simple Understanding:**
-
-**Character Description Through Language:**
-👉 Writers reveal character traits through carefully chosen words and actions.
-👉 Example: Mrs. Gargery cutting bread – “trenchant” (sharp/forceful), “apothecary kind of way” (suggests clinical, unfeeling), “slapping dexterity” (rough efficiency). Shows she is practical, harsh, not tender.
-
-👉 Jeeves dialogue: formal, respectful, precise – “I can conceive that after what occurred…”, “the contingency need scarcely arise”. Shows intelligence, restraint, loyalty.
-
-👉 Thomas Gradgrind: “man of realities… facts and calculations… two and two are four”. Repetition of “sir”, rejection of “nonsensical belief”. Shows rigid, utilitarian, emotionless.
-
-**Writing Vivid Characters:**
-👉 Use specific physical details: “leathery white face”, “enormous gumboots”, “peppered with a white-and-black bristle”.
-👉 Use actions and mannerisms: “tut over his machine as if it were some moody woman”.
-👉 Use contrast: “tall, silent, dark man, very gentle”.
-
----
-
-**Markers for Examples (Exemplification):**
-👉 Explicit markers: such as, for example, for instance, namely, like, illustrated by, as an example, that is, etc.
-👉 Examples from text:
-   - “such as: addition, subtraction, division…”
-   - “namely: Is one number less than another?…”
-   - “for example, they can solve certain arithmetic problems…”
-   - “for instance, can be done quite easily”
-
-**Placement:** Markers can be before or after the example, sometimes set off by commas.
-
-**Implicit Examples:** Not all texts use explicit markers; sometimes examples are given without signals.
-
----
-
-**Important Vocabulary:**
-- Trenchant = sharp, incisive, forceful
-- Apothecary = pharmacist (clinical, detached)
-- Dexterity = skill, nimbleness
-- Peremptorily = abruptly, commandingly
-- Suppositious = hypothetical, assumed
-- Contingency = possible future event
-- Exemplification = giving examples
-- Explicit = clearly stated
-- Implicit = implied, not directly stated
-
----
-
-**Quick Revision Points:**
-- Character description: choose specific verbs, nouns, adjectives.
-- Actions reveal personality (how someone does something).
-- Physical details create vivid mental images.
-- Example markers: such as, for example, for instance, namely, like.
-- Use examples to clarify abstract concepts.
-- Examples can be lists, phrases, or full sentences.`,
-  questions: [
-    {
-      "q": "In the passage from Great Expectations, the word 'trenchant' used to describe Mrs. Gargery's way of cutting bread suggests:",
-      "options": ["A. Gentle and careful", "B. Sharp and forceful", "C. Slow and lazy", "D. Kind and loving"],
-      "answer": "B. Sharp and forceful",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'in an apothecary kind of way' implies that Mrs. Gargery's butter-spreading is:",
-      "options": ["A. Artistic and creative", "B. Clinical and detached", "C. Enthusiastic and joyful", "D. Hasty and careless"],
-      "answer": "B. Clinical and detached",
-      "diff": "medium"
-    },
-    {
-      "q": "In the dialogue from 'Thank You, Jeeves', Jeeves' use of words like 'conceive' and 'contingency' indicates he is:",
-      "options": ["A. Uneducated and simple", "B. Formal and intelligent", "C. Angry and aggressive", "D. Sad and depressed"],
-      "answer": "B. Formal and intelligent",
-      "diff": "easy"
-    },
-    {
-      "q": "Thomas Gradgrind is described as 'a man of realities... a man of facts and calculations'. This characterization suggests he is:",
-      "options": ["A. Imaginative and creative", "B. Rigid and utilitarian", "C. Emotional and sympathetic", "D. Humorous and light-hearted"],
-      "answer": "B. Rigid and utilitarian",
-      "diff": "easy"
-    },
-    {
-      "q": "The repetition of 'sir' in the description of Thomas Gradgrind emphasizes his:",
-      "options": ["A. Politeness", "B. Authoritative and dismissive tone", "C. Friendliness", "D. Uncertainty"],
-      "answer": "B. Authoritative and dismissive tone",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following is an example of a vivid physical detail used to describe a character?",
-      "options": ["A. 'He was a tall man'", "B. 'leathery white face under black hair'", "C. 'He was nice'", "D. 'She was kind'"],
-      "answer": "B. 'leathery white face under black hair'",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'tut over his machine as if it were some moody woman' reveals the farmer is:",
-      "options": ["A. Indifferent to his machine", "B. Treating the machine with gentle concern", "C. Angry at the machine", "D. Scared of the machine"],
-      "answer": "B. Treating the machine with gentle concern",
-      "diff": "medium"
-    },
-    {
-      "q": "Which word is an explicit marker for giving an example?",
-      "options": ["A. However", "B. Therefore", "C. For instance", "D. Meanwhile"],
-      "answer": "C. For instance",
-      "diff": "easy"
-    },
-    {
-      "q": "In the sentence 'Computers have circuits for performing arithmetic operations such as addition, subtraction, division...', the marker 'such as' introduces:",
-      "options": ["A. A conclusion", "B. An example", "C. A contrast", "D. A cause"],
-      "answer": "B. An example",
-      "diff": "easy"
-    },
-    {
-      "q": "The word 'namely' is typically used to introduce:",
-      "options": ["A. A list of specific examples", "B. A contradictory statement", "C. A time sequence", "D. A rhetorical question"],
-      "answer": "A. A list of specific examples",
-      "diff": "easy"
-    },
-    {
-      "q": "Which sentence uses an example marker correctly?",
-      "options": ["A. 'Computers are fast, for example they can solve problems quickly.'", "B. 'Computers are fast; for example, they can solve problems quickly.'", "C. 'Computers are fast, namely they can solve problems quickly.'", "D. 'Computers are fast such as they can solve problems quickly.'"],
-      "answer": "B. 'Computers are fast; for example, they can solve problems quickly.'",
-      "diff": "medium"
-    },
-    {
-      "q": "Explicit exemplification means:",
-      "options": ["A. Examples are given without any markers", "B. Examples are introduced by words like 'for example' or 'such as'", "C. Examples are hidden", "D. Examples are not needed"],
-      "answer": "B. Examples are introduced by words like 'for example' or 'such as'",
-      "diff": "easy"
-    },
-    {
-      "q": "Implicit exemplification occurs when:",
-      "options": ["A. The writer uses 'for instance'", "B. The writer provides an example without using a marker", "C. No examples are given", "D. The reader must guess the example"],
-      "answer": "B. The writer provides an example without using a marker",
-      "diff": "medium"
-    },
-    {
-      "q": "In the description 'He was a tiny fellow, with a leathery white face under black hair', the phrase 'leathery white face' suggests:",
-      "options": ["A. Youth and health", "B. Aged, weathered skin", "C. Smooth, soft skin", "D. Pale and sickly"],
-      "answer": "B. Aged, weathered skin",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'peppered with a white-and-black bristle' creates an image of:",
-      "options": ["A. Clean-shaven face", "B. Unshaven, stubbly face", "C. Long beard", "D. Smooth skin"],
-      "answer": "B. Unshaven, stubbly face",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is NOT a typical marker for giving examples?",
-      "options": ["A. Like", "B. Such as", "C. Because", "D. For instance"],
-      "answer": "C. Because",
-      "diff": "easy"
-    },
-    {
-      "q": "When describing a character, using 'slapping dexterity' instead of 'skill' adds:",
-      "options": ["A. A sense of violence or roughness", "B. A sense of elegance", "C. A sense of boredom", "D. A sense of happiness"],
-      "answer": "A. A sense of violence or roughness",
-      "diff": "medium"
-    },
-    {
-      "q": "The passage from Hard Times repeatedly uses the phrase 'a man of' to emphasize Gradgrind's:",
-      "options": ["A. Uncertainty", "B. Fixed identity and obsession with facts", "C. Kindness", "D. Humor"],
-      "answer": "B. Fixed identity and obsession with facts",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following sentences uses 'that is' as an example marker?",
-      "options": ["A. 'He arrived late, that is, after the meeting had started.'", "B. 'That is a good idea.'", "C. 'He said that is the way to do it.'", "D. 'That is why I left.'"],
-      "answer": "A. 'He arrived late, that is, after the meeting had started.'",
-      "diff": "hard"
-    },
-    {
-      "q": "The purpose of using vivid descriptive details in character writing is to:",
-      "options": ["A. Make the character seem flat", "B. Make the character come alive in the reader's mind", "C. Confuse the reader", "D. Lengthen the text"],
-      "answer": "B. Make the character come alive in the reader's mind",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-15: {
-  title: "Interpreting Data, Comparative and Superlative Forms, Microcomputers (ENG 101 Lesson 15)",
-  summary: `**Key Topics Covered:**
-- True/false questions based on tables and graphs (death rates, language speakers)
-- Geography of Japan: islands, seas, distances, directions, cities
-- Comparative and superlative forms of adjectives and adverbs (rules and exceptions)
-- Microcomputers vs minicomputers: history, price, performance, applications
-- Understanding non-equivalence markers (not as…as, greater than, less than, etc.)
-
----
-
-**Simple Understanding:**
-
-**Interpreting Tables and Graphs:**
-👉 Carefully read headings and axes to understand what is being measured.
-👉 Examples: death rates (heart disease, cancer, tuberculosis), language speakers (millions of native speakers).
-👉 Use data to evaluate true/false statements.
-
-**Japan Geography:**
-👉 Four major islands: Honshu (largest), Hokkaido (northernmost), Kyushu (southernmost), Shikoku.
-👉 Surrounding seas: Sea of Japan (west), Pacific Ocean (east/southeast), East China Sea, Sea of Okhotsk.
-👉 Nearest country: Russia (Sakhalin), also South Korea, North Korea, China.
-
----
-
-**Comparative and Superlative Forms:**
-
-**Rule 1 – One syllable: add -er and -est**
-👉 new → newer → newest; big → bigger → biggest; soon → sooner → soonest
-
-**Rule 2 – Three or more syllables: use more and most**
-👉 interesting → more interesting → most interesting; easily → more easily → most easily
-
-**Rule 3 – Two-syllable ending in -y, -ly, -ow, -le, -er: usually -er/-est**
-👉 happy → happier → happiest; early → earlier → earliest; narrow → narrower → narrowest; gentle → gentler → gentlest; clever → cleverer → cleverest
-👉 Exception: two-syllable adverbs ending in -ly use more/most (quickly → more quickly → most quickly)
-
-**Rule 4 – Some two-syllable adjectives allow both forms**
-👉 common (commoner/commonest or more common/most common); polite, quiet, handsome
-
-**Rule 5 – Irregular forms**
-👉 good/well → better → best; bad/badly → worse → worst; many/much → more → most; little → less → least; far → further/farther → furthest/farthest
-
----
-
-**Equivalence and Non-Equivalence Markers:**
-👉 Equivalence: as…as, the same…as, similar to, like, equal to, compare to/with
-👉 Non-equivalence: not as…as, greater than, less than, fewer than, more…than, unlike, not equal to
-
----
-
-**Microcomputers vs Minicomputers:**
-👉 Microcomputers (micros) use a microprocessor on a single chip; minicomputers (minis) are larger.
-👉 Price: microprocessors now as cheap as $10; complete micro system $500–$10,000.
-👉 Word lengths: micros 4-,8-,16-bit; minis up to 32-bit.
-👉 Micros are slower, simpler instruction sets, less software, but much cheaper.
-👉 Applications: industrial robots, automobile engine control, TV games, personal computers, education.
-👉 Prediction: performance increase ten-fold by 1990, prices could decrease similarly.
-
----
-
-**Important Vocabulary:**
-- Comparative = compares two items (e.g., faster)
-- Superlative = compares three or more (e.g., fastest)
-- Syllable = unit of pronunciation
-- Irregular = does not follow standard pattern
-- Equivalence = equal or similar
-- Non-equivalence = not equal or different
-- Microprocessor = CPU on a single chip
-- Minicomputer = smaller than mainframe, larger than micro
-- Word length = bits processed at once
-- Peripheral equipment = input/output devices
-
----
-
-**Quick Revision Points:**
-- For data interpretation, verify each statement against the table/graph.
-- Japan's four main islands: Hokkaido (north), Honshu, Shikoku, Kyushu (south).
-- Comparative: add -er or use more; superlative: add -est or use most.
-- Irregular forms must be memorized.
-- Microcomputers are cheaper, slower, less powerful than minis but rapidly improving.`,
-  questions: [
-    {
-      "q": "According to the lesson, which of the following is TRUE about the annual death rate since 1900?",
-      "options": ["A. It has more than doubled.", "B. It has been reduced by slightly less than half.", "C. It has remained exactly the same.", "D. It has increased for all diseases."],
-      "answer": "B. It has been reduced by slightly less than half.",
-      "diff": "medium"
-    },
-    {
-      "q": "Which disease has consistently been the major cause of death according to the table?",
-      "options": ["A. Tuberculosis", "B. Pneumonia", "C. Heart disease", "D. Cancer"],
-      "answer": "C. Heart disease",
-      "diff": "easy"
-    },
-    {
-      "q": "The northernmost island of Japan is:",
-      "options": ["A. Honshu", "B. Shikoku", "C. Kyushu", "D. Hokkaido"],
-      "answer": "D. Hokkaido",
-      "diff": "easy"
-    },
-    {
-      "q": "Which sea lies to the west of Japan?",
-      "options": ["A. Pacific Ocean", "B. Sea of Japan", "C. East China Sea", "D. Sea of Okhotsk"],
-      "answer": "B. Sea of Japan",
-      "diff": "easy"
-    },
-    {
-      "q": "Approximately how many native speakers of English are there in the world (based on the graph)?",
-      "options": ["A. 100 million", "B. 200 million", "C. 300 million", "D. 400 million"],
-      "answer": "C. 300 million",
-      "diff": "medium"
-    },
-    {
-      "q": "Which language ranks fifth in total number of speakers?",
-      "options": ["A. Arabic", "B. Portuguese", "C. Japanese", "D. Russian"],
-      "answer": "D. Russian",
-      "diff": "hard"
-    },
-    {
-      "q": "The comparative form of 'big' is:",
-      "options": ["A. More big", "B. Bigger", "C. Bigest", "D. Most big"],
-      "answer": "B. Bigger",
-      "diff": "easy"
-    },
-    {
-      "q": "The superlative form of 'interesting' is:",
-      "options": ["A. Interestingest", "B. Most interesting", "C. More interesting", "D. Interester"],
-      "answer": "B. Most interesting",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is an irregular comparative form?",
-      "options": ["A. Newer", "B. Happier", "C. Better", "D. More careful"],
-      "answer": "C. Better",
-      "diff": "easy"
-    },
-    {
-      "q": "The comparative of 'bad' is:",
-      "options": ["A. Badder", "B. Worse", "C. Worst", "D. More bad"],
-      "answer": "B. Worse",
-      "diff": "easy"
-    },
-    {
-      "q": "For two-syllable adverbs ending in -ly, the comparative is formed with:",
-      "options": ["A. -er", "B. -est", "C. more/most", "D. -ier"],
-      "answer": "C. more/most",
-      "diff": "medium"
-    },
-    {
-      "q": "According to the microcomputer passage, the central processor of a micro is called a:",
-      "options": ["A. Minicomputer", "B. Microprocessor", "C. Mainframe", "D. Peripheral"],
-      "answer": "B. Microprocessor",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the approximate price range for a complete microcomputer system?",
-      "options": ["A. $10–$100", "B. $100–$500", "C. $500–$10,000", "D. $10,000–$100,000"],
-      "answer": "C. $500–$10,000",
-      "diff": "medium"
-    },
-    {
-      "q": "Compared to minicomputers, microcomputers typically have:",
-      "options": ["A. More flexible instruction sets", "B. Faster processing speeds", "C. Simpler instruction sets and slower speeds", "D. Larger word lengths"],
-      "answer": "C. Simpler instruction sets and slower speeds",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following is an example of a microcomputer application mentioned?",
-      "options": ["A. Space shuttle program", "B. Automobile emission control", "C. Industrial robots", "D. All of the above"],
-      "answer": "D. All of the above",
-      "diff": "easy"
-    },
-    {
-      "q": "The passage predicts that by 1990, the performance of microprocessors could increase by:",
-      "options": ["A. Two times", "B. Five times", "C. Ten times", "D. Fifty times"],
-      "answer": "C. Ten times",
-      "diff": "hard"
-    },
-    {
-      "q": "What does the abbreviation 'n.a.' in tables typically stand for?",
-      "options": ["A. Not Available", "B. Not Applicable", "C. No Answer", "D. New Addition"],
-      "answer": "B. Not Applicable",
-      "diff": "easy"
-    },
-    {
-      "q": "The superlative form of 'far' can be:",
-      "options": ["A. Farer", "B. Farest", "C. Farthest or furthest", "D. Most far"],
-      "answer": "C. Farthest or furthest",
-      "diff": "easy"
-    },
-    {
-      "q": "Which marker is used to show equivalence (similarity)?",
-      "options": ["A. Greater than", "B. Less than", "C. The same as", "D. Not as much as"],
-      "answer": "C. The same as",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'not as … as' is used to indicate:",
-      "options": ["A. Equality", "B. Non-equivalence", "C. Superlative", "D. Comparative"],
-      "answer": "B. Non-equivalence",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-16: {
-  title: "Cloze Exercises and Reading Comprehension (ENG 101 Lesson 17)",
-  summary: `**Key Topics Covered:**
-- Cloze passages: filling missing words in context
-- Education and examination system (negative effects)
-- Global warming (greenhouse effect, ozone depletion)
-- Personal narrative (grandmother taking grandchildren to circus, elephant sits on car)
-- Overpopulation and future population growth
-- Robot design (desired capabilities and limitations)
-- Film review (Oliver Twist by Charles Dickens)
-
----
-
-**Simple Understanding:**
-
-**Cloze Exercises:**
-👉 Passages with missing words (blanks) that must be filled using context clues.
-👉 Tests vocabulary, grammar, logical flow, and understanding of text.
-
----
-
-**Passage 1 – Education and Examinations:**
-👉 Argues that examination system does NOT encourage thinking for oneself.
-👉 Students learn only prescribed syllabus; reading is narrowed, not widened.
-👉 Teachers judged by exam results, forced to coach students for exams.
-👉 Successful candidates are best trained under stress, not necessarily best educated.
-
-**Key vocabulary:** prescribed, syllabus, motivate, narrow, deprive, reduce, despise.
-
----
-
-**Passage 2 – Global Warming:**
-👉 Existed since Earth's creation; initially beneficial (ended ice ages).
-👉 Now problematic due to runaway greenhouse effect and ozone depletion.
-👉 Normally: Sun's energy reaches Earth, reflects back into space.
-👉 Greenhouse gases trap energy → atmosphere heats up.
-
-**Key vocabulary:** phenomenon, beneficial, runway effect, ozone depletion, reflected, trapped.
-
----
-
-**Passage 3 – Letter about Circus Visit (Grandmother):**
-👉 Grandmother takes grandchildren Mark and Michelle to circus.
-👉 Borrows Susan's bright red Mini car.
-👉 Children loved zoo and circus; Mark liked wild animals; Michelle wants to be acrobat.
-👉 Announcement: owner of red Mini (PUR 727V) to manager's office.
-👉 Elephant trained to sit on red boxes sat on the car!
-👉 Car squashed but drivable; circus will pay for damage.
-👉 On way home, police stopped them about an accident; officer's face was priceless.
-👉 Grandmother asks family not to forget to water plants.
-
----
-
-**Passage 4 – Overpopulation:**
-👉 World's exploding population causing growing pains.
-👉 UN study: by year ____ five billion persons will be added to 6.5 billion today.
-👉 More troubling than number of inhabitants are estimates of where they will be concentrated.
-
----
-
-**Passage 5 – Robot:**
-👉 Ideal robot could wax floor, wash dishes, iron clothes, entertain, learn.
-👉 Self-ambulatory robot would save time.
-👉 Designer would want intellectual robot: reason, understand, help with math problems, proofread.
-👉 Intellectual quality is key.
-
----
-
-**Passage 6 – Oliver (Film):**
-👉 Orphan boy escapes workhouse, goes to London.
-👉 Meets villain Bill Sykes, girlfriend Nancy, pickpocket Artful Dodger, beggar Fagin.
-👉 Eventually, Bill Sykes killed, Oliver lives happily with wealthy uncle Mr. Brownlow.
-👉 Moving story about boy's search for happiness.
-
----
-
-**Important Vocabulary:**
-- Cloze = fill-in-the-blank exercise
-- Syllabus = course outline
-- Deprive = take away
-- Despise = hate
-- Runaway effect = uncontrolled feedback
-- Ozone depletion = thinning of ozone layer
-- Self-ambulatory = able to walk on its own
-- Orphan = child without parents
-- Workhouse = place for poor people to live and work
-
----
-
-**Quick Revision Points:**
-- Use context to guess missing words in cloze passages.
-- Education passage criticizes exam system.
-- Global warming: greenhouse gases trap heat.
-- Circus letter: humorous anecdote about elephant sitting on car.
-- Overpopulation: billions more people expected.
-- Ideal robot should be intellectual, not just do chores.
-- Oliver Twist is a classic orphan story.`,
-  questions: [
-    {
-      "q": "In the passage about education, the examination system is described as:",
-      "options": ["A. Encouraging students to think for themselves", "B. Narrowing students' reading and study", "C. Expanding knowledge widely", "D. Motivating students to read extensively"],
-      "answer": "B. Narrowing students' reading and study",
-      "diff": "easy"
-    },
-    {
-      "q": "According to the education passage, teachers are judged by:",
-      "options": ["A. Their teaching methods", "B. Examination results", "C. Student evaluations", "D. Their freedom in the classroom"],
-      "answer": "B. Examination results",
-      "diff": "easy"
-    },
-    {
-      "q": "The most successful candidates in examinations are described as:",
-      "options": ["A. The best educated", "B. The most knowledgeable", "C. The best trained in working under stress", "D. The most creative thinkers"],
-      "answer": "C. The best trained in working under stress",
-      "diff": "medium"
-    },
-    {
-      "q": "Initially, global warming was beneficial because it:",
-      "options": ["A. Created new deserts", "B. Brought Earth out of ice ages", "C. Increased rainfall", "D. Reduced carbon dioxide"],
-      "answer": "B. Brought Earth out of ice ages",
-      "diff": "easy"
-    },
-    {
-      "q": "The 'runway effect' and ozone depletion are both:",
-      "options": ["A. Solutions to global warming", "B. Natural weather patterns", "C. Causes of global warming problems", "D. Results of volcanic eruptions"],
-      "answer": "C. Causes of global warming problems",
-      "diff": "medium"
-    },
-    {
-      "q": "In the greenhouse effect, energy from the Sun is normally:",
-      "options": ["A. Absorbed permanently by the Earth", "B. Reflected back into space", "C. Used to create ozone", "D. Stored in clouds"],
-      "answer": "B. Reflected back into space",
-      "diff": "easy"
-    },
-    {
-      "q": "Greenhouse gases trap energy and cause the atmosphere to:",
-      "options": ["A. Cool down", "B. Heat up", "C. Remain constant", "D. Disappear"],
-      "answer": "B. Heat up",
-      "diff": "easy"
-    },
-    {
-      "q": "In the grandmother's letter, she borrowed Susan's car which was a:",
-      "options": ["A. Blue sedan", "B. Bright red Mini", "C. Black SUV", "D. Green station wagon"],
-      "answer": "B. Bright red Mini",
-      "diff": "easy"
-    },
-    {
-      "q": "The children's reactions to the circus were:",
-      "options": ["A. Disappointed and bored", "B. Excited and loved everything", "C. Scared of the animals", "D. Indifferent"],
-      "answer": "B. Excited and loved everything",
-      "diff": "easy"
-    },
-    {
-      "q": "Why was the manager upset about the red Mini?",
-      "options": ["A. It was parked illegally", "B. An elephant had sat on it", "C. It had been stolen", "D. The lights were left on"],
-      "answer": "B. An elephant had sat on it",
-      "diff": "easy"
-    },
-    {
-      "q": "The elephant was trained to sit on:",
-      "options": ["A. Yellow boxes", "B. Blue mats", "C. Red boxes", "D. Green carpets"],
-      "answer": "C. Red boxes",
-      "diff": "easy"
-    },
-    {
-      "q": "After the elephant incident, the grandmother was stopped by police because:",
-      "options": ["A. She was speeding", "B. There had been a serious accident nearby", "C. The car was on fire", "D. She had no license"],
-      "answer": "B. There had been a serious accident nearby",
-      "diff": "medium"
-    },
-    {
-      "q": "The grandmother asked her family to remember to:",
-      "options": ["A. Feed the cat", "B. Water her plants", "C. Pay the bills", "D. Clean the house"],
-      "answer": "B. Water her plants",
-      "diff": "easy"
-    },
-    {
-      "q": "According to the overpopulation passage, the new UN study predicts that by a certain year, how many billion persons will be added to the world population?",
-      "options": ["A. Two billion", "B. Three billion", "C. Five billion", "D. Ten billion"],
-      "answer": "C. Five billion",
-      "diff": "hard"
-    },
-    {
-      "q": "The passage says that more troubling than the number of inhabitants are estimates of:",
-      "options": ["A. Their ages", "B. Where they will be concentrated", "C. Their incomes", "D. Their education levels"],
-      "answer": "B. Where they will be concentrated",
-      "diff": "medium"
-    },
-    {
-      "q": "In the robot passage, the writer says an ideal robot would need to be more than just a household helper; it would need to be:",
-      "options": ["A. Strong", "B. Fast", "C. Intellectual", "D. Cheap"],
-      "answer": "C. Intellectual",
-      "diff": "easy"
-    },
-    {
-      "q": "The writer wants her robot to be able to help with math problems and proofread English essays, showing that she values:",
-      "options": ["A. Physical strength", "B. Speed", "C. Mental activity and reasoning", "D. Appearance"],
-      "answer": "C. Mental activity and reasoning",
-      "diff": "easy"
-    },
-    {
-      "q": "In the film Oliver, the orphan boy meets all the following characters EXCEPT:",
-      "options": ["A. Bill Sykes", "B. Fagin", "C. Artful Dodger", "D. Mr. Brownlow from the start"],
-      "answer": "D. Mr. Brownlow from the start (he meets him later)",
-      "diff": "medium"
-    },
-    {
-      "q": "At the end of Oliver, Bill Sykes is killed and Oliver lives happily with:",
-      "options": ["A. Fagin", "B. Nancy", "C. His wealthy uncle Mr. Brownlow", "D. The Artful Dodger"],
-      "answer": "C. His wealthy uncle Mr. Brownlow",
-      "diff": "easy"
-    },
-    {
-      "q": "The overall tone of the grandmother's letter about the circus is:",
-      "options": ["A. Sad and tragic", "B. Humorous and light-hearted", "C. Angry and bitter", "D. Formal and academic"],
-      "answer": "B. Humorous and light-hearted",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-
-
-17: {
-  title: "Cloze Passages and Reading Comprehension (ENG 101 Lesson 17)",
-  summary: `**Key Topics Covered:**
-- Cloze exercises: filling missing words in context
-- Passage 1: Education and examination system (negative effects)
-- Passage 2: Global warming (greenhouse effect, ozone depletion)
-- Passage 3: Letter about circus visit (elephant sits on car)
-- Passage 4: Overpopulation and UN predictions
-- Passage 5: Ideal robot design (intellectual qualities)
-- Passage 6: Film Oliver (orphan boy's story)
-
----
-
-**Simple Understanding:**
-
-**Cloze Exercises:**
-👉 Passages with missing words (blanks) that must be filled using context clues.
-👉 Tests vocabulary, grammar, logical flow, and understanding of text.
-
----
-
-**Passage 1 – Education and Examinations:**
-👉 Argues that examination system does NOT encourage thinking for oneself.
-👉 Students learn only prescribed syllabus; reading is narrowed, not widened.
-👉 Teachers judged by exam results, forced to coach students for exams.
-👉 Successful candidates are best trained under stress, not necessarily best educated.
-
-**Key vocabulary:** prescribed, syllabus, motivate, narrow, deprive, reduce, despise.
-
----
-
-**Passage 2 – Global Warming:**
-👉 Existed since Earth's creation; initially beneficial (ended ice ages).
-👉 Now problematic due to runaway greenhouse effect and ozone depletion.
-👉 Normally: Sun's energy reaches Earth, reflects back into space.
-👉 Greenhouse gases trap energy → atmosphere heats up.
-
-**Key vocabulary:** phenomenon, beneficial, runway effect, ozone depletion, reflected, trapped.
-
----
-
-**Passage 3 – Letter about Circus Visit (Grandmother):**
-👉 Grandmother takes grandchildren Mark and Michelle to circus.
-👉 Borrows Susan's bright red Mini car.
-👉 Children loved zoo and circus; Mark liked wild animals; Michelle wants to be acrobat.
-👉 Announcement: owner of red Mini (PUR 727V) to manager's office.
-👉 Elephant trained to sit on red boxes sat on the car!
-👉 Car squashed but drivable; circus will pay for damage.
-👉 On way home, police stopped them about an accident; officer's face was priceless.
-👉 Grandmother asks family not to forget to water plants.
-
----
-
-**Passage 4 – Overpopulation:**
-👉 World's exploding population causing growing pains.
-👉 UN study: by year ____ five billion persons will be added to 6.5 billion today.
-👉 More troubling than number of inhabitants are estimates of where they will be concentrated.
-
----
-
-**Passage 5 – Robot:**
-👉 Ideal robot could wax floor, wash dishes, iron clothes, entertain, learn.
-👉 Self-ambulatory robot would save time.
-👉 Designer would want intellectual robot: reason, understand, help with math problems, proofread.
-👉 Intellectual quality is key.
-
----
-
-**Passage 6 – Oliver (Film):**
-👉 Orphan boy escapes workhouse, goes to London.
-👉 Meets villain Bill Sykes, girlfriend Nancy, pickpocket Artful Dodger, beggar Fagin.
-👉 Eventually, Bill Sykes killed, Oliver lives happily with wealthy uncle Mr. Brownlow.
-👉 Moving story about boy's search for happiness.
-
----
-
-**Important Vocabulary:**
-- Cloze = fill-in-the-blank exercise
-- Syllabus = course outline
-- Deprive = take away
-- Despise = hate
-- Runaway effect = uncontrolled feedback
-- Ozone depletion = thinning of ozone layer
-- Self-ambulatory = able to walk on its own
-- Orphan = child without parents
-- Workhouse = place for poor people to live and work
-
----
-
-**Quick Revision Points:**
-- Use context to guess missing words in cloze passages.
-- Education passage criticizes exam system.
-- Global warming: greenhouse gases trap heat.
-- Circus letter: humorous anecdote about elephant sitting on car.
-- Overpopulation: billions more people expected.
-- Ideal robot should be intellectual, not just do chores.
-- Oliver Twist is a classic orphan story.`,
-  questions: [
-    {
-      "q": "In the passage about education, the examination system is described as:",
-      "options": ["A. Encouraging students to think for themselves", "B. Narrowing students' reading and study", "C. Expanding knowledge widely", "D. Motivating students to read extensively"],
-      "answer": "B. Narrowing students' reading and study",
-      "diff": "easy"
-    },
-    {
-      "q": "According to the education passage, teachers are judged by:",
-      "options": ["A. Their teaching methods", "B. Examination results", "C. Student evaluations", "D. Their freedom in the classroom"],
-      "answer": "B. Examination results",
-      "diff": "easy"
-    },
-    {
-      "q": "The most successful candidates in examinations are described as:",
-      "options": ["A. The best educated", "B. The most knowledgeable", "C. The best trained in working under stress", "D. The most creative thinkers"],
-      "answer": "C. The best trained in working under stress",
-      "diff": "medium"
-    },
-    {
-      "q": "Initially, global warming was beneficial because it:",
-      "options": ["A. Created new deserts", "B. Brought Earth out of ice ages", "C. Increased rainfall", "D. Reduced carbon dioxide"],
-      "answer": "B. Brought Earth out of ice ages",
-      "diff": "easy"
-    },
-    {
-      "q": "The 'runway effect' and ozone depletion are both:",
-      "options": ["A. Solutions to global warming", "B. Natural weather patterns", "C. Causes of global warming problems", "D. Results of volcanic eruptions"],
-      "answer": "C. Causes of global warming problems",
-      "diff": "medium"
-    },
-    {
-      "q": "In the greenhouse effect, energy from the Sun is normally:",
-      "options": ["A. Absorbed permanently by the Earth", "B. Reflected back into space", "C. Used to create ozone", "D. Stored in clouds"],
-      "answer": "B. Reflected back into space",
-      "diff": "easy"
-    },
-    {
-      "q": "Greenhouse gases trap energy and cause the atmosphere to:",
-      "options": ["A. Cool down", "B. Heat up", "C. Remain constant", "D. Disappear"],
-      "answer": "B. Heat up",
-      "diff": "easy"
-    },
-    {
-      "q": "In the grandmother's letter, she borrowed Susan's car which was a:",
-      "options": ["A. Blue sedan", "B. Bright red Mini", "C. Black SUV", "D. Green station wagon"],
-      "answer": "B. Bright red Mini",
-      "diff": "easy"
-    },
-    {
-      "q": "The children's reactions to the circus were:",
-      "options": ["A. Disappointed and bored", "B. Excited and loved everything", "C. Scared of the animals", "D. Indifferent"],
-      "answer": "B. Excited and loved everything",
-      "diff": "easy"
-    },
-    {
-      "q": "Why was the manager upset about the red Mini?",
-      "options": ["A. It was parked illegally", "B. An elephant had sat on it", "C. It had been stolen", "D. The lights were left on"],
-      "answer": "B. An elephant had sat on it",
-      "diff": "easy"
-    },
-    {
-      "q": "The elephant was trained to sit on:",
-      "options": ["A. Yellow boxes", "B. Blue mats", "C. Red boxes", "D. Green carpets"],
-      "answer": "C. Red boxes",
-      "diff": "easy"
-    },
-    {
-      "q": "After the elephant incident, the grandmother was stopped by police because:",
-      "options": ["A. She was speeding", "B. There had been a serious accident nearby", "C. The car was on fire", "D. She had no license"],
-      "answer": "B. There had been a serious accident nearby",
-      "diff": "medium"
-    },
-    {
-      "q": "The grandmother asked her family to remember to:",
-      "options": ["A. Feed the cat", "B. Water her plants", "C. Pay the bills", "D. Clean the house"],
-      "answer": "B. Water her plants",
-      "diff": "easy"
-    },
-    {
-      "q": "According to the overpopulation passage, the new UN study predicts that by a certain year, how many billion persons will be added to the world population?",
-      "options": ["A. Two billion", "B. Three billion", "C. Five billion", "D. Ten billion"],
-      "answer": "C. Five billion",
-      "diff": "hard"
-    },
-    {
-      "q": "The passage says that more troubling than the number of inhabitants are estimates of:",
-      "options": ["A. Their ages", "B. Where they will be concentrated", "C. Their incomes", "D. Their education levels"],
-      "answer": "B. Where they will be concentrated",
-      "diff": "medium"
-    },
-    {
-      "q": "In the robot passage, the writer says an ideal robot would need to be more than just a household helper; it would need to be:",
-      "options": ["A. Strong", "B. Fast", "C. Intellectual", "D. Cheap"],
-      "answer": "C. Intellectual",
-      "diff": "easy"
-    },
-    {
-      "q": "The writer wants her robot to be able to help with math problems and proofread English essays, showing that she values:",
-      "options": ["A. Physical strength", "B. Speed", "C. Mental activity and reasoning", "D. Appearance"],
-      "answer": "C. Mental activity and reasoning",
-      "diff": "easy"
-    },
-    {
-      "q": "In the film Oliver, the orphan boy meets all the following characters EXCEPT:",
-      "options": ["A. Bill Sykes", "B. Fagin", "C. Artful Dodger", "D. Mr. Brownlow from the start"],
-      "answer": "D. Mr. Brownlow from the start (he meets him later)",
-      "diff": "medium"
-    },
-    {
-      "q": "At the end of Oliver, Bill Sykes is killed and Oliver lives happily with:",
-      "options": ["A. Fagin", "B. Nancy", "C. His wealthy uncle Mr. Brownlow", "D. The Artful Dodger"],
-      "answer": "C. His wealthy uncle Mr. Brownlow",
-      "diff": "easy"
-    },
-    {
-      "q": "The overall tone of the grandmother's letter about the circus is:",
-      "options": ["A. Sad and tragic", "B. Humorous and light-hearted", "C. Angry and bitter", "D. Formal and academic"],
-      "answer": "B. Humorous and light-hearted",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-
-
-
-18: {
-  title: "Primary and Secondary Memory (ENG 101 Lesson 18)",
-  summary: `**Key Topics Covered:**
-- Primary memory (internal storage, real storage, RAM)
-- Secondary memory (sequential vs random-access devices)
-- Memory units: K (1024 bytes), byte (8 bits)
-- Random access and speed as requirements for processing
-- Magnetic tape (sequential, low cost, slow access)
-- Magnetic disk (random-access, faster, more expensive)
-- Virtual storage (using disks to extend primary memory)
-- Dedicated function in mini and micro applications
-- Addresses and contents of memory compartments
-
----
-
-**Simple Understanding:**
-
-**Primary Memory:**
-👉 Also called internal storage, real storage, primary memory.
-👉 Measured in K (kilobytes): 1K = 1024 bytes, 1 byte = 8 bits.
-👉 Stores programs and data temporarily for immediate CPU processing.
-👉 Requires random access (any location equally quick) and high speed.
-👉 Uses addresses (fixed locations like house addresses).
-👉 Contents = information stored in memory compartments.
-
-**Secondary Memory:**
-👉 Developed because primary memory is costly and used transiently.
-👉 Two categories:
-   - **Sequential devices** (e.g., magnetic tape): low cost, but access time long (must pass over preceding data).
-   - **Random-access devices** (e.g., magnetic disk): faster access, bypass irrelevant data, more expensive.
-
-**Virtual Storage:**
-👉 Disks hooked up as extension of internal storage to increase capacity.
-👉 Example: 256K real storage may appear as 512K virtual storage.
-
-**Mini and Micro Applications:**
-👉 Often perform dedicated functions (same task all the time).
-
----
-
-**Important Vocabulary:**
-- Primary memory = internal storage, real storage
-- Secondary memory = external storage devices
-- K (kilobyte) = 1024 bytes
-- Byte = 8 bits
-- Random access = equally quick access to any location
-- Sequential access = fixed order access only
-- Address = unique identifier for memory location
-- Contents = data stored at an address
-- Virtual storage = simulated extra memory using disks
-
----
-
-**Quick Revision Points:**
-- Primary memory is fast, expensive, temporary.
-- Secondary memory is slower, cheaper, permanent.
-- Magnetic tape: sequential, cheap, slow retrieval.
-- Magnetic disk: random-access, faster, moderate cost.
-- Virtual storage uses disks to fake more primary memory.
-- Random access and speed are crucial for processing.`,
-  questions: [
-    {
-      "q": "The term 'memory' in computers usually refers to:",
-      "options": ["A. External storage only", "B. Internal storage locations", "C. Magnetic tape", "D. Virtual memory only"],
-      "answer": "B. Internal storage locations",
-      "diff": "easy"
-    },
-    {
-      "q": "One kilobyte (1K) is equal to:",
-      "options": ["A. 1000 bytes", "B. 1024 bytes", "C. 8 bits", "D. 1024 bits"],
-      "answer": "B. 1024 bytes",
-      "diff": "easy"
-    },
-    {
-      "q": "One byte consists of how many bits?",
-      "options": ["A. 4", "B. 8", "C. 16", "D. 32"],
-      "answer": "B. 8",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is NOT a requirement for primary memory to facilitate processing?",
-      "options": ["A. Random access", "B. Speed", "C. Low cost per bit", "D. Immediate availability to CPU"],
-      "answer": "C. Low cost per bit",
-      "diff": "medium"
-    },
-    {
-      "q": "Random access means that:",
-      "options": ["A. Memory locations are accessed in fixed order", "B. Any part of memory can be accessed equally quickly", "C. Only sequential devices are used", "D. Information is stored permanently"],
-      "answer": "B. Any part of memory can be accessed equally quickly",
-      "diff": "easy"
-    },
-    {
-      "q": "The addresses in primary memory are compared to:",
-      "options": ["A. Car license plates", "B. House addresses", "C. Telephone numbers", "D. Book page numbers"],
-      "answer": "B. House addresses",
-      "diff": "easy"
-    },
-    {
-      "q": "Most primary memory is used transiently, meaning:",
-      "options": ["A. It is permanent", "B. It is only temporary while a program is executing", "C. It is never changed", "D. It stores data for years"],
-      "answer": "B. It is only temporary while a program is executing",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following is an example of a sequential secondary storage device?",
-      "options": ["A. Magnetic disk", "B. Magnetic tape", "C. RAM", "D. ROM"],
-      "answer": "B. Magnetic tape",
-      "diff": "easy"
-    },
-    {
-      "q": "Which statement about magnetic tape is true?",
-      "options": ["A. It is random-access", "B. It is low cost but access time is long", "C. It is faster than magnetic disk", "D. It is used as primary memory"],
-      "answer": "B. It is low cost but access time is long",
-      "diff": "easy"
-    },
-    {
-      "q": "Magnetic disk is an example of:",
-      "options": ["A. Sequential device", "B. Random-access device", "C. Primary memory", "D. Read-only memory"],
-      "answer": "B. Random-access device",
-      "diff": "easy"
-    },
-    {
-      "q": "Compared to magnetic tape, magnetic disk is:",
-      "options": ["A. Slower and cheaper", "B. Faster and more expensive", "C. Slower and more expensive", "D. Faster and cheaper"],
-      "answer": "B. Faster and more expensive",
-      "diff": "easy"
-    },
-    {
-      "q": "Virtual storage is achieved by:",
-      "options": ["A. Adding more RAM chips", "B. Using disks as an extension of internal storage", "C. Compressing data", "D. Using faster processors"],
-      "answer": "B. Using disks as an extension of internal storage",
-      "diff": "medium"
-    },
-    {
-      "q": "If a computer has 256K bytes of real storage, virtual storage could make it appear to have:",
-      "options": ["A. 128K", "B. 256K", "C. 512K", "D. 1024K"],
-      "answer": "C. 512K",
-      "diff": "hard"
-    },
-    {
-      "q": "Minicomputers and microcomputers often perform:",
-      "options": ["A. General-purpose tasks", "B. Dedicated functions", "C. Only arithmetic operations", "D. Virtual memory management"],
-      "answer": "B. Dedicated functions",
-      "diff": "medium"
-    },
-    {
-      "q": "The main idea of the text is best expressed by:",
-      "options": ["A. Primary memory is more important than secondary memory.", "B. Secondary memory devices are unimportant in a computer system.", "C. There are two types of memory: primary and secondary.", "D. Virtual storage is the best memory technology."],
-      "answer": "C. There are two types of memory: primary and secondary.",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is stated (S) in the text?",
-      "options": ["A. Minicomputers and microcomputers have similar memory capacity.", "B. Primary memory is more expensive than secondary memory.", "C. Information stored on magnetic disk can be retrieved faster than from tape.", "D. Disks and tapes can be stored in a library."],
-      "answer": "C. Information stored on magnetic disk can be retrieved faster than from tape.",
-      "diff": "medium"
-    },
-    {
-      "q": "In paragraph 4, the writer uses the example of magnetic disk to illustrate:",
-      "options": ["A. Sequential access devices", "B. Random-access devices", "C. Virtual storage", "D. Primary memory"],
-      "answer": "B. Random-access devices",
-      "diff": "easy"
-    },
-    {
-      "q": "The synonym for 'erases' in the context of memory (paragraph 2) is:",
-      "options": ["A. Reads", "B. Wipes out", "C. Accesses", "D. Stores"],
-      "answer": "B. Wipes out",
-      "diff": "easy"
-    },
-    {
-      "q": "The antonym for 'go through' (as in sequential access) is likely:",
-      "options": ["A. Bypass", "B. Pass over", "C. Access slowly", "D. Read sequentially"],
-      "answer": "A. Bypass",
-      "diff": "medium"
-    },
-    {
-      "q": "The phrase 'the contents of the memory' (paragraph 2) refers to:",
-      "options": ["A. The addresses of storage locations", "B. The information stored in memory compartments", "C. The size of memory in K", "D. The type of memory used"],
-      "answer": "B. The information stored in memory compartments",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-19: {
-  title: "Types of Computer Memory (ENG 101 Lesson 19)",
-  summary: `**Key Topics Covered:**
-- Core memory (magnetic cores/ferrite rings)
-- Semiconductor memory (chips, integrated circuits)
-- Bubble memory (magnetic bubbles on thin film)
-- Evolution of memory: core → semiconductor → bubble
-- Storage capacity: early 80,000 bits; modern millions of bits
-- Characteristics of each memory type (size, composition, capacity)
-- Definitions: term, group, distinguishing characteristics
-
----
-
-**Simple Understanding:**
-
-**Core Memory:**
-👉 First type of computer memory developed.
-👉 Uses small ferrite rings (cores) arranged in a grid of vertical and horizontal wires.
-👉 Each core can be magnetized (1) or unmagnetized (0) – one bit per core.
-👉 Early computers had capacity around 80,000 bits (10K bytes).
-👉 Dominated the market until semiconductor memory.
-
-**Semiconductor Memory (Chips):**
-👉 Developed after core memory, before bubble memory.
-👉 Uses integrated circuits on a non-metallic element (silicon).
-👉 Revolutionized the computer field – made minicomputers and microcomputers possible.
-👉 Much smaller size, higher capacity (millions of bits).
-👉 Transistors and chips are related but not identical; a chip contains many circuits.
-
-**Bubble Memory:**
-👉 Latest development (at time of writing).
-👉 Uses thin film over a memory board; produces magnetic bubbles.
-👉 Each bubble represents one bit (presence/absence).
-👉 Non-volatile (retains data without power), very small size.
-👉 Still a lot to learn about this process; many advantages.
-
-**Definitions:**
-👉 A definition includes: term (what is being defined), group (category it belongs to), distinguishing characteristics (what makes it unique).
-👉 Example: "A core is a ferrite ring which is capable of being either magnetized or demagnetized."
-
----
-
-**Important Vocabulary:**
-- Core memory = magnetic ring memory
-- Ferrite = magnetic ceramic material
-- Semiconductor = material with conductivity between conductor and insulator
-- Chip = integrated circuit on silicon
-- Bubble memory = magnetic bubble memory
-- Non-volatile = retains data when power off
-- Bit = binary digit (0 or 1)
-- Integrated circuit = electronic circuit on a chip
-- Transistor = semiconductor switch
-
----
-
-**Quick Revision Points:**
-- Core memory was first (ferrite rings on wire grid).
-- Semiconductor memory (chips) replaced core memory.
-- Bubble memory is newer, smaller, non-volatile.
-- Early memory: 80,000 bits; modern: millions of bits.
-- Chips made minicomputers and microcomputers possible.
-- Definitions have three parts: term, group, characteristics.`,
-  questions: [
-    {
-      "q": "The first type of computer memory developed was:",
-      "options": ["A. Semiconductor memory", "B. Bubble memory", "C. Core memory", "D. Virtual memory"],
-      "answer": "C. Core memory",
-      "diff": "easy"
-    },
-    {
-      "q": "Core memory uses small rings made of:",
-      "options": ["A. Silicon", "B. Copper", "C. Ferrite", "D. Plastic"],
-      "answer": "C. Ferrite",
-      "diff": "easy"
-    },
-    {
-      "q": "In core memory, a core could be either magnetized or unmagnetized, representing:",
-      "options": ["A. 0 or 1 (one bit)", "B. One byte", "C. One word", "D. One address"],
-      "answer": "A. 0 or 1 (one bit)",
-      "diff": "easy"
-    },
-    {
-      "q": "Early core memory computers typically had a capacity of about:",
-      "options": ["A. 8,000 bits", "B. 80,000 bits", "C. 800,000 bits", "D. 8 million bits"],
-      "answer": "B. 80,000 bits",
-      "diff": "medium"
-    },
-    {
-      "q": "Which memory type revolutionized the computer field and made minicomputers and microcomputers possible?",
-      "options": ["A. Core memory", "B. Bubble memory", "C. Semiconductor memory (chips)", "D. Magnetic tape"],
-      "answer": "C. Semiconductor memory (chips)",
-      "diff": "easy"
-    },
-    {
-      "q": "Semiconductor memory is built on a non-metallic element called:",
-      "options": ["A. Copper", "B. Aluminum", "C. Silicon", "D. Iron"],
-      "answer": "C. Silicon",
-      "diff": "easy"
-    },
-    {
-      "q": "The development of chips allowed:",
-      "options": ["A. Only mainframe computers", "B. Minicomputers and microcomputers", "C. Only supercomputers", "D. Only analog computers"],
-      "answer": "B. Minicomputers and microcomputers",
-      "diff": "easy"
-    },
-    {
-      "q": "Bubble memory is described as the:",
-      "options": ["A. Oldest type of memory", "B. Most expensive type", "C. Latest development in computer memory", "D. Slowest type"],
-      "answer": "C. Latest development in computer memory",
-      "diff": "easy"
-    },
-    {
-      "q": "In bubble memory, each magnetic bubble represents:",
-      "options": ["A. One byte", "B. One bit", "C. One word", "D. One address"],
-      "answer": "B. One bit",
-      "diff": "medium"
-    },
-    {
-      "q": "Which memory type uses a thin film over a memory board to produce magnetic bubbles?",
-      "options": ["A. Core memory", "B. Semiconductor memory", "C. Bubble memory", "D. Optical memory"],
-      "answer": "C. Bubble memory",
-      "diff": "easy"
-    },
-    {
-      "q": "An advantage of bubble memory mentioned in the text is:",
-      "options": ["A. Very low cost", "B. Extremely fast access", "C. Many advantages including small size and non-volatility", "D. Easy to manufacture"],
-      "answer": "C. Many advantages including small size and non-volatility",
-      "diff": "medium"
-    },
-    {
-      "q": "True or False: Minicomputers, microcomputers, and mainframes all have the same kind of memory.",
-      "options": ["A. True", "B. False (they use different memory types)", "C. True only for mainframes", "D. False only for microcomputers"],
-      "answer": "B. False (they use different memory types)",
-      "diff": "easy"
-    },
-    {
-      "q": "The statement 'A transistor and a chip are the same kind of device' is:",
-      "options": ["A. True", "B. False (a chip contains many transistors and other circuits)", "C. True only for early chips", "D. False because transistors are larger"],
-      "answer": "B. False (a chip contains many transistors and other circuits)",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following best expresses the main idea of the text?",
-      "options": ["A. Core memory was the first type of computer memory developed.", "B. There are at least three different kinds of memory used in computers.", "C. Bubble memory is the latest development in computer memory.", "D. Semiconductor memory is the most important."],
-      "answer": "B. There are at least three different kinds of memory used in computers.",
-      "diff": "easy"
-    },
-    {
-      "q": "According to the text, early computer memories had:",
-      "options": ["A. More storage capacity than newer ones", "B. Less storage capacity than newer ones", "C. The same capacity as newer ones", "D. No storage capacity"],
-      "answer": "B. Less storage capacity than newer ones",
-      "diff": "easy"
-    },
-    {
-      "q": "The text mentions that core memory dominated the market until:",
-      "options": ["A. The invention of bubble memory", "B. The development of semiconductor memory", "C. The invention of magnetic tape", "D. The 1980s"],
-      "answer": "B. The development of semiconductor memory",
-      "diff": "medium"
-    },
-    {
-      "q": "In a definition, the part that tells what category the term belongs to is called the:",
-      "options": ["A. Term", "B. Group", "C. Characteristics", "D. Example"],
-      "answer": "B. Group",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is a correct definition format?",
-      "options": ["A. Term + characteristics + group", "B. Group + term + characteristics", "C. Term + group + distinguishing characteristics", "D. Characteristics + term + group"],
-      "answer": "C. Term + group + distinguishing characteristics",
-      "diff": "easy"
-    },
-    {
-      "q": "In the definition 'An abacus is a bead frame in which the beads are moved from left to right', the group is:",
-      "options": ["A. Abacus", "B. Bead frame", "C. Beads moved from left to right", "D. Frame"],
-      "answer": "B. Bead frame",
-      "diff": "medium"
-    },
-    {
-      "q": "The text suggests that there is still a lot to learn about which memory process?",
-      "options": ["A. Core memory", "B. Semiconductor memory", "C. Bubble memory", "D. Virtual memory"],
-      "answer": "C. Bubble memory",
-      "diff": "easy"
-    }
-  ]
-},
-
-20: {
-  title: "Steps in Problem Solving (ENG 101 Lesson 20)",
-  summary: `**Key Topics Covered:**
-- Problem solving steps (define, algorithm, program, keypunch, test, add data)
-- Role of the programmer vs computer (computer follows instructions, does not think)
-- Algorithm: sequence of instructions to solve a problem
-- Flowchart/block diagram: diagrammatic representation of algorithm
-- Coding sheets: special forms for writing programs
-- Testing programs: finding bugs (errors)
-- Computer components: CPU (control unit, arithmetic-logic unit), memory (primary, secondary), input/output devices
-
----
-
-**Simple Understanding:**
-
-**Problem Solving Steps:**
-👉 Step 1: Define the problem clearly – understand what needs to be solved.
-👉 Step 2: Formulate an algorithm – a straightforward sequence of instructions.
-   - Algorithm can be described by a flowchart (block diagram).
-   - Flowchart uses arrows to show relationships, repetition, alternative routes.
-👉 Step 3: Translate algorithm into a computer program using a programming language.
-   - Program written on coding sheets (special format).
-👉 Step 4: Keypunch the program or enter it at a terminal with visual display unit.
-👉 Step 5: Test the program – find bugs (errors). Printout shows if it works.
-   - Using a terminal, can store program in memory and get printout.
-👉 Step 6: Add data and run the job completely. Computer performs calculations.
-
-**Key Concepts:**
-👉 Computer is a robot – doesn't think, does what it is told.
-👉 Programmer solves problems; computer executes instructions.
-👉 Bugs = errors in the program.
-
-**Computer Components (from diagram):**
-👉 Four basic components: input, processor, memory, output.
-👉 CPU has control unit (directs signals) and arithmetic-logic unit (does operations, decision-making).
-👉 Primary memory (internal) – core, chip, bubble memory.
-👉 Secondary memory (peripheral storage).
-👉 Input devices: card reader, tape drive, disk drive, terminal.
-👉 Output devices: printer, terminal.
-
----
-
-**Important Vocabulary:**
-- Algorithm = step-by-step procedure
-- Flowchart = block diagram of algorithm
-- Coding sheets = forms for writing programs
-- Keypunch = machine to punch cards
-- Bugs = program errors
-- Printout = printed output from computer
-- CPU = Central Processing Unit
-- Control unit = directs signals and commands
-- Arithmetic-logic unit = performs calculations and decisions
-- Primary memory = internal storage
-- Secondary memory = peripheral storage
-
----
-
-**Quick Revision Points:**
-- Programmer solves problems; computer follows instructions.
-- Six steps: define, algorithm, program, keypunch, test, run.
-- Algorithm is the most important part (time-consuming).
-- Flowchart shows sequence with arrows.
-- Test program before adding data.
-- Computer does not think; it is a robot.`,
-  questions: [
-    {
-      "q": "Who actually solves problems when using a computer?",
-      "options": ["A. The computer", "B. The programmer", "C. The operator", "D. The CPU"],
-      "answer": "B. The programmer",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the first step in problem solving according to the text?",
-      "options": ["A. Formulate an algorithm", "B. Write the program", "C. Define the problem clearly", "D. Test the program"],
-      "answer": "C. Define the problem clearly",
-      "diff": "easy"
-    },
-    {
-      "q": "An algorithm is defined as:",
-      "options": ["A. A computer program", "B. A sequence of steps or instructions used to solve a problem", "C. A type of computer memory", "D. A debugging tool"],
-      "answer": "B. A sequence of steps or instructions used to solve a problem",
-      "diff": "easy"
-    },
-    {
-      "q": "Which step is described as 'the most important part of problem solving and is usually time-consuming'?",
-      "options": ["A. Defining the problem", "B. Constructing an algorithm", "C. Translating to a program", "D. Testing the program"],
-      "answer": "B. Constructing an algorithm",
-      "diff": "easy"
-    },
-    {
-      "q": "A flowchart is also called a:",
-      "options": ["A. Coding sheet", "B. Block diagram", "C. Printout", "D. Program listing"],
-      "answer": "B. Block diagram",
-      "diff": "easy"
-    },
-    {
-      "q": "The relationship between events in a flowchart is shown by means of:",
-      "options": ["A. Numbers", "B. Connecting arrows", "C. Colored boxes", "D. Brackets"],
-      "answer": "B. Connecting arrows",
-      "diff": "easy"
-    },
-    {
-      "q": "A block diagram can show if a process has to be repeated or if there are alternative routes. This indicates:",
-      "options": ["A. Input and output", "B. Loops and decisions", "C. Only sequential flow", "D. Only data storage"],
-      "answer": "B. Loops and decisions",
-      "diff": "medium"
-    },
-    {
-      "q": "Programs are usually written on:",
-      "options": ["A. Blank paper", "B. Coding sheets", "C. Punch cards", "D. Magnetic tape"],
-      "answer": "B. Coding sheets",
-      "diff": "easy"
-    },
-    {
-      "q": "The process of transferring the program to the computer memory using cards is called:",
-      "options": ["A. Keypunching", "B. Compiling", "C. Loading", "D. Debugging"],
-      "answer": "A. Keypunching",
-      "diff": "medium"
-    },
-    {
-      "q": "What does the text call errors in a program?",
-      "options": ["A. Glitches", "B. Bugs", "C. Viruses", "D. Crashes"],
-      "answer": "B. Bugs",
-      "diff": "easy"
-    },
-    {
-      "q": "What is a printout?",
-      "options": ["A. The computer's memory contents", "B. Printed output showing if the program works or has errors", "C. The algorithm written on paper", "D. The coding sheet after keypunching"],
-      "answer": "B. Printed output showing if the program works or has errors",
-      "diff": "easy"
-    },
-    {
-      "q": "Why is it a good idea to test the program before adding the data?",
-      "options": ["A. To save time", "B. To find and fix errors before processing real data", "C. To make the computer faster", "D. To reduce memory usage"],
-      "answer": "B. To find and fix errors before processing real data",
-      "diff": "easy"
-    },
-    {
-      "q": "According to the text, a computer is called a robot because:",
-      "options": ["A. It can think like a human", "B. It does what it is told without thinking", "C. It has moving parts", "D. It can solve problems on its own"],
-      "answer": "B. It does what it is told without thinking",
-      "diff": "easy"
-    },
-    {
-      "q": "Which statement best expresses the main idea of the text?",
-      "options": ["A. Constructing an algorithm is the basic step in solving a problem.", "B. Solving problems becomes easier if certain steps are followed.", "C. The computer does what the programmer tells it to do.", "D. Programmers are more important than computers."],
-      "answer": "B. Solving problems becomes easier if certain steps are followed.",
-      "diff": "medium"
-    },
-    {
-      "q": "True or False: A computer is capable of thinking and solving problems on its own.",
-      "options": ["A. True", "B. False (it follows instructions given by the programmer)", "C. Only supercomputers can think", "D. It depends on the programming language"],
-      "answer": "B. False (it follows instructions given by the programmer)",
-      "diff": "easy"
-    },
-    {
-      "q": "What does CPU stand for?",
-      "options": ["A. Central Processing Unit", "B. Computer Peripheral Unit", "C. Control Program Utility", "D. Central Program User"],
-      "answer": "A. Central Processing Unit",
-      "diff": "easy"
-    },
-    {
-      "q": "Which part of the CPU directs and controls signals and commands?",
-      "options": ["A. Arithmetic-logic unit", "B. Control unit", "C. Memory unit", "D. Input unit"],
-      "answer": "B. Control unit",
-      "diff": "easy"
-    },
-    {
-      "q": "Which part of the CPU performs arithmetic operations and decision-making?",
-      "options": ["A. Control unit", "B. Arithmetic-logic unit", "C. Memory register", "D. Cache"],
-      "answer": "B. Arithmetic-logic unit",
-      "diff": "easy"
-    },
-    {
-      "q": "Primary memory is also called:",
-      "options": ["A. Secondary memory", "B. Internal memory", "C. External storage", "D. Virtual memory"],
-      "answer": "B. Internal memory",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is an example of an input device mentioned in the text?",
-      "options": ["A. Printer", "B. Terminal", "C. CPU", "D. Primary memory"],
-      "answer": "B. Terminal",
-      "diff": "easy"
-    }
-  ]
-},
-21: {
-  title: "Flowcharting (ENG 101 Lesson 21)",
-  summary: `**Key Topics Covered / Aasan Lafzo Mai Samjhein:**
-
-- **Flowchart Kya Hai? (What is a Flowchart):**
-  Flowchart aik road map ya drawing ki tarah hota hai jo program ka logical path (rasta) dikhata hai. Yeh kisi specific programming language ka mohtaj nahi hota, balke har bade program ko likhne se pehle banaya jata hai.
-- **Faida Kya Hai? (Why Use Flowcharts):**
-  Agar program mai koi error (bug) aa jaye, toh use code ki maze (uljhan) mai dhoodne ke bajaye flowchart par dhoodna zyada aasan hota hai.
-- **Flowchart Banane Ke Do Tareeqay (Two Methods):**
-  1. *Freehand Version:* Haath se jaldi-jaldi rough jotted down kiya jata hai (not for permanent records).
-  2. *Template Method:* Aik plastic sheet (template) use kiye jati hai jisme saare symbols cut out hote hain taake neat aur readable flowchart ban sake.
-- **Flowchart Symbols Aur Unka Matlab:**
-  - *Oval/Terminal symbol:* Start aur Stop ke liye use hota hai.
-  - *Parallelogram:* Input aur Output (kuch lane ya lejane) ke liye use hota hai.
-  - *Rectangle:* Processing aur Action lene ke liye use hota hai.
-  - *Diamond:* Decision making (Yes/No questions) ke liye use hota hai.
-  - *Arrows:* Flow or direction (rasta) dikhane ke liye use hote hain.
-- **Program Documentation:**
-  Program ko samajhne ke liye uske sath flowchart aur detailed instructions ka record rakhna program documentation kehlata hai. Agar documentation na ho, toh hum program se ulta (backwards) chalkar bhi flowchart bana sakte hain.
-- **Logical Ability:**
-  Flowcharting se student programmer ki logical aur analytical sochne ki salahiyat (thinking process) ka pata chalta hai.
-
----
-
-**Exercise Key Solved Data (For Quick Revision):**
-- **Main Idea:** Flowcharting is a basic step in programming.
-- **True/False Insights:** Template ke baghair bhi freehand flowchart ban sakta hai (False statement in exercise). Aik problem ke mukhtalif programmers alag-alag flowcharts bana sakte hain. Flowchart se code chalne ki 100% guarantee nahi hoti jab tak logic aur problem understanding theek na ho.
-- **Important Vocabulary Synonyms:** route = path | try = attempt | answer = solution / reply | put in = insert | show = reveal.
-- **Antonyms:** unlimited = restricted | undiscovered = detected | temporary = permanent | inaccessible = available | illogical = logical.`,
-  questions: [
-    {
-      "q": "Which statement expresses the main idea of Lesson 21 text?",
-      "options": ["A. Every programmer must know how to flowchart.", "B. Program documentation specifies what the program is supposed to do.", "C. Flowcharting is a basic step in programming.", "D. Templates make flowcharts permanent."],
-      "answer": "C. Flowcharting is a basic step in programming.",
-      "diff": "medium"
-    },
-    {
-      "q": "Why are errors more easily detected on a flowchart than in the program code?",
-      "options": ["A. Because flowcharts use different colors.", "B. Because it avoids the maze of words, characters, and numbers of the code.", "C. Because flowcharts are always made using plastic templates.", "D. Because flowcharts automatically fix the errors."],
-      "answer": "B. Because it avoids the maze of words, characters, and numbers of the code.",
-      "diff": "easy"
-    },
-    {
-      "q": "Is it possible to draw a flowchart without using a plastic template?",
-      "options": ["A. No, templates are mandatory.", "B. Yes, by making a freehand version.", "C. Only if the program is very short.", "D. Only if written in a specific language."],
-      "answer": "B. Yes, by making a freehand version.",
-      "diff": "easy"
-    },
-    {
-      "q": "Two programmers working separately on the same problem will always come up with identical flowcharts.",
-      "options": ["A. True, because the problem is the same.", "B. False, they may come up with altogether different flowcharts and programs.", "C. True, because flowcharts follow strict standard templates.", "D. False, because templates restrict variations."],
-      "answer": "B. False, they may come up with altogether different flowcharts and programs.",
-      "diff": "medium"
-    },
-    {
-      "q": "Which symbol indicates the beginning or the end of a program?",
-      "options": ["A. Rectangle", "B. Parallelogram", "C. Terminal symbol", "D. Diamond shaped symbol"],
-      "answer": "C. Terminal symbol",
-      "diff": "easy"
-    },
-    {
-      "q": "A parallelogram shape in flowcharting is used as an:",
-      "options": ["A. Processing symbol", "B. Input/Output symbol", "C. Decision symbol", "D. Terminal symbol"],
-      "answer": "B. Input/Output symbol",
-      "diff": "easy"
-    },
-    {
-      "q": "What does a rectangular symbol stand for in a flowchart?",
-      "options": ["A. Decision making", "B. Processing / action taken", "C. Input data entry", "D. Ending of a program"],
-      "answer": "B. Processing / action taken",
-      "diff": "easy"
-    },
-    {
-      "q": "The diamond-shaped symbol is used in a flowchart to indicate a:",
-      "options": ["A. Sequential process", "B. Input command", "C. Decision usually answered by Yes or No", "D. Document storage link"],
-      "answer": "C. Decision usually answered by Yes or No",
-      "diff": "easy"
-    },
-    {
-      "q": "What is used to show the flow or direction in which the different actions are performed?",
-      "options": ["A. Rectangles", "B. Templates", "C. Arrows", "D. Connectors"],
-      "answer": "C. Arrows",
-      "diff": "easy"
-    },
-    {
-      "q": "Keeping a copy of the flowchart along with detailed instructions after working out a program is known as:",
-      "options": ["A. Keypunching", "B. Program documentation", "C. Freehand processing", "D. Reclassifying code"],
-      "answer": "B. Program documentation",
-      "diff": "medium"
-    },
-    {
-      "q": "If the original flowchart is missing, is it possible to work backwards and create one from an application program?",
-      "options": ["A. No, it is impossible.", "B. Yes, it is always possible.", "C. Only if a template is available.", "D. Only if the program contains zero loops."],
-      "answer": "B. Yes, it is always possible.",
-      "diff": "medium"
-    },
-    {
-      "q": "Flowcharting is taught early to student programmers because it reveals their:",
-      "options": ["A. Typing speed and language knowledge", "B. Logical and analytical ability", "C. Ability to use templates cleanly", "D. Memory capacity"],
-      "answer": "B. Logical and analytical ability",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the synonym of the word 'route' used in the text?",
-      "options": ["A. Map", "B. Path", "C. Maze", "D. Step"],
-      "answer": "B. Path",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the antonym of the word 'temporary' according to the passage context?",
-      "options": ["A. Freehand", "B. Readable", "C. Permanent", "D. Plastic"],
-      "answer": "C. Permanent",
-      "diff": "easy"
-    },
-    {
-      "q": "Complete the sentence with the correct form: 'Flowcharting _________ a logical analysis of a problem...'",
-      "options": ["A. involve", "B. involves", "C. involvement", "D. involving"],
-      "answer": "B. involves",
-      "diff": "medium"
-    },
-    {
-      "q": "Complete the sentence: 'A piece of plastic with different shapes used for flowcharting is called a _________.'",
-      "options": ["A. document", "B. terminal", "C. template", "D. parallelogram"],
-      "answer": "C. template",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the type of clause: 'If computer technology continues growing at the rate it has...'",
-      "options": ["A. Prediction", "B. Condition", "C. Main Idea", "D. Process"],
-      "answer": "B. Condition",
-      "diff": "medium"
-    },
-    {
-      "q": "In the phrase 'the original one is missing', what does the word 'one' refer to?",
-      "options": ["A. Program", "B. Flowchart", "C. Template", "D. Symbol"],
-      "answer": "B. Flowchart",
-      "diff": "easy"
-    },
-    {
-      "q": "True or False: The method of flowcharting depends on the programming language being used.",
-      "options": ["A. True", "B. False (it is not restricted to any particular language)"],
-      "answer": "B. False (it is not restricted to any particular language)",
-      "diff": "easy"
-    },
-    {
-      "q": "Complete the grammar form: 'He submitted the _________ version of the program to be keypunched.'",
-      "options": ["A. correct", "B. corrected", "C. correcting", "D. correction"],
-      "answer": "B. corrected",
-      "diff": "medium"
-    }
-  ]
-},
-
-
-22: {
-  title: "Sentence Types and Structures (ENG 101 Lesson 22)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: BASIC GRAMMAR COMBINATIONS (Mixed Forms)
-Yeh concepts aam taur par direct MCQ definitions ya identification ke liye aate hain:
-
-👉 **1. Participle (Verb + Adjective):** 
-Jab koi verb ka word kisi noun ki khubi ya haalat batane ke liye (adjective ban kar) aaye.
-*   *Pehchan:* Yeh noun se pehle lag kar uski condition batata hai.
-*   *Example:* The **retired** headmaster distributed the prizes. (Yahan "retired" aik verb hai jo headmaster ki halat bata raha hai).
-
-👉 **2. Gerund (Verb + Noun):** 
-Jab verb ki \`-ing\` wali form sentence mai action ke bajaye aik "naam" ya "activity" (noun) ka kaam kare.
-*   *Pehchan:* Yeh sentence mai subject ya object ki jagah aata hai.
-*   *Example:* She is thinking of **leaving** her job.
-
-👉 **3. Infinitive (To + Verb):** 
-Jab \`to\` ke sath verb ki first form lag kar noun ka kaam kare.
-*   *Example:* She wishes **to deposit** the money.
-
-👉 **4. Relative Adverb (Adverb + Conjunction):** 
-Yeh aik aisa adverb hota hai jo do clauses ya baaton ko aapas mai jorhta (connect) bhi hai.
-*   *Example:* I was relieved **when** the program ended.
-
----
-
-### 🏛️ SECTION 2: SENTENCES BY MEANING / PURPOSE
-Sentence baat kehne ke maqsad ke mutabiq 5 tarah ke hote hain:
-
-1. **Statement / Assertion / Declaration:** Kisi aam baat ka elaan ya sabaat karna. (e.g., *He is a teacher.* / *It is cloudy.*)
-2. **Question:** Koi sawal poochna. (e.g., *What day is it?*)
-3. **Commands / Imperative:** Hukm ya ijazat dena. (e.g., *Go in.* / *Shut up.*)
-4. **Exclamations:** Shaded jazbaat ya afsos ka izhaar. (e.g., *If only it would stop raining!*)
-5. **Greetings:** Duaia ya aam khair-sangat wale alfaz jinka koi fix rules nahi hota. (e.g., *Good morning.* / *Hello.*)
-
----
-
-### 🛠️ SECTION 3: SENTENCES BY STRUCTURE (Most Important Part)
-Sentence banta kaise hai? Iski 4 barhi types hain. Inko samajhne se pehle yaad rakhein:
-*   *Independent Clause:* Jo poori baat samajhaye aur akele khara ho sake.
-*   *Dependent Clause:* Jo \`Dependent Word\` se shuru ho aur akele poora matlab na de sake (ismai bhi subject aur verb hota hai).
-
-#### 🟢 1. The Simple Sentence
-Ismai sirf **AIK** Independent Clause hoti hai (yani aik hi mukammal thought).
-*   *🚨 Concept Clear karein:* Simple sentence chota bhi ho sakta hai aur bohot lamba bhi. Ismai aik se zyada subjects aur aik se zyada verbs ho sakte hain, jab tak wo sab mil kar aik hi complete thought banayein!
-*   *Example (1 Subject + 1 Verb):* Sparks fly upwards.
-*   *Example (Multiple Subjects & Verbs):* Shama, Salman and Minko **(3 Subjects)** go to the movies, eat at a restaurant and play cards **(3 Verbs)** every Saturday night. (Yeh abhi bhi simple sentence hai kyun ke koi dependent clause nahi hai).
-
-#### 🔵 2. The Compound Sentence
-Jab **DO ya do se zyada** mukammal thoughts (Independent Clauses) ko aapas mai jorha jaye.
-*   *Formula:* Independent Clause + **, (Comma)** + **Joining Word** + Independent Clause.
-*   *Co-ordinating / Joining Words Ka Matlab:*
-    *   \`and\` = In addition (izafa karna) -> *The driver failed to signal, and he went through a stop sign.*
-    *   \`but\` / \`yet\` = However (lekin / iske bawajood) -> *I was tired, but I still studied.*
-    *   \`so\` = As a result (is liye / nateejatan) -> *The meal was bad, so we sent it back.*
-    *   \`for\` = Because (kyun ke - yaad rakhein yahan 'for' ka matlab 'because' hai) -> *She works at home, for she wants to be with her kids.*
-    *   \`or\` = Alternative (ya phir / choice) -> *You can ride with us, or you can go with someone else.*
-    *   \`nor\` = Second negative statement (na hi yeh) -> *Saad does not eat meat, nor does he eat fish.*
-
-#### 🟡 3. The Complex Sentence
-Ismai **AIK Independent Statement** hoti hai aur **kam az kam AIK Dependent Statement** hoti hai jo akele stand nahi kar sakti.
-*   *Pehchan:* Dependent statement hamesha in **Dependent Words** se shuru hoti hai: *after, although, as, because, before, even if, even though, since, though, unless, until, when, whenever, whether, while, where, wherever.*
-*   *Punctuation Rule:* Agar dependent clause shuru mai aaye toh darmyan mai comma (,) lagega. Agar baad mai aaye toh comma nahi lagta.
-*   *Example:* **When the century began**, there were many coffee houses. (Underlined part dependent hai).
-*   *Example:* Ghazala will not sell her old gramophone **even if she is offered a large sum of money**.
-
-#### 🟠 4. The Compound-Complex Sentence
-Ismai kam az kam **DO Independent Clauses** (compound ki tarah) aur kam az kam **AIK Dependent Clause** (complex ki tarah) hoti hai.
-*   *Example:* **When Bobby saw a rainbow** [Dependent], he ran to get his camera [Independent 1], **and** the rainbow disappeared [Independent 2].
-
----
-
-### 📝 SECTION 4: PRACTICE EXERCISE DIRECT SOLUTIONS
-*   *Garbage strike issue:* The city sanitary workers are on strike, **so** the streets are littered with garbage.
-*   *Computer issue:* The computer was on, **but** no one was working at it.
-*   *Rain & Picnic text combine:* Although it had rained for many days, the sun finally came out; the children wanted a picnic, but the ground was too wet.`,
-  questions: [
-    {
-      "q": "What is a participle according to the text?",
-      "options": ["A. A verb and a noun combined", "B. A verb and an adjective combined", "C. An adverb and a conjunction combined", "D. A noun and an adjective combined"],
-      "answer": "B. A verb and an adjective combined",
-      "diff": "easy"
-    },
-    {
-      "q": "In the sentence 'She is thinking of leaving her job', the word 'leaving' is an example of a:",
-      "options": ["A. Participle", "B. Gerund", "C. Infinitive", "D. Relative Adverb"],
-      "answer": "B. Gerund",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following is an example of an Infinitive?",
-      "options": ["A. Retired headmaster", "B. Thinking", "C. To deposit", "D. When the program ended"],
-      "answer": "C. To deposit",
-      "diff": "easy"
-    },
-    {
-      "q": "A simple sentence can have which of the following?",
-      "options": ["A. Only one subject and one verb", "B. More than one verb but only one subject", "C. Several subjects and several verbs as long as it expresses one independent thought", "D. At least one dependent clause"],
-      "answer": "C. Several subjects and several verbs as long as it expresses one independent thought",
-      "diff": "medium"
-    },
-    {
-      "q": "In a compound sentence, clauses are typically joined together by a:",
-      "options": ["A. Dependent word", "B. Comma and a joining (co-ordinating) word", "C. Colon alone", "D. Relative adverb"],
-      "answer": "B. Comma and a joining (co-ordinating) word",
-      "diff": "easy"
-    },
-    {
-      "q": "Which joining word is used to show a second negative statement?",
-      "options": ["A. or", "B. nor", "C. but", "D. yet"],
-      "answer": "B. nor",
-      "diff": "easy"
-    },
-    {
-      "q": "What does the joining word 'for' mean when connecting independent thoughts in a compound sentence?",
-      "options": ["A. In addition", "B. However", "C. Because", "D. As a result"],
-      "answer": "C. Because",
-      "diff": "medium"
-    },
-    {
-      "q": "A complex sentence must include:",
-      "options": ["A. Two or more independent clauses only", "B. One independent statement and at least one dependent statement", "C. No verbs in the dependent clause", "D. A semicolon and a joining word"],
-      "answer": "B. One independent statement and at least one dependent statement",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following words is on the list of 'dependent words'?",
-      "options": ["A. but", "B. although", "C. nor", "D. so"],
-      "answer": "B. although",
-      "diff": "easy"
-    },
-    {
-      "q": "Combine correctly using a joining word: 'The computer was on. No one was working at it.'",
-      "options": ["A. The computer was on so no one was working at it.", "B. The computer was on, but no one was working at it.", "C. Although the computer was on no one worked.", "D. The computer was on nor no one was working at it."],
-      "answer": "B. The computer was on, but no one was working at it.",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is a Simple Sentence?",
-      "options": ["A. The fire alarm sounded.", "B. When the fire alarm sounded she was in bed.", "C. The fire alarm sounded, and they evacuated the building.", "D. Because the alarm sounded, everyone left."],
-      "answer": "A. The fire alarm sounded.",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is a Compound Sentence?",
-      "options": ["A. Terry seems unfriendly.", "B. The book was very expensive, so I didn't buy it.", "C. When Jack did a U-turn, his bike slipped.", "D. The raindrops slide slowly down the window."],
-      "answer": "B. The book was very expensive, so I didn't buy it.",
-      "diff": "easy"
-    },
-    {
-      "q": "Which of the following is a Complex Sentence?",
-      "options": ["A. Jack did a U-turn.", "B. When Jack did a U-turn, his bike slipped.", "C. Jack did a U-turn, and he fell off the bike.", "D. Jack did a U-turn but he did not fall."],
-      "answer": "B. When Jack did a U-turn, his bike slipped.",
-      "diff": "medium"
-    },
-    {
-      "q": "Which sentence is a Compound-Complex sentence?",
-      "options": ["A. The raindrops slide slowly down the window.", "B. The bell rang six times, but no one answered.", "C. Because I heard a scream outside, I called the police.", "D. When Bobby saw a rainbow he ran to get his camera and the rainbow disappeared."],
-      "answer": "D. When Bobby saw a rainbow he ran to get his camera and the rainbow disappeared.",
-      "diff": "hard"
-    },
-    {
-      "q": "What is the correct way to fix the punctuation here: 'As the mad man made demands on the phone police surrounded the building.'",
-      "options": ["A. Place a comma after 'phone'", "B. Place a semicolon after 'demands'", "C. Place a comma after 'man'", "D. No punctuation is needed"],
-      "answer": "A. Place a comma after 'phone'",
-      "diff": "medium"
-    },
-    {
-      "q": "In the compound sentence joining words, 'yet' carries the same meaning as:",
-      "options": ["A. and", "B. so", "C. but", "D. for"],
-      "answer": "C. but",
-      "diff": "easy"
-    },
-    {
-      "q": "Every dependent statement/clause must contain a:",
-      "options": ["A. Semicolon and joining word", "B. Subject and a verb", "C. Conjunction and a list", "D. Prepositional phrase only"],
-      "answer": "B. Subject and a verb",
-      "diff": "medium"
-    },
-    {
-      "q": "The sentence 'Go in' falls under which category of purpose?",
-      "options": ["A. Statement", "B. Question", "C. Issue commands", "D. Utter exclamations"],
-      "answer": "C. Issue commands",
-      "diff": "easy"
-    },
-    {
-      "q": "Complete the compound sentence: 'Saad does not eat meat, _________ does he eat fish.'",
-      "options": ["A. or", "B. nor", "C. but", "D. yet"],
-      "answer": "B. nor",
-      "diff": "medium"
-    },
-    {
-      "q": "A statement that cannot stand alone as a complete thought is called a/an:",
-      "options": ["A. Simple sentence", "B. Independent clause", "C. Dependent clause / statement", "D. Compound declaration"],
-      "answer": "C. Dependent clause / statement",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-23: {
-  title: "Sentence Improvements and Coherence (ENG 101 Lesson 23)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: SUBORDINATION & SENTENCE UNITY
-Kuch sentences mai main baat chup jati hai aur aam baat par zor parh jata hai. Unko sahi connective se behtar banaya jata hai. Sahi subordinating conjunctions use karna aur adhure sentences (lacking unity) ko poora karna zaroori hai.
-
-👉 **Key Rules & Corrections:**
-- \`just as\` ya \`when\` ko main event ke sath nahi lagate. Jo bada ya sudden event ho, usko main clause banayein.
-- \`because\` aur \`reason\` aik sath use karna ghalat hai (Redundancy). \`The reason... was that\` likhein.
-- Adhure statements jaise "She is so talented" ya "such a problem" ke aage details lagana lazmi hai taake baat mukammal ho (Sentence Unity).
-
----
-
-### 🏛️ SECTION 2: PARALLELISM (Faulty Constructions)
-Parallelism ka matlab hai ke agar aik sentence mai ek se zyada cheezon ki list ho, toh un sab ka grammatical structure **AIK JAISA** hona chahiye. Agar aik \`-ing\` form hai toh baqi bhi \`-ing\` hon, agar aik \`to + verb\` hai toh baqi bhi \`to + verb\` hon.
-
-👉 **Key Rules & Corrections:**
-- *Ghalat:* Reading books and to write reviews. ❌
-- *Sahi:* **Reading** books and **writing** book reviews.  (Dono \`-ing\` nouns / Gerunds ban gaye).
-- *Correlatives Rule:* \`Both... and\`, \`not only... but also\`, \`either... or\` ke baad bilkul aik jaisay part of speech aane chahiye.
-- *Ghalat:* He not only likes tennis but also golf. ❌
-- *Sahi:* He likes **not only** tennis **but also** golf.  (Dono nouns se pehle correlatives aaye).
-
----
-
-### 🛠️ SECTION 3: COHERENCE (Pronouns, Split Construction, Shifting)
-Sentence mai coherence (rabt) paida karne ke liye 4 barhi chizon ka khyal rakhna parta hai:
-
-1. **Pronoun Reference:** Pronoun (\`he, she, it, they\`) kis noun ke liye use ho raha hai, yeh bilkul clear hona chahiye (Ambiguity nahi honi chahiye).
-2. **Pronoun Agreement:** Kisi company ya club ko singular treat karein toh poore sentence mai singular (\`its\`) rakhein, (\`their\`) mat lagayein.
-3. **Split Infinitive:** \`to\` aur \`verb\` ke darmyan mai koi adverb ghusana ghalat hai. (e.g., *to viciously hit* ❌ -> *to hit viciously* ).
-4. **Shifting Point of View:** Sentence ke darmyan bina wajah tense (Past se Present), voice (Active se Passive), ya number (Singular se Plural) tabdeel mat karein.
-   - *Ghalat:* He ran to the station and the train was taken by him. ❌ (Active to Passive shift)
-   - *Sahi:* He **ran** to the station and **took** the train.  (Dono active).
-
----
-
-### ⚡ SECTION 4: EMPHASIS (Zor Dena)
-Sentence mai jo sab se ahem baat hoti hai, usko aisi jagah rakha jata hai jahan parhne wale ka dhayan sab se pehle jaye:
-
-- **Position:** Sab se ahem baat sentence ke **shuru** mai ya **aakhiri** hisse mai honi chahiye. Faizay dar phrases jaise \`I think\`, \`we were told\` ko aakhir mai chorhne se emphasis kamzoor ho jata hai.
-- **Order of Climax:** Cheezon ki list ko hamesha chote se bade ki taraf (Climax order) mai likhein. (e.g., *Middle school, high school, and then college*).
-
----
-
-### 📝 SECTION 5: PRACTICE EXERCISE DIRECT SOLUTIONS
-*   *Parallelism:* **Swimming** and **fishing** are my favourite sports.
-*   *Correlative Position:* I want **both** to exercise **and** to be amused.
-*   *Pronoun Fix:* Susan and her sister both saw the film, but **Susan** was disappointed.
-*   *Split Fix:* He took an oath **never to reveal** the secrets...
-*   *Climax Order:* He testified that he had passed **middle school, high school, and college** examinations.`,
-  questions: [
-    {
-      "q": "What is the error in the sentence: 'The main reason I left early was because I was bored.'?",
-      "options": ["A. Faulty Parallelism", "B. Split Infinitive", "C. Redundant construction (using 'reason' and 'because' together)", "D. Incorrect pronoun reference"],
-      "answer": "C. Redundant construction (using 'reason' and 'because' together)",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following sentences shows correct parallel structure?",
-      "options": ["A. Seema's job is reading books and to write book reviews.", "B. Seema's job is reading books and writing book reviews.", "C. Seema's job is to read books and writing book reviews.", "D. Seema's job is read books and writing book reviews."],
-      "answer": "B. Seema's job is reading books and writing book reviews.",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the error: 'Swimming and to go fishing are my favourite sports.'",
-      "options": ["A. To swim and fishing are my favourite sports.", "B. Swimming and fishing are my favourite sports.", "C. Swimming and to fish are my favourite sports.", "D. To swimming and go fishing are my favourite sports."],
-      "answer": "B. Swimming and fishing are my favourite sports.",
-      "diff": "easy"
-    },
-    {
-      "q": "What is a 'Split Infinitive' error?",
-      "options": ["A. Shifting from past tense to present tense", "B. Placing an adverb between 'to' and the base verb", "C. Using a plural pronoun for a singular noun", "D. Ending a sentence with a preposition"],
-      "answer": "B. Placing an adverb between 'to' and the base verb",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the correct way to fix the split construction: 'to viciously hit'",
-      "options": ["A. viciously to hit", "B. to hit viciously", "C. to be viciously hitting", "D. hit viciously to"],
-      "answer": "B. to hit viciously",
-      "diff": "easy"
-    },
-    {
-      "q": "Why is this sentence ambiguous: 'Ahmed saw Basit yesterday and he said that he had the money.'?",
-      "options": ["A. It has a split construction.", "B. It is missing a joining word.", "C. The pronoun 'he' has an unclear reference (could be Ahmed or Basit).", "D. It shifts from active to passive voice."],
-      "answer": "C. The pronoun 'he' has an unclear reference (could be Ahmed or Basit).",
-      "diff": "medium"
-    },
-    {
-      "q": "If an antecedent is singular (e.g., 'The club'), how should it be treated throughout the sentence?",
-      "options": ["A. First as singular, then as plural", "B. Consistently as plural", "C. Consistently as singular (using 'its' instead of 'their')", "D. It does not matter"],
-      "answer": "C. Consistently as singular (using 'its' instead of 'their')",
-      "diff": "medium"
-    },
-    {
-      "q": "What error occurs when a sentence changes needlessly from active to passive voice?",
-      "options": ["A. Lack of parallelism", "B. Aimless shifting destroying coherence", "C. Redundancy", "D. Climax error"],
-      "answer": "B. Aimless shifting destroying coherence",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct the shift in tense: 'The only words that we were able to distinguish are 'horse' and 'cart'.'",
-      "options": ["A. ...distinguish is 'horse' and 'cart'.", "B. ...distinguish were 'horse' and 'cart'.", "C. ...distinguished are 'horse' and 'cart'.", "D. No correction needed."],
-      "answer": "B. ...distinguish were 'horse' and 'cart'.",
-      "diff": "medium"
-    },
-    {
-      "q": "What is the correct 'Order of Climax' for arranging educational qualifications?",
-      "options": ["A. College, middle school, high school", "B. Middle school, high school, college", "C. High school, college, middle school", "D. College, high school, middle school"],
-      "answer": "B. Middle school, high school, college",
-      "diff": "easy"
-    },
-    {
-      "q": "How can you improve emphasis in the sentence: 'It is a worthy cause, I think.'?",
-      "options": ["A. I think it is a worthy cause.", "B. A worthy cause it is, I think.", "C. It is, I think, a worthy cause.", "D. It is a very worthy cause."],
-      "answer": "A. I think it is a worthy cause.",
-      "diff": "medium"
-    },
-    {
-      "q": "Choose the correct parallel construction using correlatives:",
-      "options": ["A. He both wants exercise and to be amused.", "B. He wants both exercise and amusement.", "C. He wants both to exercise and amused.", "D. Both he wants exercise and amusement."],
-      "answer": "B. He wants both exercise and amusement.",
-      "diff": "hard"
-    },
-    {
-      "q": "The sentence 'The young ladies wore bright coloured socks and were kind hearted' lacks what?",
-      "options": ["A. Correct pronouns", "B. Emphasis", "C. Sentence Unity (combining unrelated ideas)", "D. Parallelism"],
-      "answer": "C. Sentence Unity (combining unrelated ideas)",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following sentences has a correct pronoun agreement?",
-      "options": ["A. The club has done their best to raise money.", "B. The club has done its best to raise money.", "C. The club have done its best to raise money.", "D. The club has done our best to raise money."],
-      "answer": "B. The club has done its best to raise money.",
-      "diff": "easy"
-    },
-    {
-      "q": "Fix the double preposition error: 'This is the book to which I was referring to.'",
-      "options": ["A. This is the book which I was referring to.", "B. This is the book to which I was referring.", "C. Both A and B are correct.", "D. This is the book to who I was referring."],
-      "answer": "C. Both A and B are correct.",
-      "diff": "hard"
-    },
-    {
-      "q": "To make a sentence more emphatic, where should less important expressions like 'we were told' or 'in all probability' generally be placed?",
-      "options": ["A. Right at the very end of the main point", "B. Tucked away in the middle or placed at the beginning", "C. Repeated multiple times", "D. Omitted completely from all sentences"],
-      "answer": "B. Tucked away in the middle or placed at the beginning",
-      "diff": "medium"
-    },
-    {
-      "q": "What is wrong with 'If one tries hard, they can accomplish much'?",
-      "options": ["A. Aimless shift from singular 'one' to plural 'they'", "B. Faulty parallel list", "C. Split construction", "D. Climax order error"],
-      "answer": "A. Aimless shift from singular 'one' to plural 'they'",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct the parallelism in daily tasks: 'Getting the groceries, taking the children to school and to feed the dog...'",
-      "options": ["A. ...and food the dog", "B. ...and feeding the dog", "C. ...and for feeding the dog", "D. ...and to be feeding the dog"],
-      "answer": "B. ...and feeding the dog",
-      "diff": "easy"
-    },
-    {
-      "q": "What destroys coherence in a sentence according to the text?",
-      "options": ["A. Using commas properly", "B. Aimless shifting of points of view, tenses, or voice", "C. Placing main thoughts first", "D. Using standard conjunctions"],
-      "answer": "B. Aimless shifting of points of view, tenses, or voice",
-      "diff": "easy"
-    },
-    {
-      "q": "The phrase 'My castles in air came tumbling down into a bottomless heap' is an example of:",
-      "options": ["A. Correct parallel list", "B. Mixture of figures of speech", "C. Clear pronoun reference", "D. Order of climax"],
-      "answer": "B. Mixture of figures of speech",
-      "diff": "hard"
-    }
-  ]
-},
-
-
-24: {
-  title: "Sentence Fragments (ENG 101 Lesson 24)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: SENTENCE FRAGMENT KYA HAI? (The Core Concept)
-Aik mukammal sentence banne ke liye 3 chizen zaroori hain: **Subject**, **Verb**, aur **Complete Thought (Poori Baat)**. Agar inme se aik bhi cheez missing ho, toh use **Sentence Fragment** (adhura jumla) kehte hain. Lesson 24 mai fragments ki 4 barhi types aur unko theek karne ka tareeqa samjhaya gaya hai.
-
----
-
-### 🏛️ SECTION 2: THE 4 TYPES OF FRAGMENTS & THEIR FIXES
-
-👉 **1. Dependent Word Fragments:**
-Yeh wo adhure jumle hote hain jo subject aur verb hone ke bawajood poori baat nahi batate kyun ke yeh kisi \`Dependent Word\` (since, when, after, because, although, unless) se shuru hote hain.
-*   *Fragment:* Because there was a gas leak. ❌ (Kyun ke gas leak thi... agay kya hua?)
-*   *Fix:* Isko sath wali independent clause se jorhein: *The police cordoned off the area **because** there was a gas leak.* ✔️
-
-👉 **2. \`-ing\` or \`To\` Fragments (Participle / Infinitive Fragments):**
-Jab koi sentence bina kisi subject ke direct \`-ing\` wale verb ya \`to + verb\` se shuru ho jaye.
-*   *Fragment:* Rising high into the sky. The huge yellow kite could be seen for miles. ❌
-*   *Fix Method A (Jorhein):* **Rising high into the sky,** the huge yellow kite could be seen for miles. ✔️
-*   *Fix Method B (Subject lagayein):* **It rose** high into the sky. The huge yellow kite could be seen for miles. ✔️
-
-👉 **3. Added-Detail Fragments:**
-Yeh wo adhure jumle hote hain jo sirf mazeed tafseel (extra details) batate hain aur aam taur par in words se shuru hote hain: *like, especially, for example, such as, including, except*. Inme na apna subject hota hai na verb.
-*   *Fragment:* Oranges are full of nutrients. Especially vitamin C. ❌
-*   *Fix:* **Especially vitamin C** ko pehle jumle ka hissa banayein: *Oranges are full of nutrients, **especially vitamin C**.* ✔️
-
-👉 **4. Missing-Subject Fragments:**
-Ismai verb toh hota hai aur lagta hai ke baat bhi chal rahi hai, lekin darmyan mai \`and\`, \`but\`, \`then\`, ya \`yet\` ke baad subject gayab ho jata hai.
-*   *Fragment:* Maryam skipped her afternoon classes. And worked on a paper. ❌ (Yahan 'And' ke baad subject missing hai).
-*   *Fix Method A (Jorhein):* Maryam skipped her afternoon classes **and worked** on a paper. ✔️ (Comma ya full stop hata kar seedha jorhein).
-*   *Fix Method B (Subject lagayein):* Maryam skipped her afternoon classes. **And she worked** on a paper. ✔️
-
----
-
-### 📝 SECTION 3: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS
-1. To be a sentence, a group of words must contain a subject and a **verb**, and it must express **a complete thought**.
-2. Words such as because, until, and while are known as **dependent** words.
-3. Fragments that begin with words such as like, especially, and for example are known as **added-detail** fragments.
-4. One way to correct an added-detail fragment is to create a new **sentence** by adding a subject and **verb** to the fragment.
-5. One way to correct a missing-subject fragment is to add a **subject** to the fragment.`,
-  questions: [
-    {
-      "q": "To be a complete sentence, a group of words must fulfill which requirements?",
-      "options": ["A. It must have a dependent word and a comma.", "B. It must contain a subject, a verb, and express a complete thought.", "C. It must start with an -ing word and contain a noun.", "D. It must use a transition word like 'especially'."],
-      "answer": "B. It must contain a subject, a verb, and express a complete thought.",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the dependent-word fragment from the options below:",
-      "options": ["A. Several small shops went out of business.", "B. The nurse pierced my arm four times.", "C. Because there was a gas leak.", "D. The child was running and jumping."],
-      "answer": "C. Because there was a gas leak.",
-      "diff": "easy"
-    },
-    {
-      "q": "What makes 'When I rang the doorbell' a sentence fragment?",
-      "options": ["A. It is missing a verb.", "B. It is missing a subject.", "C. It begins with a dependent word and does not express a complete thought.", "D. It is written in the past tense."],
-      "answer": "C. It begins with a dependent word and does not express a complete thought.",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the error in this construction: 'Rising high into the sky. The huge yellow kite could be seen for miles.'",
-      "options": ["A. Missing-Subject Fragment", "B. Added-Detail Fragment", "C. -ing Fragment", "D. Dependent Word Fragment"],
-      "answer": "C. -ing Fragment",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following is a correctly fixed version of an -ing fragment?",
-      "options": ["A. Police officers stood all over the road, directing traffic around the accident.", "B. Police officers stood all over the road directing traffic around the accident.", "C. Both A and B are acceptable ways to merge and fix the fragment.", "D. Directing traffic around the accident police officers."],
-      "answer": "C. Both A and B are acceptable ways to merge and fix the fragment.",
-      "diff": "hard"
-    },
-    {
-      "q": "Fragments that begin with words like 'especially', 'including', and 'such as' are known as:",
-      "options": ["A. Missing-Subject Fragments", "B. Added-Detail Fragments", "C. Relative Adverb Fragments", "D. Infinitive Fragments"],
-      "answer": "B. Added-Detail Fragments",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the added-detail fragment: 'For a main dish, I often serve meat and vegetables. For example, fish and spinach.'",
-      "options": ["A. For a main dish, I often serve meat and vegetables for example fish and spinach.", "B. For a main dish, I often serve meat and vegetables, for example, fish and spinach.", "C. For a main dish, I often serve meat and vegetables; especially fish and spinach.", "D. For example, fish and spinach I serve for a main dish with meat and vegetables."],
-      "answer": "B. For a main dish, I often serve meat and vegetables, for example, fish and spinach.",
-      "diff": "medium"
-    },
-    {
-      "q": "What is missing in the second word-group here: 'The poor woman paid all her utility bills. But then had little money left over for food.'?",
-      "options": ["A. A proper verb", "B. An -ing participle", "C. A subject after the coordinator 'but'", "D. An added detail connector"],
-      "answer": "C. A subject after the coordinator 'but'",
-      "diff": "medium"
-    },
-    {
-      "q": "Which of the following is a correctly repaired Missing-Subject sentence?",
-      "options": ["A. The nurse held a smiling baby. Then posed for the photographers.", "B. The nurse held a smiling baby and then posed for the photographers.", "C. The nurse held a smiling baby, then she posed for the photographers.", "D. Both B and C are correct grammatical repairs."],
-      "answer": "D. Both B and C are correct grammatical repairs.",
-      "diff": "hard"
-    },
-    {
-      "q": "Words like 'because', 'unless', 'while', and 'until' are classified as:",
-      "options": ["A. Co-ordinating conjunctions", "B. Dependent words / Subordinating conjunctions", "C. Relative Adjectives", "D. Transition nouns"],
-      "answer": "B. Dependent words / Subordinating conjunctions",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the fragment in this text: 'We go to Murree Hills during the summer vacations. Whenever we can, of course.'",
-      "options": ["A. We go to Murree Hills during the summer vacations, whenever we can, of course.", "B. We go to Murree Hills during the summer vacations; whenever we can of course.", "C. Whenever we can, of course we go to Murree Hills during summer vacations.", "D. Both A and C are grammatically corrected versions."],
-      "answer": "D. Both A and C are grammatically corrected versions.",
-      "diff": "hard"
-    },
-    {
-      "q": "What type of fragment is found in: 'He hated learning foreign languages. Latin, French and German especially.'?",
-      "options": ["A. Dependent-Word Fragment", "B. Added-Detail Fragment", "C. Missing-Subject Fragment", "D. Infinitive Fragment"],
-      "answer": "B. Added-Detail Fragment",
-      "diff": "easy"
-    },
-    {
-      "q": "How can you correct an added-detail fragment by creating a completely separate new sentence?",
-      "options": ["A. By adding a comma at the start", "B. By adding a subject and a verb to that fragment", "C. By changing it into an -ing word", "D. By eliminating all details"],
-      "answer": "B. By adding a subject and a verb to that fragment",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the incorrect fragment in the text: 'The sleeping dog opened one eye to look at the postman. And then went back to sleep.'",
-      "options": ["A. 'The sleeping dog opened one eye'", "B. 'to look at the postman'", "C. 'And then went back to sleep.'", "D. There is no fragment in this text."],
-      "answer": "C. 'And then went back to sleep.'",
-      "diff": "medium"
-    },
-    {
-      "q": "In the sentence test: 'Each hair is attached to a tiny muscle. Which can pull the hair straight up.' What is the correct way to fix the 'which' fragment?",
-      "options": ["A. Each hair is attached to a tiny muscle, which can pull the hair straight up.", "B. Each hair is attached to a tiny muscle which can pull the hair straight up.", "C. Each hair is attached to a tiny muscle; which can pull the hair straight up.", "D. Both A and B are correct."],
-      "answer": "D. Both A and B are correct.",
-      "diff": "hard"
-    },
-    {
-      "q": "One way to correct a missing-subject fragment is to add a ________ to the fragment statement.",
-      "options": ["A. Verb", "B. Semicolon", "C. Subject / Pronoun", "D. Dependent Word"],
-      "answer": "C. Subject / Pronoun",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the fragment here: 'The old lady was trembling with excitement. As it was her first airplane ride.'",
-      "options": ["A. 'The old lady was trembling with excitement.'", "B. 'As it was her first airplane ride.'", "C. 'with excitement'", "D. No fragment present."],
-      "answer": "B. 'As it was her first airplane ride.'",
-      "diff": "easy"
-    },
-    {
-      "q": "What type of fragment is: 'To get off the diving board.'?",
-      "options": ["A. -ing fragment", "B. To / Infinitive fragment", "C. Missing-Subject fragment", "D. Added-Detail fragment"],
-      "answer": "B. To / Infinitive fragment",
-      "diff": "medium"
-    },
-    {
-      "q": "True or False: A dependent-word fragment contains a subject and a verb but still remains a fragment.",
-      "options": ["A. True (because it doesn't express a complete thought due to the dependent word)", "B. False (if it has a subject and verb, it is always a complete sentence)"],
-      "answer": "A. True (because it doesn't express a complete thought due to the dependent word)",
-      "diff": "medium"
-    },
-    {
-      "q": "Fix the fragment: 'When people are scared. The hair on their bodies really can stand on end.'",
-      "options": ["A. When people are scared; the hair on their bodies really can stand on end.", "B. When people are scared, the hair on their bodies really can stand on end.", "C. When people are scared the hair on their bodies really can stand on end.", "D. The hair on their bodies really can stand on end when people are scared."],
-      "answer": "B. When people are scared, the hair on their bodies really can stand on end.",
-      "diff": "medium"
-    }
-  ]
-},
-
-
-25: {
-  title: "Run-ons, Comma Splices, and Modifiers (ENG 101 Lesson 25)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: RUN-ON SENTENCES (Fused & Comma Splices)
-Jab do mukammal thoughts (Independent Clauses) ko ghalat tarike se jora jaye, toh use **Run-on sentence** kehte hain. Iske do main types hain:
-1. **Fused Sentence:** Do complete thoughts ko bina kisi punctuation ya joining word ke aapas mai jor dena.
-   * *Ghalat:* The lake is calm today it looks like a blue mirror. ❌
-2. **Comma Splice:** Do complete thoughts ko sirf aik **comma (,)** laga kar jor dena (jo ke kaafi nahi hai).
-   * *Ghalat:* Fahd was talking on the phone, he was switching TV channels. ❌
-
-👉 **The 3 Fixes:**
-- **Method 1:** Dono ke darmyan **Full stop (.)** lagayein aur agla word capital karein.
-- **Method 2:** Comma ke sath aik **Joining Word (FANBOYS: and, but, so, etc.)** lagayein.
-- **Method 3:** Aik thought ke shuru mai **Dependent Word (because, since, although, when)** laga kar use subordinate kar dein.
-
----
-
-### 🏛️ SECTION 2: MISPLACED MODIFIERS
-Modifier un words ko kehte hain jo kisi doosre word ki khususiyaat (description) bayan karein. Agar modifier us word se door likha ho jise wo describe kar raha hai, toh use **Misplaced Modifier** kehte hain. Is se sentence ka matlab ajeeb ho jata hai.
-
-👉 **Key Rules & Corrections:**
-- *Ghalat:* I am returning the jacket to the store **that is too small**. ❌ (Store chota nahi hai, jacket choti hai!)
-- *Sahi:* I am returning the **jacket that is too small** to the store. ✔️
-- *Single-Word Rule:* \`only\`, \`almost\`, aur \`nearly\` ko hamesha us word ke **theek pehle** lagayein jise wo describe kar rahe hon.
-
----
-
-### 🛠️ SECTION 3: DANGLING MODIFIERS
-Jab sentence ke shuru mai koi action-description (\`-ing\` phrase) ho, lekin poore sentence mai wo asli banda (subject) hi missing ho jo wo kaam kar raha hai, toh use **Dangling Modifier** kehte hain.
-
-👉 **Key Rules & Corrections:**
-- *Ghalat:* Staring dreamily into space, **the instructor's voice startled me**. ❌ (Voice stare nahi kar rahi thi!)
-- *Sahi (Method A):* Staring dreamily into space, **I was startled** by the instructor's voice. ✔️ (Banda introduce kiya).
-- *Sahi (Method B):* **As I was staring** dreamily into space, the instructor's voice startled me. ✔️
-
----
-
-### 📝 SECTION 4: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS
-1. A **fused sentence** is made up of two complete thoughts that are incorrectly joined together with nothing between them.
-2. A **comma splice** is made up of two complete thoughts that are incorrectly joined together with only a comma between them.
-3. One way to correct fused sentences and comma splices is to add a **period (full stop)** and a capital letter.
-4. Two complete thoughts can be joined together in a sentence by a comma and a **joining / coordinating** word such as and, but or so.
-5. Two complete thoughts can be joined together in one sentence by adding a **dependent / subordinating** word such as when or because.
-6. The fused sentence and the comma splice are also known as **run-on** sentences.`,
-  questions: [
-    {
-      "q": "What is a 'Fused Sentence'?",
-      "options": ["A. A sentence missing a subject and a verb.", "B. Two complete thoughts joined with only a comma.", "C. Two complete thoughts joined together with absolutely no punctuation or joining words.", "D. A sentence that contains too many adjectives."],
-      "answer": "C. Two complete thoughts joined together with absolutely no punctuation or joining words.",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the Comma Splice error from the options below:",
-      "options": ["A. Raheel likes to cook his wife taught him how.", "B. The bell rang the wrestlers returned to the ring.", "C. The room is locked, no one has a key.", "D. It rained during our trip to Murree so we played cards."],
-      "answer": "C. The room is locked, no one has a key.",
-      "diff": "easy"
-    },
-    {
-      "q": "Where should the comma be placed when using a joining word like 'and', 'but', or 'so' to connect two complete thoughts?",
-      "options": ["A. Immediately after the joining word", "B. Immediately before the joining word", "C. Both before and after the joining word", "D. No comma is needed at all"],
-      "answer": "B. Immediately before the joining word",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct this fused sentence using subordination: 'Yousaf Youhanna has a pulled muscle he won't play any cricket this season.'",
-      "options": ["A. Yousaf Youhanna has a pulled muscle, so he won't play any cricket this season.", "B. Because Yousaf Youhanna has a pulled muscle, he won't play any cricket this season.", "C. Yousaf Youhanna has a pulled muscle; he won't play any cricket this season.", "D. Yousaf Youhanna has a pulled muscle because he won't play any cricket this season."],
-      "answer": "B. Because Yousaf Youhanna has a pulled muscle, he won't play any cricket this season.",
-      "diff": "medium"
-    },
-    {
-      "q": "What is the error in: 'I am returning the jacket to the store that is too small.'?",
-      "options": ["A. Dangling Modifier", "B. Comma Splice", "C. Misplaced Modifier", "D. Fused Sentence"],
-      "answer": "C. Misplaced Modifier",
-      "diff": "medium"
-    },
-    {
-      "q": "Choose the correctly revised sentence for: 'The couple looked at thirty sofas shopping on Saturday.'",
-      "options": ["A. Shopping on Saturday, the couple looked at thirty sofas.", "B. The couple looked at thirty sofas on Saturday shopping.", "C. The couple shopping looked at thirty sofas on Saturday.", "D. On Saturday sixty sofas were looked at by the shopping couple."],
-      "answer": "A. Shopping on Saturday, the couple looked at thirty sofas.",
-      "diff": "hard"
-    },
-    {
-      "q": "Where should single-word modifiers like 'only', 'almost', and 'nearly' be placed?",
-      "options": ["A. At the very end of the sentence", "B. Directly in front of the word they describe/modify", "C. Immediately after the main verb", "D. Right after a comma"],
-      "answer": "B. Directly in front of the word they describe/modify",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the dangling modifier in this passage: 'Staring out at the downpour, we were glad to be safe inside. Then we remembered our open car windows, groaning with dismay.'",
-      "options": ["A. 'Staring out at the downpour'", "B. 'we were glad to be safe'", "C. 'groaning with dismay' (wrongly describes the car windows instead of the people)", "D. There is no modifier error here."],
-      "answer": "C. 'groaning with dismay' (wrongly describes the car windows instead of the people)",
-      "diff": "hard"
-    },
-    {
-      "q": "Correct the dangling modifier: 'When pulling out of the driveway, the pillar blocks my view.'",
-      "options": ["A. When pulling out of the driveway, my view is blocked by the pillar.", "B. Whenever I pull out of the driveway, the pillar blocks my view.", "C. Pulling out of the driveway, the pillar is blocking my view.", "D. The pillar blocks my view when pulling out of the driveway."],
-      "answer": "B. Whenever I pull out of the driveway, the pillar blocks my view.",
-      "diff": "hard"
-    },
-    {
-      "q": "Fused sentences and comma splices are collectively known as what?",
-      "options": ["A. Fragment sentences", "B. Run-on sentences", "C. Complex sentences", "D. Compound-complex sentences"],
-      "answer": "B. Run-on sentences",
-      "diff": "easy"
-    },
-    {
-      "q": "Fix this sentence: 'Garlic may smell bad it tastes delicious.' using a comma and a joining word.",
-      "options": ["A. Garlic may smell bad, it tastes delicious.", "B. Garlic may smell bad, but it tastes delicious.", "C. Garlic may smell bad but, it tastes delicious.", "D. Garlic may smell bad. But it tastes delicious."],
-      "answer": "B. Garlic may smell bad, but it tastes delicious.",
-      "diff": "easy"
-    },
-    {
-      "q": "What does a modifier describe or clarify?",
-      "options": ["A. Only verbs", "B. Another word or group of words in the sentence", "C. The punctuation of a clause", "D. The conjunctions used"],
-      "answer": "B. Another word or group of words in the sentence",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the misplaced modifier: 'The sparrow built a nest at the back of our house of grass and twigs.'",
-      "options": ["A. Of grass and twigs, the sparrow built a nest at the back of our house.", "B. The sparrow built a nest of grass and twigs at the back of our house.", "C. The sparrow built a nest at the back of our house which was of grass and twigs.", "D. At the back of our house, the sparrow built a nest of grass and twigs."],
-      "answer": "B. The sparrow built a nest of grass and twigs at the back of our house.",
-      "diff": "medium"
-    },
-    {
-      "q": "What is the error in the sentence: 'Anjum Nisar almost sneezed twenty times last night.'?",
-      "options": ["A. Dangling phrase", "B. Misplaced single-word modifier 'almost'", "C. Fused construction", "D. Comma splice"],
-      "answer": "B. Misplaced single-word modifier 'almost'",
-      "diff": "medium"
-    },
-    {
-      "q": "Which option correctly fixes: 'Anjum Nisar almost sneezed twenty times last night.'?",
-      "options": ["A. Almost last night, Anjum Nisar sneezed twenty times.", "B. Anjum Nisar sneezed almost twenty times last night.", "C. Anjum Nisar sneezed twenty times last night almost.", "D. Anjum Nisar almost twenty times sneezed last night."],
-      "answer": "B. Anjum Nisar sneezed almost twenty times last night.",
-      "diff": "medium"
-    },
-    {
-      "q": "In the phrase 'The woman with gold-rimmed spectacles is my boss', what is the underlined/modified word being described?",
-      "options": ["A. spectacles", "B. boss", "C. woman", "D. gold-rimmed"],
-      "answer": "C. woman",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the error: 'The man returned the overdue book to the librarian with apologies.'",
-      "options": ["A. With apologies, the man returned the overdue book to the librarian.", "B. The man returned the overdue book with apologies to the librarian.", "C. The man with apologies returned the overdue book to the librarian.", "D. Both A and B make the meaning clear and are correct."],
-      "answer": "D. Both A and B make the meaning clear and are correct.",
-      "diff": "hard"
-    },
-    {
-      "q": "What happens when a modifier is 'dangling'?",
-      "options": ["A. The sentence has two commas separated by a conjunction.", "B. The opening word-group lacks a clear subject to logically link to in the main clause.", "C. The sentence is missing a final full stop.", "D. The modifier is placed right before the noun it describes."],
-      "answer": "B. The opening word-group lacks a clear subject to logically link to in the main clause.",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the error type here: 'The trunk is in the basement it has a handle missing.'",
-      "options": ["A. Comma Splice", "B. Fused Sentence", "C. Misplaced Modifier", "D. Dangling Modifier"],
-      "answer": "B. Fused Sentence",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the run-on sentence: 'Bicycles are the world's best method of transportation, they don't pollute.' using subordination.",
-      "options": ["A. Bicycles are the world's best method of transportation, and they don't pollute.", "B. Bicycles are the world's best method of transportation because they don't pollute.", "C. Bicycles are the world's best method of transportation. They don't pollute.", "D. Bicycles are the world's best method of transportation, so they don't pollute."],
-      "answer": "B. Bicycles are the world's best method of transportation because they don't pollute.",
-      "diff": "medium"
-    }
-  ]
-},
-
-
-26: {
-  title: "Subject-Verb Agreement (ENG 101 Lesson 26)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: THE BASIC RULE (Subject-Verb Match)
-Subject-Verb Agreement ka aasan matlab hai ke agar **Subject Singular (aik)** hai toh **Verb bhi Singular** hoga. Agar **Subject Plural (zyada)** hai toh **Verb bhi Plural** hoga.
-👉 **Present Tense Key Difference:** 
-Present tense mai Singular verb ke aakhiri mai **"s" ya "es"** lagta hai (e.g., *He works*), jabke Plural verb bina "s" ke aata hai (e.g., *They work*).
-
----
-
-### 🏛️ SECTION 2: THE 4 TRICKY SITUATIONS (Jahan Ghalati Hoti Hai)
-
-👉 **1. Words Between Subject and Verb (Prepositional Phrases):**
-Jumle mai subject aur verb ke darmyan kuch extra words (like *of, on, with, by*) aa jate hain jo hamein confuse karte hain. Verb hamesha asli subject ke mutabiq lagayein, prepositional phrase ke andar wale noun ke mutabiq nahi.
-*   *Ghalat:* One of my best friends **live** in Dubai. ❌ (Friends plural hai, lekin baat 'One' ki ho rahi hai).
-*   *Sahi:* **One** of my best friends **lives** in Dubai. ✔️
-
-👉 **2. Verb Coming Before the Subject (Inverted Sentences):**
-Jab sentence \`There\`, \`Here\`, ya kisi sawaal (\`Where\`, \`Why\`) se shuru ho, toh verb pehle aata hai aur subject baad mai. Piche dekhein ke subject kya hai!
-*   *Ghalat:* Where **is** the keys of the cupboard? ❌
-*   *Sahi:* Where **are** the **keys** of the cupboard? ✔️ (Keys plural hain).
-
-👉 **3. Indefinite Pronouns (Hamesha Singular):**
-Yeh words dekhne mai plural lag sakte hain lekin grammatically yeh **HAMESHA SINGULAR** hote hain aur inke sath singular verb ("s" wala) lagta hai: *Each, everyone, everybody, anyone, anybody, someone, somebody, elements with -thing / -one / -body, neither, either, one*.
-*   *Sahi:* **Each** of his students **feels** free to ask questions. ✔️
-*   *Sahi:* **Neither** of the phones **works**. ✔️
-*   *Exception:* \`Both\` aur \`Few\` hamesha plural hote hain. \`All\` aur \`Some\` ke baad wala noun agar singular hai toh singular, plural hai toh plural (e.g., *Some of the chicken is...* vs *Some of the guests are...*).
-
-👉 **4. Compound Subjects (Joined by 'And' / 'Or'):**
-- Agar do subjects **\`and\`** se jore hon, toh verb **Plural** lagta hai (e.g., *Khalid and his friends **are** to blame*).
-- Agar subjects **\`or\`, \`nor\`, \`either...or\`, \`neither...nor\`, \`not only...but also\`** se jore hon, toh verb **apne sab se kareeb wale subject** ke mutabiq lagta hai (Proximity Rule).
-  *   *Sahi:* Neither the head clerk nor his **assistant clerks have been** fired. ✔️ (Clerks plural hai, toh 'have' aaya).
-
----
-
-### 📝 SECTION 3: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS
-1. A singular subject takes a **singular** verb.
-2. A plural subject takes a **plural** verb.
-3. The **singular** form of present tense verbs is sometimes formed by adding the letter 's' to the end of the verb.
-4. The subject of a sentence is often found in a prepositional phrase. (**False** - Subject kabhi prepositional phrase ke andar nahi hota).
-5. Compound subjects joined by 'and' require a plural verb. (**True**).
-6. The indefinite pronouns anyone and everybody take a **singular** verb.
-7. The pronouns both and few are always plural and require plural verbs. (**True**).`,
-  questions: [
-    {
-      "q": "Choose the correct verb form: 'The rag picker ________ huge bundles of rags.'",
-      "options": ["A. sort", "B. sorts", "C. sorting", "D. are sort"],
-      "answer": "B. sorts",
-      "diff": "easy"
-    },
-    {
-      "q": "Complete the sentence with correct agreement: 'The students ________ to music while studying.'",
-      "options": ["A. listens", "B. listen", "C. is listening", "D. has listened"],
-      "answer": "B. listen",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the correct verb for this sentence: 'One of my best friends ________ now in Dubai.'",
-      "options": ["A. live", "B. lives", "C. are living", "D. were living"],
-      "answer": "B. lives",
-      "diff": "medium"
-    },
-    {
-      "q": "Why is 'The wafer in this ice cream taste like sawdust' grammatically incorrect?",
-      "options": ["A. Because 'ice cream' is plural.", "B. Because the true subject is 'wafer' (singular), so the verb must be 'tastes'.", "C. Because 'wafer' requires a plural auxiliary verb.", "D. It is completely correct."],
-      "answer": "B. Because the true subject is 'wafer' (singular), so the verb must be 'tastes'.",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct the inverted sentence: 'Where ________ the keys of the cupboard?'",
-      "options": ["A. is", "B. are", "C. am", "D. was"],
-      "answer": "B. are",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the correct option: 'Underneath the big stone ________ many colonies of ants.'",
-      "options": ["A. live", "B. lives", "C. living", "D. is lived"],
-      "answer": "A. live",
-      "diff": "medium"
-    },
-    {
-      "q": "Pronouns like 'each, everyone, neither, somebody, nothing' are always:",
-      "options": ["A. Plural", "B. Singular", "C. Dependent on the context", "D. Combined with plural verbs"],
-      "answer": "B. Singular",
-      "diff": "easy"
-    },
-    {
-      "q": "Select the grammatically accurate statement:",
-      "options": ["A. Neither of the phones work.", "B. Neither of the phones works.", "C. Neither of the phones are working.", "D. Neither of the phones were working."],
-      "answer": "B. Neither of the phones works.",
-      "diff": "medium"
-    },
-    {
-      "q": "What verb does the indefinite pronoun 'Everything' take?",
-      "options": ["A. Plural verb", "B. Singular verb", "C. Infinitive verb", "D. No verb required"],
-      "answer": "B. Singular verb",
-      "diff": "easy"
-    },
-    {
-      "q": "When two or more subjects are joined by 'and', they usually require a:",
-      "options": ["A. Singular verb", "B. Plural verb", "C. Dependent clause", "D. Past participle"],
-      "answer": "B. Plural verb",
-      "diff": "easy"
-    },
-    {
-      "q": "Apply the rule for compound subjects connected by 'or/nor': 'Either Jameela or her daughter ________ at home.'",
-      "options": ["A. stay", "B. stays", "C. staying", "D. are staying"],
-      "answer": "B. stays",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct the following: 'Neither the head clerk nor his assistant clerks ________ fired for corruption.'",
-      "options": ["A. has been", "B. have been", "C. is", "D. was"],
-      "answer": "B. have been",
-      "diff": "hard"
-    },
-    {
-      "q": "How do the indefinite pronouns 'both' and 'a few' behave?",
-      "options": ["A. They are always singular.", "B. They are always plural and require plural verbs.", "C. They change based on the prepositional phrase.", "D. They do not take any verb."],
-      "answer": "B. They are always plural and require plural verbs.",
-      "diff": "easy"
-    },
-    {
-      "q": "The pronouns 'all' and 'some' are singular or plural depending on:",
-      "options": ["A. The first word of the sentence", "B. The words/nouns that follow them", "C. The tense of the sentence", "D. They are always strictly plural"],
-      "answer": "B. The words/nouns that follow them",
-      "diff": "medium"
-    },
-    {
-      "q": "Choose the correct verb form: 'Some of the chicken ________ still on the table.'",
-      "options": ["A. is", "B. are", "C. were", "D. have been"],
-      "answer": "A. is",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the two error words in this passage: 'The rain forests of Brazil is home to many species of frogs. Nobody among the world’s scientists know exactly how many.'",
-      "options": ["A. forests, scientists", "B. is, know", "C. home, species", "D. frogs, many"],
-      "answer": "B. is, know",
-      "diff": "hard"
-    },
-    {
-      "q": "Identify the two error words in this passage: 'The paint on the house and garage are peeling. Also each of the buildings need repairs.'",
-      "options": ["A. paint, house", "B. garage, buildings", "C. are, need", "D. peeling, repairs"],
-      "answer": "C. are, need",
-      "diff": "hard"
-    },
-    {
-      "q": "Can the true subject of a sentence be found inside a prepositional phrase?",
-      "options": ["A. Yes, very frequently", "B. No, the subject is never part of a prepositional phrase", "C. Only if the sentence starts with 'There'", "D. Only when the verb comes first"],
-      "answer": "B. No, the subject is never part of a prepositional phrase",
-      "diff": "medium"
-    },
-    {
-      "q": "Fill in the blank: 'Not only Khalid but also his friends ________ to blame for the accident.'",
-      "options": ["A. is", "B. are", "C. was", "D. has been"],
-      "answer": "B. are",
-      "diff": "medium"
-    },
-    {
-      "q": "Choose the correct option: 'A few of the strawberries ________ funny.'",
-      "options": ["A. tastes", "B. taste", "C. is tasting", "D. was taste"],
-      "answer": "B. taste",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-27: {
-  title: "Pronoun Agreement, Reference, and Point of View (ENG 101 Lesson 27)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: PRONOUN-ANTECEDENT AGREEMENT
-Pronoun jis noun ki jagah istemal hota hai, use **Antecedent** kehte hain. Rule yeh hai ke pronoun aur uske antecedent ka number (Singular/Plural) bilkul match hona chahiye.
-
-👉 **The Indefinite Pronoun Rule (Hamesha Singular):**
-Yeh words dekhne mai plural lag sakte hain lekin grammatically yeh **HAMESHA SINGULAR** hote hain, isliye inke liye singular pronouns (*his, her, its, he, she*) use hote hain:
-> *Each, either, neither, one, anyone, anybody, anything, everyone, everybody, everything, someone, somebody, something, no one, nobody, nothing.*
-
-*   *Ghalat:* Each of my students passed **their** driving test. ❌
-*   *Sahi:* **Each** of my students passed **his or her** driving test. ✔️
-*   *Sahi:* **Everything** in the office has **its** (not *their*) own place. ✔️
-
----
-
-### 🏛️ SECTION 2: CLEAR PRONOUN REFERENCE (Ambiguity Hatana)
-Jumle mai yeh bilkul saaf pata hona chahiye ke pronoun kis bande ya cheez ke liye lagaya gaya hai. Agar aik sentence mai do nouns hon aur aage \`he\` ya \`she\` laga diya jaye, toh confusion paida ho jati hai.
-
-👉 **Key Rules & Corrections:**
-*   *Ambiguous:* Rabia told Nafeesa that **she** had got an A. ❌ (She kaun? Rabia ya Nafeesa?)
-*   *Clear:* Rabia told Nafeesa, **"I got an A on my term paper."** ✔️
-*   *Vague 'They/You':* Students complain that **they** don't keep the library tidy. ❌ (They kaun? Students khud ya staff?)
-*   *Clear:* Students complain that **the maintenance staff** don't keep the library tidy. ✔️
-
----
-
-### 🛠️ SECTION 3: SHIFT IN PERSON (Point of View Mistakes)
-Agar aap aik sentence **1st person (\`I, we\`)** ya **3rd person (\`they, students, labourers\`)** se shuru kar rahe hain, toh darmyan mai bina wajah **2nd person (\`you\`)** par shift mat karein.
-
-👉 **Key Rules & Corrections:**
-*   *Ghalat:* What **I** like best about holidays is that **you** don't have to set an alarm. ❌ (I se directly 'you' par shift ghalat hai).
-*   *Sahi:* What **I** like best about holidays is that **I** don't have to set an alarm. ✔️
-*   *Ghalat:* Whenever **students** are under stress, **we** go into depression. ❌ (3rd person Plural se 1st person Plural ka shift).
-*   *Sahi:* Whenever **students** are under stress, **they** often go into depression. ✔️
-
----
-
-### 📝 SECTION 4: LESSON REVIEW FILL-IN-THE-BLANKS ANSWERS
-1. Words such as each, everyone, and something are **indefinite** pronouns.
-2. Words such as I, you, and they are **personal** pronouns.
-3. A **second** person pronoun is one that refers to the person being spoken to (\`you\`).
-4. A pronoun may be singular even if its antecedent is plural. (**False** - It must match).
-5. A writer should not needlessly change from the first person to the second person. (**True**).`,
-  questions: [
-    {
-      "q": "What is an 'antecedent' in grammar?",
-      "options": ["A. A word that describes a verb.", "B. The noun or pronoun to which a pronoun refers.", "C. A dependent word that begins a fragment.", "D. A punctuation mark used to join thoughts."],
-      "answer": "B. The noun or pronoun to which a pronoun refers.",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the correct pronoun for the sentence: 'Neither of the babies has had ________ polio shot yet.'",
-      "options": ["A. their", "B. his or her", "C. they're", "D. its'"],
-      "answer": "B. his or her",
-      "diff": "medium"
-    },
-    {
-      "q": "Fill in the blank with correct agreement: 'Many high schools now require ________ students to take a computer course.'",
-      "options": ["A. its", "B. their", "C. his", "D. it's"],
-      "answer": "B. their",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the correct construction for indefinite pronouns:",
-      "options": ["A. Everything in the office has their own place.", "B. Everything in the office has its own place.", "C. Everything in the office have its own place.", "D. Everything in the office has our own place."],
-      "answer": "B. Everything in the office has its own place.",
-      "diff": "medium"
-    },
-    {
-      "q": "Why is the sentence 'Rabia told Nafeesa that she had got an A' faulty?",
-      "options": ["A. It contains a split infinitive.", "B. The pronoun 'she' has an ambiguous reference.", "C. It uses a plural pronoun for a singular noun.", "D. It has a shift in person."],
-      "answer": "B. The pronoun 'she' has an ambiguous reference.",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the ambiguous reference: 'Mahnoor tore off the wrapping paper from the present and then threw it in the rubbish bin.'",
-      "options": ["A. ...and then threw them in the rubbish bin.", "B. ...and then threw the paper in the rubbish bin.", "C. ...and then threw it, the present, in the rubbish bin.", "D. No correction needed."],
-      "answer": "B. ...and then threw the paper in the rubbish bin.",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the error type in this sentence: 'What I like best about holidays is that you don't have to set an alarm.'",
-      "options": ["A. Pronoun agreement error", "B. Shift in person (Point of view shift)", "C. Fused sentence", "D. Misplaced modifier"],
-      "answer": "B. Shift in person (Point of view shift)",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct the shift in person: 'Though we like most of our neighbors, there are a few you can't get along with.'",
-      "options": ["A. ...there are a few one can't get along with.", "B. ...there are a few we can't get along with.", "C. ...there are a few they can't get along with.", "D. No correction needed."],
-      "answer": "B. ...there are a few we can't get along with.",
-      "diff": "medium"
-    },
-    {
-      "q": "Pronouns like 'each, everyone, nobody, somebody' are strictly classified as:",
-      "options": ["A. Personal pronouns", "B. Indefinite pronouns", "C. Relative pronouns", "D. Possessive pronouns"],
-      "answer": "B. Indefinite pronouns",
-      "diff": "easy"
-    },
-    {
-      "q": "Select the sentence that has NO pronoun agreement or reference errors:",
-      "options": ["A. Each of the actresses believes they should be chosen.", "B. If anybody is interested, they should let the librarian know.", "C. No students in the class wanted to read their papers aloud.", "D. Someone in the lounge stole my glasses, and I want to find them."],
-      "answer": "C. No students in the class wanted to read their papers aloud.",
-      "diff": "hard"
-    },
-    {
-      "q": "Fix the point of view shift: 'If you plan to do well on this course, one should plan on attending every lesson.'",
-      "options": ["A. If you plan to do well on this course, we should plan on attending...", "B. If you plan to do well on this course, you should plan on attending...", "C. If one plans to do well on this course, they should plan on attending...", "D. Both B and C are incorrect."],
-      "answer": "B. If you plan to do well on this course, you should plan on attending...",
-      "diff": "medium"
-    },
-    {
-      "q": "In the sentence 'The book Yousaf lent me is missing its cover', what is the antecedent of 'its'?",
-      "options": ["A. Yousaf", "B. me", "C. book", "D. cover"],
-      "answer": "C. book",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the pronoun reference: 'An angry looking man stood outside the bank, shouting that they had stolen his money.'",
-      "options": ["A. ...shouting that the bank employees had stolen his money.", "B. ...shouting that you had stolen his money.", "C. ...shouting that it had stolen his money.", "D. No correction needed."],
-      "answer": "A. ...shouting that the bank employees had stolen his money.",
-      "diff": "hard"
-    },
-    {
-      "q": "Words like 'I, me, we, us, he, she, they' are classified as:",
-      "options": ["A. Indefinite pronouns", "B. Personal pronouns", "C. Demonstrative pronouns", "D. Relative conjunctions"],
-      "answer": "B. Personal pronouns",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the following: 'Neither of my uncles has ever smoked in ________ life.'",
-      "options": ["A. their", "B. his", "C. our", "D. they're"],
-      "answer": "B. his",
-      "diff": "medium"
-    },
-    {
-      "q": "What person does the pronoun 'you' represent?",
-      "options": ["A. First person", "B. Second person", "C. Third person", "D. Neutral person"],
-      "answer": "B. Second person",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the problem with: 'The worst thing for me living with such a fussy man is you always have to wait for him.'?",
-      "options": ["A. Faulty Parallelism", "B. Shift from first person ('me') to second person ('you')", "C. Missing-Subject Fragment", "D. Plural agreement failure"],
-      "answer": "B. Shift from first person ('me') to second person ('you')",
-      "diff": "medium"
-    },
-    {
-      "q": "True or False: A singular pronoun must be used when referring back to a singular indefinite pronoun like 'nobody' or 'each'.",
-      "options": ["A. True", "B. False"],
-      "answer": "A. True",
-      "diff": "easy"
-    },
-    {
-      "q": "Correct the sentence: 'I won't go to the concert tonight because there's no way you could get a ticket.'",
-      "options": ["A. ...because there's no way one could get a ticket.", "B. ...because there's no way I could get a ticket.", "C. ...because there's no way they could get a ticket.", "D. No error found."],
-      "answer": "B. ...because there's no way I could get a ticket.",
-      "diff": "hard"
-    },
-    {
-      "q": "Fix the reference error: 'Both of Basit's parents are doctors, but it doesn't interest Basit.'",
-      "options": ["A. ...but they don't interest Basit.", "B. ...but medicine doesn't interest Basit.", "C. ...but being doctors doesn't interest him.", "D. No error found."],
-      "answer": "B. ...but medicine doesn't interest Basit.",
-      "diff": "hard"
-    }
-  ]
-},
-
-28: {
-  title: "Effective Language, Clichés, Wordiness, and Homophones (ENG 101 Lesson 28)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: SLANG & CLICHÉS VS. EFFECTIVE LANGUAGE
-Academic aur formal writing mai slang (unprofessional language) aur clichés (overused, purani phrases) se parhez karna chahiye.
-
-👉 **Slang Corrections:**
-*   *Slang:* **trashed** (criticized heavily) / **cheesed off** (angry/annoyed) / **real drag** (boring/tedious) / **gas bag** (talkative/liar) / **gross** (vulgar/offensive).
-
-👉 **Clichés (Avoid Like the Plague):**
-*   *Cliché:* **bored to tears** $\rightarrow$ *Formal:* deeply bored / extremely uninterested.
-*   *Cliché:* **busy as a bee** $\rightarrow$ *Formal:* very busy / industrious.
-*   *Cliché:* **happy as a lark** $\rightarrow$ *Formal:* delighted / extremely happy.
-
----
-
-### 🏛️ SECTION 2: WORDINESS (Fazool Alfaz Se Pak Writing)
-Kam se kam lafzon mai poori baat kehna aik achi writing ki nishani hai. Wordy expressions ko single words se replace karein:
-
-| Wordy Expression | Concise Single Word |
-| :--- | :--- |
-| **Due to the fact that** / **On account of** | Because |
-| **At this point in time** | Now |
-| **During the time that** | While |
-| **In order to** | To |
-| **In my own opinion, I think** | I think |
-| **Small in size** / **Green in color** | Small / Green |
-
----
-
-### 🛠️ SECTION 3: CONFUSING HOMOPHONES (Frequently Misused Words)
-Aise alfaz jinki aawaz milti julti hai par meaning aur spelling alag hote hain:
-
-1.  **Its** (Possessive: uska) vs. **It's** (Contraction: It is).
-2.  **Their** (Unka) vs. **There** (Wahan/Maujood) vs. **They're** (They are).
-3.  **Your** (Aapka) vs. **You're** (You are).
-4.  **Passed** (Guzar gaya/Pass ho gaya) vs. **Past** (Maazi).
-5.  **Whose** (Kiska) vs. **Who's** (Who is).
-6.  **Weather** (Mausam) vs. **Whether** (Agar/Ya ya).
-7.  **All ready** (Sab tayyar hain) vs. **Already** (Pehle hi).
-8.  **Altogether** (Mukammal tour par) vs. **All together** (Aik sath).
-9.  **Accept** (Tasleem karna) vs. **Except** (Alawa/Siwaye).
-10. **Advice** (Noun: Naseehat) vs. **Advise** (Verb: Naseehat karna).
-11. **Affect** (Verb: Asar dalna) vs. **Effect** (Noun: Asar / Verb: tabdeeli lana).
-12. **Desert** (Sehra / Chorr dena) vs. **Dessert** (Meetha khana).
-13. **Coarse** (Khurdura/Badtameez) vs. **Course** (Sabaq/Raasta).
-14. **Quiet** (Khamosh) vs. **Quite** (Kaafi/Mukammal) vs. **Quit** (Chorr dena).
-15. **Wander** (Awaara ghoomna) vs. **Wonder** (Hairan hona/Sochna).
-
----
-
-### 📝 SECTION 4: PRACTICE EXERCISES SOLVED
-*   **Practice 1 (Slang):** 1. criticized | 2. annoyed/angry | 3. tedious/boring.
-*   **Text Evaluation Sentences:**
-    1. My neighbor's conversation is too **vulgar** for me.
-    2. The audience was **extremely bored** by the lecture on Iqbal.
-    3. **Because** the buses are on strike, no one arrived on time.
-    4. The boys are **teasing you**... they wouldn't miss your party **for any reason**.
-    5. ...He is a **braggart/liar**. **While** I’ve known him...
-    6. She was **delighted**... due to a mistake in compiling the result.
-*   **Main Practice (1-10 Answers):**
-    1. You're, who's | 2. It's, break | 3. their | 4. plane, two | 5. already, quit, accept, advice | 6. dessert, effect, dose | 7. coarse, led | 8. peace, their, piece | 9. Correction: *You're* overweight... | 10. Who's, wondering, whether.`,
-  questions: [
-    {
-      "q": "Replace the slang word in this sentence: 'All the viewers trashed the new film.'",
-      "options": ["A. praised", "B. criticized heavily", "C. recommended", "D. missed"],
-      "answer": "B. criticized heavily",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the wordy expression and its concise replacement: 'Due to the fact that the printer ran out of toner...'",
-      "options": ["A. Due to the fact that -> On account of", "B. Due to the fact that -> Because", "C. Out of toner -> Empty", "D. Ran out of -> Dropped"],
-      "answer": "B. Due to the fact that -> Because",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the correct pair: '(You're, Your) the only person (who's, whose) never on time.'",
-      "options": ["A. Your, whose", "B. You're, who's", "C. Your, who's", "D. You're, whose"],
-      "answer": "B. You're, who's",
-      "diff": "medium"
-    },
-    {
-      "q": "Fill in the blanks: '(Its, It's) difficult to (break, brake) the habit of taking drugs.'",
-      "options": ["A. Its, break", "B. It's, brake", "C. It's, break", "D. Its, brake"],
-      "answer": "C. It's, break",
-      "diff": "medium"
-    },
-    {
-      "q": "Choose the correct words: 'The cheeky young man had (all ready, already) decided to (quit, quite) college.'",
-      "options": ["A. all ready, quite", "B. already, quit", "C. all ready, quit", "D. already, quite"],
-      "answer": "B. already, quit",
-      "diff": "medium"
-    },
-    {
-      "q": "What is the correct formal substitute for the cliché 'bored to tears'?",
-      "options": ["A. crying with laughter", "B. down in the dumps", "C. extremely uninterested / deeply bored", "D. busy as a bee"],
-      "answer": "C. extremely uninterested / deeply bored",
-      "diff": "easy"
-    },
-    {
-      "q": "Fill in the blank: 'The rich ________ (desert/dessert) had the ________ (affect/effect) of giving guests a stomach ache.'",
-      "options": ["A. desert, affect", "B. dessert, effect", "C. dessert, affect", "D. desert, effect"],
-      "answer": "B. dessert, effect",
-      "diff": "hard"
-    },
-    {
-      "q": "Choose the correct form: 'He refused to ________ (accept, except) his father's ________ (advise, advice).'",
-      "options": ["A. except, advise", "B. accept, advice", "C. accept, advise", "D. except, advice"],
-      "answer": "B. accept, advice",
-      "diff": "medium"
-    },
-    {
-      "q": "Fix the error in this sentence: 'Your overweight and you almost never exercise.'",
-      "options": ["A. Change 'Your' to 'You're'", "B. Change 'exercise' to 'exerzise'", "C. Change 'and' to 'but'", "D. No error found"],
-      "answer": "A. Change 'Your' to 'You're'",
-      "diff": "easy"
-    },
-    {
-      "q": "Complete the sentence correctly: '(Whose, Who's) application is this?'",
-      "options": ["A. Who's", "B. Whose", "C. Whoses", "D. Who is"],
-      "answer": "B. Whose",
-      "diff": "medium"
-    },
-    {
-      "q": "Choose the correct options: 'The young man raised his hand, (wandering, wondering) (weather, whether) the clerk approved.'",
-      "options": ["A. wandering, weather", "B. wondering, whether", "C. wandering, whether", "D. wondering, weather"],
-      "answer": "B. wondering, whether",
-      "diff": "medium"
-    },
-    {
-      "q": "Which expression means 'thoroughly' or 'wholly'?",
-      "options": ["A. All together", "B. Altogether", "C. Already", "D. All ready"],
-      "answer": "B. Altogether",
-      "diff": "hard"
-    },
-    {
-      "q": "Fill in the blank: 'We are angry ________ situations, but angry ________ people.'",
-      "options": ["A. with, about", "B. about, with", "C. at, with", "D. about, at"],
-      "answer": "B. about, with",
-      "diff": "hard"
-    },
-    {
-      "q": "The word 'liable' means:",
-      "options": ["A. probably or likely", "B. answerable for / suggesting an undesirable possibility", "C. suited or appropriate", "D. quick to learn"],
-      "answer": "B. answerable for / suggesting an undesirable possibility",
-      "diff": "hard"
-    },
-    {
-      "q": "Complete the sentence: 'The ladies' complaints about the ________ (coarse, course) language ________ (led, lead) to a warning.'",
-      "options": ["A. course, lead", "B. coarse, led", "C. course, led", "D. coarse, lead"],
-      "answer": "B. coarse, led",
-      "diff": "medium"
-    },
-    {
-      "q": "Select the sentence with NO homophone errors:",
-      "options": ["A. The weather won't spoil our holidays whether it rains or not.", "B. The weather won't spoil our holidays weather it rains or not.", "C. The whether won't spoil our holidays whether it rains or not.", "D. The whether won't spoil our holidays weather it rains or not."],
-      "answer": "A. The weather won't spoil our holidays whether it rains or not.",
-      "diff": "medium"
-    },
-    {
-      "q": "What is the single-word replacement for 'at an earlier point in time'?",
-      "options": ["A. Now", "B. Before", "C. Soon", "D. While"],
-      "answer": "B. Before",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the correct words: 'The two brothers have not had any (peace, piece) ever since (their, there) father left.'",
-      "options": ["A. piece, there", "B. peace, their", "C. piece, their", "D. peace, there"],
-      "answer": "B. peace, their",
-      "diff": "easy"
-    },
-    {
-      "q": "The expression 'small in size' should be shortened in concise writing to:",
-      "options": ["A. tiny in nature", "B. small", "C. short size", "D. minor scale"],
-      "answer": "B. small",
-      "diff": "easy"
-    },
-    {
-      "q": "Fill in the blanks: 'The host gave them each a double ________ (dose, does) of medicine.'",
-      "options": ["A. does", "B. dose", "C. doze", "D. douse"],
-      "answer": "B. dose",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-
-
-29: {
-  title: "Punctuation: Comma Rules and The Apostrophe (ENG 101 Lesson 29)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: THE FIVE GOLDEN COMMA RULES
-Commas sentence ka structure clear karne aur parhne wale ke liye pause create karne ke liye istemal hote hain.
-
-1.  **Items in a Series:** Jab 3 ya us se zyada cheezein, phrases, ya clauses aik line mai hon, toh unhe commas se alag karein. (Oxford comma lagana behtar hai).
-    *   *Sahi:* Newspapers**,** plastic bottles**,** and aluminum cans. ✔️
-2.  **Introductory Material:** Agar koi clause ya phrase sentence ke shuru mai aaye, toh uske khatam hone par comma lagayein.
-    *   *Sahi:* When the lights went off**,** the children let out a loud yell. ✔️
-3.  **Interrupting Words (Non-essential Info):** Jo words sentence ke flow ko hawa mai rokte hain ya aisi extra maloomat dete hain jinke baghair bhi sentence ka asal matlab wahi rahe, unke dono taraf comma lagta hai.
-    *   *Sahi:* Laila**,** who was wearing a new dress**,** yelled at the boys. ✔️
-4.  **Complete Thoughts + Joining Word:** Jab do mukammal sentences ko *and, but, so, or, nor* se joda jaye, toh joining word se pehle comma lagta hai. (Dono side par subject + verb hona lazmi hai).
-    *   *Sahi:* The cricket team has lost five matches**,** but they are popular. ✔️
-5.  **Direct Quotations:** Kisi ki kahi hui baat ko baqi sentence se alag karne ke liye.
-    *   *Sahi:* The cashier said**,** "We don't take cheques." ✔️
-
----
-
-### 🏛️ SECTION 2: THE APOSTROPHE [ ’ ]
-Apostrophe ke do bade maqsad hote hain: **Contractions** aur **Possession**.
-
-👉 **1. Contractions (Words Chota Karna):** Missing letters ki jagah lagta hai.
-*   *I am*  =>  **I'm** | *Do not* => **don't** | *Will not* => **won't** | *She would/had* => **she'd**.
-
-👉 **2. Possession (Malkiyat Dikhana):**
-*   **Singular Noun:** Owner ke naam ke aage \` 's \` lagayein.
-    *   *Examples:* The **principal's** new rules, **Huxley's** essays, **Greens'** restaurant.
-*   **Plural Noun ending in 's':** Sirf aakhri \` s \` ke baad apostrophe \` ' \` lagayein, extra 's' nahi lagta.
-    *   *Examples:* The **Shahs'** doorbell, **ladies'** washroom, **dogs'** tracks.
-
-⚠️ **WARNING:** Verbs (*owns, runs*) ya normal plurals (*boots, books*) mai kabhi apostrophe mat lagayein!
-
----
-
-### 📝 SECTION 3: LESSON EXERCISES SOLVED
-*   **Introductory Practice:** i. Before leaving home**,** the child’s nanny collected a milk bottle**,** a bag full of diapers**,** a blanket**,** and a rattle. | ii. Although he is eighty**,** my grand dad walks ten miles daily. | iii. The cutlery box**,** if I remember correctly**,** is in the big trunk upstairs. | iv. The paint company displayed thirty shades of color**,** but the fussy lady still could not find anything to order. | v. The house agent said**,** "It may take you a while to get used to the place."
-*   **Practice 1 (Series):** i. ...newspapers**,** plastic bottles**,** and... | ii. Walking**,** jogging**,** and bicycling... | iii. ...red light**,** steered off the side of a road**,** and...
-*   **Practice 2 (Intro):** i. When the lights went off**,** | ii. During the operation**,** | iii. Disappointed by the batsman’s performance**,** | iv. After waiting in the queue for two hours**,**
-*   **Practice 3 (Interrupters):** i. The house**,** built of white stone**,** was... | ii. The park**,** forty acres of prime land**,** provides... | iii. The scenery of Switzerland**,** which resembles that of Kashmir**,** inspired... | iv. Laila**,** who was wearing a new dress**,** yelled...
-*   **Practice 4 (Joining Words):** i. ...matches in a row**,** but... | ii. ...reading glasses**,** so... | iii. ...very well**,** but... | iv. ...precisely**,** nor...
-*   **Practice 5 (Quotations):** i. 'We are ready to leave'**,** said... | ii. 'This book'**,** complained the student...**,** "is twenty... | iii. The cashier said**,** "We don't...
-*   **Review Answers (1-5):** 1. **b** (Introductory) | 2. **d** (Joining word) | 3. **a** (Series) | 4. **c** (Interrupting) | 5. **e** (Quotation)
-*   **Practice 6 (Apostrophe):** i. **department's** | ii. **year's** | iii. **p's and q's**
-*   **Final Review Multiple Choice Answers:** 1. **a** | 2. **b** | 3. **a** | 4. **b**`,
-  questions: [
-    {
-      "q": "Where should the comma be inserted? 'Before leaving home the nanny packed a blanket and a rattle.'",
-      "options": ["A. Before leaving home, the nanny packed...", "B. Before leaving, home the nanny packed...", "C. Before leaving home the nanny packed, a blanket...", "D. No comma is needed."],
-      "answer": "A. Before leaving home, the nanny packed...",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the type of comma rule used in this sentence: 'Walking, jogging, and bicycling are excellent forms of exercise.'",
-      "options": ["A. Comma with direct quotation", "B. Comma after introductory material", "C. Comma between items in a series", "D. Comma around interrupting words"],
-      "answer": "C. Comma between items in a series",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the correctly punctuated sentence containing an interrupter phrase:",
-      "options": ["A. The house built of white stone was completed in 1890.", "B. The house, built of white stone, was finally completed in 1890.", "C. The house built of white stone, was finally completed in 1890.", "D. The house, built of white stone was finally completed in 1890."],
-      "answer": "B. The house, built of white stone, was finally completed in 1890.",
-      "diff": "medium"
-    },
-    {
-      "q": "When connecting two complete thoughts with a joining word like 'but' or 'so', the comma goes:",
-      "options": ["A. Directly after the joining word", "B. Directly before the joining word", "C. On both sides of the joining word", "D. No comma is used at all"],
-      "answer": "B. Directly before the joining word",
-      "diff": "medium"
-    },
-    {
-      "q": "Why does this sentence NOT require a comma: 'Shama spent the morning in college and then went to the secretariat.'?",
-      "options": ["A. It uses the word 'and'.", "B. The phrase 'spent the morning' is too short.", "C. The second clause lacks its own subject.", "D. It contains a dynamic plural noun."],
-      "answer": "C. The second clause lacks its own subject.",
-      "diff": "hard"
-    },
-    {
-      "q": "Select the correctly punctuated quote sequence:",
-      "options": ["A. The cashier said \"we don't take cheques.\"", "B. The cashier said, \"We don't take cheques.\"", "C. \"We don't take cheques\" cashier said.", "D. The cashier, said \"We don't take cheques\"."],
-      "answer": "B. The cashier said, \"We don't take cheques.\"",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the correct punctuation rule classification for this sentence: 'Glaring around the room, the boss demanded silence.'?",
-      "options": ["A. Comma around interrupting words", "B. Comma after introductory material", "C. Comma with direct quotation", "D. Comma between items in a series"],
-      "answer": "B. Comma after introductory material",
-      "diff": "medium"
-    },
-    {
-      "q": "Fix the punctuation: 'I heard a horn blowing so I glanced up at my rearview mirror.'",
-      "options": ["A. I heard a horn blowing, so I glanced up...", "B. I heard a horn, blowing so I glanced up...", "C. I heard a horn blowing so, I glanced up...", "D. No change needed."],
-      "answer": "A. I heard a horn blowing, so I glanced up...",
-      "diff": "easy"
-    },
-    {
-      "q": "In a contraction like 'she'd', what does the apostrophe represent?",
-      "options": ["A. Possession by a feminine subject", "B. Omitted letters (like 'woul' in would or 'ha' in had)", "C. Pluralization of a past-tense state", "D. An introductory break point"],
-      "answer": "B. Omitted letters (like 'woul' in would or 'ha' in had)",
-      "diff": "medium"
-    },
-    {
-      "q": "To make a singular noun possessive, you usually add:",
-      "options": ["A. Just an apostrophe [ ’ ]", "B. An apostrophe plus s [ ’s ]", "C. An s plus an apostrophe [ s’ ]", "D. No punctuation change is made."],
-      "answer": "B. An apostrophe plus s [ ’s ]",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the correct possessive form for a plural noun ending in 's' (e.g., the doorbell belonging to the Shahs):",
-      "options": ["A. The Shah's doorbell", "B. The Shahs's doorbell", "C. The Shahs' doorbell", "D. The Shahs doorbell"],
-      "answer": "C. The Shahs' doorbell",
-      "diff": "hard"
-    },
-    {
-      "q": "Which sentence demonstrates the CORRECT use of an apostrophe?",
-      "options": ["A. No one likes the college principal's new attendance rules.", "B. No one likes the college principals's new attendance rules.", "C. No one likes the college principals new attendance rules.", "D. No one likes the college principal’s new attendance rule's."],
-      "answer": "A. No one likes the college principal's new attendance rules.",
-      "diff": "medium"
-    },
-    {
-      "q": "Identify the sentence that incorrectly uses an apostrophe in a verb or basic plural:",
-      "options": ["A. Samina's new boots have golden buckles.", "B. He own's the neighborhood cinema layout.", "C. Children's games are not always simple.", "D. It's impossible to see stars in daylight."],
-      "answer": "B. He own's the neighborhood cinema layout.",
-      "diff": "medium"
-    },
-    {
-      "q": "Fill in the blank with the correct choice: 'This ________ new television shows are worse than before.'",
-      "options": ["A. years", "B. year's", "C. years'", "D. years's"],
-      "answer": "B. year's",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the rule idiom for plural lowercase letters or specific expressions like 'p' and 'q'?",
-      "options": ["A. ps and qs", "B. p's and q's", "C. ps' and qs'", "D. p’ss and q’ss"],
-      "answer": "B. p's and q's",
-      "diff": "hard"
-    },
-    {
-      "q": "An apostrophe is NOT needed in which structural category?",
-      "options": ["A. A contraction", "B. A possessive word", "C. A standard plural noun", "D. All of the above require it."],
-      "answer": "C. A standard plural noun",
-      "diff": "easy"
-    },
-    {
-      "q": "Choose the option with zero errors: 'They're upset about the damage done to ________ new car.'",
-      "options": ["A. there", "B. their", "C. they're", "D. theirs'"],
-      "answer": "B. their",
-      "diff": "easy"
-    },
-    {
-      "q": "True or False: Do not use a comma when a series contains only two items.",
-      "options": ["A. True", "B. False"],
-      "answer": "A. True",
-      "diff": "easy"
-    },
-    {
-      "q": "Complete the sentence structure: 'Kauser wasn't wearing her reading glasses ________ she couldn't read the dictionary.'",
-      "options": ["A. , so", "B. so,", "C. ,so,", "D. so"],
-      "answer": "A. , so",
-      "diff": "medium"
-    },
-    {
-      "q": "Correct the dialogue punctuation: 'This book' complained the student 'is cheaper elsewhere.'",
-      "options": ["A. 'This book' complained the student, 'is cheaper elsewhere.'", "B. 'This book,' complained the student, 'is cheaper elsewhere.'", "C. 'This book' complained, the student 'is cheaper elsewhere.'", "D. No comma adjustments required."],
-      "answer": "B. 'This book,' complained the student, 'is cheaper elsewhere.'",
-      "diff": "hard"
-    }
-  ]
-},
-
-
-30: {
-  title: "Paragraph Structure: Unity, Support, and Logical Order (ENG 101 Lesson 30)",
-  summary: `**🚀 COMPREHENSIVE SHORT STUDY NOTES (Poora Concept Aik Jagah)**
-
----
-
-### 🔥 SECTION 1: THE FOUR PILLARS OF PARAGRAPH WRITING
-Aik behtareen aur effective paragraph likhne ke liye 4 basic rules ka hona lazmi hai:
-1.  **Make a Point (Topic Sentence):** Paragraph ka aik clear main idea hona chahiye jo aam tour par pehli line hoti hai.
-2.  **Support the Point (Evidence):** Main idea ko sach sabit karne ke liye specific details, facts aur examples honi chahiye.
-3.  **Orderly Arrange Material (Organization):** Details ka aapas mai aik logical sequence hona chahiye (jaise General to Specific ya Chronological order).
-4.  **Write Error-Free Sentences:** Grammar, punctuation aur spelling ki mistakes nahi honi chahiye.
-
----
-
-### 🏛️ SECTION 2: IDEA VS. EVIDENCE ARRANGEMENT
-Writing ka sunehra usool yeh hai ke pehle **General Idea (Main Point)** pesh kiya jata hai, aur phir usko support karne ke liye **Specific Evidence (Examples)** diye jate hain.
-
-👉 **Example 1 (Reading Habits):**
-*   *Main Idea:* His library testified to the breadth of his reading habits. (Sentence 5)
-*   *Evidence:* Alag alag shelves mai newspapers, classic literature, science fiction, aur cooking/travel books ka dher hona. (Sentences 1, 2, 3, 4)
-
-👉 **Example 2 (Math Struggle):**
-*   *Main Idea:* Mathematics has never been easy for me. (Sentence 1)
-*   *Evidence:* Primary school mai arithmetic mai masla, high school mai algebra/trig mai mushkil se pass hona, aur ab college mai business math mai tang hona.
-
----
-
-### 🛠️ SECTION 3: LOGICAL CONCLUSIONS & IRRELEVANT EVIDENCE
-*   **Drawing Logical Conclusions:** Jo facts aur data diye gaye hon, conclusion hamesha unhi ke mutabiq hona chahiye—na us se barh kar na kam. (Agar gaari ke saare parts farigh hain, toh it's time to get a new car).
-*   **Eliminating Irrelevant Details (Unity):** Paragraph ke main point se bhatakne wali koi bhi extra details paragraph ki unity ko kharab karti hain, isliye unhe nikal dena chahiye (jaise backyard shade wale paragraph mai rose aur jasmine bushes ka zikr fazool tha).
-
----
-
-### 📝 SECTION 4: PRACTICE EXERCISES SOLVED
-*   **Practice 1 (Library Order):** Idea: **Sentence 5** | Evidence: **Sentence 1, 2, 3, 4**
-*   **Practice 2 (Math Order):** Idea: **Sentence 1** | Evidence: **Sentence 4, 5, 2, 3** *(Note: Sentence 6 is father's threat, while 4 $\rightarrow$ 5 $\rightarrow$ 2 shows chronological educational growth).*
-*   **Practice 3 (Conclusions):** 1) **2** (Its time for me to get a new Suzuki) | 2) **1** (Dhaka rainfall declined steadily between 1960 and 1965).
-*   **Practice 4 (Irrelevant Evidence):** **4** *(Rose, Hibiscus, and jasmine bushes do not provide shade all day, so they are irrelevant to the conclusion).*`,
-  questions: [
-    {
-      "q": "What are the four essential steps in writing an effective paragraph?",
-      "options": ["A. Plot, Character, Setting, Climax", "B. Make a point, Support the point, Orderly arrange material, Write error-free sentences", "C. Introduction, Body 1, Body 2, Conclusion", "D. Brainstorming, Drafting, Outlining, Publishing"],
-      "answer": "B. Make a point, Support the point, Orderly arrange material, Write error-free sentences",
-      "diff": "easy"
-    },
-    {
-      "q": "In Practice 1, which sentence serves as the most general main idea (Topic Sentence)?",
-      "options": ["A. Sentence 1", "B. Sentence 3", "C. Sentence 4", "D. Sentence 5"],
-      "answer": "D. Sentence 5",
-      "diff": "easy"
-    },
-    {
-      "q": "In a well-structured paragraph, how should ideas and evidence ideally be arranged arranged?",
-      "options": ["A. The most specific evidence comes first, followed by general observations.", "B. The most general point comes first, followed by specific supporting evidence.", "C. Randomly to keep the reader highly engaged.", "D. Alternating between grammar edits and idea drafts."],
-      "answer": "B. The most general point comes first, followed by specific supporting evidence.",
-      "diff": "medium"
-    },
-    {
-      "q": "Based on Practice 2, what is the core statement of the main idea?",
-      "options": ["A. Now that I am in college, I am having trouble.", "B. Mathematics has never been easy for me.", "C. My father threatened to take me out of school.", "D. In primary school I had serious trouble."],
-      "answer": "B. Mathematics has never been easy for me.",
-      "diff": "easy"
-    },
-    {
-      "q": "Given the evidence: 'Suzuki has 80,000 miles, needs a new battery, front wheel alignment is out, shock absorbers are weak, and upholstery is frayed.' What is the most appropriate conclusion?",
-      "options": ["A. Japanese cars give good service for 80,000 miles, then break down.", "B. It's time for me to get a new Suzuki.", "C. My four-year old Suzuki needs some minor repairs.", "D. Suzukis are the worst cars on the market."],
-      "answer": "B. It's time for me to get a new Suzuki.",
-      "diff": "medium"
-    },
-    {
-      "q": "Given the evidence of Dhaka rainfall: '88.6 inches in 1960, 86.2 in 1961, 84.2 in 1962, 81.2 in 1963, 80.1 in 1964, and 75.1 in 1965.' What can be inferred logically?",
-      "options": ["A. Dhaka rainfall declined steadily between 1960 and 1965.", "B. Dhaka rainfall eventually returned to normal.", "C. Dhaka rainfall was 74.1 inches in 1967.", "D. Dhaka suffers from catastrophic droughts every year."],
-      "answer": "A. Dhaka rainfall declined steadily between 1960 and 1965.",
-      "diff": "medium"
-    },
-    {
-      "q": "In Practice 4, which piece of evidence is IRRELEVANT to the conclusion: 'The trees in the back yard provide shade all day'?",
-      "options": ["A. Evidence 1 (Four neem trees on the south side)", "B. Evidence 2 (Row of towering eucalyptus trees on the west side)", "C. Evidence 3 (Two great rubber trees capturing noon rays)", "D. Evidence 4 (Low growing rose bushes, Hibiscus and jasmine bushes)"],
-      "answer": "D. Evidence 4 (Low growing rose bushes, Hibiscus and jasmine bushes)",
-      "diff": "easy"
-    },
-    {
-      "q": "What happens to a paragraph when an irrelevant sentence or piece of evidence is included?",
-      "options": ["A. It improves sentence variety.", "B. It destroys the paragraph's unity and focus.", "C. It provides deeper transition steps.", "D. It automatically fixes run-on mistakes."],
-      "answer": "B. It destroys the paragraph's unity and focus.",
-      "diff": "medium"
-    },
-    {
-      "q": "In the paragraph about 'My Neighbors', what is the main disturbing event that happens just when the neighborhood turns in for the night?",
-      "options": ["A. The daughter shouts 'Babaji!'", "B. The children play hide and seek.", "C. Loud stereo music blares from their house.", "D. The dogs start barking at the gate."],
-      "answer": "C. Loud stereo music blares from their house.",
-      "diff": "easy"
-    },
-    {
-      "q": "Which chronological sequence of support matches the writer's life in Practice 2?",
-      "options": ["A. High school -> College -> Primary school", "B. Primary school -> High school -> College", "C. College -> Primary school -> High school", "D. High school -> Primary school -> College"],
-      "answer": "B. Primary school -> High school -> College",
-      "diff": "medium"
-    },
-    {
-      "q": "The main point of a paragraph is usually captured in which specific sentence?",
-      "options": ["A. Supporting sentence", "B. Transitional sentence", "C. Topic sentence", "D. Fragmented sentence"],
-      "answer": "C. Topic sentence",
-      "diff": "easy"
-    },
-    {
-      "q": "Why is structural order important inside a paragraph?",
-      "options": ["A. To reach the maximum required word count quickly.", "B. To make the relationship between the main idea and supporting details logical and clear.", "C. To show that the writer knows many fancy vocabulary terms.", "D. To eliminate the need for any punctuation marks."],
-      "answer": "B. To make the relationship between the main idea and supporting details logical and clear.",
-      "diff": "easy"
-    },
-    {
-      "q": "In the 'History of English Literature' excerpt, what are the friends and enemies doing the day after the burial?",
-      "options": ["A. Demanding their shared money back.", "B. Writing his biography.", "C. Selling his classics and magazines.", "D. Repairing his broken down Suzuki."],
-      "answer": "B. Writing his biography.",
-      "diff": "easy"
-    },
-    {
-      "q": "What kind of details should a writer use to support a topic sentence effectively?",
-      "options": ["A. Vague statements", "B. Specific and concrete details", "C. Plagiarized summaries", "D. Slang and outdated clichés"],
-      "answer": "B. Specific and concrete details",
-      "diff": "easy"
-    },
-    {
-      "q": "If a writer says 'My library testified to the breadth of my reading habits,' what kind of books should NOT be listed as direct evidence?",
-      "options": ["A. Classics and science fiction", "B. Modern daily newspapers", "C. Cooking, gardening, and travel manuals", "D. Blank diaries with no text inside"],
-      "answer": "D. Blank diaries with no text inside",
-      "diff": "easy"
-    },
-    {
-      "q": "True or False: A paragraph can have multiple independent main points that do not relate to each other.",
-      "options": ["A. True", "B. False"],
-      "answer": "B. False",
-      "diff": "easy"
-    },
-    {
-      "q": "Identify the primary source of noise from the neighbor's daughter in the example text:",
-      "options": ["A. Singing loudly along with the stereo setup.", "B. Popping her head out of the window and screaming 'Babaji!'", "C. Playing complex algebra games outside.", "D. Throwing fruit peel at passing cars."],
-      "answer": "B. Popping her head out of the window and screaming 'Babaji!'",
-      "diff": "easy"
-    },
-    {
-      "q": "Which phase of education is mentioned as the period where the writer barely passed algebra and trigonometry?",
-      "options": ["A. Primary school", "B. High school", "C. College", "D. University level"],
-      "answer": "B. High school",
-      "diff": "easy"
-    },
-    {
-      "q": "What is the primary role of the sentences that follow a topic sentence?",
-      "options": ["A. To repeat the main point in five different ways.", "B. To provide solid support, illustration, and evidence.", "C. To add irrelevant information to fill space.", "D. To shift the point of view to the second person."],
-      "answer": "B. To provide solid support, illustration, and evidence.",
-      "diff": "medium"
-    },
-    {
-      "q": "True or False: Logic dictates that you should ensure your sentences are error-free as part of final paragraph polishing.",
-      "options": ["A. True", "B. False"],
-      "answer": "A. True",
-      "diff": "easy"
-    }
-  ]
-},
-
-
-
-
-  },
+}
 
 
 
   
   
-};
 
 
 export default mcqs;

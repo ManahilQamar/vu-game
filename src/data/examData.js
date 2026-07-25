@@ -12879,6 +12879,3184 @@ const examData = {
       totalMarks: 40,
       mcqMarks: 1,
       mcqs: [
+    {
+        "q": "From network security point of view, a primary prevention technique is to filter traffic passing through a point in the network, usually through _______________",
+        "options": [
+            "A. Firewalls",
+            "B. Proxy server",
+            "C. Antivirus",
+            "D. Operating system"
+        ],
+        "answer": "A. Firewalls"
+    },
+    {
+        "q": "We cannot establish proxy server for ___________",
+        "options": [
+            "A. FTP",
+            "B. HTTP",
+            "C. Firewall",
+            "D. Telnet"
+        ],
+        "answer": "C. Firewall"
+    },
+    {
+        "q": "In Encryption, a Private key is used to ___________ messages.",
+        "options": [
+            "A. Encrypt",
+            "B. Decrypt"
+        ],
+        "answer": "B. Decrypt"
+    },
+    {
+        "q": "By using ___________ we can have a secure version of the applications.",
+        "options": [
+            "A. 3G",
+            "B. XML",
+            "C. Spam filters",
+            "D. Encryption techniques"
+        ],
+        "answer": "D. Encryption techniques"
+    },
+    {
+        "q": "In Encryption, a digital signature is actually a __________",
+        "options": [
+            "A. array of characters",
+            "B. protocol",
+            "C. bit pattern",
+            "D. server"
+        ],
+        "answer": "C. bit pattern"
+    },
+    {
+        "q": "In context of legal approaches to network security, one of the main issue is ________________",
+        "options": [
+            "A. International law that makes Illegal in one country and legal in another country",
+            "B. lack of data",
+            "C. slow technological development",
+            "D. lack of skilled persons in this area"
+        ],
+        "answer": "A. International law that makes Illegal in one country and legal in another country"
+    },
+    {
+        "q": "In Pakistan, the Federal Investigation Agency (FIA) act was passed in the year ____________.",
+        "options": [
+            "A. 1975",
+            "B. 1977",
+            "C. 1974",
+            "D. 1976"
+        ],
+        "answer": "C. 1974"
+    },
+    {
+        "q": "In Pakistan, the Prevention of Electronic Crimes Ordinance was passed in the year ____________.",
+        "options": [
+            "A. 2009",
+            "B. 2007",
+            "C. 2008",
+            "D. 2010"
+        ],
+        "answer": "B. 2007"
+    },
+    {
+        "q": "Algorithm is simply ________ that define how a task is _________.",
+        "options": [
+            "A. a single step, performed",
+            "B. set of steps, performed",
+            "C. a single step, halted",
+            "D. set of steps, halted"
+        ],
+        "answer": "B. set of steps, performed"
+    },
+    {
+        "q": "Which of the following is not the general operation of the machine cycle?",
+        "options": [
+            "A. Return the instruction",
+            "B. Fetch the instruction",
+            "C. Decode the instruction",
+            "D. Execute the instruction"
+        ],
+        "answer": "A. Return the instruction"
+    },
+    {
+        "q": "Algorithm to convert from KM to Meters will involve all the steps except:",
+        "options": [
+            "A. Multiply the input with 1000",
+            "B. Take input of KM’s",
+            "C. Add 1000 to the output",
+            "D. Display the result"
+        ],
+        "answer": "C. Add 1000 to the output"
+    },
+    {
+        "q": "The execution of an algorithm must lead to a(an) __________.",
+        "options": [
+            "A. Condition",
+            "B. End",
+            "C. Start",
+            "D. Statement"
+        ],
+        "answer": "B. End"
+    },
+    {
+        "q": "______________ is the set of steps that defines how the task is performed.",
+        "options": [
+            "A. Program",
+            "B. Algorithm",
+            "C. Analysis",
+            "D. Model"
+        ],
+        "answer": "B. Algorithm"
+    },
+    {
+        "q": "A good algorithm must have all characteristics except:",
+        "options": [
+            "A. Unstructured",
+            "B. Terminating Process",
+            "C. Unambiguous",
+            "D. Executable"
+        ],
+        "answer": "A. Unstructured"
+    },
+    {
+        "q": "A formal representation of an algorithm designed for computer application is referred to as ________________ .",
+        "options": [
+            "A. Process Design",
+            "B. Analysis",
+            "C. Program",
+            "D. Process Model"
+        ],
+        "answer": "C. Program"
+    },
+    {
+        "q": "Algorithm is a method for solving the problem in _________order.",
+        "options": [
+            "A. semantic",
+            "B. static",
+            "C. symmetric",
+            "D. systematic"
+        ],
+        "answer": "D. systematic"
+    },
+    {
+        "q": "A program is the representation of an algorithm, whereas a _________ is the activity of executing an algorithm.",
+        "options": [
+            "A. Coupling",
+            "B. Model",
+            "C. Cohesion",
+            "D. Process"
+        ],
+        "answer": "D. Process"
+    },
+    {
+        "q": "The algebraic formula for converting readings of length of a table from feet to inches is_____________.",
+        "options": [
+            "A. feet+12",
+            "B. feet*12",
+            "C. feet%12",
+            "D. feet/12"
+        ],
+        "answer": "B. feet*12"
+    },
+    {
+        "q": "Each primitive has its own syntax and semantics. Syntax refers to the primitive’s ______________ representation.",
+        "options": [
+            "A. Alphabetic",
+            "B. Character",
+            "C. Symbolic",
+            "D. Pictorial"
+        ],
+        "answer": "C. Symbolic"
+    },
+    {
+        "q": "Each primitive has its own syntax and semantics. Semantics refers to the ___________ of the primitive.",
+        "options": [
+            "A. Properties",
+            "B. Meaning",
+            "C. Characteristics",
+            "D. Symbolic Representation"
+        ],
+        "answer": "B. Meaning"
+    },
+    {
+        "q": "A collection of primitives along with a collection of rules stating how the primitives can be combined to represent more complex ideas constitutes a __________________.",
+        "options": [
+            "A. Programming Instructions",
+            "B. Programming Model",
+            "C. Programming Code",
+            "D. Programming Language"
+        ],
+        "answer": "D. Programming Language"
+    },
+    {
+        "q": "An informal notational system that helps the developers to develop algorithms is known as:",
+        "options": [
+            "A. Method",
+            "B. Pseudocode",
+            "C. Program Instructions",
+            "D. Model"
+        ],
+        "answer": "B. Pseudocode"
+    },
+    {
+        "q": "____________ is a notational system in which ideas can be expressed informally during the algorithm development process.",
+        "options": [
+            "A. Object",
+            "B. Method",
+            "C. Process",
+            "D. Pseudo code"
+        ],
+        "answer": "D. Pseudo code"
+    },
+    {
+        "q": "An else statement is preceded by ____ statement.",
+        "options": [
+            "A. else-if",
+            "B. do",
+            "C. if",
+            "D. else"
+        ],
+        "answer": "C. if"
+    },
+    {
+        "q": "Which of the following is the NOT the example of loop structure?",
+        "options": [
+            "A. for",
+            "B. do while",
+            "C. switch statement",
+            "D. while"
+        ],
+        "answer": "C. switch statement"
+    },
+    {
+        "q": "A semantic structure that allows the repeated operation of a particular sequence of instructions is known as:",
+        "options": [
+            "A. Module",
+            "B. Loop",
+            "C. Pseudocode",
+            "D. Sequence"
+        ],
+        "answer": "B. Loop"
+    },
+    {
+        "q": "What will be the output of the following pseudo code? int marks = 72; if (marks >= 90) cout<<\"Eligible for scholarship\" else cout<<\"Not eligible for scholarship\"",
+        "options": [
+            "A. Might be eligible for scholarship",
+            "B. Not eligible for scholarship",
+            "C. Eligible for scholarship",
+            "D. Runtime error"
+        ],
+        "answer": "B. Not eligible for scholarship"
+    },
+    {
+        "q": "If two functions are named ProcessLoan and RejectApplication, then we could request their services within an if-else structure by writing: if (. . . ): ProcessLoan() else: RejectApplication() Which function will be executed if the tested condition is true?",
+        "options": [
+            "A. ProcessLoan & RejectApplication",
+            "B. RejectApplication",
+            "C. None of them",
+            "D. ProcessLoan"
+        ],
+        "answer": "D. ProcessLoan"
+    },
+    {
+        "q": "What will be the output of the following pseudocode? int X= 4; if X >= 2 cout<< “true” else cout<< “false” end",
+        "options": [
+            "A. 2",
+            "B. true",
+            "C. 4",
+            "D. false"
+        ],
+        "answer": "B. true"
+    },
+    {
+        "q": "What is the output of the given pseudocode? if 3>5 Print(False) else Print(True) end",
+        "options": [
+            "A. Logical error/No output",
+            "B. FalseTrue",
+            "C. False",
+            "D. True"
+        ],
+        "answer": "D. True"
+    },
+    {
+        "q": "“Carry out the plan” is the __________ phase of problem solving phases presented by the mathematician G. Polya in 1945.",
+        "options": [
+            "A. 1st",
+            "B. 4th",
+            "C. 3rd",
+            "D. 2nd"
+        ],
+        "answer": "C. 3rd"
+    },
+    {
+        "q": "The close ___________ between the process of algorithm discovery and that of general problem solving has caused computer scientists to join with those of other disciplines in the search for better problem-solving techniques.",
+        "options": [
+            "A. dissolution",
+            "B. solitude",
+            "C. seclusion",
+            "D. association"
+        ],
+        "answer": "D. association"
+    },
+    {
+        "q": "Which of the following is not the problem-solving phase presented by the mathematician G. Polya in 1945?",
+        "options": [
+            "A. Understand the problem",
+            "B. Carry out the plan",
+            "C. Devise a plan for solving the problem",
+            "D. Divide the problem"
+        ],
+        "answer": "D. Divide the problem"
+    },
+    {
+        "q": "A common thread running through mentioned problem-solving approaches is “ _____________” .",
+        "options": [
+            "A. get your hand in the door",
+            "B. get your hand in the window",
+            "C. get your foot in the window",
+            "D. get your foot in the door"
+        ],
+        "answer": "D. get your foot in the door"
+    },
+    {
+        "q": "Before A,B,C and D ran a race they made the following predictions: A predicted that B would win. B predicted that D would win. C predicted that A would be third. D predicted that A’s prediction would be correct. Only one prediction will be correct. After analyzing the data, the winning order of the race will be:",
+        "options": [
+            "A. CDAB",
+            "B. BDAC",
+            "C. ABCD",
+            "D. DBAC"
+        ],
+        "answer": "D. DBAC"
+    },
+    {
+        "q": "Before A, B, C, and D ran a race, they made the following predictions: A predicted that B would win. B predicted that D would win. C predicted that A would be third. D predicted that A's prediction would be correct. If only one prediction was correct that was made by the winner. Find out the correct sequence of finishing the race.",
+        "options": [
+            "A. CABD",
+            "B. BCAD",
+            "C. DBAC",
+            "D. CBAD"
+        ],
+        "answer": "C. DBAC"
+    },
+    {
+        "q": "Before A, B, C, and D ran a race, they made the following predictions and only one of these predictions turned out to be true after the race. Which of the given predictions could be correct?",
+        "options": [
+            "A. A predicted that B would win",
+            "B. C predicted that A would be third",
+            "C. D predicted that B's prediction would be correct",
+            "D. B predicted that the order of finishing the race would be BACD"
+        ],
+        "answer": "B. C predicted that A would be third"
+    },
+    {
+        "q": "A common thread running through mentioned problem-solving approaches is “ _____________” .",
+        "options": [
+            "A. get your hand in the door",
+            "B. get your hand in the window",
+            "C. get your foot in the window",
+            "D. get your foot in the door"
+        ],
+        "answer": "D. get your foot in the door"
+    },
+    {
+        "q": "Top-down methodology progresses from the ____________ .",
+        "options": [
+            "A. general to specific",
+            "B. specific to the general",
+            "C. horizontal to vertical",
+            "D. vertical to horizontal"
+        ],
+        "answer": "A. general to specific"
+    },
+    {
+        "q": "The ____________ approach is to look for a related problem that is either easier to solve or has been solved before and then try to apply its solution to the current problem.",
+        "options": [
+            "A. lower problem-solving",
+            "B. higher problem-solving",
+            "C. general problem-solving",
+            "D. specific problem-solving"
+        ],
+        "answer": "C. general problem-solving"
+    },
+    {
+        "q": "___________ methodology progresses from the specific to the general.",
+        "options": [
+            "A. Vertical methodology",
+            "B. Bottom-up methodology",
+            "C. Top-down methodology",
+            "D. Horizontal methodology"
+        ],
+        "answer": "B. Bottom-up methodology"
+    },
+    {
+        "q": "In Sequential Search Algorithm we may scan a list from its___________, comparing each entry with the target entry.",
+        "options": [
+            "A. Top down",
+            "B. Middle",
+            "C. Beginning",
+            "D. End"
+        ],
+        "answer": "C. Beginning"
+    },
+    {
+        "q": "An algorithm that determines whether that value is in the list or not is known as ____________.",
+        "options": [
+            "A. Sequential search algorithm",
+            "B. Naive Bayes algorithm",
+            "C. KNN algorithm",
+            "D. K means algorithm"
+        ],
+        "answer": "A. Sequential search algorithm"
+    },
+    {
+        "q": "What will be the output of the following pseudocode? int main() { int a=10; while(a==10) { printf(\"PAKISTAN\"); break; } return 0; }",
+        "options": [
+            "A. PAKISTAN is printed multiple times",
+            "B. PAKISTAN is printed 10 times",
+            "C. PAKISTAN",
+            "D. Compiler Error"
+        ],
+        "answer": "C. PAKISTAN"
+    },
+    {
+        "q": "While (_______ ): What will be written in the blank space?",
+        "options": [
+            "A. Function definition",
+            "B. Condition",
+            "C. Body",
+            "D. Total Number of code lines"
+        ],
+        "answer": "B. Condition"
+    },
+    {
+        "q": "As a general rule, the use of a loop structure produces a higher degree of___________ .",
+        "options": [
+            "A. inconsistency",
+            "B. complexity",
+            "C. flexibility",
+            "D. ambiguity"
+        ],
+        "answer": "C. flexibility"
+    },
+    {
+        "q": "What will be the output of the following pseudo code? int x = 0; if (x == 0) printf(\"hi\"); else printf(\"hello\");",
+        "options": [
+            "A. hi",
+            "B. hihello",
+            "C. hello",
+            "D. hellohi"
+        ],
+        "answer": "A. hi"
+    },
+    {
+        "q": "Which of the following is not the activity of loop control?",
+        "options": [
+            "A. initialize",
+            "B. test",
+            "C. modify",
+            "D. halt"
+        ],
+        "answer": "D. halt"
+    },
+    {
+        "q": "The test activity terminates the loop process by checking for a condition. This is known as the ____________.",
+        "options": [
+            "A. Loop condition",
+            "B. Test condition",
+            "C. Termination condition",
+            "D. Entry condition"
+        ],
+        "answer": "C. Termination condition"
+    },
+    {
+        "q": "What will be the output of the following pseudo code? int x = 45; if (x >= 33) printf(\"Pass\"); else printf(\"Fail\");",
+        "options": [
+            "A. PassFail",
+            "B. Fail",
+            "C. Pass",
+            "D. FailPass"
+        ],
+        "answer": "C. Pass"
+    },
+    {
+        "q": "What will be the output of the following pseudo code? float height = 5.9; if (height <= 6) cout << “Can pass the door”; else cout << “Cannot pass the door”;",
+        "options": [
+            "A. 5.9",
+            "B. Cannot pass the door",
+            "C. Can pass the door",
+            "D. 6"
+        ],
+        "answer": "C. Can pass the door"
+    },
+    {
+        "q": "What will be the output of the following pseudo code? int main() { int x = 5; while(x == 5) { printf(\"PAKISTAN\"); break; } return 0; }",
+        "options": [
+            "A. 0",
+            "B. PAKISTAN",
+            "C. 5",
+            "D. while"
+        ],
+        "answer": "B. PAKISTAN"
+    },
+    {
+        "q": "The pseudo-code to find a factorial of a number n is: def FindFactorial(): f = 1 i=1; While (i<=n) f=f*i; i=i+1; Initially “f” and “i” both will have a value of one. What would be the value of “f” after the 2nd iteration?",
+        "options": [
+            "A. 6",
+            "B. 1",
+            "C. 2",
+            "D. 4"
+        ],
+        "answer": "C. 2"
+    },
+    {
+        "q": "The pseudo-code to find a factorial of a number n is: def FindFactorial(): f = 1 i=1; While (i<=n) f=f*i; i=i+1; Initially “f” and “i” both will have a value of one. What would be the value of “f” after the 6th iteration?",
+        "options": [
+            "A. 240",
+            "B. 1080",
+            "C. 120",
+            "D. 720"
+        ],
+        "answer": "D. 720"
+    },
+    {
+        "q": "The pseudo-code to find a factorial of a number n is: def FindFactorial(): f = 1 i=1; While (i<=n) f=f*i; i=i+1; Initially “f” and “i” both will have a value of one. What would be the value of “f” after the 3rd iteration?",
+        "options": [
+            "A. 12",
+            "B. 9",
+            "C. 6",
+            "D. 3"
+        ],
+        "answer": "C. 6"
+    },
+    {
+        "q": "If the test for termination of a loop is performed before the body is executed then the loop is known as __________ .",
+        "options": [
+            "A. post-test loop",
+            "B. blackbox test loop",
+            "C. whitebox test loop",
+            "D. pretest loop"
+        ],
+        "answer": "D. pretest loop"
+    },
+    {
+        "q": "_________loop structure referred to as a pre-test loop.",
+        "options": [
+            "A. Sequential",
+            "B. Repeat",
+            "C. While",
+            "D. Unconditional"
+        ],
+        "answer": "C. While"
+    },
+    {
+        "q": "In ____________ loop the test for termination is performed before the body is executed.",
+        "options": [
+            "A. blackbox test",
+            "B. post-test",
+            "C. whitebox test",
+            "D. pretest"
+        ],
+        "answer": "D. pretest"
+    },
+    {
+        "q": "Which of the following algorithms is used for sorting a list of names into alphabetical order within itself?",
+        "options": [
+            "A. Regression algorithm",
+            "B. Decision tree",
+            "C. Merge sort",
+            "D. Insertion sort"
+        ],
+        "answer": "D. Insertion sort"
+    },
+    {
+        "q": "Which of the following examples is based on insertion sort?",
+        "options": [
+            "A. Database scenarios and distributes scenarios",
+            "B. Finding the value of X",
+            "C. Sorting a list of names into alphabetical order",
+            "D. Real-time systems"
+        ],
+        "answer": "C. Sorting a list of names into alphabetical order"
+    },
+    {
+        "q": "_____________ is a sorting algorithm that places an unsorted element at its suitable place in each iteration.",
+        "options": [
+            "A. Bubble sort",
+            "B. Merge sort",
+            "C. Quick sort",
+            "D. Insertion sort"
+        ],
+        "answer": "D. Insertion sort"
+    },
+    {
+        "q": "What is ascending order in alphabetical order?",
+        "options": [
+            "A. arranged in a series that begins with the greatest or largest and ends with the least or smallest",
+            "B. arranged in a series that begins with the odd number of elements",
+            "C. arranged in a series that begins with the least or smallest and ends with the greatest or largest",
+            "D. arranged in a series that begins with the even number of elements"
+        ],
+        "answer": "C. arranged in a series that begins with the least or smallest and ends with the greatest or largest"
+    },
+    {
+        "q": "What does sorting a list mean?",
+        "options": [
+            "A. Breaking list in two parts",
+            "B. Disarranging elements in a list",
+            "C. Combining two lists",
+            "D. Arranging elements of the list in a certain order"
+        ],
+        "answer": "D. Arranging elements of the list in a certain order"
+    },
+    {
+        "q": "What does an algorithm mean?",
+        "options": [
+            "A. reusable code",
+            "B. piece of code",
+            "C. set of instructions",
+            "D. set of a finite number of well-defined steps to solve a problem"
+        ],
+        "answer": "D. set of a finite number of well-defined steps to solve a problem"
+    },
+    {
+        "q": "The recursive binary search Algorithm systematically narrows the search to the ________ of the list based on the comparison with the middle element, in each iteration.",
+        "options": [
+            "A. One half",
+            "B. One quarter",
+            "C. Left side",
+            "D. Right side"
+        ],
+        "answer": "A. One half"
+    },
+    {
+        "q": "Pseudocode is _______.",
+        "options": [
+            "A. Code with output",
+            "B. Text based algorithmic design/code",
+            "C. Code without inputs",
+            "D. Code without comments"
+        ],
+        "answer": "B. Text based algorithmic design/code"
+    },
+    {
+        "q": "Sequential Search is also known as ______?",
+        "options": [
+            "A. Non-linear search",
+            "B. Direct search",
+            "C. Linear search",
+            "D. In-direct search"
+        ],
+        "answer": "C. Linear search"
+    },
+    {
+        "q": "Sequential Search starts comparison from the _____.",
+        "options": [
+            "A. Start",
+            "B. Start and end both",
+            "C. Middle",
+            "D. End"
+        ],
+        "answer": "A. Start"
+    },
+    {
+        "q": "The binary search executes each stage of the repetition as a ______ of the previous stage.",
+        "options": [
+            "A. task",
+            "B. part",
+            "C. copy",
+            "D. subtask"
+        ],
+        "answer": "D. subtask"
+    },
+    {
+        "q": "Degenerate case in recursion is also known as______?",
+        "options": [
+            "A. worst case",
+            "B. average case",
+            "C. base case",
+            "D. best case"
+        ],
+        "answer": "C. base case"
+    },
+    {
+        "q": "Efficiency of an algorithm is_________.",
+        "options": [
+            "A. time required to add elements at the end of the list",
+            "B. time required to delete the element from the end of the list",
+            "C. time required to search an element",
+            "D. number of comparisons required to find an element"
+        ],
+        "answer": "D. number of comparisons required to find an element"
+    },
+    {
+        "q": "If we are using sequential search algorithm and required element lies at the end of the list, then it will be considered.",
+        "options": [
+            "A. Worst case scenario",
+            "B. Average case scenario",
+            "C. Best case scenario",
+            "D. Medium case scenario"
+        ],
+        "answer": "A. Worst case scenario"
+    },
+    {
+        "q": "If we have 30000 entries in a list and we are using a binary search algorithm. How many comparisons will be performed to find the last element?",
+        "options": [
+            "A. 15",
+            "B. 30",
+            "C. 15000",
+            "D. 30000"
+        ],
+        "answer": "A. 15"
+    },
+    {
+        "q": "Which of the following is NOT the advantage of software verification?",
+        "options": [
+            "A. Decrease the count of defects in later stages of development",
+            "B. Reduces the chances of the product to be as per user needs",
+            "C. Reduce the chances of failure",
+            "D. Help to understand the product at the start"
+        ],
+        "answer": "B. Reduces the chances of the product to be as per user needs"
+    },
+    {
+        "q": "_________ of the software is checked in software verification process.",
+        "options": [
+            "A. Compatibility",
+            "B. Correctness",
+            "C. Capacity",
+            "D. Concurrency"
+        ],
+        "answer": "B. Correctness"
+    },
+    {
+        "q": "Software validation is to check correctness of software _________.",
+        "options": [
+            "A. At the time of deployment",
+            "B. Before and after deployment",
+            "C. After deployment",
+            "D. Before deployment"
+        ],
+        "answer": "D. Before deployment"
+    },
+    {
+        "q": "A complete mnemonic system used for representing is collectively known as _______.",
+        "options": [
+            "A. machine language",
+            "B. programming language",
+            "C. natural language",
+            "D. assembly language"
+        ],
+        "answer": "D. assembly language"
+    },
+    {
+        "q": "Descriptive names used to represent mnemonic expressions are called as ________?",
+        "options": [
+            "A. both a and b",
+            "B. program variables",
+            "C. constants",
+            "D. identifiers"
+        ],
+        "answer": "D. identifiers"
+    },
+    {
+        "q": "When code is converted to machine language then it is ______ to see the output.",
+        "options": [
+            "A. executed",
+            "B. compiled",
+            "C. assembled",
+            "D. translated"
+        ],
+        "answer": "A. executed"
+    },
+    {
+        "q": "The process of locating and correcting an error in a programming language is called ______.",
+        "options": [
+            "A. correcting",
+            "B. debugging",
+            "C. editing",
+            "D. executing"
+        ],
+        "answer": "B. debugging"
+    },
+    {
+        "q": "________ language is precisely defined by rules and grammar.",
+        "options": [
+            "A. Formal",
+            "B. Natural",
+            "C. English",
+            "D. Programming"
+        ],
+        "answer": "A. Formal"
+    },
+    {
+        "q": "_________ translates one instruction to machine language at a time.",
+        "options": [
+            "A. translator",
+            "B. both a,b",
+            "C. compiler",
+            "D. interpreter"
+        ],
+        "answer": "D. interpreter"
+    },
+    {
+        "q": "If a program is installed on two different machines and by making small changes it can be used on both. This is known as _________.",
+        "options": [
+            "A. disadvantage of machine dependence",
+            "B. goal of machine dependence",
+            "C. goal of machine independence",
+            "D. disadvantage of machine independence"
+        ],
+        "answer": "C. goal of machine independence"
+    },
+    {
+        "q": "Which of the following is the disadvantage of assembly language?",
+        "options": [
+            "A. code is machine independent",
+            "B. code is machine dependent",
+            "C. both a and b",
+            "D. works in small increments"
+        ],
+        "answer": "B. code is machine dependent"
+    },
+    {
+        "q": "By definition, ___________ is if code does not run on a variety of computer systems.",
+        "options": [
+            "A. machine dependence",
+            "B. machine optimization",
+            "C. machine compiler",
+            "D. machine independence"
+        ],
+        "answer": "A. machine dependence"
+    },
+    {
+        "q": "Programming languages are evolved in _______ no of paradigms",
+        "options": [
+            "A. 1",
+            "B. 4",
+            "C. 3",
+            "D. 2"
+        ],
+        "answer": "B. 4"
+    },
+    {
+        "q": "The procedural paradigm is also known as _______.",
+        "options": [
+            "A. declarative paradigm",
+            "B. imperative paradigm",
+            "C. object oriented paradigm",
+            "D. functional paradigm"
+        ],
+        "answer": "B. imperative paradigm"
+    },
+    {
+        "q": "A ___________is a computer language programmers use to develop software programs, scripts, or other sets of instructions for computers to execute.",
+        "options": [
+            "A. Java Language",
+            "B. natural language",
+            "C. C++ language",
+            "D. programming language"
+        ],
+        "answer": "D. programming language"
+    },
+    {
+        "q": "_______ programming is emerged as a result of the declarative paradigm.",
+        "options": [
+            "A. Logic",
+            "B. Procedural",
+            "C. Functional",
+            "D. Object oriented"
+        ],
+        "answer": "A. Logic"
+    },
+    {
+        "q": "The programmer develops a precise statement of the described problem to be solved rather than describing an algorithm. This approach is known as _______.",
+        "options": [
+            "A. functional paradigm",
+            "B. object oriented paradigm",
+            "C. declarative paradigm",
+            "D. imperative paradigm"
+        ],
+        "answer": "C. declarative paradigm"
+    },
+    {
+        "q": "GPSS and Prolog are examples of _________ programming paradigm?",
+        "options": [
+            "A. declarative paradigm",
+            "B. functional paradigm",
+            "C. imperative paradigm",
+            "D. object oriented paradigm"
+        ],
+        "answer": "A. declarative paradigm"
+    },
+    {
+        "q": "In _______ paradigm, a program is developed by connecting predefined functions so that each functions outputs are used as another functions inputs in such a way that the desired overall input-to-output relationship is obtained.",
+        "options": [
+            "A. functional paradigm",
+            "B. imperative paradigm",
+            "C. declarative paradigm",
+            "D. object oriented paradigm"
+        ],
+        "answer": "A. functional paradigm"
+    },
+    {
+        "q": "Nested functions are example of ________ paradigm.",
+        "options": [
+            "A. functional",
+            "B. declarative",
+            "C. object oriented",
+            "D. imperative"
+        ],
+        "answer": "A. functional"
+    },
+    {
+        "q": "__________ is an entity which takes some inputs and produces some output.",
+        "options": [
+            "A. Function",
+            "B. Task",
+            "C. Program",
+            "D. Module"
+        ],
+        "answer": "A. Function"
+    },
+    {
+        "q": "An object is a part of a particular class is also known as a/an _______ of that class.",
+        "options": [
+            "A. case",
+            "B. instance",
+            "C. part",
+            "D. type"
+        ],
+        "answer": "B. instance"
+    },
+    {
+        "q": "In OOP, each object is consist of collection of __________.",
+        "options": [
+            "A. classes",
+            "B. methods",
+            "C. elements",
+            "D. units"
+        ],
+        "answer": "B. methods"
+    },
+    {
+        "q": "Collection of functions associated with objects are known as _______.",
+        "options": [
+            "A. function of objects",
+            "B. methods",
+            "C. module",
+            "D. class"
+        ],
+        "answer": "B. methods"
+    },
+    {
+        "q": "Descriptive names used in programming languages are called _______.",
+        "options": [
+            "A. data type",
+            "B. float",
+            "C. int",
+            "D. variable"
+        ],
+        "answer": "D. variable"
+    },
+    {
+        "q": "Which of the following is the correct way to declare a variable named grade which will store the grade of a student.",
+        "options": [
+            "A. char grade;",
+            "B. float grade;",
+            "C. int grade;",
+            "D. boolean grade;"
+        ],
+        "answer": "A. char grade;"
+    },
+    {
+        "q": "Which of the following is the correct way to declare a variable named shipping_price which will store the price converted from dollars which is not necessarily a whole number.",
+        "options": [
+            "A. boolean shipping_price;",
+            "B. int shipping_price;",
+            "C. char shipping_price;",
+            "D. float shipping_price;"
+        ],
+        "answer": "D. float shipping_price;"
+    },
+    {
+        "q": "How many locations are required to store \"Ali haider\" name in char array?",
+        "options": [
+            "A. char name[11]",
+            "B. char name[9]",
+            "C. char name[8]",
+            "D. char name[10]"
+        ],
+        "answer": "D. char name[10]"
+    },
+    {
+        "q": "A two-dimensional array of integers named Scores having two rows and nine columns will be declared as:",
+        "options": [
+            "A. int Scores[9]/[2];",
+            "B. int Scores[2][9];",
+            "C. int Scores[2]/[9];",
+            "D. int Scores[9][2];"
+        ],
+        "answer": "B. int Scores[2][9];"
+    },
+    {
+        "q": "Consider the given below structure and select the correct method to access its field named age. struct {char Name[25]; int Age; float SkillRating;}Employee;",
+        "options": [
+            "A. Employee{age}",
+            "B. Employee.age",
+            "C. Employee(age)",
+            "D. Employee[age]"
+        ],
+        "answer": "B. Employee.age"
+    },
+    {
+        "q": "Assignment statement is _________ type of statement.",
+        "options": [
+            "A. object oriented",
+            "B. imperative",
+            "C. functional",
+            "D. declarative"
+        ],
+        "answer": "B. imperative"
+    },
+    {
+        "q": "Which two symbols are used for assignment statements in different programming languages.",
+        "options": [
+            "A. =,<=>",
+            "B. =, :=",
+            "C. =, ==",
+            "D. =, ;="
+        ],
+        "answer": "B. =, :="
+    },
+    {
+        "q": "The correct way to declare numeric value 8 in c++ is?",
+        "options": [
+            "A. int 8;",
+            "B. int a=8;",
+            "C. Integer a=8;",
+            "D. integer 8;"
+        ],
+        "answer": "B. int a=8;"
+    },
+    {
+        "q": "In imperative paradigm, statements are executed ________.",
+        "options": [
+            "A. first statement at the end",
+            "B. last statement at the start",
+            "C. sequentially",
+            "D. randomly"
+        ],
+        "answer": "C. sequentially"
+    },
+    {
+        "q": "_______ alters the execution sequence of the program.",
+        "options": [
+            "A. Linear structures",
+            "B. Non-linear structures",
+            "C. Uncontrolled structures",
+            "D. Control structures"
+        ],
+        "answer": "D. Control structures"
+    },
+    {
+        "q": "What type of control structure is used in the following statement? while(expression) statement;",
+        "options": [
+            "A. Selection",
+            "B. Loop",
+            "C. Sequence",
+            "D. Symmetric"
+        ],
+        "answer": "B. Loop"
+    },
+    {
+        "q": "The statement i++; is equivalent to",
+        "options": [
+            "A. i--;",
+            "B. i = i - 1;",
+            "C. i = i + i;",
+            "D. i = i + 1;"
+        ],
+        "answer": "D. i = i + 1;"
+    },
+    {
+        "q": "int a=15; if (a < 15) cout << “a”; else cout << “abc ”; What would be the output?",
+        "options": [
+            "A. abc",
+            "B. a",
+            "C. aabc",
+            "D. 15"
+        ],
+        "answer": "A. abc"
+    },
+    {
+        "q": "A loop structure consists of:",
+        "options": [
+            "A. Loop control variable",
+            "B. Body of Loop",
+            "C. Condition",
+            "D. All of above"
+        ],
+        "answer": "D. All of above"
+    },
+    {
+        "q": "A process is an active entity.",
+        "options": [
+            "A. False",
+            "B. True"
+        ],
+        "answer": "B. True"
+    },
+    {
+        "q": "int i=1; while(i<=3) { cout<<\"Value of variable i is: \"<<i ; i++; } How many times loop will execute?",
+        "options": [
+            "A. 4",
+            "B. 3",
+            "C. 1",
+            "D. 2"
+        ],
+        "answer": "B. 3"
+    },
+    {
+        "q": "Parallelism leads to what ________.",
+        "options": [
+            "A. Distribution",
+            "B. Concurrency",
+            "C. Non-simultaneous",
+            "D. Decentralization"
+        ],
+        "answer": "B. Concurrency"
+    },
+    {
+        "q": "________ ensure that only one process at a time may be granted to resources.",
+        "options": [
+            "A. Mutual cooperation",
+            "B. Deadlock",
+            "C. Mutual inclusive",
+            "D. Mutual exclusive"
+        ],
+        "answer": "D. Mutual exclusive"
+    },
+    {
+        "q": "Execution of multiple activities at same time is called.",
+        "options": [
+            "A. All of above",
+            "B. Parallel processing",
+            "C. Multiprocessing",
+            "D. Multitasking"
+        ],
+        "answer": "A. All of above"
+    },
+    {
+        "q": "int a=5; if (a%2==0) cout<<\"Green\"; else cout<<\"Red\"; What would be the output?",
+        "options": [
+            "A. Red",
+            "B. Green Red",
+            "C. white",
+            "D. Green"
+        ],
+        "answer": "A. Red"
+    },
+    {
+        "q": "The operator “ <= ” in C++ is used for:",
+        "options": [
+            "A. Greater",
+            "B. Greater than and equal",
+            "C. Less than and equal",
+            "D. Less"
+        ],
+        "answer": "C. Less than and equal"
+    },
+    {
+        "q": "What will be the output of the following statement? int a = 2.4 + 3.1",
+        "options": [
+            "A. 5",
+            "B. 5.4",
+            "C. 5.5",
+            "D. 6"
+        ],
+        "answer": "A. 5"
+    },
+    {
+        "q": "What will be the output of the following? { int a= 2, b= 2, c= 4 if (a>=b) cout<< \"a is greater/ equal to b\"; if (a>=c) cout<< \"a is greater/ equal to c ;\" }",
+        "options": [
+            "A. a is greater/ equal to b",
+            "B. None of these",
+            "C. a is Less/ equal to c",
+            "D. a is greater/ equal to c"
+        ],
+        "answer": "A. a is greater/ equal to b"
+    },
+    {
+        "q": "______is the symbolic representation of “ Not Equal To \" Relation operators ?",
+        "options": [
+            "A. ==",
+            "B. =/",
+            "C. =!",
+            "D. !="
+        ],
+        "answer": "D. !="
+    },
+    {
+        "q": "In C++ ________ operators are used to compare more than one condition.",
+        "options": [
+            "A. Boolean",
+            "B. Arithmetic",
+            "C. Logical",
+            "D. Relational"
+        ],
+        "answer": "C. Logical"
+    },
+    {
+        "q": "The symbolic representation of AND operator is:",
+        "options": [
+            "A. =!",
+            "B. &&",
+            "C. Both A and B",
+            "D. &"
+        ],
+        "answer": "B. &&"
+    },
+    {
+        "q": "The ________ operator inverts the output.",
+        "options": [
+            "A. OR",
+            "B. NAND",
+            "C. AND",
+            "D. NOT"
+        ],
+        "answer": "D. NOT"
+    },
+    {
+        "q": "What will be the output of the program in C++? { int A=22; int B=32; if(A >=40 || B >=40) cout<<\"A and B are awesome \"; if(!( A >=23)) cout<<\"A is awesome”; }",
+        "options": [
+            "A. A is awesome",
+            "B. B is awesome",
+            "C. 22 is awesome",
+            "D. A and B are awesome"
+        ],
+        "answer": "A. A is awesome"
+    },
+    {
+        "q": "IDE stands for ________.",
+        "options": [
+            "A. Integrated development environments",
+            "B. Inverted development environments",
+            "C. None of these",
+            "D. Integrated design environments"
+        ],
+        "answer": "A. Integrated development environments"
+    },
+    {
+        "q": "CASE stands for ________.",
+        "options": [
+            "A. Computer-acted software engineering",
+            "B. Computer-aimed software engineering",
+            "C. Computer-aided semantic engineering",
+            "D. Computer-aided software engineering"
+        ],
+        "answer": "D. Computer-aided software engineering"
+    },
+    {
+        "q": "Wrong estimations of product lead to ________.",
+        "options": [
+            "A. Cost overruns",
+            "B. Late delivery",
+            "C. All of above",
+            "D. Dissatisfied customer"
+        ],
+        "answer": "C. All of above"
+    },
+    {
+        "q": "The software is moved to the maintenance phase when ________.",
+        "options": [
+            "A. Errors are discovered",
+            "B. Changes in the software application",
+            "C. All of above",
+            "D. Changes are done in previous modifications to introduce the errors"
+        ],
+        "answer": "C. All of above"
+    },
+    {
+        "q": "A ________ is a well-defined, structured sequence of stages in software engineering to develop the intended software product.",
+        "options": [
+            "A. Software",
+            "B. Software life cycle",
+            "C. Developed manual",
+            "D. Testing"
+        ],
+        "answer": "B. Software life cycle"
+    },
+    {
+        "q": "The_________ includes identifies the needs of the software users.",
+        "options": [
+            "A. Testing",
+            "B. Developing",
+            "C. Requirement analysis",
+            "D. Maintenance"
+        ],
+        "answer": "C. Requirement analysis"
+    },
+    {
+        "q": "The software life cycle consists of.",
+        "options": [
+            "A. Usage",
+            "B. Development",
+            "C. All of above",
+            "D. Maintenance"
+        ],
+        "answer": "C. All of above"
+    },
+    {
+        "q": "In the _________ phase of the software development cycle, the internal structure of the software system is established.",
+        "options": [
+            "A. Testing",
+            "B. Requirement analysis",
+            "C. Maintenance",
+            "D. Design"
+        ],
+        "answer": "D. Design"
+    },
+    {
+        "q": "The Requirements analysis identifies problems.",
+        "options": [
+            "A. True",
+            "B. False"
+        ],
+        "answer": "A. True"
+    },
+    {
+        "q": "The writing of programs, creation of data files and development of databases are the part of _________ phase.",
+        "options": [
+            "A. Developing",
+            "B. Design",
+            "C. Implementation",
+            "D. Maintenance"
+        ],
+        "answer": "C. Implementation"
+    },
+    {
+        "q": "A programmer is a person who mainly focuses on the requirement phase and design.",
+        "options": [
+            "A. True",
+            "B. False"
+        ],
+        "answer": "B. False"
+    },
+    {
+        "q": "The _________ phase involves creating a plan for the construction of the proposed system.",
+        "options": [
+            "A. Design",
+            "B. Developing",
+            "C. Testing",
+            "D. Maintenance"
+        ],
+        "answer": "A. Design"
+    },
+    {
+        "q": "_________ is performed for quality assurance.",
+        "options": [
+            "A. Testing",
+            "B. Developing",
+            "C. Implementation",
+            "D. Analysis"
+        ],
+        "answer": "A. Testing"
+    },
+    {
+        "q": "Which of the following are the major reasons for the failure in developing software.",
+        "options": [
+            "A. Changing requirements",
+            "B. Poor communication",
+            "C. Both A and B",
+            "D. Lack of deep knowledge about the system"
+        ],
+        "answer": "C. Both A and B"
+    },
+    {
+        "q": "The _________ is a person who involved primarily in the implementation step in the software development cycle.",
+        "options": [
+            "A. Software designer",
+            "B. System analyst",
+            "C. Programmer",
+            "D. Stake holder"
+        ],
+        "answer": "C. Programmer"
+    },
+    {
+        "q": "In the waterfall model, the output of one phase is input to the next phase.",
+        "options": [
+            "A. False",
+            "B. True"
+        ],
+        "answer": "B. True"
+    },
+    {
+        "q": "_________ is a significant example of iterative techniques.",
+        "options": [
+            "A. Rational unified process",
+            "B. Free-wheeling",
+            "C. Requirement unified process",
+            "D. Ratio unified process"
+        ],
+        "answer": "A. Rational unified process"
+    },
+    {
+        "q": "A waterfall model is a model of _________.",
+        "options": [
+            "A. System Maintenance",
+            "B. Software Development Life Cycle",
+            "C. System Enhancement",
+            "D. Requirement model"
+        ],
+        "answer": "B. Software Development Life Cycle"
+    },
+    {
+        "q": "_________ deals with only a part of the software's overall responsibility.",
+        "options": [
+            "A. Chart",
+            "B. Process",
+            "C. Task",
+            "D. Module"
+        ],
+        "answer": "D. Module"
+    },
+    {
+        "q": "Which of the following is an agile method.",
+        "options": [
+            "A. Rational unified programming",
+            "B. Extreme programming",
+            "C. Testing programming",
+            "D. Throw away programming"
+        ],
+        "answer": "B. Extreme programming"
+    },
+    {
+        "q": "The process in which the previous prototype may be discarded after refining the system is called.",
+        "options": [
+            "A. All of these",
+            "B. Rapid prototyping",
+            "C. Evolutionary prototyping",
+            "D. Throwaway prototyping"
+        ],
+        "answer": "D. Throwaway prototyping"
+    },
+    {
+        "q": "In _________ cohesion, all parts of the module are focused on the performance of a single activity.",
+        "options": [
+            "A. Object",
+            "B. Internal",
+            "C. Functional",
+            "D. Logical"
+        ],
+        "answer": "C. Functional"
+    },
+    {
+        "q": "The sharing of data between inter-module coupling is known as:",
+        "options": [
+            "A. Analysis coupling",
+            "B. Function coupling",
+            "C. Data coupling",
+            "D. Control coupling"
+        ],
+        "answer": "C. Data coupling"
+    },
+    {
+        "q": "When a module in software passes control of execution to another as in a function call is known as",
+        "options": [
+            "A. Data coupling",
+            "B. Control coupling",
+            "C. Function coupling",
+            "D. Analysis coupling"
+        ],
+        "answer": "B. Control coupling"
+    },
+    {
+        "q": "Maximizing Cohesion and Minimizing Coupling is an example of __________.",
+        "options": [
+            "A. Testing and implementation",
+            "B. Implementation Strategy",
+            "C. Requirement gathering",
+            "D. Design Goal"
+        ],
+        "answer": "D. Design Goal"
+    },
+    {
+        "q": "Allowing other modules to access ___________ of a module will corrupt the data.",
+        "options": [
+            "A. External Data",
+            "B. Physical layer",
+            "C. Application layer",
+            "D. Internal data"
+        ],
+        "answer": "D. Internal data"
+    },
+    {
+        "q": "Which are the possible incarnations of Information Hiding?",
+        "options": [
+            "A. Testing and Design goals",
+            "B. Implementation and Testing goals",
+            "C. Requirement and Design goals",
+            "D. Design and implementation goals"
+        ],
+        "answer": "D. Design and implementation goals"
+    },
+    {
+        "q": "Which one of the following is Not a software component?",
+        "options": [
+            "A. Software template",
+            "B. Mouse",
+            "C. APIs",
+            "D. Objects"
+        ],
+        "answer": "B. Mouse"
+    },
+    {
+        "q": "_______________________has designed for C# programmers?",
+        "options": [
+            "A. .Net Framework Class Library",
+            "B. Standard Template Library",
+            "C. Hyper Text Markup Library",
+            "D. Application Programming Interface (API)"
+        ],
+        "answer": "A. .Net Framework Class Library"
+    },
+    {
+        "q": "C++ programmers use _____________ for implementing objects for performing different roles.",
+        "options": [
+            "A. Standard Template Library",
+            "B. .NET Framework Class Library",
+            "C. Java Application Programmer Interface (API)",
+            "D. Standalone Template Directory"
+        ],
+        "answer": "A. Standard Template Library"
+    },
+    {
+        "q": "Component based software engineering is also called______________ Architecture.",
+        "options": [
+            "A. Class",
+            "B. Component",
+            "C. Building",
+            "D. Object"
+        ],
+        "answer": "B. Component"
+    },
+    {
+        "q": "Loosely Coupled Design Patterns help in ___________.",
+        "options": [
+            "A. reusing the created instance",
+            "B. making the instances dependent",
+            "C. recreating the new instance",
+            "D. overloading the new instance"
+        ],
+        "answer": "A. reusing the created instance"
+    },
+    {
+        "q": "Java Programming Interface Design pattern has been developed by________.",
+        "options": [
+            "A. Microsoft",
+            "B. Oracle",
+            "C. IBM",
+            "D. CISCO"
+        ],
+        "answer": "B. Oracle"
+    },
+    {
+        "q": "_____________tool can easily make drawing diagrams and changing data dictionaries.",
+        "options": [
+            "A. CAST",
+            "B. SDLC",
+            "C. CARE",
+            "D. CASE"
+        ],
+        "answer": "D. CASE"
+    },
+    {
+        "q": "______________________ was the main purpose of Software Quality Assurance in early years.",
+        "options": [
+            "A. Improving software quality",
+            "B. Improving standards of software",
+            "C. Fixing errors in Software",
+            "D. Modeling software structure"
+        ],
+        "answer": "C. Fixing errors in Software"
+    },
+    {
+        "q": "In Software Testing ____________possible lines or paths of a program are checked",
+        "options": [
+            "A. at most 20",
+            "B. some",
+            "C. exactly 10",
+            "D. more than 1"
+        ],
+        "answer": "D. more than 1"
+    },
+    {
+        "q": "____________testing ensures that each instruction in the software will be executed at least once.",
+        "options": [
+            "A. Glass Box",
+            "B. White Box",
+            "C. Basis path",
+            "D. Black Box"
+        ],
+        "answer": "B. White Box"
+    },
+    {
+        "q": "______________is hired to write User’s Documentation for the Software.",
+        "options": [
+            "A. Analyst",
+            "B. Programmer",
+            "C. Technical writer",
+            "D. Designer"
+        ],
+        "answer": "C. Technical writer"
+    },
+    {
+        "q": "Designing a mouse is an example of ___________.",
+        "options": [
+            "A. Cognetics",
+            "B. Ergonomics",
+            "C. Design Goal",
+            "D. Turing Test"
+        ],
+        "answer": "B. Ergonomics"
+    },
+    {
+        "q": "Human Machine Interface should be designed in accordance with the ______________________.",
+        "options": [
+            "A. Human Information Processing",
+            "B. Hardware requirements",
+            "C. Reduction in workload of developers",
+            "D. Cost affordability of a person"
+        ],
+        "answer": "A. Human Information Processing"
+    },
+    {
+        "q": "GOMS stands for_______________________.",
+        "options": [
+            "A. goods, operators, memory and selection",
+            "B. goods, operators, management and services",
+            "C. goals, operators, methods and selection",
+            "D. goals, operations, methodology and selection"
+        ],
+        "answer": "C. goals, operators, methods and selection"
+    },
+    {
+        "q": "A Human Machine Interface provides detail about ____________of the software.",
+        "options": [
+            "A. internal structure",
+            "B. presentation",
+            "C. integrity",
+            "D. quality"
+        ],
+        "answer": "B. presentation"
+    },
+    {
+        "q": "Patent law gives rights to the inventor for an invention for a limited period of ____years.",
+        "options": [
+            "A. 50",
+            "B. 20",
+            "C. 25",
+            "D. 30"
+        ],
+        "answer": "B. 20"
+    },
+    {
+        "q": "What do you mean by Copyrights and Patent Law?",
+        "options": [
+            "A. Protecting ownership and software from the client",
+            "B. Protecting the ownership and selling the software",
+            "C. Allowing clients to take ownership on payment",
+            "D. Selling the ownership with license to a certain group"
+        ],
+        "answer": "A. Protecting ownership and software from the client"
+    },
+    {
+        "q": "______________________, comes under Intellectual Property Law.",
+        "options": [
+            "A. Providing ownership of software to developer",
+            "B. Granting ownership to the customer on payment",
+            "C. Getting license of the property from the owner",
+            "D. Issuing the stamp agreement of sold property"
+        ],
+        "answer": "A. Providing ownership of software to developer"
+    },
+    {
+        "q": "Which one of the following is a drawback of Patent law?",
+        "options": [
+            "A. Expensive and limited time offer",
+            "B. Expensive and time consuming",
+            "C. In expensive but time consuming",
+            "D. Expensive and less secure rights"
+        ],
+        "answer": "B. Expensive and time consuming"
+    },
+    {
+        "q": "___________ is an operation of stack.",
+        "options": [
+            "A. PUSH",
+            "B. DELETE",
+            "C. DROP",
+            "D. INSERT"
+        ],
+        "answer": "A. PUSH"
+    },
+    {
+        "q": "Data Abstraction is also known as _________.",
+        "options": [
+            "A. Database",
+            "B. Data Structure",
+            "C. SQL",
+            "D. DBMS"
+        ],
+        "answer": "B. Data Structure"
+    },
+    {
+        "q": "Position of elements or data in two dimensional array is identified with help of _________________.",
+        "options": [
+            "A. bits",
+            "B. Pair of indices",
+            "C. strings",
+            "D. characters"
+        ],
+        "answer": "B. Pair of indices"
+    },
+    {
+        "q": "__________ type has the capability of storing different types of data.",
+        "options": [
+            "A. Array",
+            "B. Stack",
+            "C. List",
+            "D. Aggregate"
+        ],
+        "answer": "D. Aggregate"
+    },
+    {
+        "q": "A block of data of a single employee containing fields like 'name', 'salary', 'scale' and 'address' is an example of ____________type.",
+        "options": [
+            "A. Array",
+            "B. Aggregate",
+            "C. Queue",
+            "D. Stack"
+        ],
+        "answer": "B. Aggregate"
+    },
+    {
+        "q": "___________is the longest path from Root Node to the Leaf Node at the lowest extreme.",
+        "options": [
+            "A. Depth",
+            "B. Path",
+            "C. Width",
+            "D. Terminal"
+        ],
+        "answer": "A. Depth"
+    },
+    {
+        "q": "Which one is the most suitable choice of Data Structure for representing Parent Children Relationship?",
+        "options": [
+            "A. Queue",
+            "B. Index",
+            "C. Tree",
+            "D. Stack"
+        ],
+        "answer": "C. Tree"
+    },
+    {
+        "q": "A Sub Tree is also called a _______from the parent.",
+        "options": [
+            "A. Level",
+            "B. Binary tree",
+            "C. Branch",
+            "D. Depth"
+        ],
+        "answer": "C. Branch"
+    },
+    {
+        "q": "A parent of a Binary Tree can have _________nodes.",
+        "options": [
+            "A. more than two",
+            "B. four",
+            "C. at most three",
+            "D. at most two"
+        ],
+        "answer": "D. at most two"
+    },
+    {
+        "q": "A pointer is a storage area that holds ______________.",
+        "options": [
+            "A. byte code",
+            "B. memory address",
+            "C. bits",
+            "D. pseudocode"
+        ],
+        "answer": "B. memory address"
+    },
+    {
+        "q": "Pointers are used to __________________.",
+        "options": [
+            "A. maintain database system",
+            "B. store and manage addresses",
+            "C. enhance Operating System",
+            "D. improve integrity of system"
+        ],
+        "answer": "B. store and manage addresses"
+    },
+    {
+        "q": "A programmer is a person who mainly focuses on the requirement phase and design.",
+        "options": [
+            "A. False",
+            "B. True"
+        ],
+        "answer": "A. False"
+    },
+    {
+        "q": "Flat File Storage System is suitable in ______________ environment.",
+        "options": [
+            "A. Random",
+            "B. Static",
+            "C. Dynamic",
+            "D. Continues"
+        ],
+        "answer": "B. Static"
+    },
+    {
+        "q": "In File Oriented Information system records are ______________.",
+        "options": [
+            "A. integrated",
+            "B. duplicated",
+            "C. space saving",
+            "D. reliable"
+        ],
+        "answer": "B. duplicated"
+    },
+    {
+        "q": "In File Oriented Information system records are ______________.",
+        "options": [
+            "A. reliable",
+            "B. duplicated",
+            "C. integrated",
+            "D. space saving"
+        ],
+        "answer": "B. duplicated"
+    },
+    {
+        "q": "In Database Oriented Information system records are_____________.",
+        "options": [
+            "A. duplicated",
+            "B. redundant",
+            "C. integrated",
+            "D. un secure"
+        ],
+        "answer": "C. integrated"
+    },
+    {
+        "q": "The entire database structure is defined by ___________.",
+        "options": [
+            "A. Sub Schema",
+            "B. Partial Schema",
+            "C. Schema",
+            "D. Full Schema"
+        ],
+        "answer": "C. Schema"
+    },
+    {
+        "q": "Which one of the following is a role of database schema?",
+        "options": [
+            "A. Specifying storage structure for database records",
+            "B. Defining access rights for all database users",
+            "C. Enlisting software and hardware requirements",
+            "D. Providing information about requirement analysis"
+        ],
+        "answer": "A. Specifying storage structure for database records"
+    },
+    {
+        "q": "Database can be accessed and modified with the help of _____________.",
+        "options": [
+            "A. Stack",
+            "B. DBMS",
+            "C. Structure",
+            "D. Queue"
+        ],
+        "answer": "B. DBMS"
+    },
+    {
+        "q": "A typical database system is consisted of Application layer and _____________layer.",
+        "options": [
+            "A. Datagram Protocol",
+            "B. Networking",
+            "C. Database Management",
+            "D. Data Link"
+        ],
+        "answer": "C. Database Management"
+    },
+    {
+        "q": "A/ An __________ has certain attributes or columns which describe its characteristics.",
+        "options": [
+            "A. class",
+            "B. tuple",
+            "C. object",
+            "D. entity"
+        ],
+        "answer": "D. entity"
+    },
+    {
+        "q": "_________represents a row in a relation or table.",
+        "options": [
+            "A. Index",
+            "B. Tuple",
+            "C. Object",
+            "D. Attribute"
+        ],
+        "answer": "B. Tuple"
+    },
+    {
+        "q": "Which one of the following converts the Conceptual View into actual representation of the database?",
+        "options": [
+            "A. Abstraction",
+            "B. DBMS",
+            "C. Class",
+            "D. Queue"
+        ],
+        "answer": "B. DBMS"
+    },
+    {
+        "q": "Relational database model stores data in the form of_________.",
+        "options": [
+            "A. Classes",
+            "B. Objects",
+            "C. Entities",
+            "D. Tables"
+        ],
+        "answer": "D. Tables"
+    },
+    {
+        "q": "If a relation in a relational database model has multiple entries for a single entity, this issue is called ______________.",
+        "options": [
+            "A. Redundancy of the data",
+            "B. Data ambiguity",
+            "C. Incorrect data modeling",
+            "D. Schema problem"
+        ],
+        "answer": "A. Redundancy of the data"
+    },
+    {
+        "q": "_________ is a condition created within a database or data storage technology in which the same piece of data is held in two separate places.",
+        "options": [
+            "A. Repetition",
+            "B. Data redundancy",
+            "C. Table join",
+            "D. Data distribution"
+        ],
+        "answer": "B. Data redundancy"
+    },
+    {
+        "q": "The \"SELECT\" relational operator is used for ___________ from a relational database model?",
+        "options": [
+            "A. Extracting the required tuple(s)",
+            "B. Extracting the required column(s)",
+            "C. Extracting the schema information",
+            "D. Joining two relations"
+        ],
+        "answer": "A. Extracting the required tuple(s)"
+    },
+    {
+        "q": "Which of the following is not an operator for the relational database models?",
+        "options": [
+            "A. Join",
+            "B. Sort",
+            "C. Project",
+            "D. Select"
+        ],
+        "answer": "B. Sort"
+    },
+    {
+        "q": "The \"PROJECT\" query is used to extract __________________ from a relation in the relational database.",
+        "options": [
+            "A. Only a specific row",
+            "B. Specified columns",
+            "C. Multiple tuples at a time",
+            "D. One or multiple tuples"
+        ],
+        "answer": "B. Specified columns"
+    },
+    {
+        "q": "In the given relational query, \"STUDENT\" term represents: STD < - SELECT from STUDENT where StudentId = 'VU100'",
+        "options": [
+            "A. Child relation",
+            "B. Column name",
+            "C. Parent relation",
+            "D. Tuple name"
+        ],
+        "answer": "C. Parent relation"
+    },
+    {
+        "q": "The correct syntax for the \"PROJECT\" relational query to extract a particular column from a relation is:",
+        "options": [
+            "A. NEW < - PROJECT TABLENAME.ColumnName",
+            "B. NEW < - PROJECT from TABLENAME where Column = 'ColumnName'",
+            "C. NEW < - PROJECT ColumnName from TABLENAME",
+            "D. NEW < - PROJECT ColumnName(TABLENAME)"
+        ],
+        "answer": "D. NEW < - PROJECT ColumnName(TABLENAME)"
+    },
+    {
+        "q": "Which of the following keyword is used to connect two relations into a single one?",
+        "options": [
+            "A. LINK",
+            "B. JOIN",
+            "C. CONNECT",
+            "D. COMBINE"
+        ],
+        "answer": "B. JOIN"
+    },
+    {
+        "q": "In the relational database model, the naming convention for columns in joined relation is:",
+        "options": [
+            "A. RelationName.ColumnName",
+            "B. RelationName-ColumnName",
+            "C. RelationName:ColumnName",
+            "D. ColumnName only"
+        ],
+        "answer": "A. RelationName.ColumnName"
+    },
+    {
+        "q": "The links between objects in an object-oriented database are normally maintained by the _________.",
+        "options": [
+            "A. Application software",
+            "B. DBMS",
+            "C. Compiler",
+            "D. Operating System"
+        ],
+        "answer": "B. DBMS"
+    },
+    {
+        "q": "In the object-oriented approach, the objects that are created during the program's execution and discarded after termination are called __________ objects.",
+        "options": [
+            "A. Transient",
+            "B. Persistent",
+            "C. Resident",
+            "D. Dynamic"
+        ],
+        "answer": "A. Transient"
+    },
+    {
+        "q": "What is the consequence of a partially completed transaction within a database system?",
+        "options": [
+            "A. It makes the database more transparent",
+            "B. Has no impact on the database functionality",
+            "C. Impacts the database Integrity negatively",
+            "D. Impacts the database Integrity positively"
+        ],
+        "answer": "C. Impacts the database Integrity negatively"
+    },
+    {
+        "q": "What is not true about the \"Commercial Database Management Systems\"?",
+        "options": [
+            "A. It is used for large and multi-user database environments.",
+            "B. It can have devastating consequences for incorrect or lost data.",
+            "C. It maintains the database integrity by guarding against problems arising from partially completed operations.",
+            "D. It stores information whose loss or corruption would be inconvenient rather than disastrous."
+        ],
+        "answer": "D. It stores information whose loss or corruption would be inconvenient rather than disastrous."
+    },
+    {
+        "q": "The point at which all the steps in a transaction have been recorded in the log is called the __________.",
+        "options": [
+            "A. Rollback point",
+            "B. Locking point",
+            "C. Commit point",
+            "D. Execute point"
+        ],
+        "answer": "C. Commit point"
+    },
+    {
+        "q": "The main purpose of the rollback protocol is to:",
+        "options": [
+            "A. To undo the partially executed transaction",
+            "B. To undo the last completed transaction",
+            "C. Delete any irrelevant record from the databases",
+            "D. Unlock the databases for editing"
+        ],
+        "answer": "A. To undo the partially executed transaction"
+    },
+    {
+        "q": "The problem known as the _______________ can arise if one transaction is in the middle of transferring funds from one account to another when another transaction tries to compute the total deposits in the bank.",
+        "options": [
+            "A. Incorrect summary problem",
+            "B. Transaction loss",
+            "C. Transaction failure",
+            "D. Lost update problem"
+        ],
+        "answer": "A. Incorrect summary problem"
+    },
+    {
+        "q": "If one transaction related to funds deduction reads the current balance in an account at the point when the other transaction related to funds deduction has just read the balance but has not yet calculated the new balance, then both transactions will base their deductions on the same initial balance. The problem which may arise due to this is ___________ .",
+        "options": [
+            "A. Incorrect summary problem",
+            "B. Transaction loss",
+            "C. Lost update problem",
+            "D. Transaction failure"
+        ],
+        "answer": "C. Lost update problem"
+    },
+    {
+        "q": "The _________ files are inefficient when records within the file must be retrieved in an unpredictable order.",
+        "options": [
+            "A. Sequential",
+            "B. Indexed",
+            "C. Hash",
+            "D. Index sequential"
+        ],
+        "answer": "A. Sequential"
+    },
+    {
+        "q": "A _________ file is a file that is accessed serially from its beginning to its end as though the information is arranged in a row.",
+        "options": [
+            "A. Index",
+            "B. Index sequential",
+            "C. Sequential",
+            "D. Hash"
+        ],
+        "answer": "C. Sequential"
+    },
+    {
+        "q": "The overhead associated with the Indexed files is:",
+        "options": [
+            "A. Maintenance of a separate index file in mass storage",
+            "B. Computation of address using the hash function",
+            "C. Retrieval of a record in a sequential manner",
+            "D. Retrieval of a record in an unpredictable manner"
+        ],
+        "answer": "A. Maintenance of a separate index file in mass storage"
+    },
+    {
+        "q": "The indexes of the Indexed File are stored in the ______ as a separate file.",
+        "options": [
+            "A. RAM",
+            "B. Main memory",
+            "C. Mass storage",
+            "D. Cache"
+        ],
+        "answer": "C. Mass storage"
+    },
+    {
+        "q": "In a file storage system, the algorithm which converts the key value of a record into its bucket number for storing the record is known as the ___________.",
+        "options": [
+            "A. Index function",
+            "B. Hash function",
+            "C. Address translation function",
+            "D. Paging function"
+        ],
+        "answer": "B. Hash function"
+    },
+    {
+        "q": "In hash files, the phenomenon of a disproportionate number of keys happening to hash to the same bucket is known as ________.",
+        "options": [
+            "A. Clouding",
+            "B. Clustering",
+            "C. Grouping",
+            "D. Collection"
+        ],
+        "answer": "B. Clustering"
+    },
+    {
+        "q": "The simplest of the hash functions used in storing and retrieving records in hash files is _________.",
+        "options": [
+            "A. MD5 hash function",
+            "B. Remainder method",
+            "C. Mid square method",
+            "D. Cryptographic method"
+        ],
+        "answer": "B. Remainder method"
+    },
+    {
+        "q": "The static data collection, which is usually used for analysis in data mining, is referred to as _________.",
+        "options": [
+            "A. Spreadsheet",
+            "B. DBMS",
+            "C. Data warehouse",
+            "D. Database"
+        ],
+        "answer": "C. Data warehouse"
+    },
+    {
+        "q": "___________ is the form of data mining to deal with the identification of properties that distinguish between classes of data.",
+        "options": [
+            "A. Data analysis",
+            "B. Class description",
+            "C. Data computing",
+            "D. Class discrimination"
+        ],
+        "answer": "D. Class discrimination"
+    },
+    {
+        "q": "The form(s) of data mining is/are: Class discrimination Class description Class association",
+        "options": [
+            "A. a and c",
+            "B. a and b",
+            "C. a only",
+            "D. b and c"
+        ],
+        "answer": "B. a and b"
+    },
+    {
+        "q": "_________ is an approach to protect society from the abusive use of the database.",
+        "options": [
+            "A. Applying legal remedies",
+            "B. Illegal control",
+            "C. Banning the culprits",
+            "D. Legalizing the commercial use of databases"
+        ],
+        "answer": "A. Applying legal remedies"
+    },
+    {
+        "q": "___________ can be the approach(es) for protecting society from the abusive use of the databases. Apply legal remedies Public opinion Legalizing the commercial use of databases",
+        "options": [
+            "A. b and c",
+            "B. a and c",
+            "C. a and b",
+            "D. a only"
+        ],
+        "answer": "C. a and b"
+    },
+    {
+        "q": "Microbots can be used:",
+        "options": [
+            "A. To alleviate patients in hospitals",
+            "B. For Delivering Drugs to the targeted body area through the bloodstream",
+            "C. To carry out heavy medication in hospitals",
+            "D. As a receptionist in hospitals"
+        ],
+        "answer": "B. For Delivering Drugs to the targeted body area through the bloodstream"
+    },
+    {
+        "q": "Which of the following intelligent agent is used in Apple devices?",
+        "options": [
+            "A. Cortana",
+            "B. Amazon echo",
+            "C. Google Assistant",
+            "D. Siri"
+        ],
+        "answer": "D. Siri"
+    },
+    {
+        "q": "The performance of an agent can be improved by __________.",
+        "options": [
+            "A. Observing",
+            "B. Searching",
+            "C. Perceiving",
+            "D. Learning"
+        ],
+        "answer": "D. Learning"
+    },
+    {
+        "q": "_______ is an intelligent device, which perceives its environment through sensors and responds to stimuli using actuators.",
+        "options": [
+            "A. Server",
+            "B. Agent",
+            "C. Client",
+            "D. Camera"
+        ],
+        "answer": "B. Agent"
+    },
+    {
+        "q": "Learning _________ usually takes the form of expanding or altering the “facts” in an agent’s store of knowledge.",
+        "options": [
+            "A. declarative knowledge",
+            "B. procedural knowledge",
+            "C. theoretical knowledge",
+            "D. lexical knowledge"
+        ],
+        "answer": "A. declarative knowledge"
+    },
+    {
+        "q": "In _____________research track in artificial intelligence, researchers try to develop systems that exhibit intelligent behaviors.",
+        "options": [
+            "A. Theoretical",
+            "B. Engineering",
+            "C. Comparative",
+            "D. Computational"
+        ],
+        "answer": "B. Engineering"
+    },
+    {
+        "q": "In __________ research track in artificial intelligence, researchers try to develop a computational understanding of human intelligence.",
+        "options": [
+            "A. Computational",
+            "B. Comparative",
+            "C. Engineering",
+            "D. Theoretical"
+        ],
+        "answer": "A. Computational"
+    },
+    {
+        "q": "Artificial intelligence (AI) has two groups named _______ and _______.",
+        "options": [
+            "A. Researchers, Developers",
+            "B. Researchers, Engineers",
+            "C. Practitioners, Theoreticals",
+            "D. Engineers, Scientists"
+        ],
+        "answer": "B. Researchers, Engineers"
+    },
+    {
+        "q": "In the past, the Turing test (proposed by Alan Turing in _______) has served as a benchmark in measuring progress in the field of artificial intelligence.",
+        "options": [
+            "A. 1950",
+            "B. 1941",
+            "C. 1956",
+            "D. 1952"
+        ],
+        "answer": "A. 1950"
+    },
+    {
+        "q": "A well-known example arose as a result of the program DOCTOR (a version of the more general system called ELIZA) developed by Joseph Weizenbaum in the __________.",
+        "options": [
+            "A. Mid-1969s",
+            "B. Mid-1958s",
+            "C. Mid-1960s",
+            "D. Mid-1955s"
+        ],
+        "answer": "C. Mid-1960s"
+    },
+    {
+        "q": "__________ is a test for measuring the intelligence of a machine, such that a human is unable to distinguish between a machine and a human.",
+        "options": [
+            "A. Intelligence test",
+            "B. Cognitive test",
+            "C. Turing test",
+            "D. IQ test"
+        ],
+        "answer": "C. Turing test"
+    },
+    {
+        "q": "__________ refers to the process of understanding or describing characteristics identified by image processing.",
+        "options": [
+            "A. Image processing",
+            "B. Image visualization",
+            "C. Image editing",
+            "D. Image analysis"
+        ],
+        "answer": "D. Image analysis"
+    },
+    {
+        "q": "___________ refers to identification of characteristics of an image.",
+        "options": [
+            "A. Image visualization",
+            "B. Image processing",
+            "C. Image analysis",
+            "D. Image editing"
+        ],
+        "answer": "C. Image analysis"
+    },
+    {
+        "q": "____________ of natural language is the process of analyzing if the language conforms to the rules of grammar.",
+        "options": [
+            "A. Sentiment analysis",
+            "B. Semantic analysis",
+            "C. Syntactical analysis",
+            "D. Contextual analysis"
+        ],
+        "answer": "C. Syntactical analysis"
+    },
+    {
+        "q": "___________ of natural language refers to identification of conditions or settings in which a statement is generated and understanding the meaning in their accordance.",
+        "options": [
+            "A. Sentiment analysis",
+            "B. Semantic analysis",
+            "C. Syntactical analysis",
+            "D. Contextual analysis"
+        ],
+        "answer": "D. Contextual analysis"
+    },
+    {
+        "q": "____________ of natural language is the process of analyzing if a sentence gives clear meaning.",
+        "options": [
+            "A. Contextual analysis",
+            "B. Syntactical analysis",
+            "C. Sentiment analysis",
+            "D. Semantic analysis"
+        ],
+        "answer": "D. Semantic analysis"
+    },
+    {
+        "q": "Which of the following computer science(CS) has a positive impact on society?",
+        "options": [
+            "A. It is very easy to access and use data for business applications.",
+            "B. Chances of data stolen and hacking that destroys data.",
+            "C. It facilitates computer crime and cyber cyber theft.",
+            "D. It is a fast changing technology, so it is required to be updated timely."
+        ],
+        "answer": "A. It is very easy to access and use data for business applications."
+    },
+    {
+        "q": "Which one of the following options is correct keeping in mind the positive impacts of Computer Science on human health?",
+        "options": [
+            "A. Communication Issues.",
+            "B. Hearing loss is more common in those listening to high volume music on the computer.",
+            "C. We can take online appointments.",
+            "D. Social Isolation."
+        ],
+        "answer": "C. We can take online appointments."
+    },
+    {
+        "q": "Which one of the following options is correct keeping in mind the negative impacts of Computer Science on human health?",
+        "options": [
+            "A. Health news can be viewed online.",
+            "B. Online health tips/issues are available.",
+            "C. Hospitals can be managed more efficiently.",
+            "D. Posture could lead to bone issues."
+        ],
+        "answer": "D. Posture could lead to bone issues."
+    },
+    {
+        "q": "Which one of the following options is correct keeping in mind the negative impacts of Computer Science on the environment?",
+        "options": [
+            "A. This amounts to about 85 million tons of paper or 2 billion trees.",
+            "B. Americans use about 680 pounds of paper per person, per year",
+            "C. The average American household throws away 13,000 pieces of paper (around 1 billion trees in total in the USA) each year.",
+            "D. In offices, people print unnecessarily."
+        ],
+        "answer": "C. The average American household throws away 13,000 pieces of paper (around 1 billion trees in total in the USA) each year."
+    },
+    {
+        "q": "What is the core benefit of the paperless environment for online reading and publishing?",
+        "options": [
+            "A. Saving cottons",
+            "B. Saving trees",
+            "C. Saving metals",
+            "D. Saving cartridge of printers"
+        ],
+        "answer": "B. Saving trees"
+    },
+    {
+        "q": "Which one of the following options is correct keeping in mind the positive impacts of Computer Science on the environment?",
+        "options": [
+            "A. The usage of energy has increased with the use of the computer.",
+            "B. In offices, people print unnecessarily.",
+            "C. Paperless such as online reading and publishing.",
+            "D. E-waste is sent to developing countries where people extract materials from these electronics such as gold, silver, and copper."
+        ],
+        "answer": "C. Paperless such as online reading and publishing."
+    },
+    {
+        "q": "_______________deals with the protection of an individual’s information which is implemented while using the Internet on any computer or personal device.",
+        "options": [
+            "A. Digital agony",
+            "B. Digital protection",
+            "C. Digital privacy",
+            "D. Digital secrecy"
+        ],
+        "answer": "C. Digital privacy"
+    },
+    {
+        "q": "___________ is a set of moral principles that govern the behavior of an individual or group of people.",
+        "options": [
+            "A. Ethics",
+            "B. Utility",
+            "C. Privacy",
+            "D. Protocol"
+        ],
+        "answer": "A. Ethics"
+    },
+    {
+        "q": "Ethical issues are related to _____________ or the branch of knowledge dealing with these.",
+        "options": [
+            "A. Ethical principles",
+            "B. Moral principles",
+            "C. All of the mentioned",
+            "D. Ethical hacking"
+        ],
+        "answer": "C. All of the mentioned"
+    },
+    {
+        "q": "_______ technology is used for analyzing and monitoring traffic in network and information flow.",
+        "options": [
+            "A. Cloud access security brokers (CASBs)",
+            "B. Managed detection and response (MDR)",
+            "C. Network traffic analysis (NTA)",
+            "D. Network Security Firewall (NSF)"
+        ],
+        "answer": "C. Network traffic analysis (NTA)"
+    },
+    {
+        "q": "In open source software ____________ can change it.",
+        "options": [
+            "A. globally person",
+            "B. two person",
+            "C. one person",
+            "D. no person"
+        ],
+        "answer": "D. no person"
+    },
+    {
+        "q": "Linux is a/an ____________.",
+        "options": [
+            "A. Open Source software",
+            "B. Package Software",
+            "C. Middleware software",
+            "D. Synchronous Software"
+        ],
+        "answer": "A. Open Source software"
+    },
+    {
+        "q": "Copyright, patents and trademarks are the examples of",
+        "options": [
+            "A. Intellectual property rights",
+            "B. Cyber Law",
+            "C. Ethics",
+            "D. Protocols"
+        ],
+        "answer": "A. Intellectual property rights"
+    },
+    {
+        "q": "What does a trademark protect?",
+        "options": [
+            "A. Logos, names and brands",
+            "B. A work of art",
+            "C. A secret formula",
+            "D. An invention"
+        ],
+        "answer": "A. Logos, names and brands"
+    },
+    {
+        "q": "What protects the intellectual property(IP) created by artists?",
+        "options": [
+            "A. Copyright",
+            "B. Cyber Law",
+            "C. Protocols",
+            "D. Ethics"
+        ],
+        "answer": "A. Copyright"
+    },
+    {
+        "q": "Firewall is a type of _____________.",
+        "options": [
+            "A. Virus",
+            "B. Worm",
+            "C. Security threat",
+            "D. Security-conscious piece of hardware or software"
+        ],
+        "answer": "D. Security-conscious piece of hardware or software"
+    },
+    {
+        "q": "All of the following are examples of real security and privacy threats except",
+        "options": [
+            "A. Virus",
+            "B. Hackers",
+            "C. Worm",
+            "D. Spam"
+        ],
+        "answer": "D. Spam"
+    },
+    {
+        "q": "Firewalls are to protect against",
+        "options": [
+            "A. Unauthorized Attacks",
+            "B. Fire Attacks",
+            "C. Virus Attacks",
+            "D. Data Driven Attacks"
+        ],
+        "answer": "A. Unauthorized Attacks"
+    },
+    {
+        "q": "In computer security, _______ means that the information contained in a computer system can only be read by authorized persons.",
+        "options": [
+            "A. Confidentiality",
+            "B. Integrity",
+            "C. Authenticity",
+            "D. Availability"
+        ],
+        "answer": "A. Confidentiality"
+    },
+    {
+        "q": "How Social companies saved our data/information from theft?",
+        "options": [
+            "A. integration",
+            "B. Anti-Virus",
+            "C. Spam",
+            "D. Encryption"
+        ],
+        "answer": "D. Encryption"
+    },
+    {
+        "q": "_______ application is the illegal access to the network or computer system.",
+        "options": [
+            "A. Cracking",
+            "B. Virus",
+            "C. Security",
+            "D. Piracy"
+        ],
+        "answer": "A. Cracking"
+    },
+    {
+        "q": "What do you do if someone you know is being cyberbullied?",
+        "options": [
+            "A. Get into a fight with that person",
+            "B. Keep it to yourself",
+            "C. Let someone know",
+            "D. Delete the text messages"
+        ],
+        "answer": "C. Let someone know"
+    },
+    {
+        "q": "What is an example of cyberbullying?",
+        "options": [
+            "A. Hitting someone",
+            "B. Ignoring someone that is talking to you",
+            "C. Telling someone their shit is ugly",
+            "D. Mean text messages"
+        ],
+        "answer": "D. Mean text messages"
+    },
+    {
+        "q": "When can cyberbullying not happen?",
+        "options": [
+            "A. When you are at school",
+            "B. When you talk to someone face to face",
+            "C. When you talk with your friends",
+            "D. When you are at home"
+        ],
+        "answer": "B. When you talk to someone face to face"
+    },
+    {
+        "q": "Which of the following is not a proper way of how spammers get the email Ids?",
+        "options": [
+            "A. When a user registers to online services, blogs, and sites",
+            "B. Online ad-tracking tools",
+            "C. Databases formed by spiders fetching email Ids from different sources",
+            "D. From offline form fill-up documents"
+        ],
+        "answer": "D. From offline form fill-up documents"
+    },
+    {
+        "q": "There are ___________ major ways of spamming.",
+        "options": [
+            "A. 4",
+            "B. 3",
+            "C. 5",
+            "D. 2"
+        ],
+        "answer": "D. 2"
+    },
+    {
+        "q": "Which of the following is not a technique used by spammer?",
+        "options": [
+            "A. Junk tags associated with spam-emails",
+            "B. Spoofing the domain",
+            "C. Making important deals through such emails",
+            "D. Sending attached virus in spams"
+        ],
+        "answer": "C. Making important deals through such emails"
+    },
+    {
+        "q": "Which of the following electronic theft?",
+        "options": [
+            "A. Online Fraud",
+            "B. Malicious code",
+            "C. Illegal content",
+            "D. Cyberbullying"
+        ],
+        "answer": "A. Online Fraud"
+    },
+    {
+        "q": "_________ will protect children from watching illegal content on the internet.",
+        "options": [
+            "A. Web Developing",
+            "B. Web filtering",
+            "C. Web Editing",
+            "D. Web Engineering"
+        ],
+        "answer": "B. Web filtering"
+    },
+    {
+        "q": "Which of the following information security technique?",
+        "options": [
+            "A. Online Fraud",
+            "B. Illegal content",
+            "C. Cyberbullying",
+            "D. Malicious code"
+        ],
+        "answer": "D. Malicious code"
+    },
+    {
+        "q": "Which of the following contact risk?",
+        "options": [
+            "A. Cyberbullying",
+            "B. Online Fraud",
+            "C. Illegal content",
+            "D. Malicious code"
+        ],
+        "answer": "A. Cyberbullying"
+    },
+    {
+        "q": "Which of the following content risk?",
+        "options": [
+            "A. Illegal content",
+            "B. Malicious code",
+            "C. Online fraud",
+            "D. Cyberbullying"
+        ],
+        "answer": "A. Illegal content"
+    },
+    {
+        "q": "How does excessive use of technology affect children's physical health?",
+        "options": [
+            "A. Cyber Relationship Addiction",
+            "B. Culture ambiguity",
+            "C. Social Isolation",
+            "D. Anxiety and Depression"
+        ],
+        "answer": "C. Social Isolation"
+    },
+    {
+        "q": "Default font size of text in Microsoft Word is________.",
+        "options": [
+            "A. 8",
+            "B. 9",
+            "C. 11",
+            "D. 12"
+        ],
+        "answer": "C. 11"
+    },
+    {
+        "q": "A ______ appears instantly when you double click a word or select a sentence/paragraph in MS word.",
+        "options": [
+            "A. Tooltip",
+            "B. Mini Toolbar",
+            "C. None of above",
+            "D. Dialogue Box"
+        ],
+        "answer": "B. Mini Toolbar"
+    },
+    {
+        "q": "Which of the following is not a “Menu/Ribbon” in MS Word?",
+        "options": [
+            "A. References",
+            "B. Styles",
+            "C. View",
+            "D. Home"
+        ],
+        "answer": "B. Styles"
+    },
+    {
+        "q": "By default on the top left corner of MS Word’s window commonly used commands are given in a bar, this bar is known as______.",
+        "options": [
+            "A. Menu Bar",
+            "B. Mini Toolbar",
+            "C. Quick Access Toolbar",
+            "D. Ribbon Tool"
+        ],
+        "answer": "C. Quick Access Toolbar"
+    },
+    {
+        "q": "Is it possible to add different commands available in MS Word on Quick Access Toolbar?",
+        "options": [
+            "A. No",
+            "B. Yes"
+        ],
+        "answer": "B. Yes"
+    },
+    {
+        "q": "Whenever you save an MS Word file on your system, it is saved with the _____extension.",
+        "options": [
+            "A. .txt",
+            "B. .wdx",
+            "C. .wrd",
+            "D. .docx"
+        ],
+        "answer": "D. .docx"
+    },
+    {
+        "q": "In MS Word, If you want to give vertical space between the lines of a text, you can use the line spacing command option of ______ group of Home Ribbon.",
+        "options": [
+            "A. Styles",
+            "B. Layout",
+            "C. Paragraph",
+            "D. Design"
+        ],
+        "answer": "C. Paragraph"
+    },
+    {
+        "q": "In MS Word you can change the font color, size or font family using the______group.",
+        "options": [
+            "A. Font",
+            "B. Style sheet",
+            "C. Editing",
+            "D. Text"
+        ],
+        "answer": "A. Font"
+    },
+    {
+        "q": "In MS Word, under the home ribbon, multiple groups of similar commands are available, which group provides the facility of searching or replacing?",
+        "options": [
+            "A. Styles",
+            "B. Editing",
+            "C. Paragraph",
+            "D. Clipboard"
+        ],
+        "answer": "B. Editing"
+    },
+    {
+        "q": "In MS Word, by default, Copy and Cut options under Home Ribbon are active when you open a blank document.",
+        "options": [
+            "A. False",
+            "B. True"
+        ],
+        "answer": "A. False"
+    },
+    {
+        "q": "In MS Word ______ ribbon contains the clipboard group.",
+        "options": [
+            "A. Clipboard",
+            "B. Home",
+            "C. View",
+            "D. Insert"
+        ],
+        "answer": "B. Home"
+    },
+    {
+        "q": "In MS Word, which of the following option retains the formatting of the text you copied?",
+        "options": [
+            "A. Keep text only",
+            "B. Merge Formatting",
+            "C. Both a and b",
+            "D. Keep source formatting"
+        ],
+        "answer": "D. Keep source formatting"
+    },
+    {
+        "q": "After selection of paragraph/sentence and by applying clear formatting the font family of text gets changed to______.",
+        "options": [
+            "A. Calibri",
+            "B. Arial",
+            "C. Arial Black",
+            "D. Times New Roman"
+        ],
+        "answer": "A. Calibri"
+    },
+    {
+        "q": "In the Font group under home ribbon, which option is used to change the case of text from lower to upper or vice versa?",
+        "options": [
+            "A. Cap Case",
+            "B. Toggle Case",
+            "C. Sentence Case",
+            "D. Lower Case"
+        ],
+        "answer": "B. Toggle Case"
+    },
+    {
+        "q": "In MS Word _______ option is used to give a background color to text under paragraph group.",
+        "options": [
+            "A. Font Color",
+            "B. Text effect and Typography",
+            "C. Highlighting",
+            "D. Shading"
+        ],
+        "answer": "D. Shading"
+    },
+    {
+        "q": "In MS Word, which of the facility is provided by the paragraph group under home ribbon?",
+        "options": [
+            "A. Shading",
+            "B. Alignment",
+            "C. All of above",
+            "D. Sorting"
+        ],
+        "answer": "C. All of above"
+    },
+    {
+        "q": "In MS Word, which type of new bullet/bullets a user can choose of his own choice?",
+        "options": [
+            "A. Pictorial",
+            "B. Textual",
+            "C. Symbolic",
+            "D. All of above"
+        ],
+        "answer": "D. All of above"
+    },
+    {
+        "q": "In MS Word, the paragraph group under the Home Ribbon can be used to create a ______ list.",
+        "options": [
+            "A. Bullet",
+            "B. Number",
+            "C. Multi-level",
+            "D. All of above"
+        ],
+        "answer": "D. All of above"
+    },
+    {
+        "q": "In MS word, under paragraph group of home ribbon we can customize the bullet with some picture or some special symbol.Is it true?",
+        "options": [
+            "A. No",
+            "B. Yes"
+        ],
+        "answer": "B. Yes"
+    },
+    {
+        "q": "Is it true or not that we can modify the font size, color and font family of given styles in MS word?",
+        "options": [
+            "A. False",
+            "B. True"
+        ],
+        "answer": "B. True"
+    },
+    {
+        "q": "In MS Word, the formatting characteristics of Styles are based on ______.",
+        "options": [
+            "A. Line spacing or indentation",
+            "B. Font Family, Font size, Font color",
+            "C. All of above",
+            "D. Border or shading"
+        ],
+        "answer": "C. All of above"
+    },
+    {
+        "q": "In MS Word we can check the total no of occurrences with the position of a particular word or phrase in the whole document by using ____ option available in the editing group under the Home ribbon.",
+        "options": [
+            "A. Replace",
+            "B. Find",
+            "C. Search",
+            "D. Select"
+        ],
+        "answer": "B. Find"
+    },
+    {
+        "q": "In MS Word, Find Command belongs to the _____ group of Home Ribbon.",
+        "options": [
+            "A. Editing",
+            "B. None of these",
+            "C. Search",
+            "D. Find()"
+        ],
+        "answer": "A. Editing"
+    },
+    {
+        "q": "In MS Word, you can add a table into your document using _______ Ribbon.",
+        "options": [
+            "A. Home",
+            "B. Table",
+            "C. Design",
+            "D. Insert"
+        ],
+        "answer": "D. Insert"
+    },
+    {
+        "q": "In MS Word, which of the following group does not belong to the Insert ribbon?",
+        "options": [
+            "A. Paragraph",
+            "B. Illustrations",
+            "C. Pages",
+            "D. Text"
+        ],
+        "answer": "A. Paragraph"
+    },
+    {
+        "q": "In MS Word, Screenshot option is available in ______ group of Insert ribbon.",
+        "options": [
+            "A. Media",
+            "B. None of above",
+            "C. Illustrations",
+            "D. Screenshots"
+        ],
+        "answer": "C. Illustrations"
+    },
+    {
+        "q": "In MS Word, a blank page can be inserted anywhere in the document. Is it false?",
+        "options": [
+            "A. Yes",
+            "B. No"
+        ],
+        "answer": "A. Yes"
+    },
+    {
+        "q": "In MS Word, we can convert the given text into a table using the Tables group of Insert Ribbon. For Example \" ALI 38 Boy \" can be converted into a table of three columns if each word in a sentence has _____ between them.",
+        "options": [
+            "A. 1 space using space button",
+            "B. 4 spaces using space button",
+            "C. Space using Tab button",
+            "D. None of above"
+        ],
+        "answer": "C. Space using Tab button"
+    },
+    {
+        "q": "In MS Word, we can add different kinds of shapes to our document like rectangles, lines, hexagons, and flowchart symbols using Illustration group, __________ ribbon provides this facility.",
+        "options": [
+            "A. Insert",
+            "B. Design",
+            "C. View",
+            "D. Home"
+        ],
+        "answer": "A. Insert"
+    },
+    {
+        "q": "In MS Word, A _______ option is available under the illustration group of Insert Ribbon by using that we can directly add the image of currently opened windows by clicking any one of them.",
+        "options": [
+            "A. Images",
+            "B. Pictures",
+            "C. Screenshot",
+            "D. Insert"
+        ],
+        "answer": "C. Screenshot"
+    },
+    {
+        "q": "In MS Word, comments can be added to document via Comments group, This group belong to the __________Ribbon.",
+        "options": [
+            "A. References",
+            "B. Comments",
+            "C. Insert",
+            "D. Home"
+        ],
+        "answer": "A. References"
+    },
+    {
+        "q": "In MS Word. Text group under Insert ribbon does not include_________command.",
+        "options": [
+            "A. Comment",
+            "B. Insert Date and Time",
+            "C. Explore Quick Part",
+            "D. Word Art"
+        ],
+        "answer": "A. Comment"
+    },
+    {
+        "q": "The space left between the margin and the start of a paragraph is called _____________",
+        "options": [
+            "A. Gutter",
+            "B. Alignment",
+            "C. Spacing",
+            "D. Indentation"
+        ],
+        "answer": "D. Indentation"
+    },
+    {
+        "q": "Landscape is?",
+        "options": [
+            "A. Font Style",
+            "B. Page Layout",
+            "C. Paper Size",
+            "D. Page Orientation"
+        ],
+        "answer": "D. Page Orientation"
+    },
+    {
+        "q": "The space left between the margin and the start of a paragraph is called ________________",
+        "options": [
+            "A. Indentation",
+            "B. Spacing",
+            "C. Gutter",
+            "D. Alignment"
+        ],
+        "answer": "A. Indentation"
+    },
+    {
+        "q": "What is the default page size for word document?",
+        "options": [
+            "A. Legal",
+            "B. Letter",
+            "C. A4",
+            "D. None of these"
+        ],
+        "answer": "B. Letter"
+    },
+    {
+        "q": "Which of the following is not a type of page margin?",
+        "options": [
+            "A. Top",
+            "B. Right",
+            "C. Left",
+            "D. Center"
+        ],
+        "answer": "D. Center"
+    },
+    {
+        "q": "If you want to Go to the end of a document, press ______________ shortcut key from the keyboard.",
+        "options": [
+            "A. Shift+End",
+            "B. Home",
+            "C. Ctrl+End",
+            "D. End"
+        ],
+        "answer": "C. Ctrl+End"
+    },
+    {
+        "q": "The insertion point _________________________",
+        "options": [
+            "A. Is located under the standard toolbar and shortcut buttons",
+            "B. Indicated the location where text line when necessary",
+            "C. Is located under the standard toolbar and has shortcut buttons",
+            "D. Provides features for changing margins, tabs, and indentations"
+        ],
+        "answer": "B. Indicated the location where text line when necessary"
+    },
+    {
+        "q": "Single spacing in MS-word document causes__________ Point line spacing?",
+        "options": [
+            "A. 10",
+            "B. 12",
+            "C. 16",
+            "D. 14"
+        ],
+        "answer": "B. 12"
+    },
+    {
+        "q": "Which item is printed at the bottom of each page",
+        "options": [
+            "A. Title",
+            "B. Footer",
+            "C. Header",
+            "D. Footnote"
+        ],
+        "answer": "B. Footer"
+    },
+    {
+        "q": "A bookmark is an item or location in a document that you identify a name for future Reference.Which of the following tasks is accomplished by using bookmarks?",
+        "options": [
+            "A. To add hyperlinks in a web page",
+            "B. To quickly jump to a specific location in the document",
+            "C. To mark the ending of a page of document",
+            "D. None of These"
+        ],
+        "answer": "B. To quickly jump to a specific location in the document"
+    },
+    {
+        "q": "What item contains detailed information about something in the text ?",
+        "options": [
+            "A. Header",
+            "B. Footnote",
+            "C. Footer",
+            "D. Head Note"
+        ],
+        "answer": "B. Footnote"
+    },
+    {
+        "q": "Where does Word insert a table of contents?",
+        "options": [
+            "A. On the first page of the report",
+            "B. At the insertion point",
+            "C. Before the document title",
+            "D. After the cover page"
+        ],
+        "answer": "B. At the insertion point"
+    },
+    {
+        "q": "Where footnotes appear in a document?",
+        "options": [
+            "A. None",
+            "B. Bottom of a Page",
+            "C. End of Heading",
+            "D. End of document"
+        ],
+        "answer": "B. Bottom of a Page"
+    },
+    {
+        "q": "Why are headers and footers used in documents?",
+        "options": [
+            "A. To allow page headers and footers to appear on a document when it is printed.",
+            "B. To enhance the overall appearance of the document",
+            "C. To mark the starting and ending of a page",
+            "D. To mark large document more readable"
+        ],
+        "answer": "A. To allow page headers and footers to appear on a document when it is printed."
+    },
         {
         "q": "Meaning of a statement in natural language depends on its:",
         "options": [
