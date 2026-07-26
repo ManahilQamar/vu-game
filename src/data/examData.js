@@ -13223,20 +13223,11 @@ const examData = {
             "A. CDAB",
             "B. BDAC",
             "C. ABCD",
-            "D. DBAC"
+            "D. DCBA"
         ],
-        "answer": "D. DBAC"
+        "answer": "D. DCBA"
     },
-    {
-        "q": "Before A, B, C, and D ran a race, they made the following predictions: A predicted that B would win. B predicted that D would win. C predicted that A would be third. D predicted that A's prediction would be correct. If only one prediction was correct that was made by the winner. Find out the correct sequence of finishing the race.",
-        "options": [
-            "A. CABD",
-            "B. BCAD",
-            "C. DBAC",
-            "D. CBAD"
-        ],
-        "answer": "C. DBAC"
-    },
+    
     {
         "q": "Before A, B, C, and D ran a race, they made the following predictions and only one of these predictions turned out to be true after the race. Which of the given predictions could be correct?",
         "options": [
@@ -13885,7 +13876,7 @@ const examData = {
             "C. char name[8]",
             "D. char name[10]"
         ],
-        "answer": "D. char name[10]"
+        "answer": "A. char name[11]"
     },
     {
         "q": "A two-dimensional array of integers named Scores having two rows and nine columns will be declared as:",
@@ -14160,20 +14151,20 @@ const examData = {
         "options": [
             "A. Cost overruns",
             "B. Late delivery",
-            "C. All of above",
-            "D. Dissatisfied customer"
+            "C. Dissatisfied customer",
+            "D. All of above"
         ],
-        "answer": "C. All of above"
+        "answer": "D. All of above"
     },
     {
         "q": "The software is moved to the maintenance phase when ________.",
         "options": [
             "A. Errors are discovered",
             "B. Changes in the software application",
-            "C. All of above",
-            "D. Changes are done in previous modifications to introduce the errors"
+            "C. Changes are done in previous modifications to introduce the errors",
+            "D. All of above",
         ],
-        "answer": "C. All of above"
+        "answer": "D. All of above"
     },
     {
         "q": "A ________ is a well-defined, structured sequence of stages in software engineering to develop the intended software product.",
@@ -14200,10 +14191,10 @@ const examData = {
         "options": [
             "A. Usage",
             "B. Development",
-            "C. All of above",
-            "D. Maintenance"
+            "C. Maintenance",
+            "D. All of above",
         ],
-        "answer": "C. All of above"
+        "answer": "D. All of above"
     },
     {
         "q": "In the _________ phase of the software development cycle, the internal structure of the software system is established.",

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import examData from '../data/examData';
 import subjects from '../data/subjects';
 
 const API_BASE = 'https://vu-study-app-backend.vercel.app';
 
-// ── AI Explanation per question ───────────────────────────────────
+// ── AI Explanation ────────────────────────────────────────────────
 function ExplainBtn({ question, options, answer, subjectId }) {
   const [open,    setOpen]    = useState(false);
   const [loading, setLoading] = useState(false);
@@ -12,10 +12,10 @@ function ExplainBtn({ question, options, answer, subjectId }) {
   const [error,   setError]   = useState('');
 
   const fetchExplain = async () => {
-    if (text) { setOpen(true); return; }
+    if (open) { setOpen(false); return; }
     setOpen(true);
-    setLoading(true);
-    setError('');
+    if (text) return;
+    setLoading(true); setError('');
     try {
       const res = await fetch(`${API_BASE}/api/explain`, {
         method: 'POST',
@@ -37,9 +37,11 @@ function ExplainBtn({ question, options, answer, subjectId }) {
       <button onClick={fetchExplain} style={{
         fontSize: 12, fontWeight: 600, padding: '4px 12px',
         borderRadius: 8, border: '1px solid #bfdbfe',
-        background: '#eff6ff', color: '#2563eb',
+        background: open ? '#2563eb' : '#eff6ff',
+        color: open ? '#fff' : '#2563eb',
         cursor: 'pointer', fontFamily: 'inherit',
         display: 'flex', alignItems: 'center', gap: 5,
+        transition: 'all 0.15s',
       }}>
         💡 {open ? 'Hide Explanation' : 'Explain Answer'}
       </button>
@@ -58,9 +60,7 @@ function ExplainBtn({ question, options, answer, subjectId }) {
           )}
           {error && <div style={{ fontSize:13, color:'#dc2626' }}>⚠ {error}</div>}
           {text && (
-            <div style={{ fontSize:13.5, color:'#1e40af', lineHeight:1.7, whiteSpace:'pre-wrap' }}>
-              {text}
-            </div>
+            <div style={{ fontSize:13.5, color:'#1e40af', lineHeight:1.7, whiteSpace:'pre-wrap' }}>{text}</div>
           )}
           <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
         </div>
@@ -73,18 +73,29 @@ export default function ExamPaper({ subject, paperType, setPage }) {
   const sub   = subjects.find(s => s.id === subject);
   const paper = examData[subject]?.[paperType];
 
-  // Track selected answer per question index
-  const [mcqAnswers,  setMcqAnswers]  = useState({});
+  // localStorage key for this specific paper
+  const storageKey = `exam_answers_${subject}_${paperType}`;
+
+  // Load saved answers from localStorage
+  const [mcqAnswers,  setMcqAnswers]  = useState(() => {
+    try {
+      const saved = localStorage.getItem(storageKey);
+      return saved ? JSON.parse(saved) : {};
+    } catch { return {}; }
+  });
   const [subjAnswers, setSubjAnswers] = useState({});
   const [submitted,   setSubmitted]   = useState(false);
   const [score,       setScore]       = useState(0);
 
+  // Save answers to localStorage whenever they change
+  useEffect(() => {
+    localStorage.setItem(storageKey, JSON.stringify(mcqAnswers));
+  }, [mcqAnswers, storageKey]);
+
   if (!paper) {
     return (
       <div className="shell fade-in">
-        <header className="topbar">
-          <span className="topbar-info">Exam Not Found</span>
-        </header>
+        <header className="topbar"><span className="topbar-info">Exam Not Found</span></header>
         <main className="page">
           <div className="empty-card">
             <div className="empty-icon">📋</div>
@@ -100,27 +111,33 @@ export default function ExamPaper({ subject, paperType, setPage }) {
   const subjectives = paper.subjective || [];
   const hasSubj     = subjectives.length > 0;
 
+  // Stats
+  const attempted = Object.keys(mcqAnswers).length;
+  const correct   = Object.keys(mcqAnswers).filter(i => mcqAnswers[i] === mcqs[parseInt(i)]?.answer).length;
+  const wrong     = attempted - correct;
+
   const handleMcq = (qIdx, opt) => {
     if (submitted) return;
-    // Toggle off if same option clicked again
-    if (mcqAnswers[qIdx] === opt) {
-      setMcqAnswers(prev => { const n = {...prev}; delete n[qIdx]; return n; });
-    } else {
-      setMcqAnswers(prev => ({ ...prev, [qIdx]: opt }));
-    }
+    if (mcqAnswers[qIdx]) return; // already answered — lock it
+    setMcqAnswers(prev => ({ ...prev, [qIdx]: opt }));
   };
 
   const handleSubj = (idx, val) => setSubjAnswers(prev => ({ ...prev, [idx]: val }));
 
+  const handleClear = () => {
+    setMcqAnswers({});
+    localStorage.removeItem(storageKey);
+  };
+
   const handleSubmit = () => {
-    let correct = 0;
-    mcqs.forEach((q, i) => { if (mcqAnswers[i] === q.answer) correct++; });
-    setScore(correct);
+    let c = 0;
+    mcqs.forEach((q, i) => { if (mcqAnswers[i] === q.answer) c++; });
+    setScore(c);
     setSubmitted(true);
     window.scrollTo(0, 0);
   };
 
-  const allMcqAttempted = mcqs.every((_, i) => mcqAnswers[i]);
+  const allAttempted = mcqs.every((_, i) => mcqAnswers[i]);
 
   // ── Result Screen ─────────────────────────────────────────────
   if (submitted) {
@@ -149,56 +166,38 @@ export default function ExamPaper({ subject, paperType, setPage }) {
             </div>
           </div>
 
-          {/* MCQ Review */}
           <p className="sec-label">MCQ Review</p>
           {mcqs.map((q, i) => {
-            const selected = mcqAnswers[i];
-            const correct  = selected === q.answer;
+            const sel = mcqAnswers[i];
+            const ok  = sel === q.answer;
             return (
               <div key={i} style={{
                 background: 'var(--card-bg)',
-                border: `1.5px solid ${correct ? '#34d399' : '#f87171'}`,
+                border: `1.5px solid ${ok ? '#34d399' : '#f87171'}`,
                 borderRadius: 12, padding: '12px 14px', marginBottom: 10,
               }}>
                 <div style={{ display:'flex', gap:8, marginBottom:8 }}>
-                  <span style={{
-                    width:22, height:22, borderRadius:'50%', flexShrink:0,
-                    background: correct ? '#10b981' : '#ef4444', color:'#fff',
-                    fontSize:12, fontWeight:700,
-                    display:'flex', alignItems:'center', justifyContent:'center',
-                  }}>{correct ? '✓' : '✗'}</span>
+                  <span style={{ width:22, height:22, borderRadius:'50%', flexShrink:0, background: ok?'#10b981':'#ef4444', color:'#fff', fontSize:12, fontWeight:700, display:'flex', alignItems:'center', justifyContent:'center' }}>
+                    {ok ? '✓' : '✗'}
+                  </span>
                   <div style={{ fontSize:13.5, color:'var(--text-primary)', fontWeight:500 }}>{q.q}</div>
                 </div>
-                {!correct && (
+                {!ok && (
                   <div style={{ fontSize:12.5, color:'#065f46', background:'#ecfdf3', borderRadius:8, padding:'6px 10px', marginBottom:6 }}>
                     ✓ Correct: {q.answer}
                   </div>
                 )}
-                {/* Explain button on wrong answers */}
-                {!correct && (
-                  <ExplainBtn
-                    question={q.q}
-                    options={q.options}
-                    answer={q.answer}
-                    subjectId={subject}
-                  />
-                )}
+                <ExplainBtn question={q.q} options={q.options} answer={q.answer} subjectId={subject} />
               </div>
             );
           })}
 
-          {/* Subjective review */}
           {hasSubj && (
             <div style={{ background:'#fffbeb', border:'1.5px solid #fbbf24', borderRadius:12, padding:'14px 16px', marginTop:8 }}>
               <div style={{ fontWeight:700, color:'#78350f', marginBottom:6 }}>📝 Subjective Section</div>
-              <div style={{ fontSize:13, color:'#92400e', lineHeight:1.6, marginBottom:10 }}>
-                Check your subjective answers against your notes for self-assessment.
-              </div>
               {subjectives.map((q, i) => (
                 <div key={i} style={{ marginTop:10 }}>
-                  <div style={{ fontSize:13, fontWeight:600, color:'#78350f', marginBottom:4 }}>
-                    Q{mcqs.length + i + 1}. [{q.marks} marks] {q.q}
-                  </div>
+                  <div style={{ fontSize:13, fontWeight:600, color:'#78350f', marginBottom:4 }}>Q{mcqs.length+i+1}. [{q.marks} marks] {q.q}</div>
                   <div style={{ fontSize:13, color:'#374151', background:'#fff', border:'1px solid #fde68a', borderRadius:8, padding:'8px 10px', whiteSpace:'pre-wrap', minHeight:40 }}>
                     {subjAnswers[i] || '(No answer written)'}
                   </div>
@@ -211,6 +210,7 @@ export default function ExamPaper({ subject, paperType, setPage }) {
             <button className="btn-dark" onClick={() => {
               setSubmitted(false); setScore(0);
               setMcqAnswers({}); setSubjAnswers({});
+              localStorage.removeItem(storageKey);
               window.scrollTo(0, 0);
             }}>Try Again</button>
             <button className="btn-ghost" onClick={() => setPage(subject)}>Back to Lectures</button>
@@ -230,89 +230,58 @@ export default function ExamPaper({ subject, paperType, setPage }) {
       <main className="page">
 
         {/* Paper header */}
-        <div style={{
-          background:'var(--card-bg)', border:'1.5px solid var(--border)',
-          borderRadius:14, padding:'16px', marginBottom:16,
-        }}>
-          <div style={{ fontSize:16, fontWeight:700, color:'var(--text-primary)', marginBottom:4 }}>
-            {paper.title}
-          </div>
-          <div style={{ fontSize:13, color:'var(--text-muted)' }}>
-            Total Marks: {paper.totalMarks} &nbsp;·&nbsp; MCQs: {mcqs.length} × {paper.mcqMarks} marks
-            {hasSubj && ` · Subjective: ${subjectives.reduce((a,s) => a+s.marks, 0)} marks`}
-          </div>
-          <div style={{ fontSize:12, color:'#2563eb', marginTop:6, fontWeight:500 }}>
-            📌 Click an option to select. Green = correct, Red = wrong. Use 💡 Explain if needed.
+        <div style={{ background:'var(--card-bg)', border:'1.5px solid var(--border)', borderRadius:14, padding:'14px 16px', marginBottom:14 }}>
+          <div style={{ fontSize:15, fontWeight:700, color:'var(--text-primary)', marginBottom:3 }}>{paper.title}</div>
+          <div style={{ fontSize:12.5, color:'var(--text-muted)' }}>
+            Total: {mcqs.length} MCQs · {paper.mcqMarks} mark each
+            {hasSubj && ` · Subjective: ${subjectives.reduce((a,s)=>a+s.marks,0)} marks`}
           </div>
         </div>
 
-        {/* Live Progress Stats */}
-        {mcqs.length > 0 && (
-          <div style={{
-            background: 'var(--card-bg)',
-            border: '1.5px solid var(--border)',
-            borderRadius: 14,
-            padding: '14px 16px',
-            marginBottom: 16,
-            display: 'flex',
-            alignItems: 'center',
-            gap: 0,
-          }}>
-            {/* Total */}
-            <div style={{ flex: 1, textAlign: 'center', borderRight: '1px solid var(--border)' }}>
-              <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--text-primary)' }}>
-                {mcqs.length}
-              </div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>Total</div>
+        {/* ── Live Stats Bar ── */}
+        <div style={{
+          background: 'var(--card-bg)', border: '1.5px solid var(--border)',
+          borderRadius: 14, padding: '12px 16px', marginBottom: 14,
+        }}>
+          {/* Numbers */}
+          <div style={{ display:'flex', alignItems:'center', marginBottom: 10 }}>
+            <div style={{ flex:1, textAlign:'center', borderRight:'1px solid var(--border)' }}>
+              <div style={{ fontSize:20, fontWeight:700, color:'#16a34a' }}>{correct}</div>
+              <div style={{ fontSize:11, color:'#16a34a', fontWeight:600, marginTop:1 }}>✓ Correct</div>
             </div>
-
-            {/* Attempted */}
-            <div style={{ flex: 1, textAlign: 'center', borderRight: '1px solid var(--border)' }}>
-              <div style={{ fontSize: 22, fontWeight: 700, color: '#2563eb' }}>
-                {Object.keys(mcqAnswers).length}
-              </div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>Attempted</div>
+            <div style={{ flex:1, textAlign:'center', borderRight:'1px solid var(--border)' }}>
+              <div style={{ fontSize:20, fontWeight:700, color:'#dc2626' }}>{wrong}</div>
+              <div style={{ fontSize:11, color:'#dc2626', fontWeight:600, marginTop:1 }}>✗ Wrong</div>
             </div>
-
-            {/* Correct */}
-            <div style={{ flex: 1, textAlign: 'center', borderRight: '1px solid var(--border)' }}>
-              <div style={{ fontSize: 22, fontWeight: 700, color: '#16a34a' }}>
-                {Object.keys(mcqAnswers).filter(i => mcqAnswers[i] === mcqs[i]?.answer).length}
-              </div>
-              <div style={{ fontSize: 11, color: '#16a34a', marginTop: 2, fontWeight: 600 }}>✓ Correct</div>
-            </div>
-
-            {/* Wrong */}
-            <div style={{ flex: 1, textAlign: 'center' }}>
-              <div style={{ fontSize: 22, fontWeight: 700, color: '#dc2626' }}>
-                {Object.keys(mcqAnswers).filter(i => mcqAnswers[i] !== mcqs[i]?.answer).length}
-              </div>
-              <div style={{ fontSize: 11, color: '#dc2626', marginTop: 2, fontWeight: 600 }}>✗ Wrong</div>
+            <div style={{ flex:1, textAlign:'center' }}>
+              <div style={{ fontSize:20, fontWeight:700, color:'var(--text-muted)' }}>{mcqs.length - attempted}</div>
+              <div style={{ fontSize:11, color:'var(--text-muted)', marginTop:1 }}>Remaining</div>
             </div>
           </div>
-        )}
 
-        {/* Progress bar */}
-        {Object.keys(mcqAnswers).length > 0 && (
-          <div style={{ marginBottom: 16 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: 'var(--text-muted)', marginBottom: 4 }}>
-              <span>Progress</span>
-              <span>{Object.keys(mcqAnswers).length}/{mcqs.length} attempted</span>
-            </div>
-            <div style={{ height: 6, background: 'var(--border)', borderRadius: 3, overflow: 'hidden', display: 'flex' }}>
-              {/* Green portion - correct */}
-              <div style={{
-                width: `${(Object.keys(mcqAnswers).filter(i => mcqAnswers[i] === mcqs[i]?.answer).length / mcqs.length) * 100}%`,
-                background: '#10b981', transition: 'width 0.3s ease',
-              }} />
-              {/* Red portion - wrong */}
-              <div style={{
-                width: `${(Object.keys(mcqAnswers).filter(i => mcqAnswers[i] !== mcqs[i]?.answer).length / mcqs.length) * 100}%`,
-                background: '#ef4444', transition: 'width 0.3s ease',
-              }} />
-            </div>
+          {/* Progress bar */}
+          <div style={{ height:8, background:'var(--border)', borderRadius:4, overflow:'hidden', display:'flex' }}>
+            <div style={{ width:`${(correct/mcqs.length)*100}%`, background:'#10b981', transition:'width 0.3s ease' }} />
+            <div style={{ width:`${(wrong/mcqs.length)*100}%`, background:'#ef4444', transition:'width 0.3s ease' }} />
           </div>
-        )}
+          <div style={{ display:'flex', justifyContent:'space-between', fontSize:10, color:'var(--text-muted)', marginTop:4 }}>
+            <span>{attempted}/{mcqs.length} attempted</span>
+            {attempted > 0 && <span>{Math.round((correct/attempted)*100)}% accuracy</span>}
+          </div>
+
+          {/* Clear button */}
+          {attempted > 0 && (
+            <button onClick={handleClear} style={{
+              marginTop: 10, width:'100%', padding:'7px',
+              borderRadius:8, border:'1px solid #fca5a5',
+              background:'#fef2f2', color:'#dc2626',
+              fontSize:12, fontWeight:600, cursor:'pointer',
+              fontFamily:'inherit',
+            }}>
+              🗑 Clear All Answers
+            </button>
+          )}
+        </div>
 
         {/* Section A: MCQs */}
         <p className="sec-label">Section A — Multiple Choice ({mcqs.length} marks)</p>
@@ -325,9 +294,8 @@ export default function ExamPaper({ subject, paperType, setPage }) {
               background:'var(--card-bg)', border:'1.5px solid var(--border)',
               borderRadius:12, padding:'14px 16px', marginBottom:12,
             }}>
-              {/* Question */}
               <div style={{ fontSize:14, fontWeight:600, color:'var(--text-primary)', marginBottom:10 }}>
-                Q{i + 1}. {q.q}
+                Q{i+1}. {q.q}
               </div>
 
               {/* Options */}
@@ -343,13 +311,11 @@ export default function ExamPaper({ subject, paperType, setPage }) {
 
                   if (answered) {
                     if (isCorrect) {
-                      // ✅ Always highlight correct option green
                       borderColor = '#10b981';
                       bgColor     = '#ecfdf3';
                       textColor   = '#065f46';
                       fontWeight  = 700;
                     } else if (isSelected) {
-                      // ❌ Wrong selected option
                       borderColor = '#ef4444';
                       bgColor     = '#fef2f2';
                       textColor   = '#7f1d1d';
@@ -358,21 +324,16 @@ export default function ExamPaper({ subject, paperType, setPage }) {
                   }
 
                   return (
-                    <button key={j} onClick={() => handleMcq(i, opt)} style={{
+                    <button key={j} onClick={() => handleMcq(i, opt)} disabled={answered} style={{
                       textAlign:'left', padding:'10px 14px',
-                      borderRadius:9,
-                      border: `1.5px solid ${borderColor}`,
-                      background: bgColor,
-                      color: textColor,
-                      fontSize: 13.5,
-                      cursor: submitted ? 'default' : 'pointer',
-                      fontFamily: 'inherit',
-                      fontWeight,
-                      transition: 'all 0.12s',
-                      display: 'flex', alignItems: 'center', gap: 8,
+                      borderRadius:9, border:`1.5px solid ${borderColor}`,
+                      background:bgColor, color:textColor,
+                      fontSize:13.5, cursor: answered || submitted ? 'default' : 'pointer',
+                      fontFamily:'inherit', fontWeight,
+                      transition:'all 0.12s',
+                      display:'flex', alignItems:'center', gap:8,
                     }}>
-                      {/* Status icon */}
-                      {isSelected && (
+                      {answered && (isSelected || isCorrect) && (
                         <span style={{
                           width:18, height:18, borderRadius:'50%', flexShrink:0,
                           background: isCorrect ? '#10b981' : '#ef4444',
@@ -388,22 +349,13 @@ export default function ExamPaper({ subject, paperType, setPage }) {
                 })}
               </div>
 
-              {/* Explain button — show when wrong answer selected */}
-              {answered && selected !== q.answer && (
-                <ExplainBtn
-                  question={q.q}
-                  options={q.options}
-                  answer={q.answer}
-                  subjectId={subject}
-                />
-              )}
-
-              {/* Correct message */}
-              {answered && selected === q.answer && (
-                <div style={{ marginTop:8, fontSize:13, color:'#16a34a', fontWeight:600, display:'flex', alignItems:'center', gap:5 }}>
-                  ✅ Correct! Well done.
-                </div>
-              )}
+              {/* Explain button — always visible after selecting */}
+              <ExplainBtn
+                question={q.q}
+                options={q.options}
+                answer={q.answer}
+                subjectId={subject}
+              />
             </div>
           );
         })}
@@ -413,28 +365,17 @@ export default function ExamPaper({ subject, paperType, setPage }) {
           <div style={{ marginBottom:16 }}>
             <p className="sec-label">Section B — Subjective Questions</p>
             {subjectives.map((q, i) => (
-              <div key={i} style={{
-                background:'var(--card-bg)', border:'1.5px solid var(--border)',
-                borderRadius:12, padding:'14px 16px', marginBottom:10,
-              }}>
+              <div key={i} style={{ background:'var(--card-bg)', border:'1.5px solid var(--border)', borderRadius:12, padding:'14px 16px', marginBottom:10 }}>
                 <div style={{ fontSize:14, fontWeight:600, color:'var(--text-primary)', marginBottom:4 }}>
-                  Q{mcqs.length + i + 1}. [{q.marks} Marks]
+                  Q{mcqs.length+i+1}. [{q.marks} Marks]
                 </div>
-                <div style={{ fontSize:13.5, color:'var(--text-secondary)', marginBottom:10, lineHeight:1.6 }}>
-                  {q.q}
-                </div>
+                <div style={{ fontSize:13.5, color:'var(--text-secondary)', marginBottom:10, lineHeight:1.6 }}>{q.q}</div>
                 <textarea
                   value={subjAnswers[i] || ''}
                   onChange={e => handleSubj(i, e.target.value)}
                   placeholder="Write your answer here..."
                   rows={5}
-                  style={{
-                    width:'100%', padding:'10px 12px',
-                    fontSize:14, fontFamily:"'Georgia', serif",
-                    lineHeight:1.7, resize:'vertical',
-                    background:'var(--bg)', color:'var(--text-primary)',
-                    border:'1.5px solid var(--border)', borderRadius:8, outline:'none',
-                  }}
+                  style={{ width:'100%', padding:'10px 12px', fontSize:14, fontFamily:"'Georgia', serif", lineHeight:1.7, resize:'vertical', background:'var(--bg)', color:'var(--text-primary)', border:'1.5px solid var(--border)', borderRadius:8, outline:'none' }}
                 />
               </div>
             ))}
@@ -442,18 +383,15 @@ export default function ExamPaper({ subject, paperType, setPage }) {
         )}
 
         {/* Submit */}
-        <button onClick={handleSubmit} disabled={!allMcqAttempted} style={{
-          width:'100%', padding:'14px',
-          borderRadius:12, border:'none',
-          background: allMcqAttempted ? '#2563eb' : 'var(--border)',
-          color: allMcqAttempted ? '#fff' : 'var(--text-muted)',
+        <button onClick={handleSubmit} disabled={!allAttempted} style={{
+          width:'100%', padding:'14px', borderRadius:12, border:'none',
+          background: allAttempted ? '#2563eb' : 'var(--border)',
+          color: allAttempted ? '#fff' : 'var(--text-muted)',
           fontSize:15, fontWeight:700,
-          cursor: allMcqAttempted ? 'pointer' : 'default',
+          cursor: allAttempted ? 'pointer' : 'default',
           fontFamily:'inherit', marginBottom:24,
         }}>
-          {allMcqAttempted
-            ? '✓ Submit Paper'
-            : `Attempt all MCQs to submit (${Object.keys(mcqAnswers).length}/${mcqs.length} done)`}
+          {allAttempted ? '✓ Submit Paper' : `Attempt all MCQs to submit (${attempted}/${mcqs.length} done)`}
         </button>
 
       </main>
