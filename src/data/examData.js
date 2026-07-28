@@ -55,16 +55,6 @@ const examData = {
       totalMarks: 60,
       mcqMarks: 1,
       mcqs: [
-        {
-        "q": "Question content is missing in the PDF for Q1.",
-        "options": [
-            "A. (not available)",
-            "B. (not available)",
-            "C. (not available)",
-            "D. (not available)"
-        ],
-        "answer": "A. (not available)"
-    },
     {
         "q": "Which of the following statements is true about ∫₀¹ (sinx + cosx) dx?",
         "options": [
