@@ -16887,7 +16887,7 @@ const examData = {
   },
   {
     "q": "You can sort the data in",
-    "options": ["None of the above", "Descending order", "Ascending order", "Both 1 and 2"],
+    "options": ["Descending order", "Ascending order", "None of the above", "Both 1 and 2"],
     "answer": "Both 1 and 2"
   },
   {
@@ -16992,7 +16992,7 @@ const examData = {
   },
   {
     "q": "A web page can be written using the following editor",
-    "options": ["Dreamweaver", "None of the above", "Both 1 and 2", "Notepad"],
+    "options": ["Dreamweaver","Notepad",  "None of the above", "Both 1 and 2", ],
     "answer": "Both 1 and 2"
   },
   {
@@ -17317,6 +17317,1580 @@ const examData = {
       totalMarks: 40,
       mcqMarks: 1,
       mcqs: [
+
+    {
+        "q": "What was the minimum age of the President of Pakistan according to the Constitution of 1956?",
+        "options": [
+            "A. 50 years",
+            "B. 35 years",
+            "C. 40 years",
+            "D. 45 years"
+        ],
+        "answer": "C. 40 years"
+    },
+    {
+        "q": "Who dismissed Khawaja Nazimuddin's Cabinet?",
+        "options": [
+            "A. Ayub Khan",
+            "B. Ghulam Muhammad",
+            "C. Iskandar Mirza",
+            "D. Liaquat Ali Khan"
+        ],
+        "answer": "B. Ghulam Muhammad"
+    },
+    {
+        "q": "When was the Constitution of 1956 promulgated?",
+        "options": [
+            "A. 14th August, 1956",
+            "B. 8th June, 1956",
+            "C. 1st July, 1956",
+            "D. 23 March, 1956"
+        ],
+        "answer": "D. 23 March, 1956"
+    },
+    {
+        "q": "When did the military assume power in Pakistan for the first time?",
+        "options": [
+            "A. On 14 August, 1956",
+            "B. On 7 October, 1958",
+            "C. On 23 March, 1956",
+            "D. On 17 February, 1960"
+        ],
+        "answer": "B. On 7 October, 1958"
+    },
+    {
+        "q": "Who was given the power to impeach the President under the 1962 Constitution?",
+        "options": [
+            "A. Prime Minister",
+            "B. Cabinet",
+            "C. Senate",
+            "D. National Assembly"
+        ],
+        "answer": "D. National Assembly"
+    },
+    {
+        "q": "What is the minimum age of the President of Pakistan according to the Constitution of 1962?",
+        "options": [
+            "A. 55 years",
+            "B. 45 years",
+            "C. 50 years",
+            "D. 40 years"
+        ],
+        "answer": "D. 40 years"
+    },
+    {
+        "q": "What does BPC stand for?",
+        "options": [
+            "A. Basic Primary Constitution",
+            "B. Basic Permanent Committee",
+            "C. Basic Parliament Commission",
+            "D. Basic Principle Committee"
+        ],
+        "answer": "D. Basic Principle Committee"
+    },
+    {
+        "q": "In which year Language Movement started in East Pakistan?",
+        "options": [
+            "A. 1953",
+            "B. 1952",
+            "C. 1950",
+            "D. 1951"
+        ],
+        "answer": "B. 1952"
+    },
+    {
+        "q": "When did the First Basic Principles Committee present its final report?",
+        "options": [
+            "A. In September, 1950",
+            "B. In April, 1950",
+            "C. In December, 1950",
+            "D. In August, 1950"
+        ],
+        "answer": "A. In September, 1950"
+    },
+    {
+        "q": "When was the Constitutional Commission established under the chairmanship of Justice Shahabuddin?",
+        "options": [
+            "A. February 1960",
+            "B. January 1960",
+            "C. March 1960",
+            "D. April 1960"
+        ],
+        "answer": "A. February 1960"
+    },
+    {
+        "q": "What principle was followed for the representation of provinces in the National Assembly under the 1956 Constitution?",
+        "options": [
+            "A. Political Party-based representation",
+            "B. Population-based representation",
+            "C. Parity-based representation",
+            "D. Area-based representation"
+        ],
+        "answer": "B. Population-based representation"
+    },
+    {
+        "q": "According to Bogra Formula, legislature would consist of how many houses?",
+        "options": [
+            "A. 5",
+            "B. 4",
+            "C. 2",
+            "D. 3"
+        ],
+        "answer": "C. 2"
+    },
+    {
+        "q": "What was the minimum age for a member of the National Assembly of Pakistan according to the 1962 Constitution?",
+        "options": [
+            "A. 20 Years",
+            "B. 25 Years",
+            "C. 18 Years",
+            "D. 23 Years"
+        ],
+        "answer": "B. 25 Years"
+    },
+    {
+        "q": "According to 1962 Constitution, all the executive, legislative and judicial powers were entitled to __________.",
+        "options": [
+            "A. President",
+            "B. Prime Minister",
+            "C. National Assembly",
+            "D. Cabinet"
+        ],
+        "answer": "A. President"
+    },
+    {
+        "q": "When did One Unit Scheme introduce?",
+        "options": [
+            "A. 14th November, 1955",
+            "B. 14th August,1955",
+            "C. 14th October, 1955",
+            "D. 14th September, 1955"
+        ],
+        "answer": "C. 14th October, 1955"
+    },
+    {
+        "q": "Which kind of Parliament was suggested by the first Basic Principles Committee Report?",
+        "options": [
+            "A. Multicameral",
+            "B. Unicameral",
+            "C. Bicameral",
+            "D. Tricameral"
+        ],
+        "answer": "C. Bicameral"
+    },
+    {
+        "q": "When was the first BPC Report presented to the Constituent Assembly of Pakistan?",
+        "options": [
+            "A. 1951",
+            "B. 1952",
+            "C. 1953",
+            "D. 1950"
+        ],
+        "answer": "D. 1950"
+    },
+    {
+        "q": "What was the total strength of the National Assembly of Pakistan according to the Constitution of 1956?",
+        "options": [
+            "A. 300",
+            "B. 330",
+            "C. 320",
+            "D. 310"
+        ],
+        "answer": "A. 300"
+    },
+    {
+        "q": "When was the 1962 Constitution abrogated?",
+        "options": [
+            "A. March 25, 1969",
+            "B. March 27, 1969",
+            "C. March 28, 1969",
+            "D. March 26, 1969"
+        ],
+        "answer": "A. March 25, 1969"
+    },
+    {
+        "q": "Which Constitution of Pakistan is considered a presidential-type constitution?",
+        "options": [
+            "A. The Government of India Act of 1935",
+            "B. The Constitution of 1956",
+            "C. The Constitution of 1962",
+            "D. The Constitution of 1973"
+        ],
+        "answer": "C. The Constitution of 1962"
+    },
+    {
+        "q": "When did the 2nd Constituent Assembly come into existence?",
+        "options": [
+            "A. 1952",
+            "B. 1955",
+            "C. 1953",
+            "D. 1954"
+        ],
+        "answer": "B. 1955"
+    },
+    {
+        "q": "When was the Political Parties Act introduced in Pakistan?",
+        "options": [
+            "A. 1964",
+            "B. 1960",
+            "C. 1962",
+            "D. 1966"
+        ],
+        "answer": "C. 1962"
+    },
+    {
+        "q": "Which Act served as the interim Constitution after the creation of Pakistan?",
+        "options": [
+            "A. Government of India Act, 1935",
+            "B. The Constitution Act 1956",
+            "C. Pakistan Independence Act 1947",
+            "D. Indian Independence Act of 1947"
+        ],
+        "answer": "D. Indian Independence Act of 1947"
+    },
+    {
+        "q": "When did the military government of Ayub Khan introduce the 'Basic Democracy System' in Pakistan?",
+        "options": [
+            "A. 1959",
+            "B. 1961",
+            "C. 1958",
+            "D. 1960"
+        ],
+        "answer": "A. 1959"
+    },
+    {
+        "q": "Who imposed the first Martial Law on October 7, 1958?",
+        "options": [
+            "A. Iskandar Mirza",
+            "B. General Ayub Khan",
+            "C. Malik Ghulam Muhammad",
+            "D. General Yahya Khan"
+        ],
+        "answer": "A. Iskandar Mirza"
+    },
+    {
+        "q": "Who abrogated the Constitution of 1962 on March 25, 1969?",
+        "options": [
+            "A. General Ayub Khan",
+            "B. Zulfiqar Ali Bhutto",
+            "C. Iskander Mirza",
+            "D. General Yahya Khan"
+        ],
+        "answer": "D. General Yahya Khan"
+    },
+    {
+        "q": "When did Ayub Khan introduce the Basic Democracies System in Pakistan?",
+        "options": [
+            "A. 1961",
+            "B. 1958",
+            "C. 1960",
+            "D. 1959"
+        ],
+        "answer": "D. 1959"
+    },
+    {
+        "q": "Which kind of parliament was adopted under the 1956 Constitution?",
+        "options": [
+            "A. Multicameral",
+            "B. Tricameral",
+            "C. Unicameral",
+            "D. Bicameral"
+        ],
+        "answer": "C. Unicameral"
+    },
+    {
+        "q": "In which Constitution of Pakistan was the 'Political Parties Act' passed?",
+        "options": [
+            "A. The Constitution of 1973",
+            "B. Interim Constitution of 1947",
+            "C. The Constitution of 1962",
+            "D. The Constitution of 1956"
+        ],
+        "answer": "C. The Constitution of 1962"
+    },
+    {
+        "q": "Who abrogated the Constitution of 1956 on 7th October, 1958?",
+        "options": [
+            "A. Malik Ghulam Muhammad",
+            "B. Yahya Khan",
+            "C. Iskander Mirza",
+            "D. Ayub Khan"
+        ],
+        "answer": "C. Iskander Mirza"
+    },
+    {
+        "q": "The 1956 Constitution had ______ articles and _____ schedules.",
+        "options": [
+            "A. 234 articles and 5 schedules",
+            "B. 250 articles and 5 schedules",
+            "C. 234 articles and 6 schedules",
+            "D. 250 articles and 6 schedules"
+        ],
+        "answer": "C. 234 articles and 6 schedules"
+    },
+    {
+        "q": "When was the Joint Electorate adopted for all Pakistan by the National Assembly?",
+        "options": [
+            "A. 1954",
+            "B. 1955",
+            "C. 1957",
+            "D. 1956"
+        ],
+        "answer": "C. 1957"
+    },
+    {
+        "q": "When did the Constitution of 1962 enforce in Pakistan?",
+        "options": [
+            "A. 14th August, 1962",
+            "B. 8th June, 1962",
+            "C. 23rd March, 1962",
+            "D. 1st July, 1962"
+        ],
+        "answer": "B. 8th June, 1962"
+    },
+    {
+        "q": "Which BPC report is also known as Muhammad Ali Bogra Formula?",
+        "options": [
+            "A. Fourth BPC Report",
+            "B. First BPC Report",
+            "C. Third BPC Report",
+            "D. Second BPC Report"
+        ],
+        "answer": "D. Second BPC Report"
+    },
+    {
+        "q": "Who was the head of government under the 1956 Constitution?",
+        "options": [
+            "A. Governor",
+            "B. Speaker",
+            "C. Prime Minister",
+            "D. President"
+        ],
+        "answer": "C. Prime Minister"
+    },
+    {
+        "q": "When did the Second Basic Principles Committee present its final report?",
+        "options": [
+            "A. In August, 1952",
+            "B. In December, 1952",
+            "C. In September, 1952",
+            "D. In April, 1952"
+        ],
+        "answer": "C. In September, 1952"
+    },
+    {
+        "q": "Who was the President of Pakistan in 1958?",
+        "options": [
+            "A. Muhammad Ali Bogra",
+            "B. Ayub Khan",
+            "C. Malik Ghulam Muhammad",
+            "D. Iskander Mirza"
+        ],
+        "answer": "D. Iskander Mirza"
+    },
+    {
+        "q": "When did Governor-General Ghulam Muhammad dissolve the First Constituent Assembly of Pakistan?",
+        "options": [
+            "A. In October, 1956",
+            "B. In October, 1953",
+            "C. In October, 1955",
+            "D. In October, 1954"
+        ],
+        "answer": "D. In October, 1954"
+    },
+    {
+        "q": "The Basic Principles Committee was formed on:",
+        "options": [
+            "A. June 12, 1949",
+            "B. April 12, 1949",
+            "C. May 12, 1949",
+            "D. March 12, 1949"
+        ],
+        "answer": "D. March 12, 1949"
+    },
+    {
+        "q": "The candidate for the post of President of Pakistan must ________________.",
+        "options": [
+            "A. Muslim and non-Muslim both",
+            "B. Be a Sunni Muslim",
+            "C. Not be a Muslim",
+            "D. Be a Muslim"
+        ],
+        "answer": "D. Be a Muslim"
+    },
+    {
+        "q": "When was the Constitution of 1962 promulgated?",
+        "options": [
+            "A. 8 June, 1962",
+            "B. 5 June, 1962",
+            "C. 6 June, 1962",
+            "D. 7 June, 1962"
+        ],
+        "answer": "A. 8 June, 1962"
+    },
+    {
+        "q": "According to 1962 constitution, Advisory Council for Islamic Ideology was ____________.",
+        "options": [
+            "A. An Executive body",
+            "B. Supervisory body",
+            "C. Legislative body",
+            "D. Recommendary body"
+        ],
+        "answer": "D. Recommendary body"
+    },
+    {
+        "q": "Which language was suggested by Quaid-e-Azam as the national language to promote unity and harmony in Pakistan?",
+        "options": [
+            "A. Bengali",
+            "B. English",
+            "C. Punjabi",
+            "D. Urdu"
+        ],
+        "answer": "D. Urdu"
+    },
+    {
+        "q": "Who challenged the dissolution of the First Constituent Assembly of Pakistan in Court?",
+        "options": [
+            "A. Iskander Mirza",
+            "B. Khawaja Nazimuddin",
+            "C. Maulvi Tamizuddin",
+            "D. Muhammad Ali Bogra"
+        ],
+        "answer": "C. Maulvi Tamizuddin"
+    },
+    {
+        "q": "Who dissolved the First Constituent Assembly of Pakistan?",
+        "options": [
+            "A. Iskandar Mirza",
+            "B. Ayub Khan",
+            "C. Ghulam Muhammad",
+            "D. Liaquat Ali Khan"
+        ],
+        "answer": "C. Ghulam Muhammad"
+    },
+    {
+        "q": "Who is said to be the first Chief Martial Law Administrator in Pakistan?",
+        "options": [
+            "A. General Ayub Khan",
+            "B. General Zia-ul-Haq",
+            "C. General Pervaiz Musharraf",
+            "D. General Yahya Khan"
+        ],
+        "answer": "A. General Ayub Khan"
+    },
+    {
+        "q": "When was the 1956 Constitution of Pakistan abrogated?",
+        "options": [
+            "A. 6th October, 1958",
+            "B. 5th October, 1958",
+            "C. 9th October, 1958",
+            "D. 7th October, 1958"
+        ],
+        "answer": "D. 7th October, 1958"
+    },
+    {
+        "q": "Who was Ghulam Muhammad?",
+        "options": [
+            "A. Governor General",
+            "B. Prime Minister",
+            "C. President",
+            "D. Chief Justice"
+        ],
+        "answer": "A. Governor General"
+    },
+    {
+        "q": "In which court did Maulvi Tamizuddin challenge the dissolution of the First Constituent Assembly of Pakistan?",
+        "options": [
+            "A. Sindh High Court",
+            "B. Peshawar High Court",
+            "C. Supreme Court",
+            "D. Lahore High Court"
+        ],
+        "answer": "C. Supreme Court"
+    },
+    {
+        "q": "According to the 1956 Constitution of Pakistan, who was responsible for electing the President?",
+        "options": [
+            "A. National Assembly and Provincial Assemblies",
+            "B. Prime Minister",
+            "C. Provincial Assemblies",
+            "D. National Assembly and Senate"
+        ],
+        "answer": "A. National Assembly and Provincial Assemblies"
+    },
+    {
+        "q": "Under which Act, the First Constituent Assembly of Pakistan came into being?",
+        "options": [
+            "A. Government of India Act, 1935",
+            "B. Indian Independence Act, 1947",
+            "C. Indian Council Act, 1935",
+            "D. Indian Council Act, 1942"
+        ],
+        "answer": "B. Indian Independence Act, 1947"
+    },
+    {
+        "q": "What task was assigned to the 'Shahabuddin Commission' set up in 1960?",
+        "options": [
+            "A. To examine the causes of failure of parliamentary system",
+            "B. To give legal shape to the constitution of 1956",
+            "C. To introduce Basic Democracy system in Pakistan",
+            "D. To hold presidential Referendum in the country"
+        ],
+        "answer": "A. To examine the causes of failure of parliamentary system"
+    },
+    {
+        "q": "Which constitution of Pakistan had 234 articles and 6 schedules, outlining the framework for governance and power management?",
+        "options": [
+            "A. Constitution of 1973",
+            "B. Constitution of 1962",
+            "C. Interim constitution of 1947",
+            "D. Constitution of 1956"
+        ],
+        "answer": "D. Constitution of 1956"
+    },
+    {
+        "q": "Under the 1956 Constitution, what was the official name of Pakistan?",
+        "options": [
+            "A. Islamic Republic",
+            "B. Islamic Republic of Pakistan",
+            "C. Republic State of Pakistan",
+            "D. Republic of Pakistan"
+        ],
+        "answer": "B. Islamic Republic of Pakistan"
+    },
+    {
+        "q": "In which year was the One Unit Scheme introduced in Pakistan?",
+        "options": [
+            "A. In October, 1956",
+            "B. In October, 1953",
+            "C. In October, 1954",
+            "D. In October, 1955"
+        ],
+        "answer": "D. In October, 1955"
+    },
+    {
+        "q": "In which constitution of Pakistan a one-house Parliament was introduced?",
+        "options": [
+            "A. The Constitution of 1956",
+            "B. The Constitution of 1973",
+            "C. The Constitution of 1962",
+            "D. Interim Constitution of 1947"
+        ],
+        "answer": "A. The Constitution of 1956"
+    },
+    {
+        "q": "Which constitution is considered as the presidential constitution of Pakistan?",
+        "options": [
+            "A. Constitution of 1973",
+            "B. Constitution of 1935",
+            "C. Constitution of 1956",
+            "D. Constitution of 1962"
+        ],
+        "answer": "D. Constitution of 1962"
+    },
+    {
+        "q": "Under the 1962 Constitution, Parliament consisted of ___________.",
+        "options": [
+            "A. Four houses",
+            "B. Three houses",
+            "C. Two houses",
+            "D. One house"
+        ],
+        "answer": "D. One house"
+    },
+    {
+        "q": "Who moved Objectives Resolution?",
+        "options": [
+            "A. K. Fazlul Haq",
+            "B. Muhammad Ali Bogra",
+            "C. Liaquat Ali Khan",
+            "D. Muhammad Ali Jinnah"
+        ],
+        "answer": "C. Liaquat Ali Khan"
+    },
+    {
+        "q": "Who was authorized to appoint the Prime Minister of Pakistan under the 1956 Constitution?",
+        "options": [
+            "A. Speaker of National Assembly",
+            "B. Prime Minister",
+            "C. Chairman of Senate",
+            "D. President"
+        ],
+        "answer": "D. President"
+    },
+    {
+        "q": "When was the First BPC (Basic Principles Committee) Report presented to the Constituent Assembly of Pakistan?",
+        "options": [
+            "A. 1949",
+            "B. 1951",
+            "C. 1952",
+            "D. 1950"
+        ],
+        "answer": "D. 1950"
+    },
+    {
+        "q": "The Objectives Resolution has been added in the preamble of which constitution of Pakistan?",
+        "options": [
+            "A. Constitution of 1956",
+            "B. Constitution of 1973",
+            "C. Constitution of 1962",
+            "D. All of them"
+        ],
+        "answer": "D. All of them"
+    },
+    {
+        "q": "Which form of government was adopted under the 1962 Constitution?",
+        "options": [
+            "A. Unitary",
+            "B. Kingship",
+            "C. Presidential",
+            "D. Parliamentary"
+        ],
+        "answer": "C. Presidential"
+    },
+    {
+        "q": "In which city was the first meeting of the Constituent Assembly held on August 11, 1947?",
+        "options": [
+            "A. Karachi",
+            "B. Quetta",
+            "C. Lahore",
+            "D. Islamabad"
+        ],
+        "answer": "A. Karachi"
+    },
+    {
+        "q": "The 1956 Constitution provided lists including _____________.",
+        "options": [
+            "A. Federal and Provincial",
+            "B. Federal, Provincial and Concurrent",
+            "C. Federal and Concurrent",
+            "D. Provincial and Concurrent"
+        ],
+        "answer": "B. Federal, Provincial and Concurrent"
+    },
+    {
+        "q": "According to Objectives Resolution Pakistan shall be______.",
+        "options": [
+            "A. Democratic State",
+            "B. An Islamic State",
+            "C. An Islamic Democratic State",
+            "D. Secular State"
+        ],
+        "answer": "C. An Islamic Democratic State"
+    },
+    {
+        "q": "How many articles were there in the 1962 Constitution?",
+        "options": [
+            "A. 225 Articles",
+            "B. 234 Articles",
+            "C. 250 Articles",
+            "D. 243 Articles"
+        ],
+        "answer": "C. 250 Articles"
+    },
+    {
+        "q": "According to Objectives Resolution Pakistan shall be______.",
+        "options": [
+            "A. Secular State",
+            "B. Democratic State",
+            "C. An Islamic State",
+            "D. An Islamic Democratic State"
+        ],
+        "answer": "D. An Islamic Democratic State"
+    },
+    {
+        "q": "Which BPC report is also known as Muhammad Ali Bogra Formula?",
+        "options": [
+            "A. First BPC Report",
+            "B. Fourth BPC Report",
+            "C. Third BPC Report",
+            "D. Second BPC Report"
+        ],
+        "answer": "D. Second BPC Report"
+    },
+    {
+        "q": "The candidate for the post of President of Pakistan must ________________.",
+        "options": [
+            "A. Muslim and non-Muslim both",
+            "B. Not be a Muslim",
+            "C. Be a Sunni Muslim",
+            "D. Be a Muslim"
+        ],
+        "answer": "D. Be a Muslim"
+    },
+    {
+        "q": "According to Bogra Formula, legislature would consist of how many houses?",
+        "options": [
+            "A. 5",
+            "B. 4",
+            "C. 3",
+            "D. 2"
+        ],
+        "answer": "D. 2"
+    },
+    {
+        "q": "When did the 2nd Constituent Assembly come into existence?",
+        "options": [
+            "A. 1952",
+            "B. 1953",
+            "C. 1954",
+            "D. 1955"
+        ],
+        "answer": "D. 1955"
+    },
+    {
+        "q": "When was the Constitution of 1962 promulgated?",
+        "options": [
+            "A. 7 June, 1962",
+            "B. 6 June, 1962",
+            "C. 5 June, 1962",
+            "D. 8 June, 1962"
+        ],
+        "answer": "D. 8 June, 1962"
+    },
+    {
+        "q": "In which constitution of Pakistan a one-house Parliament was introduced?",
+        "options": [
+            "A. The Constitution of 1973",
+            "B. The Constitution of 1962",
+            "C. The Constitution of 1956",
+            "D. Interim Constitution of 1947"
+        ],
+        "answer": "C. The Constitution of 1956"
+    },
+    {
+        "q": "Who was the head of government under the 1956 Constitution?",
+        "options": [
+            "A. Speaker",
+            "B. Governor",
+            "C. President",
+            "D. Prime Minister"
+        ],
+        "answer": "D. Prime Minister"
+    },
+    {
+        "q": "When was the 1962 Constitution abrogated?",
+        "options": [
+            "A. March 26, 1969",
+            "B. March 28, 1969",
+            "C. March 27, 1969",
+            "D. March 25, 1969"
+        ],
+        "answer": "D. March 25, 1969"
+    },
+    {
+        "q": "When did the Constitution of 1962 enforce in Pakistan?",
+        "options": [
+            "A. 23rd March, 1962",
+            "B. 14th August, 1962",
+            "C. 1st July, 1962",
+            "D. 8th June, 1962"
+        ],
+        "answer": "D. 8th June, 1962"
+    },
+    {
+        "q": "Under the 1956 Constitution, what was the official name of Pakistan?",
+        "options": [
+            "A. Republic State of Pakistan",
+            "B. Islamic Republic",
+            "C. Islamic Republic of Pakistan",
+            "D. Republic of Pakistan"
+        ],
+        "answer": "C. Islamic Republic of Pakistan"
+    },
+    {
+        "q": "Who challenged the dissolution of the First Constituent Assembly of Pakistan in Court?",
+        "options": [
+            "A. Muhammad Ali Bogra",
+            "B. Iskander Mirza",
+            "C. Khawaja Nazimuddin",
+            "D. Maulvi Tamizuddin"
+        ],
+        "answer": "D. Maulvi Tamizuddin"
+    },
+    {
+        "q": "When did Governor-General Ghulam Muhammad dissolve the First Constituent Assembly of Pakistan?",
+        "options": [
+            "A. In October, 1955",
+            "B. In October, 1956",
+            "C. In October, 1954",
+            "D. In October, 1953"
+        ],
+        "answer": "C. In October, 1954"
+    },
+    {
+        "q": "When was the first BPC Report presented to the Constituent Assembly of Pakistan?",
+        "options": [
+            "A. 1953",
+            "B. 1950",
+            "C. 1952",
+            "D. 1951"
+        ],
+        "answer": "B. 1950"
+    },
+    {
+        "q": "Which Act served as the interim Constitution after the creation of Pakistan?",
+        "options": [
+            "A. Indian Independence Act of 1947",
+            "B. Pakistan Independence Act 1947",
+            "C. The Constitution Act 1956",
+            "D. Government of India Act, 1935"
+        ],
+        "answer": "A. Indian Independence Act of 1947"
+    },
+    {
+        "q": "Who dismissed Khawaja Nazimuddin's Cabinet?",
+        "options": [
+            "A. Ghulam Muhammad",
+            "B. Iskandar Mirza",
+            "C. Ayub Khan",
+            "D. Liaquat Ali Khan"
+        ],
+        "answer": "A. Ghulam Muhammad"
+    },
+    {
+        "q": "Which constitution is considered as the presidential constitution of Pakistan?",
+        "options": [
+            "A. Constitution of 1956",
+            "B. Constitution of 1962",
+            "C. Constitution of 1935",
+            "D. Constitution of 1973"
+        ],
+        "answer": "B. Constitution of 1962"
+    },
+    {
+        "q": "The Objectives Resolution has been added in the preamble of which constitution of Pakistan?",
+        "options": [
+            "A. All of them",
+            "B. Constitution of 1962",
+            "C. Constitution of 1973",
+            "D. Constitution of 1956"
+        ],
+        "answer": "A. All of them"
+    },
+    {
+        "q": "The Basic Principles Committee was formed on:",
+        "options": [
+            "A. March 12, 1949",
+            "B. June 12, 1949",
+            "C. May 12, 1949",
+            "D. April 12, 1949"
+        ],
+        "answer": "A. March 12, 1949"
+    },
+    {
+        "q": "Who abrogated the Constitution of 1962 on March 25, 1969?",
+        "options": [
+            "A. General Yahya Khan",
+            "B. Zulfiqar Ali Bhutto",
+            "C. Iskander Mirza",
+            "D. General Ayub Khan"
+        ],
+        "answer": "A. General Yahya Khan"
+    },
+    {
+        "q": "Who is said to be the first Chief Martial Law Administrator in Pakistan?",
+        "options": [
+            "A. General Ayub Khan",
+            "B. General Yahya Khan",
+            "C. General Zia-ul-Haq",
+            "D. General Pervaiz Musharraf"
+        ],
+        "answer": "A. General Ayub Khan"
+    },
+    {
+        "q": "When did Ayub Khan introduce the Basic Democracies System in Pakistan?",
+        "options": [
+            "A. 1961",
+            "B. 1958",
+            "C. 1960",
+            "D. 1959"
+        ],
+        "answer": "D. 1959"
+    },
+    {
+        "q": "When did the military assume power in Pakistan for the first time?",
+        "options": [
+            "A. On 17 February, 1960",
+            "B. On 23 March, 1956",
+            "C. On 14 August, 1956",
+            "D. On 7 October, 1958"
+        ],
+        "answer": "D. On 7 October, 1958"
+    },
+    {
+        "q": "Which Constitution of Pakistan is considered a presidential-type constitution?",
+        "options": [
+            "A. The Government of India Act of 1935",
+            "B. The Constitution of 1973",
+            "C. The Constitution of 1956",
+            "D. The Constitution of 1962"
+        ],
+        "answer": "D. The Constitution of 1962"
+    },
+    {
+        "q": "What was the minimum age for a member of the National Assembly of Pakistan according to the 1962 Constitution?",
+        "options": [
+            "A. 23 Years",
+            "B. 18 Years",
+            "C. 25 Years",
+            "D. 20 Years"
+        ],
+        "answer": "C. 25 Years"
+    },
+    {
+        "q": "The 1956 Constitution had ______ articles and _____ schedules.",
+        "options": [
+            "A. 250 articles and 5 schedules",
+            "B. 234 articles and 6 schedules",
+            "C. 250 articles and 6 schedules",
+            "D. 234 articles and 5 schedules"
+        ],
+        "answer": "B. 234 articles and 6 schedules"
+    },
+    {
+        "q": "What was the duration of second term of Benazir Bhutto’s Government?",
+        "options": [
+            "A. October 1995-November 1998",
+            "B. October 1983-November 1986",
+            "C. October 1991-November 1992",
+            "D. October 1993-November 1996"
+        ],
+        "answer": "D. October 1993-November 1996"
+    },
+    {
+        "q": "After how many years did Pakistan get its first Constitution?",
+        "options": [
+            "A. 5 years",
+            "B. 7 years",
+            "C. 9 years",
+            "D. 11 years"
+        ],
+        "answer": "C. 9 years"
+    },
+    {
+        "q": "According to the 1973 Constitution, the upper house of the Parliament is called :",
+        "options": [
+            "A. Senate",
+            "B. Provincial Assembly",
+            "C. Cabinet",
+            "D. National Assembly"
+        ],
+        "answer": "A. Senate"
+    },
+    {
+        "q": "According to the 1973 Constitution, the lower house of the Parliament is called :",
+        "options": [
+            "A. Provincial Assembly",
+            "B. National Assembly",
+            "C. Cabinet",
+            "D. Senate"
+        ],
+        "answer": "B. National Assembly"
+    },
+    {
+        "q": "When did Mohammad Ali Bogra present Bogra Formula in the Constituent Assembly?",
+        "options": [
+            "A. October 1953",
+            "B. September 1953",
+            "C. April 1953",
+            "D. January 1953"
+        ],
+        "answer": "A. October 1953"
+    },
+    {
+        "q": "According to the 1973 Constitution, the tenure of the National Assembly is:",
+        "options": [
+            "A. 4 Years",
+            "B. 6 Years",
+            "C. 3 Years",
+            "D. 5 Years"
+        ],
+        "answer": "D. 5 Years"
+    },
+    {
+        "q": "Which of the following city is rich in Gypsum?",
+        "options": [
+            "A. Zoab",
+            "B. Malakand",
+            "C. Chakwal",
+            "D. Jehlum"
+        ],
+        "answer": "C. Chakwal"
+    },
+    {
+        "q": "How much area is covered by forests in Pakistan?",
+        "options": [
+            "A. 8%",
+            "B. 5%",
+            "C. 6%",
+            "D. 7%"
+        ],
+        "answer": "B. 5%"
+    },
+    {
+        "q": "Under which article, the Objectives Resolution became the permanent part of Constitution of 1973?",
+        "options": [
+            "A. 1-A of 8th Amendment",
+            "B. 3-A of 8th Amendment",
+            "C. 2-A of 8th Amendment",
+            "D. 4-A of 8th Amendment"
+        ],
+        "answer": "C. 2-A of 8th Amendment"
+    },
+    {
+        "q": "Durand Line between Pakistan and Afghanistan was drawn in __________.",
+        "options": [
+            "A. November 1893",
+            "B. November 1895",
+            "C. November 1894",
+            "D. November 1892"
+        ],
+        "answer": "A. November 1893"
+    },
+    {
+        "q": "China is in the northeast of Pakistan; its boundary length with Pakistan is __________.",
+        "options": [
+            "A. 500 Km",
+            "B. 1000 Km",
+            "C. 900 Km",
+            "D. 600 Km"
+        ],
+        "answer": "D. 600 Km"
+    },
+    {
+        "q": "When did Ayub Khan resign from his office as president?",
+        "options": [
+            "A. December 20, 1969",
+            "B. March 25, 1969",
+            "C. November 21, 1969",
+            "D. October 16, 1969"
+        ],
+        "answer": "B. March 25, 1969"
+    },
+    {
+        "q": "According to the 1973 Constitution, half of the senators are elected after every:",
+        "options": [
+            "A. 5 Years",
+            "B. 6 Years",
+            "C. 4 Years",
+            "D. 3 Years"
+        ],
+        "answer": "D. 3 Years"
+    },
+    {
+        "q": "In the general elections of 1970, how many seats did the Pakistan Peoples Party win?",
+        "options": [
+            "A. 98",
+            "B. 89",
+            "C. 81",
+            "D. 92"
+        ],
+        "answer": "C. 81"
+    },
+    {
+        "q": "Who abrogated the 1956 Constitution of Pakistan?",
+        "options": [
+            "A. Ayub Khan",
+            "B. Yahya Khan",
+            "C. Iskandar Mirza",
+            "D. Tikka Khan"
+        ],
+        "answer": "C. Iskandar Mirza"
+    },
+    {
+        "q": "Who was the interim Prime Minister during the period of April-May 1993?",
+        "options": [
+            "A. Dr. Moeen Qureshi",
+            "B. Balakh Sher Mazari",
+            "C. Malik Meraj Khalid",
+            "D. Ghulam Mustafa Jatoi"
+        ],
+        "answer": "B. Balakh Sher Mazari"
+    },
+    {
+        "q": "The archaeological heritage of Harappa is located in _____________.",
+        "options": [
+            "A. Okara",
+            "B. Sahiwal",
+            "C. Ghandhara",
+            "D. Taxila"
+        ],
+        "answer": "B. Sahiwal"
+    },
+    {
+        "q": "The 2nd Constituent Assembly was constituted in:",
+        "options": [
+            "A. 1957",
+            "B. 1958",
+            "C. 1955",
+            "D. 1956"
+        ],
+        "answer": "C. 1955"
+    },
+    {
+        "q": "Where are the deposits of Sulphur found in Pakistan?",
+        "options": [
+            "A. Thatta, Tharparkar, Manara",
+            "B. Jhelum, Mianwali, Attock",
+            "C. Deegari, Sharig, Soer",
+            "D. Kalat, Khairpur, Mardan"
+        ],
+        "answer": "A. Thatta, Tharparkar, Manara"
+    },
+    {
+        "q": "Water Logging and Salinity is one of the problems of___________.",
+        "options": [
+            "A. Irrigation",
+            "B. Industry",
+            "C. Agriculture",
+            "D. Mining"
+        ],
+        "answer": "A. Irrigation"
+    },
+    {
+        "q": "When Local Bodies elections were conducted during Zia-ul-Haq regime in Pakistan?",
+        "options": [
+            "A. 1979",
+            "B. 1976",
+            "C. 1977",
+            "D. 1978"
+        ],
+        "answer": "A. 1979"
+    },
+    {
+        "q": "Zia-ul-Haq conducted non party basis elections in ____________.",
+        "options": [
+            "A. January 1985",
+            "B. March 1985",
+            "C. February 1985",
+            "D. April 1985"
+        ],
+        "answer": "C. February 1985"
+    },
+    {
+        "q": "Who promulgated the longest Martial Law in Pakistan?",
+        "options": [
+            "A. Zulfiqar Ali Bhutto",
+            "B. General Yahya Khan",
+            "C. General Ayub Khan",
+            "D. General Zia-ul-Haq"
+        ],
+        "answer": "D. General Zia-ul-Haq"
+    },
+    {
+        "q": "The first gas reserves in Pakistan were found at____________.",
+        "options": [
+            "A. Jehlum",
+            "B. Khanpur",
+            "C. Uch",
+            "D. Sui"
+        ],
+        "answer": "D. Sui"
+    },
+    {
+        "q": "Which province of Pakistan is densely populated?",
+        "options": [
+            "A. Khyber Pakhtunkhwa",
+            "B. Baluchistan",
+            "C. Punjab",
+            "D. Sindh"
+        ],
+        "answer": "C. Punjab"
+    },
+    {
+        "q": "General Pervez Musharraf conducted referendum and general elections of National Assembly in______________.",
+        "options": [
+            "A. 2002",
+            "B. 1999",
+            "C. 2004",
+            "D. 2006"
+        ],
+        "answer": "A. 2002"
+    },
+    {
+        "q": "Federal Shariah Court was established in___________.",
+        "options": [
+            "A. 1982",
+            "B. 1980",
+            "C. 1983",
+            "D. 1981"
+        ],
+        "answer": "B. 1980"
+    },
+    {
+        "q": "What percent of population of Pakistan reside in rural areas?",
+        "options": [
+            "A. 50%",
+            "B. 70%",
+            "C. 40%",
+            "D. 60%"
+        ],
+        "answer": "D. 60%"
+    },
+    {
+        "q": "Under the 1973 Constitution, the President of Pakistan is elected by the:",
+        "options": [
+            "A. Provincial Assemblies",
+            "B. National Assembly",
+            "C. All of these",
+            "D. Senate"
+        ],
+        "answer": "C. All of these"
+    },
+    {
+        "q": "Who was the second Governor General of Pakistan?",
+        "options": [
+            "A. Quaid-e-Azam Muhammad Ali Jinnah",
+            "B. Khawaja Nazimuddin",
+            "C. Iskandar Mirza",
+            "D. Ghulam Mohammad"
+        ],
+        "answer": "B. Khawaja Nazimuddin"
+    },
+    {
+        "q": "When Usher was imposed on agriculture products?",
+        "options": [
+            "A. 1981",
+            "B. 1980",
+            "C. 1982",
+            "D. 1983"
+        ],
+        "answer": "D. 1983"
+    },
+    {
+        "q": "According to the 1973 Constitution the tenure of the National Assembly is:",
+        "options": [
+            "A. 6 Years",
+            "B. 3 Years",
+            "C. 4 Years",
+            "D. 5 Years"
+        ],
+        "answer": "D. 5 Years"
+    },
+    {
+        "q": "Ghulam Muhammad was the:",
+        "options": [
+            "A. Second Governor General of Pakistan",
+            "B. Third Governor General of Pakistan",
+            "C. Fourth Governor General of Pakistan",
+            "D. First Governor General of Pakistan"
+        ],
+        "answer": "B. Third Governor General of Pakistan"
+    },
+    {
+        "q": "In which of the following cities, the deposits of Chromite are found in Pakistan?",
+        "options": [
+            "A. Zoab",
+            "B. Dadu",
+            "C. Sui",
+            "D. Attock"
+        ],
+        "answer": "A. Zoab"
+    },
+    {
+        "q": "Thal, Cholistan and Thar deserts are located in__________ of Indus Plain.",
+        "options": [
+            "A. South East",
+            "B. South West",
+            "C. North West",
+            "D. North East"
+        ],
+        "answer": "A. South East"
+    },
+    {
+        "q": "Which pact was signed between Pakistan and India after War of 1965?",
+        "options": [
+            "A. Tashkant Pact",
+            "B. Simla Agreement",
+            "C. Lahore Agreement",
+            "D. Vienna Convention"
+        ],
+        "answer": "A. Tashkant Pact"
+    },
+    {
+        "q": "Elective Bodies Disqualification Order (EBDO) was introduced in the period of____________ .",
+        "options": [
+            "A. President Pervez Musharraf",
+            "B. President Zia-ul-Haq",
+            "C. President Yahya Khan",
+            "D. President Ayub Khan"
+        ],
+        "answer": "D. President Ayub Khan"
+    },
+    {
+        "q": "Mohallah Salat Committees were formed under the rule of__________.",
+        "options": [
+            "A. General Zia-ul-Haq",
+            "B. General Pervez Musharraf",
+            "C. General Ayub Khan",
+            "D. General Yahya Khan"
+        ],
+        "answer": "A. General Zia-ul-Haq"
+    },
+    {
+        "q": "When did Ayub Khan take over as Chief Martial Law Administrator (CMLA)?",
+        "options": [
+            "A. 1956",
+            "B. 1958",
+            "C. 1959",
+            "D. 1957"
+        ],
+        "answer": "B. 1958"
+    },
+    {
+        "q": "In which of the following cities, oil reserves are found in Pakistan? Select the right group.",
+        "options": [
+            "A. Zhob,Dadu,Kandhkot",
+            "B. Dara Adamkhel, Lalamusa, Kharian",
+            "C. Jhelum, Mianwali, Attock",
+            "D. Sui,Uch,Musakhel"
+        ],
+        "answer": "A. Zhob,Dadu,Kandhkot"
+    },
+    {
+        "q": "Who initiated the policy of Nationalization?",
+        "options": [
+            "A. Yahya Khan",
+            "B. Ayub Khan",
+            "C. Nawaz Sharif",
+            "D. Zulfiqar Ali Bhutto"
+        ],
+        "answer": "D. Zulfiqar Ali Bhutto"
+    },
+    {
+        "q": "Kharif crops are sown in__________ in Pakistan.",
+        "options": [
+            "A. September-October",
+            "B. July-August",
+            "C. May-June",
+            "D. January-Febraury"
+        ],
+        "answer": "C. May-June"
+    },
+    {
+        "q": "Total area of Baluchistan is __________ sq km.",
+        "options": [
+            "A. 347.2",
+            "B. 480.5",
+            "C. 290.3",
+            "D. 105.2"
+        ],
+        "answer": "A. 347.2"
+    },
+    {
+        "q": "The share of agriculture in annual GDP is ____________ in Pakistan.",
+        "options": [
+            "A. 26%",
+            "B. 45%",
+            "C. 60%",
+            "D. 50%"
+        ],
+        "answer": "A. 26%"
+    },
+    {
+        "q": "According to the 1973 Constitution, Pakistan had a:",
+        "options": [
+            "A. Bicameral Parliament",
+            "B. Multicameral Parliament",
+            "C. Unicameral Parliament",
+            "D. Tricameral Parliament"
+        ],
+        "answer": "A. Bicameral Parliament"
+    },
+    {
+        "q": "Who became the first civilian Chief Martial Law administrator?",
+        "options": [
+            "A. Zulfiqar Ali Bhutto",
+            "B. Benazir Bhuttto",
+            "C. Nawaz Sharif",
+            "D. Dr. Moeen Qureshi"
+        ],
+        "answer": "A. Zulfiqar Ali Bhutto"
+    },
+    {
+        "q": "Line of Control (LOC) is a boundary between Pakistan and ___________.",
+        "options": [
+            "A. Iran",
+            "B. India",
+            "C. China",
+            "D. Afghanistan"
+        ],
+        "answer": "B. India"
+    },
+    {
+        "q": "Bait-ul-Mall was established for the first time in the reign of___________.",
+        "options": [
+            "A. General Pervez Musharraf",
+            "B. General Zia-ul-Haq",
+            "C. General Ayub Khan",
+            "D. General Yahya Khan"
+        ],
+        "answer": "B. General Zia-ul-Haq"
+    },
+    {
+        "q": "Under the 1973 Constitution of Pakistan, the Financial Bill is presented in the ----.",
+        "options": [
+            "A. Senate",
+            "B. National Assembly",
+            "C. Legislative Council",
+            "D. Cabinet"
+        ],
+        "answer": "B. National Assembly"
+    },
+    {
+        "q": "Which is the highest peak of Pakistan?",
+        "options": [
+            "A. Kilik Peak",
+            "B. Sia Kangri Peak",
+            "C. K-2",
+            "D. Broad Peak"
+        ],
+        "answer": "C. K-2"
+    },
+    {
+        "q": "Total area of Pakistan was ___________ in 1947.",
+        "options": [
+            "A. 698,000 km2",
+            "B. 850,000 km2",
+            "C. 796,095 km2",
+            "D. 769,000 km2"
+        ],
+        "answer": "C. 796,095 km2"
+    },
+    {
+        "q": "What should be the minimum age of the President according to the 1973 Constitution?",
+        "options": [
+            "A. 45 Years",
+            "B. 40 Years",
+            "C. 50 Years",
+            "D. 35 Years"
+        ],
+        "answer": "A. 45 Years"
+    },
+    {
+        "q": "The President of Pakistan is elected for a term of:",
+        "options": [
+            "A. 4 Years",
+            "B. 6 Years",
+            "C. 5 Years",
+            "D. 3 Years"
+        ],
+        "answer": "C. 5 Years"
+    },
+    {
+        "q": "What was the main purpose of the East India Company’s arrival in the Subcontinent? ",
+        "options": [
+            "A. To promote tourism",
+            "B. To occupy territory through military conquest",
+            "C. To establish trade relations",
+            "D. To spread Christianity"
+        ],
+        "answer": "C. To establish trade relations"
+    },
+    {
+        "q": "Why did the British government cancel the partition of Bengal in 1911? ",
+        "options": [
+            "A. To appease the leaders of the Indian National Congress",
+            "B. To make a new policy about Bengal",
+            "C. To avoid any trouble during the visit of King George V",
+            "D. To give political rights to Muslims of India"
+        ],
+        "answer": "A. To appease the leaders of the Indian National Congress"
+    },
+    {
+        "q": "Who first introduced the term 'Two Nation Theory'? ",
+        "options": [
+            "A. Allama Iqbal",
+            "B. Sir Syed Ahmad Khan",
+            "C. Liaquat Ali Khan",
+            "D. Quaid-i-Azam"
+        ],
+        "answer": "B. Sir Syed Ahmad Khan"
+    },
+    {
+        "q": "Which of the following political parties was NOT in favour of the partition of Bengal? ",
+        "options": [
+            "A. All India Muslim League",
+            "B. Indian National Congress",
+            "C. Unionist Party",
+            "D. Awami League"
+        ],
+        "answer": "B. Indian National Congress"
+    },
+    {
+        "q": "What was the main goal of the formation of the Muhammadan Defence Association? ",
+        "options": [
+            "A. To demand immediate independence from British rule",
+            "B. To promote Hindu-Muslim unity",
+            "C. To spread western education among all Indians",
+            "D. To protect the political rights of Indian Muslims"
+        ],
+        "answer": "D. To protect the political rights of Indian Muslims"
+    },
+    {
+        "q": "Why did the British conquer the Muslim rulers? ",
+        "options": [
+            "A. Small Muslim armies",
+            "B. Support from the Ottoman Empire",
+            "C. Weak leadership",
+            "D. Technological military superiority"
+        ],
+        "answer": "D. Technological military superiority"
+    },
+    {
+        "q": "Which Muslim leader opposed the Two-Nation Theory? ",
+        "options": [
+            "A. Quaid-e-Azam",
+            "B. Liaquat Ali Khan",
+            "C. Maulana Abdul Kalam Azad",
+            "D. Allama Iqbal"
+        ],
+        "answer": "C. Maulana Abdul Kalam Azad"
+    },
+    {
+        "q": "On which issue did Quaid-e-Azam disagree with Gandhi, leading to his departure from the Indian National Congress? ",
+        "options": [
+            "A. On the issue of Hindu-Muslim unity",
+            "B. On the demand for Separate Electorates",
+            "C. On the use of extra-constitutional means",
+            "D. On the issue of seats in Assembly"
+        ],
+        "answer": "C. On the use of extra-constitutional means"
+    },
+    {
+        "q": "In which year was Sir Syed Ahmed Khan born? ",
+        "options": [
+            "A. 1827",
+            "B. 1807",
+            "C. 1817",
+            "D. 1837"
+        ],
+        "answer": "C. 1817"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
            {
         "q": "When was the Political Parties Act introduced in Pakistan?",
         "options": [

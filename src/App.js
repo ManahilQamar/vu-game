@@ -6,7 +6,6 @@ import Upload     from './pages/Upload';
 import Quiz       from './components/Quiz';
 import Summary    from './pages/Summary';
 import PastPapers from './pages/PastPapers';
-import MathTyper  from './pages/MathTyper';
 import Practice   from './pages/Practice';
 import MockExams  from './pages/MockExams';
 import ExamPaper  from './pages/ExamPaper';
@@ -53,7 +52,6 @@ export default function App() {
 
   if (page === 'home')   return <Home {...sharedProps} />;
   if (page === 'papers') return <PastPapers {...sharedProps} />;
-  if (page === 'math')   return <MathTyper {...sharedProps} />;
   if (page === 'exams')  return <MockExams {...sharedProps} />;
 
   if (page.startsWith('upload-')) {
