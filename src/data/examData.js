@@ -54,4435 +54,3419 @@ const examData = {
       title: 'MTH101 — Final Term Examination',
       totalMarks: 60,
       mcqMarks: 1,
-      mcqs: [
-    {
-        "q": "Which of the following statements is true about ∫₀¹ (sinx + cosx) dx?",
-        "options": [
-            "A. ∫₀¹ (sinx+cosx)dx = [sinx]₁₀ + [cosx]₁₀",
-            "B. ∫₀¹ (sinx+cosx)dx = [sinx]₁₀ - [cosx]₁₀",
-            "C. ∫₀¹ (sinx+cosx)dx = [cosx]₁₀ + [sinx]₁₀",
-            "D. None"
-        ],
-        "answer": "C. ∫₀¹ (sinx+cosx)dx = [cosx]₁₀ + [sinx]₁₀"
-    },
-    {
-        "q": "If the function and limits of definite integral are the same and variable of integration are changed, i.e. ∫ₐᵇ f(x)dx = ∫ₐᵇ f(t)dt, then the answer would be:",
-        "options": [
-            "A. do not changed",
-            "B. changed"
-        ],
-        "answer": "A. do not changed"
-    },
-    {
-        "q": "In integration of f(x) = x(x² - 3)⁴, let u = x² - 3, then du =",
-        "options": [
-            "A. dx",
-            "B. x",
-            "C. 2x",
-            "D. 2x dx"
-        ],
-        "answer": "D. 2x dx"
-    },
-    {
-        "q": "Which of the following statements is true?",
-        "options": [
-            "A. ∫₀¹ (4sinx + 3sec²x) dx = 3∫₀¹ 4sinx dx + 4∫₀¹ 3sec²x dx",
-            "B. None",
-            "C. ∫₀¹ (2cosx - 5tan²x) dx = ∫₀¹ 5tan²x dx - ∫₀¹ 2cosx dx",
-            "D. ∫₀¹ 7cosx dx = 7[sinx]₁₀"
-        ],
-        "answer": "D. ∫₀¹ 7cosx dx = 7[sinx]₁₀"
-    },
-    {
-        "q": "Which of the following is the definite integral of f(x) = x² from x = 1 to x = 2?",
-        "options": [
-            "A. 8/3",
-            "B. 7/3",
-            "C. None of these.",
-            "D. 7"
-        ],
-        "answer": "B. 7/3"
-    },
-    {
-        "q": "The integral of a constant function is 0.",
-        "options": [
-            "A. False",
-            "B. True"
-        ],
-        "answer": "A. False"
-    },
-
-    {
-        "q": "The integral ∫ 4x/(2x^2+1)^2 dx will be equal to ?",
-        "options": [
-            "- 1/(2x^2 + 1) + c",
-            "- 1/((2x^2 + 1)^3) + c",
-            "1/(2x^2 + 1) + c",
-            "- 1/(2x + 1) + c"
-        ],
-        "answer": "- 1/(2x^2 + 1) + c"
-    },
-    {
-        "q": "If f(x) = x^5 + x, then which of the following is true about it.",
-        "options": [
-            "Its anti – derivative is x^5/5 + 1.",
-            "Its anti – derivative is x^6/6 + x^2/2 + 6.",
-            "Its anti – derivative is 5x^4 + 1.",
-            "None of these."
-        ],
-        "answer": "Its anti – derivative is x^6/6 + x^2/2 + 6."
-    },
-    {
-        "q": "Which of the following is the sum of 5^(k+1) where k goes from 1 to 3?",
-        "options": [
-            "525",
-            "675",
-            "775",
-            "875"
-        ],
-        "answer": "775"
-    },
-    {
-        "q": "What will be the value of summation of k3 where k goes from 3 to 3?",
-        "options": [
-            "9",
-            "1",
-            "27",
-            "3"
-        ],
-        "answer": "27"
-    },
-    {
-        "q": "Newton’s method is not applicable when ‘f’ is a …………",
-        "options": [
-            "Exponential function.",
-            "Trignometric function",
-            "Constant function",
-            "Polynomial"
-        ],
-        "answer": "Constant function"
-    },
-    {
-        "q": "1+2+3+…+200 equals _____.",
-        "options": [
-            "20100",
-            "20012",
-            "21021",
-            "21220"
-        ],
-        "answer": "20100"
-    },
-    {
-        "q": "The derivative of the area under the continuous function f(x)= 2+3Sinx in the interval[-pi,pi] is---------",
-        "options": [
-            "2-3Cosx",
-            "2-3Sinx",
-            "2+3Cosx",
-            "2+3Sinx"
-        ],
-        "answer": "2+3Sinx"
-    },
-    {
-        "q": "If f(x)=Tan(x) then mean value theorem can be applied to it on the interval (0,2pi)",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "By using Newton method, which of the following is the poorest initial approximate solution of equation:x+Cosx=0?",
-        "options": [
-            "x=-pi/3",
-            "x=0",
-            "x=pi/2",
-            "x=-pi/4"
-        ],
-        "answer": "x=0"
-    },
-    {
-        "q": "For the given function f(x)= 2(x^2)+1 in the interval [-1,2] , which condition of Rolle’s theorem is not satisfied.",
-        "options": [
-            "f (-1) = f (2)",
-            "The function is continuous in the interval",
-            "The function is differentiable in the interval",
-            "None of these."
-        ],
-        "answer": "f (-1) = f (2)"
-    },
-    {
-        "q": "How many subintervals of length ‘2’ will be formed for the interval [4,16] ?",
-        "options": [
-            "5",
-            "7",
-            "4",
-            "6"
-        ],
-        "answer": "6"
-    },
-    {
-        "q": "For Rolle's Theorem, f is differentiable on the interval __________.",
-        "options": [
-            "(a,b)",
-            "[a,b]",
-            "(a,b]",
-            "[a,b)"
-        ],
-        "answer": "(a,b)"
-    },
-    {
-        "q": "If a function f has a relative extrema at a point c, then c is a critical point for f .",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "What is the estimated area under f(x) = x from x = 0 to x = 3 with mid points for n = 3?",
-        "options": [
-            "5.0",
-            "3.5",
-            "6.5",
-            "4.5"
-        ],
-        "answer": "4.5"
-    },
-    {
-        "q": "A critical point for a function f is any value of x in the domain of f at which",
-        "options": [
-            "f'(x)=0 or f is not differentiable",
-            "f is differentiable",
-            "f'(x) <= 0",
-            "f'(x) > 0"
-        ],
-        "answer": "f'(x)=0 or f is not differentiable"
-    },
-    {
-        "q": "What are critical points of the function f(x) =x-1?",
-        "options": [
-            "x=1",
-            "No critical point",
-            "x=0",
-            "None of these"
-        ],
-        "answer": "No critical point"
-    },
-    {
-        "q": "What will be the sigma notation for 43+63+83+103?",
-        "options": [
-            "summation of (2k)3 where (k varies from 2 to 5)",
-            "summation of (2k)3 where (k varies from 1 to 4)",
-            "summation of (2k+1)3 where (k varies from 2 to 5)",
-            "summation of (2k3) where (k varies from 2 to 5)"
-        ],
-        "answer": "summation of (2k)3 where (k varies from 2 to 5)"
-    },
-    {
-        "q": "In approximation to an area Rn (where n is subscript) when limit is taken as n goes to infinity, approximation becomes actual area.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "If f''(x) > 0 ∀ x ∈ I, then the graph of f is___________ on I.",
-        "options": [
-            "concave downward",
-            "None of these",
-            "concave upward",
-            "constant"
-        ],
-        "answer": "concave upward"
-    },
-    {
-        "q": "Integration of (Cosx/Sinx).Cosecx with respect to x…………",
-        "options": [
-            "-Cosecx",
-            "Cosecx",
-            "Cotx",
-            "Secx"
-        ],
-        "answer": "-Cosecx"
-    },
-    {
-        "q": "If f(x)=(x^3)+(x^2)+x+1 , then ‘f’ is continuous and differentiable everywhere because ‘f’ is a ……..",
-        "options": [
-            "Function",
-            "Equation",
-            "Polynomial",
-            "Relation"
-        ],
-        "answer": "Polynomial"
-    },
-    {
-        "q": "To find out critical values of a function, we put it equal to zero and solve for x.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "The anitderivative of the function f(x)=2-7Cosx, is -------",
-        "options": [
-            "All choices are true",
-            "2x-7Sinx-100",
-            "2x-7Sinx+C",
-            "2x-7Sinx+100"
-        ],
-        "answer": "All choices are true"
-    },
-    {
-        "q": "If f (x) = x^2 is defined on the interval [-1, 3], then which of the following is true about it.",
-        "options": [
-            "Its relative maximum value is 9.",
-            "Its absolute maximum value is 0.",
-            "Its absolute maximum value is 9.",
-            "None of these."
-        ],
-        "answer": "Its absolute maximum value is 9."
-    },
-    {
-        "q": "If ‘n’ goes from 1 to 4 and the summation of ‘na’ =Maxima of (e^x) in the interval[-e,0], then the value of ‘a’ is -----------",
-        "options": [
-            "10",
-            "-10",
-            "-1/10",
-            "1/10"
-        ],
-        "answer": "1/10"
-    },
-    {
-        "q": "If we subdivide the interval [2,4] into n equal parts, then what will be the length ∆x of each part?",
-        "options": [
-            "1/n",
-            "6/n",
-            "2/n",
-            "8/n"
-        ],
-        "answer": "2/n"
-    },
-    {
-        "q": "Integral of 5^2 is NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "None of these",
-            "25x",
-            "10",
-            "(1/3)5^3"
-        ],
-        "answer": "25x"
-    },
-    {
-        "q": "1+2+3+…+539 equals _____.",
-        "options": [
-            "538(540)/2",
-            "539(540)/2",
-            "538(539)/6",
-            "538(540)/6"
-        ],
-        "answer": "539(540)/2"
-    },
-    {
-        "q": "If f'(x)=x^2-1. Then the critical points of the function f are",
-        "options": [
-            "1, 2",
-            "0, 2",
-            "1, -1",
-            "0, 1"
-        ],
-        "answer": "1, -1"
-    },
-    {
-        "q": "What is the estimated area under f(x) = 2x from x = 0 to x = 4 with left end points for n = 2?",
-        "options": [
-            "8",
-            "10",
-            "18",
-            "24"
-        ],
-        "answer": "8"
-    },
-    {
-        "q": "If a function has an extreme value (either a maximum or a minimum) on an open interval (a,b), then the extreme value occurs at a ........",
-        "options": [
-            "Any point in the open interval (a,b)",
-            "Critical point of f(x)"
-        ],
-        "answer": "Critical point of f(x)"
-    },
-    {
-        "q": "Integral of (5/2)cos(x) is",
-        "options": [
-            "None of these",
-            "(5/2)sin(x)+C",
-            "(3/2)csc(x)+C",
-            "(5/2)tan(x)+C"
-        ],
-        "answer": "(5/2)sin(x)+C"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+2 from x = 2 to x = 4 with mid points approximations for n = 1, what will be the value of f(xk*) ?",
-        "options": [
-            "6",
-            "5",
-            "3",
-            "4"
-        ],
-        "answer": "5"
-    },
-    {
-        "q": "If a function f is twice differentiable at a stationary point x0 and f''(x0)>0, then f has relative __________ at x0.",
-        "options": [
-            "Maximum",
-            "Minimum",
-            "Both a and b",
-            "None of these"
-        ],
-        "answer": "Minimum"
-    },
-    {
-        "q": "f(x) = 8x-x^2 on the closed interval [0, 6] has the critical point at x=………",
-        "options": [
-            "1",
-            "5",
-            "0",
-            "4"
-        ],
-        "answer": "4"
-    },
-    {
-        "q": "Let y = f(x) be a discontinuous function on a finite closed interval, then which of the following is true about it.",
-        "options": [
-            "It has only absolute minimum value.",
-            "It must have absolute extreme values.",
-            "It may or may not have absolute extreme values.",
-            "None of these."
-        ],
-        "answer": "It may or may not have absolute extreme values."
-    },
-    {
-        "q": "If f (x) = 2 x + 7 is defined on the interval [2, 4), then which of the following is true about it.",
-        "options": [
-            "It has only absolute minimum value.",
-            "It has both absolute maximum and minimum values.",
-            "None of these.",
-            "It has only absolute maximum value."
-        ],
-        "answer": "It has only absolute minimum value."
-    },
-    {
-        "q": "If the function is continuous on the closed interval [a,b], then the function has …………",
-        "options": [
-            "Only maximum value on the [a,b]",
-            "Only minimum value on the [a,b]",
-            "Only minimum value on the [a,b]",
-            "Both maximum and minimum values on the [a,b]"
-        ],
-        "answer": "Both maximum and minimum values on the [a,b]"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+2 from x = 2 to x = 8 with left end points approximations for n = 3, what will be the values of xk* ?",
-        "options": [
-            "4, 6 and 8",
-            "2, 6 and 8",
-            "2, 4 and 6",
-            "3, 5 and 7"
-        ],
-        "answer": "2, 4 and 6"
-    },
-    {
-        "q": "The approximate solution is possible to generate using Newton’s Method if ___________.",
-        "options": [
-            "the tangent line(at approximated points) must crosses the x - axis.",
-            "the slope of tangent line(at any approximated point) is zero.",
-            "the tangent line(at any approximated point) is parallel to x- axis.",
-            "None of these."
-        ],
-        "answer": "the tangent line(at approximated points) must crosses the x - axis."
-    },
-    {
-        "q": "If ‘n’ goes from 1 to 3 and the summation of ‘na’ = derivative of Cosx at (pi/2), then the value of ‘a’=------",
-        "options": [
-            "-1/6",
-            "1/6",
-            "6",
-            "-6"
-        ],
-        "answer": "-1/6"
-    },
-    {
-        "q": "A critical point for a function f, where f'(x)=0 is called as __________ point.",
-        "options": [
-            "Mid",
-            "Tangent",
-            "Stationary",
-            "Corner"
-        ],
-        "answer": "Stationary"
-    },
-    {
-        "q": "If f(x) = Cos(x) + Sin(x) + x, then which of the following is NOT true about it.",
-        "options": [
-            "None of these.",
-            "Its anti – derivative is Sin(x) – Cos(x) + x^2/2 + 5.",
-            "Its anti – derivative is -Sin(x) – Cos(x) + x^2/2 + 4.",
-            "Its anti – derivative is Sin(x) – Cos(x) + x^2/2 + 4."
-        ],
-        "answer": "Its anti – derivative is -Sin(x) – Cos(x) + x^2/2 + 4."
-    },
-    {
-        "q": "What will be the value of summation of k2 where k goes from 11 to 12",
-        "options": [
-            "212",
-            "244",
-            "281",
-            "265"
-        ],
-        "answer": "265"
-    },
-    {
-        "q": "What is the estimated area under f(x) = 9 - x2 from x = 0 to x = 4 with mid points for n = 1?",
-        "options": [
-            "24",
-            "21",
-            "20",
-            "28"
-        ],
-        "answer": "20"
-    },
-    {
-        "q": "If ‘n’ goes from 1 to 3 and the summation of ‘na’ = definite integral of ‘1’ on closed interval [0,1], then the value of ‘a’=------------",
-        "options": [
-            "1/6",
-            "-6",
-            "-1/6",
-            "6"
-        ],
-        "answer": "1/6"
-    },
-    {
-        "q": "The estimated area under f(x) = 12 / x from x = 1 to x = 3 with right end points for n = 2 is ________.",
-        "options": [
-            "18.",
-            "10",
-            "20.",
-            "None of these."
-        ],
-        "answer": "10"
-    },
-    {
-        "q": "If f has a local maximum or minimum at c, and if f'(c) exists, then_________.",
-        "options": [
-            "f'(c) < 0",
-            "f'(c) = 0",
-            "None of these",
-            "f'(c) > 0"
-        ],
-        "answer": "f'(c) = 0"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+2 from x = 2 to x = 4 with mid points approximations for n = 1, what will be the value of xk* ?",
-        "options": [
-            "2.5",
-            "2",
-            "3.5",
-            "3"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "If f' changes from negative to positive at c, then f has a _______________ at c.",
-        "options": [
-            "local minimum",
-            "local maximum",
-            "constant",
-            "None of these"
-        ],
-        "answer": "local minimum"
-    },
-    {
-        "q": "Subdivide the interval [0, 1] into 2 equal parts, and then the width of each sub-interval will have length ………",
-        "options": [
-            "1/2",
-            "1",
-            "0",
-            "-1/2"
-        ],
-        "answer": "1/2"
-    },
-    {
-        "q": "Critical point of function f(x) =4x^2-4x+1 on closed interval [0,1] is x = ………",
-        "options": [
-            "2",
-            "1/2",
-            "0",
-            "1,2"
-        ],
-        "answer": "1/2"
-    },
-    {
-        "q": "f(x)=x^3-3x, is increasing on the interval (0 ,infinity)",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "12+22+32+…+192 equals _____.",
-        "options": [
-            "19(20)(31)/6",
-            "19(20)(37)/6",
-            "19(20)(21)/6",
-            "19(20)(39)/6"
-        ],
-        "answer": "19(20)(39)/6"
-    },
-    {
-        "q": "1+2+3+…+100 equals _____.",
-        "options": [
-            "5050",
-            "5500",
-            "5055",
-            "5005"
-        ],
-        "answer": "5050"
-    },
-    {
-        "q": "The indefinite integral of 5sinx is ……….",
-        "options": [
-            "-5cosx+c",
-            "cosx/5+c",
-            "-cosx/5+c",
-            "5cosx +c"
-        ],
-        "answer": "-5cosx+c"
-    },
-    {
-        "q": "The integral ∫ (x^2+1)^(5/2). x dx will be equal to ?",
-        "options": [
-            "2(x^2+1)^(7/2)/7 + c",
-            "None of these",
-            "(x^2+1)^(7/2)/7 + c",
-            "(x^2+1)^(7/2) + c"
-        ],
-        "answer": "(x^2+1)^(7/2)/7 + c"
-    },
-    {
-        "q": "If f (x) = |x| -2 is defined on the interval [-2, 2], then which of the following is true about it.",
-        "options": [
-            "There is a point in the interval (-2, 2) where f(x) has a horizontal tangent",
-            "There is no such point in the interval (-2, 2) where f(x) has a horizontal tangent.",
-            "It is discontinuous on the interval [-2, 2].",
-            "None of these."
-        ],
-        "answer": "There is no such point in the interval (-2, 2) where f(x) has a horizontal tangent."
-    },
-    {
-        "q": "Subdivide the interval [a, b] into 4 equal subintervals then the width of each subinterval is ------",
-        "options": [
-            "(b-2a)/4",
-            "(b-a)/4",
-            "(b-a)/2",
-            "(2b-a)/4"
-        ],
-        "answer": "(b-a)/4"
-    },
-    {
-        "q": "What is the estimated area under f(x) = x from x = 0 to x = 3 with left end points for n = 3?",
-        "options": [
-            "5",
-            "6",
-            "4",
-            "3"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "The integral ∫ 6x/(3x^2+1)^2 dx will be equal to ?",
-        "options": [
-            "-1/(3x^2+1)^3 + c",
-            "-1/(6x+1) + c",
-            "1/(3x^2+1) + c",
-            "-1/(3x^2+1) + c"
-        ],
-        "answer": "-1/(3x^2+1) + c"
-    },
-    {
-        "q": "The polynomial function f(x)=6x^2-30x+36 has the critical point over the real line is ………",
-        "options": [
-            "2/5",
-            "5/2",
-            "2",
-            "5"
-        ],
-        "answer": "5/2"
-    },
-    {
-        "q": "Let f(x)=x^3 and a=-3 ,b=3 and n = no. of partition of [-3,3]= 4 Let the widths of first, second, third and fourth intervals are 2, 1, 1, 2 respectively. Then “Mesh size” of this partition of [-3,3] is-------",
-        "options": [
-            "-1",
-            "2",
-            "1",
-            "0"
-        ],
-        "answer": "2"
-    },
-    {
-        "q": "If x =(1+2+3+...+10)+{(1^3)+(2^3)+(3^3)+...+ (10^3)}, then x = _______.",
-        "options": [
-            "55.",
-            "110.",
-            "3080.",
-            "3025."
-        ],
-        "answer": "3080."
-    },
-    {
-        "q": "If f(x) = x^4, then which of the following is Not true about it.",
-        "options": [
-            "Its anti – derivative is x^5/5.",
-            "Its anti – derivative is x^5 + 5.",
-            "Its anti – derivative is x^5/5 + 2.",
-            "Its anti – derivative is x^5/5 + 10."
-        ],
-        "answer": "Its anti – derivative is x^5 + 5."
-    },
-    {
-        "q": "If x = (4^2) + (5^2) + (6^2) + . . . + (30^2), then x = ________.",
-        "options": [
-            "465.",
-            "9455.",
-            "9441.",
-            "400."
-        ],
-        "answer": "9455."
-    },
-    {
-        "q": "What is the estimated area under f(x) = 12 / x from x = 1 to x = 3 with mid points for n = 2?",
-        "options": [
-            "12.8",
-            "18.0",
-            "13.1",
-            "10.5"
-        ],
-        "answer": "13.1"
-    },
-    {
-        "q": "Which of the following is the sum of (2k-1) where k goes from 0 to 2?",
-        "options": [
-            "-1",
-            "3",
-            "4",
-            "-2"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "The function f(x)= 2x^3-15x^2+36x have the critical points ……………on the interval [1,5]",
-        "options": [
-            "2,3",
-            "3,4",
-            "1,5",
-            "2,4"
-        ],
-        "answer": "2,3"
-    },
-    {
-        "q": "The estimated area under f(x) = x^2 from x = 1 to x = 3 with left end points for n = 2 is ________",
-        "options": [
-            "13.",
-            "6.",
-            "5.",
-            "None of these."
-        ],
-        "answer": "5."
-    },
-    {
-        "q": "If the interval [3,7] is divided into ‘4’ equal subintervals ,then right endpoint of each subinterval will be………",
-        "options": [
-            "3,4,5,6",
-            "5,6,7,8",
-            "4,5,6,7",
-            "3,5,6,8"
-        ],
-        "answer": "4,5,6,7"
-    },
-    {
-        "q": "For the area under the curve f(x) = 2x from x = 0 to x = 12 with mid points approximations for n = 3, what will be the values of xk* ?",
-        "options": [
-            "3, 7 and 11",
-            "2, 5 and 8",
-            "2, 6 and10",
-            "1, 5 and 9"
-        ],
-        "answer": "2, 6 and10"
-    },
-    {
-        "q": "The estimated area under f(x) = x^2 + 2 from x = 1 to x = 5 with left end points for n = 2 is ________.",
-        "options": [
-            "76.",
-            "None of these.",
-            "25.",
-            "28."
-        ],
-        "answer": "28."
-    },
-    {
-        "q": "What will be the value of summation of k2 where k goes from 8 to 8?",
-        "options": [
-            "1",
-            "16",
-            "64",
-            "8"
-        ],
-        "answer": "64"
-    },
-    {
-        "q": "What are critical points of the function f(x) =x^2-1? NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "x=0",
-            "None of these",
-            "x=1",
-            "No critical point"
-        ],
-        "answer": "x=0"
-    },
-    {
-        "q": "What is the estimated area under f(x) = 2x from x = 0 to x = 4 with mid points for n = 2?",
-        "options": [
-            "18",
-            "16",
-            "8",
-            "10"
-        ],
-        "answer": "16"
-    },
-    {
-        "q": "The dimensions of a rectangle are given to be 8ft by 12ft. The perimeter of rectangle will be…………..",
-        "options": [
-            "40 feet",
-            "60 feet",
-            "30 feet",
-            "50feet"
-        ],
-        "answer": "40 feet"
-    },
-    {
-        "q": "Subdivide the interval [3, 5] into n equal parts, and then the width of each subinterval is ----",
-        "options": [
-            "n",
-            "-2/n",
-            "1/n",
-            "2/n"
-        ],
-        "answer": "2/n"
-    },
-    {
-        "q": "summation of (ai) (i varies from 1 to n) , summation of (aj) (j varies from 1 to n),summation of (ak) (k varies from 1 to n) All these three represents same summation.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "The integral ∫ sec(x).tan(x) dx will be equal to ?",
-        "options": [
-            "cosec(x) + c",
-            "None of these",
-            "sec(x) + c",
-            "-ln|cos(x)| + c"
-        ],
-        "answer": "sec(x) + c"
-    },
-    {
-        "q": "A function f has an/a___________ at c if f(c) >= f(x) ∀ x ∈ D, where D is the domain of f.",
-        "options": [
-            "absolute maximum",
-            "absolute maximum/global maximum",
-            "global maximum",
-            "local maximum"
-        ],
-        "answer": "absolute maximum/global maximum"
-    },
-    {
-        "q": "summation of (n+i);where (i varies from 1 to 1) =………..",
-        "options": [
-            "n+1",
-            "1",
-            "n",
-            "0"
-        ],
-        "answer": "n+1"
-    },
-    {
-        "q": "If x = 3 + 4 + . . . + 20, then x = ________.",
-        "options": [
-            "210.",
-            "250.",
-            "None of these.",
-            "207."
-        ],
-        "answer": "207."
-    },
-    {
-        "q": "Sum the first three terms of the series, whose general term is 5ki Where first term=k1=10, Second term= k2=14 Third term=k3= -2 The correct choice is ………… Note: 1, 2, 3 and i with k are in subscript",
-        "options": [
-            "111",
-            "011",
-            "101",
-            "110"
-        ],
-        "answer": "101"
-    },
-    {
-        "q": "If ‘n’ goes from 1 to any large ODD number then the summation of ‘(-1)^n’ = ---------",
-        "options": [
-            "1",
-            "-1",
-            "that specific large ODD number",
-            "Zero"
-        ],
-        "answer": "-1"
-    },
-    {
-        "q": "For the function f(x)=|x|-1, if f(-1)=f(1)=0 then which of the following conclusion can be drawn about the point ‘c’ in the interval [-1,1] such that f ’(c)=0?",
-        "options": [
-            "c=0.5",
-            "Every point in [-1,1] can be taken as ‘c’",
-            "No such ‘c’ exists",
-            "c=0"
-        ],
-        "answer": "No such ‘c’ exists"
-    },
-    {
-        "q": "12+22+32+…+152 equals _____.",
-        "options": [
-            "15(16)(31) / 6",
-            "15(16)(30) / 6",
-            "15(16)(17) / 6",
-            "15(16)(29) / 6"
-        ],
-        "answer": "15(16)(31) / 6"
-    },
-    {
-        "q": "Absolute minimum of the function f(x)=x in the semi open interval (0,2] is-------",
-        "options": [
-            "1",
-            "Undefined",
-            "2",
-            "0"
-        ],
-        "answer": "Undefined"
-    },
-    {
-        "q": "Which of the following is the sum of 2k+1 where k goes from 0 to 2?",
-        "options": [
-            "8",
-            "14",
-            "10",
-            "12"
-        ],
-        "answer": "10"
-    },
-    {
-        "q": "The integral ∫ sec^2(5x^2).10x dx will be equal to ?",
-        "options": [
-            "sec(5x^2).tan(5x^2) + c",
-            "tan(5x) + c",
-            "tan(5x^2) + c",
-            "sec^2(10x) + c"
-        ],
-        "answer": "tan(5x^2) + c"
-    },
-    {
-        "q": "If we subdivide the interval [1,6] into n equal parts, then what will be the length ∆x of each part?",
-        "options": [
-            "7/n",
-            "1/n",
-            "6/n",
-            "5/n"
-        ],
-        "answer": "5/n"
-    },
-    {
-        "q": "For the application of mean value theorem on f( x ) =x^3-3x^2-2x ; [0,2], which of the following is true?",
-        "options": [
-            "f( x ) is continuous over [ 0, 2) and f(x) is differentiable over ( 0,2 )",
-            "f( x ) is continuous over [ 0, 2] and f(x) is differentiable over ( 0,2 )",
-            "f( x ) is continuous over [ 0, 2] and f(x) is not differentiable over ( 0,2 )",
-            "f( x ) is continuous over [ 0, 2] and f(x) is differentiable over [ 0,2 )"
-        ],
-        "answer": "f( x ) is continuous over [ 0, 2] and f(x) is differentiable over ( 0,2 )"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+1 from x = 1 to x = 3 with mid points approximations for n = 1, what will be the value of xk* ?",
-        "options": [
-            "1",
-            "2",
-            "1.5",
-            "2.5"
-        ],
-        "answer": "2"
-    },
-    {
-        "q": "While solving the equation, 10x-(e^x)=0 by using Newton method, if x=0 is the initial approximate solution then the next approximation will be-----",
-        "options": [
-            "1/9",
-            "1/10",
-            "-1/10",
-            "-1/9"
-        ],
-        "answer": "1/9"
-    },
-    {
-        "q": "By applying Roll’s theorem on f(x) = x over the interval [-1,1], the points where the derivative of f(x)=x is not taken are………",
-        "options": [
-            "x= -1, 1",
-            "x=0,1",
-            "x=0,0.5,-0.5",
-            "x=-1,0"
-        ],
-        "answer": "x= -1, 1"
-    },
-    {
-        "q": "The vertical asymptotes of a function occur at the points where the denominator of the function becomes",
-        "options": [
-            "-1",
-            "0",
-            "1",
-            "Undefined"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+1 from x = 1 to x = 3 with mid points approximations for n = 1, what will be the value of f (xk*) ?",
-        "options": [
-            "2",
-            "3",
-            "1",
-            "6"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "Summation of 9t where ‘t’ goes from 1 to 30” is same as “summation of 9k where k goes from 1 to 30”.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "summation of (6) ;where ( j varies from 1 to 8) indicates to add ‘6’ to itself ……….. times.",
-        "options": [
-            "11",
-            "10",
-            "8",
-            "9"
-        ],
-        "answer": "8"
-    },
-    {
-        "q": "If ‘n’ goes from 1 to any large EVEN number then the summation of ‘(-1)^n’ = ---------",
-        "options": [
-            "-1",
-            "zero",
-            "1",
-            "that specific large EVEN number"
-        ],
-        "answer": "zero"
-    },
-    {
-        "q": "Integral of x^2+x^3 is NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "None of these",
-            "(1/3)x^4+(1/4)x^3 +C",
-            "(1/4)x^4+(1/3)x^3 +C",
-            "x^3+x^4+C"
-        ],
-        "answer": "(1/3)x^4+(1/4)x^3 +C"
-    },
-    {
-        "q": "Given a function f(x) = 1 / (x-1) and the interval is (0,2) ,then mean value theorem cannot be applied due to ……….",
-        "options": [
-            "Rational function",
-            "None of these",
-            "Discontinuity of the function in the given interval",
-            "Open interval"
-        ],
-        "answer": "Discontinuity of the function in the given interval"
-    },
-    {
-        "q": "The integral ∫ sin(5x) dx will be equal to ?",
-        "options": [
-            "5cos 5x + c",
-            "-cos5x/5 + c",
-            "cos5x/5 + c",
-            "-cos4x/5 + c"
-        ],
-        "answer": "-cos5x/5 + c"
-    },
-    {
-        "q": "The vertical asymptotes of the function f(x)=(x^2-2x+1)/(x(x-2)) are",
-        "options": [
-            "0, 1",
-            "1, -1",
-            "0, 2",
-            "1, 2"
-        ],
-        "answer": "0, 2"
-    },
-    {
-        "q": "3(12)+3(22)+3(32)+…+3(152) equals _____.",
-        "options": [
-            "15(16)(17)/2",
-            "15(16)(30)/2",
-            "15(16)(31)/2",
-            "15(16)(29)/2"
-        ],
-        "answer": "15(16)(31)/2"
-    },
-    {
-        "q": "Mean value theorem states that between any two points A and B on a curve y=f(x) , there must be at least one point where the Tangent line to the curve is……………joining A and B",
-        "options": [
-            "Perpendicular to the secant line",
-            "Parallel to the tangent line",
-            "Perpendicular to the tangent line",
-            "Parallel to the secant line"
-        ],
-        "answer": "Parallel to the secant line"
-    },
-    {
-        "q": "Why the equation: x^2 + 8 = 0 does not have approximate solution while using Newton's method?",
-        "options": [
-            "x^2 will always be nonnegative",
-            "x^2 will always be negative"
-        ],
-        "answer": "x^2 will always be nonnegative"
-    },
-    {
-        "q": "What does the indefinite integral ∫ f(x) dx represent?",
-        "options": [
-            "Families of antiderivative of the function f(x)",
-            "Curvature of the curve",
-            "None of these",
-            "Area under the curve"
-        ],
-        "answer": "Families of antiderivative of the function f(x)"
-    },
-    {
-        "q": "The estimated area under f(x) = 12 / x from x = 1 to x = 3 with left end points for n = 2 is ________.",
-        "options": [
-            "12.",
-            "None of these.",
-            "18",
-            "10."
-        ],
-        "answer": "12."
-    },
-    {
-        "q": "Integral of x^(-10) is NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "- 1/(9x^9)+C",
-            "None of these",
-            "-10x^(-11)+C",
-            "1/(9x^9)+C"
-        ],
-        "answer": "- 1/(9x^9)+C"
-    },
-    {
-        "q": "summation of (n+i) ; (i varies from 1 to 10 ) , here ‘i’ is known as the …….. of the summation.",
-        "options": [
-            "Upper limit",
-            "Index",
-            "None of these",
-            "Lower limit"
-        ],
-        "answer": "Index"
-    },
-    {
-        "q": "If f is______________ on a closed interval [a,b], then f, attains an absolute maximum value f(c) and an absolute minimum value f(d) at some numbers c and d in [a,b].",
-        "options": [
-            "None of these",
-            "differentiable",
-            "continuous",
-            "constant"
-        ],
-        "answer": "continuous"
-    },
-    {
-        "q": "13+23+33+…+193 equals _____.",
-        "options": [
-            "[19(20)/2]2",
-            "[19(20)]2/2",
-            "19(20)/22",
-            "19(20)2/2"
-        ],
-        "answer": "[19(20)/2]2"
-    },
-    {
-        "q": "x=1 is a critical value of the function. f(x)=(x-1)^3 NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "If the graph of f lies above all of its tangents on an interval I, then it is called___________ on I.",
-        "options": [
-            "constant function",
-            "concave downward",
-            "concave upward",
-            "None of these"
-        ],
-        "answer": "concave upward"
-    },
-    {
-        "q": "Integral of x^101 is NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "(1/102)x^102+C",
-            "None of these",
-            "102x^102+C",
-            "101x^100 +C"
-        ],
-        "answer": "(1/102)x^102+C"
-    },
-    {
-        "q": "To find the area between continuous curve f(x) and the closed interval [a,b] on x-axis, we take -------------- of f(x) on the interval [a,b].",
-        "options": [
-            "left hand limit",
-            "integral",
-            "right hand limit",
-            "derivative"
-        ],
-        "answer": "integral"
-    },
-    {
-        "q": "What is the estimated area under f(x) = 10-x2 from x = 0 to x = 3 with left end points for n = 3?",
-        "options": [
-            "15",
-            "21",
-            "25",
-            "30"
-        ],
-        "answer": "21"
-    },
-    {
-        "q": "Sigma notation is used to write lengthy……….in compact form.",
-        "options": [
-            "quotient",
-            "sums",
-            "difference",
-            "products"
-        ],
-        "answer": "sums"
-    },
-    {
-        "q": "The integral ∫ cosec^2(3x^2).6x dx will be equal to ?",
-        "options": [
-            "cot(3x^2) + c,",
-            "-cot(3x^2) + c",
-            "None of these",
-            "sec(3x^2) + c"
-        ],
-        "answer": "-cot(3x^2) + c"
-    },
-    {
-        "q": "If the closed interval [-2,2] is divided into ‘50’ equally spaced sub-intervals then the width of each sub-interval is ------------",
-        "options": [
-            "2/25",
-            "1/25",
-            "4/25",
-            "-4/25"
-        ],
-        "answer": "2/25"
-    },
-    {
-        "q": "The integral ∫ cot(2x) dx will be equal to ?",
-        "options": [
-            "ln|sec(2x)| + c",
-            "(1/2)ln|sin(2x)| + c",
-            "(1/2)ln|sec(2x)| + c",
-            "ln|sin(2x)| + c"
-        ],
-        "answer": "(1/2)ln|sin(2x)| + c"
-    },
-    {
-        "q": "An Inflection Point is a point where a curve changes from",
-        "options": [
-            "Concave up to concave down",
-            "Concave down to concave up",
-            "Both a and b",
-            "None of these"
-        ],
-        "answer": "Both a and b"
-    },
-    {
-        "q": "If a function f has a relative extrema at x0, then",
-        "options": [
-            "f'(x0)>0",
-            "either f'(x0)=0 or f is not differentiable at x0",
-            "f is differentiable at x0",
-            "f'(x0)<=0"
-        ],
-        "answer": "either f'(x0)=0 or f is not differentiable at x0"
-    },
-    {
-        "q": "If f'(x)=x^2-x. Then the critical points of the function f are",
-        "options": [
-            "0, 2",
-            "1, 2",
-            "1, -1",
-            "0, 1"
-        ],
-        "answer": "0, 1"
-    },
-    {
-        "q": "If f(x) = Cos(x) + x, then which of the following is NOT true about it.",
-        "options": [
-            "Its anti – derivative is Sin(x) + x^2/2 + 6.",
-            "Its anti – derivative is Sin(x) + x^2/2 + 4.",
-            "Its anti – derivative is Sin(x) + x^2/2 + 10.",
-            "Its anti – derivative is -Sin(x) + x^2/2 + 4."
-        ],
-        "answer": "Its anti – derivative is -Sin(x) + x^2/2 + 4."
-    },
-    {
-        "q": "∫ tan x dx = ________________.",
-        "options": [
-            "sec^2 x + C",
-            "ln|sin x| + C",
-            "ln|cos x| + C",
-            "ln|sec x| + C"
-        ],
-        "answer": "ln|sec x| + C"
-    },
-    {
-        "q": "Newton’s Method fails to find the approximate solution of an equation if _____________.",
-        "options": [
-            "the slope of the tangent line(at any approximated point) is non-zero",
-            "the tangent line(at any approximated point) is parallel to x-axis.",
-            "None of these",
-            "the tangent line (at any approximated point) is not parallel to x-axis."
-        ],
-        "answer": "the tangent line(at any approximated point) is parallel to x-axis."
-    },
-    {
-        "q": "Sum of n-terms of a series whose nth term is ‘n’ = ---",
-        "options": [
-            "n(n-1)/2",
-            "(n+1)/2",
-            "n(n+1)/2",
-            "n(n+1)"
-        ],
-        "answer": "n(n+1)/2"
-    },
-    {
-        "q": "The symbol ∫ was introduced by___________and is called integral sign.",
-        "options": [
-            "Newton",
-            "Leibnitz",
-            "Cauchy",
-            "Lagrange"
-        ],
-        "answer": "Leibnitz"
-    },
-    {
-        "q": "If x = (1^2)+(2^2)+(3^2)+(4^2) + . . . + (30^2), then x = ________.",
-        "options": [
-            "9455.",
-            "None of these.",
-            "900.",
-            "465."
-        ],
-        "answer": "9455."
-    },
-    {
-        "q": "If f''(x) < 0 ∀ x ∈ I, then the graph of f is ___________ on I.",
-        "options": [
-            "concave upward",
-            "constant",
-            "None of these",
-            "concave downward"
-        ],
-        "answer": "concave downward"
-    },
-    {
-        "q": "For the area under the curve f(x) = 2x from x = 0 to x = 8 with mid points approximations for n = 2, what will be the values of xk* ?",
-        "options": [
-            "1 and 5",
-            "4 and 6",
-            "3 and 7",
-            "2 and 6"
-        ],
-        "answer": "2 and 6"
-    },
-    {
-        "q": "The indefinite integral of ‘sec(x)tan(x)’ is…………….",
-        "options": [
-            "Cotx +c",
-            "Sinx+c",
-            "Tanx+c",
-            "Secx+c"
-        ],
-        "answer": "Secx+c"
-    },
-    {
-        "q": "In the indefinite integral of x(y^2) w.r.t ‘y’ , the independent variable is ……..",
-        "options": [
-            "xy",
-            "y",
-            "none of these",
-            "x"
-        ],
-        "answer": "y"
-    },
-    {
-        "q": "If [-8,8] is subdivided into ‘16’ equally spaced subintervals, then the LEFT end point of 13th sub-interval will be--------.",
-        "options": [
-            "2",
-            "4",
-            "3",
-            "5"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "What is the estimated area under f(x) = 9 - x2 from x = 0 to x = 4 with mid points for n = 2?",
-        "options": [
-            "25",
-            "16",
-            "21",
-            "12"
-        ],
-        "answer": "21"
-    },
-    {
-        "q": "If x=-3 and x=3 are the two critical points of the function: f(x)=81x-3(x^3) then by using the 2nd derivative test, we can conclude that f(x) is relatively maximum at-----",
-        "options": [
-            "x= -9",
-            "x= 3",
-            "x=0",
-            "x=-3"
-        ],
-        "answer": "x= 3"
-    },
-    {
-        "q": "The integral ∫ sec^2(2x^2).4x dx will be equal to ?",
-        "options": [
-            "sec^2(2x) + c",
-            "tan(2x^2) + c",
-            "sec(2x^2).tan(2x^2) + c",
-            "tan(2x) + c"
-        ],
-        "answer": "tan(2x^2) + c"
-    },
-    {
-        "q": "Sum of cubes of n-terms of a series whose nth term is ‘n’ = ---",
-        "options": [
-            "Square of n(n+1)(2n+1)/6",
-            "Square of n(n+1)/2",
-            "Square of n(n+1)/6",
-            "Square of (n+1)/2"
-        ],
-        "answer": "Square of n(n+1)/2"
-    },
-    {
-        "q": "‘x.ln(x/e)’ is the anti-derivative of ‘lnx’ if and only if the derivative of ‘x.ln(x/e)’ is equal to --------",
-        "options": [
-            "x",
-            "xln(x/e)",
-            "ln(x/e)",
-            "lnx"
-        ],
-        "answer": "lnx"
-    },
-    {
-        "q": "The value of c in Rolle's Theorem for the function f(x) = e^x sin x, x ∈ [0,π] is ________.",
-        "options": [
-            "3π/2",
-            "π/6",
-            "π/4",
-            "3π/4"
-        ],
-        "answer": "3π/4"
-    },
-    {
-        "q": "If f'(r) =0 at some approximation “r” then we cannot proceed on Newton’s method.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "Integration of 4Cosx with respect to x is………..",
-        "options": [
-            "4Sinx",
-            "- 4Sinx"
-        ],
-        "answer": "4Sinx"
-    },
-    {
-        "q": "If f(x) = Sin(x) + x, then which of the following is true about it",
-        "options": [
-            "None of these.",
-            "Its anti – derivative is Cos(x) + x^2/2 + 10.",
-            "Its anti – derivative is –Cos(x) + x^2/2 + 10.",
-            "Its anti – derivative is Cos(x) + 1."
-        ],
-        "answer": "Its anti – derivative is –Cos(x) + x^2/2 + 10."
-    },
-    {
-        "q": "Summation of ‘kx’ where k goes from 1 to 5 equals",
-        "options": [
-            "15x",
-            "None of these",
-            "55",
-            "15k"
-        ],
-        "answer": "15x"
-    },
-    {
-        "q": "If ‘n’ goes from 1 to 3 and the summation of ‘na’ = 6a, then the value of ‘a’ is ----------",
-        "options": [
-            "Undetermined",
-            "6",
-            "-6",
-            "1"
-        ],
-        "answer": "Undetermined"
-    },
-    {
-        "q": "If Newton’s Method succeeded to get the approximate solution of an equation, then which of the following is NOT true about it.",
-        "options": [
-            "The slope of the tangent line (at any approximated point) must be non zero.",
-            "None of these.",
-            "The sequence of approximated points not convergent to the exact solution",
-            "The tangent line (at any approximated point) is not parallel to x-axis."
-        ],
-        "answer": "The sequence of approximated points not convergent to the exact solution"
-    },
-    {
-        "q": "What is the summation of ‘kx’ where k goes from 1 to 30?",
-        "options": [
-            "419x",
-            "465x",
-            "523x",
-            "414x"
-        ],
-        "answer": "465x"
-    },
-    {
-        "q": "To get better approximation to actual area under a continuous curve over a closed interval, we have to increase ………",
-        "options": [
-            "Total area",
-            "Size of the interval",
-            "Number of subintervals",
-            "Width of the subintervals"
-        ],
-        "answer": "Number of subintervals"
-    },
-    {
-        "q": "The critical value of the function y=100x – x^2 is NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "x=0",
-            "x=50",
-            "None of these",
-            "x=25"
-        ],
-        "answer": "x=50"
-    },
-    {
-        "q": "Which of the following is the absolute minima of the function: f(x)=-x in the interval [-1,1]?",
-        "options": [
-            "-1",
-            "0.5",
-            "0",
-            "1"
-        ],
-        "answer": "1"
-    },
-    {
-        "q": "Which of the following will be left end points if the interval [-2,2] is divided into 4 equal subintervals.",
-        "options": [
-            "-2,-1,1,2",
-            "-1,0,1,2",
-            "-2,-1,0,1",
-            "None of these"
-        ],
-        "answer": "-2,-1,0,1"
-    },
-    {
-        "q": "Integration of 3x^2 with respect to x is…………",
-        "options": [
-            "x^4",
-            "x",
-            "x^3",
-            "x^2"
-        ],
-        "answer": "x^3"
-    },
-    {
-        "q": "Critical point of f(x)=-Sinx in the interval [0,pi] is-----",
-        "options": [
-            "pi/4",
-            "pi",
-            "0",
-            "pi/2"
-        ],
-        "answer": "pi/2"
-    },
-    {
-        "q": "If f(x)=Cot(x) then mean value theorem can be applied to it on the interval (0,2pi)",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "If [-8,8] is subdivided into ‘16’ equally spaced subintervals, then the RIGHT end point of 13th sub-interval will be--------.",
-        "options": [
-            "5",
-            "4",
-            "2",
-            "3"
-        ],
-        "answer": "4"
-    },
-    {
-        "q": "If x = 5 + 6 + . . . + 40, then x = ________.",
-        "options": [
-            "810.",
-            "850.",
-            "820.",
-            "None of these."
-        ],
-        "answer": "810."
-    },
-    {
-        "q": "In [0,pi],if the area under the curve f(x)=Sinx is divided into ‘3’ equally spaced rectangles of width ‘pi/3’ then by choosing middle point for height, the area of middle rectangle is ---------.",
-        "options": [
-            "pi/4",
-            "pi/2",
-            "pi/3",
-            "pi/6"
-        ],
-        "answer": "pi/3"
-    },
-    {
-        "q": "For the area under the curve f(x) = 2x from x = 0 to x = 12 with left points approximations for n = 3, what will be the values of xk* ?",
-        "options": [
-            "0, 5 and 10",
-            "0, 6 and 12",
-            "0, 3 and 6",
-            "0, 4 and 8"
-        ],
-        "answer": "0, 4 and 8"
-    },
-    {
-        "q": "Sum of n-terms of a series whose nth term is ‘n’ = 1/n+1.then what is the sum of the first two terms is -----",
-        "options": [
-            "6/5",
-            "6/4",
-            "5/6",
-            "6"
-        ],
-        "answer": "6/5"
-    },
-    {
-        "q": "A function f is said to have a relative minimum at x0, if __________ for all x in some open interval containing x0.",
-        "options": [
-            "f(x0)=f(x)",
-            "f(x0)> f(x)",
-            "f(x0)<= f(x)",
-            "f(x0)>= f(x)"
-        ],
-        "answer": "f(x0)<= f(x)"
-    },
-    {
-        "q": "The integral ∫ sqrt(2x+3) dx will be equal to ?",
-        "options": [
-            "(2x+3)^(3/2)/3 + c",
-            "(2x+3)^(3/2)/2 + c",
-            "(2x+3)^(2/3)/3 + c",
-            "(2x+3)^(1/2)/3 + c"
-        ],
-        "answer": "(2x+3)^(3/2)/3 + c"
-    },
-    {
-        "q": "What is the estimated area under f(x) = x2+2 from x = 1 to x = 5 with mid points for n = 2",
-        "options": [
-            "26",
-            "38",
-            "76",
-            "48"
-        ],
-        "answer": "38"
-    },
-    {
-        "q": "What will be the sigma notation for 32+42+52+62 ?",
-        "options": [
-            "summation of (k2) where (k varies from 3 to 6)",
-            "summation of (k2) where (k varies from 1 to 4)",
-            "summation of (k-1)2 where (k varies from 2 to 5)",
-            "summation of (k+1)2 where (k varies from 3 to 6)"
-        ],
-        "answer": "summation of (k2) where (k varies from 3 to 6)"
-    },
-    {
-        "q": "Area of a rectangle whose width is 5 units and length is 6 units will be ….",
-        "options": [
-            "None of these",
-            "22 units",
-            "30 square units",
-            "11 units"
-        ],
-        "answer": "30 square units"
-    },
-    {
-        "q": "Which geometrical figure is used for approximating the area under the curve?",
-        "options": [
-            "Right angled triangle",
-            "None of these",
-            "Pentagon",
-            "Circle"
-        ],
-        "answer": "Right angled triangle"
-    },
-    {
-        "q": "The Area A of the region S that lies under the graph of the continuous function f is the limit of the sum of the areas of approximating rectangles:",
-        "options": [
-            "A = lim_{n→∞} Rn = lim_{n→∞} [f(x1)Δx + f(x2)Δx + ... + f(x_{n-1})Δx]",
-            "A = lim_{n→∞} Rn = lim_{n→∞} 1/Δx [f(x1) + f(x2) + ... + f(xn)]",
-            "A = lim_{n→∞} Rn = lim_{n→∞} [f(x1) + f(x2) + ... + f(xn)]",
-            "A = lim_{n→∞} Rn = lim_{n→∞} Δx [f(x1) + f(x2) + ... + f(xn)]"
-        ],
-        "answer": "A = lim_{n→∞} Rn = lim_{n→∞} Δx [f(x1) + f(x2) + ... + f(xn)]"
-    },
-    {
-        "q": "If f(x) = Sec^2 x + x^3, then which of the following is NOT true about it.",
-        "options": [
-            "Its anti – derivative is Tan(x) + x^4/4 + 15.",
-            "Its anti – derivative is Tan(x) + x^4/4 + 10.",
-            "Its anti – derivative is Tan(x) + x^4/4 + 12.",
-            "None of these."
-        ],
-        "answer": "None of these."
-    },
-    {
-        "q": "What is the estimated area under f(x) = 2x from x = 0 to x = 4 with right end points for n = 2?",
-        "options": [
-            "8",
-            "24",
-            "18",
-            "10"
-        ],
-        "answer": "24"
-    },
-    {
-        "q": "The area between f(x)=-x and the closed interval [-1,0] on x-axis is ----------",
-        "options": [
-            "1",
-            "1/2",
-            "-1/2",
-            "2"
-        ],
-        "answer": "1/2"
-    },
-    {
-        "q": "The estimated area under f(x) = x from x = 0 to x = 3 with right end points for n = 3 is ________.",
-        "options": [
-            "6.",
-            "7.",
-            "None of these",
-            "5."
-        ],
-        "answer": "6."
-    },
-    {
-        "q": "The integral ∫ 10x/(5x^2+1)^2 dx will be equal to ?",
-        "options": [
-            "-1/(5x+1) + c",
-            "-1/(5x^2+1)^3 + c",
-            "-1/(5x^2+1) + c",
-            "1/(5x^2+1) + c"
-        ],
-        "answer": "-1/(5x^2+1) + c"
-    },
-    {
-        "q": "Given f(x)= 1/(x-1) on the interval (0,3) , then ‘f ’ has no relative maxima or relative minima due to………",
-        "options": [
-            "Open interval",
-            "Discontinuity in the interval",
-            "Rational function",
-            "None of these"
-        ],
-        "answer": "Discontinuity in the interval"
-    },
-    {
-        "q": "Let f(x)=x^3 and a= -5 ,b=5 and n= no. of partition of [-3,3]=4 Let the widths of first, second, third and fourth intervals are 3,0,1,2 respectively. Then the “Mesh size” of partition is……………",
-        "options": [
-            "3",
-            "0",
-            "1",
-            "2"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "1+2+3……….+1000 equals -------",
-        "options": [
-            "500500",
-            "1000",
-            "None of these",
-            "3000"
-        ],
-        "answer": "500500"
-    },
-    {
-        "q": "Approximation to an area improves as number of partitions is decreased.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "A line y=y0 is called a horizontal asymptote for the graph of function f if",
-        "options": [
-            "lim_{x→+∞} f(x)=0",
-            "lim_{x→+∞} f(x)=∞",
-            "lim_{x→+∞} f(x)=y0",
-            "lim_{x→0} f(x)=y0"
-        ],
-        "answer": "lim_{x→+∞} f(x)=y0"
-    },
-    {
-        "q": "13+23+33+…+153 equals _____.",
-        "options": [
-            "15(16)2/2",
-            "[15(16)]2/2",
-            "15(16)/22",
-            "[15(16)/2]2"
-        ],
-        "answer": "[15(16)/2]2"
-    },
-    {
-        "q": "If the function f(x)= (x^2)+1 satisfies all the conditions of Rolle’s theorem in the interval [-1,1] , then the value of ‘c’ will be……..",
-        "options": [
-            "2",
-            "0",
-            "4",
-            "3"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "If a function f(x) is defined on an interval [a, b] satisfying the conditions of the Rolle’s Theorem, then which of the following is true about it.",
-        "options": [
-            "It may or may not have a critical point.",
-            "None of these.",
-            "It must have at least one critical point.",
-            "It would not have more than one stationary point."
-        ],
-        "answer": "It must have at least one critical point."
-    },
-    {
-        "q": "If the graph of f lies below all of its tangents on an interval I,then it is called___________ on I.",
-        "options": [
-            "constant function",
-            "concave upward",
-            "None of these",
-            "concave downward"
-        ],
-        "answer": "concave downward"
-    },
-    {
-        "q": "The estimated area under f(x) = x^2 + 2 from x = 1 to x = 5 with right end points for n = 2 is ________.",
-        "options": [
-            "28.",
-            "76.",
-            "50.",
-            "30."
-        ],
-        "answer": "76."
-    },
-    {
-        "q": "The indefinite integral of ‘cos (x) – sin (x)’ is………………",
-        "options": [
-            "cos (x) .sin (x) +c",
-            "-cos (x) + sin (x) +c",
-            "-cos (x) – sin (x)+c",
-            "cos (x) +sin (x)+c"
-        ],
-        "answer": "-cos (x) + sin (x) +c"
-    },
-    {
-        "q": "Which of the following is the regular partition of the interval [0,2]?",
-        "options": [
-            "[0,0.5],[0.5,1.25],[1.25,1.50],[1.50,2]",
-            "[0,0.50],[0.50,1],[1,1.50],[1.50,2]",
-            "[0,0.25],[0.25,1],[1,1.50],[1.50,2]",
-            "[0,0.25],[0.25,0.75],[0.75,1.25],[1.25,2]"
-        ],
-        "answer": "[0,0.50],[0.50,1],[1,1.50],[1.50,2]"
-    },
-    {
-        "q": "If f(x) =cos(x) then mean value theorem can be applied on this in the interval (pi/2, 3pi/2)",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "What will be the value of summation of k3 where k goes from 9 to 10",
-        "options": [
-            "1729",
-            "1998",
-            "1081",
-            "1100"
-        ],
-        "answer": "1729"
-    },
-    {
-        "q": "If f (x) = x^4 is defined on the interval [-2, 2], then which of the following is true about it.",
-        "options": [
-            "Its relative maximum value exists at 2.",
-            "None of these.",
-            "Its absolute maximum value exists at 2.",
-            "Its absolute minimum value exists at -2"
-        ],
-        "answer": "Its absolute maximum value exists at 2."
-    },
-    {
-        "q": "The integral ∫ cos(5x) dx will be equal to ?",
-        "options": [
-            "-sin(5x)/5 + c",
-            "None of these",
-            "sin(5x)/5 + c",
-            "5sin(5x) + c"
-        ],
-        "answer": "sin(5x)/5 + c"
-    },
-    {
-        "q": "If the closed interval [-10,x] is divided into ‘20’ equally spaced subintervals each of which having the width equals to ‘1’ unit then the value of ‘x’ is --------",
-        "options": [
-            "30",
-            "20",
-            "0",
-            "10"
-        ],
-        "answer": "10"
-    },
-    {
-        "q": "The vertical asymptote of the function f(x)=(3x^2+1)/(2-x) is",
-        "options": [
-            "∞",
-            "0",
-            "-2",
-            "2"
-        ],
-        "answer": "2"
-    },
-    {
-        "q": "If f'(c) = 0 and f''(c) > 0, then f has a/an____________ at c.",
-        "options": [
-            "local maximum",
-            "inflection point",
-            "None of these",
-            "local minimum"
-        ],
-        "answer": "local minimum"
-    },
-    {
-        "q": "The area of a rectangle can be found by simply …………its dimensions.",
-        "options": [
-            "adding",
-            "subtracting",
-            "dividing",
-            "multiplying"
-        ],
-        "answer": "multiplying"
-    },
-    {
-        "q": "For any continuous function on the interval [0,1], if the area under this curve is divided into ‘5’ equal rectangles ,then the length of each rectangle will be………",
-        "options": [
-            "1/5",
-            "1/4",
-            "1/2",
-            "1"
-        ],
-        "answer": "1/5"
-    },
-    {
-        "q": "Summation of 2 where sum ranges from 0 to 10 equals 20.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "If the interval [3,7] is divided into ‘4’ equal subintervals ,then left endpoint of each subinterval will be………",
-        "options": [
-            "3,6,8,9",
-            "3,4,5,6",
-            "4,5,6,7",
-            "5,6,7,8"
-        ],
-        "answer": "3,4,5,6"
-    },
-    {
-        "q": "If f (x) = x^3 is defined on the interval [1, 3], then which of the following is true about it.",
-        "options": [
-            "None of these.",
-            "Its relative minimum value exists at the critical point.",
-            "Its relative minimum value does not exist at the critical point",
-            "Its absolute minimum value exists at the critical point."
-        ],
-        "answer": "Its relative minimum value does not exist at the critical point"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+2 from x = 2 to x = 8 with right end points approximations for n = 3, what will be the values of xk* ?",
-        "options": [
-            "0, 4 and 8",
-            "2, 4 and 8",
-            "4, 6 and 8",
-            "2, 5 and 8"
-        ],
-        "answer": "4, 6 and 8"
-    },
-    {
-        "q": "If f(x)=1 / (x^2) and the interval is [-1,1] , then Rolle’s theorem can be applied.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "Which of the following is the sum of 2t^2 where t goes from 1 to 5?",
-        "options": [
-            "2+8+18+32+50",
-            "2+18+32+50+62",
-            "2+8+28+32+50",
-            "2+18+28+32+60"
-        ],
-        "answer": "2+8+18+32+50"
-    },
-    {
-        "q": "If [-8,8] is subdivided into ‘16’ equally spaced subintervals, then the MIDDLE point of 8th sub-interval will be--------.",
-        "options": [
-            "-0.5",
-            "2.5",
-            "1.5",
-            "0.5"
-        ],
-        "answer": "0.5"
-    },
-    {
-        "q": "Maximum of the function f(x)=2x+7 occurs at",
-        "options": [
-            "x=0",
-            "x=-2/7",
-            "None of these",
-            "x=-7/2"
-        ],
-        "answer": "None of these"
-    },
-    {
-        "q": "Integral of 3sec(x)tan(x) is NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "3tan(x)+C",
-            "(3/2)sec^2(x)+C",
-            "None of these",
-            "3sec(x)+C"
-        ],
-        "answer": "3sec(x)+C"
-    },
-    {
-        "q": "The value of c in Rolle's theorem for the function f(x) = x^3 - 3x in the interval [0,√3].",
-        "options": [
-            "1/3",
-            "2/3",
-            "1",
-            "-1"
-        ],
-        "answer": "1"
-    },
-    {
-        "q": "(1^3)+(2^3)+(3^3)+….+(20^3) equals --------- NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "None of these",
-            "42925",
-            "44100",
-            "34548"
-        ],
-        "answer": "44100"
-    },
-    {
-        "q": "For the area under the curve f(x) = x+1 from x = 1 to x = 5 with mid points approximations for n = 2, what will be the values of xk* ?",
-        "options": [
-            "1 and 3",
-            "2.5 and 3.5",
-            "2 and 4",
-            "3 and 4"
-        ],
-        "answer": "2 and 4"
-    },
-    {
-        "q": "The integral ∫ x/(1+x^2) dx will be equal to ?",
-        "options": [
-            "ln(1-x^2)/2 + c",
-            "ln(1+x^2)/2 + c",
-            "2ln(1+x^2) + c",
-            "ln(1+x^2) + c"
-        ],
-        "answer": "ln(1+x^2)/2 + c"
-    },
-    {
-        "q": "According to the Newton’s method, the equation Cosx=x (where x is in radian) has a solution between ……………",
-        "options": [
-            "0 and -1",
-            "Solution not exist",
-            "0 and 1",
-            "1 and -1"
-        ],
-        "answer": "0 and 1"
-    },
-    {
-        "q": "If f' changes from positive to negative at c, then f has a _______________ at c.",
-        "options": [
-            "local maximum",
-            "local minimum",
-            "constant",
-            "None of these"
-        ],
-        "answer": "local maximum"
-    },
-    {
-        "q": "If we say a function f have a relative extremum at a point x0, then it means that f has __________ at x0.",
-        "options": [
-            "Relative maximum",
-            "Either a relative maximum or relative minimum",
-            "Relative minimum",
-            "None of these"
-        ],
-        "answer": "Either a relative maximum or relative minimum"
-    },
-    {
-        "q": "1+2+3+…+339 equals _____.",
-        "options": [
-            "338(339)/6",
-            "338(340)/2",
-            "338(340)/6",
-            "339(340)/2"
-        ],
-        "answer": "339(340)/2"
-    },
-    {
-        "q": "2(13)+2(23)+2(33)+…+2(153) equals _____.",
-        "options": [
-            "[15(16)/2]2",
-            "15(16)/22",
-            "15(16)2/2",
-            "[15(16)]2 / 2"
-        ],
-        "answer": "[15(16)]2 / 2"
-    },
-    {
-        "q": "Subdivide the interval [1, 5] into ‘n’ equally spaced subintervals then the width of each sub-interval is ------",
-        "options": [
-            "5/n",
-            "1/n",
-            "4/n",
-            "5"
-        ],
-        "answer": "4/n"
-    },
-    {
-        "q": "Critical point for f(x) = -Cosx on [-pi/2,pi/2] are ------",
-        "options": [
-            "-pi/2",
-            "0",
-            "pi/4",
-            "pi/2"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "In Rolle’s theorem, f(x) is continuous in closed interval [a,b] and differentiable in open interval (a,b).Then why we don’t discuss its differentiability in the closed interval [a,b] because ---------",
-        "options": [
-            "f ‘(a)=f ‘(b)=0",
-            "f ‘(a) and f ‘(b) never exist",
-            "f(a)=f(b)=0",
-            "f(a) and f(b) never exist"
-        ],
-        "answer": "f(a)=f(b)=0"
-    },
-    {
-        "q": "If f(x) = x^5 + 6, then which of the following is Not true about it.",
-        "options": [
-            "Its anti – derivative is x^6/6 + 6x.",
-            "Its anti – derivative is x^6/6 + 6x + 6.",
-            "Its anti – derivative is x^6/6 + 6x + 10.",
-            "Its anti – derivative is x^6/6 + 12x"
-        ],
-        "answer": "Its anti – derivative is x^6/6 + 12x"
-    },
-    {
-        "q": "In the indefinite integral of x(y^2) w.r.t ‘y’ , the term ….. serve to identify the independent variable in the function.",
-        "options": [
-            "x",
-            "dy",
-            "y^2",
-            "y"
-        ],
-        "answer": "dy"
-    },
-    {
-        "q": "For the area under the curve f(x) = 2x from x = 0 to x = 12 with right points approximations for n = 3, what will be the values of xk* ?",
-        "options": [
-            "2, 7 and 12",
-            "0, 6 and 12",
-            "6, 9 and 12",
-            "4, 8 and 12"
-        ],
-        "answer": "4, 8 and 12"
-    },
-    {
-        "q": "Which of the following is the sum of (2k+1) where k goes from 3 to 5?",
-        "options": [
-            "27",
-            "16",
-            "19",
-            "21"
-        ],
-        "answer": "27"
-    },
-    {
-        "q": "If x =(3+4+5+...+10)+{(3^3)+(4^3)+(5^3)+...+ (10^3)}, then x = _______.",
-        "options": [
-            "55.",
-            "3068.",
-            "3080.",
-            "None of these."
-        ],
-        "answer": "3068."
-    },
-    {
-        "q": "A function f is said to have a __________ at x0, if f(x0) ≥ f(x) for all x in some open interval containing x0.",
-        "options": [
-            "Relative maximum",
-            "Relative minimum"
-        ],
-        "answer": "Relative maximum"
-    },
-    {
-        "q": "1+2+3………+t equals",
-        "options": [
-            "n(n+1)/2",
-            "None of these",
-            "t(t+1)/2",
-            "n(n+1)(2n+1)/6"
-        ],
-        "answer": "t(t+1)/2"
-    },
-    {
-        "q": "Which of the following is the sum of (2k+1) where k goes from 1 to 4?",
-        "options": [
-            "20",
-            "24",
-            "26",
-            "22"
-        ],
-        "answer": "24"
-    },
-    {
-        "q": "In the notation: ∫_a^b f(x) dx, f(x) is called___________.",
-        "options": [
-            "Differential",
-            "Integration",
-            "Integrand",
-            "None of these"
-        ],
-        "answer": "Integrand"
-    },
-    {
-        "q": "By applying mean value theorem to the function f(x)=lnx in the interval [1,e], the corresponding value of ‘c’ is ------------(Hint: lne=1, ln1=0)",
-        "options": [
-            "e-1",
-            "-e",
-            "1-e",
-            "e"
-        ],
-        "answer": "e-1"
-    },
-    {
-        "q": "While using Newton’s mathod,which of the following will be the best initial approximate solution to solve the equation: x-Sinx=0",
-        "options": [
-            "x=pi/2",
-            "x=-pi/2",
-            "x=pi",
-            "x=0"
-        ],
-        "answer": "x=0"
-    },
-    {
-        "q": "What is length of each subinterval if the interval [-1,1] is divided into n subintervals of equal length.",
-        "options": [
-            "0",
-            "2/n",
-            "1/n",
-            "None of these"
-        ],
-        "answer": "2/n"
-    },
-    {
-        "q": "If f has a local maximum or minimum at c, and if f'(c) exists, then f'(c) = 0. This is the statement of _________.",
-        "options": [
-            "None of these",
-            "Extreme Value Theorem",
-            "Mean Value Theorem",
-            "Fermat's Theorem"
-        ],
-        "answer": "Fermat's Theorem"
-    },
-    {
-        "q": "The integral ∫ sqrt(4x-3) dx will be equal to ?",
-        "options": [
-            "(4x-3)^(3/2)/6 + c",
-            "None of these",
-            "(4x-3)^(3/2)/3 + c",
-            "(4x+3)^(3/2)/6 + c"
-        ],
-        "answer": "(4x-3)^(3/2)/6 + c"
-    },
-    {
-        "q": "The maximum and minimum values of the function f(x)=1/x does not lie in the interval [-1,1] because -------",
-        "options": [
-            "f(x) is differentiable in [-1,1]",
-            "f(x) is not one-to-one",
-            "f(x) is discontinuous in [-1,1]",
-            "f(x) is continuous in [-1,1]"
-        ],
-        "answer": "f(x) is discontinuous in [-1,1]"
-    },
-    {
-        "q": "Newton’s method uses the …………… to approximate the root.",
-        "options": [
-            "None of these",
-            "Tangent line",
-            "Normal line",
-            "Secant line"
-        ],
-        "answer": "Tangent line"
-    },
-    {
-        "q": "A function f has an/a___________ at c if f(c) <= f(x) ∀ x ∈ D, where D is the domain of f.",
-        "options": [
-            "absolute minimum",
-            "local minimum",
-            "absolute minimum/global minimum",
-            "global minimum"
-        ],
-        "answer": "absolute minimum/global minimum"
-    },
-    {
-        "q": "Let A be the area of a rectangle under a continuous function f(x) over a closed interval [a, b]. If this area is divided in to ‘n’ sub-rectangles then width of each approximated sub-intervals is ---------",
-        "options": [
-            "(a-b)/2",
-            "(b-a)/2n",
-            "(b-a)/n",
-            "(a-b)/n"
-        ],
-        "answer": "(b-a)/n"
-    },
-    {
-        "q": "If f (x) = x^3 is defined on the interval [-1, 2], then which of the following is true about it",
-        "options": [
-            "None of these.",
-            "Its relative minimum value exists at the critical point.",
-            "Its absolute minimum value exists at the critical point.",
-            "Its relative minimum value does not exist at the critical point."
-        ],
-        "answer": "Its relative minimum value does not exist at the critical point."
-    },
-    {
-        "q": "Increase in number of rectangles under any continuous function gives …………. approximation to area.",
-        "options": [
-            "better",
-            "no change in",
-            "None of these",
-            "Poor"
-        ],
-        "answer": "better"
-    },
-    {
-        "q": "summation of (3) ;where ( j varies from 1 to 4) indicates to add ………to itself 4 times.",
-        "options": [
-            "2",
-            "1",
-            "3",
-            "4"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "(1^2)+(2^2)+(3^2)+……………..+(50^2) equals-------- NOTE: x^n means ‘x’ to the power ‘n’",
-        "options": [
-            "42925",
-            "None of these",
-            "6373",
-            "55227"
-        ],
-        "answer": "42925"
-    },
-    {
-        "q": "Subdivision of an interval is also called ………. of the interval.",
-        "options": [
-            "Evaluation",
-            "Separation",
-            "Partition",
-            "Composition"
-        ],
-        "answer": "Partition"
-    },
-    {
-        "q": "Integration of “cosecx.cotx” with respect to x is -----",
-        "options": [
-            "-Cosecx",
-            "Tanx",
-            "Cotx",
-            "Cosecx"
-        ],
-        "answer": "-Cosecx"
-    },
-    {
-        "q": "Integration of 5 with respect to x is…………",
-        "options": [
-            "5x",
-            "5",
-            "x",
-            "5x^2"
-        ],
-        "answer": "5x"
-    },
-    {
-        "q": "The integral ∫ (x^3+1)^10 . 3x^2 dx will be equal to ?",
-        "options": [
-            "-(x^3+1)^11/11 + c",
-            "(x^3+1)^11/11 + c",
-            "(x^3-1)^11/11 + c",
-            "None of these"
-        ],
-        "answer": "(x^3+1)^11/11 + c"
-    },
-    {
-        "q": "The estimated area under f(x) = x^2 from x = 1 to x = 3 with right end points for n = 2 is ________.",
-        "options": [
-            "None of these.",
-            "5.",
-            "10.",
-            "13."
-        ],
-        "answer": "13."
-    },
-    {
-        "q": "If x = 1 + 2 +3 + 4 + . . . + 20, then x = ________.",
-        "options": [
-            "None of these.",
-            "500.",
-            "200.",
-            "210."
-        ],
-        "answer": "210."
-    },
-    {
-        "q": "Which of the following is the sum of 3k+1 where k goes from 0 to 2?",
-        "options": [
-            "30",
-            "27",
-            "33",
-            "39"
-        ],
-        "answer": "33"
-    },
-    {
-        "q": "What will be the sigma notation for 32+52+72+92?",
-        "options": [
-            "summation of (2k2+1) where (k varies from 3 to 6)",
-            "summation of (2k+1)2 where (k varies from 1 to 4)",
-            "summation of (k2) where (k varies from 3 to 9)",
-            "summation of (2k-1)2 where (k varies from 1 to 4)"
-        ],
-        "answer": "summation of (2k-1)2 where (k varies from 1 to 4)"
-    },
-    {
-        "q": "f(x) = (x^2)+1 is a continuous function on (-infinity ,+infinity ) , and ‘f’ has no absolute maximum on (-infinity ,+infinity ) because………",
-        "options": [
-            "lim (f(x)) = +infinity as ‘x’ tends to ±infinity",
-            "lim (f(x)) = -infinity as ‘x’ tends to ±infinity",
-            "lim (f(x)) = 0 as ‘x’ tends to ±infinity",
-            "lim (f(x)) = 1 as ‘x’ tends to ±infinity"
-        ],
-        "answer": "lim (f(x)) = +infinity as ‘x’ tends to ±infinity"
-    },
-    {
-        "q": "Right end point ,left end point, and midpoint evaluation all converges to same result as number of subintervals tends to +ive infinity.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "For Rolle's Theorem, f is continuous on the interval __________.",
-        "options": [
-            "(a,b)",
-            "(a,b]",
-            "[a,b]",
-            "[a,b)"
-        ],
-        "answer": "[a,b]"
-    },
-    {
-        "q": "In sigma notation 12+14+16+18+20 can be written as……….",
-        "options": [
-            "summation of (k^2) where (k varies from 6 to10)",
-            "summation of (k) where (k varies from 6 to10)",
-            "summation of (2k) where (k varies from 1 to5)",
-            "summation of (2k) where (k varies from 6 to10)"
-        ],
-        "answer": "summation of (2k) where (k varies from 1 to5)"
-    },
-    {
-        "q": "Let a function f is twice differentiable at a stationary point x0, then f has relative maximum at x0 if",
-        "options": [
-            "f''(x0) >= 0",
-            "f''(x0) < 0",
-            "f''(x0) = 0",
-            "f''(x0) > 0"
-        ],
-        "answer": "f''(x0) < 0"
-    },
-    {
-        "q": "If ‘k’ goes from zero to ‘n’ in the summation of ‘Sink’ then which of the following will be other expression for this given summation such that its lower limit changes to ‘5’?",
-        "options": [
-            "Summation ‘Sin(k-5)’ while ‘k’ goes from ‘5’ to ‘n-5’",
-            "Summation ‘Sin(k+5)’ while ‘k’ goes from ‘5’ to ‘n-5'",
-            "Summation ‘Sin(k-5)’ while ‘k’ goes from ‘5’ to ‘n+5’",
-            "Summation ‘Sin(k+5)’ while ‘k’ goes from ‘5’ to ‘n+5’"
-        ],
-        "answer": "Summation ‘Sin(k-5)’ while ‘k’ goes from ‘5’ to ‘n+5’"
-    },
-    {
-        "q": "The integral ∫ 6x/(3x^2+1)^2 dx will be equal to ?",
-        "options": [
-            "- 1/(3x^2+1) + c",
-            "1/(3x^2+1) + c",
-            "- 1/((3x^2+1)^3) + c",
-            "- 1/(6x+1) + c"
-        ],
-        "answer": "- 1/(3x^2+1) + c"
-    },
-    {
-        "q": "How is the integral expression for the volume by cylindrical shells affected by changing the axis of revolution?",
-        "options": [
-            "It changes the variable of integration.",
-            "It affects the shape of the region.",
-            "It determines the limits of integration.",
-            "It doesn't affect the integral setup."
-        ],
-        "answer": "It changes the variable of integration."
-    },
-    {
-        "q": "If f(x)= x and g(x)=2x are integrable functions over the interval [0, a] for all x∈[0, a], then which of the following expressions is true for f and g?",
-        "options": [
-            "∫_0^a f(x)dx <= ∫_0^a g(x)dx",
-            "∫_0^a f(x)dx >= ∫_0^a g(x)dx",
-            "∫_0^a f(x)dx < ∫_0^a g(x)dx",
-            "∫_0^a f(x)dx > ∫_0^a g(x)dx"
-        ],
-        "answer": "∫_0^a f(x)dx <= ∫_0^a g(x)dx"
-    },
-    {
-        "q": "If the integral of f(x) = x and g(x) = 5 from x = 2 to x = 3 is 5 / 2 and 5 respectively, then the integral of h(x) = x + 5 from x = 2 to x = 3 is ________.",
-        "options": [
-            "None of these.",
-            "15 / 2.",
-            "5.",
-            "7."
-        ],
-        "answer": "15 / 2."
-    },
-    {
-        "q": "If the solid is revolved around the x-axis and generates a solid with a circular cross section of radius f(x) at x. Then the area of this cross section is",
-        "options": [
-            "[f(x)]^2",
-            "π r [f(x)]^3",
-            "π [f(x)]",
-            "π [f(x)]^2"
-        ],
-        "answer": "π [f(x)]^2"
-    },
-    {
-        "q": "The area of the ellipse x^2/a^2 + y^2/b^2 = 1",
-        "options": [
-            "π ab",
-            "π (a + b)",
-            "None of these",
-            "(1/4)π(a^2 + b^2)"
-        ],
-        "answer": "π ab"
-    },
-    {
-        "q": "The method of slicing by integration is used for finding ----------",
-        "options": [
-            "surface",
-            "volume",
-            "area",
-            "length"
-        ],
-        "answer": "volume"
-    },
-    {
-        "q": "The value of ∫_1^2 dx = _____.",
-        "options": [
-            "1",
-            "0",
-            "2",
-            "3"
-        ],
-        "answer": "1"
-    },
-    {
-        "q": "We can break up definite integrals across a sum or difference ∫_a^b f(x) ± g(x) dx as",
-        "options": [
-            "∫_a^b f(x)dx ± ∫_a^b g(x) dx",
-            "∫_b^a f(x)dx ± ∫_a^b g(x) dx",
-            "∫_b^a f(x)dx ± ∫_b^a g(x) dx",
-            "None of these"
-        ],
-        "answer": "∫_a^b f(x)dx ± ∫_a^b g(x) dx"
-    },
-    {
-        "q": "Evaluate ∫_0^x cos t dt =",
-        "options": [
-            "sin t",
-            "cos x",
-            "sin x",
-            "cos t"
-        ],
-        "answer": "sin x"
-    },
-    {
-        "q": "What is the relationship between the area under a curve and the definite integral?",
-        "options": [
-            "They are unrelated concepts.",
-            "The area is the antiderivative of the integral",
-            "Both are same concepts.",
-            "The area is the derivative of the integral."
-        ],
-        "answer": "Both are same concepts."
-    },
-    {
-        "q": "If f(x)=x^2, then ∫_0^2 π [f(x)]^2 dx is -------",
-        "options": [
-            "32π/5",
-            "17π/5",
-            "23π/5",
-            "7π/5"
-        ],
-        "answer": "32π/5"
-    },
-    {
-        "q": "Which of the following statements is true about ∫_0^1 (sin x + cos x) dx?",
-        "options": [
-            "∫_0^1 (sin x + cos x) dx = [cos x]_0^1 + [sin x]_0^1",
-            "∫_0^1 (sin x + cos x) dx = [sin x]_0^1 - [cos x]_0^1",
-            "∫_0^1 (sin x + cos x) dx = - [sin x]_0^1 + [cos x]_0^1",
-            "None"
-        ],
-        "answer": "∫_0^1 (sin x + cos x) dx = [cos x]_0^1 + [sin x]_0^1"
-    },
-    {
-        "q": "The volume of a cylinder is the area of a cross section of the cylinder multiplied by the ________ of the cylinder.",
-        "options": [
-            "Diameter",
-            "Radius",
-            "Base",
-            "Height"
-        ],
-        "answer": "Height"
-    },
-    {
-        "q": "If we change the letter for the variable of integration but don’t change the limits, then the values of the definite integral will be …………",
-        "options": [
-            "Changed",
-            "Unchanged"
-        ],
-        "answer": "Unchanged"
-    },
-    {
-        "q": "The value of ∫_0^1 dx/(1+x^2) _____.",
-        "options": [
-            "π/2",
-            "0",
-            "π/4",
-            "∞"
-        ],
-        "answer": "π/4"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option D]"
-    },
-    {
-        "q": "Which of the following is the value of definite integral of f(x)=(x-1), where the lower limit is 0 and upper limit is -1?",
-        "options": [
-            "2/3",
-            "0",
-            "1",
-            "3/2"
-        ],
-        "answer": "3/2"
-    },
-    {
-        "q": "Definite integral can be…………..",
-        "options": [
-            "Negative",
-            "0",
-            "All of these",
-            "Positive"
-        ],
-        "answer": "All of these"
-    },
-    {
-        "q": "Which of the following is the definite integral of f(x) =x^2 from x=1 to x=2",
-        "options": [
-            "None of these.",
-            "8/3",
-            "7",
-            "7/3"
-        ],
-        "answer": "7/3"
-    },
-    {
-        "q": "If the definite integral of f(x)= sec2 x over the interval [0, a] is equal to ‘1’ then what will be the value of the definite integral of f(x)= (sec2 x) +3 over the same interval?",
-        "options": [
-            "-1-3a",
-            "1+3a",
-            "1-3a",
-            "4"
-        ],
-        "answer": "1+3a"
-    },
-    {
-        "q": "For a function f(x) that is decreasing on the interval [a, b], how would this affect the volume of the solid of revolution?",
-        "options": [
-            "Cannot be determined.",
-            "Volume decreases.",
-            "No effect on volume.",
-            "Volume increases."
-        ],
-        "answer": "Cannot be determined."
-    },
-    {
-        "q": "If m <= f(x) <= M for any two number such that, a <= x <= b, which of the following is true",
-        "options": [
-            "m(b - a) >= ∫_a^b f(x) dx >= M(b - a)",
-            "none of these",
-            "m(b - a) <= ∫_a^b f(x) dx <= M(b - a)",
-            "m(b - a) >= ∫_a^b f(x) dx <= M(b - a)"
-        ],
-        "answer": "m(b - a) <= ∫_a^b f(x) dx <= M(b - a)"
-    },
-    {
-        "q": "Antiderivative of f(x)=x^2 is ...........",
-        "options": [
-            "None of these.",
-            "(1/3) x^3+c",
-            "x^3",
-            "x/2"
-        ],
-        "answer": "(1/3) x^3+c"
-    },
-    {
-        "q": "Which of the following statements is true?",
-        "options": [
-            "None",
-            "An antiderivative of a difference is the difference of the antiderivatives.",
-            "constant factor can be moved through an integral sign only if the constant is positive.",
-            "An antiderivative of a sum is the sum of the twice of antiderivatives."
-        ],
-        "answer": "An antiderivative of a difference is the difference of the antiderivatives."
-    },
-    {
-        "q": "The value of ∫_0^{π/6} sin x cos x dx _____.",
-        "options": [
-            "8",
-            "4",
-            "1/8",
-            "1/4"
-        ],
-        "answer": "1/8"
-    },
-    {
-        "q": "The value of definite integral of a function f(x) taken from 7 to 7 is 0.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "The anti-differentiation of a function and integration of a function are two different things.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "What is the purpose of using the washer method instead of the disk method?",
-        "options": [
-            "To reduce the number of slices",
-            "To handle shapes with holes.",
-            "To simplify the integration process",
-            "To increase accuracy"
-        ],
-        "answer": "To handle shapes with holes."
-    },
-    {
-        "q": "If f(x) and g(x) are constant functions on [a, b], what can be said about the area between the curves?",
-        "options": [
-            "The area is equal to the absolute difference between the values of f(x) and g(x) over the interval [a, b].",
-            "The area is zero.",
-            "The area is dependent on the width of the interval [a, b].",
-            "The area is infinite."
-        ],
-        "answer": "The area is equal to the absolute difference between the values of f(x) and g(x) over the interval [a, b]."
-    },
-    {
-        "q": "If the integral of f(x) = x + 1 from x = 2 to x = 3 is 7 / 2, then the integral of f(x) = x + 1 from x = 3 to x = 2 is ________.",
-        "options": [
-            "7 / 2.",
-            "-7 / 2",
-            "None of these.",
-            "5 / 2."
-        ],
-        "answer": "-7 / 2"
-    },
-    {
-        "q": "What will be the value of ∫_0^2 (sin x + 3) dx if ∫_0^2 (10 sin x + 30) dx = 74 ?",
-        "options": [
-            "4.2",
-            "5.4",
-            "3.6",
-            "7.4"
-        ],
-        "answer": "7.4"
-    },
-    {
-        "q": "The volume by the washer perpendicular to the x-axis is",
-        "options": [
-            "∫_a^b π([f(x)]^2 + [g(x)]^2) dx",
-            "∫_a^b π([f(x)]^2 - [g(x)]^2) dx",
-            "∫_a^b π([f(x)] + [g(x)]) dx",
-            "∫_a^b ([f(x)]^2 - [g(x)]^2) dy"
-        ],
-        "answer": "∫_a^b π([f(x)]^2 - [g(x)]^2) dx"
-    },
-    {
-        "q": "Find the area of the region to the left of the parabola x = 2y^2, to the right of the y-axis and between y = 1 and y = 3",
-        "options": [
-            "52/3",
-            "None of these",
-            "1/3",
-            "10/4"
-        ],
-        "answer": "52/3"
-    },
-    {
-        "q": "In integration of f(x)=x(x^2-3)^4 from x=0 to x=2 by substitution method, we take u=x^2-3 then du= ................",
-        "options": [
-            "2x dx",
-            "dx",
-            "2x",
-            "x"
-        ],
-        "answer": "2x dx"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "The area is decreased.",
-            "The area is undefined.",
-            "The area is increased.",
-            "It doesn't affect the area."
-        ],
-        "answer": "The area is increased."
-    },
-    {
-        "q": "Let f(x)= x and g(x)=2x are integrable functions over the interval [-a, 0] for all x∈[-a, 0] then which of the following expressions is true for f and g?",
-        "options": [
-            "∫_{-a}^{0} f(x)dx < ∫_{-a}^{0} g(x)dx",
-            "∫_{-a}^{0} f(x)dx > ∫_{-a}^{0} g(x)dx",
-            "∫_{-a}^{0} f(x)dx <= ∫_{-a}^{0} g(x)dx",
-            "∫_{-a}^{0} f(x)dx >= ∫_{-a}^{0} g(x)dx"
-        ],
-        "answer": "∫_{-a}^{0} f(x)dx < ∫_{-a}^{0} g(x)dx"
-    },
-    {
-        "q": "If the upper limit of Definite Integral is equal to its lower limit,then the value of Definite Integral will be _______.",
-        "options": [
-            "1",
-            "Zero",
-            "Same",
-            "None of the above"
-        ],
-        "answer": "Zero"
-    },
-    {
-        "q": "Value of definite integral of f(x)=|2x| from x=-1 to x=0 is ---------",
-        "options": [
-            "2",
-            "0",
-            "1",
-            "-1"
-        ],
-        "answer": "1"
-    },
-    {
-        "q": "If a solid has a uniform circular cross-section, which method is most appropriate for finding its volume?",
-        "options": [
-            "Washer Method",
-            "Disk Method",
-            "Slicing Method",
-            "Shell Method"
-        ],
-        "answer": "Disk Method"
-    },
-    {
-        "q": "What will be the value of ∫_0^1 e^x dx ?",
-        "options": [
-            "ec+1",
-            "e",
-            "ex",
-            "1"
-        ],
-        "answer": "e"
-    },
-    {
-        "q": "If the integral of f(x) = x from x = 1 to x = 3 is 4, then the integral of f(x) = 10x from x = 1 to x = 3 is ________.",
-        "options": [
-            "4.",
-            "None of these.",
-            "20.",
-            "40."
-        ],
-        "answer": "40."
-    },
-    {
-        "q": "The value of ∫_1^{10} 3x^2 dx _____.",
-        "options": [
-            "999",
-            "333",
-            "33",
-            "99"
-        ],
-        "answer": "999"
-    },
-    {
-        "q": "The value of ∫_1^{∞} dx/x^2 _____.",
-        "options": [
-            "4",
-            "0",
-            "3",
-            "1"
-        ],
-        "answer": "1"
-    },
-    {
-        "q": "If f(x) is a piecewise function with different expressions on different subintervals, how would you calculate the total area between the curves?",
-        "options": [
-            "Take the average of f(x) over the interval [a, b].",
-            "Use the maximum value of f(x) within the interval.",
-            "Ignore the piecewise nature and integrate as a continuous function.",
-            "Apply the definite integral separately on each subinterval and sum the results."
-        ],
-        "answer": "Apply the definite integral separately on each subinterval and sum the results."
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "8",
-            "12",
-            "10",
-            "14"
-        ],
-        "answer": "10"
-    },
-    {
-        "q": "What is the impact of changing the integration limits on the volume determined using the cylindrical shell method.",
-        "options": [
-            "It may increase or decrease the volume depending on the chosen limits.",
-            "It increases the volume.",
-            "It decreases the volume.",
-            "It has no effect on the volume."
-        ],
-        "answer": "It may increase or decrease the volume depending on the chosen limits."
-    },
-    {
-        "q": "If the curve over [a, b] is revolved about y-axis, then the volume is calculated by the formula -------",
-        "options": [
-            "∫_a^b π [f(y)]^2 dy",
-            "∫_a^b π [f(x)]^2 dx"
-        ],
-        "answer": "∫_a^b π [f(x)]^2 dx"
-    },
-    {
-        "q": "The Volume of a cylindrical shell can be expressed as _______.",
-        "options": [
-            "V= (area of cross section).(thickness)",
-            "V= (area of cross section).(height)"
-        ],
-        "answer": "V= (area of cross section).(thickness)"
-    },
-    {
-        "q": "Antiderivative of f(x) =x is ............",
-        "options": [
-            "x^3",
-            "(1/2) x^2+c",
-            "x/2",
-            "None of these."
-        ],
-        "answer": "(1/2) x^2+c"
-    },
-    {
-        "q": "If f is continuous at every point of [a,b] and F is anti-derivative of f on [a,b], then",
-        "options": [
-            "∫_a^b f(x) dx = F(a) - F(b)",
-            "∫_a^b f(x) dx = F(a) + F(b)",
-            "none of these",
-            "∫_a^b f(x) dx = F(b) - F(a)"
-        ],
-        "answer": "∫_a^b f(x) dx = F(b) - F(a)"
-    },
-    {
-        "q": "What does the definite integral ∫_a^b f(x) dx represent?",
-        "options": [
-            "The area under the curve f(x) from x = a to x = b",
-            "The slope of the curve f(x) from x = a to x = b",
-            "The maximum value of the function f(x) from x = a to x = b",
-            "The derivative of the function f(x) at the point x = a"
-        ],
-        "answer": "The area under the curve f(x) from x = a to x = b"
-    },
-    {
-        "q": "The area bounded by the parabola y^2 = x, straight line y = 4 and y-axis is",
-        "options": [
-            "64/3",
-            "None of these",
-            "16/3",
-            "7√2"
-        ],
-        "answer": "64/3"
-    },
-    {
-        "q": "The value of ∫_1^3 1/x dx = _____.",
-        "options": [
-            "ln|3|-1",
-            "Both a and c",
-            "ln|3|+3",
-            "ln|3|"
-        ],
-        "answer": "ln|3|"
-    },
-    {
-        "q": "If we change the letter for the variable of integration but don’t change the limits, then the values of the definite integral are unchanged.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "What is the antiderivative of zero?",
-        "options": [
-            "Independent variable x",
-            "Any constant",
-            "Zero",
-            "Dependent variable x"
-        ],
-        "answer": "Any constant"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "What is the value of the antiderivatives [sin x]_0^1 - [tan x]_0^1?",
-        "options": [
-            "sin1 + tan1 +1",
-            "None",
-            "sin1 - tan1",
-            "sin1 + tan1"
-        ],
-        "answer": "sin1 - tan1"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "Which of the following statements is true about ∫_0^1 (cos x + sec^2 x) dx?",
-        "options": [
-            "None",
-            "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 + [tan x]_0^1",
-            "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 × [tan x]_0^1",
-            "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 - [tan x]_0^1"
-        ],
-        "answer": "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 + [tan x]_0^1"
-    },
-    {
-        "q": "What technique is commonly used to find the volume of 3D objects that do not have regular shapes?",
-        "options": [
-            "Extrusion.",
-            "Projection.",
-            "Slicing.",
-            "Folding."
-        ],
-        "answer": "Slicing."
-    },
-    {
-        "q": "The volume of solid obtained when the region under the curve x=y over the interval [1,4] is revolved about the y-axis is",
-        "options": [
-            "V = ∫_1^4 π dx",
-            "V = ∫_1^4 y^2 dy",
-            "V = ∫_1^4 π y^2 dy",
-            "V = ∫_1^4 π y dy"
-        ],
-        "answer": "V = ∫_1^4 π y^2 dy"
-    },
-    {
-        "q": "Which of the following is the value of definite integral of 5+5x , where the lower limit is -1 and upper limit is 1 ?",
-        "options": [
-            "14",
-            "10",
-            "12",
-            "16"
-        ],
-        "answer": "10"
-    },
-    {
-        "q": "The Volume of a cylindrical shell is given by ______.",
-        "options": [
-            "V = (average radius).(height).(thickness)",
-            "V = 2π (average radius).(height).(thickness)"
-        ],
-        "answer": "V = 2π (average radius).(height).(thickness)"
-    },
-    {
-        "q": "The value of ∫_0^1 e^{-x} dx _____.",
-        "options": [
-            "(1+e)/e",
-            "(1-e)/e",
-            "(e-1)/e",
-            "None of the above"
-        ],
-        "answer": "(e-1)/e"
-    },
-    {
-        "q": "What is the formula for the volume of a sphere?",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "If integral of ‘f(x)’ from [3,4] = - 8 ,than integral of ‘f(x)’ from [4,3] is …………",
-        "options": [
-            "-8",
-            "-9",
-            "-6",
-            "8"
-        ],
-        "answer": "8"
-    },
-    {
-        "q": "If you increase the number of subintervals in the cylindrical shell method, what impact does it have on the accuracy of the volume approximation?",
-        "options": [
-            "Makes the method invalid.",
-            "Decreases accuracy.",
-            "No impact on accuracy.",
-            "Increases accuracy."
-        ],
-        "answer": "Increases accuracy."
-    },
-    {
-        "q": "EVERY continuous function on an interval has an anti-derivative ……………",
-        "options": [
-            "outside of interval",
-            "On that interval"
-        ],
-        "answer": "On that interval"
-    },
-    {
-        "q": "F(x) (antiderivative of f) was determined to be 4x+C where C denotes the .............",
-        "options": [
-            "Differentiation constant.",
-            "Integration constant."
-        ],
-        "answer": "Integration constant."
-    },
-    {
-        "q": "Which of the following statements is true about ∫_0^1 (sin x - sec^2 x) dx?",
-        "options": [
-            "∫_0^1 (sin x - sec^2 x) dx = [cos x]_0^1 - [tan x]_0^1",
-            "∫_0^1 (sin x - sec^2 x) dx = [cos x]_0^1 + [tan x]_0^1",
-            "None",
-            "∫_0^1 (sin x - sec^2 x) dx = - [cos x]_0^1 - [tan x]_0^1"
-        ],
-        "answer": "None"
-    },
-    {
-        "q": "Why can't we use the formula for the volume of a right cylinder to find the volume of irregular 3D solids?",
-        "options": [
-            "Irregular solids have infinite height.",
-            "Irregular solids are not made up of finitely many right cylinders.",
-            "Irregular solids have cylinderical surfaces.",
-            "The formula for right cylinders is not accurate."
-        ],
-        "answer": "Irregular solids are not made up of finitely many right cylinders."
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "The region bounded by the curves y = sqrt(x), y = 1 and x = 4",
-        "options": [
-            "1/2",
-            "None of these",
-            "0",
-            "5/3"
-        ],
-        "answer": "5/3"
-    },
-    {
-        "q": "The volume of cylindrical shell for R = 3, r = 2 and h = 1 is -----------",
-        "options": [
-            "6*pi",
-            "4*pi",
-            "5*pi",
-            "7*pi"
-        ],
-        "answer": "5*pi"
-    },
-    {
-        "q": "The Volume of a cylindrical shell is _____.",
-        "options": [
-            "None of the above",
-            "2π.((r2+r1)/2).h.(r2+r1)",
-            "2π.((r2+r1)/2).h.(r2-r1)",
-            "π.((r2+r1)/2).h.(r2-r1)"
-        ],
-        "answer": "2π.((r2+r1)/2).h.(r2-r1)"
-    },
-    {
-        "q": "For the adjacent intervals, [a,c] and [c,b],where c is any number, ∫_a^b f(x) dx =",
-        "options": [
-            "None of these",
-            "∫_a^b f(x) dx + ∫_c^a f(x) dx",
-            "∫_a^c f(x) dx + ∫_b^a f(x) dx",
-            "∫_a^c f(x) dx + ∫_c^b f(x) dx"
-        ],
-        "answer": "∫_a^c f(x) dx + ∫_c^b f(x) dx"
-    },
-    {
-        "q": "If integral of ‘f(x)’ from [1,2] = 5 ,and integral of ‘f(x)’ from [3,2] = 4 , than integral of ‘f(x)’ from [1,3] is ……….",
-        "options": [
-            "3",
-            "9",
-            "1",
-            "2"
-        ],
-        "answer": "1"
-    },
-    {
-        "q": "The integral of f(x) =sin(x+1) from x=0 to x=1 is ..........",
-        "options": [
-            "sin(1)-sin(2)",
-            "cos(2)-1",
-            "cos(1)-cos(2)",
-            "cos(2)-cos(1)"
-        ],
-        "answer": "cos(1)-cos(2)"
-    },
-    {
-        "q": "If integral of ‘f(x)’ from [-8,16] = 54 , then integral of ‘5f{x)’ from [-8,16] =………..",
-        "options": [
-            "240",
-            "270",
-            "220",
-            "260"
-        ],
-        "answer": "270"
-    },
-    {
-        "q": "The volume of a cylindrical shell with an outer cylinder radius R=3, inner cylinder radius r=2, and length h=2 is……..",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "Let R be the plane region bounded above by a continuous curve y=f(x) below by the x-axis and on the left and right, respectively, by the lines x=a and x=b the volume of the solid generated by revolving R about the y-axis is given by ______.",
-        "options": [
-            "V = ∫_a^b 2π x f(x) dx",
-            "None of the above",
-            "V = ∫_a^b 2π f(x) dx",
-            "V = ∫_a^b 2π x dx"
-        ],
-        "answer": "V = ∫_a^b 2π x f(x) dx"
-    },
-    {
-        "q": "If “f” is a continuous function on [a,b] then ∫_a^b f(x) dx = _____.",
-        "options": [
-            "∫_b^b f(x) dx",
-            "- ∫_c^a f(x) dx",
-            "- ∫_b^a f(x) dx",
-            "- ∫_a^b f(x) dx"
-        ],
-        "answer": "- ∫_b^a f(x) dx"
-    },
-    {
-        "q": "∫_a^b f(x) dx = 0 if__________.",
-        "options": [
-            "None of these",
-            "a = b",
-            "a < b",
-            "a > b"
-        ],
-        "answer": "a = b"
-    },
-    {
-        "q": "The volume of the solid generated by the region enclosed between y = sqrt(x), x=1 , x=4 and x-axis is revolved about y-axis.Which of the following equation gives the volume of solid by cylindrical shell ____.",
-        "options": [
-            "77.91",
-            "124π/5",
-            "114π/5",
-            "Both a and c"
-        ],
-        "answer": "Both a and c"
-    },
-    {
-        "q": "Definite integral from \"a\" to \"b\" of f(x)is equal to the ..........of f(x)evaluated at the \"b\" and then at \"a\".",
-        "options": [
-            "Indefinite Integral",
-            "Derivative",
-            "None of these",
-            "Both of these."
-        ],
-        "answer": "Indefinite Integral"
-    },
-    {
-        "q": "If f(x)= x and g(x)=x+1are integrable functions over the interval [a, b] for all x∈[a, b], then which of the following expressions is true for f and g?",
-        "options": [
-            "∫_a^b f(x)dx > ∫_a^b g(x)dx",
-            "∫_a^b f(x)dx <= ∫_a^b g(x)dx",
-            "∫_a^b f(x)dx >= ∫_a^b g(x)dx",
-            "∫_a^b f(x)dx < ∫_a^b g(x)dx"
-        ],
-        "answer": "∫_a^b f(x)dx < ∫_a^b g(x)dx"
-    },
-    {
-        "q": "Area between the x-axis and the curve y = cos x; when 0 <= x <= 2π is",
-        "options": [
-            "None of these",
-            "2",
-            "0",
-            "4"
-        ],
-        "answer": "4"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "Derivative of f(x)= a-7,where a is a constant is....",
-        "options": [
-            "0",
-            "7",
-            "-7",
-            "a"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "If sinx=t then dt=.....",
-        "options": [
-            "sinxdx",
-            "-cosxdx",
-            "cosxdx",
-            "sinxdt"
-        ],
-        "answer": "cosxdx"
-    },
-    {
-        "q": "Antiderivative of cosx is ..........",
-        "options": [
-            "sinx+c",
-            "xsinx",
-            "cosx+sinx",
-            "None of these."
-        ],
-        "answer": "sinx+c"
-    },
-    {
-        "q": "While calculating Riemann sum it is necessary to take equal length subintervals.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "Area lying between the parabola y^2 = 4ax and its latus rectum is",
-        "options": [
-            "8/3 a^2",
-            "8/3 a",
-            "None of these",
-            "4/3 a"
-        ],
-        "answer": "8/3 a^2"
-    },
-    {
-        "q": "By using cylindrical shells to find the volume of the solid when the region R in the first quadrant enclosed between y = x and y = x^2 is revolved about the y-axis is ______.",
-        "options": [
-            "pi/6",
-            "pi/3"
-        ],
-        "answer": "pi/6"
-    },
-    {
-        "q": "Evaluate ∫_0^x sin t dt =",
-        "options": [
-            "1 + cos t",
-            "1 + cos x",
-            "1 + cos t",
-            "1 - cos x"
-        ],
-        "answer": "1 - cos x"
-    },
-    {
-        "q": "What is a cylindrical shell?",
-        "options": [
-            "solid by two concentric cylinders.",
-            "sphere with a hole.",
-            "flat, two-dimensional shape.",
-            "solid with a hole in it."
-        ],
-        "answer": "solid by two concentric cylinders."
-    },
-    {
-        "q": "The integral of the sum of two functions is equal to the sum of their integrals.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "True"
-    },
-    {
-        "q": "If the definite integral of f(x)=cos x over the interval [-a,0] is equal to ‘-1’ then what will be the value of the definite integral of f(x)= (cos x) -1 over the same interval?",
-        "options": [
-            "-1+a",
-            "-1-a",
-            "1+a",
-            "-2"
-        ],
-        "answer": "-1-a"
-    },
-    {
-        "q": "The integral of f(x) =cos(2x) from x=0 to x=pi is ................",
-        "options": [
-            "0",
-            "None of these.",
-            "2(pi)",
-            "3(pi)"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "The volume of cylindrical shell for R = 5, r = 3 and h = 2 is -----------",
-        "options": [
-            "25*pi",
-            "36*pi",
-            "30*pi",
-            "32*pi"
-        ],
-        "answer": "32*pi"
-    },
-    {
-        "q": "The volume of the sphere with radius r can be calculated by ---------------",
-        "options": [
-            "4/3 p r^4",
-            "4/3 p r^2",
-            "4/3 p r",
-            "4/3 p r^3"
-        ],
-        "answer": "4/3 p r^3"
-    },
-    {
-        "q": "Mathematically second fundamental theorem of calculus can be written as,",
-        "options": [
-            "none of these",
-            "d/dx ∫_a^t f(t)dt = f(t)",
-            "d/dx ∫_a^t f(t)dt = f'(x)",
-            "d/dx ∫_a^x f(t)dt = f(x)"
-        ],
-        "answer": "d/dx ∫_a^x f(t)dt = f(x)"
-    },
-    {
-        "q": "What will be the average value of y = cos3x with respect to x over [0, 2], if ∫_0^2 cos^3 x dx is equal to 0.66?",
-        "options": [
-            "1.05",
-            "1.32",
-            "0.33",
-            "1.5"
-        ],
-        "answer": "0.33"
-    },
-    {
-        "q": "The volume of the solid generated by the region enclosed between y = sqrt(x), x=1 , x=3 and x-axis is resvolved by y-axis.Which of the following equation gives the volume of solid by cylindrical shell ____.",
-        "options": [
-            "V = ∫_1^x 2π x sqrt(x) dx",
-            "Both b and c",
-            "V = ∫_1^3 2π x sqrt(x) dx",
-            "V = ∫_1^3 2π x^{3/2} dx"
-        ],
-        "answer": "Both b and c"
-    },
-    {
-        "q": "How is the volume of a solid calculated using the method of slicing perpendicular to the y-axis?",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "When using the technique of slicing to find the volume of an irregular solid, what is the basic idea?",
-        "options": [
-            "Divide the solid into cubes and sum their volumes.",
-            "Divide the solid into cylinders and sum their volumes.",
-            "Measure the distance between slices.",
-            "Divide the solid into slices and sum their volumes."
-        ],
-        "answer": "Divide the solid into slices and sum their volumes."
-    },
-    {
-        "q": "If f continuous on [a,b] and F(x) = ∫_a^x f(t) dt, then",
-        "options": [
-            "F'(t) = f(x) on [a,b]",
-            "F'(x) = f(x) on [a,b]",
-            "none of these",
-            "F'(x) = f(t) on [a,b]"
-        ],
-        "answer": "F'(x) = f(x) on [a,b]"
-    },
-    {
-        "q": "The volume of the solid bounded by planes x=a and x=b with cross-sectional area A(x) perpendicular to the x-axis is",
-        "options": [
-            "V = ∫_a^b A(x) dx",
-            "V = ∫_a^b A(x) dy",
-            "V = ∫_a^b A(y) dy",
-            "V = ∫_a^a A(y) dx"
-        ],
-        "answer": "V = ∫_a^b A(x) dx"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "The area between the curves increases after the shift."
-        ],
-        "answer": "[Image based option D]"
-    },
-    {
-        "q": "By using cylindrical shells to find the volume of the solid when the region R in the first quadrant enclosed between y=x and y=x^2 is revolved about the y-axis is ______.",
-        "options": [
-            "V = ∫_0^1 π x(x - x^2) dx",
-            "V = ∫_0^3 2π x(x - x^2) dx",
-            "V = ∫_0^1 2π x(x - x^2) dx",
-            "V = ∫_0^1 2π (x - x^2) dx"
-        ],
-        "answer": "V = ∫_0^1 2π x(x - x^2) dx"
-    },
-    {
-        "q": "First fundamental theorem of calculus tells us how to evaluate the ........ in a quick way.",
-        "options": [
-            "Indefinite integral",
-            "None of these.",
-            "Differential",
-            "Definite integral"
-        ],
-        "answer": "Definite integral"
-    },
-    {
-        "q": "The volume of the solid bounded by planes y=a and y=b with cross-sectional area A(y) perpendicular to the y-axis is",
-        "options": [
-            "V = ∫_a^b A(y) dy",
-            "V = ∫_b^b A(y) dx",
-            "V = ∫_a^b A(x) dx",
-            "V = ∫_a^b A(x) dy"
-        ],
-        "answer": "V = ∫_a^b A(y) dy"
-    },
-    {
-        "q": "If integral of ‘h(x)’ from [-2,4] = -5 and integral of ‘g(x)’ from [-2,4] = -9 ,than integral of (6h(x)-8g(x)) from [-2,4] =……..",
-        "options": [
-            "42",
-            "40",
-            "43",
-            "41"
-        ],
-        "answer": "42"
-    },
-    {
-        "q": "Which term refers to a geometric object with zero dimensions?",
-        "options": [
-            "Point",
-            "Circle",
-            "Triangle",
-            "Line"
-        ],
-        "answer": "Point"
-    },
-    {
-        "q": "Which of the following is true for the definite integral ∫_a^b f(x) dx =",
-        "options": [
-            "∫_a^a f(x) dx",
-            "- ∫_b^a f(x) dx",
-            "∫_b^a f(x) dx",
-            "- ∫_a^b f(x) dx"
-        ],
-        "answer": "- ∫_b^a f(x) dx"
-    },
-    {
-        "q": "Which transformation can be applied to shift the graph above the x-axis?",
-        "options": [
-            "Reflecting in the y-axis.",
-            "Scaling in the x-direction.",
-            "Translating horizontal.",
-            "Translating vertically."
-        ],
-        "answer": "Translating vertically."
-    },
-    {
-        "q": "The volume of solid obtained when the region under the curve y = x^3 over the interval [1,3] is revolved about the x-axis is",
-        "options": [
-            "V = ∫_1^3 π x^3 dy",
-            "V = ∫_1^3 x^6 dx",
-            "V = ∫_1^3 π x^6 dx",
-            "V = ∫_1^3 π x^3 dx"
-        ],
-        "answer": "V = ∫_1^3 π x^6 dx"
-    },
-    {
-        "q": "The value of the ∫_0^1 t^3 dt = _____.",
-        "options": [
-            "1/3",
-            "4/3",
-            "1/4",
-            "2/3"
-        ],
-        "answer": "1/4"
-    },
-    {
-        "q": "The value of the definite integral of a function f(x)= x2 taken from [-7, 7] is 0.",
-        "options": [
-            "False",
-            "True"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "Definite integral gives the area under the curve.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "Find the area between y = x and y = - x(x-4)",
-        "options": [
-            "0",
-            "None of these",
-            "9/2",
-            "7/2"
-        ],
-        "answer": "9/2"
-    },
-    {
-        "q": "What is the primary difference between a 1d object and a 2d object?",
-        "options": [
-            "1d object has length, while a 2d object has area.",
-            "1d object has width, while a 2d object has height.",
-            "1d object is flat, while a 2d object is three-dimensional",
-            "1d object can curve, while a 2d object is always straight."
-        ],
-        "answer": "1d object has length, while a 2d object has area."
-    },
-    {
-        "q": "If the value of definite integral of a function f(x) taken from 1 to 3 is 9 then its value taken from 3 to 1 is",
-        "options": [
-            "None of these",
-            "9",
-            "0",
-            "-9"
-        ],
-        "answer": "-9"
-    },
-    {
-        "q": "The value of ∫_1^x y^2 dy = _____.",
-        "options": [
-            "y^3/3 - 1/3",
-            "x^3/3 - 1/3"
-        ],
-        "answer": "x^3/3 - 1/3"
-    },
-    {
-        "q": "If the integrand is continuous, then the derivative of a definite integral w.r.t its upper limit is equal to the integrand evaluated at the ………",
-        "options": [
-            "upper limit",
-            "middle limit",
-            "None of these",
-            "lower limit"
-        ],
-        "answer": "upper limit"
-    },
-    {
-        "q": "Find the area of the region between the x-axis, the f(x) = x^3 - x^2 - 2x; -1 <= x <= 2",
-        "options": [
-            "37/12",
-            "None of these",
-            "45/4",
-            "3/2"
-        ],
-        "answer": "37/12"
-    },
-    {
-        "q": "Evaluate d/dx ∫_1^x t^2 dt =",
-        "options": [
-            "3x^2",
-            "-x^2",
-            "x^2",
-            "none of these"
-        ],
-        "answer": "x^2"
-    },
-    {
-        "q": "∫_a^b f(x) dx = _____.",
-        "options": [
-            "∫_a^b f(z) dz",
-            "∫_b^a f(x) dx"
-        ],
-        "answer": "∫_a^b f(z) dz"
-    },
-    {
-        "q": "If the definite integral of f(x)=3 over [1,x] is greater than ‘12’ then -----",
-        "options": [
-            "x>5",
-            "x>1",
-            "x>3",
-            "x>12"
-        ],
-        "answer": "x>5"
-    },
-    {
-        "q": "The volume of cylindrical shell for R = 2, r = 1 and h = 2 is -----------",
-        "options": [
-            "5*pi",
-            "6*pi",
-            "3*pi",
-            "4*pi"
-        ],
-        "answer": "6*pi"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option D]"
-    },
-    {
-        "q": "If the solid is revolved around the y-axis and generates a solid with a circular cross section of radius g(y) at y. Then the area of this cross section is",
-        "options": [
-            "π [g(y)]",
-            "π [g(y)]^2",
-            "π r [g(y)]^3",
-            "[g(y)]^2"
-        ],
-        "answer": "π [g(y)]^2"
-    },
-    {
-        "q": "If f(x)= x and g(x)=x-1are integrable functions over the interval [a, b] for all x∈[a, b], then which of the following expressions is true for f and g?",
-        "options": [
-            "∫_a^b f(x)dx <= ∫_a^b g(x)dx",
-            "∫_a^b f(x)dx >= ∫_a^b g(x)dx",
-            "∫_a^b f(x)dx > ∫_a^b g(x)dx",
-            "∫_a^b f(x)dx < ∫_a^b g(x)dx"
-        ],
-        "answer": "∫_a^b f(x)dx >= ∫_a^b g(x)dx"
-    },
-    {
-        "q": "The integral of f(x)=sin(2x) from x=0 to x=pi is ........",
-        "options": [
-            "2",
-            "1",
-            "None of thes.",
-            "0"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "............ is used to prove the first fundamental theorem of calculus.",
-        "options": [
-            "Intermediate value theorem",
-            "Mean value theorem for the derivatives",
-            "None of these.",
-            "Mean value theorem for the integrals"
-        ],
-        "answer": "Mean value theorem for the integrals"
-    },
-    {
-        "q": "Which of the following alternative methods could be more efficient than slicing for finding the volume of certain solids?",
-        "options": [
-            "The disk method",
-            "The shell method",
-            "The cross-sectional method",
-            "The washer method"
-        ],
-        "answer": "The shell method"
-    },
-    {
-        "q": "Which of the following is the ‘mesh size’ in the partition: {[0,0.25],[0.25,0.75],[0.75,1.25],[1.25,2]} of the interval [0,2]?",
-        "options": [
-            "[1.25,2]",
-            "[0.25,0.75]",
-            "[0,0.25]",
-            "[0.75,1.25]"
-        ],
-        "answer": "[0.75,1.25]"
-    },
-    {
-        "q": "If the value of definite integral of a function f(x) taken from 1 to 3 is 2 and that of taken from 3 to 5 is 1 then value of definite integral taken from 1 to 5 is",
-        "options": [
-            "0",
-            "None of these",
-            "3",
-            "1"
-        ],
-        "answer": "3"
-    },
-    {
-        "q": "Constant of integration is taken to be ………. in definite integral.",
-        "options": [
-            "c",
-            "k",
-            "0",
-            "All of these"
-        ],
-        "answer": "0"
-    },
-    {
-        "q": "The bounded region between the parabola y = 4x^2 and the line y = 6x - 2",
-        "options": [
-            "1/6",
-            "1/3",
-            "1/12",
-            "None of these"
-        ],
-        "answer": "1/6"
-    },
-    {
-        "q": "If a similar solid is rotated around the x-axis over a closed interval [a, b] then the corresponding volume of revolution is ....",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "Which statement accurately describes the comparison between the cylindrical shell method and the disk or washer method regarding their applications.",
-        "options": [
-            "Shell method is simpler to apply.",
-            "Both methods can be used interchangeably.",
-            "The disk or washer method is simpler to apply.",
-            "The cylindrical shell method is always more accurate."
-        ],
-        "answer": "The disk or washer method is simpler to apply."
-    },
-    {
-        "q": "How can the volume of the solid formed by revolving a region R bounded by the graph of f(x) around the y-axis be approximated using cylindrical shells?",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "Which of the following statements is true about ∫_0^1 sec x tan x dx?",
-        "options": [
-            "∫_0^1 sec x tan x dx = [sec x]_0^1 × [tan x]_0^1",
-            "None",
-            "∫_0^1 sec x tan x dx = [sec x]_0^1",
-            "∫_0^1 sec x tan x dx = [sec x]_0^1 + [tan x]_0^1"
-        ],
-        "answer": "∫_0^1 sec x tan x dx = [sec x]_0^1"
-    },
-    {
-        "q": "The value of ∫_0^{π/4} tan^2 x dx _____.",
-        "options": [
-            "None of the above",
-            "1 - π/4",
-            "0",
-            "π/4 - 1"
-        ],
-        "answer": "1 - π/4"
-    },
-    {
-        "q": "If the upper and lower limits for the definite integral are the same, then ∫_a^a f(x) dx =",
-        "options": [
-            "negative integer",
-            "none of these",
-            "positive integer",
-            "zero"
-        ],
-        "answer": "zero"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "The area is dependent on the width of the interval [a, b].",
-            "The area is infinite.",
-            "The area is undefined.",
-            "The area is zero."
-        ],
-        "answer": "The area is zero."
-    },
-    {
-        "q": "How does the axis of rotation impact the choice between using the disk method or the washer method?",
-        "options": [
-            "It has no affect on the choice",
-            "It determines the shape of the solid",
-            "It determines the thickness of the cross-sections.",
-            "It affects whether the solid has holes or voids along the axis."
-        ],
-        "answer": "It affects whether the solid has holes or voids along the axis."
-    },
-    {
-        "q": "x^4/4 - 1/4 = _____.",
-        "options": [
-            "∫_1^x t^3 dt",
-            "∫_1^x t^4 dt"
-        ],
-        "answer": "∫_1^x t^3 dt"
-    },
-    {
-        "q": "Which of the following statements is true about ∫_0^1 (sin x cos x) dx?",
-        "options": [
-            "∫_0^1 (sin x cos x) dx = 1/2 ∫_0^1 sin 2x dx",
-            "∫_0^1 (sin x cos x) dx = ∫_0^1 sin x dx + ∫_0^1 cos x dx",
-            "∫_0^1 (sin x cos x) dx = 2 ∫_0^1 sin x dx × 2 ∫_0^1 cos x dx",
-            "∫_0^1 (sin x cos x) dx = ∫_0^1 sin x dx - ∫_0^1 cos x dx"
-        ],
-        "answer": "∫_0^1 (sin x cos x) dx = 1/2 ∫_0^1 sin 2x dx"
-    },
-    {
-        "q": "Use cylindrical shells to find the volume of the solid generated when the region ‘R’ enclosed between y = 2x + 1 and y = -2x - 3 in the interval [1,3] is revolved about the y-axis is ______.",
-        "options": [
-            "V = ∫_1^3 2π x ((2x+1) - (-2x-3)) dx",
-            "V = ∫_1^3 2π x ((2x+1) + (-2x-3)) dx"
-        ],
-        "answer": "V = ∫_1^3 2π x ((2x+1) - (-2x-3)) dx"
-    },
-    {
-        "q": "Area of the region bounded by the curves y = x^2 + 2, y = -x ; x = 0 and x = 1 is",
-        "options": [
-            "3/16",
-            "None of these",
-            "17/6",
-            "5/16"
-        ],
-        "answer": "17/6"
-    },
-    {
-        "q": "In general, an antiderivative of a product is the product of the antiderivatives.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "q": "Evaluate d/dx ∫_2^x t dt",
-        "options": [
-            "x^3",
-            "x",
-            "x^2",
-            "none of these"
-        ],
-        "answer": "x"
-    },
-    {
-        "q": "In order to fully determine the anti derivative of a function f (F(x)), we must have..........",
-        "options": [
-            "None of these",
-            "Integration constant.",
-            "Boundary conditions",
-            "Initial conditions."
-        ],
-        "answer": "Boundary conditions"
-    },
-    {
-        "q": "What could be the value of x if ∫_0^x 3 dx > 15 ?",
-        "options": [
-            "x>5",
-            "x>3",
-            "x>10",
-            "x>15"
-        ],
-        "answer": "x>5"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option D]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option D]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option D]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option A]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option C]"
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "The area is decreased.",
-            "The area is undefined.",
-            "The area is increased.",
-            "It doesn't affect the area."
-        ],
-        "answer": "The area is increased."
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "The area is dependent on the width of the interval [a, b].",
-            "The area is infinite.",
-            "The area is undefined.",
-            "The area is zero."
-        ],
-        "answer": "The area is zero."
-    },
-    {
-        "q": "[Image based question]",
-        "options": [
-            "[Image based option A]",
-            "[Image based option B]",
-            "[Image based option C]",
-            "[Image based option D]"
-        ],
-        "answer": "[Image based option B]"
-    },
-    {
-        "q": "The integral of f(x) = sin(x + 1) from x = 0 to x = 1 is:",
-        "options": [
-            "A. sin(1) - sin(2)",
-            "B. cos(2) - 1",
-            "C. cos(1) - cos(2)",
-            "D. cos(2) - cos(1)"
-        ],
-        "answer": "C. cos(1) - cos(2)"
-    },
-    {
-        "q": "The Volume of a cylindrical shell can be expressed as:",
-        "options": [
-            "A. V = (area of cross section) × (thickness)",
-            "B. V = (area of cross section) × (height)"
-        ],
-        "answer": "A. V = (area of cross section) × (thickness)"
-    },
-    {
-        "q": "Area lying between the parabola y² = 4ax and its latus rectum is:",
-        "options": [
-            "A. 4/3 a",
-            "B. 8/3 a",
-            "C. 8/3 a²",
-            "D. None of these"
-        ],
-        "answer": "C. 8/3 a²"
-    },
-
-    {
-        "q": "If the definite integral of f(x) = sec²x over the interval [0, a] is equal to '1' then what will be the value of the definite integral of f(x) = (sec²x) + 3 over the same interval?",
-        "options": [
-            "A. 4",
-            "B. -1-3a",
-            "C. 1-3a",
-            "D. 1+3a"
-        ],
-        "answer": "D. 1+3a"
-    },
-    {
-        "q": "If f(x) = x and g(x) = x + 1 are integrable functions over the interval [a, b] for a < b, which of the following expressions is true for f and g?",
-        "options": [
-            "A. ∫ₐᵇ f(x) dx = ∫ₐᵇ g(x) dx",
-            "B. ∫ₐᵇ f(x) dx ≠ ∫ₐᵇ g(x) dx",
-            "C. ∫ₐᵇ f(x) dx < ∫ₐᵇ g(x) dx",
-            "D. ∫ₐᵇ f(x) dx > ∫ₐᵇ g(x) dx"
-        ],
-        "answer": "C. ∫ₐᵇ f(x) dx < ∫ₐᵇ g(x) dx"
-    },
-    {
-        "q": "If the definite integral of f(x) = Sin x over the interval [-a, 0] is equal to -2 then what will be the value of the definite integral of f(x) = (Sin x) + 1 over the same interval?",
-        "options": [
-            "A. -2 + a",
-            "B. 2 - a",
-            "C. -2 - a",
-            "D. -1"
-        ],
-        "answer": "A. -2 + a"
-    },
-    {
-        "q": "If f(x) = x and g(x) = 2x are integrable functions over the interval [0, a] for a > 0, which of the following expressions is true for f and g?",
-        "options": [
-            "A. ∫₀ᵃ f(x) dx > ∫₀ᵃ g(x) dx",
-            "B. ∫₀ᵃ f(x) dx < ∫₀ᵃ g(x) dx",
-            "C. ∫₀ᵃ f(x) dx = ∫₀ᵃ g(x) dx",
-            "D. ∫₀ᵃ f(x) dx ≠ ∫₀ᵃ g(x) dx"
-        ],
-        "answer": "B. ∫₀ᵃ f(x) dx < ∫₀ᵃ g(x) dx"
-    },
-    {
-        "q": "The expressions (x² + x), (x² + x + 5), (x² + x - 3) have the same ....",
-        "options": [
-            "A. Derivative",
-            "B. Anti-derivative"
-        ],
-        "answer": "A. Derivative"
-    },
-    {
-        "q": "The area of the region bounded by the curves y = √x, y = 1, and x = 4 is:",
-        "options": [
-            "A. 0",
-            "B. 1/2",
-            "C. None of these",
-            "D. 5/3"
-        ],
-        "answer": "D. 5/3"
-    },
-    {
-        "q": "The value of ∫₋₁^∞ dx/x² is:",
-        "options": [
-            "A. 1",
-            "B. 3",
-            "C. 0",
-            "D. Diverges (Correct answer missing from options)"
-        ],
-        "answer": "D. Diverges (Correct answer missing from options)"
-    },
-    {
-        "q": "Question content is missing from the PDF for Q8.",
-        "options": [
-            "A. (not available)",
-            "B. (not available)",
-            "C. (not available)",
-            "D. (not available)"
-        ],
-        "answer": "A. (not available)"
-    },
-    {
-        "q": "Use cylindrical shells to find the volume of the solid generated when the region 'R' enclosed between y = 2x + 1 and y = -2x - 3 in the interval [1,3] is revolved about the y-axis is ______.",
-        "options": [
-            "A. V = ∫₁³ 2πx((2x+1)+(-2x-3)) dx",
-            "B. V = ∫₁³ 2πx((2x+1)-(-2x-3)) dx"
-        ],
-        "answer": "B. V = ∫₁³ 2πx((2x+1)-(-2x-3)) dx"
-    },
-    {
-        "q": "If f(x) = x and g(x) = x - 1 are integrable functions over the interval [a, b] for a < b, which of the following expressions is true for f and g?",
-        "options": [
-            "A. ∫ₐᵇ f(x) dx = ∫ₐᵇ g(x) dx",
-            "B. ∫ₐᵇ f(x) dx ≠ ∫ₐᵇ g(x) dx",
-            "C. ∫ₐᵇ f(x) dx < ∫ₐᵇ g(x) dx",
-            "D. ∫ₐᵇ f(x) dx > ∫ₐᵇ g(x) dx"
-        ],
-        "answer": "D. ∫ₐᵇ f(x) dx > ∫ₐᵇ g(x) dx"
-    }
-
-
-
-
-
-],
-      subjective: [
-        { q: 'Find all relative extrema of f(x) = x³ − 6x² + 9x + 1 using the First and Second Derivative Tests. Show all steps.', marks: 8 },
-        { q: 'Evaluate the definite integral ∫₁³ (2x² + 3x − 1) dx. Show all working.', marks: 7 },
-        { q: 'A particle moves along a straight line with position function x(t) = t³ − 6t² + 9t. Find (a) velocity, (b) acceleration, (c) when the particle is at rest, (d) position at t = 2.', marks: 8 },
-        { q: 'Find the area enclosed between y = x² and y = x. Show by finding intersection points, setting up the integral, and evaluating it.', marks: 7 },
+    mcqs: [
+    {
+      "id": 1,
+      "lecture": 23,
+      "q": "If a function has an extreme value (either a maximum or a minimum) on an open interval (a,b), then the extreme value occurs at a ........",
+      "options": [
+        "Any point in the open interval (a,b)",
+        "Critical point of f(x)"
       ],
+      "answer": "Critical point of f(x)"
+    },
+    {
+      "id": 2,
+      "lecture": 23,
+      "q": "If a function f is twice differentiable at a stationary point x0 and f''(x0)>0, then f has relative __________ at x0.",
+      "options": [
+        "Maximum",
+        "Minimum",
+        "Both a and b",
+        "None of these"
+      ],
+      "answer": "Minimum"
+    },
+    {
+      "id": 3,
+      "lecture": 23,
+      "q": "Let y = f(x) be a discontinuous function on a finite closed interval, then which of the following is true about it.",
+      "options": [
+        "It has only absolute minimum value.",
+        "It must have absolute extreme values.",
+        "It may or may not have absolute extreme values.",
+        "None of these."
+      ],
+      "answer": "It may or may not have absolute extreme values."
+    },
+    {
+      "id": 4,
+      "lecture": 23,
+      "q": "If f (x) = 2x + 7 is defined on the interval [2, 4), then which of the following is true about it.",
+      "options": [
+        "It has only absolute minimum value.",
+        "It has both absolute maximum and minimum values.",
+        "None of these.",
+        "It has only absolute maximum value."
+      ],
+      "answer": "It has only absolute minimum value."
+    },
+    {
+      "id": 5,
+      "lecture": 23,
+      "q": "If the function is continuous on the closed interval [a,b], then the function has …………",
+      "options": [
+        "Only maximum value on the [a,b]",
+        "Only minimum value on the [a,b]",
+        "Only minimum value on the [a,b]",
+        "Both maximum and minimum values on the [a,b]"
+      ],
+      "answer": "Both maximum and minimum values on the [a,b]"
+    },
+    {
+      "id": 6,
+      "lecture": 23,
+      "q": "If f is______________ on a closed interval [a,b], then f, attains an absolute maximum value f(c) and an absolute minimum value f(d) at some numbers c and d in [a,b].",
+      "options": [
+        "None of these",
+        "differentiable",
+        "continuous",
+        "constant"
+      ],
+      "answer": "continuous"
+    },
+    {
+      "id": 7,
+      "lecture": 23,
+      "q": "Absolute minimum of the function f(x)=x in the semi open interval (0,2] is-------",
+      "options": [
+        "1",
+        "Undefined",
+        "2",
+        "0"
+      ],
+      "answer": "Undefined"
+    },
+    {
+      "id": 8,
+      "lecture": 23,
+      "q": "Which of the following is the absolute minima of the function: f(x)=-x in the interval [-1,1]?",
+      "options": [
+        "-1",
+        "0.5",
+        "0",
+        "1"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": 9,
+      "lecture": 23,
+      "q": "If f (x) = x^2 is defined on the interval [-1, 3], then which of the following is true about it.",
+      "options": [
+        "Its relative maximum value is 9.",
+        "Its absolute maximum value is 0.",
+        "Its absolute maximum value is 9.",
+        "None of these."
+      ],
+      "answer": "Its absolute maximum value is 9."
+    },
+    {
+      "id": 10,
+      "lecture": 23,
+      "q": "If f (x) = x^4 is defined on the interval [-2, 2], then which of the following is true about it.",
+      "options": [
+        "Its relative maximum value exists at 2.",
+        "None of these.",
+        "Its absolute maximum value exists at 2.",
+        "Its absolute minimum value exists at -2"
+      ],
+      "answer": "Its absolute maximum value exists at 2."
+    },
+    {
+      "id": 11,
+      "lecture": 23,
+      "q": "If f (x) = x^3 is defined on the interval [1, 3], then which of the following is true about it.",
+      "options": [
+        "None of these.",
+        "Its relative minimum value exists at the critical point.",
+        "Its relative minimum value does not exist at the critical point",
+        "Its absolute minimum value exists at the critical point."
+      ],
+      "answer": "Its relative minimum value does not exist at the critical point"
+    },
+    {
+      "id": 12,
+      "lecture": 23,
+      "q": "If f (x) = x^3 is defined on the interval [-1, 2], then which of the following is true about it",
+      "options": [
+        "None of these.",
+        "Its relative minimum value exists at the critical point.",
+        "Its absolute minimum value exists at the critical point.",
+        "Its relative minimum value does not exist at the critical point."
+      ],
+      "answer": "Its relative minimum value does not exist at the critical point."
+    },
+    {
+      "id": 13,
+      "lecture": 23,
+      "q": "Maximum of the function f(x)=2x+7 occurs at",
+      "options": [
+        "x=0",
+        "x=-2/7",
+        "None of these",
+        "x=-7/2"
+      ],
+      "answer": "None of these"
+    },
+    {
+      "id": 14,
+      "lecture": 23,
+      "q": "f(x)=x^3-3x, is increasing on the interval (0 ,infinity)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 15,
+      "lecture": 23,
+      "q": "The dimensions of a rectangle are given to be 8ft by 12ft. The perimeter of rectangle will be…………..",
+      "options": [
+        "40 feet",
+        "60 feet",
+        "30 feet",
+        "50feet"
+      ],
+      "answer": "40 feet"
+    },
+    {
+      "id": 16,
+      "lecture": 23,
+      "q": "The maximum and minimum values of the function f(x)=1/x does not lie in the interval [-1,1] because -------",
+      "options": [
+        "f(x) is differentiable in [-1,1]",
+        "f(x) is not one-to-one",
+        "f(x) is discontinuous in [-1,1]",
+        "f(x) is continuous in [-1,1]"
+      ],
+      "answer": "f(x) is discontinuous in [-1,1]"
+    },
+    {
+      "id": 17,
+      "lecture": 24,
+      "q": "Newton's method is not applicable when 'f' is a …………",
+      "options": [
+        "Exponential function.",
+        "Trignometric function",
+        "Constant function",
+        "Polynomial"
+      ],
+      "answer": "Constant function"
+    },
+    {
+      "id": 18,
+      "lecture": 24,
+      "q": "If f(x)=Tan(x) then mean value theorem can be applied to it on the interval (0,2pi)",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 19,
+      "lecture": 24,
+      "q": "By using Newton method, which of the following is the poorest initial approximate solution of equation:x+Cosx=0?",
+      "options": [
+        "x=-pi/3",
+        "x=0",
+        "x=pi/2",
+        "x=-pi/4"
+      ],
+      "answer": "x=0"
+    },
+    {
+      "id": 20,
+      "lecture": 24,
+      "q": "For the given function f(x)= 2(x^2)+1 in the interval [-1,2] , which condition of Rolle's theorem is not satisfied.",
+      "options": [
+        "f (-1) = f (2)",
+        "The function is continuous in the interval",
+        "The function is differentiable in the interval",
+        "None of these."
+      ],
+      "answer": "f (-1) = f (2)"
+    },
+    {
+      "id": 21,
+      "lecture": 24,
+      "q": "For Rolle's Theorem, f is differentiable on the interval __________.",
+      "options": [
+        "(a,b)",
+        "[a,b]",
+        "(a,b]",
+        "[a,b)"
+      ],
+      "answer": "(a,b)"
+    },
+    {
+      "id": 22,
+      "lecture": 24,
+      "q": "For Rolle's Theorem, f is continuous on the interval __________.",
+      "options": [
+        "(a,b)",
+        "(a,b]",
+        "[a,b]",
+        "[a,b)"
+      ],
+      "answer": "[a,b]"
+    },
+    {
+      "id": 23,
+      "lecture": 24,
+      "q": "The approximate solution is possible to generate using Newton's Method if ___________.",
+      "options": [
+        "the tangent line(at approximated points) must crosses the x - axis.",
+        "the slope of tangent line(at any approximated point) is zero.",
+        "the tangent line(at any approximated point) is parallel to x- axis.",
+        "None of these."
+      ],
+      "answer": "the tangent line(at approximated points) must crosses the x - axis."
+    },
+    {
+      "id": 24,
+      "lecture": 24,
+      "q": "By applying Roll's theorem on f(x) = x over the interval [-1,1], the points where the derivative of f(x)=x is not taken are………",
+      "options": [
+        "x= -1, 1",
+        "x=0,1",
+        "x=0,0.5,-0.5",
+        "x=-1,0"
+      ],
+      "answer": "x= -1, 1"
+    },
+    {
+      "id": 25,
+      "lecture": 24,
+      "q": "Given a function f(x) = 1 / (x-1) and the interval is (0,2) ,then mean value theorem cannot be applied due to ……….",
+      "options": [
+        "Rational function",
+        "None of these",
+        "Discontinuity of the function in the given interval",
+        "Open interval"
+      ],
+      "answer": "Discontinuity of the function in the given interval"
+    },
+    {
+      "id": 26,
+      "lecture": 24,
+      "q": "Mean value theorem states that between any two points A and B on a curve y=f(x) , there must be at least one point where the Tangent line to the curve is……………joining A and B",
+      "options": [
+        "Perpendicular to the secant line",
+        "Parallel to the tangent line",
+        "Perpendicular to the tangent line",
+        "Parallel to the secant line"
+      ],
+      "answer": "Parallel to the secant line"
+    },
+    {
+      "id": 27,
+      "lecture": 24,
+      "q": "Why the equation: x^2 + 8 = 0 does not have approximate solution while using Newton's method?",
+      "options": [
+        "x^2 will always be nonnegative",
+        "x^2 will always be negative"
+      ],
+      "answer": "x^2 will always be nonnegative"
+    },
+    {
+      "id": 28,
+      "lecture": 24,
+      "q": "Newton's Method fails to find the approximate solution of an equation if _____________.",
+      "options": [
+        "the slope of the tangent line(at any approximated point) is non-zero",
+        "the tangent line(at any approximated point) is parallel to x-axis.",
+        "None of these",
+        "the tangent line (at any approximated point) is not parallel to x-axis."
+      ],
+      "answer": "the tangent line(at any approximated point) is parallel to x-axis."
+    },
+    {
+      "id": 29,
+      "lecture": 24,
+      "q": "If f'(r) =0 at some approximation 'r' then we cannot proceed on Newton's method.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 30,
+      "lecture": 24,
+      "q": "While solving the equation, 10x-(e^x)=0 by using Newton method, if x=0 is the initial approximate solution then the next approximation will be-----",
+      "options": [
+        "1/9",
+        "1/10",
+        "-1/10",
+        "-1/9"
+      ],
+      "answer": "1/9"
+    },
+    {
+      "id": 31,
+      "lecture": 24,
+      "q": "Newton's method uses the …………… to approximate the root.",
+      "options": [
+        "None of these",
+        "Tangent line",
+        "Normal line",
+        "Secant line"
+      ],
+      "answer": "Tangent line"
+    },
+    {
+      "id": 32,
+      "lecture": 24,
+      "q": "If f(x)=Cot(x) then mean value theorem can be applied to it on the interval (0,2pi)",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 33,
+      "lecture": 24,
+      "q": "The value of c in Rolle's Theorem for the function f(x) = e^x sin x, x ∈ [0,π] is ________.",
+      "options": [
+        "3π/2",
+        "π/6",
+        "π/4",
+        "3π/4"
+      ],
+      "answer": "3π/4"
+    },
+    {
+      "id": 34,
+      "lecture": 24,
+      "q": "In Rolle's theorem, f(x) is continuous in closed interval [a,b] and differentiable in open interval (a,b).Then why we don't discuss its differentiability in the closed interval [a,b] because ---------",
+      "options": [
+        "f '(a)=f '(b)=0",
+        "f '(a) and f '(b) never exist",
+        "f(a)=f(b)=0",
+        "f(a) and f(b) never exist"
+      ],
+      "answer": "f(a)=f(b)=0"
+    },
+    {
+      "id": 35,
+      "lecture": 24,
+      "q": "By applying mean value theorem to the function f(x)=lnx in the interval [1,e], the corresponding value of 'c' is ------------(Hint: lne=1, ln1=0)",
+      "options": [
+        "e-1",
+        "-e",
+        "1-e",
+        "e"
+      ],
+      "answer": "e-1"
+    },
+    {
+      "id": 36,
+      "lecture": 24,
+      "q": "While using Newton's method,which of the following will be the best initial approximate solution to solve the equation: x-Sinx=0",
+      "options": [
+        "x=pi/2",
+        "x=-pi/2",
+        "x=pi",
+        "x=0"
+      ],
+      "answer": "x=0"
+    },
+    {
+      "id": 37,
+      "lecture": 24,
+      "q": "The vertical asymptotes of a function occur at the points where the denominator of the function becomes",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "Undefined"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 38,
+      "lecture": 24,
+      "q": "A line y=y0 is called a horizontal asymptote for the graph of function f if",
+      "options": [
+        "lim_{x→+∞} f(x)=0",
+        "lim_{x→+∞} f(x)=∞",
+        "lim_{x→+∞} f(x)=y0",
+        "lim_{x→0} f(x)=y0"
+      ],
+      "answer": "lim_{x→+∞} f(x)=y0"
+    },
+    {
+      "id": 39,
+      "lecture": 24,
+      "q": "The vertical asymptotes of the function f(x)=(x^2-2x+1)/(x(x-2)) are",
+      "options": [
+        "0, 1",
+        "1, -1",
+        "0, 2",
+        "1, 2"
+      ],
+      "answer": "0, 2"
+    },
+    {
+      "id": 40,
+      "lecture": 24,
+      "q": "If f(x)=1 / (x^2) and the interval is [-1,1] , then Rolle's theorem can be applied.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 41,
+      "lecture": 24,
+      "q": "The value of c in Rolle's theorem for the function f(x) = x^3 - 3x in the interval [0,√3].",
+      "options": [
+        "1/3",
+        "2/3",
+        "1",
+        "-1"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": 42,
+      "lecture": 24,
+      "q": "By applying mean value theorem to the function f(x)=lnx in the interval [1,e], the corresponding value of 'c' is ------------",
+      "options": [
+        "e-1",
+        "-e",
+        "1-e",
+        "e"
+      ],
+      "answer": "e-1"
+    },
+    {
+      "id": 43,
+      "lecture": 25,
+      "q": "The integral of a constant function is 0.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 44,
+      "lecture": 25,
+      "q": "The anitderivative of the function f(x)=2-7Cosx, is -------",
+      "options": [
+        "All choices are true",
+        "2x-7Sinx-100",
+        "2x-7Sinx+C",
+        "2x-7Sinx+100"
+      ],
+      "answer": "All choices are true"
+    },
+    {
+      "id": 45,
+      "lecture": 25,
+      "q": "If f(x) = x^5 + x, then which of the following is true about it.",
+      "options": [
+        "Its anti – derivative is x^5/5 + 1.",
+        "Its anti – derivative is x^6/6 + x^2/2 + 6.",
+        "Its anti – derivative is 5x^4 + 1.",
+        "None of these."
+      ],
+      "answer": "Its anti – derivative is x^6/6 + x^2/2 + 6."
+    },
+    {
+      "id": 46,
+      "lecture": 25,
+      "q": "If f(x) = x^4, then which of the following is Not true about it.",
+      "options": [
+        "Its anti – derivative is x^5/5.",
+        "Its anti – derivative is x^5 + 5.",
+        "Its anti – derivative is x^5/5 + 2.",
+        "Its anti – derivative is x^5/5 + 10."
+      ],
+      "answer": "Its anti – derivative is x^5 + 5."
+    },
+    {
+      "id": 47,
+      "lecture": 25,
+      "q": "Integration of 4Cosx with respect to x is………..",
+      "options": [
+        "4Sinx",
+        "- 4Sinx"
+      ],
+      "answer": "4Sinx"
+    },
+    {
+      "id": 48,
+      "lecture": 25,
+      "q": "Integration of 3x^2 with respect to x is…………",
+      "options": [
+        "x^4",
+        "x",
+        "x^3",
+        "x^2"
+      ],
+      "answer": "x^3"
+    },
+    {
+      "id": 49,
+      "lecture": 25,
+      "q": "Integration of 5 with respect to x is…………",
+      "options": [
+        "5x",
+        "5",
+        "x",
+        "5x^2"
+      ],
+      "answer": "5x"
+    },
+    {
+      "id": 50,
+      "lecture": 25,
+      "q": "The symbol ∫ was introduced by___________and is called integral sign.",
+      "options": [
+        "Newton",
+        "Leibnitz",
+        "Cauchy",
+        "Lagrange"
+      ],
+      "answer": "Leibnitz"
+    },
+    {
+      "id": 51,
+      "lecture": 25,
+      "q": "Antiderivative of f(x)=x^2 is ...........",
+      "options": [
+        "None of these.",
+        "(1/3) x^3+c",
+        "x^3",
+        "x/2"
+      ],
+      "answer": "(1/3) x^3+c"
+    },
+    {
+      "id": 52,
+      "lecture": 25,
+      "q": "Antiderivative of f(x) =x is ............",
+      "options": [
+        "x^3",
+        "(1/2) x^2+c",
+        "x/2",
+        "None of these."
+      ],
+      "answer": "(1/2) x^2+c"
+    },
+    {
+      "id": 53,
+      "lecture": 25,
+      "q": "Antiderivative of cosx is ..........",
+      "options": [
+        "sinx+c",
+        "xsinx",
+        "cosx+sinx",
+        "None of these."
+      ],
+      "answer": "sinx+c"
+    },
+    {
+      "id": 54,
+      "lecture": 25,
+      "q": "What is the antiderivative of zero?",
+      "options": [
+        "Independent variable x",
+        "Any constant",
+        "Zero",
+        "Dependent variable x"
+      ],
+      "answer": "Any constant"
+    },
+    {
+      "id": 55,
+      "lecture": 25,
+      "q": "In general, an antiderivative of a product is the product of the antiderivatives.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 56,
+      "lecture": 25,
+      "q": "The anti-differentiation of a function and integration of a function are two different things.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 57,
+      "lecture": 25,
+      "q": "EVERY continuous function on an interval has an anti-derivative ……………",
+      "options": [
+        "outside of interval",
+        "On that interval"
+      ],
+      "answer": "On that interval"
+    },
+    {
+      "id": 58,
+      "lecture": 25,
+      "q": "Integration of (Cosx/Sinx).Cosecx with respect to x…………",
+      "options": [
+        "-Cosecx",
+        "Cosecx",
+        "Cotx",
+        "Secx"
+      ],
+      "answer": "-Cosecx"
+    },
+    {
+      "id": 59,
+      "lecture": 25,
+      "q": "In the indefinite integral of x(y^2) w.r.t 'y' , the independent variable is ……..",
+      "options": [
+        "xy",
+        "y",
+        "none of these",
+        "x"
+      ],
+      "answer": "y"
+    },
+    {
+      "id": 60,
+      "lecture": 25,
+      "q": "In the indefinite integral of x(y^2) w.r.t 'y' , the term ….. serve to identify the independent variable in the function.",
+      "options": [
+        "x",
+        "dy",
+        "y^2",
+        "y"
+      ],
+      "answer": "dy"
+    },
+    {
+      "id": 61,
+      "lecture": 25,
+      "q": "Which of the following statements is true?",
+      "options": [
+        "None",
+        "An antiderivative of a difference is the difference of the antiderivatives.",
+        "constant factor can be moved through an integral sign only if the constant is positive.",
+        "An antiderivative of a sum is the sum of the twice of antiderivatives."
+      ],
+      "answer": "An antiderivative of a difference is the difference of the antiderivatives."
+    },
+    {
+      "id": 62,
+      "lecture": 25,
+      "q": "F(x) (antiderivative of f) was determined to be 4x+C where C denotes the .............",
+      "options": [
+        "Differentiation constant.",
+        "Integration constant."
+      ],
+      "answer": "Integration constant."
+    },
+    {
+      "id": 63,
+      "lecture": 25,
+      "q": "In order to fully determine the anti derivative of a function f (F(x)), we must have..........",
+      "options": [
+        "None of these",
+        "Integration constant.",
+        "Boundary conditions",
+        "Initial conditions."
+      ],
+      "answer": "Boundary conditions"
+    },
+    {
+      "id": 64,
+      "lecture": 26,
+      "q": "In integration of f(x) = x(x² - 3)⁴, let u = x² - 3, then du =",
+      "options": [
+        "dx",
+        "x",
+        "2x",
+        "2x dx"
+      ],
+      "answer": "2x dx"
+    },
+    {
+      "id": 65,
+      "lecture": 26,
+      "q": "The integral ∫ 4x/(2x^2+1)^2 dx will be equal to ?",
+      "options": [
+        "- 1/(2x^2 + 1) + c",
+        "- 1/((2x^2 + 1)^3) + c",
+        "1/(2x^2 + 1) + c",
+        "- 1/(2x + 1) + c"
+      ],
+      "answer": "- 1/(2x^2 + 1) + c"
+    },
+    {
+      "id": 66,
+      "lecture": 26,
+      "q": "The integral ∫ 6x/(3x^2+1)^2 dx will be equal to ?",
+      "options": [
+        "-1/(3x^2+1)^3 + c",
+        "-1/(6x+1) + c",
+        "1/(3x^2+1) + c",
+        "-1/(3x^2+1) + c"
+      ],
+      "answer": "-1/(3x^2+1) + c"
+    },
+    {
+      "id": 67,
+      "lecture": 26,
+      "q": "The integral ∫ 10x/(5x^2+1)^2 dx will be equal to ?",
+      "options": [
+        "-1/(5x+1) + c",
+        "-1/(5x^2+1)^3 + c",
+        "-1/(5x^2+1) + c",
+        "1/(5x^2+1) + c"
+      ],
+      "answer": "-1/(5x^2+1) + c"
+    },
+    {
+      "id": 68,
+      "lecture": 26,
+      "q": "The integral ∫ sec^2(5x^2).10x dx will be equal to ?",
+      "options": [
+        "sec(5x^2).tan(5x^2) + c",
+        "tan(5x) + c",
+        "tan(5x^2) + c",
+        "sec^2(10x) + c"
+      ],
+      "answer": "tan(5x^2) + c"
+    },
+    {
+      "id": 69,
+      "lecture": 26,
+      "q": "The integral ∫ cosec^2(3x^2).6x dx will be equal to ?",
+      "options": [
+        "cot(3x^2) + c,",
+        "-cot(3x^2) + c",
+        "None of these",
+        "sec(3x^2) + c"
+      ],
+      "answer": "-cot(3x^2) + c"
+    },
+    {
+      "id": 70,
+      "lecture": 26,
+      "q": "The integral ∫ sec^2(2x^2).4x dx will be equal to ?",
+      "options": [
+        "sec^2(2x) + c",
+        "tan(2x^2) + c",
+        "sec(2x^2).tan(2x^2) + c",
+        "tan(2x) + c"
+      ],
+      "answer": "tan(2x^2) + c"
+    },
+    {
+      "id": 71,
+      "lecture": 26,
+      "q": "The integral ∫ (x^2+1)^(5/2). x dx will be equal to ?",
+      "options": [
+        "2(x^2+1)^(7/2)/7 + c",
+        "None of these",
+        "(x^2+1)^(7/2)/7 + c",
+        "(x^2+1)^(7/2) + c"
+      ],
+      "answer": "(x^2+1)^(7/2)/7 + c"
+    },
+    {
+      "id": 72,
+      "lecture": 26,
+      "q": "The integral ∫ (x^3+1)^10 . 3x^2 dx will be equal to ?",
+      "options": [
+        "-(x^3+1)^11/11 + c",
+        "(x^3+1)^11/11 + c",
+        "(x^3-1)^11/11 + c",
+        "None of these"
+      ],
+      "answer": "(x^3+1)^11/11 + c"
+    },
+    {
+      "id": 73,
+      "lecture": 26,
+      "q": "The integral ∫ sec(x).tan(x) dx will be equal to ?",
+      "options": [
+        "cosec(x) + c",
+        "None of these",
+        "sec(x) + c",
+        "-ln|cos(x)| + c"
+      ],
+      "answer": "sec(x) + c"
+    },
+    {
+      "id": 74,
+      "lecture": 26,
+      "q": "The integral ∫ sin(5x) dx will be equal to ?",
+      "options": [
+        "5cos 5x + c",
+        "-cos5x/5 + c",
+        "cos5x/5 + c",
+        "-cos4x/5 + c"
+      ],
+      "answer": "-cos5x/5 + c"
+    },
+    {
+      "id": 75,
+      "lecture": 26,
+      "q": "The integral ∫ cos(5x) dx will be equal to ?",
+      "options": [
+        "-sin(5x)/5 + c",
+        "None of these",
+        "sin(5x)/5 + c",
+        "5sin(5x) + c"
+      ],
+      "answer": "sin(5x)/5 + c"
+    },
+    {
+      "id": 76,
+      "lecture": 26,
+      "q": "The integral ∫ cot(2x) dx will be equal to ?",
+      "options": [
+        "ln|sec(2x)| + c",
+        "(1/2)ln|sin(2x)| + c",
+        "(1/2)ln|sec(2x)| + c",
+        "ln|sin(2x)| + c"
+      ],
+      "answer": "(1/2)ln|sin(2x)| + c"
+    },
+    {
+      "id": 77,
+      "lecture": 26,
+      "q": "The integral ∫ sqrt(2x+3) dx will be equal to ?",
+      "options": [
+        "(2x+3)^(3/2)/3 + c",
+        "(2x+3)^(3/2)/2 + c",
+        "(2x+3)^(2/3)/3 + c",
+        "(2x+3)^(1/2)/3 + c"
+      ],
+      "answer": "(2x+3)^(3/2)/3 + c"
+    },
+    {
+      "id": 78,
+      "lecture": 26,
+      "q": "The integral ∫ sqrt(4x-3) dx will be equal to ?",
+      "options": [
+        "(4x-3)^(3/2)/6 + c",
+        "None of these",
+        "(4x-3)^(3/2)/3 + c",
+        "(4x+3)^(3/2)/6 + c"
+      ],
+      "answer": "(4x-3)^(3/2)/6 + c"
+    },
+    {
+      "id": 79,
+      "lecture": 26,
+      "q": "The integral ∫ x/(1+x^2) dx will be equal to ?",
+      "options": [
+        "ln(1-x^2)/2 + c",
+        "ln(1+x^2)/2 + c",
+        "2ln(1+x^2) + c",
+        "ln(1+x^2) + c"
+      ],
+      "answer": "ln(1+x^2)/2 + c"
+    },
+    {
+      "id": 80,
+      "lecture": 26,
+      "q": "If sinx=t then dt=.....",
+      "options": [
+        "sinxdx",
+        "-cosxdx",
+        "cosxdx",
+        "sinxdt"
+      ],
+      "answer": "cosxdx"
+    },
+    {
+      "id": 81,
+      "lecture": 26,
+      "q": "In integration of f(x)=x(x^2-3)^4 from x=0 to x=2 by substitution method, we take u=x^2-3 then du= ................",
+      "options": [
+        "2x dx",
+        "dx",
+        "2x",
+        "x"
+      ],
+      "answer": "2x dx"
+    },
+    {
+      "id": 82,
+      "lecture": 27,
+      "q": "What will be the value of summation of k3 where k goes from 3 to 3?",
+      "options": [
+        "9",
+        "1",
+        "27",
+        "3"
+      ],
+      "answer": "27"
+    },
+    {
+      "id": 83,
+      "lecture": 27,
+      "q": "1+2+3+…+200 equals _____.",
+      "options": [
+        "20100",
+        "20012",
+        "21021",
+        "21220"
+      ],
+      "answer": "20100"
+    },
+    {
+      "id": 84,
+      "lecture": 27,
+      "q": "1+2+3+…+539 equals _____.",
+      "options": [
+        "538(540)/2",
+        "539(540)/2",
+        "538(539)/6",
+        "538(540)/6"
+      ],
+      "answer": "539(540)/2"
+    },
+    {
+      "id": 85,
+      "lecture": 27,
+      "q": "1+2+3+…+100 equals _____.",
+      "options": [
+        "5050",
+        "5500",
+        "5055",
+        "5005"
+      ],
+      "answer": "5050"
+    },
+    {
+      "id": 86,
+      "lecture": 27,
+      "q": "1+2+3……….+1000 equals -------",
+      "options": [
+        "500500",
+        "1000",
+        "None of these",
+        "3000"
+      ],
+      "answer": "500500"
+    },
+    {
+      "id": 87,
+      "lecture": 27,
+      "q": "1+2+3+…+339 equals _____.",
+      "options": [
+        "338(339)/6",
+        "338(340)/2",
+        "338(340)/6",
+        "339(340)/2"
+      ],
+      "answer": "339(340)/2"
+    },
+    {
+      "id": 88,
+      "lecture": 27,
+      "q": "12+22+32+…+192 equals _____.",
+      "options": [
+        "19(20)(31)/6",
+        "19(20)(37)/6",
+        "19(20)(21)/6",
+        "19(20)(39)/6"
+      ],
+      "answer": "19(20)(39)/6"
+    },
+    {
+      "id": 89,
+      "lecture": 27,
+      "q": "12+22+32+…+152 equals _____.",
+      "options": [
+        "15(16)(31) / 6",
+        "15(16)(30) / 6",
+        "15(16)(17) / 6",
+        "15(16)(29) / 6"
+      ],
+      "answer": "15(16)(31) / 6"
+    },
+    {
+      "id": 90,
+      "lecture": 27,
+      "q": "13+23+33+…+193 equals _____.",
+      "options": [
+        "[19(20)/2]2",
+        "[19(20)]2/2",
+        "19(20)/22",
+        "19(20)2/2"
+      ],
+      "answer": "[19(20)/2]2"
+    },
+    {
+      "id": 91,
+      "lecture": 27,
+      "q": "13+23+33+…+153 equals _____.",
+      "options": [
+        "15(16)2/2",
+        "[15(16)]2/2",
+        "15(16)/22",
+        "[15(16)/2]2"
+      ],
+      "answer": "[15(16)/2]2"
+    },
+    {
+      "id": 92,
+      "lecture": 27,
+      "q": "(1^3)+(2^3)+(3^3)+….+(20^3) equals --------- NOTE: x^n means 'x' to the power 'n'",
+      "options": [
+        "None of these",
+        "42925",
+        "44100",
+        "34548"
+      ],
+      "answer": "44100"
+    },
+    {
+      "id": 93,
+      "lecture": 27,
+      "q": "2(13)+2(23)+2(33)+…+2(153) equals _____.",
+      "options": [
+        "[15(16)/2]2",
+        "15(16)/22",
+        "15(16)2/2",
+        "[15(16)]2 / 2"
+      ],
+      "answer": "[15(16)]2 / 2"
+    },
+    {
+      "id": 94,
+      "lecture": 27,
+      "q": "3(12)+3(22)+3(32)+…+3(152) equals _____.",
+      "options": [
+        "15(16)(17)/2",
+        "15(16)(30)/2",
+        "15(16)(31)/2",
+        "15(16)(29)/2"
+      ],
+      "answer": "15(16)(31)/2"
+    },
+    {
+      "id": 95,
+      "lecture": 27,
+      "q": "If x = 3 + 4 + . . . + 20, then x = ________.",
+      "options": [
+        "210.",
+        "250.",
+        "None of these.",
+        "207."
+      ],
+      "answer": "207."
+    },
+    {
+      "id": 96,
+      "lecture": 27,
+      "q": "If x = 5 + 6 + . . . + 40, then x = ________.",
+      "options": [
+        "810.",
+        "850.",
+        "820.",
+        "None of these."
+      ],
+      "answer": "810."
+    },
+    {
+      "id": 97,
+      "lecture": 27,
+      "q": "If x = 1 + 2 +3 + 4 + . . . + 20, then x = ________.",
+      "options": [
+        "None of these.",
+        "500.",
+        "200.",
+        "210."
+      ],
+      "answer": "210."
+    },
+    {
+      "id": 98,
+      "lecture": 27,
+      "q": "Which of the following is the sum of 5^(k+1) where k goes from 1 to 3?",
+      "options": [
+        "525",
+        "675",
+        "775",
+        "875"
+      ],
+      "answer": "775"
+    },
+    {
+      "id": 99,
+      "lecture": 27,
+      "q": "What will be the value of summation of k2 where k goes from 11 to 12",
+      "options": [
+        "212",
+        "244",
+        "281",
+        "265"
+      ],
+      "answer": "265"
+    },
+    {
+      "id": 100,
+      "lecture": 27,
+      "q": "What will be the value of summation of k2 where k goes from 8 to 8?",
+      "options": [
+        "1",
+        "16",
+        "64",
+        "8"
+      ],
+      "answer": "64"
+    },
+    {
+      "id": 101,
+      "lecture": 27,
+      "q": "What will be the value of summation of k3 where k goes from 9 to 10",
+      "options": [
+        "1729",
+        "1998",
+        "1081",
+        "1100"
+      ],
+      "answer": "1729"
+    },
+    {
+      "id": 102,
+      "lecture": 27,
+      "q": "Which of the following is the sum of (2k-1) where k goes from 0 to 2?",
+      "options": [
+        "-1",
+        "3",
+        "4",
+        "-2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 103,
+      "lecture": 27,
+      "q": "Which of the following is the sum of 2k+1 where k goes from 0 to 2?",
+      "options": [
+        "8",
+        "14",
+        "10",
+        "12"
+      ],
+      "answer": "10"
+    },
+    {
+      "id": 104,
+      "lecture": 27,
+      "q": "Which of the following is the sum of 3k+1 where k goes from 0 to 2?",
+      "options": [
+        "30",
+        "27",
+        "33",
+        "39"
+      ],
+      "answer": "33"
+    },
+    {
+      "id": 105,
+      "lecture": 27,
+      "q": "Which of the following is the sum of (2k+1) where k goes from 3 to 5?",
+      "options": [
+        "27",
+        "16",
+        "19",
+        "21"
+      ],
+      "answer": "27"
+    },
+    {
+      "id": 106,
+      "lecture": 27,
+      "q": "Which of the following is the sum of (2k+1) where k goes from 1 to 4?",
+      "options": [
+        "20",
+        "24",
+        "26",
+        "22"
+      ],
+      "answer": "24"
+    },
+    {
+      "id": 107,
+      "lecture": 27,
+      "q": "What will be the sigma notation for 43+63+83+103?",
+      "options": [
+        "summation of (2k)3 where (k varies from 2 to 5)",
+        "summation of (2k)3 where (k varies from 1 to 4)",
+        "summation of (2k+1)3 where (k varies from 2 to 5)",
+        "summation of (2k3) where (k varies from 2 to 5)"
+      ],
+      "answer": "summation of (2k)3 where (k varies from 2 to 5)"
+    },
+    {
+      "id": 108,
+      "lecture": 27,
+      "q": "What will be the sigma notation for 32+42+52+62 ?",
+      "options": [
+        "summation of (k2) where (k varies from 3 to 6)",
+        "summation of (k2) where (k varies from 1 to 4)",
+        "summation of (k-1)2 where (k varies from 2 to 5)",
+        "summation of (k+1)2 where (k varies from 3 to 6)"
+      ],
+      "answer": "summation of (k2) where (k varies from 3 to 6)"
+    },
+    {
+      "id": 109,
+      "lecture": 27,
+      "q": "What will be the sigma notation for 32+52+72+92?",
+      "options": [
+        "summation of (2k2+1) where (k varies from 3 to 6)",
+        "summation of (2k+1)2 where (k varies from 1 to 4)",
+        "summation of (k2) where (k varies from 3 to 9)",
+        "summation of (2k-1)2 where (k varies from 1 to 4)"
+      ],
+      "answer": "summation of (2k-1)2 where (k varies from 1 to 4)"
+    },
+    {
+      "id": 110,
+      "lecture": 27,
+      "q": "In sigma notation 12+14+16+18+20 can be written as……….",
+      "options": [
+        "summation of (k^2) where (k varies from 6 to10)",
+        "summation of (k) where (k varies from 6 to10)",
+        "summation of (2k) where (k varies from 1 to5)",
+        "summation of (2k) where (k varies from 6 to10)"
+      ],
+      "answer": "summation of (2k) where (k varies from 1 to5)"
+    },
+    {
+      "id": 111,
+      "lecture": 27,
+      "q": "Which of the following is the sum of 2t^2 where t goes from 1 to 5?",
+      "options": [
+        "2+8+18+32+50",
+        "2+18+32+50+62",
+        "2+8+28+32+50",
+        "2+18+28+32+60"
+      ],
+      "answer": "2+8+18+32+50"
+    },
+    {
+      "id": 112,
+      "lecture": 27,
+      "q": "summation of (ai) (i varies from 1 to n) , summation of (aj) (j varies from 1 to n),summation of (ak) (k varies from 1 to n) All these three represents same summation.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 113,
+      "lecture": 27,
+      "q": "summation of (6) ;where ( j varies from 1 to 8) indicates to add '6' to itself ……….. times.",
+      "options": [
+        "11",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": 114,
+      "lecture": 27,
+      "q": "Summation of 9t where 't' goes from 1 to 30” is same as “summation of 9k where k goes from 1 to 30”.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 115,
+      "lecture": 27,
+      "q": "summation of (n+i);where (i varies from 1 to 1) =………..",
+      "options": [
+        "n+1",
+        "1",
+        "n",
+        "0"
+      ],
+      "answer": "n+1"
+    },
+    {
+      "id": 116,
+      "lecture": 27,
+      "q": "summation of (n+i) ; (i varies from 1 to 10 ) , here 'i' is known as the …….. of the summation.",
+      "options": [
+        "Upper limit",
+        "Index",
+        "None of these",
+        "Lower limit"
+      ],
+      "answer": "Index"
+    },
+    {
+      "id": 117,
+      "lecture": 27,
+      "q": "Sum of n-terms of a series whose nth term is 'n' = ---",
+      "options": [
+        "n(n-1)/2",
+        "(n+1)/2",
+        "n(n+1)/2",
+        "n(n+1)"
+      ],
+      "answer": "n(n+1)/2"
+    },
+    {
+      "id": 118,
+      "lecture": 27,
+      "q": "Sum of cubes of n-terms of a series whose nth term is 'n' = ---",
+      "options": [
+        "Square of n(n+1)(2n+1)/6",
+        "Square of n(n+1)/2",
+        "Square of n(n+1)/6",
+        "Square of (n+1)/2"
+      ],
+      "answer": "Square of n(n+1)/2"
+    },
+    {
+      "id": 119,
+      "lecture": 27,
+      "q": "1+2+3………+t equals",
+      "options": [
+        "n(n+1)/2",
+        "None of these",
+        "t(t+1)/2",
+        "n(n+1)(2n+1)/6"
+      ],
+      "answer": "t(t+1)/2"
+    },
+    {
+      "id": 120,
+      "lecture": 27,
+      "q": "Sum of n-terms of a series whose nth term is 'n' = 1/n+1.then what is the sum of the first two terms is -----",
+      "options": [
+        "6/5",
+        "6/4",
+        "5/6",
+        "6"
+      ],
+      "answer": "6/5"
+    },
+    {
+      "id": 121,
+      "lecture": 27,
+      "q": "Sum the first three terms of the series, whose general term is 5ki Where first term=k1=10, Second term= k2=14 Third term=k3= -2 The correct choice is ………… Note: 1, 2, 3 and i with k are in subscript",
+      "options": [
+        "111",
+        "011",
+        "101",
+        "110"
+      ],
+      "answer": "101"
+    },
+    {
+      "id": 122,
+      "lecture": 27,
+      "q": "Summation of 2 where sum ranges from 0 to 10 equals 20.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 123,
+      "lecture": 27,
+      "q": "If 'n' goes from 1 to any large ODD number then the summation of '(-1)^n' = ---------",
+      "options": [
+        "1",
+        "-1",
+        "that specific large ODD number",
+        "Zero"
+      ],
+      "answer": "-1"
+    },
+    {
+      "id": 124,
+      "lecture": 27,
+      "q": "If 'n' goes from 1 to any large EVEN number then the summation of '(-1)^n' = ---------",
+      "options": [
+        "-1",
+        "zero",
+        "1",
+        "that specific large EVEN number"
+      ],
+      "answer": "zero"
+    },
+    {
+      "id": 125,
+      "lecture": 27,
+      "q": "Summation of 'kx' where k goes from 1 to 5 equals",
+      "options": [
+        "15x",
+        "None of these",
+        "55",
+        "15k"
+      ],
+      "answer": "15x"
+    },
+    {
+      "id": 126,
+      "lecture": 27,
+      "q": "If 'n' goes from 1 to 3 and the summation of 'na' = 6a, then the value of 'a' is ----------",
+      "options": [
+        "Undetermined",
+        "6",
+        "-6",
+        "1"
+      ],
+      "answer": "Undetermined"
+    },
+    {
+      "id": 127,
+      "lecture": 27,
+      "q": "What is the summation of 'kx' where k goes from 1 to 30?",
+      "options": [
+        "419x",
+        "465x",
+        "523x",
+        "414x"
+      ],
+      "answer": "465x"
+    },
+    {
+      "id": 128,
+      "lecture": 27,
+      "q": "If 'n' goes from 1 to 4 and the summation of 'na' =Maxima of (e^x) in the interval[-e,0], then the value of 'a' is -----------",
+      "options": [
+        "10",
+        "-10",
+        "-1/10",
+        "1/10"
+      ],
+      "answer": "1/10"
+    },
+    {
+      "id": 129,
+      "lecture": 27,
+      "q": "If 'n' goes from 1 to 3 and the summation of 'na' = derivative of Cosx at (pi/2), then the value of 'a'=------",
+      "options": [
+        "-1/6",
+        "1/6",
+        "6",
+        "-6"
+      ],
+      "answer": "-1/6"
+    },
+    {
+      "id": 130,
+      "lecture": 27,
+      "q": "If 'n' goes from 1 to 3 and the summation of 'na' = definite integral of '1' on closed interval [0,1], then the value of 'a'=------------",
+      "options": [
+        "1/6",
+        "-6",
+        "-1/6",
+        "6"
+      ],
+      "answer": "1/6"
+    },
+    {
+      "id": 131,
+      "lecture": 27,
+      "q": "Sigma notation is used to write lengthy……….in compact form.",
+      "options": [
+        "quotient",
+        "sums",
+        "difference",
+        "products"
+      ],
+      "answer": "sums"
+    },
+    {
+      "id": 132,
+      "lecture": 28,
+      "q": "In approximation to an area Rn (where n is subscript) when limit is taken as n goes to infinity, approximation becomes actual area.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 133,
+      "lecture": 28,
+      "q": "To get better approximation to actual area under a continuous curve over a closed interval, we have to increase ………",
+      "options": [
+        "Total area",
+        "Size of the interval",
+        "Number of subintervals",
+        "Width of the subintervals"
+      ],
+      "answer": "Number of subintervals"
+    },
+    {
+      "id": 134,
+      "lecture": 28,
+      "q": "Increase in number of rectangles under any continuous function gives …………. approximation to area.",
+      "options": [
+        "better",
+        "no change in",
+        "None of these",
+        "Poor"
+      ],
+      "answer": "better"
+    },
+    {
+      "id": 135,
+      "lecture": 28,
+      "q": "Approximation to an area improves as number of partitions is decreased.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 136,
+      "lecture": 28,
+      "q": "Right end point ,left end point, and midpoint evaluation all converges to same result as number of subintervals tends to +ive infinity.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 137,
+      "lecture": 28,
+      "q": "Subdivide the interval [0, 1] into 2 equal parts, and then the width of each sub-interval will have length ………",
+      "options": [
+        "1/2",
+        "1",
+        "0",
+        "-1/2"
+      ],
+      "answer": "1/2"
+    },
+    {
+      "id": 138,
+      "lecture": 28,
+      "q": "Subdivide the interval [a, b] into 4 equal subintervals then the width of each subinterval is ------",
+      "options": [
+        "(b-2a)/4",
+        "(b-a)/4",
+        "(b-a)/2",
+        "(2b-a)/4"
+      ],
+      "answer": "(b-a)/4"
+    },
+    {
+      "id": 139,
+      "lecture": 28,
+      "q": "Subdivide the interval [3, 5] into n equal parts, and then the width of each subinterval is ----",
+      "options": [
+        "n",
+        "-2/n",
+        "1/n",
+        "2/n"
+      ],
+      "answer": "2/n"
+    },
+    {
+      "id": 140,
+      "lecture": 28,
+      "q": "If we subdivide the interval [2,4] into n equal parts, then what will be the length ∆x of each part?",
+      "options": [
+        "1/n",
+        "6/n",
+        "2/n",
+        "8/n"
+      ],
+      "answer": "2/n"
+    },
+    {
+      "id": 141,
+      "lecture": 28,
+      "q": "If we subdivide the interval [1,6] into n equal parts, then what will be the length ∆x of each part?",
+      "options": [
+        "7/n",
+        "1/n",
+        "6/n",
+        "5/n"
+      ],
+      "answer": "5/n"
+    },
+    {
+      "id": 142,
+      "lecture": 28,
+      "q": "Subdivide the interval [1, 5] into 'n' equally spaced subintervals then the width of each sub-interval is ------",
+      "options": [
+        "5/n",
+        "1/n",
+        "4/n",
+        "5"
+      ],
+      "answer": "4/n"
+    },
+    {
+      "id": 143,
+      "lecture": 28,
+      "q": "If the closed interval [-2,2] is divided into '50' equally spaced sub-intervals then the width of each sub-interval is ------------",
+      "options": [
+        "2/25",
+        "1/25",
+        "4/25",
+        "-4/25"
+      ],
+      "answer": "2/25"
+    },
+    {
+      "id": 144,
+      "lecture": 28,
+      "q": "Let A be the area of a rectangle under a continuous function f(x) over a closed interval [a, b]. If this area is divided in to 'n' sub-rectangles then width of each approximated sub-intervals is ---------",
+      "options": [
+        "(a-b)/2",
+        "(b-a)/2n",
+        "(b-a)/n",
+        "(a-b)/n"
+      ],
+      "answer": "(b-a)/n"
+    },
+    {
+      "id": 145,
+      "lecture": 28,
+      "q": "How many subintervals of length '2' will be formed for the interval [4,16] ?",
+      "options": [
+        "5",
+        "7",
+        "4",
+        "6"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": 146,
+      "lecture": 28,
+      "q": "If the interval [3,7] is divided into '4' equal subintervals ,then left endpoint of each subinterval will be………",
+      "options": [
+        "3,6,8,9",
+        "3,4,5,6",
+        "4,5,6,7",
+        "5,6,7,8"
+      ],
+      "answer": "3,4,5,6"
+    },
+    {
+      "id": 147,
+      "lecture": 28,
+      "q": "If the interval [3,7] is divided into '4' equal subintervals ,then right endpoint of each subinterval will be………",
+      "options": [
+        "3,4,5,6",
+        "5,6,7,8",
+        "4,5,6,7",
+        "3,5,6,8"
+      ],
+      "answer": "4,5,6,7"
+    },
+    {
+      "id": 148,
+      "lecture": 28,
+      "q": "Which of the following will be left end points if the interval [-2,2] is divided into 4 equal subintervals.",
+      "options": [
+        "-2,-1,1,2",
+        "-1,0,1,2",
+        "-2,-1,0,1",
+        "None of these"
+      ],
+      "answer": "-2,-1,0,1"
+    },
+    {
+      "id": 149,
+      "lecture": 28,
+      "q": "Which of the following is the regular partition of the interval [0,2]?",
+      "options": [
+        "[0,0.5],[0.5,1.25],[1.25,1.50],[1.50,2]",
+        "[0,0.50],[0.50,1],[1,1.50],[1.50,2]",
+        "[0,0.25],[0.25,1],[1,1.50],[1.50,2]",
+        "[0,0.25],[0.25,0.75],[0.75,1.25],[1.25,2]"
+      ],
+      "answer": "[0,0.50],[0.50,1],[1,1.50],[1.50,2]"
+    },
+    {
+      "id": 150,
+      "lecture": 28,
+      "q": "Which of the following is the 'mesh size' in the partition: {[0,0.25],[0.25,0.75],[0.75,1.25],[1.25,2]} of the interval [0,2]?",
+      "options": [
+        "[1.25,2]",
+        "[0.25,0.75]",
+        "[0,0.25]",
+        "[0.75,1.25]"
+      ],
+      "answer": "[0.75,1.25]"
+    },
+    {
+      "id": 151,
+      "lecture": 28,
+      "q": "Subdivision of an interval is also called ………. of the interval.",
+      "options": [
+        "Evaluation",
+        "Separation",
+        "Partition",
+        "Composition"
+      ],
+      "answer": "Partition"
+    },
+    {
+      "id": 152,
+      "lecture": 28,
+      "q": "If [-8,8] is subdivided into '16' equally spaced subintervals, then the LEFT end point of 13th sub-interval will be--------.",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 153,
+      "lecture": 28,
+      "q": "If [-8,8] is subdivided into '16' equally spaced subintervals, then the RIGHT end point of 13th sub-interval will be--------.",
+      "options": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": 154,
+      "lecture": 28,
+      "q": "If [-8,8] is subdivided into '16' equally spaced subintervals, then the MIDDLE point of 8th sub-interval will be--------.",
+      "options": [
+        "-0.5",
+        "2.5",
+        "1.5",
+        "0.5"
+      ],
+      "answer": "0.5"
+    },
+    {
+      "id": 155,
+      "lecture": 28,
+      "q": "If the closed interval [-10,x] is divided into '20' equally spaced subintervals each of which having the width equals to '1' unit then the value of 'x' is --------",
+      "options": [
+        "30",
+        "20",
+        "0",
+        "10"
+      ],
+      "answer": "10"
+    },
+    {
+      "id": 156,
+      "lecture": 28,
+      "q": "For any continuous function on the interval [0,1], if the area under this curve is divided into '5' equal rectangles ,then the length of each rectangle will be………",
+      "options": [
+        "1/5",
+        "1/4",
+        "1/2",
+        "1"
+      ],
+      "answer": "1/5"
+    },
+    {
+      "id": 157,
+      "lecture": 28,
+      "q": "The Area A of the region S that lies under the graph of the continuous function f is the limit of the sum of the areas of approximating rectangles:",
+      "options": [
+        "A = lim_{n→∞} Rn = lim_{n→∞} [f(x1)Δx + f(x2)Δx + ... + f(x_{n-1})Δx]",
+        "A = lim_{n→∞} Rn = lim_{n→∞} 1/Δx [f(x1) + f(x2) + ... + f(xn)]",
+        "A = lim_{n→∞} Rn = lim_{n→∞} [f(x1) + f(x2) + ... + f(xn)]",
+        "A = lim_{n→∞} Rn = lim_{n→∞} Δx [f(x1) + f(x2) + ... + f(xn)]"
+      ],
+      "answer": "A = lim_{n→∞} Rn = lim_{n→∞} Δx [f(x1) + f(x2) + ... + f(xn)]"
+    },
+    {
+      "id": 158,
+      "lecture": 28,
+      "q": "What is length of each subinterval if the interval [-1,1] is divided into n subintervals of equal length.",
+      "options": [
+        "0",
+        "2/n",
+        "1/n",
+        "None of these"
+      ],
+      "answer": "2/n"
+    },
+    {
+      "id": 159,
+      "lecture": 28,
+      "q": "While calculating Riemann sum it is necessary to take equal length subintervals.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 160,
+      "lecture": 29,
+      "q": "If the function and limits of definite integral are the same and variable of integration are changed, i.e. ∫ₐᵇ f(x)dx = ∫ₐᵇ f(t)dt, then the answer would be:",
+      "options": [
+        "do not changed",
+        "changed"
+      ],
+      "answer": "do not changed"
+    },
+    {
+      "id": 161,
+      "lecture": 29,
+      "q": "If we change the letter for the variable of integration but don't change the limits, then the values of the definite integral will be …………",
+      "options": [
+        "Changed",
+        "Unchanged"
+      ],
+      "answer": "Unchanged"
+    },
+    {
+      "id": 162,
+      "lecture": 29,
+      "q": "If we change the letter for the variable of integration but don't change the limits, then the values of the definite integral are unchanged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 163,
+      "lecture": 29,
+      "q": "Constant of integration is taken to be ………. in definite integral.",
+      "options": [
+        "c",
+        "k",
+        "0",
+        "All of these"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 164,
+      "lecture": 29,
+      "q": "The value of definite integral of a function f(x) taken from 7 to 7 is 0.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 165,
+      "lecture": 29,
+      "q": "If the upper limit of Definite Integral is equal to its lower limit,then the value of Definite Integral will be _______.",
+      "options": [
+        "1",
+        "Zero",
+        "Same",
+        "None of the above"
+      ],
+      "answer": "Zero"
+    },
+    {
+      "id": 166,
+      "lecture": 29,
+      "q": "∫_a^b f(x) dx = 0 if__________.",
+      "options": [
+        "None of these",
+        "a = b",
+        "a < b",
+        "a > b"
+      ],
+      "answer": "a = b"
+    },
+    {
+      "id": 167,
+      "lecture": 29,
+      "q": "If the value of definite integral of a function f(x) taken from 1 to 3 is 9 then its value taken from 3 to 1 is",
+      "options": [
+        "None of these",
+        "9",
+        "0",
+        "-9"
+      ],
+      "answer": "-9"
+    },
+    {
+      "id": 168,
+      "lecture": 29,
+      "q": "If the value of definite integral of a function f(x) taken from 1 to 3 is 2 and that of taken from 3 to 5 is 1 then value of definite integral taken from 1 to 5 is",
+      "options": [
+        "0",
+        "None of these",
+        "3",
+        "1"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 169,
+      "lecture": 29,
+      "q": "For the adjacent intervals, [a,c] and [c,b],where c is any number, ∫_a^b f(x) dx =",
+      "options": [
+        "None of these",
+        "∫_a^b f(x) dx + ∫_c^a f(x) dx",
+        "∫_a^c f(x) dx + ∫_b^a f(x) dx",
+        "∫_a^c f(x) dx + ∫_c^b f(x) dx"
+      ],
+      "answer": "∫_a^c f(x) dx + ∫_c^b f(x) dx"
+    },
+    {
+      "id": 170,
+      "lecture": 29,
+      "q": "We can break up definite integrals across a sum or difference ∫_a^b f(x) ± g(x) dx as",
+      "options": [
+        "∫_a^b f(x)dx ± ∫_a^b g(x) dx",
+        "∫_b^a f(x)dx ± ∫_a^b g(x) dx",
+        "∫_b^a f(x)dx ± ∫_b^a g(x) dx",
+        "None of these"
+      ],
+      "answer": "∫_a^b f(x)dx ± ∫_a^b g(x) dx"
+    },
+    {
+      "id": 171,
+      "lecture": 29,
+      "q": "If 'f' is a continuous function on [a,b] then ∫_a^b f(x) dx = _____.",
+      "options": [
+        "∫_b^b f(x) dx",
+        "- ∫_c^a f(x) dx",
+        "- ∫_b^a f(x) dx",
+        "- ∫_a^b f(x) dx"
+      ],
+      "answer": "- ∫_b^a f(x) dx"
+    },
+    {
+      "id": 172,
+      "lecture": 29,
+      "q": "Which of the following is true for the definite integral ∫_a^b f(x) dx =",
+      "options": [
+        "∫_a^a f(x) dx",
+        "- ∫_b^a f(x) dx",
+        "∫_b^a f(x) dx",
+        "- ∫_a^b f(x) dx"
+      ],
+      "answer": "- ∫_b^a f(x) dx"
+    },
+    {
+      "id": 173,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫₀¹ (sinx + cosx) dx?",
+      "options": [
+        "∫₀¹ (sinx+cosx)dx = [sinx]₁₀ + [cosx]₁₀",
+        "∫₀¹ (sinx+cosx)dx = [sinx]₁₀ - [cosx]₁₀",
+        "∫₀¹ (sinx+cosx)dx = [cosx]₁₀ + [sinx]₁₀",
+        "None"
+      ],
+      "answer": "∫₀¹ (sinx+cosx)dx = [cosx]₁₀ + [sinx]₁₀"
+    },
+    {
+      "id": 174,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫_0^1 (sin x + cos x) dx?",
+      "options": [
+        "∫_0^1 (sin x + cos x) dx = [cos x]_0^1 + [sin x]_0^1",
+        "∫_0^1 (sin x + cos x) dx = [sin x]_0^1 - [cos x]_0^1",
+        "∫_0^1 (sin x + cos x) dx = - [sin x]_0^1 + [cos x]_0^1",
+        "None"
+      ],
+      "answer": "∫_0^1 (sin x + cos x) dx = [cos x]_0^1 + [sin x]_0^1"
+    },
+    {
+      "id": 175,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫_0^1 (cos x + sec^2 x) dx?",
+      "options": [
+        "None",
+        "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 + [tan x]_0^1",
+        "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 × [tan x]_0^1",
+        "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 - [tan x]_0^1"
+      ],
+      "answer": "∫_0^1 (cos x + sec^2 x) dx = [sin x]_0^1 + [tan x]_0^1"
+    },
+    {
+      "id": 176,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫_0^1 (sin x - sec^2 x) dx?",
+      "options": [
+        "∫_0^1 (sin x - sec^2 x) dx = [cos x]_0^1 - [tan x]_0^1",
+        "∫_0^1 (sin x - sec^2 x) dx = [cos x]_0^1 + [tan x]_0^1",
+        "None",
+        "∫_0^1 (sin x - sec^2 x) dx = - [cos x]_0^1 - [tan x]_0^1"
+      ],
+      "answer": "None"
+    },
+    {
+      "id": 177,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫_0^1 sec x tan x dx?",
+      "options": [
+        "∫_0^1 sec x tan x dx = [sec x]_0^1 × [tan x]_0^1",
+        "None",
+        "∫_0^1 sec x tan x dx = [sec x]_0^1",
+        "∫_0^1 sec x tan x dx = [sec x]_0^1 + [tan x]_0^1"
+      ],
+      "answer": "∫_0^1 sec x tan x dx = [sec x]_0^1"
+    },
+    {
+      "id": 178,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫_0^1 (sin x cos x) dx?",
+      "options": [
+        "∫_0^1 (sin x cos x) dx = 1/2 ∫_0^1 sin 2x dx",
+        "∫_0^1 (sin x cos x) dx = ∫_0^1 sin x dx + ∫_0^1 cos x dx",
+        "∫_0^1 (sin x cos x) dx = 2 ∫_0^1 sin x dx × 2 ∫_0^1 cos x dx",
+        "∫_0^1 (sin x cos x) dx = ∫_0^1 sin x dx - ∫_0^1 cos x dx"
+      ],
+      "answer": "∫_0^1 (sin x cos x) dx = 1/2 ∫_0^1 sin 2x dx"
+    },
+    {
+      "id": 179,
+      "lecture": 29,
+      "q": "∫_a^b f(x) dx = _____.",
+      "options": [
+        "∫_a^b f(z) dz",
+        "∫_b^a f(x) dx"
+      ],
+      "answer": "∫_a^b f(z) dz"
+    },
+    {
+      "id": 180,
+      "lecture": 29,
+      "q": "In the notation: ∫_a^b f(x) dx, f(x) is called___________.",
+      "options": [
+        "Differential",
+        "Integration",
+        "Integrand",
+        "None of these"
+      ],
+      "answer": "Integrand"
+    },
+    {
+      "id": 181,
+      "lecture": 29,
+      "q": "Definite integral can be…………..",
+      "options": [
+        "Negative",
+        "0",
+        "All of these",
+        "Positive"
+      ],
+      "answer": "All of these"
+    },
+    {
+      "id": 182,
+      "lecture": 29,
+      "q": "Definite integral gives the area under the curve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 183,
+      "lecture": 29,
+      "q": "To find the area between continuous curve f(x) and the closed interval [a,b] on x-axis, we take -------------- of f(x) on the interval [a,b].",
+      "options": [
+        "left hand limit",
+        "integral",
+        "right hand limit",
+        "derivative"
+      ],
+      "answer": "integral"
+    },
+    {
+      "id": 184,
+      "lecture": 30,
+      "q": "Which of the following statements is true?",
+      "options": [
+        "∫₀¹ (4sinx + 3sec²x) dx = 3∫₀¹ 4sinx dx + 4∫₀¹ 3sec²x dx",
+        "None",
+        "∫₀¹ (2cosx - 5tan²x) dx = ∫₀¹ 5tan²x dx - ∫₀¹ 2cosx dx",
+        "∫₀¹ 7cosx dx = 7[sinx]₁₀"
+      ],
+      "answer": "∫₀¹ 7cosx dx = 7[sinx]₁₀"
+    },
+    {
+      "id": 185,
+      "lecture": 30,
+      "q": "If f is continuous at every point of [a,b] and F is anti-derivative of f on [a,b], then",
+      "options": [
+        "∫_a^b f(x) dx = F(a) - F(b)",
+        "∫_a^b f(x) dx = F(a) + F(b)",
+        "none of these",
+        "∫_a^b f(x) dx = F(b) - F(a)"
+      ],
+      "answer": "∫_a^b f(x) dx = F(b) - F(a)"
+    },
+    {
+      "id": 186,
+      "lecture": 30,
+      "q": "First fundamental theorem of calculus tells us how to evaluate the ........ in a quick way.",
+      "options": [
+        "Indefinite integral",
+        "None of these.",
+        "Differential",
+        "Definite integral"
+      ],
+      "answer": "Definite integral"
+    },
+    {
+      "id": 187,
+      "lecture": 30,
+      "q": "............ is used to prove the first fundamental theorem of calculus.",
+      "options": [
+        "Intermediate value theorem",
+        "Mean value theorem for the derivatives",
+        "None of these.",
+        "Mean value theorem for the integrals"
+      ],
+      "answer": "Mean value theorem for the integrals"
+    },
+    {
+      "id": 188,
+      "lecture": 31,
+      "q": "Evaluate ∫_0^1 7cosx dx = 7[sinx]_0^1",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 189,
+      "lecture": 31,
+      "q": "The integral of f(x) = sin(x + 1) from x = 0 to x = 1 is:",
+      "options": [
+        "sin(1) - sin(2)",
+        "cos(2) - 1",
+        "cos(1) - cos(2)",
+        "cos(2) - cos(1)"
+      ],
+      "answer": "cos(1) - cos(2)"
+    },
+    {
+      "id": 190,
+      "lecture": 31,
+      "q": "The integral of f(x) = cos(2x) from x=0 to x=pi is ................",
+      "options": [
+        "0",
+        "None of these.",
+        "2(pi)",
+        "3(pi)"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 191,
+      "lecture": 31,
+      "q": "The integral of f(x) = sin(2x) from x=0 to x=pi is ........",
+      "options": [
+        "2",
+        "1",
+        "None of these.",
+        "0"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 192,
+      "lecture": 31,
+      "q": "Which of the following is the definite integral of f(x) = x² from x = 1 to x = 2?",
+      "options": [
+        "8/3",
+        "7/3",
+        "None of these.",
+        "7"
+      ],
+      "answer": "7/3"
+    },
+    {
+      "id": 193,
+      "lecture": 31,
+      "q": "The value of ∫_1^2 dx = _____.",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "3"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": 194,
+      "lecture": 31,
+      "q": "The value of ∫_0^1 dx/(1+x^2) _____.",
+      "options": [
+        "π/2",
+        "0",
+        "π/4",
+        "∞"
+      ],
+      "answer": "π/4"
+    },
+    {
+      "id": 195,
+      "lecture": 31,
+      "q": "The value of ∫_1^3 1/x dx = _____.",
+      "options": [
+        "ln|3|-1",
+        "Both a and c",
+        "ln|3|+3",
+        "ln|3|"
+      ],
+      "answer": "ln|3|"
+    },
+    {
+      "id": 196,
+      "lecture": 31,
+      "q": "The value of ∫_1^{10} 3x^2 dx _____.",
+      "options": [
+        "999",
+        "333",
+        "33",
+        "99"
+      ],
+      "answer": "999"
+    },
+    {
+      "id": 197,
+      "lecture": 31,
+      "q": "The value of ∫_0^{π/6} sin x cos x dx _____.",
+      "options": [
+        "8",
+        "4",
+        "1/8",
+        "1/4"
+      ],
+      "answer": "1/8"
+    },
+    {
+      "id": 198,
+      "lecture": 31,
+      "q": "What will be the value of ∫_0^1 e^x dx ?",
+      "options": [
+        "ec+1",
+        "e",
+        "ex",
+        "1"
+      ],
+      "answer": "e"
+    },
+    {
+      "id": 199,
+      "lecture": 31,
+      "q": "The value of ∫_0^1 e^{-x} dx _____.",
+      "options": [
+        "(1+e)/e",
+        "(1-e)/e",
+        "(e-1)/e",
+        "None of the above"
+      ],
+      "answer": "(e-1)/e"
+    },
+    {
+      "id": 200,
+      "lecture": 31,
+      "q": "The value of the ∫_0^1 t^3 dt = _____.",
+      "options": [
+        "1/3",
+        "4/3",
+        "1/4",
+        "2/3"
+      ],
+      "answer": "1/4"
+    },
+    {
+      "id": 201,
+      "lecture": 32,
+      "q": "The derivative of the area under the continuous function f(x)= 2+3Sinx in the interval[-pi,pi] is---------",
+      "options": [
+        "2-3Cosx",
+        "2-3Sinx",
+        "2+3Cosx",
+        "2+3Sinx"
+      ],
+      "answer": "2+3Sinx"
+    },
+    {
+      "id": 202,
+      "lecture": 32,
+      "q": "Evaluate ∫_0^x cos t dt =",
+      "options": [
+        "sin t",
+        "cos x",
+        "sin x",
+        "cos t"
+      ],
+      "answer": "sin x"
+    },
+    {
+      "id": 203,
+      "lecture": 32,
+      "q": "Evaluate ∫_0^x sin t dt =",
+      "options": [
+        "1 + cos t",
+        "1 + cos x",
+        "1 + cos t",
+        "1 - cos x"
+      ],
+      "answer": "1 - cos x"
+    },
+    {
+      "id": 204,
+      "lecture": 32,
+      "q": "Evaluate d/dx ∫_1^x t^2 dt =",
+      "options": [
+        "3x^2",
+        "-x^2",
+        "x^2",
+        "none of these"
+      ],
+      "answer": "x^2"
+    },
+    {
+      "id": 205,
+      "lecture": 32,
+      "q": "Evaluate d/dx ∫_2^x t dt",
+      "options": [
+        "x^3",
+        "x",
+        "x^2",
+        "none of these"
+      ],
+      "answer": "x"
+    },
+    {
+      "id": 206,
+      "lecture": 32,
+      "q": "Mathematically second fundamental theorem of calculus can be written as,",
+      "options": [
+        "none of these",
+        "d/dx ∫_a^t f(t)dt = f(t)",
+        "d/dx ∫_a^t f(t)dt = f'(x)",
+        "d/dx ∫_a^x f(t)dt = f(x)"
+      ],
+      "answer": "d/dx ∫_a^x f(t)dt = f(x)"
+    },
+    {
+      "id": 207,
+      "lecture": 32,
+      "q": "If f continuous on [a,b] and F(x) = ∫_a^x f(t) dt, then",
+      "options": [
+        "F'(t) = f(x) on [a,b]",
+        "F'(x) = f(x) on [a,b]",
+        "none of these",
+        "F'(x) = f(t) on [a,b]"
+      ],
+      "answer": "F'(x) = f(x) on [a,b]"
+    },
+    {
+      "id": 208,
+      "lecture": 32,
+      "q": "x^4/4 - 1/4 = _____.",
+      "options": [
+        "∫_1^x t^3 dt",
+        "∫_1^x t^4 dt"
+      ],
+      "answer": "∫_1^x t^3 dt"
+    },
+    {
+      "id": 209,
+      "lecture": 32,
+      "q": "The value of ∫_1^x y^2 dy = _____.",
+      "options": [
+        "y^3/3 - 1/3",
+        "x^3/3 - 1/3"
+      ],
+      "answer": "x^3/3 - 1/3"
+    },
+    {
+      "id": 210,
+      "lecture": 32,
+      "q": "If the integrand is continuous, then the derivative of a definite integral w.r.t its upper limit is equal to the integrand evaluated at the ………",
+      "options": [
+        "upper limit",
+        "middle limit",
+        "None of these",
+        "lower limit"
+      ],
+      "answer": "upper limit"
+    },
+    {
+      "id": 211,
+      "lecture": 33,
+      "q": "Which geometrical figure is used for approximating the area under the curve?",
+      "options": [
+        "Right angled triangle",
+        "None of these",
+        "Pentagon",
+        "Circle"
+      ],
+      "answer": "Right angled triangle"
+    },
+    {
+      "id": 212,
+      "lecture": 33,
+      "q": "Area of a rectangle whose width is 5 units and length is 6 units will be ….",
+      "options": [
+        "None of these",
+        "22 units",
+        "30 square units",
+        "11 units"
+      ],
+      "answer": "30 square units"
+    },
+    {
+      "id": 213,
+      "lecture": 33,
+      "q": "The area of a rectangle can be found by simply …………its dimensions.",
+      "options": [
+        "adding",
+        "subtracting",
+        "dividing",
+        "multiplying"
+      ],
+      "answer": "multiplying"
+    },
+    {
+      "id": 214,
+      "lecture": 33,
+      "q": "If x = (4^2) + (5^2) + (6^2) + . . . + (30^2), then x = ________.",
+      "options": [
+        "465.",
+        "9455.",
+        "9441.",
+        "400."
+      ],
+      "answer": "9455."
+    },
+    {
+      "id": 215,
+      "lecture": 33,
+      "q": "If x = (1^2)+(2^2)+(3^2)+(4^2) + . . . + (30^2), then x = ________.",
+      "options": [
+        "9455.",
+        "None of these.",
+        "900.",
+        "465."
+      ],
+      "answer": "9455."
+    },
+    {
+      "id": 216,
+      "lecture": 33,
+      "q": "If x =(1+2+3+...+10)+{(1^3)+(2^3)+(3^3)+...+ (10^3)}, then x = _______.",
+      "options": [
+        "55.",
+        "110.",
+        "3080.",
+        "3025."
+      ],
+      "answer": "3080."
+    },
+    {
+      "id": 217,
+      "lecture": 33,
+      "q": "If x =(3+4+5+...+10)+{(3^3)+(4^3)+(5^3)+...+ (10^3)}, then x = _______.",
+      "options": [
+        "55.",
+        "3068.",
+        "3080.",
+        "None of these."
+      ],
+      "answer": "3068."
+    },
+    {
+      "id": 218,
+      "lecture": 33,
+      "q": "If f(x)= x and g(x)=2x are integrable functions over the interval [0, a] for all x∈[0, a], then which of the following expressions is true for f and g?",
+      "options": [
+        "∫_0^a f(x)dx <= ∫_0^a g(x)dx",
+        "∫_0^a f(x)dx >= ∫_0^a g(x)dx",
+        "∫_0^a f(x)dx < ∫_0^a g(x)dx",
+        "∫_0^a f(x)dx > ∫_0^a g(x)dx"
+      ],
+      "answer": "∫_0^a f(x)dx <= ∫_0^a g(x)dx"
+    },
+    {
+      "id": 219,
+      "lecture": 33,
+      "q": "Let f(x)= x and g(x)=2x are integrable functions over the interval [-a, 0] for all x∈[-a, 0] then which of the following expressions is true for f and g?",
+      "options": [
+        "∫_{-a}^{0} f(x)dx < ∫_{-a}^{0} g(x)dx",
+        "∫_{-a}^{0} f(x)dx > ∫_{-a}^{0} g(x)dx",
+        "∫_{-a}^{0} f(x)dx <= ∫_{-a}^{0} g(x)dx",
+        "∫_{-a}^{0} f(x)dx >= ∫_{-a}^{0} g(x)dx"
+      ],
+      "answer": "∫_{-a}^{0} f(x)dx < ∫_{-a}^{0} g(x)dx"
+    },
+    {
+      "id": 220,
+      "lecture": 33,
+      "q": "If f(x)= x and g(x)=x+1 are integrable functions over the interval [a, b] for a < b, which of the following expressions is true for f and g?",
+      "options": [
+        "∫ₐᵇ f(x) dx = ∫ₐᵇ g(x) dx",
+        "∫ₐᵇ f(x) dx ≠ ∫ₐᵇ g(x) dx",
+        "∫ₐᵇ f(x) dx < ∫ₐᵇ g(x) dx",
+        "∫ₐᵇ f(x) dx > ∫ₐᵇ g(x) dx"
+      ],
+      "answer": "∫ₐᵇ f(x) dx < ∫ₐᵇ g(x) dx"
+    },
+    {
+      "id": 221,
+      "lecture": 33,
+      "q": "If f(x)= x and g(x)=x-1 are integrable functions over the interval [a, b] for a < b, which of the following expressions is true for f and g?",
+      "options": [
+        "∫ₐᵇ f(x) dx = ∫ₐᵇ g(x) dx",
+        "∫ₐᵇ f(x) dx ≠ ∫ₐᵇ g(x) dx",
+        "∫ₐᵇ f(x) dx < ∫ₐᵇ g(x) dx",
+        "∫ₐᵇ f(x) dx > ∫ₐᵇ g(x) dx"
+      ],
+      "answer": "∫ₐᵇ f(x) dx > ∫ₐᵇ g(x) dx"
+    },
+    {
+      "id": 222,
+      "lecture": 33,
+      "q": "If f(x) and g(x) are constant functions on [a, b], what can be said about the area between the curves?",
+      "options": [
+        "The area is equal to the absolute difference between the values of f(x) and g(x) over the interval [a, b].",
+        "The area is zero.",
+        "The area is dependent on the width of the interval [a, b].",
+        "The area is infinite."
+      ],
+      "answer": "The area is equal to the absolute difference between the values of f(x) and g(x) over the interval [a, b]."
+    },
+    {
+      "id": 223,
+      "lecture": 33,
+      "q": "If m <= f(x) <= M for any two number such that, a <= x <= b, which of the following is true",
+      "options": [
+        "m(b - a) >= ∫_a^b f(x) dx >= M(b - a)",
+        "none of these",
+        "m(b - a) <= ∫_a^b f(x) dx <= M(b - a)",
+        "m(b - a) >= ∫_a^b f(x) dx <= M(b - a)"
+      ],
+      "answer": "m(b - a) <= ∫_a^b f(x) dx <= M(b - a)"
+    },
+    {
+      "id": 224,
+      "lecture": 33,
+      "q": "If the integral of f(x) = x and g(x) = 5 from x = 2 to x = 3 is 5 / 2 and 5 respectively, then the integral of h(x) = x + 5 from x = 2 to x = 3 is ________.",
+      "options": [
+        "None of these.",
+        "15 / 2.",
+        "5.",
+        "7."
+      ],
+      "answer": "15 / 2."
+    },
+    {
+      "id": 225,
+      "lecture": 33,
+      "q": "If the integral of f(x) = x + 1 from x = 2 to x = 3 is 7 / 2, then the integral of f(x) = x + 1 from x = 3 to x = 2 is ________.",
+      "options": [
+        "7 / 2.",
+        "-7 / 2",
+        "None of these.",
+        "5 / 2."
+      ],
+      "answer": "-7 / 2"
+    },
+    {
+      "id": 226,
+      "lecture": 33,
+      "q": "If the integral of f(x) = x from x = 1 to x = 3 is 4, then the integral of f(x) = 10x from x = 1 to x = 3 is ________.",
+      "options": [
+        "4.",
+        "None of these.",
+        "20.",
+        "40."
+      ],
+      "answer": "40."
+    },
+    {
+      "id": 227,
+      "lecture": 33,
+      "q": "If the definite integral of f(x)= cos x over the interval [-a,0] is equal to '-1' then what will be the value of the definite integral of f(x)= (cos x) -1 over the same interval?",
+      "options": [
+        "-1+a",
+        "-1-a",
+        "1+a",
+        "-2"
+      ],
+      "answer": "-1-a"
+    },
+    {
+      "id": 228,
+      "lecture": 33,
+      "q": "If the definite integral of f(x)= sec²x over the interval [0, a] is equal to '1' then what will be the value of the definite integral of f(x)= (sec²x) + 3 over the same interval?",
+      "options": [
+        "4",
+        "-1-3a",
+        "1-3a",
+        "1+3a"
+      ],
+      "answer": "1+3a"
+    },
+    {
+      "id": 229,
+      "lecture": 33,
+      "q": "If the definite integral of f(x)= Sin x over the interval [-a, 0] is equal to -2 then what will be the value of the definite integral of f(x)= (Sin x) + 1 over the same interval?",
+      "options": [
+        "-2 + a",
+        "2 - a",
+        "-2 - a",
+        "-1"
+      ],
+      "answer": "-2 + a"
+    },
+    {
+      "id": 230,
+      "lecture": 33,
+      "q": "What will be the value of ∫_0^2 (sin x + 3) dx if ∫_0^2 (10 sin x + 30) dx = 74 ?",
+      "options": [
+        "4.2",
+        "5.4",
+        "3.6",
+        "7.4"
+      ],
+      "answer": "7.4"
+    },
+    {
+      "id": 231,
+      "lecture": 33,
+      "q": "What could be the value of x if ∫_0^x 3 dx > 15 ?",
+      "options": [
+        "x>5",
+        "x>3",
+        "x>10",
+        "x>15"
+      ],
+      "answer": "x>5"
+    },
+    {
+      "id": 232,
+      "lecture": 34,
+      "q": "The method of slicing by integration is used for finding ----------",
+      "options": [
+        "surface",
+        "volume",
+        "area",
+        "length"
+      ],
+      "answer": "volume"
+    },
+    {
+      "id": 233,
+      "lecture": 34,
+      "q": "If the solid is revolved around the x-axis and generates a solid with a circular cross section of radius f(x) at x. Then the area of this cross section is",
+      "options": [
+        "[f(x)]^2",
+        "π r [f(x)]^3",
+        "π [f(x)]",
+        "π [f(x)]^2"
+      ],
+      "answer": "π [f(x)]^2"
+    },
+    {
+      "id": 234,
+      "lecture": 34,
+      "q": "If the solid is revolved around the y-axis and generates a solid with a circular cross section of radius g(y) at y. Then the area of this cross section is",
+      "options": [
+        "π [g(y)]",
+        "π [g(y)]^2",
+        "π r [g(y)]^3",
+        "[g(y)]^2"
+      ],
+      "answer": "π [g(y)]^2"
+    },
+    {
+      "id": 235,
+      "lecture": 34,
+      "q": "The volume by the washer perpendicular to the x-axis is",
+      "options": [
+        "∫_a^b π([f(x)]^2 + [g(x)]^2) dx",
+        "∫_a^b π([f(x)]^2 - [g(x)]^2) dx",
+        "∫_a^b π([f(x)] + [g(x)]) dx",
+        "∫_a^b ([f(x)]^2 - [g(x)]^2) dy"
+      ],
+      "answer": "∫_a^b π([f(x)]^2 - [g(x)]^2) dx"
+    },
+    {
+      "id": 236,
+      "lecture": 34,
+      "q": "The volume of the solid bounded by planes x=a and x=b with cross-sectional area A(x) perpendicular to the x-axis is",
+      "options": [
+        "V = ∫_a^b A(x) dx",
+        "V = ∫_a^b A(x) dy",
+        "V = ∫_a^b A(y) dy",
+        "V = ∫_a^a A(y) dx"
+      ],
+      "answer": "V = ∫_a^b A(x) dx"
+    },
+    {
+      "id": 237,
+      "lecture": 34,
+      "q": "The volume of the solid bounded by planes y=a and y=b with cross-sectional area A(y) perpendicular to the y-axis is",
+      "options": [
+        "V = ∫_a^b A(y) dy",
+        "V = ∫_b^b A(y) dx",
+        "V = ∫_a^b A(x) dx",
+        "V = ∫_a^b A(x) dy"
+      ],
+      "answer": "V = ∫_a^b A(y) dy"
+    },
+    {
+      "id": 238,
+      "lecture": 34,
+      "q": "The volume of solid obtained when the region under the curve y = x^3 over the interval [1,3] is revolved about the x-axis is",
+      "options": [
+        "V = ∫_1^3 π x^3 dy",
+        "V = ∫_1^3 x^6 dx",
+        "V = ∫_1^3 π x^6 dx",
+        "V = ∫_1^3 π x^3 dx"
+      ],
+      "answer": "V = ∫_1^3 π x^6 dx"
+    },
+    {
+      "id": 239,
+      "lecture": 34,
+      "q": "If f(x)=x^2, then ∫_0^2 π [f(x)]^2 dx is -------",
+      "options": [
+        "32π/5",
+        "17π/5",
+        "23π/5",
+        "7π/5"
+      ],
+      "answer": "32π/5"
+    },
+    {
+      "id": 240,
+      "lecture": 34,
+      "q": "The volume of the sphere with radius r can be calculated by ---------------",
+      "options": [
+        "4/3 p r^4",
+        "4/3 p r^2",
+        "4/3 p r",
+        "4/3 p r^3"
+      ],
+      "answer": "4/3 p r^3"
+    },
+    {
+      "id": 241,
+      "lecture": 34,
+      "q": "The area of the ellipse x^2/a^2 + y^2/b^2 = 1",
+      "options": [
+        "π ab",
+        "π (a + b)",
+        "None of these",
+        "(1/4)π(a^2 + b^2)"
+      ],
+      "answer": "π ab"
+    },
+    {
+      "id": 242,
+      "lecture": 34,
+      "q": "What technique is commonly used to find the volume of 3D objects that do not have regular shapes?",
+      "options": [
+        "Extrusion.",
+        "Projection.",
+        "Slicing.",
+        "Folding."
+      ],
+      "answer": "Slicing."
+    },
+    {
+      "id": 243,
+      "lecture": 34,
+      "q": "Why can't we use the formula for the volume of a right cylinder to find the volume of irregular 3D solids?",
+      "options": [
+        "Irregular solids have infinite height.",
+        "Irregular solids are not made up of finitely many right cylinders.",
+        "Irregular solids have cylinderical surfaces.",
+        "The formula for right cylinders is not accurate."
+      ],
+      "answer": "Irregular solids are not made up of finitely many right cylinders."
+    },
+    {
+      "id": 244,
+      "lecture": 34,
+      "q": "When using the technique of slicing to find the volume of an irregular solid, what is the basic idea?",
+      "options": [
+        "Divide the solid into cubes and sum their volumes.",
+        "Divide the solid into cylinders and sum their volumes.",
+        "Measure the distance between slices.",
+        "Divide the solid into slices and sum their volumes."
+      ],
+      "answer": "Divide the solid into slices and sum their volumes."
+    },
+    {
+      "id": 245,
+      "lecture": 35,
+      "q": "The Volume of a cylindrical shell can be expressed as _______.",
+      "options": [
+        "V= (area of cross section).(thickness)",
+        "V= (area of cross section).(height)"
+      ],
+      "answer": "V= (area of cross section).(thickness)"
+    },
+    {
+      "id": 246,
+      "lecture": 35,
+      "q": "The Volume of a cylindrical shell is _____.",
+      "options": [
+        "None of the above",
+        "2π.((r2+r1)/2).h.(r2+r1)",
+        "2π.((r2+r1)/2).h.(r2-r1)",
+        "π.((r2+r1)/2).h.(r2-r1)"
+      ],
+      "answer": "2π.((r2+r1)/2).h.(r2-r1)"
+    },
+    {
+      "id": 247,
+      "lecture": 35,
+      "q": "The Volume of a cylindrical shell is given by ______.",
+      "options": [
+        "V = (average radius).(height).(thickness)",
+        "V = 2π (average radius).(height).(thickness)"
+      ],
+      "answer": "V = 2π (average radius).(height).(thickness)"
+    },
+    {
+      "id": 248,
+      "lecture": 35,
+      "q": "The volume of a cylinder is the area of a cross section of the cylinder multiplied by the ________ of the cylinder.",
+      "options": [
+        "Diameter",
+        "Radius",
+        "Base",
+        "Height"
+      ],
+      "answer": "Height"
+    },
+    {
+      "id": 249,
+      "lecture": 35,
+      "q": "The volume of cylindrical shell for R = 3, r = 2 and h = 1 is -----------",
+      "options": [
+        "6*pi",
+        "4*pi",
+        "5*pi",
+        "7*pi"
+      ],
+      "answer": "5*pi"
+    },
+    {
+      "id": 250,
+      "lecture": 35,
+      "q": "The volume of cylindrical shell for R = 2, r = 1 and h = 2 is -----------",
+      "options": [
+        "5*pi",
+        "6*pi",
+        "3*pi",
+        "4*pi"
+      ],
+      "answer": "6*pi"
+    },
+    {
+      "id": 251,
+      "lecture": 35,
+      "q": "The volume of cylindrical shell for R = 5, r = 3 and h = 2 is -----------",
+      "options": [
+        "25*pi",
+        "36*pi",
+        "30*pi",
+        "32*pi"
+      ],
+      "answer": "32*pi"
+    },
+    {
+      "id": 252,
+      "lecture": 35,
+      "q": "Let R be the plane region bounded above by a continuous curve y=f(x) below by the x-axis and on the left and right, respectively, by the lines x=a and x=b the volume of the solid generated by revolving R about the y-axis is given by ______.",
+      "options": [
+        "V = ∫_a^b 2π x f(x) dx",
+        "None of the above",
+        "V = ∫_a^b 2π f(x) dx",
+        "V = ∫_a^b 2π x dx"
+      ],
+      "answer": "V = ∫_a^b 2π x f(x) dx"
+    },
+    {
+      "id": 253,
+      "lecture": 35,
+      "q": "If the curve over [a, b] is revolved about y-axis, then the volume is calculated by the formula -------",
+      "options": [
+        "∫_a^b π [f(y)]^2 dy",
+        "∫_a^b π [f(x)]^2 dx"
+      ],
+      "answer": "∫_a^b π [f(x)]^2 dx"
+    },
+    {
+      "id": 254,
+      "lecture": 35,
+      "q": "What is a cylindrical shell?",
+      "options": [
+        "solid by two concentric cylinders.",
+        "sphere with a hole.",
+        "flat, two-dimensional shape.",
+        "solid with a hole in it."
+      ],
+      "answer": "solid by two concentric cylinders."
+    },
+    {
+      "id": 255,
+      "lecture": 35,
+      "q": "By using cylindrical shells to find the volume of the solid when the region R in the first quadrant enclosed between y = x and y = x^2 is revolved about the y-axis is ______.",
+      "options": [
+        "pi/6",
+        "pi/3"
+      ],
+      "answer": "pi/6"
+    },
+    {
+      "id": 256,
+      "lecture": 35,
+      "q": "By using cylindrical shells to find the volume of the solid when the region R in the first quadrant enclosed between y=x and y=x^2 is revolved about the y-axis is ______.",
+      "options": [
+        "V = ∫_0^1 π x(x - x^2) dx",
+        "V = ∫_0^3 2π x(x - x^2) dx",
+        "V = ∫_0^1 2π x(x - x^2) dx",
+        "V = ∫_0^1 2π (x - x^2) dx"
+      ],
+      "answer": "V = ∫_0^1 2π x(x - x^2) dx"
+    },
+    {
+      "id": 257,
+      "lecture": 35,
+      "q": "Use cylindrical shells to find the volume of the solid generated when the region 'R' enclosed between y = 2x + 1 and y = -2x - 3 in the interval [1,3] is revolved about the y-axis is ______.",
+      "options": [
+        "V = ∫_1^3 2π x ((2x+1) + (-2x-3)) dx",
+        "V = ∫_1^3 2π x ((2x+1) - (-2x-3)) dx"
+      ],
+      "answer": "V = ∫_1^3 2π x ((2x+1) - (-2x-3)) dx"
+    },
+    {
+      "id": 258,
+      "lecture": 35,
+      "q": "How is the integral expression for the volume by cylindrical shells affected by changing the axis of revolution?",
+      "options": [
+        "It changes the variable of integration.",
+        "It affects the shape of the region.",
+        "It determines the limits of integration.",
+        "It doesn't affect the integral setup."
+      ],
+      "answer": "It changes the variable of integration."
+    },
+    {
+      "id": 259,
+      "lecture": 35,
+      "q": "If you increase the number of subintervals in the cylindrical shell method, what impact does it have on the accuracy of the volume approximation?",
+      "options": [
+        "Makes the method invalid.",
+        "Decreases accuracy.",
+        "No impact on accuracy.",
+        "Increases accuracy."
+      ],
+      "answer": "Increases accuracy."
+    },
+    {
+      "id": 260,
+      "lecture": 35,
+      "q": "What is the impact of changing the integration limits on the volume determined using the cylindrical shell method.",
+      "options": [
+        "It may increase or decrease the volume depending on the chosen limits.",
+        "It increases the volume.",
+        "It decreases the volume.",
+        "It has no effect on the volume."
+      ],
+      "answer": "It may increase or decrease the volume depending on the chosen limits."
+    },
+    {
+      "id": 261,
+      "lecture": 35,
+      "q": "Which statement accurately describes the comparison between the cylindrical shell method and the disk or washer method regarding their applications.",
+      "options": [
+        "Shell method is simpler to apply.",
+        "Both methods can be used interchangeably.",
+        "The disk or washer method is simpler to apply.",
+        "The cylindrical shell method is always more accurate."
+      ],
+      "answer": "The disk or washer method is simpler to apply."
+    },
+    {
+      "id": 262,
+      "lecture": 35,
+      "q": "How does the axis of rotation impact the choice between using the disk method or the washer method?",
+      "options": [
+        "It has no affect on the choice",
+        "It determines the shape of the solid",
+        "It determines the thickness of the cross-sections.",
+        "It affects whether the solid has holes or voids along the axis."
+      ],
+      "answer": "It affects whether the solid has holes or voids along the axis."
+    },
+    {
+      "id": 263,
+      "lecture": 35,
+      "q": "If a similar solid is rotated around the x-axis over a closed interval [a, b] then the corresponding volume of revolution is ....",
+      "options": [
+        "[Image based option A]",
+        "[Image based option B]",
+        "[Image based option C]",
+        "[Image based option D]"
+      ],
+      "answer": "[Image based option A]"
+    },
+    {
+      "id": 264,
+      "lecture": 39,
+      "q": "The value of ∫_1^{∞} dx/x^2 _____.",
+      "options": [
+        "4",
+        "0",
+        "3",
+        "1"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": 265,
+      "lecture": 26,
+      "q": "The integral ∫ 6x/(3x^2+1)^2 dx will be equal to ?",
+      "options": [
+        "- 1/(3x^2+1) + c",
+        "1/(3x^2+1) + c",
+        "- 1/((3x^2+1)^3) + c",
+        "- 1/(6x+1) + c"
+      ],
+      "answer": "- 1/(3x^2+1) + c"
+    },
+    {
+      "id": 266,
+      "lecture": 29,
+      "q": "Which of the following statements is true about ∫_0^1 (sin x + cos x) dx?",
+      "options": [
+        "∫_0^1 (sin x + cos x) dx = [cos x]_0^1 + [sin x]_0^1",
+        "∫_0^1 (sin x + cos x) dx = [sin x]_0^1 - [cos x]_0^1",
+        "∫_0^1 (sin x + cos x) dx = - [sin x]_0^1 + [cos x]_0^1",
+        "None"
+      ],
+      "answer": "∫_0^1 (sin x + cos x) dx = [cos x]_0^1 + [sin x]_0^1"
+    },
+    {
+      "id": 267,
+      "lecture": 31,
+      "q": "Evaluate ∫_0^1 cos x dx",
+      "options": [
+        "sin 1",
+        "cos 1 - 1",
+        "1 - sin 1",
+        "sin 1 - cos 0"
+      ],
+      "answer": "sin 1"
+    },
+    {
+      "id": 268,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = x from x = 0 to x = 3 with mid points for n = 3?",
+      "options": [
+        "5.0",
+        "3.5",
+        "6.5",
+        "4.5"
+      ],
+      "answer": "4.5"
+    },
+    {
+      "id": 269,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 2x from x = 0 to x = 4 with left end points for n = 2?",
+      "options": [
+        "8",
+        "10",
+        "18",
+        "24"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": 270,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 2x from x = 0 to x = 4 with right end points for n = 2?",
+      "options": [
+        "8",
+        "24",
+        "18",
+        "10"
+      ],
+      "answer": "24"
+    },
+    {
+      "id": 271,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 2x from x = 0 to x = 4 with mid points for n = 2?",
+      "options": [
+        "18",
+        "16",
+        "8",
+        "10"
+      ],
+      "answer": "16"
+    },
+    {
+      "id": 272,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = x from x = 0 to x = 3 with left end points for n = 3?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 273,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = x from x = 0 to x = 3 with right end points for n = 3?",
+      "options": [
+        "6",
+        "7",
+        "None of these",
+        "5"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": 274,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 9 - x2 from x = 0 to x = 4 with mid points for n = 1?",
+      "options": [
+        "24",
+        "21",
+        "20",
+        "28"
+      ],
+      "answer": "20"
+    },
+    {
+      "id": 275,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 9 - x2 from x = 0 to x = 4 with mid points for n = 2?",
+      "options": [
+        "25",
+        "16",
+        "21",
+        "12"
+      ],
+      "answer": "21"
+    },
+    {
+      "id": 276,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 10-x2 from x = 0 to x = 3 with left end points for n = 3?",
+      "options": [
+        "15",
+        "21",
+        "25",
+        "30"
+      ],
+      "answer": "21"
+    },
+    {
+      "id": 277,
+      "lecture": 28,
+      "q": "The estimated area under f(x) = x^2 from x = 1 to x = 3 with left end points for n = 2 is ________",
+      "options": [
+        "13.",
+        "6.",
+        "5.",
+        "None of these."
+      ],
+      "answer": "5."
+    },
+    {
+      "id": 278,
+      "lecture": 28,
+      "q": "The estimated area under f(x) = x^2 from x = 1 to x = 3 with right end points for n = 2 is ________.",
+      "options": [
+        "None of these.",
+        "5.",
+        "10.",
+        "13."
+      ],
+      "answer": "13."
+    },
+    {
+      "id": 279,
+      "lecture": 28,
+      "q": "The estimated area under f(x) = 12 / x from x = 1 to x = 3 with left end points for n = 2 is ________.",
+      "options": [
+        "12.",
+        "None of these.",
+        "18",
+        "10."
+      ],
+      "answer": "12."
+    },
+    {
+      "id": 280,
+      "lecture": 28,
+      "q": "The estimated area under f(x) = 12 / x from x = 1 to x = 3 with right end points for n = 2 is ________.",
+      "options": [
+        "18.",
+        "10",
+        "20.",
+        "None of these."
+      ],
+      "answer": "10"
+    },
+    {
+      "id": 281,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = 12 / x from x = 1 to x = 3 with mid points for n = 2?",
+      "options": [
+        "12.8",
+        "18.0",
+        "13.1",
+        "10.5"
+      ],
+      "answer": "13.1"
+    },
+    {
+      "id": 282,
+      "lecture": 28,
+      "q": "The estimated area under f(x) = x^2 + 2 from x = 1 to x = 5 with left end points for n = 2 is ________.",
+      "options": [
+        "76.",
+        "None of these.",
+        "25.",
+        "28."
+      ],
+      "answer": "28."
+    },
+    {
+      "id": 283,
+      "lecture": 28,
+      "q": "The estimated area under f(x) = x^2 + 2 from x = 1 to x = 5 with right end points for n = 2 is ________.",
+      "options": [
+        "28.",
+        "76.",
+        "50.",
+        "30."
+      ],
+      "answer": "76."
+    },
+    {
+      "id": 284,
+      "lecture": 28,
+      "q": "What is the estimated area under f(x) = x2+2 from x = 1 to x = 5 with mid points for n = 2",
+      "options": [
+        "26",
+        "38",
+        "76",
+        "48"
+      ],
+      "answer": "38"
+    },
+    {
+      "id": 285,
+      "lecture": 23,
+      "q": "Critical point of f(x)=-Sinx in the interval [0,pi] is-----",
+      "options": [
+        "pi/4",
+        "pi",
+        "0",
+        "pi/2"
+      ],
+      "answer": "pi/2"
+    },
+    {
+      "id": 286,
+      "lecture": 23,
+      "q": "Critical point for f(x) = -Cosx on [-pi/2,pi/2] are ------",
+      "options": [
+        "-pi/2",
+        "0",
+        "pi/4",
+        "pi/2"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 287,
+      "lecture": 25,
+      "q": "Derivative of f(x)= a-7,where a is a constant is....",
+      "options": [
+        "0",
+        "7",
+        "-7",
+        "a"
+      ],
+      "answer": "0"
+    },
+    {
+      "id": 288,
+      "lecture": 34,
+      "q": "Which term refers to a geometric object with zero dimensions?",
+      "options": [
+        "Point",
+        "Circle",
+        "Triangle",
+        "Line"
+      ],
+      "answer": "Point"
+    },
+    {
+      "id": 289,
+      "lecture": 34,
+      "q": "What is the primary difference between a 1d object and a 2d object?",
+      "options": [
+        "1d object has length, while a 2d object has area.",
+        "1d object has width, while a 2d object has height.",
+        "1d object is flat, while a 2d object is three-dimensional",
+        "1d object can curve, while a 2d object is always straight."
+      ],
+      "answer": "1d object has length, while a 2d object has area."
+    },
+    {
+      "id": 290,
+      "lecture": 25,
+      "q": "The expressions (x² + x), (x² + x + 5), (x² + x - 3) have the same ....",
+      "options": [
+        "Derivative",
+        "Anti-derivative"
+      ],
+      "answer": "Derivative"
+    }
+  ]
+
     },
   },
 

@@ -43,7 +43,7 @@ const notesData = {
       id: 1,
       title: 'MTH101 Complete Handwritten Notes',
       description: 'Calculus — Lectures 1-45',
-      path: '/notes/MTH101/MTH101-Notes-By-VU-Study-App.pdf',
+      path: '/notes/MTH101/MTH101-Notes.pdf',
     },
   ],
   MTH202: [
