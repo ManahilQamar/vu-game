@@ -5666,7 +5666,7 @@ const examData = {
 { q: "If a charged particle moves in a magnetic field, what effect does the magnetic force have on the kinetic energy of the particle?", options: ["It increases the kinetic energy.","It stops the particle.","It decreases the kinetic energy.","It does not change the kinetic energy."], answer: "It does not change the kinetic energy." },
 { q: "The wave form of alternating voltage is a:", options: ["Sine wave","Tangent wave","Contingent wave","Cosine wave"], answer: "Sine wave" },
 { q: "The potential difference between the ends of a conductor is 12 V. How much electrical energy is converted to other forms of energy in the conductor when 100 C of charge flows through it?", options: ["1200 J","88 J","0.12 J","8.3 J"], answer: "1200 J" },
-{ q: "Capacitance of a capacitor in vacuum is given by:", options: ["A/ εo d","Ad/ εo","εo /d","A/ εr d"], answer: "A/ εo d" },
+{ q: "Capacitance of a capacitor in vacuum is given by:", options: ["εo A / d","Ad/ εo","εo /d","A/ εr d"], answer: "εo A / d" },
 { q: "If the voltage in a circuit is 10 volts and the resistance is 5 ohms, what is the power consumed?", options: ["2 watts","20 watts","10 watts","50 watts"], answer: "20 watts" },
 { q: "Radio waves and light waves are __________.", options: ["Longitudinal waves","Transverse waves","Electromagnetic and longitudinal both","Electromagnetic and transverse both"], answer: "Electromagnetic and transverse both" },
 { q: "If 0.5 T field over an area of 2m2 which lies at an angle of 60o with field. Then the resultant flux will be", options: ["0.25 Wb","0.50 T","0.50 Wb","0.25 T"], answer: "0.50 Wb" },
